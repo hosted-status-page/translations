@@ -1,0 +1,1524 @@
+{
+    "admin": {
+        "menu": {
+            "dashboard": "Tableau de bord",
+            "users_admins": "Utilisateurs et administrateurs",
+            "users": "Utilisateurs",
+            "unvalidated": "Utilisateurs non validés",
+            "administrators": "Administrateurs",
+            "trials": "Essais",
+            "operations": "Opérations",
+            "email": "E-mail",
+            "resend": "Renvoyer",
+            "unlink": "Dissocier",
+            "audit_queue": "File d'attente d'audit",
+            "email_queue": "File d'attente des e-mails",
+            "error_logs": "Journaux d'erreurs",
+            "impersonation_audit": "Audit d'usurpation",
+            "user_admin_audit": "Audit utilisateur-admin",
+            "monitoring_captcha": "Surveillance et Captcha",
+            "regions": "Régions",
+            "agents": "Agents",
+            "captcha_logs": "Journaux Captcha",
+            "spam_keywords": "Mots-clés spam",
+            "telegram_tests": "Tests Telegram",
+            "configuration": "Configuration",
+            "configuration_menu": "Configuration",
+            "notification_channels": "Canaux de notification",
+            "plan_limits": "Limites du plan",
+            "onboarding_steps": "Étapes d'intégration",
+            "settings": "Paramètres",
+            "billing_finance": "Facturation et finances",
+            "billing": "Facturation",
+            "product_mappings": "Mappages de produits",
+            "addons": "Extensions",
+            "discount_promotions": "Remises et promotions",
+            "manage": "Gérer",
+            "changes": "Modifications",
+            "ltd_management": "Gestion LTD",
+            "tools": "Outils",
+            "competitors": "Concurrents",
+            "marketing": "Marketing",
+            "landing_pages": "Pages d'atterrissage",
+            "public_pages": "Pages publiques",
+            "misc": "Divers",
+            "profile": "Profil",
+            "logout": "Déconnexion"
+        }
+    },
+    "nav": {
+        "dashboard": "Tableau de bord",
+        "operations": "Opérations",
+        "tools": "Outils",
+        "configuration": "Configuration",
+        "billing_plan": "Facturation et plan",
+        "teams": "Équipes",
+        "addons": "Extensions",
+        "misc": "Divers",
+        "lifetime_deals": "Offres à vie",
+        "help": "Aide",
+        "support": "Support",
+        "documentation": "Documentation"
+    },
+    "tools": {
+        "nav": {
+            "overview": "Aperçu",
+            "domain_whois": "WHOIS de domaine",
+            "domain_age": "Âge du domaine",
+            "ssl_monitors": "Moniteurs de certificats SSL",
+            "dnsbl_monitors": "Moniteurs DNSBL",
+            "email_auth": "Vérification d'authentification e-mail"
+        },
+        "domain_age": {
+            "errors": {
+                "calculate_failed": "Erreur lors du calcul"
+            }
+        }
+    },
+    "monitors": {
+        "add": {
+            "heading": "Ajouter un moniteur",
+            "create_button": "Créer un moniteur"
+        },
+        "edit": {
+            "heading": "Modifier le moniteur",
+            "update_button": "Mettre à jour le moniteur"
+        },
+        "back_to_list": "Retour aux moniteurs",
+        "form": {
+            "name_label": "Nom du moniteur",
+            "name_placeholder": "Mon site web",
+            "type_label": "Type de moniteur",
+            "site_check_type_label": "Type de vérification",
+            "domain_label": "Domaine",
+            "record_type_label": "Type d'enregistrement",
+            "expected_value_label": "Valeur attendue",
+            "site_url_label": "URL du site",
+            "api_url_label": "URL de l’API",
+            "http_method_label": "Méthode HTTP",
+            "api_mode_label": "Mode",
+            "api_mode_help": "Simple masque les paramètres de requête et les assertions de réponse. Le Résultat attendu reste disponible.",
+            "expected_result_label": "Résultat attendu",
+            "expected_result_help": "Optionnel. Si renseigné, le corps de la réponse doit contenir ce texte (et le statut doit être 2xx/3xx).",
+            "query_params_label": "Paramètres de requête",
+            "request_section_title": "Requête",
+            "request_section_help": "Ces paramètres sont envoyés à la cible. Ils ne sont pas validés automatiquement.",
+            "request_query_params_label": "Paramètres de requête (requête)",
+            "request_query_params_help": "Ajoutés à l’URL de la requête. Non validés sauf si vous ajoutez des assertions de réponse.",
+            "request_headers_label": "En-têtes (requête)",
+            "request_headers_help": "Envoyés avec la requête. Non validés sauf si vous ajoutez des assertions de réponse.",
+            "response_section_title": "Assertions de réponse",
+            "response_section_help": "Ces règles déterminent UP/DOWN.",
+            "default_success_hint": "Vérification par défaut : un code 2xx/3xx est considéré comme UP.",
+            "response_assertions_label": "Conditions attendues avancées",
+            "response_assertions_help": "Optionnel. Laissez vide pour utiliser la règle par défaut (2xx/3xx) ou le Résultat attendu simple.",
+            "integer_value_label": "Valeur entière",
+            "url_label": "URL",
+            "url_placeholder": "https://exemple.com",
+            "method_label": "Méthode",
+            "add_query_param_button": "Ajouter un paramètre",
+            "add_header_button": "Ajouter un en-tête",
+            "headers_label": "En-têtes",
+            "body_label": "Corps",
+            "auth_type_label": "Type d'authentification",
+            "username_label": "Nom d'utilisateur",
+            "password_label": "Mot de passe",
+            "token_label": "Jeton",
+            "interval_label": "Intervalle de vérification",
+            "timeout_label": "Délai d'attente",
+            "retries_label": "Tentatives",
+            "locations_label": "Emplacements de surveillance",
+            "tags_label": "Étiquettes",
+            "component_label": "Composant",
+            "no_component": "Aucun composant",
+            "component_help": "Sélectionnez un composant pour ce moniteur"
+        },
+        "type": {
+            "site": "Moniteur de site",
+            "api": "Moniteur API",
+            "dns": "Moniteur DNS",
+            "database": "Moniteur de base de données"
+        },
+        "check_type": {
+            "site_is_up": "Le site est actif",
+            "http_code_equals": "Le code HTTP est égal à",
+            "response_contains": "La réponse contient",
+            "response_header_equals": "L’en-tête de réponse est égal à",
+            "response_time_equals": "Temps de réponse égal à (ms)",
+            "response_time_lt": "Temps de réponse inférieur à (ms)",
+            "response_time_gt": "Temps de réponse supérieur à (ms)",
+            "response_time_under": "Temps de réponse inférieur à",
+            "ssl_valid": "Certificat SSL valide"
+        },
+        "auth_type": {
+            "none": "Aucun",
+            "basic": "Authentification de base",
+            "bearer": "Jeton Bearer",
+            "api_key": "Clé API"
+        },
+        "dns_record": {
+            "a": "A (Adresse IPv4)",
+            "aaaa": "AAAA (Adresse IPv6)",
+            "txt": "TXT (Enregistrement texte)",
+            "ns": "NS (Serveur de noms)",
+            "cname": "CNAME (Nom canonique)",
+            "ptr": "PTR (Pointeur)",
+            "srv": "SRV (Service)"
+        },
+        "nav": {
+            "monitors": "Moniteurs",
+            "add_monitor": "Ajouter un moniteur",
+            "monitor_alerts": "Alertes du moniteur",
+            "monitor_locations": "Emplacements du moniteur",
+            "edit_monitor": "Modifier le moniteur",
+            "alerts": "Alertes",
+            "sla_report": "Rapport SLA"
+        },
+        "table": {
+            "created_at": "Créé le",
+            "down_for": "En panne depuis"
+        }
+    },
+    "status_pages": {
+        "view_status_page": "Voir votre page de statut",
+        "components_groups": "Composants et groupes",
+        "organize_help": "Organisez votre page de statut avec des composants et des groupes optionnels",
+        "how_it_works_intro": "Comment ça marche :",
+        "components_explanation": "Les composants sont les services/moniteurs que vous souhaitez suivre (par ex. \"Serveur API\", \"Site web\")",
+        "groups_explanation": "Les groupes aident à organiser les composants en catégories (par ex. \"Services Backend\", \"Infrastructure\")",
+        "groups_optional": "Les groupes sont optionnels – les composants sans groupe seront affichés séparément",
+        "step1_create_groups": "Étape 1 : Créer des groupes (Optionnel)",
+        "group_placeholder": "par ex. Services Backend, Infrastructure, Frontend...",
+        "add_group": "Ajouter un groupe",
+        "no_groups_yet": "Pas encore de groupes. Les groupes aident à organiser visuellement les composants.",
+        "step2_add_components": "Étape 2 : Ajouter des composants",
+        "component_name_required": "Nom du composant *",
+        "component_url_placeholder": "https://exemple.com (optionnel)",
+        "component_example": "par ex. Serveur API",
+        "link_to_docs": "Lien vers la documentation du service",
+        "no_group_option": "— Aucun groupe —",
+        "optional_grouping": "Regroupement optionnel",
+        "step3_manage_components": "Étape 3 : Gérer vos composants",
+        "table_component": "Composant",
+        "table_group": "Groupe",
+        "drag_to_reorder": "Glisser pour réorganiser",
+        "no_url": "Pas d'URL",
+        "edit_component": "Modifier le composant",
+        "remove_component": "Supprimer le composant",
+        "auto_save_help": "Les modifications sont enregistrées automatiquement. Vous pouvez modifier les noms et les URL des composants en ligne, changer les groupes et réorganiser les éléments.",
+        "favicon_light_theme": "Utilisé en mode clair",
+        "favicon_dark_theme": "Utilisé en mode sombre",
+        "dependencies_section": "Dépendances",
+        "dependencies_help": "Afficher les boîtes d'état des prestataires tiers au-dessus de vos groupes de composants.",
+        "provider_column": "Fournisseur",
+        "global_column": "Global",
+        "use_on_page_column": "Utiliser sur la page",
+        "affects_overall_column": "Affecte l'état général",
+        "order_column": "Ordre",
+        "monitors_section": "Moniteurs",
+        "attach_monitors_help": "Attachez les moniteurs pour suivre le temps d'activité",
+        "favicon_enable": "Activer",
+        "upgrade_required": "Mise à jour requise",
+        "heading": {
+            "components": "Composants"
+        },
+        "form": {
+            "status_page_label": "Page de statut",
+            "slug": "Slug",
+            "location_help": "Choisissez où se trouve ce composant."
+        },
+        "nav": {
+            "status_pages": "Pages de statut",
+            "new_status_page": "Nouvelle page de statut",
+            "components": "Composants",
+            "embeds": "Intégrations",
+            "edit_status_page": "Modifier la page de statut"
+        },
+        "table": {
+            "active_incidents": "Incidents actifs",
+            "affected_monitors": "Moniteurs affectés",
+            "latest_activity": "Dernière activité"
+        },
+        "settings": {
+            "save_failed": "Impossible d’enregistrer les paramètres. Veuillez réessayer.",
+            "tabs": {
+                "access": "Accès",
+                "ownership_transfer": "Transfert de propriété",
+                "misc": "Divers"
+            },
+            "custom_domain": {
+                "label": "Domaine Personnalisé"
+            }
+        },
+        "custom_domain": {
+            "verify": {
+                "verified_title": "Domaine vérifié !",
+                "verified_body": "Votre domaine personnalisé a été vérifié et activé avec succès.",
+                "verified_fallback": "Domaine vérifié avec succès ! La page va se recharger.",
+                "active_message": "Votre domaine personnalisé est désormais actif",
+                "pending_title": "Toujours en attente",
+                "pending_body": "Enregistrement DNS introuvable pour l’instant. Nous continuerons à vérifier et vous avertirons lorsqu’il sera validé.",
+                "verify_failed": "Une erreur s’est produite lors de la vérification. Veuillez réessayer.",
+                "verify_failed_with_message": "Une erreur s’est produite lors de la vérification : {{message}}",
+                "check_failed": "Impossible de vérifier le statut. Veuillez réessayer."
+            }
+        },
+        "delete": {
+            "confirm": {
+                "title": "Supprimer la page de statut ?",
+                "body": "Cette action est irréversible.\nTous les composants seront supprimés et les incidents retirés. Les moniteurs seront détachés.\nLe slug sera bloqué pendant 30 jours.",
+                "confirm": "Oui, supprimer"
+            },
+            "success": {
+                "title": "Supprimée",
+                "body": "Page de statut supprimée avec succès."
+            },
+            "errors": {
+                "failed": "Impossible de supprimer la page de statut."
+            }
+        },
+        "palette": {
+            "remove_confirm": {
+                "title": "Supprimer la palette personnalisée ?",
+                "body": "Cela réinitialisera toutes les couleurs par défaut.",
+                "confirm": "Supprimer",
+                "fallback": "Êtes-vous sûr de vouloir supprimer la palette de couleurs personnalisée ? Cela réinitialisera toutes les couleurs par défaut."
+            },
+            "removed": "Palette supprimée !",
+            "remove_failed": "Échec de la suppression"
+        },
+        "require_password_help": "Exiger un mot de passe pour accéder à votre page de statut",
+        "private_pages_unavailable": "Les pages privées ne sont pas disponibles dans votre plan actuel.",
+        "enable_password_protection": "pour activer la protection par mot de passe.",
+        "password_protected": "Votre page de statut est protégée",
+        "change_password": "Changer le mot de passe",
+        "remove_password": "Supprimer le mot de passe",
+        "password_disabled_msg": "La protection par mot de passe est désactivée. Activez le commutateur ci-dessus pour l'activer.",
+        "password_placeholder": "Entrez un mot de passe pour protéger cette page",
+        "manage_custom_domain": "Gérer le domaine personnalisé",
+        "configure_custom_domain": "Configurer le domaine personnalisé",
+        "custom_domain_upgrade": "Domaine personnalisé (Mettre à niveau pour débloquer)",
+        "custom_domain_unavailable": "Le domaine personnalisé n'est pas disponible dans votre plan actuel.",
+        "advanced_customization": "pour accéder à la personnalisation avancée, l'automatisation et les options de marque.",
+        "primary_domain_help": "Choisissez le domaine principal où votre page de statut est accessible",
+        "choose_primary_domain": "Choisir le domaine principal",
+        "current_domain": "✓ Actuel",
+        "select_primary_help": "Sélectionnez le domaine principal de votre page de statut. Les visiteurs seront redirigés vers ce domaine.",
+        "historical_uptime_help": "Choisissez quels rôles d'équipe peuvent voir le temps de disponibilité historique dans le tableau de bord",
+        "owner_always_access": "Le propriétaire de la page de statut a toujours accès. Par défaut, seuls les rôles",
+        "and_roles": "et",
+        "can_view_historical": "peuvent voir le temps de disponibilité historique.",
+        "allow_subscribe_email": "Autoriser les visiteurs à s'abonner par e-mail",
+        "subscribe_disabled_help": "Lorsque désactivé, le bouton public \"S'abonner\" est masqué et l'API d'abonnement est bloquée pour cette page de statut.",
+        "total_subscribers": "Total des abonnés",
+        "delete_selected": "Supprimer la sélection",
+        "export_csv": "Exporter en CSV",
+        "export_json": "Exporter en JSON",
+        "search_by_email": "Rechercher par e-mail...",
+        "select_all": "Tout sélectionner",
+        "email_column": "E-mail",
+        "no_subscribers": "Aucun abonné pour l'instant",
+        "transfer_pending": "Transfert en attente",
+        "transfer_pending_for": "Une demande de transfert est actuellement en attente pour",
+        "request_expires": "La demande expire le",
+        "recipient_must_accept": "Le destinataire doit accepter le transfert par e-mail avant qu'il ne prenne effet",
+        "send_transfer_invitation": "Envoyer l'invitation de transfert",
+        "status_availability_help": "Contrôler la disponibilité globale de la page de statut",
+        "user_experience_help": "Améliorez la façon dont les utilisateurs interagissent avec votre page de statut",
+        "auto_reload_help": "Actualiser automatiquement les données de la page de statut chaque minute",
+        "upgrade_pro_reload": "🔄 <a href=\"/user/billing\" class=\"text-decoration-none\">Passer à Pro</a> pour activer le rechargement automatique",
+        "showcase_directory": "Répertoire de vitrine",
+        "showcase_help": "Mettre en vedette votre page de statut dans notre vitrine publique",
+        "showcase_description": "Soyez présenté dans notre <a href=\"/showcase\" target=\"_blank\">vitrine publique</a> pour démontrer votre engagement envers la transparence et la fiabilité. C'est un excellent moyen de gagner la confiance des clients potentiels.",
+        "manage_showcase": "Gérer les paramètres de vitrine",
+        "delete_permanent": "La suppression de votre page de statut est <u>permanente</u>",
+        "slug_blocked": "Le slug sera bloqué pour réutilisation pendant 30 jours",
+        "confirm_url": "Pour confirmer, tapez l'URL complète de votre page de statut :",
+        "type_url_helper": "Tapez l'URL complète pour activer la suppression.",
+        "must_enter_exact": "Vous devez entrer",
+        "exactly_enable": "exactement pour activer la suppression.",
+        "delete_this_page": "Supprimer cette page de statut",
+        "setup_custom_domain": "Configurer le domaine personnalisé"
+    },
+    "components": {
+        "form": {
+            "label": "Composant",
+            "select_placeholder": "-- Sélectionner un composant --",
+            "no_components_help": "Aucun composant pour cette page de statut. Créez-en un ci-dessous.",
+            "create_new": "Créer un nouveau composant",
+            "new_name_label": "Nom du nouveau composant",
+            "url_optional_label": "URL du composant (optionnel)"
+        }
+    },
+    "incidents": {
+        "nav": {
+            "incidents": "Incidents",
+            "new_incident": "Nouvel incident",
+            "templates": "Modèles"
+        },
+        "templates": {
+            "delete_confirm": {
+                "title": "Supprimer le modèle ?",
+                "text": "Êtes-vous sûr de vouloir supprimer ce modèle ? Cette action est irréversible.",
+                "confirm": "Supprimer"
+            },
+            "actions": {
+                "deleting": "Suppression du modèle...",
+                "saving": "Enregistrement du modèle..."
+            },
+            "errors": {
+                "delete_failed": "Impossible de supprimer le modèle",
+                "delete_failed_try_again": "Impossible de supprimer le modèle. Veuillez réessayer.",
+                "save_failed": "Impossible d’enregistrer le modèle",
+                "save_failed_try_again": "Impossible d’enregistrer le modèle. Veuillez réessayer."
+            }
+        },
+        "view": {
+            "archived_reason_label": "Raison d'archivage :"
+        }
+    },
+    "notification_channels": {
+        "heading": "Canaux de notification",
+        "subtitle": "Configurez vos canaux une fois et réutilisez-les sur plusieurs pages de statut",
+        "add_channel": "Ajouter un canal",
+        "empty_title": "Aucun canal de notification configuré",
+        "empty_body": "Créez votre premier canal de notification pour recevoir des alertes sur vos pages de statut.",
+        "empty_cta": "Ajouter votre premier canal",
+        "loading": "Chargement des canaux de notification...",
+        "add_modal_title": "Ajouter un canal de notification",
+        "edit_modal_title": "Modifier le canal de notification",
+        "save_channel": "Enregistrer le canal",
+        "channel_name_label": "Nom du canal",
+        "channel_name_help": "Un nom facile à reconnaître pour ce canal",
+        "channel_type_label": "Type de canal",
+        "delete_modal_title": "Supprimer le canal",
+        "delete_confirm_prefix": "Voulez-vous supprimer",
+        "delete_confirm_suffix": " ?",
+        "delete_confirm_button": "Supprimer le canal",
+        "delete_used_by_warning_singular": "Ce canal est utilisé par 1 page de statut.",
+        "delete_used_by_warning_plural": "Ce canal est utilisé par {{count}} pages de statut.",
+        "cannot_undo": "Cette action est irréversible. Le canal sera dissocié de toutes les pages de statut.",
+        "not_linked": "Aucun lien avec une page de statut",
+        "used_by": "Utilisé par :",
+        "telegram_channel_id_help": "Clic droit sur le canal → Voir les détails du canal → Copier l’ID du canal",
+        "types": {
+            "discord": "Discord",
+            "webhook": "Webhook",
+            "slack": "Slack",
+            "telegram": "Telegram",
+            "email": "E-mail",
+            "ms_teams": "MS Teams",
+            "pushover": "Pushover"
+        },
+        "fields": {
+            "webhook_url": "URL du webhook",
+            "bot_token": "Jeton du bot",
+            "channel_id": "ID du canal",
+            "chat_id": "ID du chat",
+            "recipients": "Destinataires",
+            "user_key": "Clé utilisateur",
+            "api_token": "Jeton API"
+        },
+        "placeholders": {
+            "channel_name": "ex. : Mon serveur Discord, Slack travail, Telegram perso",
+            "discord_webhook_url": "https://discord.com/api/webhooks/...",
+            "slack_bot_token": "xoxb-...",
+            "slack_channel_id": "C0XXXXXXXXX",
+            "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
+            "telegram_chat_id": "-1001234567890",
+            "email_recipients": "Saisissez un e-mail et appuyez sur Entrée",
+            "msteams_webhook_url": "https://outlook.office.com/webhook/...",
+            "pushover_user_key": "Votre clé utilisateur Pushover",
+            "pushover_api_token": "Votre jeton API Pushover",
+            "webhook_url": "https://votre-serveur.com/webhook",
+            "webhook_headers_json": "{\\\"Authorization\\\": \\\"Bearer votre-jeton\\\"}"
+        },
+        "config": {
+            "discord": {
+                "heading": "Configuration Discord",
+                "how_to_create_webhook": "Comment créer un webhook Discord"
+            },
+            "slack": {
+                "heading": "Configuration Slack",
+                "bot_token_help": "Jeton OAuth du bot de votre application Slack"
+            },
+            "telegram": {
+                "heading": "Configuration Telegram"
+            },
+            "email": {
+                "heading": "Configuration e-mail",
+                "recipients_help": "Saisissez une adresse e-mail et appuyez sur Entrée pour l’ajouter. Cliquez sur × pour la supprimer."
+            },
+            "msteams": {
+                "heading": "Configuration Microsoft Teams",
+                "how_to_create_webhook": "Comment créer un webhook Teams"
+            },
+            "pushover": {
+                "heading": "Configuration Pushover",
+                "create_app_at": "Créez une application sur"
+            },
+            "webhook": {
+                "heading": "Configuration webhook",
+                "headers_help": "En-têtes personnalisés facultatifs au format JSON"
+            }
+        },
+        "telegram": {
+            "use_our_bot": "Utiliser notre bot",
+            "easy_badge": "Facile",
+            "use_custom_bot": "Utiliser un bot personnalisé",
+            "use_our_bot_help": "Utiliser notre bot est plus simple - vous n’avez qu’à fournir votre ID de chat",
+            "get_it_from": "Obtenez-le via",
+            "chat_id_help": "Utilisez",
+            "chat_id_help_or": "ou",
+            "steps": {
+                "step_1_label": "Étape 1 :",
+                "step_1_text": "Démarrez une conversation avec notre bot sur Telegram",
+                "step_2_label": "Étape 2 :",
+                "step_2_text": "Envoyez",
+                "step_2_text_2": "au bot ou ajoutez-le à votre groupe/canal",
+                "step_3_label": "Étape 3 :",
+                "step_3_text": "Obtenez votre ID de chat avec",
+                "step_3_text_2": "et collez-le ci-dessous"
+            }
+        },
+        "email": {
+            "add_title": "Ajouter un e-mail"
+        },
+        "actions": {
+            "verify": "Vérifier",
+            "test": "Tester",
+            "saving": "Enregistrement...",
+            "saving_action": "Enregistrement du canal de notification...",
+            "deleting": "Suppression...",
+            "deleting_action": "Suppression du canal de notification...",
+            "sending_test": "Envoi de la notification de test...",
+            "sending_verification": "Envoi de l’e-mail de vérification..."
+        },
+        "status": {
+            "verified": "Vérifié",
+            "unverified": "Non vérifié"
+        },
+        "validation": {
+            "name_required": "Veuillez saisir un nom de canal",
+            "type_required": "Veuillez sélectionner un type de canal",
+            "discord_webhook_required": "Veuillez saisir une URL de webhook Discord",
+            "slack_required": "Veuillez saisir le jeton du bot Slack et l’ID du canal",
+            "telegram_chat_id_required": "Veuillez saisir votre ID de chat Telegram",
+            "telegram_bot_token_required": "Veuillez saisir le jeton de votre bot Telegram personnalisé",
+            "email_recipient_required": "Veuillez saisir au moins un destinataire e-mail",
+            "msteams_webhook_required": "Veuillez saisir une URL de webhook Microsoft Teams",
+            "pushover_required": "Veuillez saisir la clé utilisateur et le jeton API Pushover",
+            "webhook_url_required": "Veuillez saisir une URL de webhook",
+            "invalid_headers_json": "JSON invalide dans les en-têtes personnalisés",
+            "invalid_email_format": "Format d’e-mail invalide : {{email}}"
+        },
+        "messages": {
+            "load_failed": "Impossible de charger les canaux",
+            "load_failed_with": "Impossible de charger les canaux : {{message}}",
+            "save_success": "Canal enregistré avec succès",
+            "save_failed": "Impossible d’enregistrer le canal",
+            "save_failed_with": "Impossible d’enregistrer le canal : {{message}}",
+            "delete_success": "Canal supprimé avec succès",
+            "delete_failed": "Impossible de supprimer le canal",
+            "delete_failed_with": "Impossible de supprimer le canal : {{message}}",
+            "test_sent": "Notification de test envoyée !",
+            "test_failed": "Le test a échoué",
+            "test_failed_with": "Le test a échoué : {{message}}",
+            "verification_sent": "E-mails de vérification envoyés ! Vérifiez votre boîte de réception.",
+            "verification_failed": "Impossible d’envoyer les e-mails de vérification",
+            "verification_failed_with": "Impossible d’envoyer les e-mails de vérification : {{message}}",
+            "channel_not_found": "Canal introuvable",
+            "load_channel_failed_with": "Impossible de charger le canal : {{message}}"
+        }
+    },
+    "maintenances": {
+        "nav": {
+            "maintenances": "Maintenances",
+            "schedule_maintenance": "Planifier une maintenance"
+        }
+    },
+    "heartbeats": {
+        "nav": {
+            "heartbeats": "Battements de cœur"
+        },
+        "list": {
+            "heading": "Moniteurs Heartbeat",
+            "description": "Surveillez les travaux cron, les tâches programmées et les processus d'arrière-plan",
+            "none_message": "Aucun moniteur heartbeat pour le moment",
+            "none_help": "Créez votre premier moniteur heartbeat pour commencer à suivre les travaux cron et les tâches programmées",
+            "create_first": "Créer le premier Heartbeat"
+        },
+        "table": {
+            "name": "Nom",
+            "status": "Statut",
+            "last_ping": "Dernier ping",
+            "expected_interval": "Intervalle attendu",
+            "actions": "Actions"
+        },
+        "status": {
+            "healthy": "Sain",
+            "missed": "Manqué",
+            "pending": "En attente",
+            "paused": "Suspendu"
+        },
+        "cta": {
+            "create": "Créer un moniteur Heartbeat"
+        },
+        "info": {
+            "title": "Comment fonctionnent les moniteurs Heartbeat",
+            "description": "Contrairement aux moniteurs ordinaires qui vérifient vos services, les moniteurs heartbeat attendent que vos travaux cron ou vos scripts les pingent. Si aucun ping n'est reçu dans l'intervalle attendu + période de grâce, vous serez averti.",
+            "learn_more": "En savoir plus"
+        },
+        "modal": {
+            "create_title": "Créer un moniteur Heartbeat",
+            "ping_help": "Utilisez cette URL pour pinguer votre moniteur heartbeat à partir de votre travail cron ou script :"
+        },
+        "never": "Jamais",
+        "auto_infer": "Inférence automatique"
+    },
+    "teams": {
+        "list": {
+            "my_teams": "Mes équipes",
+            "shared_with_me": "Partagé avec moi"
+        },
+        "your_role": "Votre rôle : ",
+        "roles": {
+            "owner": "Propriétaire",
+            "admin": "Admin",
+            "editor": "Éditeur",
+            "viewer": "Viewer"
+        },
+        "table": {
+            "name": "Nom",
+            "role": "Rôle",
+            "members": "Membres",
+            "created": "Créé"
+        },
+        "stats": {
+            "total_monitors": "Total des moniteurs",
+            "status_pages": "Pages de statut",
+            "team_members": "Membres de l'équipe"
+        },
+        "actions": {
+            "create_team": "Créer une équipe",
+            "invite_member": "Inviter un membre",
+            "leave_team": "Quitter l'équipe",
+            "delete_team": "Supprimer l'équipe"
+        },
+        "invitations": {
+            "pending": "Invitations en attente",
+            "accept": "Accepter",
+            "decline": "Refuser",
+            "accept_success": {
+                "title": "Invitation acceptée",
+                "text": "Vous avez rejoint l’équipe avec succès."
+            },
+            "decline_confirm": {
+                "title": "Refuser l’invitation ?",
+                "text": "Êtes-vous sûr de vouloir refuser cette invitation à l’équipe ?",
+                "confirm": "Oui, refuser"
+            },
+            "progress": {
+                "declining": "Refus de l’invitation…"
+            },
+            "declined": {
+                "title": "Invitation refusée",
+                "text": "L’invitation a été refusée."
+            },
+            "resent": {
+                "title": "Invitation renvoyée",
+                "text": "L’invitation à {{email}} a été renvoyée."
+            },
+            "errors": {
+                "accept_failed": "Impossible d’accepter l’invitation",
+                "decline_failed": "Impossible de refuser l’invitation"
+            }
+        },
+        "delete": {
+            "confirm": {
+                "title": "Supprimer l’équipe ?",
+                "text": "Êtes-vous sûr de vouloir supprimer \"{{name}}\" ? Cela supprimera tous les membres et dissociera toutes les pages de statut.",
+                "confirm": "Oui, supprimer"
+            },
+            "progress": {
+                "deleting": "Suppression de l’équipe…"
+            },
+            "success": {
+                "title": "Équipe supprimée",
+                "text": "L’équipe a été supprimée avec succès."
+            },
+            "errors": {
+                "failed": "Impossible de supprimer l’équipe"
+            }
+        },
+        "leave": {
+            "confirm": {
+                "title": "Quitter l’équipe ?",
+                "text": "Êtes-vous sûr de vouloir quitter \"{{name}}\" ?",
+                "confirm": "Oui, quitter"
+            },
+            "coming_soon": {
+                "title": "Fonctionnalité à venir",
+                "text": "Quitter une équipe sera bientôt disponible."
+            }
+        },
+        "limits": {
+            "reached": "Limite d'équipe atteinte",
+            "upgrade_message": "Mettez à niveau votre plan pour créer plus d'équipes",
+            "usage": "Utilisation des équipes :",
+            "seats_usage": "Sièges utilisés :",
+            "seats_per_team": "Sièges par équipe :",
+            "unlimited": "Illimité",
+            "members": "membres",
+            "seats_reached": "Vous avez atteint la limite de sièges pour cette équipe. Supprimez un membre ou mettez à niveau votre plan.",
+            "seats_note": "Les sièges comptent les membres invités et les invitations en attente. Le propriétaire de l'abonnement ne compte pas.",
+            "seats_note_brief": "Le propriétaire de l'abonnement ne compte pas vers la limite de sièges.",
+            "check_billing": "Vérifier la facturation"
+        },
+        "nav": {
+            "teams": "Équipes",
+            "my_teams": "Mes équipes",
+            "shared_teams": "Équipes partagées",
+            "overview": "Aperçu",
+            "audit_logs": "Journaux d'audit"
+        },
+        "audit_logs": {
+            "no_teams": {
+                "title": "Aucune équipe",
+                "text": "Vous devez être propriétaire ou admin d’une équipe pour consulter les journaux d’audit."
+            },
+            "selector": {
+                "title": "Sélectionner une équipe",
+                "text": "Choisissez une équipe pour afficher ses journaux d’audit :",
+                "placeholder": "Sélectionnez une équipe",
+                "confirm": "Voir les journaux",
+                "validation": "Veuillez sélectionner une équipe"
+            },
+            "errors": {
+                "load_failed": "Impossible de charger les équipes. Veuillez réessayer."
+            }
+        },
+        "detail": {
+            "pending": "Invitations en attente",
+            "table": {
+                "member": "Membre",
+                "joined": "A rejoint",
+                "sent": "Envoyée",
+                "status_page": "Page de statut",
+                "slug": "Slug"
+            },
+            "labels": {
+                "active": "Actif",
+                "seat_limit_reached": "Limite de places atteinte"
+            },
+            "sidebar": {
+                "your_role": "Votre rôle",
+                "role_permissions": "Autorisations du rôle",
+                "permissions": {
+                    "owner": "Contrôle total sur les paramètres de l’équipe, les membres et les pages de statut liées.",
+                    "admin": "Autorisations d’éditeur plus accès aux paramètres de la page de statut.",
+                    "editor": "Créer et mettre à jour les incidents et maintenances sur les pages de statut liées.",
+                    "viewer": "Accès en lecture seule pour consulter les données de l’équipe et des pages de statut."
+                }
+            },
+            "invite": {
+                "form": {
+                    "email_label": "Adresse e-mail",
+                    "email_placeholder": "colleague@example.com",
+                    "role_label": "Rôle",
+                    "role_option_admin": "Admin - Éditeur + paramètres de la page de statut",
+                    "role_option_editor": "Éditeur - Peut créer/mettre à jour des incidents",
+                    "role_option_viewer": "Viewer - Accès en lecture seule"
+                },
+                "actions": {
+                    "send_invitation": "Envoyer l’invitation"
+                },
+                "progress": {
+                    "sending": "Envoi de l’invitation...",
+                    "resending": "Renvoi de l’invitation..."
+                },
+                "success": {
+                    "title": "Invitation envoyée",
+                    "text": "Une invitation a été envoyée à {{email}}"
+                },
+                "pending": {
+                    "title": "Invitation déjà en attente",
+                    "text": "Une invitation est déjà en attente pour {{email}}. Voulez-vous la renvoyer ?",
+                    "confirm_resend": "Renvoyer"
+                },
+                "resend_success": {
+                    "title": "Invitation renvoyée",
+                    "text": "Invitation renvoyée à {{email}}"
+                },
+                "errors": {
+                    "email_required": "L’e-mail est requis",
+                    "failed_send": "Échec de l’envoi de l’invitation",
+                    "failed_resend": "Échec du renvoi de l’invitation"
+                }
+            },
+            "members": {
+                "title": "Membres de l’équipe",
+                "progress": {
+                    "updating_role": "Mise à jour du rôle…",
+                    "removing_member": "Suppression du membre…"
+                },
+                "role_updated": {
+                    "title": "Rôle mis à jour"
+                },
+                "remove": {
+                    "title": "Supprimer le membre ?",
+                    "html": "Voulez-vous vraiment supprimer <strong>{{email}}</strong> de cette équipe ?",
+                    "confirm": "Oui, supprimer"
+                },
+                "remove_success": {
+                    "title": "Membre supprimé"
+                },
+                "errors": {
+                    "failed_update_role": "Échec de la mise à jour du rôle",
+                    "failed_remove_member": "Échec de la suppression du membre"
+                }
+            },
+            "invitations": {
+                "progress": {
+                    "cancelling": "Annulation de l’invitation…"
+                },
+                "cancel": {
+                    "title": "Annuler l’invitation ?",
+                    "html": "Annuler l’invitation envoyée à <strong>{{email}}</strong> ?",
+                    "confirm": "Oui, annuler"
+                },
+                "cancel_success": {
+                    "title": "Invitation annulée"
+                },
+                "resend_coming_soon": {
+                    "title": "Bientôt disponible",
+                    "text": "La fonctionnalité de renvoi d’invitation sera bientôt disponible."
+                },
+                "errors": {
+                    "failed_cancel": "Échec de l’annulation de l’invitation"
+                }
+            },
+            "status_pages": {
+                "title": "Pages de statut liées",
+                "link_cta": "Lier une page de statut",
+                "empty": "Aucune page de statut n’est encore liée à cette équipe.",
+                "link_first_cta": "Liez votre première page de statut",
+                "create_cta": "Créer une page de statut",
+                "select_placeholder": "Choisissez une page de statut...",
+                "info": "Les membres de l’équipe pourront accéder à cette page de statut selon leurs rôles.",
+                "no_status_pages_yet": "Vous n’avez pas encore de page de statut.",
+                "progress": {
+                    "linking": "Liaison de la page de statut…",
+                    "unlinking": "Dissociation de la page de statut…"
+                },
+                "link_success": {
+                    "title": "Page de statut liée"
+                },
+                "unlink": {
+                    "title": "Dissocier la page de statut ?",
+                    "html": "Retirer <strong>{{name}}</strong> de cette équipe ?<br><br>Les membres de l’équipe perdront l’accès à cette page de statut.",
+                    "confirm": "Oui, dissocier"
+                },
+                "unlink_success": {
+                    "title": "Page de statut dissociée"
+                },
+                "errors": {
+                    "select_status_page": "Veuillez sélectionner une page de statut",
+                    "failed_link": "Échec de la liaison de la page de statut",
+                    "failed_unlink": "Échec de la dissociation de la page de statut"
+                }
+            }
+        }
+    },
+    "severities": {
+        "nav": {
+            "severities": "Gravités",
+            "manage": "Gérer les gravités"
+        },
+        "level": {
+            "low": "Faible",
+            "medium": "Moyen",
+            "high": "Élevé",
+            "critical": "Critique"
+        }
+    },
+    "notifications": {
+        "breadcrumb": "Notifications",
+        "heading": "Préférences de notification",
+        "description": "Gérez comment et quand vous recevez des notifications",
+        "frequency": {
+            "all": "Tous les e-mails",
+            "frequent": "E-mails fréquents",
+            "weekly": "E-mails hebdomadaires",
+            "urgent_only": "Urgent uniquement",
+            "daily": "Résumé quotidien",
+            "weekly_digest": "Résumé hebdomadaire",
+            "immediate": "Immédiat"
+        },
+        "table": {
+            "type": "Type de notification"
+        },
+        "type": {
+            "account_activity": "Activité du compte",
+            "security_alerts": "Alertes de sécurité",
+            "system_updates": "Mises à jour système"
+        },
+        "form": {
+            "email_frequency": "Fréquence des e-mails",
+            "save": "Enregistrer toutes les préférences"
+        },
+        "channel": {
+            "email": "E-mail",
+            "browser": "Navigateur",
+            "app": "Application"
+        },
+        "trial": {
+            "heading": "Notifications d'essai",
+            "email": "E-mail",
+            "resend": "Renvoyer",
+            "unlink": "Dissocier",
+            "receive_emails": "Recevoir des e-mails d'essai",
+            "description": "Soyez informé de l'état de votre essai, des rappels et des offres spéciales.",
+            "frequency_label": "Fréquence des e-mails d'essai",
+            "no_emails": "Aucun e-mail d'essai",
+            "frequency_description": "Choisissez à quelle fréquence vous souhaitez recevoir des e-mails liés à l'essai.",
+            "extend": {
+                "confirm": {
+                    "title": "Prolonger l’essai de 7 jours ?",
+                    "confirm": "Prolonger",
+                    "fallback": "Êtes-vous sûr de vouloir prolonger votre essai de 7 jours ?"
+                },
+                "progress": "Prolongation de l’essai...",
+                "failed": "Échec de la prolongation de l’essai. Veuillez réessayer.",
+                "failed_with_message": "Échec de la prolongation de l’essai : {{message}}",
+                "error": "Erreur lors de la prolongation de l’essai. Veuillez réessayer."
+            }
+        },
+        "email_settings": {
+            "heading": "Paramètres de notification par e-mail",
+            "frequency_description": "Choisissez à quelle fréquence vous souhaitez recevoir des notifications non critiques."
+        },
+        "privacy": {
+            "heading": "Confidentialité"
+        },
+        "frequency_description": "Choisissez la fréquence de réception des e-mails de notification",
+        "analytics": {
+            "exclude_self": "Vous exclure des analyses sur vos propres pages de statut",
+            "self_exclusion_help": "Lorsqu'activé, vos visites sur vos propres pages de statut ne seront suivies par aucune analyse Web configurée. Cela permet de garder des données visiteurs propres et précises."
+        }
+    },
+    "postmortem": {
+        "nav": {
+            "postmortem": "Post-mortem"
+        },
+        "not_available": "Les rapports post-mortem ne sont pas disponibles dans votre plan actuel. <a href=\"/user/billing\">Mettez à niveau</a> pour activer cette fonctionnalité.",
+        "form": {
+            "summary": "Résumé",
+            "timeline": "Chronologie",
+            "severity": "Gravité",
+            "duration": "Durée",
+            "tags": "Étiquettes",
+            "lessons_learned": "Leçons apprises",
+            "action_items": "Éléments d'action",
+            "publish_status": "Statut de publication",
+            "schedule_publish": "Planifier la publication",
+            "publish_now": "Publier maintenant"
+        },
+        "visibility": {
+            "draft": "Brouillon",
+            "private": "Privé",
+            "public": "Public"
+        },
+        "publish_help": "Une fois publié, il ne peut pas être dépublié. Les modifications mettront à jour le contenu tout en conservant la date de publication d'origine."
+    },
+    "security": {
+        "two_factor_auth_description": "L’authentification à deux facteurs ajoute une couche de sécurité supplémentaire à votre compte en exigeant plus qu’un mot de passe lors de la connexion.",
+        "set_up_authenticator_app": "Configurer une application d’authentification",
+        "scan_qr_code": "Scannez le code QR avec votre application d’authentification :",
+        "or_enter_manually": "Ou saisissez ce code manuellement :",
+        "two_factor": {
+            "not_available": "L’authentification à deux facteurs n’est pas disponible dans votre offre actuelle. <a href=\"/user/billing\">Passez à une offre supérieure</a> pour activer cette fonctionnalité.",
+            "enabled_message": "La 2FA est actuellement <strong>activée</strong> pour votre compte.",
+            "disabled_recommendation": "La 2FA est <strong>désactivée</strong>. Nous vous recommandons de l’activer.",
+            "show_backup_codes": "Afficher les codes de secours",
+            "enter_code": "Entrez le code de votre application",
+            "backup_codes_title": "Codes de secours",
+            "saved": "Enregistré !",
+            "could_not_fetch_backup_codes": "Impossible de récupérer les codes de secours",
+            "disable_title": "Désactiver la 2FA ?",
+            "disable_prompt": "Pour désactiver la 2FA, veuillez confirmer avec l’une des options suivantes :",
+            "disable": "Désactiver la 2FA",
+            "enable": "Activer la 2FA",
+            "activate_button": "Activer la 2FA",
+            "disabled_title": "La 2FA a été désactivée",
+            "failed_disable": "Échec de la désactivation de la 2FA",
+            "failed_start_setup": "Échec du démarrage de la configuration OTP",
+            "scan_qr_alt": "Scanner le QR code",
+            "failed_enable": "Échec de l’activation de la 2FA",
+            "placeholders": {
+                "otp": "123456",
+                "backup": "XXXXXXXX"
+            },
+            "actions": {
+                "disabling": "Désactivation de la 2FA...",
+                "starting_setup": "Démarrage de la configuration 2FA...",
+                "enabling": "Activation de la 2FA..."
+            }
+        },
+        "save_backup_codes": "Conservez ces codes en lieu sûr. Vous ne pourrez plus les afficher !",
+        "authenticator_code": "Code d’authentification",
+        "backup_code": "Code de secours",
+        "confirm_using_2fa": "Confirmez avec l’une des options suivantes :",
+        "security_keys_info": "Les clés de sécurité sont des appareils matériels qui permettent une authentification à deux facteurs robuste.",
+        "security_keys": {
+            "not_available": "Les clés de sécurité ne sont pas disponibles dans votre plan actuel. <a href=\"/user/billing\">Mettez à niveau</a> pour activer cette fonctionnalité.",
+            "register": "Enregistrer une clé de sécurité",
+            "nickname": "Surnom",
+            "no_keys": "Aucune clé de sécurité enregistrée.",
+            "remove_title": "Supprimer la clé de sécurité",
+            "removed_title": "Clé de sécurité supprimée",
+            "failed_remove": "Échec de la suppression de la clé de sécurité",
+            "actions": {
+                "removing": "Suppression de la clé de sécurité..."
+            }
+        }
+    },
+    "profile": {
+        "breadcrumb_account": "Compte",
+        "heading": "Informations du profil",
+        "gravatar_help": "Pour changer votre avatar, rendez-vous sur <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> et mettez à jour votre photo de profil.",
+        "email_cannot_be_changed": "L’e-mail ne peut pas être modifié",
+        "current_password": "Mot de passe actuel",
+        "new_password": "Nouveau mot de passe",
+        "confirm_new_password": "Confirmer le nouveau mot de passe",
+        "password_requirements": "Exigences du mot de passe",
+        "password_current_required": "Le mot de passe actuel est requis",
+        "password_at_least_10": "Au moins 10 caractères",
+        "password_match": "Le nouveau mot de passe et la confirmation correspondent",
+        "password_checked_breaches": "Vérifié lors de l’enregistrement contre les fuites connues",
+        "password": {
+            "heading": "Mot de passe",
+            "help_has_password": "Utilisez un mot de passe fort et unique. Vous aurez besoin de votre mot de passe actuel pour le modifier.",
+            "help_no_password": "Vous utilisez actuellement uniquement la connexion OAuth. Définir un mot de passe activera la connexion avec e-mail et mot de passe.",
+            "update_button": "Mettre à jour le mot de passe",
+            "set_button": "Définir un mot de passe",
+            "fix_requirements_title": "Respectez les exigences du mot de passe",
+            "fix_requirements_text": "Veuillez respecter toutes les exigences avant d’enregistrer.",
+            "updating_title": "Mise à jour du mot de passe...",
+            "please_wait": "Veuillez patienter",
+            "updated_title": "Mot de passe mis à jour",
+            "updated_success": "Mot de passe mis à jour avec succès !",
+            "failed_update": "Impossible de mettre à jour le mot de passe. Veuillez réessayer.",
+            "could_not_update_title": "Impossible de mettre à jour le mot de passe",
+            "network_error_title": "Erreur réseau"
+        }
+    },
+    "connections": {
+        "breadcrumb": "Connexions",
+        "heading": "Comptes liés",
+        "status": {
+            "connected": "Connecté",
+            "not_connected": "Non connecté"
+        },
+        "actions": {
+            "connect": "Connecter"
+        },
+        "cant_unlink_last_signin": "Impossible de dissocier la dernière méthode de connexion"
+    },
+    "export": {
+        "heading": "Exporter les données",
+        "description": "Téléchargez une <strong>archive ZIP</strong> complète contenant toutes vos données, y compris les pages de statut, les moniteurs, les résultats de vérification, les incidents et les maintenances. Les données sont organisées en fichiers séparés pour faciliter la consultation et le traitement.",
+        "used_for": {
+            "backup": "<strong>Sauvegarde :</strong> Conserver une copie locale de toutes les données de monitoring",
+            "migration": "<strong>Migration :</strong> Déplacer vos données vers une autre instance ou un autre système",
+            "analysis": "<strong>Analyse :</strong> Réaliser vos propres analyses de l’historique de disponibilité",
+            "compliance": "<strong>Conformité :</strong> Conserver des enregistrements pour audit et conformité"
+        },
+        "whats_included": {
+            "title": "Contenu de l’export :"
+        },
+        "button": "Exporter toutes les données",
+        "privacy": {
+            "title": "Confidentialité & sécurité :",
+            "text": "Les données exportées sont générées à la demande et peuvent contenir des informations sensibles sur votre configuration de monitoring. Conservez ce fichier en lieu sûr et ne le partagez pas publiquement."
+        },
+        "archive_structure": {
+            "heading": "Structure de l’archive",
+            "description": "L’archive ZIP exportée contient la structure suivante :"
+        },
+        "jsonl": {
+            "title": "Format JSONL :",
+            "text": "Les moniteurs, incidents et résultats de moniteur utilisent le format JSON Lines (un objet JSON par ligne) pour traiter efficacement de grands ensembles de données. Cela permet le streaming et le traitement de grandes listes sans tout charger en mémoire."
+        },
+        "status": {
+            "generating": "Génération de l’export...",
+            "preparing": "Préparation des données...",
+            "completed": "✓ Export terminé avec succès !"
+        },
+        "errors": {
+            "failed_with_status": "Échec de l’export : ",
+            "failed_try_again": "✗ Échec de l’export. Veuillez réessayer."
+        }
+    },
+    "account_deletion": {
+        "warning": {
+            "title": "Suppression définitive du compte",
+            "text": "Cette action est irréversible. Toutes vos données seront supprimées définitivement."
+        },
+        "export_first": {
+            "heading": "Exporter vos données d’abord (recommandé)",
+            "description": "Avant de supprimer votre compte, nous <strong>recommandons vivement</strong> d’exporter vos données. Cela vous permet de conserver une copie de vos pages de statut, moniteurs, incidents et autres informations.",
+            "whats_exported": "Ce qui est exporté :",
+            "items": {
+                "pages": "Toutes les pages de statut et leurs configurations",
+                "monitors": "Tous les moniteurs et l’historique des vérifications",
+                "incidents": "Tous les incidents et mises à jour",
+                "custom_domains": "Configurations de domaines personnalisés",
+                "notification_channels": "Paramètres des canaux de notification"
+            },
+            "cta": "Aller à la page d’export de données",
+            "note": "Vous pouvez exporter vos données puis revenir sur cette page pour continuer la suppression du compte."
+        },
+        "what_deleted": {
+            "heading": "Ce qui sera supprimé",
+            "description": "Si vous fermez votre compte, les éléments suivants seront <strong>supprimés définitivement</strong> :",
+            "content": {
+                "incidents": "Tous les incidents et mises à jour"
+            },
+            "settings": {
+                "custom_domains": "Configurations de domaines personnalisés",
+                "notification_channels": "Paramètres des canaux de notification",
+                "trial_and_subscription": "Informations d’essai et d’abonnement"
+            }
+        },
+        "privacy_commitment": {
+            "title": "Engagement de confidentialité :",
+            "text": "Nous suivons les directives du RGPD. Vos données seront supprimées définitivement de nos systèmes sous 60 jours, et les journaux d’audit sous 90 jours."
+        },
+        "what_keep": {
+            "heading": "Ce que nous conservons (obligations légales)",
+            "description": "Pour des raisons fiscales et comptables, nous sommes <strong>légalement tenus</strong> de conserver :",
+            "items": {
+                "billing_records": "<strong>Uniquement des données de transaction de facturation</strong> (ID de transaction, montant, date)",
+                "no_tracking": "Ces enregistrements ne contiennent <strong>aucune donnée personnelle de suivi</strong>",
+                "no_operational_data": "Aucune page de statut, moniteur ou donnée opérationnelle n’est conservée"
+            },
+            "note": "C’est une pratique standard et requise par les autorités fiscales dans la plupart des pays."
+        },
+        "close_account": {
+            "heading": "Fermer mon compte définitivement"
+        },
+        "confirm_phrase": {
+            "prefix": "Tapez",
+            "suffix": "pour confirmer :",
+            "placeholder": "Tapez DELETE MY ACCOUNT"
+        },
+        "confirmations": {
+            "export": "Je comprends que je devrais exporter mes données avant la suppression, ou j’accepte de perdre définitivement toutes mes données.",
+            "final": "Je comprends que cette action est <strong>définitive et irréversible</strong>."
+        },
+        "delete_button": "Supprimer mon compte définitivement",
+        "swal": {
+            "final_warning": {
+                "title": "⚠️ DERNIER AVERTISSEMENT",
+                "text_strong": "Cela supprimera définitivement votre compte et toutes les données associées.",
+                "text": "Cette action est irréversible. Tous les moniteurs, pages de statut et paramètres seront supprimés définitivement.",
+                "confirm": "Oui, supprimer mon compte"
+            }
+        }
+    },
+    "billing": {
+        "breadcrumb": "Facturation & forfait",
+        "free_trial_active": "Essai gratuit actif",
+        "trial_grace_period": "Période de grâce de l’essai",
+        "refund_guarantee_active": "Garantie de remboursement de 15 jours active",
+        "refund_period_ended_prefix": "La période de remboursement de 15 jours est terminée. Si vous avez des circonstances particulières, veuillez",
+        "refund_period_ended_suffix": "— nous sommes là pour aider à éviter tout rejet de paiement.",
+        "contact_support": "contacter le support",
+        "tagline_default": "Accédez à l’essentiel pour la surveillance des pages de statut.",
+        "per_month": "/mois",
+        "limit": "Limite :",
+        "unlimited": "Illimité",
+        "used": "utilisé",
+        "enabled": "Activé",
+        "disabled": "Désactivé",
+        "price": "Prix",
+        "first_charge": "(premier débit)",
+        "promo_code_prefix": "Code promo",
+        "promo_code_suffix": "sera appliqué automatiquement !",
+        "current_plan": "Forfait actuel",
+        "understand_subscription": "Comprenez ce que votre abonnement inclut",
+        "plan_status": "Statut du forfait",
+        "included_features": "📦 Fonctionnalités incluses",
+        "private_status_pages": "Pages de statut privées",
+        "audit_logs": "Journaux d’audit",
+        "response_time_graphs": "Graphiques de temps de réponse",
+        "usage_snapshot": "Aperçu de l’utilisation",
+        "track_resource_consumption": "Suivez votre consommation des ressources du forfait",
+        "monitors_busiest_page": "Moniteurs (page la plus active)",
+        "total_monitors": "Moniteurs au total",
+        "total_monitors_help": "Total des moniteurs sur toutes les pages de statut.",
+        "teams_created": "Équipes que vous avez créées.",
+        "seats_per_team": "Sièges par équipe",
+        "max_members_per_team": "Nombre maximal de membres par équipe",
+        "team_owner_no_count": "Le propriétaire de l’équipe ne compte pas dans la limite de sièges.",
+        "heartbeat_monitors_heading": "Moniteurs Heartbeat",
+        "heartbeat_monitors": "Moniteurs pour cron jobs et tâches planifiées.",
+        "subscription_overview": "Aperçu de l’abonnement",
+        "subscription_key_details": "Détails clés de votre cycle de facturation actuel",
+        "auto_renew": "Renouvellement automatique",
+        "next_billing_date": "Prochaine date de facturation",
+        "current_period": "Période actuelle",
+        "subscription_reference": "Référence d’abonnement",
+        "no_active_subscription_title": "Aucun abonnement actif trouvé.",
+        "no_active_subscription_text": "Démarrez un forfait depuis la fenêtre de tarification ci-dessus pour débloquer des fonctionnalités avancées.",
+        "billing_history": "Historique de facturation",
+        "download_receipts": "Téléchargez les reçus et consultez les débits précédents",
+        "export_csv": "Exporter en CSV",
+        "date": "Date",
+        "type": "Type",
+        "amount": "Montant",
+        "period": "Période",
+        "reference": "Référence",
+        "no_transactions_title": "Aucune transaction de facturation pour le moment",
+        "no_transactions_text": "Passez à un forfait supérieur pour commencer à générer des factures et des enregistrements de paiement.",
+        "more_transactions_coming_soon": "D’autres transactions sont disponibles. La pagination via l’API arrive bientôt.",
+        "billing_history_navigation": "Navigation de l’historique de facturation",
+        "download_receipt": "Télécharger le reçu",
+        "upgrade_your_plan": "Passez à un forfait supérieur",
+        "choose_best_plan": "Choisissez le meilleur forfait pour vos besoins professionnels.",
+        "lose_access_right_away": "Perdre l’accès immédiatement",
+        "keep_access_until_period_ends": "Conserver l’accès jusqu’à la fin de la période en cours",
+        "refund_reason_optional": "Raison du remboursement (optionnel) :",
+        "sure_request_refund": "Êtes-vous sûr de vouloir demander un remboursement ?",
+        "will_cancel_subscription": "Cela annulera votre abonnement",
+        "moved_to_free": "Vous serez basculé sur le forfait gratuit",
+        "refund_processing_days": "Le traitement du remboursement peut prendre 5 à 10 jours ouvrés",
+        "status_pages": "Pages de statut",
+        "actions": {
+            "purchase_upgrade": "Acheter / Passer à un forfait supérieur",
+            "extend_trial_plus_7_days": "Prolonger l’essai (+7 jours)",
+            "cancel_trial": "Annuler l’essai",
+            "upgrade_now": "Mettre à niveau maintenant",
+            "request_refund": "Demander un remboursement",
+            "upgrade_plan": "Mettre à niveau le forfait",
+            "change_plan": "Changer de forfait",
+            "cancel_subscription": "Annuler l’abonnement",
+            "explore_plans": "Découvrir les forfaits",
+            "load_more": "Charger plus"
+        },
+        "trial": {
+            "exploring_prefix": "Vous explorez le",
+            "exploring_suffix": "forfait gratuitement.",
+            "days": "jours",
+            "remaining": "restants",
+            "ends_soon": "L’essai se termine bientôt",
+            "first_charge_on": "Premier débit le",
+            "cancel_anytime_no_charge": "Annulez quand vous voulez — sans frais",
+            "cancel_anytime_before_ends_no_charge": "Annulez à tout moment avant la fin de l’essai — sans frais",
+            "badge_label": "Essai",
+            "days_left": "jours restants"
+        },
+        "grace": {
+            "your_trial_prefix": "Votre essai du",
+            "your_trial_suffix": "forfait est terminé.",
+            "upgrade_within_prefix": "Mettez à niveau sous",
+            "upgrade_within_suffix": "pour conserver les fonctionnalités premium."
+        },
+        "refund": {
+            "not_satisfied_full": "Pas satisfait ? Vous pouvez demander un remboursement complet dans les 15 jours suivant votre premier débit.",
+            "remaining_to_request": "restants pour demander un remboursement"
+        },
+        "usage": {
+            "total_published_status_pages": "Total des pages de statut publiées dans votre espace de travail.",
+            "monitors_busiest_help": "Nombre de moniteurs sur votre page de statut la plus active.",
+            "active_subscribers_help": "Abonnés actifs sur toutes les pages."
+        },
+        "transaction_type": {
+            "charge": "Paiement",
+            "refund": "Remboursement",
+            "renewal": "Renouvellement"
+        },
+        "status": {
+            "paid": "Payé",
+            "succeeded": "Réussi",
+            "processed": "Traité",
+            "failed": "Échoué",
+            "refunded": "Remboursé",
+            "pending": "En attente"
+        },
+        "swal": {
+            "processing_title": "Traitement...",
+            "trial_plan_not_found": "Forfait d’essai introuvable. Veuillez actualiser et réessayer.",
+            "extend_trial": {
+                "title": "Prolonger l’essai",
+                "text": "Souhaitez-vous vraiment prolonger votre essai de 7 jours ? Cela n’est possible qu’une seule fois par essai.",
+                "confirm": "Oui, prolonger",
+                "processing": "Prolongation de l’essai",
+                "action": "Prolongation de l’essai...",
+                "success": "Essai prolongé avec succès ! Votre essai a été prolongé de 7 jours.",
+                "failed_prefix": "Impossible de prolonger l’essai : ",
+                "error_try_again": "Une erreur s’est produite lors de la prolongation. Veuillez réessayer."
+            },
+            "cancel_trial": {
+                "title": "Annuler l’essai",
+                "html": "Souhaitez-vous vraiment annuler votre essai ?<br><br><small class=\"text-muted\">Vous serez rétabli sur le forfait gratuit sans frais.</small>",
+                "confirm": "Oui, annuler",
+                "cancel": "Conserver l’essai",
+                "processing": "Annulation de l’essai",
+                "action": "Annulation de l’essai...",
+                "cancelled_title": "Essai annulé",
+                "cancelled_text": "Essai annulé avec succès !",
+                "failed_prefix": "Impossible d’annuler l’essai : ",
+                "error_try_again": "Une erreur s’est produite lors de l’annulation. Veuillez réessayer."
+            },
+            "cancel_internal_trial": {
+                "html": "Souhaitez-vous vraiment annuler votre essai ?<br><br><small class=\"text-muted\">Vous serez immédiatement rétabli sur le forfait gratuit.</small>"
+            },
+            "cancel_subscription": {
+                "title": "Annuler l’abonnement",
+                "text": "Comment souhaitez-vous annuler votre abonnement ?",
+                "immediate": "Annuler immédiatement",
+                "at_period_end": "Annuler en fin de période",
+                "keep": "Conserver l’abonnement",
+                "immediate_heading": "Annulation immédiate :",
+                "period_end_heading": "Annulation en fin de période :",
+                "no_refund": "Aucun remboursement pour la période restante",
+                "no_future_charges": "Aucun débit futur",
+                "processing_immediate": "Annulation immédiate de l’abonnement",
+                "processing_period_end": "Planification de l’annulation en fin de période",
+                "action_immediate": "Annulation de l’abonnement...",
+                "action_period_end": "Planification de l’annulation...",
+                "success_immediate": "Abonnement annulé immédiatement. Vous avez été basculé sur le forfait gratuit.",
+                "success_period_end": "L’abonnement sera annulé à la fin de votre période de facturation. Vous conservez l’accès jusque-là.",
+                "failed_prefix": "Impossible d’annuler l’abonnement : ",
+                "error_try_again_support": "Une erreur s’est produite. Veuillez réessayer ou contacter le support."
+            },
+            "refund": {
+                "request_title": "Demander un remboursement",
+                "reason_placeholder": "Veuillez nous indiquer pourquoi vous demandez un remboursement...",
+                "payment_id_label": "ID de paiement :",
+                "payment_id_placeholder": "À trouver dans l’historique des transactions ci-dessus",
+                "payment_id_help": "Vous pouvez le trouver dans le tableau d’historique de facturation ci-dessus",
+                "payment_id_required": "L’ID de paiement est requis",
+                "submit": "Demander un remboursement",
+                "confirm_title": "Confirmer le remboursement",
+                "please_note": "Veuillez noter :",
+                "confirm": "Oui, traiter le remboursement",
+                "submitting": "Envoi de la demande de remboursement",
+                "action": "Envoi de la demande de remboursement...",
+                "processed_title": "Remboursement traité !",
+                "processed_text": "Remboursement traité avec succès !",
+                "failed_prefix": "Impossible de traiter le remboursement : ",
+                "error_contact_support": "Une erreur s’est produite lors du remboursement. Veuillez contacter le support."
+            },
+            "no_subscription": {
+                "title": "Aucun abonnement",
+                "text": "Aucun abonnement trouvé. Veuillez contacter le support."
+            }
+        }
+    },
+    "misc": {
+        "language_names": {
+            "english": "🇺🇸 English",
+            "spanish": "🇪🇸 Español",
+            "portuguese_br": "🇧🇷 Português (Brasil)",
+            "french": "🇫🇷 Français",
+            "german": "🇩🇪 Deutsch",
+            "serbian": "🇷🇸 Српски",
+            "arabic": "🇸🇦 العربية"
+        }
+    },
+    "common": {
+        "error": "Erreur",
+        "info": "Info",
+        "ok": "OK",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "close": "Fermer",
+        "edit": "Modifier",
+        "remove": "Supprimer",
+        "create": "Créer",
+        "email": "E-mail",
+        "resend": "Renvoyer",
+        "unlink": "Dissocier",
+        "prev": "Précédent",
+        "next": "Suivant",
+        "name": "Nom",
+        "status": "Statut",
+        "url": "URL",
+        "actions": "Actions",
+        "message": "Message",
+        "password": "Mot de passe",
+        "save_changes": "Enregistrer les modifications",
+        "action": "Action",
+        "yes": "Oui",
+        "please_enter_value": "Veuillez saisir une valeur pour confirmer.",
+        "please_try_again": "Veuillez réessayer."
+    },
+    "dashboard": {
+        "no_active_incidents_help": "Aucun incident actif. Continuez — ajoutez un moniteur ou partagez une page de statut.",
+        "badge_monitors": "Moniteurs :",
+        "badge_status_pages": "Pages de statut :",
+        "badge_uptime_30d": "Disponibilité (30 j) :",
+        "update_incident": "Mettre à jour l'incident",
+        "add_first_monitor": "Ajoutez votre premier moniteur",
+        "get_started": "Bien démarrer",
+        "no_recent_activity": "Aucune activité récente",
+        "onboarding_complete": "✅ Onboarding terminé — tout est prêt !"
+    },
+    "analytics": {
+        "exclude_maintenance": "Exclure les fenêtres de maintenance",
+        "show_downtime_only": "Afficher uniquement les pannes",
+        "manage_share_tokens": "Gérer les jetons de partage",
+        "tokens": {
+            "share_tokens": "Jetons de partage",
+            "subtitle": "Gérez les jetons pour partager vos analyses avec des parties prenantes (accès en lecture seule)",
+            "active_tokens": "Jetons actifs",
+            "new_token": "Nouveau jeton",
+            "read_only": "Lecture seule",
+            "usage": "Utilisation",
+            "copy_link": "Copier le lien",
+            "empty": "Aucun jeton actif. Créez-en un pour commencer à partager les analyses.",
+            "create_title": "Créer un nouveau jeton de partage",
+            "expiry_days": "Expiration (jours)",
+            "expiry_placeholder": "0 = Jamais",
+            "expiry_help": "Laissez vide ou 0 pour les jetons qui n'expirent jamais",
+            "read_only_help": "Lecture seule (les parties prenantes peuvent voir, pas modifier)",
+            "create_cta": "Créer le jeton",
+            "revoke_title": "Révoquer le jeton ?",
+            "revoke_text": "Toute personne l'utilisant perdra l'accès immédiatement.",
+            "revoke_confirm": "Révoquer",
+            "revoking": "Révocation du jeton...",
+            "revoked": "Jeton révoqué",
+            "failed_revoke": "Échec de la révocation du jeton",
+            "error_revoke": "Erreur lors de la révocation du jeton. Veuillez réessayer.",
+            "creating": "Création du jeton...",
+            "created": "Jeton créé",
+            "share_this_link": "Partagez ce lien :",
+            "close": "Fermer",
+            "link_copied": "Lien copié",
+            "copy_failed": "Copie échouée",
+            "copy_failed_help": "Veuillez copier le lien manuellement depuis la boîte de dialogue.",
+            "failed_create": "Échec de la création du jeton",
+            "error_create": "Erreur lors de la création du jeton. Veuillez réessayer.",
+            "copy_manual": "Veuillez copier manuellement :"
+        },
+        "config": {
+            "select_service_to_remove": "Veuillez sélectionner un service à supprimer.",
+            "remove_confirm": {
+                "title": "Supprimer l’intégration ?",
+                "body": "Êtes-vous sûr de vouloir supprimer cette intégration ?",
+                "confirm": "Supprimer",
+                "fallback": "Êtes-vous sûr de vouloir supprimer cette intégration ?"
+            },
+            "removing": "Suppression...",
+            "removed": "Supprimé !",
+            "remove_failed": "Échec de la suppression"
+        },
+        "historical": {
+            "select_status_page": {
+                "title": "Select a status page",
+                "continue": "Continue",
+                "refresh": "Refresh",
+                "export": "Export",
+                "body_continue": "Pick a status page to continue.",
+                "body_refresh": "Pick a status page, click Go, then refresh.",
+                "body_export": "Pick a status page to export."
+            },
+            "forbidden": {
+                "default_message": "Access to historical uptime is not permitted for your role.",
+                "title": "Access denied.",
+                "guidance": "Ask the status page owner to enable your team role in Status Page Settings → Access → Historical Uptime Access (Teams).",
+                "no_chart": "No chart available due to restricted access."
+            },
+            "retention": {
+                "badge_days": "Retention: {{days}} days",
+                "badge_unlimited": "Retention: Unlimited",
+                "start_date_clamped": "Start date clamped to {{date}} due to retention limits."
+            },
+            "table": {
+                "no_data": "No data for this range.",
+                "no_monitors": "No monitors found."
+            },
+            "monitors": {
+                "all_first_5": "All monitors (first 5)",
+                "monitor_fallback": "Monitor {{id}}"
+            },
+            "load_failed": {
+                "title": "Could not load data"
+            },
+            "network_error": {
+                "title": "Network error",
+                "text": "Failed to load data. Please check your connection and try again."
+            }
+        }
+    },
+    "account_settings": {
+        "nav": {
+            "account": "Compte",
+            "security": "Sécurité",
+            "billing_plans": "Facturation & forfaits",
+            "notifications": "Notifications",
+            "connections": "Connexions",
+            "data_export": "Export de données",
+            "close_account": "Fermer le compte",
+            "support": "Support"
+        }
+    },
+    "support": {
+        "title": "Support",
+        "header": {
+            "title": "Aide & support",
+            "subtitle": "Choisissez comment vous souhaitez contacter notre équipe support. Nous sommes là pour vous aider !"
+        },
+        "cards": {
+            "live_chat": {
+                "title": "Chat en direct",
+                "text": "Obtenez de l'aide instantanément via le chat en direct avec notre équipe support.",
+                "cta": "Démarrer le chat"
+            },
+            "telegram": {
+                "text": "Contactez-nous via Telegram pour une assistance urgente.",
+                "cta": "Rejoindre Telegram"
+            },
+            "email": {
+                "title": "E-mail",
+                "text": "Envoyez-nous un e-mail et nous vous répondrons sous 24 heures.",
+                "cta": "Envoyer un e-mail"
+            }
+        },
+        "community": {
+            "text": "Ou rejoignez notre communauté Discord pour du support entre utilisateurs, des mises à jour et des échanges.",
+            "discord": {
+                "aria": "Rejoignez notre Discord — obtenez de l'aide et discutez avec l'équipe",
+                "title": "Discuter avec l'équipe",
+                "subtitle": "Obtenir de l'aide sur Discord"
+            },
+            "slack": {
+                "aria": "Rejoignez notre Slack — obtenez de l'aide et discutez avec l'équipe",
+                "title": "Rejoindre Slack",
+                "subtitle": "Obtenir de l'aide sur Slack"
+            }
+        },
+        "footer": {
+            "title": "Besoin d'une assistance immédiate ?",
+            "text": "Pour les sujets urgents, le chat en direct est le moyen le plus rapide d'obtenir de l'aide. Notre temps de réponse moyen est inférieur à 5 minutes pendant les heures ouvrées."
+        },
+        "email": {
+            "fallback_subject": "Demande de support"
+        }
+    },
+    "health": {
+        "operational": "Opérationnel",
+        "degraded": "Dégradé",
+        "partial_outage": "Panne partielle",
+        "major_outage": "Panne majeure",
+        "maintenance": "Maintenance",
+        "blocked": "Bloqué",
+        "inactive": "Inactif",
+        "down": "Hors service",
+        "unknown": "Inconnu",
+        "no_monitors": "Aucun moniteur"
+    }
+}

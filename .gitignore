@@ -1,0 +1,85 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.a
+*.o
+*.obj
+*.cover
+*.prof
+*.pb.go
+
+# Project binaries (root directory only)
+/server
+/main
+/website
+/user
+/admin
+
+# Dependency directories (remove the comment below if you use Go modules)
+/vendor/
+
+# Go workspace file
+*.code-workspace
+
+# Go workspace and module files
+Gopkg.lock
+Gopkg.toml
+go.sum
+
+# IDE/editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+*.iml
+*.ipr
+*.iws
+
+# Local environment files
+local.env
+.env
+
+# Build output
+/dist/
+/bin/*
+!/bin/scripts/
+/static/dist/
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+
+# Node modules (if any frontend JS is used)
+node_modules/
+
+# Local shiki builder artifacts
+/static/js/shiki-builder/node_modules/
+/static/js/shiki-builder/package-lock.json
+/static/js/shiki-builder/yarn.lock
+/static/js/shiki-builder/.env
+
+# Static cache
+static/cache/
+
+# Migration logs or temp files
+migrations/*.log
+migrations/*.tmp
+
+# Cache files (root level only, not internal/cache/)
+/cache/
+
+# Captcha database
+captcha.db
+
+# Temporary files
+/tmp/
+backfill_daily_aggregations
+

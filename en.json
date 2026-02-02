@@ -1,0 +1,1644 @@
+{
+    "admin": {
+        "menu": {
+            "dashboard": "Dashboard",
+            "users_admins": "Users & Admins",
+            "users": "Users",
+            "unvalidated": "Unvalidated Users",
+            "administrators": "Administrators",
+            "trials": "Trials",
+            "operations": "Operations",
+            "audit_queue": "Audit Queue",
+            "email_queue": "Email Queue",
+            "error_logs": "Error Logs",
+            "impersonation_audit": "Impersonation Audit",
+            "user_admin_audit": "User Admin Audit",
+            "monitoring_captcha": "Monitoring & Captcha",
+            "regions": "Regions",
+            "agents": "Agents",
+            "captcha_logs": "Captcha Logs",
+            "spam_keywords": "Spam Keywords",
+            "telegram_tests": "Telegram Tests",
+            "configuration": "Configuration",
+            "configuration_menu": "Configuration",
+            "notification_channels": "Notification Channels",
+            "plan_limits": "Plan Limits",
+            "onboarding_steps": "Onboarding Steps",
+            "settings": "Settings",
+            "billing_finance": "Billing & Finance",
+            "billing": "Billing",
+            "product_mappings": "Product Mappings",
+            "addons": "Add-ons",
+            "discount_promotions": "Discount & Promotions",
+            "manage": "Manage",
+            "changes": "Changes",
+            "ltd_management": "LTD Management",
+            "tools": "Tools",
+            "competitors": "Competitors",
+            "marketing": "Marketing",
+            "landing_pages": "Landing Pages",
+            "public_pages": "Public Pages",
+            "misc": "Misc",
+            "profile": "Profile",
+            "logout": "Logout"
+        }
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "operations": "Operations",
+        "tools": "Tools",
+        "configuration": "Configuration",
+        "billing_plan": "Billing & Plan",
+        "teams": "Teams",
+        "addons": "Add-ons",
+        "misc": "Misc",
+        "lifetime_deals": "Lifetime Deals",
+        "help": "Help",
+        "support": "Support",
+        "documentation": "Documentation"
+    },
+    "tools": {
+        "nav": {
+            "overview": "Overview",
+            "domain_whois": "Domain WHOIS",
+            "domain_age": "Domain Age",
+            "ssl_monitors": "SSL Certificate Monitors",
+            "dnsbl_monitors": "DNSBL Monitors",
+            "email_auth": "Email Auth Check"
+        },
+        "domain_age": {
+            "errors": {
+                "calculate_failed": "Error performing calculation"
+            }
+        }
+    },
+    "monitors": {
+        "add": {
+            "heading": "Add Monitor",
+            "create_button": "Create Monitor"
+        },
+        "edit": {
+            "heading": "Edit Monitor",
+            "update_button": "Update Monitor"
+        },
+        "back_to_list": "Back to Monitors",
+        "form": {
+            "name_label": "Monitor Name",
+            "name_placeholder": "My Website",
+            "type_label": "Monitor Type",
+            "site_check_type_label": "Check Type",
+            "domain_label": "Domain",
+            "record_type_label": "Record Type",
+            "expected_value_label": "Expected Value",
+            "site_url_label": "Site URL",
+            "api_url_label": "API URL",
+            "http_method_label": "HTTP Method",
+            "api_mode_label": "Mode",
+            "api_mode_help": "Simple hides request settings and response assertions. Expected Result stays available.",
+            "expected_result_label": "Expected Result",
+            "expected_result_help": "Optional. If provided, the response body must contain this text (and status must be 2xx/3xx).",
+            "query_params_label": "Query Parameters",
+            "request_section_title": "Request",
+            "request_section_help": "These settings are sent to the target. They are not automatically validated.",
+            "request_query_params_label": "Request query parameters",
+            "request_query_params_help": "Appended to the request URL. Not validated unless you add response assertions.",
+            "request_headers_label": "Request headers",
+            "request_headers_help": "Sent with the request. Not validated unless you add response assertions.",
+            "response_section_title": "Response assertions",
+            "response_section_help": "These rules decide UP/DOWN.",
+            "default_success_hint": "Default check: 2xx/3xx status code is considered UP.",
+            "response_assertions_label": "Advanced expected conditions",
+            "response_assertions_help": "Optional. Leave empty to use the default (2xx/3xx) or the simple Expected Result.",
+            "integer_value_label": "Integer Value",
+            "url_label": "URL",
+            "url_placeholder": "https://example.com",
+            "method_label": "Method",
+            "add_query_param_button": "Add Query Parameter",
+            "add_header_button": "Add Header",
+            "headers_label": "Headers",
+            "body_label": "Body",
+            "auth_type_label": "Authentication Type",
+            "username_label": "Username",
+            "password_label": "Password",
+            "token_label": "Token",
+            "interval_label": "Check Interval",
+            "timeout_label": "Timeout",
+            "retries_label": "Retries",
+            "locations_label": "Monitoring Locations",
+            "tags_label": "Tags",
+            "component_label": "Component",
+            "no_component": "No Component",
+            "component_help": "Select which component this monitor belongs to on your status page."
+        },
+        "type": {
+            "site": "Site Monitor",
+            "api": "API Monitor",
+            "dns": "DNS Monitor",
+            "database": "Database Monitor"
+        },
+        "check_type": {
+            "site_is_up": "Site is up",
+            "http_code_equals": "HTTP code equals",
+            "response_contains": "Response contains",
+            "response_header_equals": "Response header equals",
+            "response_time_equals": "Response time equals (ms)",
+            "response_time_lt": "Response time less than (ms)",
+            "response_time_gt": "Response time greater than (ms)",
+            "response_time_under": "Response time under",
+            "ssl_valid": "SSL certificate valid"
+        },
+        "auth_type": {
+            "none": "None",
+            "basic": "Basic Auth",
+            "bearer": "Bearer Token",
+            "api_key": "API Key"
+        },
+        "dns_record": {
+            "a": "A (IPv4 Address)",
+            "aaaa": "AAAA (IPv6 Address)",
+            "txt": "TXT (Text Record)",
+            "ns": "NS (Name Server)",
+            "cname": "CNAME (Canonical Name)",
+            "ptr": "PTR (Pointer)",
+            "srv": "SRV (Service)"
+        },
+        "nav": {
+            "monitors": "Monitors",
+            "add_monitor": "Add Monitor",
+            "monitor_alerts": "Monitor Alerts",
+            "monitor_locations": "Monitor Locations",
+            "edit_monitor": "Edit Monitor",
+            "alerts": "Alerts",
+            "sla_report": "SLA Report"
+        },
+        "table": {
+            "created_at": "Created At",
+            "down_for": "Down for"
+        }
+    },
+    "status_pages": {
+        "view_status_page": "View your status page",
+        "components_groups": "Components & Groups",
+        "organize_help": "Organize your status page with components and optional groups",
+        "how_it_works_intro": "How it works:",
+        "components_explanation": "Components are the services/monitors you want to track (e.g., \"API Server\", \"Website\")",
+        "groups_explanation": "Groups help organize components into categories (e.g., \"Backend Services\", \"Infrastructure\")",
+        "groups_optional": "Groups are optional – components without groups will display separately",
+        "step1_create_groups": "Step 1: Create Groups (Optional)",
+        "group_placeholder": "e.g., Backend Services, Infrastructure, Frontend...",
+        "add_group": "Add Group",
+        "no_groups_yet": "No groups yet. Groups help organize components visually.",
+        "step2_add_components": "Step 2: Add Components",
+        "component_name_required": "Component name *",
+        "component_url_placeholder": "https://example.com (optional)",
+        "component_example": "e.g., API Server",
+        "link_to_docs": "Link to service docs",
+        "no_group_option": "— No Group —",
+        "optional_grouping": "Optional grouping",
+        "step3_manage_components": "Step 3: Manage Your Components",
+        "table_component": "Component",
+        "table_group": "Group",
+        "drag_to_reorder": "Drag to reorder",
+        "no_url": "No URL",
+        "edit_component": "Edit component",
+        "remove_component": "Remove component",
+        "auto_save_help": "Changes are saved automatically. You can edit component names and URLs inline, change groups, and reorder items.",
+        "favicon_light_theme": "Used in light mode",
+        "favicon_dark_theme": "Used in dark mode",
+        "dependencies_section": "Dependencies",
+        "dependencies_help": "Show third-party provider status boxes above your component groups.",
+        "provider_column": "Provider",
+        "global_column": "Global",
+        "use_on_page_column": "Use on page",
+        "affects_overall_column": "Affects overall",
+        "order_column": "Order",
+        "monitors_section": "Monitors",
+        "attach_monitors_help": "Attach monitors to track uptime",
+        "favicon_enable": "Enable",
+        "upgrade_required": "Upgrade Required",
+        "heading": {
+            "components": "Components"
+        },
+        "form": {
+            "status_page_label": "Status Page",
+            "slug": "Slug",
+            "location_help": "Pick where this component lives."
+        },
+        "nav": {
+            "status_pages": "Status Pages",
+            "new_status_page": "New Status Page",
+            "components": "Components",
+            "embeds": "Embeds",
+            "edit_status_page": "Edit Status Page"
+        },
+        "table": {
+            "active_incidents": "Active incidents",
+            "affected_monitors": "Affected monitors",
+            "latest_activity": "Latest activity"
+        },
+        "settings": {
+            "custom_domain": {
+                "remove_confirm": {
+                    "title": "Remove Custom Domain?",
+                    "text": "This will remove your custom domain configuration. You can always set it up again later.",
+                    "confirm": "Yes, remove it"
+                },
+                "actions": {
+                    "removing": "Removing custom domain...",
+                    "setting_primary": "Setting primary domain..."
+                },
+                "remove_success": {
+                    "title": "Removed!",
+                    "text": "Custom domain has been removed and default domain set as primary."
+                },
+                "errors": {
+                    "remove_failed": "Failed to remove custom domain",
+                    "set_primary_failed": "Failed to set primary domain"
+                },
+                "ssl": {
+                    "updated_reload": "SSL status updated. Reloading page...",
+                    "failed": "Failed to check SSL"
+                },
+                "set_primary_confirm": {
+                    "title": "Set as Primary Domain?",
+                    "html": "This will make <strong>__DOMAIN__</strong> your primary domain.<br><small class=\"text-muted\">Your status page will be accessible at this domain by default.</small>",
+                    "confirm": "Yes, set as primary"
+                },
+                "set_primary_success": {
+                    "text": "Primary domain set successfully!"
+                },
+                "set_primary_suggest": {
+                    "title": "Set as Primary Domain?",
+                    "html": "Would you like to set <strong>__DOMAIN__</strong> as your primary domain?<br><small class=\"text-muted\">Your status page will be accessible at this domain by default.</small>"
+                },
+                "set_primary_placeholder": {
+                    "text": "Primary domain will be set once implemented."
+                },
+                "cname": {
+                    "checking_dns": "Checking DNS…",
+                    "ok": "CNAME is correctly configured. SSL provisioning will begin automatically.",
+                    "not_found": "No CNAME found yet. Expected <code>__EXPECTED__</code>. DNS may take 5–30 minutes to propagate.",
+                    "mismatch": "CNAME points to <code>__DETECTED__</code>, but expected <code>__EXPECTED__</code>. Update your DNS and try again.",
+                    "error": "Error checking DNS"
+                },
+                "label": "Custom Domain"
+            },
+            "save_failed": "Failed to save settings. Please try again.",
+            "tabs": {
+                "access": "Access",
+                "ownership_transfer": "Ownership Transfer",
+                "misc": "Misc."
+            }
+        },
+        "custom_domain": {
+            "verify": {
+                "verified_title": "Domain Verified!",
+                "verified_body": "Your custom domain has been successfully verified and activated.",
+                "verified_fallback": "Domain verified successfully! Page will reload.",
+                "active_message": "Your custom domain is now active",
+                "pending_title": "Still Pending",
+                "pending_body": "DNS record not found yet. We'll continue checking and notify you when verified.",
+                "verify_failed": "An error occurred during verification. Please try again.",
+                "verify_failed_with_message": "An error occurred during verification: {{message}}",
+                "check_failed": "Failed to check verification status. Please try again."
+            }
+        },
+        "delete": {
+            "confirm": {
+                "title": "Delete status page?",
+                "body": "This action cannot be undone.\nAll components will be deleted and incidents removed. Monitors will be detached.\nThe slug will be blocked for 30 days.",
+                "confirm": "Yes, delete it"
+            },
+            "success": {
+                "title": "Deleted",
+                "body": "Status page deleted successfully."
+            },
+            "errors": {
+                "failed": "Failed to delete status page."
+            }
+        },
+        "palette": {
+            "remove_confirm": {
+                "title": "Remove custom palette?",
+                "body": "This will reset all colors to defaults.",
+                "confirm": "Remove",
+                "fallback": "Are you sure you want to remove the custom color palette? This will reset all colors to defaults."
+            },
+            "removed": "Palette removed!",
+            "remove_failed": "Failed to remove"
+        },
+        "private_pages_unavailable": "Private pages are not available in your current plan.",
+        "password_protected": "Your status page is protected",
+        "change_password": "Change Password",
+        "remove_password": "Remove Password",
+        "password_disabled_msg": "Password protection is disabled. Toggle the switch above to enable it.",
+        "manage_custom_domain": "Manage Custom Domain",
+        "setup_custom_domain": "Set up Custom Domain",
+        "require_password_help": "Require a password to access your status page",
+        "enable_password_protection": "to enable password protection.",
+        "password_placeholder": "Enter a password to protect this page",
+        "configure_custom_domain": "Configure Custom Domain",
+        "custom_domain_upgrade": "Custom Domain (Upgrade to unlock)",
+        "custom_domain_unavailable": "Custom domain is not available in your current plan.",
+        "advanced_customization": "to access advanced customization, automation, and branding options.",
+        "primary_domain_help": "Choose the main domain where your status page is accessible",
+        "choose_primary_domain": "Choose Primary Domain",
+        "current_domain": "✓ Current",
+        "select_primary_help": "Select the primary domain for your status page. Visitors will be redirected to this domain.",
+        "historical_uptime_help": "Choose which team roles can view historical uptime in the dashboard",
+        "owner_always_access": "The status page owner always has access. By default, only team",
+        "and_roles": "and",
+        "can_view_historical": "roles can view historical uptime.",
+        "allow_subscribe_email": "Allow visitors to subscribe via email",
+        "subscribe_disabled_help": "When disabled, the public \"Subscribe\" button is hidden and the subscribe API is blocked for this status page.",
+        "total_subscribers": "Total Subscribers",
+        "delete_selected": "Delete Selected",
+        "export_csv": "Export as CSV",
+        "export_json": "Export as JSON",
+        "search_by_email": "Search by email...",
+        "select_all": "Select All",
+        "email_column": "Email",
+        "no_subscribers": "No subscribers yet",
+        "transfer_pending": "Transfer Pending",
+        "transfer_pending_for": "A transfer request is currently pending for",
+        "request_expires": "The request expires on",
+        "recipient_must_accept": "The recipient must accept the transfer via email before it takes effect",
+        "send_transfer_invitation": "Send transfer invitation",
+        "status_availability_help": "Control overall status page availability",
+        "user_experience_help": "Enhance how users interact with your status page",
+        "auto_reload_help": "Automatically refresh status page data every minute",
+        "upgrade_pro_reload": "🔄 <a href=\"/user/billing\" class=\"text-decoration-none\">Upgrade to Pro</a> to enable auto-reload",
+        "showcase_directory": "Showcase Directory",
+        "showcase_help": "Feature your status page in our public showcase",
+        "showcase_description": "Get featured in our <a href=\"/showcase\" target=\"_blank\">public showcase</a> to demonstrate your commitment to transparency and reliability. This is a great way to build trust with potential customers.",
+        "manage_showcase": "Manage Showcase Settings",
+        "delete_permanent": "Deleting your status page is <u>permanent</u>",
+        "slug_blocked": "The slug will be blocked from reuse for 30 days",
+        "confirm_url": "To confirm, type the full URL of your status page:",
+        "type_url_helper": "Type the full URL to enable deletion.",
+        "must_enter_exact": "You must enter",
+        "exactly_enable": "exactly to enable deletion.",
+        "delete_this_page": "Delete this status page"
+    },
+    "components": {
+        "form": {
+            "label": "Component",
+            "select_placeholder": "-- Select a component --",
+            "no_components_help": "No components yet on this status page. Create one below.",
+            "create_new": "Create a new Component",
+            "new_name_label": "New Component Name",
+            "url_optional_label": "Component URL (optional)"
+        }
+    },
+    "incidents": {
+        "nav": {
+            "incidents": "Incidents",
+            "new_incident": "New Incident",
+            "templates": "Templates"
+        },
+        "templates": {
+            "delete_confirm": {
+                "title": "Delete template?",
+                "text": "Are you sure you want to delete this template? This action cannot be undone.",
+                "confirm": "Delete"
+            },
+            "actions": {
+                "deleting": "Deleting template...",
+                "saving": "Saving template..."
+            },
+            "errors": {
+                "delete_failed": "Failed to delete template",
+                "delete_failed_try_again": "Failed to delete template. Please try again.",
+                "save_failed": "Failed to save template",
+                "save_failed_try_again": "Failed to save template. Please try again."
+            }
+        },
+        "view": {
+            "archived_reason_label": "Archive reason:"
+        }
+    },
+    "notification_channels": {
+        "heading": "Notification Channels",
+        "subtitle": "Configure notification channels once and use them across multiple status pages",
+        "add_channel": "Add Channel",
+        "empty_title": "No Notification Channels Configured",
+        "empty_body": "Create your first notification channel to receive alerts about your status pages.",
+        "empty_cta": "Add Your First Channel",
+        "loading": "Loading notification channels...",
+        "add_modal_title": "Add Notification Channel",
+        "edit_modal_title": "Edit Notification Channel",
+        "save_channel": "Save Channel",
+        "channel_name_label": "Channel Name",
+        "channel_name_help": "A friendly name to identify this channel",
+        "channel_type_label": "Channel Type",
+        "delete_modal_title": "Delete Channel",
+        "delete_confirm_prefix": "Are you sure you want to delete",
+        "delete_confirm_suffix": "?",
+        "delete_confirm_button": "Delete Channel",
+        "delete_used_by_warning_singular": "This channel is used by 1 status page.",
+        "delete_used_by_warning_plural": "This channel is used by {{count}} status pages.",
+        "cannot_undo": "This action cannot be undone. The channel will be unlinked from all status pages.",
+        "not_linked": "Not linked to any status page",
+        "used_by": "Used by:",
+        "telegram_channel_id_help": "Right-click channel → View channel details → Copy Channel ID",
+        "types": {
+            "discord": "Discord",
+            "webhook": "Webhook",
+            "slack": "Slack",
+            "telegram": "Telegram",
+            "email": "Email",
+            "ms_teams": "MS Teams",
+            "pushover": "Pushover"
+        },
+        "fields": {
+            "webhook_url": "Webhook URL",
+            "bot_token": "Bot Token",
+            "channel_id": "Channel ID",
+            "chat_id": "Chat ID",
+            "recipients": "Recipients",
+            "user_key": "User Key",
+            "api_token": "API Token"
+        },
+        "placeholders": {
+            "channel_name": "e.g., My Discord Server, Work Slack, Personal Telegram",
+            "discord_webhook_url": "https://discord.com/api/webhooks/...",
+            "slack_bot_token": "xoxb-...",
+            "slack_channel_id": "C0XXXXXXXXX",
+            "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
+            "telegram_chat_id": "-1001234567890",
+            "email_recipients": "Type email and press Enter",
+            "msteams_webhook_url": "https://outlook.office.com/webhook/...",
+            "pushover_user_key": "Your Pushover user key",
+            "pushover_api_token": "Your Pushover API token",
+            "webhook_url": "https://your-server.com/webhook",
+            "webhook_headers_json": "{\"Authorization\": \"Bearer your-token\"}"
+        },
+        "config": {
+            "discord": {
+                "heading": "Discord Configuration",
+                "how_to_create_webhook": "How to create a Discord webhook"
+            },
+            "slack": {
+                "heading": "Slack Configuration",
+                "bot_token_help": "Bot OAuth token from your Slack app"
+            },
+            "telegram": {
+                "heading": "Telegram Configuration"
+            },
+            "email": {
+                "heading": "Email Configuration",
+                "recipients_help": "Type an email address and press Enter to add. Click the × to remove."
+            },
+            "msteams": {
+                "heading": "Microsoft Teams Configuration",
+                "how_to_create_webhook": "How to create a Teams webhook"
+            },
+            "pushover": {
+                "heading": "Pushover Configuration",
+                "create_app_at": "Create an application at"
+            },
+            "webhook": {
+                "heading": "Webhook Configuration",
+                "headers_help": "Optional custom headers in JSON format"
+            }
+        },
+        "telegram": {
+            "use_our_bot": "Use Our Bot",
+            "easy_badge": "Easy",
+            "use_custom_bot": "Use Custom Bot",
+            "use_our_bot_help": "Using our bot is easier - you only need to provide your Chat ID",
+            "get_it_from": "Get it from",
+            "chat_id_help": "Use",
+            "chat_id_help_or": "or",
+            "steps": {
+                "step_1_label": "Step 1:",
+                "step_1_text": "Start a chat with our bot on Telegram",
+                "step_2_label": "Step 2:",
+                "step_2_text": "Send",
+                "step_2_text_2": "to the bot or add it to your group/channel",
+                "step_3_label": "Step 3:",
+                "step_3_text": "Get your Chat ID using",
+                "step_3_text_2": "and paste it below"
+            }
+        },
+        "email": {
+            "add_title": "Add email"
+        },
+        "actions": {
+            "verify": "Verify",
+            "test": "Test",
+            "saving": "Saving...",
+            "saving_action": "Saving notification channel...",
+            "deleting": "Deleting...",
+            "deleting_action": "Deleting notification channel...",
+            "sending_test": "Sending test notification...",
+            "sending_verification": "Sending verification email..."
+        },
+        "status": {
+            "verified": "Verified",
+            "unverified": "Unverified"
+        },
+        "validation": {
+            "name_required": "Please enter a channel name",
+            "type_required": "Please select a channel type",
+            "discord_webhook_required": "Please enter a Discord webhook URL",
+            "slack_required": "Please enter Slack bot token and channel ID",
+            "telegram_chat_id_required": "Please enter your Telegram chat ID",
+            "telegram_bot_token_required": "Please enter your custom Telegram bot token",
+            "email_recipient_required": "Please enter at least one email recipient",
+            "msteams_webhook_required": "Please enter a Microsoft Teams webhook URL",
+            "pushover_required": "Please enter Pushover user key and API token",
+            "webhook_url_required": "Please enter a webhook URL",
+            "invalid_headers_json": "Invalid JSON in custom headers",
+            "invalid_email_format": "Invalid email format: {{email}}"
+        },
+        "messages": {
+            "load_failed": "Failed to load channels",
+            "load_failed_with": "Failed to load channels: {{message}}",
+            "save_success": "Channel saved successfully",
+            "save_failed": "Failed to save channel",
+            "save_failed_with": "Failed to save channel: {{message}}",
+            "delete_success": "Channel deleted successfully",
+            "delete_failed": "Failed to delete channel",
+            "delete_failed_with": "Failed to delete channel: {{message}}",
+            "test_sent": "Test notification sent!",
+            "test_failed": "Test failed",
+            "test_failed_with": "Test failed: {{message}}",
+            "verification_sent": "Verification emails sent! Please check your inbox.",
+            "verification_failed": "Failed to send verification emails",
+            "verification_failed_with": "Failed to send verification emails: {{message}}",
+            "channel_not_found": "Channel not found",
+            "load_channel_failed_with": "Failed to load channel: {{message}}"
+        }
+    },
+    "maintenances": {
+        "nav": {
+            "maintenances": "Maintenances",
+            "schedule_maintenance": "Schedule Maintenance"
+        }
+    },
+    "heartbeats": {
+        "nav": {
+            "heartbeats": "Heartbeats"
+        },
+        "list": {
+            "heading": "Heartbeat Monitors",
+            "description": "Monitor cron jobs, scheduled tasks, and background processes",
+            "none_message": "No heartbeat monitors yet",
+            "none_help": "Create your first heartbeat monitor to start tracking cron jobs and scheduled tasks",
+            "create_first": "Create First Heartbeat"
+        },
+        "form": {
+            "status_page": "Status Page",
+            "status_page_placeholder": "Select a status page...",
+            "name": "Name",
+            "name_placeholder": "Daily Backup Job",
+            "description": "Description (Optional)",
+            "description_placeholder": "Runs every night at 2 AM",
+            "public_name_help": "Leave empty to use the internal name.",
+            "public_name_placeholder": "Daily Backup",
+            "expected_interval": "Expected Interval (seconds)",
+            "expected_interval_placeholder": "Leave empty for auto-inference",
+            "grace_period": "Grace Period (seconds)"
+        },
+        "table": {
+            "name": "Name",
+            "status": "Status",
+            "last_ping": "Last Ping",
+            "expected_interval": "Expected Interval",
+            "actions": "Actions"
+        },
+        "modal": {
+            "create_title": "Create Heartbeat Monitor",
+            "ping_help": "Use this URL to ping your heartbeat monitor from your cron job or script:",
+            "ping_url_with_name": "Ping URL: __NAME__"
+        },
+        "edit": {
+            "title": "Edit heartbeat",
+            "fields": {
+                "enabled": "Enabled",
+                "public_name": "Public name (optional)"
+            },
+            "placeholders": {
+                "name": "Heartbeat name",
+                "description": "Optional description",
+                "expected_interval": "Leave empty for auto",
+                "grace": "300",
+                "public_name": "Leave empty to use internal name"
+            }
+        },
+        "auto_infer_expected": "Auto-infer expected interval",
+        "validation": {
+            "status_page_required": "Please select a status page.",
+            "name_required": "Name is required.",
+            "expected_required_when_no_autoinfer": "Expected interval is required when auto-infer is off.",
+            "expected_positive": "Expected interval must be a positive number.",
+            "expected_positive_seconds": "Expected interval must be a positive number of seconds.",
+            "grace_positive": "Grace period must be a positive number.",
+            "grace_positive_seconds": "Grace period must be a positive number of seconds.",
+            "fix_highlighted_fields": "Please fix the highlighted fields."
+        },
+        "actions": {
+            "creating": "Creating heartbeat...",
+            "updating": "Updating heartbeat...",
+            "deleting": "Deleting heartbeat..."
+        },
+        "errors": {
+            "load_failed": "Failed to load heartbeat.",
+            "update_failed": "Failed to update heartbeat.",
+            "delete_failed": "Failed to delete heartbeat.",
+            "create_failed": "Failed to create heartbeat monitor.",
+            "create_failed_with": "Failed to create heartbeat: __ERROR__",
+            "validation_failed": "Validation failed."
+        },
+        "toast": {
+            "copied_to_clipboard": "Copied to clipboard",
+            "updated": "Heartbeat updated",
+            "deleted": "Heartbeat deleted"
+        },
+        "delete_confirm": {
+            "title": "Delete heartbeat?",
+            "text": "This will permanently delete \"__NAME__\" and its ping history.",
+            "confirm": "Delete"
+        },
+        "status": {
+            "healthy": "Healthy",
+            "missed": "Missed",
+            "pending": "Pending",
+            "paused": "Paused"
+        },
+        "cta": {
+            "create": "Create Heartbeat"
+        },
+        "info": {
+            "title": "How Heartbeat Monitors Work",
+            "description": "Unlike regular monitors that check your services, heartbeat monitors wait for your cron jobs or scripts to ping them. If within the expected interval + grace period no ping is received, you'll be notified.",
+            "learn_more": "Learn More"
+        },
+        "never": "Never",
+        "auto_infer": "Auto-infer"
+    },
+    "teams": {
+        "list": {
+            "my_teams": "My Teams",
+            "shared_with_me": "Shared with me"
+        },
+        "roles": {
+            "owner": "Owner",
+            "admin": "Admin",
+            "editor": "Editor",
+            "viewer": "Viewer"
+        },
+        "table": {
+            "name": "Name",
+            "role": "Role",
+            "members": "Members",
+            "created": "Created"
+        },
+        "stats": {
+            "total_monitors": "Total Monitors",
+            "status_pages": "Status Pages",
+            "team_members": "Team Members"
+        },
+        "actions": {
+            "create_team": "Create Team",
+            "invite_member": "Invite Member",
+            "leave_team": "Leave Team",
+            "delete_team": "Delete Team"
+        },
+        "invitations": {
+            "pending": "Pending Invitations",
+            "accept": "Accept",
+            "decline": "Decline",
+            "accept_success": {
+                "title": "Invitation Accepted",
+                "text": "You have joined the team successfully."
+            },
+            "decline_confirm": {
+                "title": "Decline Invitation?",
+                "text": "Are you sure you want to decline this team invitation?",
+                "confirm": "Yes, decline"
+            },
+            "progress": {
+                "declining": "Declining invitation…"
+            },
+            "declined": {
+                "title": "Invitation Declined",
+                "text": "The invitation has been declined."
+            },
+            "resent": {
+                "title": "Invitation Resent",
+                "text": "Invitation to {{email}} was resent."
+            },
+            "errors": {
+                "accept_failed": "Failed to accept invitation",
+                "decline_failed": "Failed to decline invitation"
+            }
+        },
+        "delete": {
+            "confirm": {
+                "title": "Delete Team?",
+                "text": "Are you sure you want to delete \"{{name}}\"? This will remove all team members and unlink all status pages.",
+                "confirm": "Yes, delete it"
+            },
+            "progress": {
+                "deleting": "Deleting team…"
+            },
+            "success": {
+                "title": "Team Deleted",
+                "text": "The team has been deleted successfully."
+            },
+            "errors": {
+                "failed": "Failed to delete team"
+            }
+        },
+        "leave": {
+            "confirm": {
+                "title": "Leave Team?",
+                "text": "Are you sure you want to leave \"{{name}}\"?",
+                "confirm": "Yes, leave"
+            },
+            "coming_soon": {
+                "title": "Feature Coming Soon",
+                "text": "Leaving teams will be available soon."
+            }
+        },
+        "limits": {
+            "reached": "Team limit reached",
+            "upgrade_message": "Upgrade your plan to create more teams",
+            "usage": "Teams Usage:",
+            "seats_usage": "Seats Used:",
+            "seats_per_team": "Seats per Team:",
+            "unlimited": "Unlimited",
+            "members": "members",
+            "seats_reached": "You've reached your seat limit for this team. Remove a member or upgrade your plan.",
+            "seats_note": "Seats count invited members and pending invitations. The subscription owner doesn't count.",
+            "seats_note_brief": "Subscription owner doesn't count toward the seat limit.",
+            "check_billing": "Check billing"
+        },
+        "nav": {
+            "teams": "Teams",
+            "my_teams": "My Teams",
+            "shared_teams": "Shared Teams",
+            "overview": "Overview",
+            "audit_logs": "Audit Logs"
+        },
+        "audit_logs": {
+            "no_teams": {
+                "title": "No Teams",
+                "text": "You must be an owner or admin of a team to view audit logs."
+            },
+            "selector": {
+                "title": "Select Team",
+                "text": "Choose a team to view audit logs for:",
+                "placeholder": "Select a team",
+                "confirm": "View Logs",
+                "validation": "Please select a team"
+            },
+            "errors": {
+                "load_failed": "Failed to load teams. Please try again."
+            }
+        },
+        "detail": {
+            "pending": "Pending Invitations",
+            "table": {
+                "member": "Member",
+                "joined": "Joined",
+                "sent": "Sent",
+                "status_page": "Status Page",
+                "slug": "Slug"
+            },
+            "labels": {
+                "active": "Active",
+                "seat_limit_reached": "Seat limit reached"
+            },
+            "sidebar": {
+                "your_role": "Your Role",
+                "role_permissions": "Role Permissions",
+                "permissions": {
+                    "owner": "Full control over team settings, members, and linked status pages.",
+                    "admin": "Editor permissions plus access to status page settings.",
+                    "editor": "Create and update incidents, maintenances on linked status pages.",
+                    "viewer": "Read-only access to view team and status page data."
+                }
+            },
+            "invite": {
+                "form": {
+                    "email_label": "Email Address",
+                    "email_placeholder": "colleague@example.com",
+                    "role_label": "Role",
+                    "role_option_admin": "Admin - Editor + status page settings",
+                    "role_option_editor": "Editor - Can create/update incidents",
+                    "role_option_viewer": "Viewer - Read-only access"
+                },
+                "actions": {
+                    "send_invitation": "Send Invitation"
+                },
+                "progress": {
+                    "sending": "Sending invitation...",
+                    "resending": "Re-sending invitation..."
+                },
+                "success": {
+                    "title": "Invitation Sent",
+                    "text": "An invitation has been sent to {{email}}"
+                },
+                "pending": {
+                    "title": "Invitation Already Pending",
+                    "text": "An invitation is already pending for {{email}}. Do you want to re-send it?",
+                    "confirm_resend": "Re-send"
+                },
+                "resend_success": {
+                    "title": "Invitation Re-sent",
+                    "text": "Invitation re-sent to {{email}}"
+                },
+                "errors": {
+                    "email_required": "Email is required",
+                    "failed_send": "Failed to send invitation",
+                    "failed_resend": "Failed to resend invitation"
+                }
+            },
+            "members": {
+                "title": "Team Members",
+                "progress": {
+                    "updating_role": "Updating role…",
+                    "removing_member": "Removing member…"
+                },
+                "role_updated": {
+                    "title": "Role Updated"
+                },
+                "remove": {
+                    "title": "Remove Member?",
+                    "html": "Are you sure you want to remove <strong>{{email}}</strong> from this team?",
+                    "confirm": "Yes, remove"
+                },
+                "remove_success": {
+                    "title": "Member Removed"
+                },
+                "errors": {
+                    "failed_update_role": "Failed to update role",
+                    "failed_remove_member": "Failed to remove member"
+                }
+            },
+            "invitations": {
+                "progress": {
+                    "cancelling": "Cancelling invitation…"
+                },
+                "cancel": {
+                    "title": "Cancel Invitation?",
+                    "html": "Cancel the invitation sent to <strong>{{email}}</strong>?",
+                    "confirm": "Yes, cancel it"
+                },
+                "cancel_success": {
+                    "title": "Invitation Cancelled"
+                },
+                "resend_coming_soon": {
+                    "title": "Coming Soon",
+                    "text": "Resend invitation feature will be available soon."
+                },
+                "errors": {
+                    "failed_cancel": "Failed to cancel invitation"
+                }
+            },
+            "status_pages": {
+                "title": "Linked Status Pages",
+                "link_cta": "Link Status Page",
+                "empty": "No status pages linked to this team yet.",
+                "link_first_cta": "Link Your First Status Page",
+                "create_cta": "Create a Status Page",
+                "select_placeholder": "Choose a status page...",
+                "info": "Team members will be able to access this status page based on their roles.",
+                "no_status_pages_yet": "You don’t have any status pages yet.",
+                "progress": {
+                    "linking": "Linking status page…",
+                    "unlinking": "Unlinking status page…"
+                },
+                "link_success": {
+                    "title": "Status Page Linked"
+                },
+                "unlink": {
+                    "title": "Unlink Status Page?",
+                    "html": "Remove <strong>{{name}}</strong> from this team?<br><br>Team members will lose access to this status page.",
+                    "confirm": "Yes, unlink it"
+                },
+                "unlink_success": {
+                    "title": "Status Page Unlinked"
+                },
+                "errors": {
+                    "select_status_page": "Please select a status page",
+                    "failed_link": "Failed to link status page",
+                    "failed_unlink": "Failed to unlink status page"
+                }
+            }
+        }
+    },
+    "addons": {
+        "checkout": {
+            "actions": {
+                "creating": "Creating checkout session..."
+            },
+            "errors": {
+                "failed_try_again": "Failed to create checkout session. Please try again."
+            },
+            "created": {
+                "title": "Redirecting",
+                "text": "Redirecting to checkout..."
+            }
+        }
+    },
+    "severities": {
+        "nav": {
+            "severities": "Severities",
+            "manage": "Manage Severities"
+        },
+        "level": {
+            "low": "Low",
+            "medium": "Medium",
+            "high": "High",
+            "critical": "Critical"
+        }
+    },
+    "notifications": {
+        "breadcrumb": "Notifications",
+        "heading": "Notification Preferences",
+        "description": "Manage how and when you receive notifications",
+        "frequency": {
+            "all": "All emails",
+            "frequent": "Frequent emails",
+            "weekly": "Weekly emails",
+            "urgent_only": "Urgent only",
+            "daily": "Daily digest",
+            "weekly_digest": "Weekly digest",
+            "immediate": "Immediate"
+        },
+        "table": {
+            "type": "Notification Type"
+        },
+        "type": {
+            "account_activity": "Account activity",
+            "security_alerts": "Security alerts",
+            "system_updates": "System updates"
+        },
+        "form": {
+            "email_frequency": "Email frequency",
+            "save": "Save All Preferences"
+        },
+        "channel": {
+            "email": "Email",
+            "browser": "Browser",
+            "app": "App"
+        },
+        "trial": {
+            "heading": "Trial Notifications",
+            "receive_emails": "Receive trial emails",
+            "description": "Get notified about your trial status, reminders, and special offers.",
+            "frequency_label": "Trial Email Frequency",
+            "no_emails": "No trial emails",
+            "frequency_description": "Choose how often you want to receive trial-related emails.",
+            "extend": {
+                "confirm": {
+                    "title": "Extend trial by 7 days?",
+                    "confirm": "Extend",
+                    "fallback": "Are you sure you want to extend your trial by 7 days?"
+                },
+                "progress": "Extending trial...",
+                "failed": "Failed to extend trial. Please try again.",
+                "failed_with_message": "Failed to extend trial: {{message}}",
+                "error": "Error extending trial. Please try again."
+            }
+        },
+        "email_settings": {
+            "heading": "Email Notification Settings",
+            "frequency_description": "Choose how often you want to receive non-critical notifications."
+        },
+        "privacy": {
+            "heading": "Privacy"
+        },
+        "frequency_description": "Choose how often you want to receive notification emails",
+        "analytics": {
+            "exclude_self": "Exclude yourself from analytics on your own status pages",
+            "self_exclusion_help": "When enabled, your visits to your own status pages won't be tracked by any web analytics you've configured. This helps keep your visitor data clean and accurate."
+        }
+    },
+    "postmortem": {
+        "nav": {
+            "postmortem": "Postmortem"
+        },
+        "not_available": "Postmortem reports are not available on your current plan. <a href=\"/user/billing\">Upgrade</a> to enable this feature.",
+        "form": {
+            "summary": "Summary",
+            "timeline": "Timeline",
+            "severity": "Severity",
+            "duration": "Duration",
+            "tags": "Tags",
+            "lessons_learned": "Lessons Learned",
+            "action_items": "Action Items",
+            "publish_status": "Publish Status",
+            "schedule_publish": "Schedule Publish",
+            "publish_now": "Publish Now"
+        },
+        "visibility": {
+            "draft": "Draft",
+            "private": "Private",
+            "public": "Public"
+        },
+        "publish_help": "Once published it cannot be unpublished. Edits will update the content while keeping original publish date."
+    },
+    "security": {
+        "two_factor_auth_description": "Two-factor authentication adds an extra layer of security to your account by requiring more than just a password to sign in.",
+        "set_up_authenticator_app": "Set up Authenticator App",
+        "scan_qr_code": "Scan the QR code with your authenticator app:",
+        "or_enter_manually": "Or enter this code manually:",
+        "two_factor": {
+            "not_available": "Two-Factor Authentication is not available on your current plan. <a href=\"/user/billing\">Upgrade</a> to enable this security feature.",
+            "enabled_message": "2FA is currently <strong>enabled</strong> for your account.",
+            "disabled_recommendation": "2FA is <strong>disabled</strong>. We recommend enabling it.",
+            "show_backup_codes": "Show Backup Codes",
+            "enter_code": "Enter code from your app",
+            "backup_codes_title": "Backup codes",
+            "saved": "Saved!",
+            "could_not_fetch_backup_codes": "Could not fetch backup codes",
+            "disable_title": "Disable 2FA?",
+            "disable_prompt": "To disable 2FA, please confirm with one of the following:",
+            "disable": "Disable 2FA",
+            "enable": "Enable 2FA",
+            "activate_button": "Activate 2FA",
+            "disabled_title": "2FA has been disabled",
+            "failed_disable": "Failed to disable 2FA",
+            "failed_start_setup": "Failed to start OTP setup",
+            "scan_qr_alt": "Scan QR",
+            "failed_enable": "Failed to enable 2FA",
+            "placeholders": {
+                "otp": "123456",
+                "backup": "XXXXXXXX"
+            },
+            "actions": {
+                "disabling": "Disabling 2FA...",
+                "starting_setup": "Starting 2FA setup...",
+                "enabling": "Enabling 2FA..."
+            }
+        },
+        "save_backup_codes": "Save these codes in a safe place. You will not be able to see them again!",
+        "authenticator_code": "Authenticator code",
+        "backup_code": "Backup code",
+        "confirm_using_2fa": "Confirm using one of the following:",
+        "security_keys_info": "Security keys are hardware devices that provide strong two-factor authentication.",
+        "security_keys": {
+            "not_available": "Security Keys are not available on your current plan. <a href=\"/user/billing\">Upgrade</a> to enable this feature.",
+            "register": "Register Security Key",
+            "nickname": "Nickname",
+            "no_keys": "No security keys are registered.",
+            "remove_title": "Remove Security Key",
+            "removed_title": "Security key removed",
+            "failed_remove": "Failed to remove security key",
+            "actions": {
+                "removing": "Removing security key..."
+            }
+        }
+    },
+    "profile": {
+        "breadcrumb_account": "Account",
+        "heading": "Profile Information",
+        "gravatar_help": "To change your avatar, head to <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> and update your profile picture.",
+        "email_cannot_be_changed": "Email cannot be changed",
+        "current_password": "Current password",
+        "new_password": "New password",
+        "confirm_new_password": "Confirm new password",
+        "password_requirements": "Password requirements",
+        "password_current_required": "Current password is required",
+        "password_at_least_10": "At least 10 characters",
+        "password_match": "New password and confirmation match",
+        "password_checked_breaches": "Checked against known breaches when you save",
+        "password": {
+            "heading": "Password",
+            "help_has_password": "Use a strong, unique password. You’ll need your current password to change it.",
+            "help_no_password": "You’re currently using OAuth login only. Setting a password will enable email + password login.",
+            "update_button": "Update Password",
+            "set_button": "Set Password",
+            "fix_requirements_title": "Fix password requirements",
+            "fix_requirements_text": "Please meet all requirements before saving.",
+            "updating_title": "Updating password...",
+            "please_wait": "Please wait",
+            "updated_title": "Password updated",
+            "updated_success": "Password updated successfully!",
+            "failed_update": "Failed to update password. Please try again.",
+            "could_not_update_title": "Could not update password",
+            "network_error_title": "Network error"
+        }
+    },
+    "connections": {
+        "breadcrumb": "Connections",
+        "heading": "Connected Accounts",
+        "status": {
+            "connected": "Connected",
+            "not_connected": "Not connected"
+        },
+        "actions": {
+            "connect": "Connect"
+        },
+        "cant_unlink_last_signin": "Can't unlink last sign-in method"
+    },
+    "export": {
+        "heading": "Export Your Data",
+        "description": "Download a comprehensive <strong>ZIP archive</strong> containing all your data including status pages, monitors, monitor check results, incidents, and maintenance records. The data is organized into separate files for easy browsing and processing.",
+        "used_for": {
+            "backup": "<strong>Backup:</strong> Keep a local copy of all your monitoring data",
+            "migration": "<strong>Migration:</strong> Transfer data to another instance or system",
+            "analysis": "<strong>Analysis:</strong> Perform custom analytics on your uptime history",
+            "compliance": "<strong>Compliance:</strong> Maintain records for audit and compliance purposes"
+        },
+        "whats_included": {
+            "title": "What's included in the export:"
+        },
+        "button": "Export All Data",
+        "privacy": {
+            "title": "Privacy & Security:",
+            "text": "The exported data is generated on-demand and contains sensitive information about your monitoring setup. Keep this file secure and do not share it publicly."
+        },
+        "archive_structure": {
+            "heading": "Archive Structure",
+            "description": "The exported ZIP archive contains the following structure:"
+        },
+        "jsonl": {
+            "title": "JSONL Format:",
+            "text": "Monitors, incidents, and monitor results use JSON Lines format (one JSON object per line) for efficient processing of large datasets. This allows streaming and processing of huge lists without loading entire files into memory."
+        },
+        "status": {
+            "generating": "Generating export...",
+            "preparing": "Preparing your data...",
+            "completed": "✓ Export completed successfully!"
+        },
+        "errors": {
+            "failed_with_status": "Export failed: ",
+            "failed_try_again": "✗ Export failed. Please try again."
+        }
+    },
+    "account_deletion": {
+        "warning": {
+            "title": "Permanent Account Deletion",
+            "text": "This action cannot be undone. All your data will be permanently deleted."
+        },
+        "export_first": {
+            "heading": "Export Your Data First (Recommended)",
+            "description": "Before deleting your account, we <strong>strongly recommend</strong> exporting your data. This allows you to keep a copy of your status pages, monitors, incidents, and other data for your records.",
+            "whats_exported": "What gets exported:",
+            "items": {
+                "pages": "All status pages and their configurations",
+                "monitors": "All monitors and historical check data",
+                "incidents": "All incidents and incident updates",
+                "custom_domains": "Custom domain configurations",
+                "notification_channels": "Notification channel settings"
+            },
+            "cta": "Go to Data Export",
+            "note": "You can export your data and then come back to this page to proceed with account deletion."
+        },
+        "what_deleted": {
+            "heading": "What Will Be Deleted",
+            "description": "When you close your account, the following data will be <strong>permanently deleted</strong>:",
+            "content": {
+                "incidents": "All incidents and updates"
+            },
+            "settings": {
+                "custom_domains": "Custom domain configurations",
+                "notification_channels": "Notification channel settings",
+                "trial_and_subscription": "Trial and subscription information"
+            }
+        },
+        "privacy_commitment": {
+            "title": "Privacy Commitment:",
+            "text": "We follow GDPR guidelines. Your data will be permanently purged from our systems within 60 days, and audit logs within 90 days."
+        },
+        "what_keep": {
+            "heading": "What We Keep (Legal Requirements)",
+            "description": "For tax and accounting compliance, we are <strong>legally required</strong> to keep:",
+            "items": {
+                "billing_records": "<strong>Billing transaction records only</strong> (transaction ID, amount, date)",
+                "no_tracking": "These records contain <strong>no personal tracking data</strong>",
+                "no_operational_data": "No status pages, monitors, or operational data are retained"
+            },
+            "note": "This is standard practice and required by tax authorities in most jurisdictions."
+        },
+        "close_account": {
+            "heading": "Permanently Close My Account"
+        },
+        "confirm_phrase": {
+            "prefix": "Type",
+            "suffix": "to confirm:",
+            "placeholder": "Type DELETE MY ACCOUNT"
+        },
+        "confirmations": {
+            "export": "I understand that I should export my data before deletion, or I'm okay with losing all my data permanently.",
+            "final": "I understand this action is <strong>permanent and cannot be undone</strong>."
+        },
+        "delete_button": "Permanently Delete My Account",
+        "swal": {
+            "final_warning": {
+                "title": "⚠️ FINAL WARNING",
+                "text_strong": "This will permanently delete your account and all associated data.",
+                "text": "This action cannot be undone. All your monitors, status pages, and settings will be permanently removed.",
+                "confirm": "Yes, delete my account"
+            }
+        }
+    },
+    "billing": {
+        "breadcrumb": "Billing & Plan",
+        "free_trial_active": "Free trial active",
+        "trial_grace_period": "Trial grace period",
+        "refund_guarantee_active": "15-day refund guarantee active",
+        "refund_period_ended_prefix": "The 15-day refund period has ended. If you have special circumstances, please",
+        "refund_period_ended_suffix": "— we are here to help prevent any chargebacks.",
+        "contact_support": "contact support",
+        "tagline_default": "Access the essentials for status page monitoring.",
+        "per_month": "/month",
+        "limit": "Limit:",
+        "unlimited": "Unlimited",
+        "used": "used",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "price": "Price",
+        "first_charge": "(first charge)",
+        "promo_code_prefix": "Promo code",
+        "promo_code_suffix": "will be applied automatically!",
+        "current_plan": "Current Plan",
+        "understand_subscription": "Understand what your subscription includes",
+        "plan_status": "Plan status",
+        "included_features": "📦 Included Features",
+        "private_status_pages": "Private status pages",
+        "audit_logs": "Audit logs",
+        "response_time_graphs": "Response time graphs",
+        "usage_snapshot": "Usage snapshot",
+        "track_resource_consumption": "Track how you are consuming plan resources",
+        "monitors_busiest_page": "Monitors (busiest page)",
+        "total_monitors": "Total monitors",
+        "total_monitors_help": "Total monitors across all status pages.",
+        "teams_created": "Teams you have created.",
+        "seats_per_team": "Seats per Team",
+        "max_members_per_team": "Max members per team",
+        "team_owner_no_count": "Team owner doesn't count toward the seat limit.",
+        "heartbeat_monitors_heading": "Heartbeat Monitors",
+        "heartbeat_monitors": "Cron job & scheduled task monitors.",
+        "subscription_overview": "Subscription overview",
+        "subscription_key_details": "Key details for your current billing cycle",
+        "auto_renew": "Auto-renew",
+        "next_billing_date": "Next billing date",
+        "current_period": "Current period",
+        "subscription_reference": "Subscription reference",
+        "no_active_subscription_title": "No active subscription found.",
+        "no_active_subscription_text": "Start a plan from the pricing modal above to unlock advanced features.",
+        "billing_history": "Billing history",
+        "download_receipts": "Download receipts and review past charges",
+        "export_csv": "Export CSV",
+        "date": "Date",
+        "type": "Type",
+        "amount": "Amount",
+        "period": "Period",
+        "reference": "Reference",
+        "no_transactions_title": "No billing transactions yet",
+        "no_transactions_text": "Upgrade your plan to start generating invoices and payment records.",
+        "more_transactions_coming_soon": "More transactions available. Pagination via API coming soon.",
+        "billing_history_navigation": "Billing history navigation",
+        "download_receipt": "Download Receipt",
+        "upgrade_your_plan": "Upgrade Your Plan",
+        "choose_best_plan": "Choose the best plan for your business needs.",
+        "lose_access_right_away": "Lose access right away",
+        "keep_access_until_period_ends": "Keep access until current period ends",
+        "refund_reason_optional": "Reason for refund (optional):",
+        "sure_request_refund": "Are you sure you want to request a refund?",
+        "will_cancel_subscription": "This will cancel your subscription",
+        "moved_to_free": "You'll be moved to the free plan",
+        "refund_processing_days": "Refund processing may take 5-10 business days",
+        "status_pages": "Status pages",
+        "actions": {
+            "purchase_upgrade": "Purchase / Upgrade",
+            "extend_trial_plus_7_days": "Extend trial (+7 days)",
+            "cancel_trial": "Cancel trial",
+            "upgrade_now": "Upgrade now",
+            "request_refund": "Request refund",
+            "upgrade_plan": "Upgrade plan",
+            "change_plan": "Change plan",
+            "cancel_subscription": "Cancel subscription",
+            "explore_plans": "Explore plans",
+            "load_more": "Load more"
+        },
+        "trial": {
+            "exploring_prefix": "You're exploring the",
+            "exploring_suffix": "plan for free.",
+            "days": "days",
+            "remaining": "remaining",
+            "ends_soon": "Trial ends soon",
+            "first_charge_on": "First charge on",
+            "cancel_anytime_no_charge": "Cancel anytime — no charge",
+            "cancel_anytime_before_ends_no_charge": "Cancel anytime before the trial ends — no charge",
+            "badge_label": "Trial",
+            "days_left": "days left"
+        },
+        "grace": {
+            "your_trial_prefix": "Your trial for the",
+            "your_trial_suffix": "plan has ended.",
+            "upgrade_within_prefix": "Upgrade within",
+            "upgrade_within_suffix": "to keep premium features."
+        },
+        "refund": {
+            "not_satisfied_full": "Not satisfied? You can request a full refund within 15 days of your first charge.",
+            "remaining_to_request": "remaining to request a refund"
+        },
+        "usage": {
+            "total_published_status_pages": "Total published status pages in your workspace.",
+            "monitors_busiest_help": "Monitor count on your most active status page.",
+            "active_subscribers_help": "Active subscribers across all pages."
+        },
+        "transaction_type": {
+            "charge": "Charge",
+            "refund": "Refund",
+            "renewal": "Renewal"
+        },
+        "status": {
+            "paid": "Paid",
+            "succeeded": "Succeeded",
+            "processed": "Processed",
+            "failed": "Failed",
+            "refunded": "Refunded",
+            "pending": "Pending"
+        },
+        "swal": {
+            "processing_title": "Processing...",
+            "trial_plan_not_found": "Trial plan not found. Please refresh and try again.",
+            "extend_trial": {
+                "title": "Extend Trial",
+                "text": "Are you sure you want to extend your trial by 7 days? This can only be done once per trial.",
+                "confirm": "Yes, extend trial",
+                "processing": "Extending your trial",
+                "action": "Extending trial...",
+                "success": "Trial extended successfully! Your trial has been extended by 7 days.",
+                "failed_prefix": "Failed to extend trial: ",
+                "error_try_again": "An error occurred while extending your trial. Please try again."
+            },
+            "cancel_trial": {
+                "title": "Cancel Trial",
+                "html": "Are you sure you want to cancel your trial?<br><br><small class=\"text-muted\">You will be moved back to the free plan with no charges.</small>",
+                "confirm": "Yes, cancel trial",
+                "cancel": "Keep trial",
+                "processing": "Cancelling your trial",
+                "action": "Cancelling trial...",
+                "cancelled_title": "Trial Cancelled",
+                "cancelled_text": "Trial cancelled successfully!",
+                "failed_prefix": "Failed to cancel trial: ",
+                "error_try_again": "An error occurred while cancelling your trial. Please try again."
+            },
+            "cancel_internal_trial": {
+                "html": "Are you sure you want to cancel your trial?<br><br><small class=\"text-muted\">You will be moved back to the free plan immediately.</small>"
+            },
+            "cancel_subscription": {
+                "title": "Cancel Subscription",
+                "text": "How would you like to cancel your subscription?",
+                "immediate": "Cancel immediately",
+                "at_period_end": "Cancel at period end",
+                "keep": "Keep subscription",
+                "immediate_heading": "Cancel immediately:",
+                "period_end_heading": "Cancel at period end:",
+                "no_refund": "No refund for remaining period",
+                "no_future_charges": "No future charges",
+                "processing_immediate": "Cancelling subscription immediately",
+                "processing_period_end": "Scheduling cancellation at period end",
+                "action_immediate": "Cancelling subscription...",
+                "action_period_end": "Scheduling cancellation...",
+                "success_immediate": "Subscription cancelled immediately. You've been moved to the free plan.",
+                "success_period_end": "Subscription will be cancelled at the end of your billing period. You'll keep access until then.",
+                "failed_prefix": "Failed to cancel subscription: ",
+                "error_try_again_support": "An error occurred. Please try again or contact support."
+            },
+            "refund": {
+                "request_title": "Request Refund",
+                "reason_placeholder": "Please tell us why you're requesting a refund...",
+                "payment_id_label": "Payment ID:",
+                "payment_id_placeholder": "Find in your transaction history above",
+                "payment_id_help": "You can find this in your billing history table above",
+                "payment_id_required": "Payment ID is required",
+                "submit": "Submit refund request",
+                "confirm_title": "Confirm Refund",
+                "please_note": "Please note:",
+                "confirm": "Yes, process refund",
+                "submitting": "Submitting refund request",
+                "action": "Submitting refund request...",
+                "processed_title": "Refund Processed!",
+                "processed_text": "Refund processed successfully!",
+                "failed_prefix": "Failed to process refund: ",
+                "error_contact_support": "An error occurred while processing refund. Please contact support."
+            },
+            "no_subscription": {
+                "title": "No Subscription",
+                "text": "No subscription found. Please contact support."
+            }
+        }
+    },
+    "misc": {
+        "language_names": {
+            "english": "🇺🇸 English",
+            "spanish": "🇪🇸 Español",
+            "portuguese_br": "🇧🇷 Português (Brasil)",
+            "french": "🇫🇷 Français",
+            "german": "🇩🇪 Deutsch",
+            "serbian": "🇷🇸 Српски",
+            "arabic": "🇸🇦 العربية"
+        }
+    },
+    "common": {
+        "error": "Error",
+        "success": "Success",
+        "info": "Info",
+        "ok": "OK",
+        "settings": "Settings",
+        "save": "Save",
+        "cancel": "Cancel",
+        "close": "Close",
+        "edit": "Edit",
+        "remove": "Remove",
+        "email": "Email",
+        "resend": "Resend",
+        "unlink": "Unlink",
+        "create": "Create",
+        "back": "Back",
+        "prev": "Prev",
+        "next": "Next",
+        "name": "Name",
+        "status": "Status",
+        "url": "URL",
+        "actions": "Actions",
+        "message": "Message",
+        "password": "Password",
+        "save_changes": "Save Changes",
+        "action": "Action",
+        "yes": "Yes",
+        "not_now": "Not now",
+        "request_failed_with": "Request failed: __ERROR__",
+        "csrf_missing_refresh": "Missing CSRF token. Please refresh and try again.",
+        "csrf_missing_refresh_page": "Missing CSRF token. Please refresh the page and try again.",
+        "unexpected_error": "An unexpected error occurred",
+        "please_enter_value": "Please enter a value to confirm.",
+        "please_try_again": "Please try again."
+    },
+    "dashboard": {
+        "no_active_incidents_help": "No active incidents. Keep shipping — add a monitor or share a status page.",
+        "badge_monitors": "Monitors:",
+        "badge_status_pages": "Status pages:",
+        "badge_uptime_30d": "Uptime (30d):",
+        "update_incident": "Update incident",
+        "add_first_monitor": "Add your first monitor",
+        "get_started": "Get started",
+        "no_recent_activity": "No recent activity",
+        "onboarding_complete": "✅ Onboarding complete — you're all set!"
+    },
+    "analytics": {
+        "exclude_maintenance": "Exclude Maintenance Windows",
+        "show_downtime_only": "Show Downtime Only",
+        "manage_share_tokens": "Manage Share Tokens",
+        "tokens": {
+            "share_tokens": "Share Tokens",
+            "subtitle": "Manage tokens to share your analytics with stakeholders (read-only access)",
+            "active_tokens": "Active Tokens",
+            "new_token": "New Token",
+            "read_only": "Read-Only",
+            "usage": "Usage",
+            "copy_link": "Copy link",
+            "empty": "No active tokens. Create one to start sharing analytics.",
+            "create_title": "Create New Share Token",
+            "expiry_days": "Expiry (days)",
+            "expiry_placeholder": "0 = Never",
+            "expiry_help": "Leave empty or 0 for tokens that never expire",
+            "read_only_help": "Read-only (stakeholders can view, not edit)",
+            "create_cta": "Create Token",
+            "revoke_title": "Revoke token?",
+            "revoke_text": "Anyone using it will lose access immediately.",
+            "revoke_confirm": "Revoke",
+            "revoking": "Revoking token...",
+            "revoked": "Token revoked",
+            "failed_revoke": "Failed to revoke token",
+            "error_revoke": "Error revoking token. Please try again.",
+            "creating": "Creating token...",
+            "created": "Token created",
+            "share_this_link": "Share this link:",
+            "close": "Close",
+            "link_copied": "Link copied",
+            "copy_failed": "Copy failed",
+            "copy_failed_help": "Please copy the link manually from the dialog.",
+            "failed_create": "Failed to create token",
+            "error_create": "Error creating token. Please try again.",
+            "copy_manual": "Please copy manually:"
+        },
+        "config": {
+            "select_service_to_remove": "Select a service to remove its configuration.",
+            "remove_confirm": {
+                "title": "Remove configuration?",
+                "body": "This will disable analytics for the selected service.",
+                "confirm": "Remove",
+                "fallback": "Remove configuration for this service?"
+            },
+            "removing": "Removing analytics configuration...",
+            "removed": "Configuration removed",
+            "remove_failed": "Failed to remove configuration"
+        },
+        "historical": {
+            "select_status_page": {
+                "title": "Select a status page",
+                "continue": "Continue",
+                "refresh": "Refresh",
+                "export": "Export",
+                "body_continue": "Pick a status page to continue.",
+                "body_refresh": "Pick a status page, click Go, then refresh.",
+                "body_export": "Pick a status page to export."
+            },
+            "forbidden": {
+                "default_message": "Access to historical uptime is not permitted for your role.",
+                "title": "Access denied.",
+                "guidance": "Ask the status page owner to enable your team role in Status Page Settings → Access → Historical Uptime Access (Teams).",
+                "no_chart": "No chart available due to restricted access."
+            },
+            "retention": {
+                "badge_days": "Retention: {{days}} days",
+                "badge_unlimited": "Retention: Unlimited",
+                "start_date_clamped": "Start date clamped to {{date}} due to retention limits."
+            },
+            "table": {
+                "no_data": "No data for this range.",
+                "no_monitors": "No monitors found."
+            },
+            "monitors": {
+                "all_first_5": "All monitors (first 5)",
+                "monitor_fallback": "Monitor {{id}}"
+            },
+            "load_failed": {
+                "title": "Could not load data"
+            },
+            "network_error": {
+                "title": "Network error",
+                "text": "Failed to load data. Please check your connection and try again."
+            }
+        }
+    },
+    "account_settings": {
+        "nav": {
+            "account": "Account",
+            "security": "Security",
+            "billing_plans": "Billing & Plans",
+            "notifications": "Notifications",
+            "connections": "Connections",
+            "data_export": "Data Export",
+            "close_account": "Close Account",
+            "support": "Support"
+        }
+    },
+    "support": {
+        "title": "Support",
+        "header": {
+            "title": "Get Help & Support",
+            "subtitle": "Choose how you'd like to get in touch with our support team. We're here to help!"
+        },
+        "cards": {
+            "live_chat": {
+                "title": "Live Chat",
+                "text": "Get instant help from our support team via live chat.",
+                "cta": "Start Chat"
+            },
+            "telegram": {
+                "text": "Ping us via Telegram for urgent assistance.",
+                "cta": "Join Telegram"
+            },
+            "email": {
+                "title": "Email",
+                "text": "Email us, and we'll get back to you within 24 hours.",
+                "cta": "Send Email"
+            }
+        },
+        "community": {
+            "text": "Or, join our Discord community for peer support, updates, and discussions.",
+            "discord": {
+                "aria": "Join our Discord - get help and chat with the team",
+                "title": "Chat with the team",
+                "subtitle": "Get help in Discord"
+            },
+            "slack": {
+                "aria": "Join our Slack - get help and chat with the team",
+                "title": "Join Slack",
+                "subtitle": "Get help in Slack"
+            }
+        },
+        "footer": {
+            "title": "Need immediate assistance?",
+            "text": "For urgent issues, live chat is the fastest way to get help. Our average response time is under 5 minutes during business hours."
+        },
+        "email": {
+            "fallback_subject": "Support Request"
+        }
+    },
+    "health": {
+        "operational": "Operational",
+        "degraded": "Degraded",
+        "partial_outage": "Partial outage",
+        "major_outage": "Major outage",
+        "maintenance": "Maintenance",
+        "blocked": "Blocked",
+        "inactive": "Inactive",
+        "down": "Down",
+        "unknown": "Unknown",
+        "no_monitors": "No monitors"
+    }
+}
