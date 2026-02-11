@@ -1932,7 +1932,8 @@
   "account_deletion": {
     "warning": {
       "title": "Dauerhafte Kontolöschung",
-      "text": "Diese Aktion kann nicht rückgängig gemacht werden. Alle Ihre Daten werden dauerhaft gelöscht."
+      "text": "Diese Aktion kann nicht rückgängig gemacht werden. Alle Ihre Daten werden dauerhaft gelöscht.",
+      "subscription_cancel": "Das Schließen Ihres Kontos beendet sofort jedes aktive Abonnement."
     },
     "export_first": {
       "heading": "Zuerst Daten exportieren (empfohlen)",

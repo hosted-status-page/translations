@@ -1932,7 +1932,8 @@
   "account_deletion": {
     "warning": {
       "title": "Exclusão permanente da conta",
-      "text": "Esta ação não pode ser desfeita. Todos os seus dados serão excluídos permanentemente."
+      "text": "Esta ação não pode ser desfeita. Todos os seus dados serão excluídos permanentemente.",
+      "subscription_cancel": "Encerrar sua conta cancela imediatamente qualquer assinatura ativa."
     },
     "export_first": {
       "heading": "Exporte seus dados primeiro (recomendado)",

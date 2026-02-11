@@ -1944,7 +1944,8 @@
   "account_deletion": {
     "warning": {
       "title": "Suppression définitive du compte",
-      "text": "Cette action est irréversible. Toutes vos données seront supprimées définitivement."
+      "text": "Cette action est irréversible. Toutes vos données seront supprimées définitivement.",
+      "subscription_cancel": "La fermeture de votre compte annule immédiatement tout abonnement actif."
     },
     "export_first": {
       "heading": "Exporter vos données d’abord (recommandé)",

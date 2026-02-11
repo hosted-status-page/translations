@@ -41,7 +41,8 @@
     },
     "warning": {
       "text": "This action cannot be undone. All your data will be permanently deleted.",
-      "title": "Permanent Account Deletion"
+      "title": "Permanent Account Deletion",
+      "subscription_cancel": "Closing your account immediately cancels any active subscription."
     },
     "what_deleted": {
       "content": {
