@@ -1140,6 +1140,11 @@
         "heading": "Microsoft Teams подешавања",
         "how_to_create_webhook": "Како направити Teams webhook"
       },
+      "pagerduty": {
+        "heading": "PagerDuty подешавања",
+        "how_to_get_key": "Како добити PagerDuty интеграциони кључ",
+        "setup_info": "У PagerDuty-у направите сервис, додајте \"Events API v2\" интеграцију и овде налепите Integration Key (Routing Key). StatusPage.me ће аутоматски отварати и затварати PagerDuty инциденте."
+      },
       "pushover": {
         "create_app_at": "Направите апликацију на",
         "heading": "Pushover подешавања"
@@ -1174,6 +1179,7 @@
       "bot_token": "Токен бота",
       "channel_id": "ИД канала",
       "chat_id": "Цхат ИД",
+      "integration_key": "Интеграциони кључ",
       "recipients": "Примаоци",
       "user_key": "Кориснички кључ",
       "webhook_url": "URL вебхука"
@@ -1206,6 +1212,7 @@
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
       "pushover_api_token": "Ваш Pushover API токен",
       "pushover_user_key": "Ваш Pushover кориснички кључ",
+      "pagerduty_integration_key": "нпр. a1b2c3d4e5f6...",
       "slack_bot_token": "xоxб-...",
       "slack_channel_id": "Ц0XXXXXXXXX",
       "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
@@ -1246,6 +1253,7 @@
       "googlechat": "Google Chat",
       "mattermost": "Mattermost",
       "ms_teams": "MS Teams",
+      "pagerduty": "PagerDuty",
       "pushover": "Pushover",
       "rocketchat": "Rocket.Chat",
       "slack": "Slack",

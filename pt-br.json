@@ -1005,6 +1005,7 @@
       "googlechat": "Google Chat",
       "mattermost": "Mattermost",
       "ms_teams": "MS Teams",
+      "pagerduty": "PagerDuty",
       "pushover": "Pushover",
       "rocketchat": "Rocket.Chat"
     },
@@ -1013,6 +1014,7 @@
       "bot_token": "Token do bot",
       "channel_id": "ID do canal",
       "chat_id": "ID do chat",
+      "integration_key": "Chave de integração",
       "recipients": "Destinatários",
       "user_key": "Chave do usuário",
       "api_token": "Token de API"
@@ -1028,6 +1030,7 @@
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
       "pushover_user_key": "Sua chave de usuário do Pushover",
       "pushover_api_token": "Seu token de API do Pushover",
+      "pagerduty_integration_key": "ex.: a1b2c3d4e5f6...",
       "webhook_url": "https://seu-servidor.com/webhook",
       "webhook_headers_json": "{\"Authorization\": \"Bearer seu-token\"}"
     },
@@ -1050,6 +1053,11 @@
       "msteams": {
         "heading": "Configuração do Microsoft Teams",
         "how_to_create_webhook": "Como criar um webhook do Teams"
+      },
+      "pagerduty": {
+        "heading": "Configuração do PagerDuty",
+        "how_to_get_key": "Como obter uma chave de integração do PagerDuty",
+        "setup_info": "No PagerDuty, crie um serviço, adicione uma integração \"Events API v2\" e cole aqui a Chave de Integração (Routing Key). O StatusPage.me acionará e resolverá incidentes do PagerDuty automaticamente."
       },
       "pushover": {
         "heading": "Configuração do Pushover",

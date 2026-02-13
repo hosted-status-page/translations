@@ -1158,6 +1158,11 @@
         "heading": "Microsoft Teams Configuration",
         "how_to_create_webhook": "How to create a Teams webhook"
       },
+      "pagerduty": {
+        "heading": "PagerDuty Configuration",
+        "how_to_get_key": "How to get a PagerDuty Integration Key",
+        "setup_info": "Create a service in PagerDuty, add an \"Events API v2\" integration, and copy the Integration Key (Routing Key) here. StatusPage.me will automatically trigger and resolve PagerDuty incidents."
+      },
       "pushover": {
         "create_app_at": "Create an application at",
         "heading": "Pushover Configuration"
@@ -1192,6 +1197,7 @@
       "bot_token": "Bot Token",
       "channel_id": "Channel ID",
       "chat_id": "Chat ID",
+      "integration_key": "Integration Key",
       "recipients": "Recipients",
       "user_key": "User Key",
       "webhook_url": "Webhook URL"
@@ -1224,6 +1230,7 @@
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
       "pushover_api_token": "Your Pushover API token",
       "pushover_user_key": "Your Pushover user key",
+      "pagerduty_integration_key": "e.g., a1b2c3d4e5f6...",
       "slack_bot_token": "xoxb-...",
       "slack_channel_id": "C0XXXXXXXXX",
       "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
@@ -1264,6 +1271,7 @@
       "googlechat": "Google Chat",
       "mattermost": "Mattermost",
       "ms_teams": "MS Teams",
+      "pagerduty": "PagerDuty",
       "pushover": "Pushover",
       "rocketchat": "Rocket.Chat",
       "slack": "Slack",

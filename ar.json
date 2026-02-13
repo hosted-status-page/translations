@@ -1005,6 +1005,7 @@
       "googlechat": "Google Chat",
       "mattermost": "Mattermost",
       "ms_teams": "MS Teams",
+      "pagerduty": "PagerDuty",
       "pushover": "Pushover",
       "rocketchat": "Rocket.Chat"
     },
@@ -1013,6 +1014,7 @@
       "bot_token": "رمز البوت",
       "channel_id": "معرّف القناة",
       "chat_id": "معرّف الدردشة",
+      "integration_key": "مفتاح التكامل",
       "recipients": "المستلمون",
       "user_key": "مفتاح المستخدم",
       "api_token": "رمز API"
@@ -1028,6 +1030,7 @@
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
       "pushover_user_key": "مفتاح مستخدم Pushover",
       "pushover_api_token": "رمز API لـ Pushover",
+      "pagerduty_integration_key": "مثال: a1b2c3d4e5f6...",
       "webhook_url": "https://your-server.com/webhook",
       "webhook_headers_json": "{\"Authorization\": \"Bearer your-token\"}"
     },
@@ -1050,6 +1053,11 @@
       "msteams": {
         "heading": "إعدادات Microsoft Teams",
         "how_to_create_webhook": "كيفية إنشاء Webhook في Teams"
+      },
+      "pagerduty": {
+        "heading": "إعدادات PagerDuty",
+        "how_to_get_key": "كيفية الحصول على مفتاح تكامل PagerDuty",
+        "setup_info": "في PagerDuty، أنشئ خدمة ثم أضف تكامل \"Events API v2\" والصق هنا مفتاح التكامل (Routing Key). سيقوم StatusPage.me بفتح وإغلاق حوادث PagerDuty تلقائيًا."
       },
       "pushover": {
         "heading": "إعدادات Pushover",
