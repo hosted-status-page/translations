@@ -3,6 +3,7 @@
     "menu": {
       "dashboard": "Panel",
       "users_admins": "Usuarios &quot; Administradores",
+      "croatian": "🇭🇷 Croata",
       "users": "Usuarios",
       "unvalidated": "Usuarios no validados",
       "administrators": "Administradores",
@@ -53,6 +54,8 @@
     "billing_plan": "Plan de facturación",
     "teams": "Equipos",
     "addons": "Complementos",
+    "greeting_anonymous": "¡Hola!",
+    "greeting_name": "¡Hola, {{name}}!",
     "misc": "Varios",
     "lifetime_deals": "Ofertas de vida",
     "help": "Ayuda",
@@ -72,7 +75,8 @@
         "viewer": "Viewer"
       },
       "dnsbl_monitors": "Monitores DNSBL",
-      "email_auth": "Verificación de autenticación de correo"
+      "email_auth": "Verificación de autenticación de correo",
+      "ssl_monitors": "SSL Certificate Monitors"
     },
     "domain_age": {
       "errors": {
@@ -234,9 +238,34 @@
       "help_path": "Cree o elija un componente bajo una de sus Páginas de estado, a continuación, defina el monitor.",
       "inline_component_help": "Si se proporciona, se creará un nuevo componente y se adjuntará el monitor."
     },
+    "create_flow": {
+      "create_failed": "No se pudo crear el monitor.",
+      "creating_monitor": "Creando monitor...",
+      "generic_error": "Algo salió mal al crear el monitor.",
+      "include_failed": "No se pudo incluir el monitor en la página de estado.",
+      "include_prompt_no": "Ahora no",
+      "include_prompt_text": "Siempre puedes cambiar esto más tarde en Configuración de la página de estado.",
+      "include_prompt_title": "¿Incluir este monitor en la página de estado?",
+      "include_prompt_yes": "Sí, incluirlo",
+      "include_success_text": "El monitor ahora es visible en tu página de estado.",
+      "include_success_title": "Monitor incluido",
+      "initial_check_done_text_prefix": "El monitor está",
+      "initial_check_done_text_response": "Tiempo de respuesta",
+      "initial_check_done_title": "Comprobación inicial completa",
+      "initial_check_failed": "La comprobación inicial falló.",
+      "initial_check_text": "Espera mientras ejecutamos una comprobación fuera de horario para tu nuevo monitor.",
+      "initial_check_title": "Ejecutando la comprobación inicial...",
+      "invalid_interval_title": "Intervalo no válido",
+      "response_time_na": "n/d"
+    },
     "edit": {
       "heading": "Editar Monitor",
-      "update_button": "Monitor de actualización"
+      "update_button": "Monitor de actualización",
+      "delete_button": "Delete Monitor",
+      "delete_title": "Delete Monitor?",
+      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
+      "deleted": "Monitor has been deleted.",
+      "delete_failed": "Failed to delete monitor: "
     },
     "back_to_list": "Volver a Monitores",
     "form": {
@@ -391,6 +420,85 @@
   "status_pages": {
     "view_status_page": "Ver su página de estado",
     "components_groups": "Componentes y Grupos",
+    "components_page": {
+      "component_map_loading": "Cargando mapa de componentes…",
+      "component_map_unavailable": "El mapa de componentes no está disponible temporalmente.",
+      "components_subtitle": "Servicios y monitores individuales para supervisar",
+      "empty_components_help": "Haz clic en \"Nuevo componente\" para añadir tu primer servicio",
+      "empty_components_title": "Aún no hay componentes",
+      "empty_groups_help": "Haz clic en \"Nuevo grupo\" para crear tu primera categoría",
+      "empty_groups_title": "Aún no hay grupos",
+      "groups_heading": "Grupos de componentes",
+      "groups_subtitle": "Categorías opcionales para organizar componentes",
+      "loading": "Cargando...",
+      "new_component": "Nuevo componente",
+      "new_group": "Nuevo grupo",
+      "no_url_specified": "No se especificó URL",
+      "search_placeholder": "Buscar componentes por nombre...",
+      "swal": {
+        "assign_to_group": {
+          "placeholder": "Selecciona un grupo",
+          "title": "Asignar a un grupo"
+        },
+        "delete_component": {
+          "confirm": "Sí, eliminarlo",
+          "text": "¡Esta acción no se puede deshacer!",
+          "title": "¿Eliminar este componente?"
+        },
+        "delete_group": {
+          "confirm": "Sí, eliminarlo",
+          "text": "Los componentes quedarán sin grupo.",
+          "title": "¿Eliminar este grupo?"
+        },
+        "edit_component": {
+          "title": "Editar componente"
+        },
+        "new_component": {
+          "input_label": "Introduce un nombre para el nuevo componente",
+          "input_placeholder": "Nombre del componente",
+          "title": "Nombre del componente"
+        },
+        "new_group": {
+          "input_label": "Introduce un nombre para el nuevo grupo",
+          "input_placeholder": "Nombre del grupo",
+          "title": "Nombre del grupo"
+        }
+      },
+      "tip_ungrouped_other": "Los componentes sin grupo aparecerán en una sección \"Otros componentes\" en tu página de estado",
+      "tip_use_groups": "Usa grupos como \"Backend\", \"Frontend\", \"Infraestructura\" para organizar muchos componentes",
+      "tips_title": "Consejos:",
+      "toast": {
+        "component_created": "Componente creado",
+        "component_deleted": "Componente eliminado",
+        "component_updated": "Componente actualizado",
+        "csrf_invalid": "El token CSRF no es válido; por favor, actualiza la página",
+        "csrf_missing": "Falta el token CSRF; por favor, actualiza la página",
+        "delete_failed": "Error al eliminar",
+        "failed_to_create_component": "No se pudo crear el componente",
+        "failed_to_create_group": "No se pudo crear el grupo",
+        "failed_to_load_data": "No se pudieron cargar los datos",
+        "group_created": "Grupo creado",
+        "group_deleted": "Grupo eliminado",
+        "init_no_status_page_selected": "No se pudo inicializar la página: no hay una página de estado seleccionada",
+        "no_status_pages_available": "No hay páginas de estado disponibles",
+        "rename_failed": "Error al renombrar",
+        "save_failed": "Error al guardar",
+        "update_failed": "Error al actualizar"
+      },
+      "tooltip_delete_component": "Eliminar componente",
+      "tooltip_edit_component": "Editar componente",
+      "tooltip_move_down": "Bajar",
+      "tooltip_move_up": "Subir",
+      "ungrouped": "Sin grupo",
+      "url_placeholder": "https://example.com",
+      "validation": {
+        "component_name_required": "¡Debes introducir un nombre de componente!",
+        "group_name_required": "¡Debes introducir un nombre de grupo!",
+        "name_required": "El nombre es obligatorio",
+        "url_invalid": "La URL debe ser una URL absoluta válida (incluye https://)",
+        "url_must_start_http": "La URL debe empezar con http:// o https://"
+      }
+    },
     "organize_help": "Organice su página de estado con componentes y grupos opcionales",
     "how_it_works_intro": "Cómo funciona:",
     "components_explanation": "Los componentes son los servicios/monitores que desea rastrear (p. ej., \"Servidor API\", \"Sitio web\")",
@@ -1409,7 +1517,8 @@
       "maintenances": "Mantenimientos",
       "set_badge": "activo",
       "shared_resources": "Recursos compartidos",
-      "shared_status_pages": "Páginas de estado compartidas"
+      "shared_status_pages": "Páginas de estado compartidas",
+      "settings_history": "Historial"
     },
     "audit_logs": {
       "no_teams": {
@@ -1624,7 +1733,33 @@
       "title": "Los equipos no están incluidos en su plan actual."
     },
     "viewer_read_only": "Acceso solo para ver incidentes y datos de la página de estado.",
-    "your_role": "Tu rol: "
+    "your_role": "Tu rol: ",
+    "settings_history": {
+      "title": "Historial de configuración",
+      "subtitle": "Cambios recientes de configuración para páginas de estado compartidas en",
+      "subtitle_generic": "Cambios recientes de configuración para páginas de estado compartidas",
+      "empty_no_pages_title": "Sin páginas de estado compartidas",
+      "filter_status_page": "Página de estado",
+      "all_pages": "Todas las páginas compartidas",
+      "filter_limit": "Límite",
+      "col_actor": "Actor",
+      "col_status_page": "Página de estado",
+      "col_changes": "Cambios",
+      "before": "Antes",
+      "after": "Después",
+      "empty_title": "Sin cambios",
+      "empty_description": "Aún no se han registrado cambios de configuración para las páginas de estado compartidas de este equipo.",
+      "empty_no_teams_description": "Aún no eres miembro de ningún equipo compartido.",
+      "empty_no_pages_description": "Aún no hay páginas de estado compartidas vinculadas a este equipo.",
+      "cta_view_shared_teams": "Ver equipos compartidos",
+      "cta_view_team_status_pages": "Ver páginas de estado del equipo",
+      "via": "vía",
+      "more_changes": "+{{count}} más",
+      "no_visible_changes": "No hay cambios de configuración visibles",
+      "view_details": "Ver detalles",
+      "col_setting": "Configuración",
+      "show_raw_json": "Mostrar JSON sin procesar"
+    }
   },
   "severities": {
     "nav": {
@@ -2220,7 +2355,8 @@
     "full_embeds_widgets": "Embeds y widgets completos",
     "trial_label": "Prueba",
     "grace_period_label": "Período de Gracia",
-    "active_label": "Activo:"
+    "active_label": "Activo:",
+    "active_until": "Active until:"
   },
   "misc": {
     "language_names": {
@@ -2230,7 +2366,8 @@
       "french": "🇫🇷 Français",
       "german": "🇩🇪 Deutsch",
       "serbian": "🇷🇸 Српски",
-      "arabic": "🇸🇦 العربية"
+      "arabic": "🇸🇦 العربية",
+      "croatian": "🇭🇷 Croatian"
     },
     "assign_groups": "Asigna componentes a grupos o déjalos sin agrupar; ¡ambas opciones funcionan perfectamente!",
     "assign_to": "Asignar a:",
@@ -2328,7 +2465,9 @@
     "tip_label": "Consejo:",
     "type_colon": "Tipo:",
     "upgrade_now": "Mejorar ahora",
-    "value_label": "Valor:"
+    "value_label": "Valor:",
+    "filter": "Filter",
+    "time": "Time"
   },
   "dashboard": {
     "no_active_incidents_help": "No hay incidentes activos. Sigue así — añade un monitor o comparte una página de estado.",
@@ -2467,7 +2606,9 @@
       "network_error": {
         "title": "Error de red",
         "text": "No se pudieron cargar los datos. Comprueba tu conexión e inténtalo de nuevo."
-      }
+      },
+      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
+      "empty_title": "Select a Status Page"
     },
     "availability_response_time_heading": "Disponibilidad &amp; Respuesta Hora",
     "avg_response_time_title": "Tiempo de respuesta de Avg",

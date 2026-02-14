@@ -157,6 +157,8 @@
     },
     "exclude_maintenance": "Exclude Maintenance Windows",
     "historical": {
+      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
+      "empty_title": "Select a Status Page",
       "forbidden": {
         "default_message": "Access to historical uptime is not permitted for your role.",
         "guidance": "Ask the status page owner to enable your team role in Status Page Settings → Access → Historical Uptime Access (Teams).",
@@ -506,6 +508,7 @@
     "enabled": "Enabled",
     "end": "End",
     "expires": "Expires",
+    "filter": "Filter",
     "go": "Go",
     "hours": "Hours",
     "how_it_works": "How it works:",
@@ -524,6 +527,7 @@
     "refresh": "Refresh",
     "start": "Start",
     "tip_label": "Tip:",
+    "time": "Time",
     "type_colon": "Type:",
     "upgrade_now": "Upgrade now",
     "value_label": "Value:"
@@ -919,6 +923,7 @@
   "misc": {
     "language_names": {
       "arabic": "🇸🇦 العربية",
+      "croatian": "🇭🇷 Croatian",
       "english": "🇺🇸 English",
       "french": "🇫🇷 Français",
       "german": "🇩🇪 Deutsch",
@@ -960,6 +965,26 @@
       "help_path": "Create or pick a Component under one of your Status Pages, then define the monitor.",
       "inline_component_help": "If provided, a new component will be created and the monitor attached to it."
     },
+    "create_flow": {
+      "create_failed": "Failed to create monitor.",
+      "creating_monitor": "Creating monitor...",
+      "generic_error": "Something went wrong while creating the monitor.",
+      "include_failed": "Failed to include monitor on status page.",
+      "include_prompt_no": "Not now",
+      "include_prompt_text": "You can always change this later in Status Page Settings.",
+      "include_prompt_title": "Include this monitor on the status page?",
+      "include_prompt_yes": "Yes, include it",
+      "include_success_text": "The monitor is now visible on your status page.",
+      "include_success_title": "Monitor included",
+      "initial_check_done_text_prefix": "Monitor is",
+      "initial_check_done_text_response": "Response time",
+      "initial_check_done_title": "Initial check complete",
+      "initial_check_failed": "Initial check failed.",
+      "initial_check_text": "Please wait while we run an out-of-schedule check for your new monitor.",
+      "initial_check_title": "Running the initial check...",
+      "invalid_interval_title": "Invalid interval",
+      "response_time_na": "n/a"
+    },
     "auth_type": {
       "api_key": "API Key",
       "basic": "Basic Auth",
@@ -989,7 +1014,12 @@
     },
     "edit": {
       "heading": "Edit Monitor",
-      "update_button": "Update Monitor"
+      "update_button": "Update Monitor",
+      "delete_button": "Delete Monitor",
+      "delete_title": "Delete Monitor?",
+      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
+      "deleted": "Monitor has been deleted.",
+      "delete_failed": "Failed to delete monitor: "
     },
     "form": {
       "add_header_button": "Add Header",
@@ -1120,6 +1150,8 @@
     "configuration": "Configuration",
     "dashboard": "Dashboard",
     "documentation": "Documentation",
+    "greeting_anonymous": "Hey, there!",
+    "greeting_name": "Hey, {{name}}!",
     "help": "Help",
     "lifetime_deals": "Lifetime Deals",
     "misc": "Misc",
@@ -1576,6 +1608,85 @@
     "component_url_placeholder": "https://example.com (optional)",
     "components_explanation": "Components are the services/monitors you want to track (e.g., \"API Server\", \"Website\")",
     "components_groups": "Components & Groups",
+    "components_page": {
+      "component_map_loading": "Loading component map…",
+      "component_map_unavailable": "Component map is temporarily unavailable.",
+      "components_subtitle": "Individual services and monitors to track",
+      "empty_components_help": "Click \"New Component\" to add your first service",
+      "empty_components_title": "No components yet",
+      "empty_groups_help": "Click \"New Group\" to create your first category",
+      "empty_groups_title": "No groups yet",
+      "groups_heading": "Component Groups",
+      "groups_subtitle": "Optional categories for organizing components",
+      "loading": "Loading...",
+      "new_component": "New Component",
+      "new_group": "New Group",
+      "no_url_specified": "No URL specified",
+      "search_placeholder": "Search components by name...",
+      "swal": {
+        "assign_to_group": {
+          "placeholder": "Select a group",
+          "title": "Assign to group"
+        },
+        "delete_component": {
+          "confirm": "Yes, delete it!",
+          "text": "This action cannot be undone!",
+          "title": "Delete this component?"
+        },
+        "delete_group": {
+          "confirm": "Yes, delete it!",
+          "text": "Components will remain ungrouped.",
+          "title": "Delete this group?"
+        },
+        "edit_component": {
+          "title": "Edit component"
+        },
+        "new_component": {
+          "input_label": "Enter a name for the new component",
+          "input_placeholder": "Component name",
+          "title": "Component name"
+        },
+        "new_group": {
+          "input_label": "Enter a name for the new group",
+          "input_placeholder": "Group name",
+          "title": "Group name"
+        }
+      },
+      "tip_ungrouped_other": "Components without a group will appear in an \"Other Components\" section on your status page",
+      "tip_use_groups": "Use groups like \"Backend\", \"Frontend\", \"Infrastructure\" to organize many components",
+      "tips_title": "Pro Tips:",
+      "toast": {
+        "component_created": "Component created",
+        "component_deleted": "Component deleted",
+        "component_updated": "Component updated",
+        "csrf_invalid": "CSRF token is invalid - please refresh the page",
+        "csrf_missing": "CSRF token is missing - please refresh the page",
+        "delete_failed": "Delete failed",
+        "failed_to_create_component": "Failed to create component",
+        "failed_to_create_group": "Failed to create group",
+        "failed_to_load_data": "Failed to load data",
+        "group_created": "Group created",
+        "group_deleted": "Group deleted",
+        "init_no_status_page_selected": "Failed to initialize page - no status page selected",
+        "no_status_pages_available": "No status pages available",
+        "rename_failed": "Rename failed",
+        "save_failed": "Save failed",
+        "update_failed": "Update failed"
+      },
+      "tooltip_delete_component": "Delete component",
+      "tooltip_edit_component": "Edit component",
+      "tooltip_move_down": "Move down",
+      "tooltip_move_up": "Move up",
+      "ungrouped": "Ungrouped",
+      "url_placeholder": "https://example.com",
+      "validation": {
+        "component_name_required": "You need to enter a component name!",
+        "group_name_required": "You need to enter a group name!",
+        "name_required": "Name is required",
+        "url_invalid": "URL must be a valid absolute URL (include https://)",
+        "url_must_start_http": "URL must start with http:// or https://"
+      }
+    },
     "configure_custom_domain": "Configure Custom Domain",
     "confirm_url": "To confirm, type the full URL of your status page:",
     "current_domain": "✓ Current",
@@ -2290,6 +2401,7 @@
       "analytics": "Analytics",
       "incidents": "Incidents",
       "maintenances": "Maintenances",
+      "settings_history": "History",
       "set_badge": "Set",
       "shared_resources": "Shared Resources",
       "shared_status_pages": "Shared Status Pages"
@@ -2378,6 +2490,32 @@
     "recent_actions": "Recent actions for your team",
     "select_status_page": "Select Status Page",
     "settings_escalated_role": "Settings access requires an escalated role",
+    "settings_history": {
+      "title": "Settings History",
+      "subtitle": "Recent settings changes for shared status pages in",
+      "subtitle_generic": "Recent settings changes for shared status pages",
+      "empty_no_pages_title": "No Shared Status Pages",
+      "filter_status_page": "Status Page",
+      "all_pages": "All shared pages",
+      "filter_limit": "Limit",
+      "col_actor": "Actor",
+      "col_status_page": "Status Page",
+      "col_changes": "Changes",
+      "before": "Before",
+      "after": "After",
+      "empty_title": "No Settings Changes",
+      "empty_description": "No settings changes have been recorded for the shared status pages in this team yet.",
+      "empty_no_teams_description": "You are not a member of any shared teams yet.",
+      "empty_no_pages_description": "No shared status pages are linked to this team yet.",
+      "cta_view_shared_teams": "View shared teams",
+      "cta_view_team_status_pages": "View team status pages",
+      "via": "via",
+      "more_changes": "+{{count}} more",
+      "no_visible_changes": "No visible setting changes",
+      "view_details": "View details",
+      "col_setting": "Setting",
+      "show_raw_json": "Show raw JSON"
+    },
     "shared": {
       "description": "Teams you were invited to or added to",
       "empty": {

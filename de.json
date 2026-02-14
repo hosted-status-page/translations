@@ -3,6 +3,7 @@
     "menu": {
       "dashboard": "Dashboard",
       "users_admins": "Benutzer & Admins",
+      "croatian": "🇭🇷 Kroatisch",
       "users": "Benutzer",
       "unvalidated": "Nicht validierte Benutzer",
       "administrators": "Administratoren",
@@ -56,6 +57,8 @@
     "billing_plan": "Abrechnung & Plan",
     "teams": "Teams",
     "addons": "Add-ons",
+    "greeting_anonymous": "Hey!",
+    "greeting_name": "Hey, {{name}}!",
     "misc": "Diverses",
     "lifetime_deals": "Lifetime-Angebote",
     "help": "Hilfe",
@@ -231,9 +234,34 @@
       "help_path": "Erstellen oder wählen Sie eine Komponente unter einer Ihrer Statusseiten aus und definieren Sie dann den Monitor.",
       "inline_component_help": "Wenn angegeben, wird eine neue Komponente erstellt und der Monitor daran angeschlossen."
     },
+    "create_flow": {
+      "create_failed": "Monitor konnte nicht erstellt werden.",
+      "creating_monitor": "Monitor wird erstellt...",
+      "generic_error": "Beim Erstellen des Monitors ist etwas schiefgelaufen.",
+      "include_failed": "Monitor konnte nicht auf der Statusseite angezeigt werden.",
+      "include_prompt_no": "Nicht jetzt",
+      "include_prompt_text": "Du kannst das später jederzeit in den Statusseiten-Einstellungen ändern.",
+      "include_prompt_title": "Diesen Monitor auf der Statusseite anzeigen?",
+      "include_prompt_yes": "Ja, anzeigen",
+      "include_success_text": "Der Monitor ist jetzt auf deiner Statusseite sichtbar.",
+      "include_success_title": "Monitor hinzugefügt",
+      "initial_check_done_text_prefix": "Monitor ist",
+      "initial_check_done_text_response": "Antwortzeit",
+      "initial_check_done_title": "Erste Prüfung abgeschlossen",
+      "initial_check_failed": "Erste Prüfung fehlgeschlagen.",
+      "initial_check_text": "Bitte warten Sie, während wir eine außerplanmäßige Prüfung für Ihren neuen Monitor ausführen.",
+      "initial_check_title": "Erste Prüfung läuft...",
+      "invalid_interval_title": "Ungültiges Intervall",
+      "response_time_na": "k. A."
+    },
     "edit": {
       "heading": "Monitor bearbeiten",
-      "update_button": "Monitor aktualisieren"
+      "update_button": "Monitor aktualisieren",
+      "delete_button": "Delete Monitor",
+      "delete_title": "Delete Monitor?",
+      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
+      "deleted": "Monitor has been deleted.",
+      "delete_failed": "Failed to delete monitor: "
     },
     "back_to_list": "Zurück zu Monitoren",
     "form": {
@@ -392,6 +420,85 @@
     "how_it_works_intro": "So funktioniert es:",
     "components_explanation": "Komponenten sind die Dienste/Monitore, die Sie verfolgen möchten (z.B. \"API-Server\", \"Website\")",
     "groups_explanation": "Gruppen helfen dabei, Komponenten in Kategorien zu organisieren (z.B. \"Backend-Dienste\", \"Infrastruktur\")",
+    "components_page": {
+      "component_map_loading": "Komponentenkarte wird geladen…",
+      "component_map_unavailable": "Die Komponentenkarte ist vorübergehend nicht verfügbar.",
+      "components_subtitle": "Einzelne Dienste und Monitore zum Überwachen",
+      "empty_components_help": "Klicke auf \"Neue Komponente\", um deinen ersten Dienst hinzuzufügen",
+      "empty_components_title": "Noch keine Komponenten",
+      "empty_groups_help": "Klicke auf \"Neue Gruppe\", um deine erste Kategorie zu erstellen",
+      "empty_groups_title": "Noch keine Gruppen",
+      "groups_heading": "Komponentengruppen",
+      "groups_subtitle": "Optionale Kategorien zum Organisieren von Komponenten",
+      "loading": "Wird geladen...",
+      "new_component": "Neue Komponente",
+      "new_group": "Neue Gruppe",
+      "no_url_specified": "Keine URL angegeben",
+      "search_placeholder": "Komponenten nach Name suchen...",
+      "swal": {
+        "assign_to_group": {
+          "placeholder": "Gruppe auswählen",
+          "title": "Gruppe zuweisen"
+        },
+        "delete_component": {
+          "confirm": "Ja, löschen!",
+          "text": "Diese Aktion kann nicht rückgängig gemacht werden!",
+          "title": "Diese Komponente löschen?"
+        },
+        "delete_group": {
+          "confirm": "Ja, löschen!",
+          "text": "Komponenten bleiben ohne Gruppe.",
+          "title": "Diese Gruppe löschen?"
+        },
+        "edit_component": {
+          "title": "Komponente bearbeiten"
+        },
+        "new_component": {
+          "input_label": "Gib einen Namen für die neue Komponente ein",
+          "input_placeholder": "Komponentenname",
+          "title": "Komponentenname"
+        },
+        "new_group": {
+          "input_label": "Gib einen Namen für die neue Gruppe ein",
+          "input_placeholder": "Gruppenname",
+          "title": "Gruppenname"
+        }
+      },
+      "tip_ungrouped_other": "Komponenten ohne Gruppe erscheinen als Abschnitt \"Weitere Komponenten\" auf deiner Statusseite",
+      "tip_use_groups": "Nutze Gruppen wie \"Backend\", \"Frontend\", \"Infrastruktur\", um viele Komponenten zu organisieren",
+      "tips_title": "Pro-Tipps:",
+      "toast": {
+        "component_created": "Komponente erstellt",
+        "component_deleted": "Komponente gelöscht",
+        "component_updated": "Komponente aktualisiert",
+        "csrf_invalid": "CSRF-Token ist ungültig – bitte Seite neu laden",
+        "csrf_missing": "CSRF-Token fehlt – bitte Seite neu laden",
+        "delete_failed": "Löschen fehlgeschlagen",
+        "failed_to_create_component": "Komponente konnte nicht erstellt werden",
+        "failed_to_create_group": "Gruppe konnte nicht erstellt werden",
+        "failed_to_load_data": "Daten konnten nicht geladen werden",
+        "group_created": "Gruppe erstellt",
+        "group_deleted": "Gruppe gelöscht",
+        "init_no_status_page_selected": "Seite konnte nicht initialisiert werden – keine Statusseite ausgewählt",
+        "no_status_pages_available": "Keine Statusseiten verfügbar",
+        "rename_failed": "Umbenennen fehlgeschlagen",
+        "save_failed": "Speichern fehlgeschlagen",
+        "update_failed": "Aktualisierung fehlgeschlagen"
+      },
+      "tooltip_delete_component": "Komponente löschen",
+      "tooltip_edit_component": "Komponente bearbeiten",
+      "tooltip_move_down": "Nach unten",
+      "tooltip_move_up": "Nach oben",
+      "ungrouped": "Ohne Gruppe",
+      "url_placeholder": "https://example.com",
+      "validation": {
+        "component_name_required": "Du musst einen Komponentennamen eingeben!",
+        "group_name_required": "Du musst einen Gruppennamen eingeben!",
+        "name_required": "Name ist erforderlich",
+        "url_invalid": "URL muss eine gültige absolute URL sein (inkl. https://)",
+        "url_must_start_http": "URL muss mit http:// oder https:// beginnen"
+      }
+    },
     "groups_optional": "Gruppen sind optional – Komponenten ohne Gruppen werden separat angezeigt",
     "step1_create_groups": "Schritt 1: Gruppen erstellen (Optional)",
     "group_placeholder": "z.B. Backend-Dienste, Infrastruktur, Frontend...",
@@ -1407,7 +1514,8 @@
       "maintenances": "Wartungen",
       "set_badge": "aktiv",
       "shared_resources": "Geteilte Ressourcen",
-      "shared_status_pages": "Geteilte Statusseiten"
+      "shared_status_pages": "Geteilte Statusseiten",
+      "settings_history": "Verlauf"
     },
     "audit_logs": {
       "no_teams": {
@@ -1621,7 +1729,33 @@
       "description": "Upgraden Sie, um mit Ihrem Team zusammenzuarbeiten und den Zugriff auf Statusseiten zu teilen.",
       "title": "Teams sind in Ihrem aktuellen Plan nicht verfügbar."
     },
-    "viewer_read_only": "Nur Lesezugriff, um Vorfälle und Statusseiten-Daten anzuzeigen."
+    "viewer_read_only": "Nur Lesezugriff, um Vorfälle und Statusseiten-Daten anzuzeigen.",
+    "settings_history": {
+      "title": "Einstellungsverlauf",
+      "subtitle": "Letzte Einstellungsänderungen für gemeinsame Statusseiten in",
+      "subtitle_generic": "Letzte Einstellungsänderungen für gemeinsame Statusseiten",
+      "empty_no_pages_title": "Keine gemeinsamen Statusseiten",
+      "filter_status_page": "Statusseite",
+      "all_pages": "Alle gemeinsamen Seiten",
+      "filter_limit": "Limit",
+      "col_actor": "Akteur",
+      "col_status_page": "Statusseite",
+      "col_changes": "Änderungen",
+      "before": "Vorher",
+      "after": "Nachher",
+      "empty_title": "Keine Änderungen",
+      "empty_description": "Für die gemeinsamen Statusseiten dieses Teams wurden noch keine Einstellungsänderungen aufgezeichnet.",
+      "empty_no_teams_description": "Sie sind noch kein Mitglied eines geteilten Teams.",
+      "empty_no_pages_description": "Diesem Team sind noch keine geteilten Statusseiten zugeordnet.",
+      "cta_view_shared_teams": "Geteilte Teams anzeigen",
+      "cta_view_team_status_pages": "Team-Statusseiten anzeigen",
+      "via": "über",
+      "more_changes": "+{{count}} weitere",
+      "no_visible_changes": "Keine sichtbaren Einstellungsänderungen",
+      "view_details": "Details anzeigen",
+      "col_setting": "Einstellung",
+      "show_raw_json": "Rohes JSON anzeigen"
+    }
   },
   "severities": {
     "nav": {
@@ -2217,7 +2351,8 @@
     "full_embeds_widgets": "Vollständige Embeds & Widgets",
     "trial_label": "Testzeitraum",
     "grace_period_label": "Kulanzfrist",
-    "active_label": "Aktiv:"
+    "active_label": "Aktiv:",
+    "active_until": "Active until:"
   },
   "misc": {
     "language_names": {
@@ -2227,7 +2362,8 @@
       "french": "🇫🇷 Français",
       "german": "🇩🇪 Deutsch",
       "serbian": "🇷🇸 Српски",
-      "arabic": "🇸🇦 العربية"
+      "arabic": "🇸🇦 العربية",
+      "croatian": "🇭🇷 Croatian"
     },
     "assign_groups": "Weisen Sie Komponenten Gruppen zu oder lassen Sie sie ungruppiert – beides funktioniert perfekt!",
     "assign_to": "Zuweisen an:",
@@ -2325,7 +2461,9 @@
     "tip_label": "Tipp:",
     "type_colon": "Typ:",
     "upgrade_now": "Jetzt upgraden",
-    "value_label": "Wert:"
+    "value_label": "Wert:",
+    "filter": "Filter",
+    "time": "Time"
   },
   "dashboard": {
     "no_active_incidents_help": "Keine aktiven Vorfälle. Weiter so — fügen Sie einen Monitor hinzu oder teilen Sie eine Statusseite.",
@@ -2462,7 +2600,9 @@
       "network_error": {
         "title": "Netzwerkfehler",
         "text": "Daten konnten nicht geladen werden. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut."
-      }
+      },
+      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
+      "empty_title": "Select a Status Page"
     },
     "availability_response_time_heading": "Verfügbarkeit & Antwortzeit",
     "avg_response_time_title": "Durchschnittliche Antwortzeit",

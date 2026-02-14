@@ -1,0 +1,2991 @@
+{
+  "account_deletion": {
+    "close_account": {
+      "heading": "Trajno zatvorite moj račun"
+    },
+    "confirm_phrase": {
+      "placeholder": "Unesite DELETE MY ACCOUNT",
+      "prefix": "Unesite",
+      "suffix": "za potvrdu:"
+    },
+    "confirmations": {
+      "export": "Razumijem da treba da izvezem podatke prije brisanja, ili prihvaćam da će svi moji podaci biti trajno izgubljeni.",
+      "final": "Razumijem da je ova radnja <strong>trajna i ne može se poništiti</strong>."
+    },
+    "delete_button": "Trajno izbrišite moj račun",
+    "export_first": {
+      "cta": "Idite na stranicu za izvoz podataka",
+      "description": "Prije nego što obrišete račun, <strong>toplo preporučujemo</strong> da izvezete podatke. Tako ćete zadržati kopiju status stranica, monitora, incidenata i drugih podataka.",
+      "heading": "Prvo izvezite podatke (preporučeno)",
+      "items": {
+        "custom_domains": "Konfiguracije prilagođenih domena",
+        "incidents": "Svi incidenti i ažuriranja",
+        "monitors": "Svi monitori i povijest provjera",
+        "notification_channels": "Postavke kanala obavijesti",
+        "pages": "Sve status stranice i njihove konfiguracije"
+      },
+      "note": "Možete izvesti podatke i zatim se vratiti na ovu stranicu da nastavite brisanje računa.",
+      "whats_exported": "Što se izvozi:"
+    },
+    "privacy_commitment": {
+      "text": "Pratimo GDPR smjernice. Vaši podaci će biti trajno uklonjeni iz naših sistema u roku od 60 dana, a audit logovi u roku od 90 dana.",
+      "title": "Posvećenost privatnosti:"
+    },
+    "swal": {
+      "final_warning": {
+        "confirm": "Da, izbrišite moj račun",
+        "text": "Ova radnja se ne može poništiti. Svi monitori, status stranice i postavke će biti trajno uklonjeni.",
+        "text_strong": "Ovo će trajno obrisati Vaš račun i sve povezane podatke.",
+        "title": "⚠️ POSLJEDNJE UPOZORENjE"
+      }
+    },
+    "warning": {
+      "text": "Ova radnja se ne može poništiti. Svi Vaši podaci će biti trajno obrisani.",
+      "title": "Trajno brisanje računa",
+      "subscription_cancel": "Zatvaranjem računa odmah se otkazuje svaka aktivna pretplata."
+    },
+    "what_deleted": {
+      "content": {
+        "incidents": "Svi incidenti i ažuriranja"
+      },
+      "description": "Kada zatvorite račun, sljedeći podaci će biti <strong>trajno obrisani</strong>:",
+      "heading": "Što će biti obrisano",
+      "settings": {
+        "custom_domains": "Konfiguracije prilagođenih domena",
+        "notification_channels": "Postavke kanala obavijesti",
+        "trial_and_subscription": "Informacije o probnom periodu i pretplati"
+      }
+    },
+    "what_keep": {
+      "description": "Iz poreznih i računovodstvenih razloga, <strong>zakonski smo obvezni</strong> da zadržimo:",
+      "heading": "Što zadržavamo (zakonski zahtjevi)",
+      "items": {
+        "billing_records": "<strong>Samo podatke o transakcijama</strong> (ID transakcije, iznos, datum)",
+        "no_operational_data": "Ne zadržavamo status stranice, monitore ili operativne podatke",
+        "no_tracking": "Ovi zapisi ne sadrže <strong>lične podatke za praćenje</strong>"
+      },
+      "note": "Ovo je standardna praksa i zahtijevaju je porezne uprave u većini zemalja."
+    }
+  },
+  "account_settings": {
+    "nav": {
+      "account": "Račun",
+      "billing_plans": "Naplata i planovi",
+      "close_account": "Zatvorite račun",
+      "connections": "Povezivanja",
+      "data_export": "Izvoz podataka",
+      "notifications": "Obavijesti",
+      "security": "Sigurnost",
+      "support": "Podrška"
+    }
+  },
+  "addons": {
+    "checkout": {
+      "actions": {
+        "creating": "Kreiranje checkout sesije..."
+      },
+      "created": {
+        "text": "Preusmjeravanje na checkout...",
+        "title": "Preusmjeravanje"
+      },
+      "errors": {
+        "failed_try_again": "Neuspješno kreiranje checkout sesije. Pokušajte ponovo."
+      }
+    },
+    "monitors_plus": "Monitori +",
+    "pages_plus": "Stranice +",
+    "services_plus": "Servisi +"
+  },
+  "admin": {
+    "menu": {
+      "addons": "Dodaci",
+      "administrators": "Administratori",
+      "agents": "Agenti",
+      "audit_queue": "Red za reviziju",
+      "billing": "Naplata",
+      "billing_finance": "Naplata i financije",
+      "captcha_logs": "CAPTCHA logovi",
+      "changes": "Promjene",
+      "competitors": "Konkurenti",
+      "configuration": "Konfiguracija",
+      "configuration_menu": "Konfiguracija",
+      "dashboard": "Nadzorna ploča",
+      "discount_promotions": "Popusti i promocije",
+      "email_queue": "Red za e-poštu",
+      "error_logs": "Logovi grešaka",
+      "impersonation_audit": "Revizija impersonacije",
+      "landing_pages": "Naslovne stranice",
+      "logout": "Odjavite se",
+      "ltd_management": "LTD upravljanje",
+      "manage": "Upravljaj",
+      "marketing": "Marketing",
+      "misc": "Ostalo",
+      "monitoring_captcha": "Monitoring i CAPTCHA",
+      "notification_channels": "Kanali obavijesti",
+      "onboarding_steps": "Koraci za uvođenje",
+      "operations": "Operacije",
+      "plan_limits": "Limiti plana",
+      "product_mappings": "Mapiranje proizvoda",
+      "profile": "Profil",
+      "public_pages": "Javne stranice",
+      "regions": "Regioni",
+      "settings": "Postavke",
+      "spam_keywords": "Spam ključne reči",
+      "telegram_tests": "Telegram testovi",
+      "tools": "Alati",
+      "trials": "Probniperiodi",
+      "unvalidated": "Neverifikovani korisnici",
+      "user_admin_audit": "Revizija korisničkih admina",
+      "users": "Korisnici",
+      "users_admins": "Korisnici i administratori",
+      "email_logs": "Logovi e-pošte",
+      "invite_links": "Linkovi za poziv"
+    }
+  },
+  "analytics": {
+    "config": {
+      "remove_confirm": {
+        "body": "Da li ste sigurni da želite da uklonite ovu integraciju?",
+        "confirm": "Ukloni",
+        "fallback": "Da li ste sigurni da želite da uklonite ovu integraciju?",
+        "title": "Ukloniti integraciju?"
+      },
+      "remove_failed": "Neuspješno uklanjanje",
+      "removed": "Uklonjeno!",
+      "removing": "Uklanjanje...",
+      "select_service_to_remove": "Molimo izaberite servis za uklanjanje."
+    },
+    "exclude_maintenance": "Isključi periode održavanja",
+    "historical": {
+      "forbidden": {
+        "default_message": "Pristup istorijskom učinku nije dozvoljen za Vašu ulogu.",
+        "guidance": "Zamolite vlasnika statusne stranice da omogući Vašu ulogu tima u Podešavanjima statusne stranice → Pristup → Istorijski pristup učinku (Timovi).",
+        "no_chart": "Grafikon nije dostupan zbog ograničenog pristupa.",
+        "title": "Pristup odbijen."
+      },
+      "load_failed": {
+        "title": "Nije moguće učitati podatke"
+      },
+      "monitors": {
+        "all_first_5": "Svi monitori (prvih 5)",
+        "monitor_fallback": "Monitor {{id}}"
+      },
+      "network_error": {
+        "text": "Učitavanje podataka nije uspjelo. Proverite vezu i pokušajte ponovo.",
+        "title": "Greška mreže"
+      },
+      "retention": {
+        "badge_days": "Zadržavanje: {{days}} dana",
+        "badge_unlimited": "Zadržavanje: Neograničeno",
+        "start_date_clamped": "Početni datum je ograničen na {{date}} zbog ograničenja zadržavanja."
+      },
+      "select_status_page": {
+        "body_continue": "Izaberite status stranicu da nastavite.",
+        "body_export": "Izaberite status stranicu da izvezete.",
+        "body_refresh": "Izaberite status stranicu, kliknite Idi, zatim osvežite.",
+        "continue": "Nastavi",
+        "export": "Izvezi",
+        "refresh": "Osveži",
+        "title": "Izaberite status stranicu"
+      },
+      "table": {
+        "no_data": "Nema podataka za ovaj opseg.",
+        "no_monitors": "Nije pronađen nijedan monitor."
+      },
+      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
+      "empty_title": "Select a Status Page"
+    },
+    "manage_share_tokens": "Upravljaj tokenima za deljenje",
+    "show_downtime_only": "Prikaži samo padove",
+    "tokens": {
+      "active_tokens": "Aktivni tokeni",
+      "close": "Zatvorite",
+      "copy_failed": "Kopiranje nije uspjelo",
+      "copy_failed_help": "Kopirajte link ručno iz dijaloga.",
+      "copy_link": "Kopiraj link",
+      "copy_manual": "Kopirajte ručno:",
+      "create_cta": "Napravi token",
+      "create_title": "Napravi novi token za deljenje",
+      "created": "Token kreiran",
+      "creating": "Kreiranje tokena...",
+      "empty": "Nema aktivnih tokena. Napravite jedan da biste počeli da delite analitiku.",
+      "error_create": "Greška pri kreiranju tokena. Pokušajte ponovo.",
+      "error_revoke": "Greška pri opozivanju tokena. Pokušajte ponovo.",
+      "expiry_days": "Istek (dani)",
+      "expiry_help": "Ostavite prazno ili 0 za tokene koji nikad ne ističu",
+      "expiry_placeholder": "0 = Nikad",
+      "failed_create": "Neuspješno kreiranje tokena",
+      "failed_revoke": "Neuspješno opozivanje tokena",
+      "link_copied": "Link kopiran",
+      "new_token": "Novi token",
+      "read_only": "Samo čitanje",
+      "read_only_help": "Samo čitanje (mogu da gledaju, ne i da menjaju)",
+      "revoke_confirm": "Opozovi",
+      "revoke_text": "Svako ko ga koristi izgubiće pristup odmah.",
+      "revoke_title": "Opozvati token?",
+      "revoked": "Token opozvan",
+      "revoking": "Opoziv tokena...",
+      "share_this_link": "Podelite ovaj link:",
+      "share_tokens": "Tokeni za deljenje",
+      "subtitle": "Upravljajte tokenima da biste podelili analitiku sa zainteresovanima (samo za čitanje)",
+      "usage": "Upotreba"
+    },
+    "availability_response_time_heading": "Dostupnost i vreme odziva",
+    "avg_response_time_title": "Prosečno vreme odziva",
+    "component_health_heading": "Zdravlje komponenti",
+    "custom_range_label": "Prilagođeni opseg:",
+    "filters_label": "Filteri:",
+    "historical_uptime_heading": "Istorijska dostupnost",
+    "limited_access": "Ograničen pristup.",
+    "loading_data": "Učitavanje podataka analitike...",
+    "max_response_time_title": "Maks. vreme odziva",
+    "no_downtime_detected": "Nije otkriven prekid rada za ovaj period.",
+    "select_status_page_placeholder": "Izaberite status stranicu…",
+    "time_period_label": "Vremenski period:"
+  },
+  "billing": {
+    "actions": {
+      "cancel_subscription": "Otkaži pretplatu",
+      "cancel_trial": "Otkaži probu",
+      "change_plan": "Promeni plan",
+      "explore_plans": "Pogledaj planove",
+      "extend_trial_plus_7_days": "Produži probu (+7 dana)",
+      "load_more": "Učitaj više",
+      "purchase_upgrade": "Kupi / Nadogradi",
+      "request_refund": "Zatraži povraćaj",
+      "upgrade_now": "Nadogradi sada",
+      "upgrade_plan": "Nadogradi plan"
+    },
+    "active_label": "Aktivan:",
+    "active_until": "Active until:",
+    "all_notification_channels": "Svi kanali za obavijesti",
+    "amount": "Iznos",
+    "audit_logs": "Audit logovi",
+    "auto_renew": "Automatsko obnavljanje",
+    "billing_cycle_label": "Billing cycle",
+    "billing_history": "Povijest naplate",
+    "billing_history_navigation": "Navigacija istorije naplate",
+    "branding": "brendiranje",
+    "breadcrumb": "Naplata i plan",
+    "check_interval": "interval provere",
+    "choose_best_plan": "Izaberite najbolji plan za potrebe Vašeg biznisa.",
+    "contact_support": "kontaktirajte podršku",
+    "current_period": "Trenutni period",
+    "current_plan": "Trenutni plan",
+    "date": "Datum",
+    "disabled": "Onemogućeno",
+    "download_receipt": "Preuzmi račun",
+    "download_receipts": "Preuzmite račune i pregledajte prethodne naplate",
+    "embeds_widgets": "ugradnje i vidžeti",
+    "enabled": "Omogućeno",
+    "export_csv": "Izvezi CSV",
+    "first_charge": "(prva naplata)",
+    "flexible_check_interval": "Fleksibilan interval provere",
+    "free_trial_active": "Besplatna proba je aktivna",
+    "full_branding": "Potpuno brendiranje",
+    "full_embeds_widgets": "Potpune ugradnje i vidžeti",
+    "full_support": "Puna podrška",
+    "global_locations": "Globalne lokacije",
+    "grace": {
+      "upgrade_within_prefix": "Nadogradite u roku od",
+      "upgrade_within_suffix": "da biste zadržali premijum funkcije.",
+      "your_trial_prefix": "Vaša proba za",
+      "your_trial_suffix": "plan je završena."
+    },
+    "grace_period_label": "Period Milosti",
+    "heartbeat_monitors": "Monitori za cron poslove i zakazane zadatke.",
+    "heartbeat_monitors_heading": "Heartbeat monitori",
+    "included_features": "📦 Uključene funkcije",
+    "keep_access_until_period_ends": "Zadržite pristup do kraja tekućeg perioda",
+    "limit": "Limit:",
+    "lose_access_right_away": "Odmah gubite pristup",
+    "max_members_per_team": "Maksimum članova po timu",
+    "monitoring_location": "lokacija nadzora",
+    "monitoring_locations": "lokacije nadzora",
+    "monitors_busiest_page": "Monitori (najaktivnija stranica)",
+    "monitors_per_page": "monitora po stranici",
+    "more_transactions_coming_soon": "Dostupno je još transakcija. Paginacija preko API-ja uskoro.",
+    "moved_to_free": "Bićete prebačeni na besplatan plan",
+    "next_billing_date": "Sljedeći datum naplate",
+    "no_active_subscription_text": "Pokrenite plan iz prozora sa cenama iznad da biste otključali napredne funkcije.",
+    "no_active_subscription_title": "Nema aktivne pretplate.",
+    "no_transactions_text": "Nadogradite plan da biste počeli da generišete fakture i evidenciju plaćanja.",
+    "no_transactions_title": "Još uvek nema transakcija naplate",
+    "notifications": "obavijesti",
+    "per_month": "/mesec",
+    "period": "Period",
+    "plan_status": "Status plana",
+    "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
+    "price": "Cena",
+    "private_status_pages": "Privatne status stranice",
+    "promo_code_prefix": "Promo kod",
+    "promo_code_suffix": "će biti automatski primenjen!",
+    "reference": "Referenca",
+    "refund": {
+      "not_satisfied_full": "Niste zadovoljni? Možete zatražiti pun povraćaj u roku od 15 dana od prve naplate.",
+      "remaining_to_request": "preostalo da zatražite povraćaj"
+    },
+    "refund_guarantee_active": "Garancija povraćaja od 15 dana je aktivna",
+    "refund_period_ended_prefix": "Period povraćaja od 15 dana je istekao. Ako imate posebne okolnosti, molimo",
+    "refund_period_ended_suffix": "— tu smo da pomognemo i sprečimo eventualne povratne naplate.",
+    "refund_processing_days": "Obrada povraćaja može potrajati 5–10 radnih dana",
+    "refund_reason_optional": "Razlog za povraćaj (opciono):",
+    "response_time_graphs": "Grafici vremena odziva",
+    "seats_per_team": "Mesta po timu",
+    "status": {
+      "failed": "Neuspješno",
+      "paid": "Plaćeno",
+      "pending": "Na čekanju",
+      "processed": "Obrađeno",
+      "refunded": "Vraćeno",
+      "succeeded": "Uspješno"
+    },
+    "status_page": "statusna stranica",
+    "status_pages": "statusne stranice",
+    "subscription_key_details": "Ključni detalji za Vaš trenutni obračunski ciklus",
+    "subscription_overview": "Pregled pretplate",
+    "subscription_reference": "Referenca pretplate",
+    "support_suffix": "podrška",
+    "sure_request_refund": "Da li ste sigurni da želite da zatražite povraćaj?",
+    "swal": {
+      "cancel_internal_trial": {
+        "html": "Da li zaista želite da otkažete probni period?<br><br><small class=\"text-muted\">Odmah ćete biti vraćeni na besplatan plan.</small>"
+      },
+      "cancel_subscription": {
+        "action_immediate": "Otkazivanje pretplate...",
+        "action_period_end": "Planiranje otkazivanja...",
+        "at_period_end": "Otkaži na kraju perioda",
+        "error_try_again_support": "Došlo je do greške. Pokušajte ponovo ili kontaktirajte podršku.",
+        "failed_prefix": "Nije moguće otkazati pretplatu: ",
+        "immediate": "Otkaži odmah",
+        "immediate_heading": "Otkazivanje odmah:",
+        "keep": "Zadrži pretplatu",
+        "no_future_charges": "Nema budućih naplata",
+        "no_refund": "Nema povraćaja za preostali period",
+        "period_end_heading": "Otkazivanje na kraju perioda:",
+        "processing_immediate": "Otkazivanje pretplate odmah",
+        "processing_period_end": "Planiranje otkazivanja na kraju perioda",
+        "success_immediate": "Pretplata je odmah otkazana. Prebačeni ste na besplatan plan.",
+        "success_period_end": "Pretplata će biti otkazana na kraju Vašeg obračunskog perioda. Zadržavate pristup do tada.",
+        "text": "Kako želite da otkažete pretplatu?",
+        "title": "Otkaži pretplatu"
+      },
+      "cancel_trial": {
+        "action": "Otkazivanje probe...",
+        "cancel": "Zadrži probu",
+        "cancelled_text": "Probni period je uspješno otkazan!",
+        "cancelled_title": "Proba otkazana",
+        "confirm": "Da, otkaži",
+        "error_try_again": "Došlo je do greške prilikom otkazivanja probe. Pokušajte ponovo.",
+        "failed_prefix": "Nije moguće otkazati probu: ",
+        "html": "Da li zaista želite da otkažete probni period?<br><br><small class=\"text-muted\">Bićete vraćeni na besplatan plan bez troškova.</small>",
+        "processing": "Otkazivanje probe",
+        "title": "Otkaži probu"
+      },
+      "extend_trial": {
+        "action": "Produžavanje probe...",
+        "confirm": "Da, produži",
+        "error_try_again": "Došlo je do greške prilikom produžavanja probe. Pokušajte ponovo.",
+        "failed_prefix": "Nije moguće produžiti probu: ",
+        "processing": "Produžavanje probe",
+        "success": "Probni period je uspješno produžen! Produžen je za 7 dana.",
+        "text": "Da li zaista želite da produžite probni period za 7 dana? Ovo je moguće samo jednom po probi.",
+        "title": "Produži probni period"
+      },
+      "no_subscription": {
+        "text": "Nije pronađena pretplata. Kontaktirajte podršku.",
+        "title": "Nema pretplate"
+      },
+      "processing_title": "Obrada...",
+      "refund": {
+        "action": "Slanje zahtijeva za povraćaj...",
+        "confirm": "Da, obradi povraćaj",
+        "confirm_title": "Potvrdi povraćaj",
+        "error_contact_support": "Došlo je do greške pri obradi povraćaja. Kontaktirajte podršku.",
+        "failed_prefix": "Nije moguće obraditi povraćaj: ",
+        "payment_id_help": "Ovo možete pronaći u tabeli istorije naplate iznad",
+        "payment_id_label": "ID plaćanja:",
+        "payment_id_placeholder": "Pronađite u istoriji transakcija iznad",
+        "payment_id_required": "ID plaćanja je obvezan",
+        "please_note": "Napomena:",
+        "processed_text": "Povraćaj je uspješno obrađen!",
+        "processed_title": "Povraćaj obrađen!",
+        "reason_placeholder": "Recite nam zašto tražite povraćaj...",
+        "request_title": "Zatraži povraćaj",
+        "submit": "Zatraži povraćaj",
+        "submitting": "Slanje zahtijeva za povraćaj"
+      },
+      "trial_plan_not_found": "Probni plan nije pronađen. Osvežite stranicu i pokušajte ponovo."
+    },
+    "tagline_default": "Pristupite osnovnim funkcijama za praćenje status stranice.",
+    "team_owner_no_count": "Vlasnik tima se ne računa u limit mesta.",
+    "teams_created": "Timovi koje ste kreirali.",
+    "total_monitors": "Ukupno monitora",
+    "total_monitors_help": "Ukupno monitora na svim status stranicama.",
+    "track_resource_consumption": "Pratite kako trošite resurse plana",
+    "transaction_type": {
+      "charge": "Naplata",
+      "refund": "Povraćaj",
+      "renewal": "Obnova"
+    },
+    "trial": {
+      "badge_label": "Proba",
+      "cancel_anytime_before_ends_no_charge": "Otkažite bilo kada prije kraja probe — bez naplate",
+      "cancel_anytime_no_charge": "Otkažite bilo kada — bez naplate",
+      "days": "dana",
+      "days_left": "dana preostalo",
+      "ends_soon": "Proba se uskoro završava",
+      "exploring_prefix": "Isprobavate",
+      "exploring_suffix": "plan besplatno.",
+      "first_charge_on": "Prva naplata",
+      "remaining": "preostalo"
+    },
+    "trial_grace_period": "Grejs period probe",
+    "trial_label": "Probni",
+    "type": "Tip",
+    "understand_subscription": "Pogledajte što Vaša pretplata uključuje",
+    "unlimited": "Neograničeno",
+    "unlimited_monitors_per_page": "Neograničeno monitora po stranici",
+    "unlimited_status_pages": "Neograničene statusne stranice",
+    "up_to": "Do",
+    "upgrade_your_plan": "Nadogradite plan",
+    "usage": {
+      "active_subscribers_help": "Aktivni pretplatnici na svim stranicama.",
+      "monitors_busiest_help": "Broj monitora na vašoj najaktivnijoj status stranici.",
+      "total_published_status_pages": "Ukupno objavljenih status stranica u Vašem radnom prostoru."
+    },
+    "usage_snapshot": "Pregled upotrebe",
+    "used": "iskorišćeno",
+    "will_cancel_subscription": "Ovo će otkazati Vašu pretplatu"
+  },
+  "common": {
+    "action": "Akcija",
+    "actions": "Akcije",
+    "back": "Nazad",
+    "cancel": "Otkaži",
+    "close": "Zatvorite",
+    "create": "Kreiraj",
+    "csrf_missing_refresh": "CSRF token nedostaje. Osvežite i pokušajte ponovo.",
+    "csrf_missing_refresh_page": "CSRF token nedostaje. Osvežite stranicu i pokušajte ponovo.",
+    "edit": "Uredi",
+    "email": "E-pošta",
+    "error": "Greška",
+    "info": "Informacija",
+    "message": "Poruka",
+    "na": "N/D",
+    "name": "Ime",
+    "next": "Sljedeća",
+    "not_now": "Ne sada",
+    "ok": "U redu",
+    "password": "Lozinka",
+    "please_enter_value": "Molimo unesite vrednost za potvrdu.",
+    "please_try_again": "Pokušajte ponovo.",
+    "prev": "Prethodna",
+    "remove": "Ukloni",
+    "request_failed_with": "Zahtjev nije uspjeo: {{error}}",
+    "resend": "Ponovo pošalji",
+    "save": "Sačuvaj",
+    "save_changes": "Sačuvaj izmene",
+    "settings": "Postavke",
+    "status": "Status",
+    "success": "Uspjeh",
+    "unexpected_error": "Došlo je do neočekivane greške",
+    "unlink": "Otkači",
+    "url": "URL",
+    "yes": "Da",
+    "all": "Sve",
+    "apply": "Primeni",
+    "beta": "Beta",
+    "connected": "Povezano",
+    "continue": "Nastavi",
+    "count": "Broj",
+    "custom": "Prilagođeno",
+    "days": "Dani",
+    "delete": "Izbrišite",
+    "details": "Detalji",
+    "check_now": "Proveri sada",
+    "view": "Pogledaj",
+    "enabled": "Omogućeno",
+    "end": "Kraj",
+    "expires": "Ističe",
+    "go": "Idite",
+    "hours": "Sati",
+    "how_it_works": "Kako funkcioniše:",
+    "items": "Stavke",
+    "loading": "Učitavanje...",
+    "min_abbrev": "min",
+    "name_colon": "Naziv:",
+    "no": "Ne",
+    "none_option": "— Nema —",
+    "note_label": "Napomena:",
+    "permission_denied_message": "Nemate dozvolu da pristupite ovoj stranici.",
+    "plan": "Plan",
+    "port": "Port",
+    "print": "Štampaj",
+    "range_to": "do",
+    "refresh": "Osveži",
+    "start": "Početak",
+    "tip_label": "Savet:",
+    "type_colon": "Tip:",
+    "upgrade_now": "Nadogradi sada",
+    "value_label": "Vrednost:",
+    "filter": "Filter",
+    "time": "Time"
+  },
+  "components": {
+    "form": {
+      "create_new": "Kreiraj novu komponentu",
+      "label": "Komponenta",
+      "new_name_label": "Naziv nove komponente",
+      "no_components_help": "Još nema komponenti na ovoj status stranici. Kreirajte jednu ispod.",
+      "select_placeholder": "-- Odaberite komponentu --",
+      "url_optional_label": "URL komponente (opciono)"
+    },
+    "description": "Opis",
+    "generate_conditions": "Generiši uslove",
+    "import_from_json": "Uvezi iz JSON-a",
+    "invalid_json": "Nevažeći JSON",
+    "json_response": "JSON odgovor",
+    "paste_expected_json": "Nalepite JSON odgovor koji očekujete od API-ja. Generisaćemo uslove da odgovaraju svakom polju.",
+    "paste_expected_json_short": "Nalepite očekivani JSON odgovor ispod. Analiziraćemo ga i generisati uslove za svako polje.",
+    "performance_tracking": "Praćenje performansi",
+    "select_placeholder": "Izaberite servis da konfigurišete obvezna polja.",
+    "select_status_page_and_refresh": "Izaberite status stranicu i kliknite na Osveži."
+  },
+  "connections": {
+    "actions": {
+      "connect": "Poveži"
+    },
+    "breadcrumb": "Veze",
+    "cant_unlink_last_signin": "Ne možete otkačiti poslednji način prijave",
+    "heading": "Povezani računi",
+    "status": {
+      "connected": "Povezano",
+      "not_connected": "Nije povezano"
+    }
+  },
+  "dashboard": {
+    "add_first_monitor": "Dodajte svoj prvi monitor",
+    "badge_monitors": "Monitori:",
+    "badge_status_pages": "Status stranice:",
+    "badge_uptime_30d": "Vreme rada (30d):",
+    "get_started": "Početak",
+    "no_active_incidents_help": "Nema aktivnih incidenata. Samo tako — dodajte monitor ili podelite status stranicu.",
+    "no_recent_activity": "Nema nedavnih aktivnosti",
+    "onboarding_complete": "✅ Onbording završen - sve je spremno!",
+    "update_incident": "Ažuriraj incident",
+    "account_settings_breadcrumb": "Postavke računa /",
+    "action_required": "Potrebna akcija",
+    "activity": "Aktivnost",
+    "add_monitor": "Dodaj monitor",
+    "all_systems_operational": "Svi sistemi rade",
+    "avg_response_time": "Prosečno vreme odziva",
+    "degradation_detected": "Otkriveno pogoršanje performansi",
+    "response_time_increased": "vreme odziva je poraslo za {{changePercent}}% u poslednjih {{days}} dana",
+    "dependency_outages_detected": "Otkriveni prekidi zavisnosti",
+    "affected_dependencies_help": "Nema aktivnih incidenata, ali {{count}} status stranice su pogođene prekidima kod dobavljača trećih strana.",
+    "affected_dependencies_help_one": "Nema aktivnih incidenata, ali {{count}} status stranica je pogođena prekidima kod dobavljača trećih strana.",
+    "affected_dependencies_help_other": "Nema aktivnih incidenata, ali {{count}} status stranice su pogođene prekidima kod dobavljača trećih strana.",
+    "create_first_status_page": "Napravite svoju prvu status stranicu",
+    "create_first_status_page_help": "Dodajte status stranicu da otključate pregled zdravlja servisa, dostupnosti i incidenata.",
+    "create_status_page": "Napravi status stranicu",
+    "dashboard_breadcrumb": "Nadzorna ploča /",
+    "empty_state": "Počnite dodavanjem monitora ili kreiranjem status stranice.",
+    "health_summary_placeholder": "Ovde ćemo prikazati kratak rezime statusa.",
+    "invite_teammate": "Pozovi člana tima",
+    "last_visit": "Poslednja poseta: —",
+    "loading": "Učitavanje...",
+    "loading_ellipsis": "Učitavanje…",
+    "loading_service_health": "Učitavanje zdravlja servisa…",
+    "new_incident": "Novi incident",
+    "onboarding_benefits": "Završetak postavke znači:",
+    "onboarding_checklist": "Kontrolna lista za početak",
+    "onboarding_create_update_incidents": "Kreirajte i ažurirajte incidente",
+    "onboarding_email_notifications": "Obavijesti e-poštom kada monitori otkriju incidente",
+    "onboarding_later": "Završi kasnije",
+    "onboarding_mark_complete": "Označi onbording kao završen",
+    "onboarding_public_page": "Javna stranica koju Vaši korisnici mogu da provere tokom prekida",
+    "onboarding_why": "Zašto završiti onbording?",
+    "overall_uptime": "Ukupna dostupnost (poslednjih 30 dana)",
+    "select_status_page_for_health": "Izaberite status stranicu",
+    "service_health": "Zdravlje servisa",
+    "service_health_help": "Izaberite status stranicu da učitate rezime",
+    "status_page_label_lower": "Status stranica",
+    "view_all": "Prikaži sve",
+    "view_all_incidents": "Prikaži sve incidente",
+    "view_analytics": "Prikaži analitiku"
+  },
+  "export": {
+    "archive_structure": {
+      "description": "Izvezena ZIP arhiva sadrži sljedeću strukturu:",
+      "heading": "Struktura arhive"
+    },
+    "button": "Izvezi sve podatke",
+    "description": "Preuzmite sveobuhvatnu <strong>ZIP arhivu</strong> koja sadrži sve Vaše podatke, uključujući status stranice, monitore, rezultate provjera, incidente i održavanja. Podaci su organizovani u zasebne fajlove radi lakšeg pregleda i obrade.",
+    "errors": {
+      "failed_try_again": "✗ Izvoz nije uspjeo. Pokušajte ponovo.",
+      "failed_with_status": "Izvoz nije uspjeo: "
+    },
+    "heading": "Izvezi podatke",
+    "jsonl": {
+      "text": "Monitori, incidenti i rezultati monitora koriste JSON Lines format (jedan JSON objekat po liniji) za efikasnu obradu velikih skupova podataka. To omogućava strimovanje i obradu velikih lista bez učitavanja svega u memoriju.",
+      "title": "JSONL format:"
+    },
+    "privacy": {
+      "text": "Izvezeni podaci se generišu po potrebi i mogu sadržati osetljive informacije o vašoj konfiguraciji monitoringa. Čuvajte ovaj fajl bezbedno i ne delite ga javno.",
+      "title": "Privatnost i sigurnost:"
+    },
+    "status": {
+      "completed": "✓ Izvoz je uspješno završen!",
+      "generating": "Generisanje izvoza...",
+      "preparing": "Priprema podataka..."
+    },
+    "used_for": {
+      "analysis": "<strong>Analiza:</strong> Uradite sopstvene analize istorije dostupnosti",
+      "backup": "<strong>Bekap:</strong> Čuvajte lokalnu kopiju svih podataka o monitoringu",
+      "compliance": "<strong>Usklađenost:</strong> Čuvajte zapise za reviziju i usklađenost",
+      "migration": "<strong>Migracija:</strong> Prenesite podatke na drugu instancu ili sistem"
+    },
+    "whats_included": {
+      "title": "Što je uključeno u izvoz:"
+    }
+  },
+  "health": {
+    "blocked": "Blokirano",
+    "degraded": "Degradirano",
+    "down": "Nedostupno",
+    "inactive": "Neaktivno",
+    "maintenance": "Održavanje",
+    "major_outage": "Veliki prekid",
+    "no_monitors": "Nema monitora",
+    "operational": "Operativno",
+    "partial_outage": "Delimičan prekid",
+    "unknown": "Nepoznato"
+  },
+  "heartbeats": {
+    "actions": {
+      "creating": "Kreiranje otkucaja...",
+      "deleting": "Brisanje otkucaja...",
+      "updating": "Ažuriranje otkucaja..."
+    },
+    "auto_infer": "Automatska zaključivanja",
+    "auto_infer_expected": "Automatski zaključi očekivani interval",
+    "cta": {
+      "create": "Kreiraj monitor otkucaja"
+    },
+    "delete_confirm": {
+      "confirm": "Izbrišite",
+      "text": "Ovo će trajno obrisati \"__NAME__\" i njegovu istoriju ping-ova.",
+      "title": "Obrisati otkucaj?"
+    },
+    "edit": {
+      "fields": {
+        "enabled": "Omogućeno",
+        "public_name": "Javno ime (opciono)"
+      },
+      "placeholders": {
+        "description": "Opcioni opis",
+        "expected_interval": "Ostavi prazno za automatski",
+        "grace": "300",
+        "name": "Ime otkucaja",
+        "public_name": "Ostavite prazno da koristite interno ime"
+      },
+      "title": "Uredi otkucaj"
+    },
+    "errors": {
+      "create_failed": "Nije uspjelo kreiranje monitora otkucaja.",
+      "create_failed_with": "Nije uspjelo kreiranje otkucaja: __ERROR__",
+      "delete_failed": "Nije uspjelo brisanje otkucaja.",
+      "load_failed": "Nije uspjelo učitavanje otkucaja.",
+      "update_failed": "Nije uspjelo ažuriranje otkucaja.",
+      "validation_failed": "Validacija nije uspjela."
+    },
+    "form": {
+      "description": "Opis (opciono)",
+      "description_placeholder": "Pokreće se svake noći u 2 AM",
+      "expected_interval": "Očekivani interval (sekunde)",
+      "expected_interval_placeholder": "Ostavite prazno za automatsko zaključivanje",
+      "grace_period": "Period blažnosti (sekunde)",
+      "name": "Ime",
+      "name_placeholder": "Dnevni backup posao",
+      "public_name_help": "Ostavite prazno da koristite interno ime.",
+      "public_name_placeholder": "Dnevni backup",
+      "status_page": "Status stranica",
+      "status_page_placeholder": "Izaberite status stranicu...",
+      "grace_help": "Dodatno vreme prije označavanja kao propušteno (podrazumevano: 300 = 5 minuta)",
+      "interval_help": "Ostavite prazno za automatsko otkrivanje iz prva 3 pinga"
+    },
+    "info": {
+      "description": "Za razliku od običnih monitora koji proveravaju Vaše usluge, monitori otkucaja čekaju da Vam kron poslovi ili skripte pinguju. Ako se u očekivanom intervalu + periodu blagajnosti ne primi ping, bićete obavešteni.",
+      "learn_more": "Saznajte više",
+      "title": "Kako funkcionišu monitori otkucaja"
+    },
+    "list": {
+      "create_first": "Kreiraj prvu pulsaciju",
+      "description": "Nadzirajte kron poslove, zakazane zadatke i pozadinske procese",
+      "heading": "Monitori otkucaja",
+      "none_help": "Kreirajte svoj prvi monitor otkucaja da počnete da pratite kron poslove i zakazane zadatke",
+      "none_message": "Nema monitora otkucaja"
+    },
+    "modal": {
+      "create_title": "Kreiraj monitor otkucaja",
+      "ping_help": "Koristite ovu URL da pingujete monitor otkucaja iz Vašeg kron posla ili skripte:",
+      "ping_url_with_name": "URL za ping: __NAME__",
+      "create_button": "Kreiraj Heartbeat",
+      "example": "Primer",
+      "ping_url": "Ping URL"
+    },
+    "nav": {
+      "heartbeats": "Otkucaji"
+    },
+    "never": "Nikad",
+    "status": {
+      "healthy": "Zdravo",
+      "missed": "Propušteno",
+      "paused": "Pauzirano",
+      "pending": "Na čekanju"
+    },
+    "table": {
+      "actions": "Akcije",
+      "expected_interval": "Očekivani interval",
+      "last_ping": "Poslednji ping",
+      "name": "Ime",
+      "status": "Status"
+    },
+    "toast": {
+      "copied_to_clipboard": "Kopirano u klipbord",
+      "deleted": "Otkucaj obrisan",
+      "updated": "Otkucaj ažuriran"
+    },
+    "validation": {
+      "expected_positive": "Očekivani interval mora biti pozitivan broj.",
+      "expected_positive_seconds": "Očekivani interval mora biti pozitivan broj sekundi.",
+      "expected_required_when_no_autoinfer": "Očekivani interval je obvezan kada je automatsko zaključivanje isključeno.",
+      "fix_highlighted_fields": "Molimo ispravite označena polja.",
+      "grace_positive": "Period blažnosti mora biti pozitivan broj.",
+      "grace_positive_seconds": "Period blažnosti mora biti pozitivan broj sekundi.",
+      "name_required": "Ime je obvezno.",
+      "status_page_required": "Molimo izaberite status stranicu."
+    },
+    "details_and_pings": "Detalji heartbeat monitora i nedavni ping-ovi",
+    "pinged_at": "Ping-ovano u",
+    "public_name_optional": "Javno ime (opciono)",
+    "user_agent": "User-Agent"
+  },
+  "incidents": {
+    "add_status_update": "Dodaj ažuriranje statusa",
+    "add_update": "Dodaj ažuriranje",
+    "affected_services": "Uticane usluge",
+    "close_incident": "Zatvorite incident",
+    "confirm_delete_incident": "Da li ste sigurni da želite da obrišete ovaj incident?",
+    "create_first_incident": "Napravite Svoj Prvi Incident",
+    "create_incident": "Napravi incident",
+    "created_by": "Napravljeno od",
+    "delete_incident": "Izbrišite incident",
+    "edit_incident": "Uredi Incident",
+    "export_incidents": "Izvez",
+    "filter_incidents": "Filter",
+    "identified": "Identifikovano",
+    "incident_created_success": "Incident uspješno napravljen",
+    "incident_deleted_success": "Incident uspješno obrisan",
+    "incident_description": "Opis",
+    "incident_description_placeholder": "Opišite što je došlo...",
+    "incident_details": "Detalji incidenta",
+    "incident_duration": "Trajanje",
+    "incident_ended": "Završeno",
+    "incident_severity": "Ozbiljnost",
+    "incident_started": "Počelo",
+    "incident_status": "Status incidenta",
+    "incident_title": "Naslov incidenta",
+    "incident_title_placeholder": "npr. Neuspješna veza sa bazom",
+    "incident_updated_success": "Incident uspješno ažuriran",
+    "investigating": "Istraživanje u toku",
+    "last_updated": "Poslednji put ažurirano",
+    "manage_postmortem": "Upravljanje",
+    "monitoring": "Nadzor",
+    "new_incident": "Novi incident",
+    "no_message": "(Nema poruke)",
+    "nav": {
+      "incidents": "Incidenti",
+      "new_incident": "Novi incident",
+      "templates": "Šabloni"
+    },
+    "no_title": "(Nema naslova)",
+    "no_updates_yet": "Još nema ažuriranja",
+    "notification_preview": "Pregled obavijesti",
+    "no_incidents": "Još uvek nema incidenata",
+    "no_incidents_found": "Nisu pronađeni incidenti",
+    "no_incidents_message": "Napravite Vaš prvi incident da počnete",
+    "no_postmortem": "Bez Postmortema",
+    "no_updates": "Još uvek nema ažuriranja",
+    "postmortem_draft": "Nacrt Postmortema",
+    "postmortem_published": "Objavljen Postmortem",
+    "reopen_incident": "Ponovo otvori incident",
+    "resolved": "Rešeno",
+    "search_placeholder": "Potraži incidente...",
+    "severity_critical": "Kritično",
+    "severity_major": "Veliko",
+    "severity_minor": "Malo",
+    "templates": {
+      "actions": {
+        "deleting": "Brisanje šablona...",
+        "saving": "Čuvanje šablona..."
+      },
+      "delete_confirm": {
+        "confirm": "Izbrišite",
+        "text": "Da li ste sigurni da želite da obrišete ovaj šablon? Ova radnja je nepovratna.",
+        "title": "Obrisati šablon?"
+      },
+      "errors": {
+        "delete_failed": "Neuspješno brisanje šablona",
+        "delete_failed_try_again": "Neuspješno brisanje šablona. Pokušajte ponovo.",
+        "save_failed": "Neuspješno čuvanje šablona",
+        "save_failed_try_again": "Neuspješno čuvanje šablona. Pokušajte ponovo."
+      }
+    },
+    "timeline": {
+      "heading": "Vremenska linija"
+    },
+    "template_preview": "Pregled",
+    "update_status_message": "Poruku o ažuriranju statusa",
+    "updates": "Ažuriranja incidenta",
+    "view": {
+      "archived_reason_label": "Razlog arhiviranja:",
+      "component": "Komponenta",
+      "created": "Kreirano",
+      "edit": "Izmeni incident",
+      "ended": "Završeno",
+      "error": "Greška",
+      "hidden_badge": "🙈 Sakriveno sa status stranice",
+      "hidden_help": "Ovaj incident je arhiviran i sakriven iz „Nedavnih incidenata“ na status stranici, ali direktna veza i dalje radi.",
+      "last_updated": "Poslednje ažuriranje",
+      "message": "Poruka",
+      "resolved_prompt": "Incident je rešen. Zabeležite postmortem kako biste dokumentovali uticaj i remedijaciju.",
+      "started": "Počelo",
+      "status": "Status",
+      "unhide_button": "👁️ Prikaži na status stranici"
+    },
+    "view_incident": "Prikaži Incident",
+    "active_incidents": "Aktivni incidenti",
+    "affected_component": "Pogođena komponenta",
+    "alert_sent": "Upozorenje poslato",
+    "be_clear_concise": "Budite jasni i koncizni u naslovu",
+    "confirmed_quorum": "Potvrđeno (Kvorum)",
+    "connected_channels": "Povezani kanali",
+    "creating_effective_reports": "Kreiranje efikasnih izveštaja o incidentima",
+    "current_state": "Trenutno stanje",
+    "dashboard_incidents": "Nadzorna ploča / Incidenti /",
+    "detected": "Otkriveno",
+    "detection_delay": "Kašnjenje u otkrivanju",
+    "empty_state": "Još niste kreirali nijedan incident.",
+    "explain_what_happened": "Objasnite što se desilo i uticaj",
+    "filter_by_state": "Filtriraj po stanju",
+    "filter_by_status_page": "Filtriraj po statusnoj strani",
+    "first_detection": "Prvo otkrivanje",
+    "heading": {
+      "new": "Novi incident",
+      "updates": "Ažuriranja incidenta"
+    },
+    "help_tips": "Pomoć i saveti",
+    "include_resolution": "Uključite što radite da biste to rešili",
+    "items_per_page": "Stavki po strani",
+    "jump_start_preset": "Pokrenite sa podešavanjem da biste automatski popunili uobičajene incidente.",
+    "shared_team_status_page": "Status stranica deljenog tima:",
+    "total_incidents": "Ukupno incidenata",
+    "try_adjusting_search": "Pokušajte da prilagodite pretragu ili kreirajte novu komponentu.",
+    "update_regularly": "Redovno ažurirajte sa napredovanjem",
+    "auto_resolved": "Automatski rešeno",
+    "legend": "Legenda",
+    "silent": "Tiho"
+  },
+  "maintenances": {
+    "nav": {
+      "maintenances": "Održavanja",
+      "schedule_maintenance": "Zakaži održavanje"
+    },
+    "form": {
+      "components_label": "Komponente"
+    },
+    "list": {
+      "empty_title": "Nema zakazanih održavanja",
+      "heading": "Zakazana održavanja"
+    },
+    "status": {
+      "ongoing": "U toku",
+      "past": "Prošlo"
+    },
+    "table": {
+      "notify": "Obavesti",
+      "status_page": "Status stranica",
+      "window": "Period"
+    }
+  },
+  "misc": {
+    "language_names": {
+      "arabic": "🇸🇦 العربية",
+      "croatian": "🇭🇷 Hrvatski",
+      "english": "🇺🇸 English",
+      "french": "🇫🇷 Français",
+      "german": "🇩🇪 Deutsch",
+      "portuguese_br": "🇧🇷 Português (Brasil)",
+      "serbian": "🇷🇸 Srpski",
+      "spanish": "🇪🇸 Español"
+    },
+    "assign_groups": "Dodelite komponente grupama ili ih ostavite negrupisanim – oba načina rade savršeno!",
+    "assign_to": "Dodeli:",
+    "compare_plans": "Uporedite planove",
+    "components_help": "Organizujte komponente svoje statusne stranice u opcione grupe",
+    "confirmed": "Potvrđeno",
+    "connect_external_help": "Povežite spoljne provajdere za brže i bezbednije prijavljivanje.",
+    "contact_support_more_help": "Kontaktirajte podršku za više pomoći.",
+    "disabled": "Onemogućeno",
+    "expiring_soon": "Ističe uskoro",
+    "must_start_http": "Mora da počne sa http:// ili https://",
+    "my_profile": "Moj profil",
+    "otp_if_configured": "OTP (ako je konfigurisan)",
+    "processing": "Obrada…",
+    "remember_me": "Zapamti me",
+    "save_work_refresh": "Sačuvajte svoj rad i osvežite stranicu da biste nastavili.",
+    "search_ctrl_slash": "Pretraga (Ctrl+/)",
+    "session_expiring": "Vaša sesija će isteći za:",
+    "sold_out": "Rasprodato",
+    "unverified": "Neverifikovano",
+    "upgrade_feature": "Nadogradite svoj plan",
+    "upgrade_to_paid": "Nadogradite na plaćeni plan",
+    "url_optional": "URL (opciono)",
+    "use_reorder_buttons": "Koristite dugmadice strelice gore/dole da biste preredili grupe i komponente",
+    "verified": "Verifikovano",
+    "view_plans": "Pogledajte planove"
+  },
+  "monitors": {
+    "add_monitor": "Dodaj monitor",
+    "add": {
+      "create_button": "Kreiraj monitor",
+      "heading": "Dodaj monitor",
+      "help_path": "Kreirajte ili odaberite komponentu pod jednom od Vaših statusna stranica, a zatim definišite monitor.",
+      "inline_component_help": "Ako je navedeno, nova komponenta će biti kreirana i monitor će biti povezan sa njom."
+    },
+    "create_flow": {
+      "create_failed": "Neuspešno kreiranje monitora.",
+      "creating_monitor": "Kreiranje monitora...",
+      "generic_error": "Došlo je do greške pri kreiranju monitora.",
+      "include_failed": "Neuspešno uključivanje monitora na statusnu stranicu.",
+      "include_prompt_no": "Ne sada",
+      "include_prompt_text": "Ovo možete uvek promeniti kasnije u Podešavanjima statusne stranice.",
+      "include_prompt_title": "Uključiti ovaj monitor na statusnu stranicu?",
+      "include_prompt_yes": "Da, uključi ga",
+      "include_success_text": "Monitor je sada vidljiv na vašoj statusnoj stranici.",
+      "include_success_title": "Monitor uključen",
+      "initial_check_done_text_prefix": "Monitor je",
+      "initial_check_done_text_response": "Vreme odziva",
+      "initial_check_done_title": "Početna provera završena",
+      "initial_check_failed": "Početna provera nije uspela.",
+      "initial_check_text": "Sačekajte dok pokrenemo vanrednu proveru za vaš novi monitor.",
+      "initial_check_title": "Pokrećemo početnu proveru...",
+      "invalid_interval_title": "Neispravan interval",
+      "response_time_na": "n/d"
+    },
+    "auth_type": {
+      "api_key": "API ključ",
+      "basic": "Osnovna autentifikacija",
+      "bearer": "Bearer token",
+      "none": "Nema"
+    },
+    "back_to_list": "Nazad na monitore",
+    "check_type": {
+      "http_code_equals": "HTTP kod jednak",
+      "response_contains": "Odgovor sadrži",
+      "response_header_equals": "Zaglavlje odgovora jednako",
+      "response_time_equals": "Vreme odgovora jednako (ms)",
+      "response_time_gt": "Vreme odgovora veće od (ms)",
+      "response_time_lt": "Vreme odgovora manje od (ms)",
+      "response_time_under": "Vreme odgovora ispod",
+      "site_is_up": "Sajt je aktivan",
+      "ssl_valid": "SSL sertifikat validan"
+    },
+    "dns_record": {
+      "a": "A",
+      "aaaa": "AAAA",
+      "cname": "CNAME",
+      "ns": "NS",
+      "ptr": "PTR",
+      "srv": "SRV",
+      "txt": "TXT"
+    },
+    "edit": {
+      "heading": "Uredi monitor",
+      "update_button": "Ažuriraj monitor",
+      "delete_button": "Delete Monitor",
+      "delete_title": "Delete Monitor?",
+      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
+      "deleted": "Monitor has been deleted.",
+      "delete_failed": "Failed to delete monitor: "
+    },
+    "form": {
+      "add_header_button": "Dodaj zaglavlje",
+      "add_query_param_button": "Dodaj parametar",
+      "api_mode_help": "Jednostavno sakriva postavke zahtijeva i provere odgovora. Očekivani rezultat ostaje dostupan.",
+      "api_mode_label": "Režim",
+      "api_url_label": "API URL adresa",
+      "auth_type_label": "Tip autentifikacije",
+      "body_label": "Telo",
+      "component_help": "Odaberite komponentu za ovaj monitor",
+      "component_label": "Komponenta",
+      "default_success_hint": "Podrazumevana provjera: status kod 2xx/3xx se smatra UP.",
+      "domain_label": "Domen",
+      "expected_result_help": "Opciono. Ako je postavljeno, telo odgovora mora da sadrži ovaj tekst (i status mora biti 2xx/3xx).",
+      "expected_result_label": "Očekivani rezultat",
+      "expected_value_label": "Očekivana vrednost",
+      "headers_label": "Zaglavlja",
+      "http_method_label": "HTTP metod",
+      "integer_value_label": "Celobrojna vrednost",
+      "interval_label": "Interval provere",
+      "locations_label": "Lokacije za monitoring",
+      "method_label": "Metoda",
+      "name_label": "Ime monitora",
+      "name_placeholder": "Moj sajt",
+      "no_component": "Nema komponente",
+      "password_label": "Lozinka",
+      "query_params_label": "Parametri upita",
+      "record_type_label": "Tip zapisa",
+      "request_headers_help": "Šalju se sa zahtevom. Ne proverava se osim ako dodate provere odgovora.",
+      "request_headers_label": "Zaglavlja (zahtjev)",
+      "request_query_params_help": "Dodaju se URL-u zahtijeva. Ne proverava se osim ako dodate provere odgovora.",
+      "request_query_params_label": "Parametri upita (zahtjev)",
+      "request_section_help": "Ova postavke se šalju cilju. Ne proveravaju se automatski.",
+      "request_section_title": "Zahtjev",
+      "response_assertions_help": "Opciono. Ostavite prazno da koristite podrazumevano (2xx/3xx) ili jednostavan Očekivani rezultat.",
+      "response_assertions_label": "Napredni očekivani uslovi",
+      "response_section_help": "Ova pravila određuju UP/DOWN.",
+      "response_section_title": "Provere odgovora",
+      "retries_label": "Pokušaji",
+      "site_check_type_label": "Tip provere",
+      "site_url_label": "URL sajta",
+      "tags_label": "Oznake",
+      "timeout_label": "Tajmaut",
+      "token_label": "Token",
+      "type_label": "Tip monitora",
+      "url_label": "URL",
+      "url_placeholder": "https://primer.com",
+      "username_label": "Korisničko ime"
+    },
+    "nav": {
+      "add_monitor": "Dodaj monitor",
+      "alerts": "Alerti",
+      "edit_monitor": "Uredi monitor",
+      "monitor_alerts": "Alerti monitora",
+      "monitor_locations": "Lokacije monitora",
+      "monitors": "Monitori",
+      "sla_report": "SLA izveštaj"
+    },
+    "table": {
+      "created_at": "Kreirano",
+      "down_for": "Nije dostupno"
+    },
+    "type": {
+      "api": "API monitor",
+      "database": "Monitor baze podataka",
+      "dns": "DNS monitor",
+      "site": "Monitor sajta"
+    },
+    "adaptive_post_incident": {
+      "enable": "Omogući adaptivno praćenje posle incidenta",
+      "title": "Adaptivno praćenje posle incidenta"
+    },
+    "availability": "Dostupnost",
+    "availability_metrics": "Metrike dostupnosti",
+    "avg_response": "Avg. Response",
+    "avg_rt_ms": "Prosečno vreme odziva (ms)",
+    "check_interval": "Interval proveravanja (sekunde)",
+    "cta": {
+      "add_monitor": "Dodaj monitor"
+    },
+    "db_monitoring_under_development": "Bezbedno i napredno praćenje baza podataka je trenutno u razvoju.",
+    "disable": "Onemogući",
+    "disable_info_no_alerts": "Nećete dobijati upozorenja o prekidima rada",
+    "disable_info_no_metrics": "Neće se prikupljati metrike dostupnosti",
+    "disable_info_no_outages": "Statusna stranica neće odražavati prekide rada",
+    "disable_info_title": "Kada je monitor onemogućen:",
+    "dismiss": "Odbij",
+    "download_plugin": "Preuzmi plagin",
+    "enable": "Omogući",
+    "filter_all_pages": "Sve statusne stranice",
+    "filter_all_statuses": "Svi statusi",
+    "filter_label": "Filter:",
+    "filters": {
+      "all_and": "SVE (I)",
+      "any_or": "BILO KOJE (ILI)",
+      "greater_than": "veće od",
+      "less_than": "manje od",
+      "match": "Poklapanje",
+      "of_the_following": "od sljedećeg:"
+    },
+    "heading": "Nadzori performanse i dostupnost svojih servisa",
+    "last_check": "Poslednja provjera",
+    "learn_more": "Saznaj više",
+    "list": {
+      "create_first": "Kreirajte svoj prvi monitor",
+      "heading": "Vaši monitori",
+      "none_message": "Sve je podešeno, ali nema monitora."
+    },
+    "loading_metrics": "Učitavanje metrika...",
+    "metric_response": "Odgovor",
+    "metric_response_unit": "ms",
+    "metric_uptime": "Dostupnost",
+    "mtbf": "MTBF",
+    "mttr": "MTTR",
+    "next_check": "Sljedeća provjera",
+    "not_checked": "Nije provereno",
+    "show_on_public": "Prikaži na javnoj statusnoj strani",
+    "status_down": "Neaktivan",
+    "status_unknown": "Nepoznato",
+    "status_up": "Aktivan",
+    "total_checks": "Ukupno provjera",
+    "wordpress_alert_text": "Koristi naš besplatni WordPress plagin da prikaži svoj StatusPage.me vidžet direktno na svom sajtu. Nije potreban kod, kompletna prilagođavanja uključena sa našim Gutenberg blokom.",
+    "wordpress_alert_title": "Ugradite svoj StatusPage.me vidžet na WordPress"
+  },
+  "nav": {
+    "addons": "Dodaci",
+    "billing_plan": "Naplata i plan",
+    "configuration": "Konfiguracija",
+    "dashboard": "Nadzorna ploča",
+    "documentation": "Dokumentacija",
+    "greeting_anonymous": "Hej!",
+    "greeting_name": "Hej, {{name}}!",
+    "help": "Pomoć",
+    "lifetime_deals": "Doživotne ponude",
+    "misc": "Ostalo",
+    "operations": "Operacije",
+    "support": "Podrška",
+    "teams": "Timovi",
+    "tools": "Alati"
+  },
+  "notification_channels": {
+    "actions": {
+      "deleting": "Brisanje...",
+      "deleting_action": "Brisanje kanala obaveštavanja...",
+      "saving": "Čuvanje...",
+      "saving_action": "Čuvanje kanala obaveštavanja...",
+      "sending_test": "Slanje test obavijesti...",
+      "sending_verification": "Slanje verifikacione e-pošte...",
+      "test": "Test",
+      "verify": "Verifikuj"
+    },
+    "add_channel": "Dodaj kanal",
+    "add_modal_title": "Dodaj kanal obaveštavanja",
+    "cannot_undo": "Ova radnja je nepovratna. Kanal će biti uklonjen sa svih status stranica.",
+    "channel_name_help": "Prijateljski naziv za identifikaciju ovog kanala",
+    "channel_name_label": "Naziv kanala",
+    "channel_type_label": "Tip kanala",
+    "config": {
+      "discord": {
+        "heading": "Discord postavke",
+        "how_to_create_webhook": "Kako napraviti Discord webhook"
+      },
+      "email": {
+        "heading": "Postavke e-pošte",
+        "recipients_help": "Unesite adresu e-pošte i pritisnite Enter da dodate. Kliknite × da uklonite."
+      },
+      "msteams": {
+        "heading": "Microsoft Teams postavke",
+        "how_to_create_webhook": "Kako napraviti Teams webhook"
+      },
+      "pagerduty": {
+        "heading": "PagerDuty postavke",
+        "how_to_get_key": "Kako dobiti PagerDuty integracioni ključ",
+        "setup_info": "U PagerDuty-u napravite servis, dodajte \"Events API v2\" integraciju i ovde nalepite Integration Key (Routing Key). StatusPage.me će automatski otvarati i zatvarati PagerDuty incidente."
+      },
+      "pushover": {
+        "create_app_at": "Napravite aplikaciju na",
+        "heading": "Pushover postavke"
+      },
+      "slack": {
+        "bot_token_help": "Bot OAuth token iz Vaše Slack aplikacije",
+        "heading": "Slack postavke"
+      },
+      "telegram": {
+        "heading": "Telegram postavke"
+      },
+      "webhook": {
+        "headers_help": "Opcioni prilagođeni zaglavlja u JSON formatu",
+        "heading": "Webhook postavke"
+      }
+    },
+    "delete_confirm_button": "Izbrišite kanal",
+    "delete_confirm_prefix": "Da li ste sigurni da želite da obrišete",
+    "delete_confirm_suffix": "?",
+    "delete_modal_title": "Izbrišite kanal",
+    "delete_used_by_warning_plural": "Ovaj kanal koristi {{count}} status stranice.",
+    "delete_used_by_warning_singular": "Ovaj kanal koristi 1 status stranica.",
+    "edit_modal_title": "Uredi kanal obaveštavanja",
+    "email": {
+      "add_title": "Dodaj e-poštu"
+    },
+    "empty_body": "Kreirajte svoj prvi kanal obaveštavanja da primate upozorenja za svoje status stranice.",
+    "empty_cta": "Dodaj prvi kanal",
+    "empty_title": "Nema podešenih kanala obaveštavanja",
+    "fields": {
+      "api_token": "API token",
+      "bot_token": "Token bota",
+      "channel_id": "ID kanala",
+      "chat_id": "Chat ID",
+      "integration_key": "Integracioni ključ",
+      "recipients": "Primaoci",
+      "user_key": "Korisnički ključ",
+      "webhook_url": "URL vebhuka"
+    },
+    "heading": "Kanali obaveštavanja",
+    "loading": "Učitavanje kanala obaveštavanja...",
+    "messages": {
+      "channel_not_found": "Kanal nije pronađen",
+      "delete_failed": "Neuspješno brisanje kanala",
+      "delete_failed_with": "Neuspješno brisanje kanala: {{message}}",
+      "delete_success": "Kanal je uspješno obrisan",
+      "load_channel_failed_with": "Neuspješno učitavanje kanala: {{message}}",
+      "load_failed": "Neuspješno učitavanje kanala",
+      "load_failed_with": "Neuspješno učitavanje kanala: {{message}}",
+      "save_failed": "Neuspješno čuvanje kanala",
+      "save_failed_with": "Neuspješno čuvanje kanala: {{message}}",
+      "save_success": "Kanal je uspješno sačuvan",
+      "test_failed": "Test nije uspjeo",
+      "test_failed_with": "Test nije uspjeo: {{message}}",
+      "test_sent": "Test obaveštenje je poslato!",
+      "verification_failed": "Neuspješno slanje verifikacionih e-poruka",
+      "verification_failed_with": "Neuspješno slanje verifikacionih e-poruka: {{message}}",
+      "verification_sent": "Verifikacione e-poruke su poslate! Proverite prijemno sanduče."
+    },
+    "not_linked": "Nije povezan ni sa jednom status stranicom",
+    "placeholders": {
+      "channel_name": "npr. Discord server, Slack posao, Telegram lično",
+      "discord_webhook_url": "https://discord.com/api/webhooks/...",
+      "email_recipients": "Unesi e-poštu i pritisni Enter",
+      "msteams_webhook_url": "https://outlook.office.com/webhook/...",
+      "pushover_api_token": "Vaš Pushover API token",
+      "pushover_user_key": "Vaš Pushover korisnički ključ",
+      "pagerduty_integration_key": "npr. a1b2c3d4e5f6...",
+      "slack_bot_token": "xoxb-...",
+      "slack_channel_id": "C0XXXXXXXXX",
+      "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "telegram_chat_id": "-1001234567890",
+      "webhook_headers_json": "{\"Authorization\": \"Bearer vaš-token\"}",
+      "webhook_url": "https://vaš-server.com/webhook"
+    },
+    "save_channel": "Sačuvaj kanal",
+    "status": {
+      "unverified": "Nije verifikovano",
+      "verified": "Verifikovano"
+    },
+    "subtitle": "Podesite kanale obaveštavanja jednom i koristite ih na više status stranica",
+    "telegram": {
+      "chat_id_help": "Koristite",
+      "chat_id_help_or": "ili",
+      "easy_badge": "Lako",
+      "get_it_from": "Preuzmite ga od",
+      "steps": {
+        "step_1_label": "Korak 1:",
+        "step_1_text": "Pokrenite razgovor sa našim botom na Telegram",
+        "step_2_label": "Korak 2:",
+        "step_2_text": "Pošaljite",
+        "step_2_text_2": "botu ili ga dodajte u grupu/kanal",
+        "step_3_label": "Korak 3:",
+        "step_3_text": "Preuzmite svoj Chat ID pomoću",
+        "step_3_text_2": "i nalepite ga ispod"
+      },
+      "use_custom_bot": "Koristi sopstveni bot",
+      "use_our_bot": "Koristi naš bot",
+      "use_our_bot_help": "Korišćenje našeg bota je lakše - potrebno je samo da unesete svoj Chat ID"
+    },
+    "telegram_channel_id_help": "Desni klik na kanal → Detalji kanala → Kopiraj ID kanala",
+    "bot_type": "Tip bota",
+    "types": {
+      "discord": "Discord",
+      "email": "E-pošta",
+      "googlechat": "Google Chat",
+      "mattermost": "Mattermost",
+      "ms_teams": "MS Teams",
+      "pagerduty": "PagerDuty",
+      "pushover": "Pushover",
+      "rocketchat": "Rocket.Chat",
+      "slack": "Slack",
+      "telegram": "Telegram",
+      "webhook": "Webhook"
+    },
+    "used_by": "Koristi se na:",
+    "validation": {
+      "discord_webhook_required": "Molimo unesite Discord webhook URL",
+      "email_recipient_required": "Molimo unesite bar jednog primaoca e-pošte",
+      "invalid_email_format": "Neispravan format e-mail adrese: {{email}}",
+      "invalid_headers_json": "Nevažeći JSON u prilagođenim zaglavljima",
+      "msteams_webhook_required": "Molimo unesite Microsoft Teams webhook URL",
+      "name_required": "Molimo unesite naziv kanala",
+      "pushover_required": "Molimo unesite Pushover korisnički ključ i API token",
+      "slack_required": "Molimo unesite Slack bot token i ID kanala",
+      "telegram_bot_token_required": "Molimo unesite token svog Telegram bota",
+      "telegram_chat_id_required": "Molimo unesite svoj Telegram Chat ID",
+      "type_required": "Molimo izaberite tip kanala",
+      "webhook_url_required": "Molimo unesite webhook URL"
+    }
+  },
+  "notifications": {
+    "analytics": {
+      "exclude_self": "Isključite sebe iz analitike na sopstvenim status stranicama",
+      "self_exclusion_help": "Kada je uključeno, Vaše posete sopstvenim status stranicama neće biti praćene ni jednom veb-analitikom koju ste konfigurisali. To pomaže da Vaši podaci o posetiocima budu čisti i tačni."
+    },
+    "breadcrumb": "Obavijesti",
+    "channel": {
+      "app": "Aplikacija",
+      "browser": "Pregledač",
+      "email": "E-pošta"
+    },
+    "description": "Podesite kako i kada primate obavijesti",
+    "email_settings": {
+      "frequency_description": "Izaberite koliko često želite da primate nekritična obavijesti.",
+      "heading": "Postavke obavijesti e-poštom"
+    },
+    "form": {
+      "email_frequency": "Učestalost e-pošte",
+      "save": "Sačuvaj sve postavke"
+    },
+    "frequency": {
+      "all": "Sva obavijesti",
+      "daily": "Dnevni pregled",
+      "frequent": "Česta obavijesti",
+      "immediate": "Odmah",
+      "urgent_only": "Samo hitno",
+      "weekly": "Nedeljna obavijesti",
+      "weekly_digest": "Nedeljni pregled"
+    },
+    "frequency_description": "Izaberite koliko često želite da primate obavijesti",
+    "heading": "Postavke obavijesti",
+    "hub": {
+      "add_channel": "Dodaj kanal obavijesti",
+      "column_channel": "Kanal",
+      "column_type": "Tip",
+      "column_verified": "Verifikovano",
+      "manage_channels": "Upravljanje kanalima obavijesti",
+      "matrix_title": "Matrica kanala × status stranice",
+      "nav_title": "Centar obavijesti",
+      "need_status_page": "Prvo napravite status stranicu da biste podesili obavijesti.",
+      "no_channels": "Nema podešenih kanala obavijesti",
+      "no_channels_help": "Podesite kanale obavijesti da biste dobijali alarme kada dođe do incidenta.",
+      "notifications_suffix": "obavijesti",
+      "quick_links": "Brze veze",
+      "quick_tips": "Brzi saveti",
+      "subtitle": "Upravljajte svim kanalima obavijesti na svim status stranicama na jednom mestu.",
+      "tip_click_page": "Kliknite na naziv status stranice da biste podesili njena obavijesti",
+      "tip_green_badge": "Zelene oznake znače da je kanal aktivan za tu status stranicu",
+      "tip_unverified": "Neverifikovani kanali možda neće pouzdano isporučivati obavijesti",
+      "title": "Centar obavijesti"
+    },
+    "privacy": {
+      "heading": "Privatnost"
+    },
+    "table": {
+      "type": "Tip obavijesti"
+    },
+    "trial": {
+      "description": "Dobijte obavijesti o statusu probnog perioda, podsetnike i posebne ponude.",
+      "extend": {
+        "confirm": {
+          "confirm": "Produži",
+          "fallback": "Da li ste sigurni da želite da produžite probni period za 7 dana?",
+          "title": "Produžiti probni period za 7 dana?"
+        },
+        "error": "Greška pri produžavanju probnog perioda. Pokušajte ponovo.",
+        "failed": "Neuspješno produžavanje probnog perioda. Pokušajte ponovo.",
+        "failed_with_message": "Neuspješno produžavanje probnog perioda: {{message}}",
+        "progress": "Produžavanje probnog perioda..."
+      },
+      "frequency_description": "Izaberite koliko često želite da primate poruke vezane za probni period.",
+      "frequency_label": "Učestalost probnih poruka",
+      "heading": "Obavijesti o probnom periodu",
+      "no_emails": "Bez probnih poruka",
+      "receive_emails": "Primaj probne poruke"
+    },
+    "type": {
+      "account_activity": "Aktivnost računa",
+      "security_alerts": "Bezbednosna upozorenja",
+      "system_updates": "Sistemske izmene"
+    }
+  },
+  "postmortem": {
+    "form": {
+      "action_items": "Akcioni punktovi",
+      "duration": "Trajanje",
+      "lessons_learned": "Naučene lekcije",
+      "publish_now": "Objavi sada",
+      "publish_status": "Status objavljivanja",
+      "schedule_publish": "Zakaži objavljivanje",
+      "severity": "Ozbiljnost",
+      "summary": "Rezime",
+      "tags": "Oznake",
+      "timeline": "Hronologija",
+      "for": "Postmortem za:",
+      "impact": "Uticaj",
+      "overview_placeholder": "Opšti pregled (Markdown podržan)",
+      "remediation": "Rešavanje",
+      "remediation_placeholder": "Rešenja i naredni koraci",
+      "root_cause": "Glavni uzrok",
+      "root_cause_placeholder": "Što je izazvalo incident?"
+    },
+    "nav": {
+      "postmortem": "Postmortem"
+    },
+    "not_available": "Postmortem izveštaji nisu dostupni u Vašem trenutnom planu. <a href=\"/user/billing\">Nadogradite</a> da biste omogućili ovu funkciju.",
+    "publish_help": "Jednom objavljeno ne može se poništiti. Izmene će ažurirati sadržaj uz zadržavanje originalnog datuma objavljivanja.",
+    "visibility": {
+      "draft": "Nacrt",
+      "private": "Privatno",
+      "public": "Javno"
+    },
+    "action": {
+      "create": "Kreiraj postmortem"
+    },
+    "add": "Dodaj postmortem",
+    "edit": "Uredi postmortem",
+    "view": {
+      "component": "Komponenta",
+      "heading": "Naslov",
+      "impact": "Uticaj",
+      "published_date": "Datum objave",
+      "remediation": "Rešavanje",
+      "root_cause": "Glavni uzrok",
+      "summary": "Rezime"
+    }
+  },
+  "profile": {
+    "breadcrumb_account": "Račun",
+    "confirm_new_password": "Potvrdi novu lozinku",
+    "current_password": "Trenutna lozinka",
+    "email_cannot_be_changed": "E-pošta se ne može promeniti",
+    "gravatar_help": "Da biste promenili Vaš avatar, idite na <a href=\"__PH0__ target=\"_blank\" rel=\"noopener\">Gravatar</a> i ažurirajte Vašu profilnu sliku.",
+    "heading": "Informacije o profilu",
+    "new_password": "Nova lozinka",
+    "password": {
+      "could_not_update_title": "Nije moguće ažurirati lozinku",
+      "failed_update": "Nije moguće ažurirati lozinku. Pokušajte ponovo.",
+      "fix_requirements_text": "Molimo ispunite sve uslove prije čuvanja.",
+      "fix_requirements_title": "Ispunite zahteve za lozinku",
+      "heading": "Lozinka",
+      "help_has_password": "Koristite jaku, jedinstvenu lozinku. Biće Vam potrebna trenutna lozinka da biste je promenili.",
+      "help_no_password": "Trenutno koristite samo OAuth prijavu. Postavljanje lozinke će omogućiti prijavu e-poštom i lozinkom.",
+      "network_error_title": "Mrežna greška",
+      "please_wait": "Molimo sačekajte",
+      "set_button": "Postavi lozinku",
+      "update_button": "Ažuriraj lozinku",
+      "updated_success": "Lozinka je uspješno ažurirana!",
+      "updated_title": "Lozinka ažurirana",
+      "updating_title": "Ažuriranje lozinke..."
+    },
+    "password_at_least_10": "Najmanje 10 karaktera",
+    "password_checked_breaches": "Prilikom čuvanja proverava se u poznatim probojima",
+    "password_current_required": "Trenutna lozinka je obvezna",
+    "password_match": "Nova lozinka i potvrda se poklapaju",
+    "password_requirements": "Zahtjevi za lozinku",
+    "translator": {
+      "daily_quota": "Dnevna Kvota",
+      "description": "Pomozite da poboljšate prevode predlaganjem ispravki. Kada je omogućeno, možete da kliknete Ctrl+Shift+Klik (ili Cmd+Shift+Klik na Mac) na bilo koji tekst koji se može prevesti da biste predložili poboljšanja.",
+      "enable_description": "Prikaži traku sa alatima za prevod i omogući funkcije predloga",
+      "enable_mode": "Omogući Režim Prevodioca",
+      "heading": "Pomoćnik za Prevod",
+      "suggestions_per_day": "predloga/dan",
+      "view_suggestions": "Pogledaj Moje Predloge",
+      "whitelisted_description": "Imate povećan dnevni limit predloga (250/dan) za Vaše vredne doprinose.",
+      "whitelisted_title": "Pouzdani Prevodilac",
+      "your_drafts": "Vaši Nacrti"
+    },
+    "2fa": {
+      "heading": "Dvofaktorska autentifikacija"
+    },
+    "back_to_dashboard": "Nazad na kontrolnu tablu",
+    "email_label": "E-pošta",
+    "full_name": "Puno ime",
+    "go_to_login_now": "Idite na prijavu sada",
+    "have_i_been_pwned": "Have I Been Pwned",
+    "privacy_policy": "Politika privatnosti",
+    "security_keys": {
+      "heading": "Sigurnosni ključevi (WebAuthn)"
+    }
+  },
+  "security": {
+    "authenticator_code": "Kod iz aplikacije za autentifikaciju",
+    "backup_code": "Rezervni kod",
+    "confirm_using_2fa": "Potvrdite jednom od sljedećih opcija:",
+    "or_enter_manually": "Ili unesite ovaj kod ručno:",
+    "save_backup_codes": "Sačuvajte ove kodove na bezbednom mestu. Nećete moći ponovo da ih vidite!",
+    "scan_qr_code": "Skenirajte QR kod pomoću Vaše aplikacije za autentifikaciju:",
+    "security_keys": {
+      "actions": {
+        "removing": "Uklanjanje bezbednosnog ključa..."
+      },
+      "failed_remove": "Nije uspjelo uklanjanje bezbednosnog ključa",
+      "nickname": "Nadimak",
+      "no_keys": "Nema registrovanih bezbednosnih ključeva.",
+      "not_available": "Bezbednosni ključevi nisu dostupni u Vašem trenutnom planu. <a href=\"/user/billing\">Nadogradite</a> da biste omogućili ovu funkciju.",
+      "register": "Registruj bezbednosni ključ",
+      "remove_title": "Ukloni bezbednosni ključ",
+      "removed_title": "Bezbednosni ključ je uklonjen",
+      "registered_label": "Registrovano"
+    },
+    "security_keys_info": "Bezbednosni ključevi su hardverski uređaji koji omogućavaju jaku dvofaktorsku autentifikaciju.",
+    "set_up_authenticator_app": "Podesite aplikaciju za autentifikaciju",
+    "two_factor": {
+      "actions": {
+        "disabling": "Onemogućavanje 2FA...",
+        "enabling": "Omogućavanje 2FA...",
+        "starting_setup": "Pokretanje postavke 2FA..."
+      },
+      "activate_button": "Omogući 2FA",
+      "backup_codes_title": "Rezervni kodovi",
+      "could_not_fetch_backup_codes": "Nije moguće preuzeti rezervne kodove",
+      "disable": "Onemogući 2FA",
+      "disable_prompt": "Da biste onemogućili 2FA, potvrdite jednom od sljedećih opcija:",
+      "disable_title": "Onemogućiti 2FA?",
+      "disabled_recommendation": "2FA je <strong>onemogućena</strong>. Preporučujemo da je omogućite.",
+      "disabled_title": "2FA je onemogućena",
+      "enable": "Omogući 2FA",
+      "enabled_message": "2FA je trenutno <strong>omogućena</strong> za Vaš račun.",
+      "enter_code": "Unesite kod iz Vaše aplikacije",
+      "failed_disable": "Nije uspjelo onemogućavanje 2FA",
+      "failed_enable": "Nije uspjelo omogućavanje 2FA",
+      "failed_start_setup": "Nije uspjelo pokretanje OTP postavke",
+      "not_available": "Dvofaktorska autentifikacija nije dostupna u Vašem trenutnom planu. <a href=\"/user/billing\">Nadogradite</a> da biste omogućili ovu bezbednosnu funkciju.",
+      "placeholders": {
+        "backup": "XXXXXXXX",
+        "otp": "123456"
+      },
+      "saved": "Sačuvano!",
+      "scan_qr_alt": "Skeniraj QR",
+      "show_backup_codes": "Prikaži rezervne kodove"
+    },
+    "two_factor_auth_description": "Dvofaktorska autentifikacija pruža dodatni sloj bezbednosti za Vaš račun tako što prijavljivanje zahtijeva više od lozinke.",
+    "disabled_lower": "onemogućeno",
+    "email_verified": "E-pošta je verifikovana!",
+    "email_verified_success": "Hvala što ste verifikovali svoju adresu e-pošte. Sada imate pun pristup svim funkcijama.",
+    "enabled_lower": "omogućeno",
+    "breadcrumb": "Sigurnost"
+  },
+  "severities": {
+    "level": {
+      "critical": "Kritična",
+      "high": "Visoka",
+      "low": "Niska",
+      "medium": "Srednja"
+    },
+    "nav": {
+      "manage": "Upravljaj ozbiljnostima",
+      "severities": "Ozbiljnosti"
+    },
+    "header": {
+      "code": "Kod",
+      "color": "Boja",
+      "default": "Podrazumevano",
+      "impact": "Uticaj",
+      "name": "Ime"
+    },
+    "heading": "Težine komponenti",
+    "intro": "Globalni podrazumevani su prikazani u nastavku. Prilagođene težine po računu još nisu omogućene (UUID korisnici).",
+    "roadmap": {
+      "message": "Prilagođena konfiguracija težina je na našem planu razvoja. Za sada se podrazumevane težine ispod koriste za sve račune.",
+      "title": "Uskoro dostupno!"
+    }
+  },
+  "status_pages": {
+    "add_group": "Dodaj grupu",
+    "advanced_customization": "da pristupite naprednom prilagođavanju, automatizaciji i opcijama brendiranja.",
+    "affects_overall_column": "Utiče na ukupan status",
+    "allow_subscribe_email": "Dozvoli posetiocima da se pretplate putem e-pošte",
+    "and_roles": "i",
+    "attach_monitors_help": "Prikačite monitore da pratite dostupnost",
+    "auto_reload_help": "Automatski osveži podatke statusne stranice svakog minuta",
+    "auto_save_help": "Promjene se automatski čuvaju. Možete uređivati nazive komponenti i URL-ove direktno, menjati grupe i premeštati stavke.",
+    "can_view_historical": "mogu da vide istorijske podatke o dostupnosti.",
+    "change_password": "Promeni lozinku",
+    "choose_primary_domain": "Izaberi glavni domen",
+    "component_example": "npr. API server",
+    "component_map": "Mapa komponenti",
+    "component_name_required": "Naziv komponente *",
+    "component_url_placeholder": "https://primer.com (opciono)",
+    "components_explanation": "Komponente su servisi/monitori koje želite da pratite (npr. \"API server\", \"Website\")",
+    "components_groups": "Komponente i grupe",
+    "components_page": {
+      "component_map_loading": "Učitavanje karte komponenti…",
+      "component_map_unavailable": "Karta komponenti je privremeno nedostupna.",
+      "components_subtitle": "Pojedinačne usluge i monitori za praćenje",
+      "empty_components_help": "Kliknite \"Nova komponenta\" da biste dodali prvu uslugu",
+      "empty_components_title": "Još nema komponenti",
+      "empty_groups_help": "Kliknite \"Nova grupa\" da biste kreirali prvu kategoriju",
+      "empty_groups_title": "Još nema grupa",
+      "groups_heading": "Grupe komponenti",
+      "groups_subtitle": "Opcionalne kategorije za organizaciju komponenti",
+      "loading": "Učitavanje...",
+      "new_component": "Nova komponenta",
+      "new_group": "Nova grupa",
+      "no_url_specified": "URL nije naveden",
+      "search_placeholder": "Pretražite komponente po nazivu...",
+      "swal": {
+        "assign_to_group": {
+          "placeholder": "Odaberite grupu",
+          "title": "Dodijeli grupi"
+        },
+        "delete_component": {
+          "confirm": "Da, izbriši!",
+          "text": "Ova radnja se ne može poništiti!",
+          "title": "Izbrisati ovu komponentu?"
+        },
+        "delete_group": {
+          "confirm": "Da, izbriši!",
+          "text": "Komponente će ostati bez grupe.",
+          "title": "Izbrisati ovu grupu?"
+        },
+        "edit_component": {
+          "title": "Uredi komponentu"
+        },
+        "new_component": {
+          "input_label": "Unesite naziv nove komponente",
+          "input_placeholder": "Naziv komponente",
+          "title": "Naziv komponente"
+        },
+        "new_group": {
+          "input_label": "Unesite naziv nove grupe",
+          "input_placeholder": "Naziv grupe",
+          "title": "Naziv grupe"
+        }
+      },
+      "tip_ungrouped_other": "Komponente bez grupe će se prikazati u odjeljku \"Ostale komponente\" na vašoj status stranici",
+      "tip_use_groups": "Koristite grupe poput \"Backend\", \"Frontend\", \"Infrastruktura\" za organizaciju više komponenti",
+      "tips_title": "Savjeti:",
+      "toast": {
+        "component_created": "Komponenta je kreirana",
+        "component_deleted": "Komponenta je obrisana",
+        "component_updated": "Komponenta je ažurirana",
+        "csrf_invalid": "CSRF token je nevažeći - osvježite stranicu",
+        "csrf_missing": "CSRF token nedostaje - osvježite stranicu",
+        "delete_failed": "Brisanje nije uspelo",
+        "failed_to_create_component": "Neuspjelo kreiranje komponente",
+        "failed_to_create_group": "Neuspjelo kreiranje grupe",
+        "failed_to_load_data": "Neuspjelo učitavanje podataka",
+        "group_created": "Grupa je kreirana",
+        "group_deleted": "Grupa je obrisana",
+        "init_no_status_page_selected": "Neuspjelo inicijaliziranje stranice - nije odabrana status stranica",
+        "no_status_pages_available": "Nema dostupnih status stranica",
+        "rename_failed": "Preimenovanje nije uspelo",
+        "save_failed": "Čuvanje nije uspelo",
+        "update_failed": "Ažuriranje nije uspelo"
+      },
+      "tooltip_delete_component": "Izbriši komponentu",
+      "tooltip_edit_component": "Uredi komponentu",
+      "tooltip_move_down": "Pomakni dolje",
+      "tooltip_move_up": "Pomakni gore",
+      "ungrouped": "Bez grupe",
+      "url_placeholder": "https://example.com",
+      "validation": {
+        "component_name_required": "Morate unijeti naziv komponente!",
+        "group_name_required": "Morate unijeti naziv grupe!",
+        "name_required": "Naziv je obavezan",
+        "url_invalid": "URL mora biti ispravna apsolutna adresa (uključite https://)",
+        "url_must_start_http": "URL mora početi sa http:// ili https://"
+      }
+    },
+    "configure_custom_domain": "Konfiguriši prilagođeni domen",
+    "confirm_url": "Da potvrdite, unesite potpunu URL adresu Vaše statusne stranice:",
+    "current_domain": "✓ Trenutni",
+    "custom_domain": {
+      "verify": {
+        "active_message": "Vaš prilagođeni domen je sada aktivan",
+        "check_failed": "Neuspješna provjera statusa verifikacije. Pokušajte ponovo.",
+        "pending_body": "DNS zapis još nije pronađen. Nastavićemo proveru i obavestićemo Vas kada bude verifikovan.",
+        "pending_title": "Još uvek na čekanju",
+        "verified_body": "Vaš prilagođeni domen je uspješno verifikovan i aktiviran.",
+        "verified_fallback": "Domen je uspješno verifikovan! Stranica će se osvežiti.",
+        "verified_title": "Domen je verifikovan!",
+        "verify_failed": "Došlo je do greške tokom verifikacije. Pokušajte ponovo.",
+        "verify_failed_with_message": "Došlo je do greške tokom verifikacije: {{message}}"
+      }
+    },
+    "custom_domain_unavailable": "Prilagođeni domen nije dostupan u Vašem trenutnom planu.",
+    "custom_domain_upgrade": "Prilagođeni domen (Nadogradite da otključate)",
+    "delete": {
+      "confirm": {
+        "body": "Ova radnja je nepovratna.\nSve komponente će biti obrisane a incidenti uklonjeni. Monitori će biti odvezani.\nIdentifikator će biti blokiran 30 dana.",
+        "confirm": "Da, izbrišite",
+        "title": "Obrisati status stranicu?"
+      },
+      "errors": {
+        "failed": "Neuspješno brisanje status stranice."
+      },
+      "success": {
+        "body": "Status stranica je uspješno obrisana.",
+        "title": "Obrisano"
+      }
+    },
+    "delete_permanent": "Brisanje Vaše statusne stranice je <u>trajno</u>",
+    "delete_selected": "Izbrišite izabrane",
+    "delete_this_page": "Izbrišite ovu status stranicu",
+    "dependencies_help": "Prikazuje kutije statusa trećih strana iznad Vaših grupa komponenti.",
+    "dependencies_section": "Zavisnosti",
+    "drag_to_reorder": "Prevucite da promenite redosled",
+    "edit_component": "Izmeni komponentu",
+    "email_column": "E-pošta",
+    "enable_password_protection": "da omogućite zaštitu lozinkom.",
+    "exactly_enable": "tačno da omogućite brisanje.",
+    "export_csv": "Izvezi kao CSV",
+    "export_json": "Izvezi kao JSON",
+    "favicon_dark_theme": "Koristi se u temnoj temi",
+    "favicon_enable": "Omogući",
+    "favicon_light_theme": "Koristi se u svetloj temi",
+    "form": {
+      "location_help": "Odaberite gde se ova komponenta nalazi.",
+      "slug": "Identifikator",
+      "status_page_label": "Status stranica"
+    },
+    "global_column": "Globalno",
+    "group_placeholder": "npr. Backend servisi, Infrastruktura, Frontend...",
+    "groups_explanation": "Grupe pomažu da organizujete komponente u kategorije (npr. \"Backend servisi\", \"Infrastruktura\")",
+    "groups_optional": "Grupe su opcione – komponente bez grupa će biti prikazane odvojeno",
+    "no_components_configured": "Nema podešenih komponenti za ovu status stranicu.",
+    "none_yet": "Još nema status stranica",
+    "heading": {
+      "components": "Komponente"
+    },
+    "historical_uptime_help": "Izaberite koje uloge tima mogu da vide istorijski podatke o dostupnosti na kontrolnoj tabli",
+    "how_it_works_intro": "Kako funkcioniše:",
+    "lifetime": {
+      "available_badge": "Dostupno",
+      "available_heading": "Dostupne doživotne ponude",
+      "benefits_features_desc": "Kompletna funkcionalnost plana",
+      "benefits_features_title": "Sve funkcije uključene",
+      "benefits_heading": "Zašto odabrati doživotan pristup?",
+      "benefits_pay_once_desc": "Bez redovnih naknada",
+      "benefits_pay_once_title": "Plaćajte jednom, koristite zauvek",
+      "benefits_savings_desc": "Uštedite do 85% dugoročno",
+      "benefits_savings_title": "Masivna ušteda",
+      "benefits_upgrade_desc": "Plaćajte razliku za nadgradnju",
+      "benefits_upgrade_title": "Nadgradite bilo kada",
+      "check_below": "Proverite opcije ispod! 👇",
+      "connection_error": "Greška u vezi",
+      "connection_error_msg": "Došlo je do greške. Molimo, pokušajte ponovo ili kontaktirajte podršku.",
+      "custom_domain_feature": "Prilagođeni domen",
+      "heading": "💎 Doživotne ponude",
+      "left_label": "preostalo",
+      "monitors_per_page": "Monitori/Stranica",
+      "my_purchases_badge": "Aktivno",
+      "my_purchases_heading": "Moje doživotne kupovine",
+      "no_deals_description": "Obezbedite doživotan pristup premium funkcijama nadzora jednokratnom uplatom. Bez redovnih naknada, neograničena upotreba!",
+      "no_deals_title": "Još niste kupili doživotnu ponudu",
+      "paused_message": "Naša aktuelna kampanja doživotnih ponuda je pauzirana. Sljedeći talas će biti objavljen na našem blogu i kanalima društvenih medija.",
+      "paused_title": "Kampanja doživotnih ponuda je pauzirana",
+      "processing": "Obrada u toku...",
+      "purchase_button": "💎 Dobijte doživotan pristup",
+      "purchase_error": "Greška pri pokretanju kupovine. Molimo, pokušajte ponovo.",
+      "purchase_failed": "Kupovina neuspješna",
+      "purchase_summary_active_plans": "Aktivni planovi",
+      "purchase_summary_estimated_savings": "Procenjena ušteda",
+      "purchase_summary_total_invested": "Ukupno uloženo",
+      "purchase_summary_vs_annual": "naspram 3 godine godišnje",
+      "status_pages_label": "Statusna stranica",
+      "status_pages_plural": "Statusne stranice",
+      "subtitle": "Upravljajte Vašim doživotnim pristupom i vidite dostupne ponude",
+      "table_amount_paid": "Uplaćena suma",
+      "table_lifetime_access": "Doživotan pristup",
+      "table_one_time": "jednokratna uplata",
+      "table_plan": "Plan",
+      "table_purchase_date": "Datum kupovine",
+      "view_available_deals": "Pogledajte dostupne ponude",
+      "view_details": "Pogledajte detalje"
+    },
+    "link_to_docs": "Link do dokumentacije servisa",
+    "manage_custom_domain": "Upravljaj prilagođenim domenom",
+    "manage_showcase": "Upravljaj podešavanjima vitrine",
+    "monitors_section": "Monitori",
+    "must_enter_exact": "Morate uneti",
+    "nav": {
+      "components": "Komponente",
+      "edit_status_page": "Uredi status stranicu",
+      "embeds": "Ugrađivanja",
+      "new_status_page": "Nova status stranica",
+      "status_pages": "Status stranice",
+      "create_status_page": "Kreiraj status stranicu"
+    },
+    "no_group_option": "— Bez grupe —",
+    "no_groups_yet": "Još nema grupa. Grupe pomažu da vizuelno organizujete komponente.",
+    "no_subscribers": "Još nema pretplatnika",
+    "no_url": "Bez URL",
+    "optional_grouping": "Opciono grupisanje",
+    "order_column": "Redosled",
+    "organize_help": "Organizujte Vašu status stranicu sa komponentama i opcionim grupama",
+    "owner_always_access": "Vlasnik statusne stranice uvek ima pristup. Podrazumevano, samo uloge",
+    "palette": {
+      "remove_confirm": {
+        "body": "Ovo će resetovati sve boje na podrazumevane.",
+        "confirm": "Ukloni",
+        "fallback": "Da li ste sigurni da želite da uklonite prilagođenu paletu boja? Ovo će resetovati sve boje na podrazumevane.",
+        "title": "Ukloniti prilagođenu paletu?"
+      },
+      "remove_failed": "Neuspješno uklanjanje",
+      "removed": "Paleta uklonjena!"
+    },
+    "password_disabled_msg": "Zaštita lozinkom je onemogućena. Uključite prekidač iznad da biste je omogućili.",
+    "password_placeholder": "Unesite lozinku da zaštitite ovu stranicu",
+    "password_protected": "Vaša statusna stranica je zaštićena",
+    "primary_domain_help": "Izaberite glavni domen gde je Vaša statusna stranica dostupna",
+    "private_pages_unavailable": "Privatne stranice nisu dostupne u Vašem trenutnom planu.",
+    "provider_column": "Dobavljač",
+    "recipient_must_accept": "Primalac mora da prihvati prenos putem e-pošte prije nego što stupi na snagu",
+    "remove_component": "Ukloni komponentu",
+    "remove_password": "Ukloni lozinku",
+    "request_expires": "Zahtjev ističe",
+    "require_password_help": "Zahtijeva lozinku za pristup vašoj stranici statusa",
+    "search_by_email": "Pretraži po e-pošti...",
+    "select_all": "Izaberi sve",
+    "select_primary_help": "Izaberite glavni domen za Vašu status stranicu. Posetioci će biti preusmjereni na ovaj domen.",
+    "send_transfer_invitation": "Pošalji pozivnicu za prenos",
+    "settings": {
+      "custom_domain": {
+        "actions": {
+          "removing": "Uklanjanje prilagođenog domena...",
+          "setting_primary": "Postavljanje primarnog domena..."
+        },
+        "cname": {
+          "checking_dns": "Provjera DNS-a…",
+          "error": "Greška pri proveri DNS-a",
+          "mismatch": "CNAME ukazuje na <code>__DETECTED__</code>, ali se očekuje <code>__EXPECTED__</code>. Ažurirajte DNS i pokušajte ponovo.",
+          "not_found": "Još uvek nije pronađen CNAME. Očekuje se <code>__EXPECTED__</code>. DNS može da se propagira 5–30 minuta.",
+          "ok": "CNAME je ispravno podešen. SSL provizionisanje će početi automatski."
+        },
+        "errors": {
+          "remove_failed": "Nije uspjelo uklanjanje prilagođenog domena",
+          "set_primary_failed": "Nije uspjelo postavljanje primarnog domena"
+        },
+        "label": "Prilagođeni domen",
+        "remove_confirm": {
+          "confirm": "Da, ukloni",
+          "text": "Ovo će ukloniti postavke prilagođenog domena. Uvek možete ponovo da ga podesite kasnije.",
+          "title": "Ukloniti prilagođeni domen?"
+        },
+        "remove_success": {
+          "text": "Prilagođeni domen je uklonjen i podrazumevani domen je postavljen kao primarni.",
+          "title": "Uklonjeno!"
+        },
+        "set_primary_confirm": {
+          "confirm": "Da, postavi kao primarni",
+          "html": "Ovo će postaviti <strong>__DOMAIN__</strong> kao Vaš primarni domen.<br><small class=\"text-muted\">Vaša status stranica će podrazumevano biti dostupna na ovom domenu.</small>",
+          "title": "Postaviti kao primarni domen?"
+        },
+        "set_primary_placeholder": {
+          "text": "Primarni domen će biti postavljen kada bude implementirano."
+        },
+        "set_primary_success": {
+          "text": "Primarni domen je uspješno postavljen!"
+        },
+        "set_primary_suggest": {
+          "html": "Da li želite da postavite <strong>__DOMAIN__</strong> kao Vaš primarni domen?<br><small class=\"text-muted\">Vaša status stranica će podrazumevano biti dostupna na ovom domenu.</small>",
+          "title": "Postaviti kao primarni domen?"
+        },
+        "ssl": {
+          "failed": "Nije uspjela provjera SSL-a",
+          "updated_reload": "SSL status je ažuriran. Ponovo učitavam stranicu..."
+        }
+      },
+      "save_failed": "Nije moguće sačuvati postavke. Pokušajte ponovo.",
+      "tabs": {
+        "access": "Pristup",
+        "misc": "Ostalo",
+        "ownership_transfer": "Prenos vlasništva",
+        "analytics": "Veb analitika",
+        "subscribers": "Pretplatnici",
+        "components": "Komponente",
+        "dependencies": "Zavisnosti",
+        "incidents": "Incidenti",
+        "monitors": "Monitori",
+        "notifications": "Obavijesti",
+        "visual": "Vizuelno"
+      },
+      "active": "Aktivno",
+      "auto_create_incident": "Automatski kreiraj incident kada je monitor NEAKTIVAN (prvo otkrivanje)",
+      "auto_resolve_auto_created": "Automatski rešavaj automatski kreirane incidente kada se monitor oporavi",
+      "auto_resolve_help": "Dodaje podrazumevano ažuriranje rešenja (\"Automatski rešeno nakon oporavka monitora\"). Još uvek možete urediti detalje ili kreirati postmortem kasnije.",
+      "blocked": "Blokirano",
+      "blocked_message": "Ova statusna stranica je blokirana. Kontaktirajte podršku za pomoć oko otključavanja.",
+      "create_monitor": "Kreiraj novi monitor",
+      "custom_css": "Prilagođeni CSS",
+      "custom_title": "Prilagođeni naslov",
+      "dark_logo_url_help": "Logo za tamnu temu.",
+      "description": "za {{name}}",
+      "heading": "Postavke statusne stranice",
+      "light_logo_url_help": "Logo za svetlu temu.",
+      "locked_footer": {
+        "body_prefix": "Neke funkcije nisu dostupne u Vašem trenutnom planu.",
+        "body_suffix": "da biste pristupili naprednim opcijama prilagođavanja, automatizacije i brendiranja."
+      },
+      "logo_url": "URL logotipa",
+      "logo_url_help": "Unesite direktan URL slike za Vaš logo.",
+      "monitor": "Monitor",
+      "monitors_help": "Monitori prate dostupnost i performanse Vaših usluga. Izaberite koje monitore želite da prikažete na ovoj status stranici.",
+      "no_monitors_for_page": "Nema monitora za ovu status stranicu.",
+      "notify_for_auto_created": "Obavesti pretplatnike o automatski kreiranim incidentima",
+      "password": "Lozinka",
+      "premium_alert": {
+        "body": "Neke napredne funkcije su onemogućene u Vašem trenutnom planu.",
+        "title": "Dostupne Premium funkcije!"
+      },
+      "public_archived_incidents_heading": "Arhivirani incidenti",
+      "public_archived_incidents_subtitle": "Kontrolišite da li posetioci mogu da vide arhivirane incidente u javnoj arhivi incidenata.",
+      "public_show_archived_incidents": "Dozvoli posetiocima da prikažu arhivirane incidente",
+      "public_show_archived_incidents_help": "Kada je omogućeno, krajnje tačke javne arhive incidenata mogu da uključe arhivirane incidente.",
+      "save": "Sačuvaj postavke",
+      "shared_team_alert": {
+        "body": "Uređujete stranicu povezanu sa timom kao administrator. Promjene su vidljive timu i beleže se u reviziji.",
+        "title": "Statusna stranica deljenog tima:"
+      },
+      "show_daily_pills": "Prikaži dnevne pilule",
+      "show_response_graph": "Prikaži grafikon odgovora",
+      "slug_locked_help": "slug se ne može promeniti nakon kreiranja",
+      "slug_url_prefix": "URL Vaše status stranice:"
+    },
+    "setup_custom_domain": "Podesite prilagođeni domen",
+    "showcase_description": "Budite predstavljeni u našoj <a href=\"/showcase\" target=\"_blank\">javnoj vitrini</a> da pokažete svoju posvećenost transparentnosti i pouzdanosti. Ovo je odličan način da izgradite poverenje sa potencijalnim klijentima.",
+    "showcase_directory": "Direktorijum vitrine",
+    "showcase_help": "Istaknite svoju status stranicu u našoj javnoj vitrini",
+    "slug_blocked": "Identifikator će biti blokiran za ponovnu upotrebu 30 dana",
+    "status_availability_help": "Kontroliši opštu dostupnost statusne stranice",
+    "step1_create_groups": "Korak 1: Kreirajte grupe (Opciono)",
+    "step2_add_components": "Korak 2: Dodajte komponente",
+    "step3_manage_components": "Korak 3: Upravljajte Vašim komponentama",
+    "subscribe_disabled_help": "Kada je onemogućeno, javno dugme \"Pretplati se\" je skriveno i API za pretplatu je blokiran za ovu status stranicu.",
+    "table": {
+      "active_incidents": "Aktivni incidenti",
+      "affected_monitors": "Pogođeni monitori",
+      "latest_activity": "Poslednja aktivnost"
+    },
+    "table_component": "Komponenta",
+    "table_group": "Grupa",
+    "total_subscribers": "Ukupno pretplatnika",
+    "transfer_pending": "Prenos na čekanju",
+    "transfer_pending_for": "Zahtjev za prenos je na čekanju za",
+    "type_url_helper": "Unesite potpunu URL adresu da omogućite brisanje.",
+    "upgrade_pro_reload": "🔄 <a href=\"/user/billing\" class=\"text-decoration-none\">Nadogradite na Pro</a> da omogućite automatsko učitavanje",
+    "upgrade_required": "Neophodna nadgradnja",
+    "use_on_page_column": "Koristi na stranici",
+    "user_experience_help": "Poboljšajte kako korisnici komuniciraju sa Vašom stranicom statusa",
+    "view_status_page": "Pogledajte Vašu status stranicu",
+    "accent_color": "Boja akcenata",
+    "analytics": {
+      "info": "💡 Analitika se ubacuje na domen Vaše status stranice (prilagođeni domen ili hostovani poddomen). Ne koristi kolačiće i poštuje pravila izuzimanja. Ako koristite hostovani poddomen (npr. <em>your-page.statuspage.me</em>), kreirajte analitičku svojinu/sajt/projekat sa tim tačnim imenom hosta (your-page.statuspage.me)."
+    },
+    "auto_reload": "Automatsko osvežavanje",
+    "automatic_incident_management": "Automatsko upravljanje incidentima",
+    "background_color": "Boja pozadine",
+    "branding_section": "Brendiranje",
+    "cancel_transfer": "Otkaži transfer",
+    "cannot_undo": "Ovo se ne može opozvati",
+    "choose_event_types": "Izaberite koje događaje pokreću obavijesti",
+    "components": {
+      "add_component": "Dodaj komponentu",
+      "failed_loading": "Neuspješno učitavanje komponenti",
+      "help": "Upravljajte komponentama koje se prikazuju na ovoj stranici statusa. Komponente grupišu monitore i incidente.",
+      "loading": "Učitavanje komponenti..."
+    },
+    "components_will_delete": "Sve komponente pod ovom stranicom će biti obrisane",
+    "confirm_password_transfer": "Potvrdite svoju lozinku",
+    "cookieless_only": "Podržavamo samo pružaoce usluga koji poštuju privatnost i ne koriste kolačiće.",
+    "create_new_channel": "Kreiraj novi kanal",
+    "custom_domain_tip": "Podesite prilagođeni domen za Vašu status stranicu",
+    "danger_zone": "Zona opasnosti",
+    "dark_theme_logo": "Logo tamne teme",
+    "dark_theme_logo_url": "URL logoa tamne teme",
+    "default_logo": "Podrazumevani logo",
+    "display_options": "Opcije prikaza",
+    "edit": {
+      "heading": "Izmeni status stranicu"
+    },
+    "email_link_help": "Poslaćemo vezu putem e-pošte primaocu da prihvati transfer.",
+    "empty_state_help": "Kreirajte svoju prvu statusnu stranicu da počnete.",
+    "enable_analytics": "Omogući veb analitiku za ovu statusnu stranicu",
+    "enable_disable_status_page": "Omogući ili onemogući ovu statusnu stranicu",
+    "enable_quiet_hours": "Omogući tihe sate",
+    "end_time": "Vreme završetka",
+    "exclude_by_cookie": "Isključi po kolačiću (tačno ime)",
+    "extract_colors": "Izvucite boje iz svog logoa da biste kreirali odgovarajuću šemu boja za Vašu statusnu stranicu.",
+    "extracted_colors": "Izvučene boje",
+    "historical_uptime_access": "Pristup istorijskom vremenu rada (Timovi)",
+    "if_cookie_exists": "Ako ovaj kolačić postoji, analitika neće biti ubačena.",
+    "incidents_removed": "Svi povezani incidenti će biti uklonjeni",
+    "include_non_impacting": "Uključi neutjecajne zavisnosti u baner",
+    "initiate_transfer_help": "Ovo će pokrenuti transfer vlasništva na drugu e-poštansku adresu",
+    "invalid_image_url": "Nevažeća URL slike",
+    "light_theme_logo": "Logo svetle teme",
+    "light_theme_logo_url": "URL logoa svetle teme",
+    "link_notification_channel": "Poveži kanal obavijesti",
+    "list": {
+      "create_new": "Kreiraj novu status stranicu",
+      "none_message": "Nemate statusna stranica.",
+      "notifications_button": "Obavijesti",
+      "notifications_button_title": "Podesite ponovo upotrebljive kanale za obavijesti za sve Vaše status stranice"
+    },
+    "live_preview": "Pregled uživo",
+    "loading_channels": "Učitavanje kanala...",
+    "logo_previews": "Pregledi logoa",
+    "max_notifications_per_window": "Maksimalno obavijesti po prozoru",
+    "monitors_detached": "Monitori pričvršćeni za te komponente će biti odvojeni",
+    "new": {
+      "heading": "Kreiraj status stranicu",
+      "info": "Možete kreirati ovu status stranicu bez monitora. Kasnije dodajte komponente i incidente, i opcionalno dodelite monitore u podešavanjima.",
+      "slug_help": "Identifikator će biti korišćen u javnoj URL adresi, na primer https://my-company.statuspage.me — možete kasnije promeniti podrazumevani domen."
+    },
+    "new_password_ready": "Nova lozinka je spremna (biće primenjena kada sačuvate)",
+    "no_monitors_yet": "Ova statusna stranica još nema monitore.",
+    "notifications": {
+      "event_types": {
+        "dnsbl_listed": "DNSBL liste",
+        "heading": "Tipovi događaja",
+        "incident_created": "Incident kreiran",
+        "incident_resolved": "Incident rešen",
+        "incident_updated": "Incident ažuriran",
+        "maintenance": "Periodi održavanja",
+        "monitor_down": "Monitor ne radi",
+        "monitor_up": "Monitor se oporavio",
+        "ssl_expiring": "SSL ističe"
+      },
+      "link_channel": "Poveži kanal",
+      "manage_channels": "Upravljaj kanalima",
+      "no_available_channels": "Nema dostupnih kanala za povezivanje.",
+      "preferences_heading": "Postavke obavijesti",
+      "preferences_subtitle": "Kontrolišite kada i kako primate obavijesti",
+      "quiet_hours": {
+        "always_send_critical": "Uvek šalji kritična upozorenja (monitor ne radi, incidenti)",
+        "heading": "Tihi sati"
+      },
+      "rate_limiting": {
+        "heading": "Ograničenje učestalosti",
+        "window_15m": "15 minuta",
+        "window_1h": "1 sat",
+        "window_30m": "30 minuta",
+        "window_5m": "5 minuta"
+      },
+      "reset_to_defaults": "Vrati na podrazumevano",
+      "save_preferences": "Sačuvaj postavke",
+      "subtitle": "Izaberite koji kanali primaju obavijesti sa ove status stranice"
+    },
+    "password_help": "Minimum 4 karaktera. Posetioci će morati da koriste ovu lozinku da bi videli Vašu statusnu stranicu.",
+    "password_protection": "Zaštita lozinkom",
+    "password_set": "Lozinka je postavljena",
+    "placement": "Pozicioniranje",
+    "prevent_notification_flooding": "Sprečite preopterećenje obaveštenjima zbog brzih promjena statusa",
+    "preview": "Pregled:",
+    "preview_text": "Ovo je kako će tekst izgledati na vašoj statusnoj strani.",
+    "primary_color": "Primarna boja",
+    "privacy_analytics": "Veb analitika koja poštuje privatnost",
+    "privacy_security": "Privatnost & Sigurnost",
+    "public_subscriptions": "Javne pretplate",
+    "recipient_email": "E-pošta primaoca",
+    "required_confirm_owner": "Obvezno da potvrdite da ste vlasnik.",
+    "secondary": "Sekundarno",
+    "secondary_color": "Sekundarna boja",
+    "select_channel_help": "Izaberite kanal da primate obavijesti sa ove statusne stranice.",
+    "set_password": "Postavi lozinku",
+    "settings_saved": "Postavke su sačuvana",
+    "show_availability_metrics": "Prikaži metrike dostupnosti (MTBF/MTTR)",
+    "show_monitor_badges": "Prikaži oznake tipa monitora (API/DNS/Site)",
+    "showcase_featured": "Vaša statusna stranica je istaknuta u vitrini!",
+    "showcase_not_opted": "Još niste se prijavili za vitrinu.",
+    "start_time": "Vreme početka",
+    "status_page_limit_reached": "Dostignut je limit status stranica.",
+    "status_settings": "Postavke statusa",
+    "subscribed_on": "Pretplaćen na",
+    "subscriber_list": "Lista pretplatnika",
+    "subscribers": {
+      "empty_row": "Još uvek nema pretplatnika"
+    },
+    "suppress_non_critical": "Potisni nekritična obavijesti tokom određenih sati",
+    "text_color": "Boja teksta",
+    "time_window": "Vremenski prozor",
+    "toggle_channels_help": "Uključi/isključi kanale za ovu statusnu stranicu",
+    "transfer_ownership": "Prenesi vlasništvo",
+    "unlock_premium_features": "Otključajte premijum funkcije!",
+    "upgrade_your_plan": "nadogradite svoj plan",
+    "use_recipients_email": "Koristi e-poštansku adresu računa primaoca",
+    "user_experience": "Korisničko iskustvo",
+    "where_inject_snippet": "Gde ubaciti snipet za praćenje.",
+    "create_status_page": "Kreiraj status stranicu"
+  },
+  "support": {
+    "cards": {
+      "email": {
+        "cta": "Pošalji e-poštu",
+        "text": "Pošaljite nam e-poštu i javićemo Vam se u roku od 24 sata.",
+        "title": "E-pošta"
+      },
+      "live_chat": {
+        "cta": "Pokreni ćaskanje",
+        "text": "Dobijte pomoć odmah od našeg tima za podršku putem ćaskanja uživo.",
+        "title": "Ćaskanje uživo"
+      },
+      "telegram": {
+        "cta": "Pridruži se Telegramu",
+        "text": "Pišite nam preko Telegrama za hitnu pomoć."
+      }
+    },
+    "community": {
+      "discord": {
+        "aria": "Pridružite se našem Diskordu — dobijte pomoć i ćaskajte sa timom",
+        "subtitle": "Dobijte pomoć na Diskordu",
+        "title": "Ćaskaj sa timom"
+      },
+      "slack": {
+        "aria": "Pridružite se našem Slaku — dobijte pomoć i ćaskajte sa timom",
+        "subtitle": "Dobijte pomoć na Slaku",
+        "title": "Pridruži se Slaku"
+      },
+      "text": "Ili se pridružite našoj Discord zajednici za podršku među korisnicima, novosti i razgovore."
+    },
+    "email": {
+      "fallback_subject": "Zahtjev za podršku"
+    },
+    "footer": {
+      "text": "Za hitne probleme, ćaskanje uživo je najbrži način da dobijete pomoć. Prosečno vreme odgovora je manje od 5 minuta tokom radnog vremena.",
+      "title": "Potrebna Vam je hitna pomoć?"
+    },
+    "header": {
+      "subtitle": "Izaberite kako želite da stupite u kontakt sa našim timom za podršku. Tu smo da pomognemo!",
+      "title": "Pomoć i podrška"
+    },
+    "title": "Podrška"
+  },
+  "teams": {
+    "actions": {
+      "create_team": "Kreiraj tim",
+      "delete_team": "Izbrišite tim",
+      "invite_member": "Pozovi člana",
+      "leave_team": "Napusti tim",
+      "incident": "Kreiraj incident",
+      "maintenance": "Rasporedi održavanje",
+      "manage": "Upravljaj timovima"
+    },
+    "audit_logs": {
+      "errors": {
+        "load_failed": "Neuspješno učitavanje timova. Pokušajte ponovo."
+      },
+      "no_teams": {
+        "text": "Morate biti vlasnik ili admin tima da biste videli dnevnik revizije.",
+        "title": "Nema timova"
+      },
+      "selector": {
+        "confirm": "Prikaži dnevnik",
+        "placeholder": "Izaberite tim",
+        "text": "Izaberite tim za koji želite da vidite dnevnik revizije:",
+        "title": "Izaberite tim",
+        "validation": "Molimo izaberite tim"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "confirm": "Da, izbrišite",
+        "text": "Da li ste sigurni da želite da obrišete \"{{name}}\"? Ovo će ukloniti sve članove i odvezati sve status stranice.",
+        "title": "Obrisati tim?"
+      },
+      "errors": {
+        "failed": "Neuspješno brisanje tima"
+      },
+      "progress": {
+        "deleting": "Brisanje tima…"
+      },
+      "success": {
+        "text": "Tim je uspješno obrisan.",
+        "title": "Tim obrisan"
+      }
+    },
+    "detail": {
+      "invitations": {
+        "cancel": {
+          "confirm": "Da, otkaži",
+          "html": "Otkazati pozivnicu poslatu na <strong>{{email}}</strong>?",
+          "title": "Otkazati pozivnicu?"
+        },
+        "cancel_success": {
+          "title": "Pozivnica otkazana"
+        },
+        "errors": {
+          "failed_cancel": "Neuspješno otkazivanje pozivnice"
+        },
+        "progress": {
+          "cancelling": "Otkazivanje pozivnice…"
+        },
+        "resend_coming_soon": {
+          "text": "Ponovno slanje pozivnice biće dostupno uskoro.",
+          "title": "Uskoro"
+        }
+      },
+      "invite": {
+        "actions": {
+          "send_invitation": "Pošalji pozivnicu"
+        },
+        "errors": {
+          "email_required": "E-pošta je obvezna",
+          "failed_resend": "Neuspješno ponovno slanje pozivnice",
+          "failed_send": "Neuspješno slanje pozivnice"
+        },
+        "form": {
+          "email_label": "Adresa e-pošte",
+          "email_placeholder": "colleague@example.com",
+          "role_label": "Uloga",
+          "role_option_admin": "Admin – Urednik + postavke status stranice",
+          "role_option_editor": "Urednik – Može da kreira/ažurira incidente",
+          "role_option_viewer": "Posmatrač – Samo čitanje"
+        },
+        "pending": {
+          "confirm_resend": "Ponovo pošalji",
+          "text": "Pozivnica za {{email}} je već na čekanju. Da li želite da je ponovo pošaljete?",
+          "title": "Pozivnica je već na čekanju"
+        },
+        "progress": {
+          "resending": "Ponovno slanje pozivnice...",
+          "sending": "Slanje pozivnice..."
+        },
+        "resend_success": {
+          "text": "Pozivnica je ponovo poslata na {{email}}",
+          "title": "Pozivnica ponovo poslata"
+        },
+        "success": {
+          "text": "Pozivnica je poslata na {{email}}",
+          "title": "Pozivnica poslata"
+        }
+      },
+      "labels": {
+        "active": "Aktivan",
+        "seat_limit_reached": "Dostignut limit sedišta"
+      },
+      "members": {
+        "errors": {
+          "failed_remove_member": "Neuspješno uklanjanje člana",
+          "failed_update_role": "Neuspješno ažuriranje uloge"
+        },
+        "progress": {
+          "removing_member": "Uklanjanje člana…",
+          "updating_role": "Ažuriranje uloge…"
+        },
+        "remove": {
+          "confirm": "Da, ukloni",
+          "html": "Da li ste sigurni da želite da uklonite <strong>{{email}}</strong> iz ovog tima?",
+          "title": "Ukloniti člana?"
+        },
+        "remove_success": {
+          "title": "Član uklonjen"
+        },
+        "role_updated": {
+          "title": "Uloga ažurirana"
+        },
+        "title": "Članovi tima"
+      },
+      "pending": "Pozivnice na čekanju",
+      "sidebar": {
+        "permissions": {
+          "admin": "Dozvole urednika plus pristup podešavanjima status stranica.",
+          "editor": "Kreiranje i ažuriranje incidenata i održavanja na povezanim status stranicama.",
+          "owner": "Potpuna kontrola nad podešavanjima tima, članovima i povezanim status stranicama.",
+          "viewer": "Samo čitanje za pregled tima i podataka status stranice."
+        },
+        "role_permissions": "Dozvole uloga",
+        "your_role": "Vaša uloga"
+      },
+      "status_pages": {
+        "create_cta": "Kreiraj status stranicu",
+        "empty": "Još nema status stranica povezanih sa ovim timom.",
+        "errors": {
+          "failed_link": "Neuspješno povezivanje status stranice",
+          "failed_unlink": "Neuspješno otkačinje status stranice",
+          "select_status_page": "Molimo izaberite status stranicu"
+        },
+        "info": "Članovi tima će moći da pristupe ovoj status stranici u skladu sa svojim ulogama.",
+        "link_cta": "Poveži status stranicu",
+        "link_first_cta": "Poveži svoju prvu status stranicu",
+        "link_success": {
+          "title": "Status stranica povezana"
+        },
+        "no_status_pages_yet": "Još nemate nijednu status stranicu.",
+        "progress": {
+          "linking": "Povezivanje status stranice…",
+          "unlinking": "Otkačinje status stranice…"
+        },
+        "select_placeholder": "Izaberite status stranicu...",
+        "title": "Povezane status stranice",
+        "unlink": {
+          "confirm": "Da, otkači",
+          "html": "Ukloniti <strong>{{name}}</strong> iz ovog tima?<br><br>Članovi tima će izgubiti pristup ovoj status stranici.",
+          "title": "Otkačiti status stranicu?"
+        },
+        "unlink_success": {
+          "title": "Status stranica otkačena"
+        }
+      },
+      "table": {
+        "joined": "Pridružen",
+        "member": "Član",
+        "sent": "Poslato",
+        "slug": "Slag",
+        "status_page": "Status stranica"
+      }
+    },
+    "invitations": {
+      "accept": "Prihvati",
+      "accept_success": {
+        "text": "Uspješno ste se pridružili timu.",
+        "title": "Pozivnica prihvaćena"
+      },
+      "decline": "Odbij",
+      "decline_confirm": {
+        "confirm": "Da, odbij",
+        "text": "Da li ste sigurni da želite da odbijete ovu pozivnicu za tim?",
+        "title": "Odbiti pozivnicu?"
+      },
+      "declined": {
+        "text": "Pozivnica je odbijena.",
+        "title": "Pozivnica odbijena"
+      },
+      "errors": {
+        "accept_failed": "Neuspješno prihvatanje pozivnice",
+        "decline_failed": "Neuspješno odbijanje pozivnice"
+      },
+      "pending": "Pozivnice na čekanju",
+      "progress": {
+        "declining": "Odbijanje pozivnice…"
+      },
+      "resent": {
+        "text": "Pozivnica za {{email}} je ponovo poslata.",
+        "title": "Pozivnica ponovo poslata"
+      }
+    },
+    "leave": {
+      "coming_soon": {
+        "text": "Napuštanje timova će uskoro biti dostupno.",
+        "title": "Uskoro dostupno"
+      },
+      "confirm": {
+        "confirm": "Da, napusti",
+        "text": "Da li ste sigurni da želite da napustite \"{{name}}\"?",
+        "title": "Napustiti tim?"
+      },
+      "confirmed": "Napustili ste tim.",
+      "progress": {
+        "leaving": "Napuštanje tima…"
+      }
+    },
+    "limits": {
+      "check_billing": "Proverite naplatu",
+      "members": "članovi",
+      "reached": "Dostignut limit timova",
+      "seats_note": "Sedišta broje pozvane članove i pozivnice na čekanju. Vlasnik pretplate se ne broi.",
+      "seats_note_brief": "Vlasnik pretplate se ne broji prema limitu sedišta.",
+      "seats_per_team": "Sedišta po timu:",
+      "seats_reached": "Dostigli ste limit sedišta za ovaj tim. Uklonite člana ili nadogradite plan.",
+      "seats_usage": "Sedišta korišćena:",
+      "unlimited": "Neograničeno",
+      "upgrade_message": "Nadogradite plan da biste kreirali više timova",
+      "usage": "Upotreba timova:"
+    },
+    "list": {
+      "my_teams": "Moji timovi",
+      "shared_with_me": "Podeljeno sa mnom",
+      "description": "Sarađujte sa timom na Vašim status stranicama",
+      "heading": "Timovi"
+    },
+    "nav": {
+      "audit_logs": "Dnevnik revizije",
+      "my_teams": "Moji timovi",
+      "overview": "Pregled",
+      "shared_teams": "Podeljeni timovi",
+      "teams": "Timovi"
+    },
+    "sidebar": {
+      "active_team": "Aktivni tim",
+      "analytics": "Analitika",
+      "incidents": "Incidenti",
+      "maintenances": "Održavanja",
+      "set_badge": "aktivno",
+      "shared_resources": "Deljeni resursi",
+      "shared_status_pages": "Deljene status stranice",
+      "settings_history": "Povijest"
+    },
+    "roles": {
+      "admin": "Admin",
+      "editor": "Urednik",
+      "owner": "Vlasnik",
+      "viewer": "Posmatrač"
+    },
+    "stats": {
+      "status_pages": "Status stranice",
+      "team_members": "Članovi tima",
+      "total_monitors": "Ukupno monitora",
+      "invites": "Pozivnice na čekanju",
+      "manage_invites": "Upravljaj",
+      "owned": "Moji timovi",
+      "shared": "Deljeni timovi",
+      "view_my": "Prikaz",
+      "view_shared": "Prikaz"
+    },
+    "table": {
+      "created": "Kreirano",
+      "members": "Članovi",
+      "name": "Ime",
+      "role": "Uloga",
+      "actions": "Akcije",
+      "invited_by": "Pozvao",
+      "my_role": "Moja uloga",
+      "status_pages": "Status stranice",
+      "team": "Tim"
+    },
+    "action_filter": "Filter akcije",
+    "all_already_linked": "Sve Vaše statusne stranice su već povezane sa ovim timom.",
+    "context": {
+      "shared_incidents": "Pregled deljenih incidenata",
+      "shared_maintenances": "Pregled deljenih održavanja",
+      "team_id": "ID tima:"
+    },
+    "create_page_first": "Napravite statusnu stranicu prvo, zatim se vratite da je povežete sa ovim timom.",
+    "cta": {
+      "create": "Kreiraj tim"
+    },
+    "edit_team": "Uredi tim",
+    "empty": {
+      "cta": "Kreiraj prvi tim",
+      "description": "Kreirajte tim da biste sarađivali sa drugima na status stranicama",
+      "title": "Još nema timova",
+      "upgrade": "Nadogradi plan da uključiš timove"
+    },
+    "form": {
+      "back": "Nazad na timove",
+      "create_heading": "Kreiraj tim",
+      "description": "Opis",
+      "description_help": "Opciono. Za što je ovaj tim zadužen?",
+      "details": "Detalji tima",
+      "edit_heading": "Uredi tim",
+      "name": "Naziv tima",
+      "name_help": "Izaberite jasan naziv koji će tim lako prepoznati.",
+      "tips_title": "Saveti"
+    },
+    "info": {
+      "title": "Kako rade timovi"
+    },
+    "invite_team_member": "Pozovite člana tima",
+    "link_status_page": "Poveži statusnu stranicu",
+    "member": {
+      "title": "Timovi u kojima sam član"
+    },
+    "member_can_create_incidents": "Može da kreira/ažurira incidente i održavanje na povezanim statusnim stranicama.",
+    "mine": {
+      "description": "Timovi koje ste kreirali i vodite",
+      "heading": "Moji timovi"
+    },
+    "overview": {
+      "description": "Brzi pregled i akcije za Vaše timove",
+      "heading": "Timovi",
+      "invites_hint": "Imate pozivnice na čekanju. Otvorite Deljene timove da biste ih prihvatili ili odbili.",
+      "open_shared": "Otvori deljene timove"
+    },
+    "owned": {
+      "title": "Timovi koje vodim"
+    },
+    "owner_full_control": "Puna kontrola: upravljajte postavkama tima, članovima i povezanim statusnim stranicama.",
+    "quick_actions": "Brze akcije",
+    "recent_actions": "Nedavne akcije za Vaš tim",
+    "select_status_page": "Izaberite statusnu stranicu",
+    "settings_escalated_role": "Pristup postavkama zahtijeva uzdignutu ulogu",
+    "shared": {
+      "description": "Timovi na koje ste pozvani ili dodani",
+      "empty": {
+        "description": "Kada Vas neko pozove u tim, on će se pojaviti ovde.",
+        "title": "Nema deljenih timova"
+      },
+      "heading": "Deljeni timovi"
+    },
+    "team_audit_logs": "Logovi revizije tima",
+    "upgrade": {
+      "cta": "Nadogradi",
+      "description": "Nadogradite plan da biste sarađivali sa članovima tima i delili pristup status stranicama.",
+      "title": "Funkcija timova nije dostupna u Vašem trenutnom planu."
+    },
+    "viewer_read_only": "Pristup samo za čitanje za pregled incidenata i podataka statusne stranice.",
+    "your_role": "Vaša uloga: ",
+    "settings_history": {
+      "title": "Povijest postavki",
+      "subtitle": "Nedavne promjene postavki za dijeljene stranice statusa u",
+      "subtitle_generic": "Nedavne promjene postavki za dijeljene stranice statusa",
+      "empty_no_pages_title": "Nema dijeljenih stranica statusa",
+      "filter_status_page": "Stranica statusa",
+      "all_pages": "Sve dijeljene stranice",
+      "filter_limit": "Ograničenje",
+      "col_actor": "Izvršitelj",
+      "col_status_page": "Stranica statusa",
+      "col_changes": "Promjene",
+      "before": "Prije",
+      "after": "Poslije",
+      "empty_title": "Nema promjena",
+      "empty_description": "Još nisu zabilježene promjene postavki za dijeljene stranice statusa ovog tima.",
+      "empty_no_teams_description": "Još niste član nijednog dijeljenog tima.",
+      "empty_no_pages_description": "Još nema dijeljenih status stranica povezanih s ovim timom.",
+      "cta_view_shared_teams": "Prikaži dijeljene timove",
+      "cta_view_team_status_pages": "Prikaži status stranice tima",
+      "via": "putem",
+      "more_changes": "+{{count}} više",
+      "no_visible_changes": "Nema vidljivih promjena postavki",
+      "view_details": "Prikaži detalje",
+      "col_setting": "Postavka",
+      "show_raw_json": "Prikaži sirovi JSON"
+    }
+  },
+  "tools": {
+    "domain_age": {
+      "errors": {
+        "calculate_failed": "Greška pri izračunavanju"
+      }
+    },
+    "nav": {
+      "dnsbl_monitors": "DNSBL monitori",
+      "domain_age": "Starost domena",
+      "domain_whois": "WHOIS domena",
+      "email_auth": "Provjera autentifikacije e-pošte",
+      "overview": "Pregled",
+      "ssl_monitors": "SSL sertifikat monitori"
+    },
+    "add_dnsbl_monitor": "Dodaj DNSBL monitor",
+    "add_email_auth_monitor": "Dodaj monitor autentifikacije e-pošte",
+    "add_ssl_monitor": "Dodaj SSL monitor",
+    "alert_days_before": "Upozorenje dana prije",
+    "authentication_methods": "Metode autentifikacije za proveru",
+    "blacklisted": "Na crnoj listi",
+    "blacklisted_on": "Na crnoj listi na",
+    "blacklisted_on_help": "Ovaj domen/IP je navedeni na sljedećim crnim listama:",
+    "cached": "Keširano",
+    "check_records": "Proveri zapise",
+    "create_status_page_advanced": "Kreirajte status stranicu sa naprednim monitorima dostupnosti, upravljanjem incidentima i obaveštenjima za pretplatnike.",
+    "dashboard": {
+      "active_monitors": "Aktivni monitori",
+      "dnsbl_features": {
+        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Dnevne provere",
+        "ip_domain_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Provere IP-a i domena",
+        "multiple_blacklists": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Više crnih lista"
+      },
+      "domain_age_calculator": "Kalkulator starosti domena",
+      "domain_whois_lookup": "WHOIS pretraga domena",
+      "email_auth_features": {
+        "dkim_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Validacija DKIM-a",
+        "dmarc_policy": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> DMARC politika",
+        "spf_record_check": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Provjera SPF zapisa"
+      },
+      "email_auth_monitors": "Monitori autentifikacije e-pošte",
+      "manage_dnsbl_monitors": "Upravljaj DNSBL monitorima",
+      "manage_email_auth_monitors": "Upravljaj monitorima e-pošte",
+      "manage_ssl_monitors": "Upravljaj SSL monitorima",
+      "open_age_tool": "Otvori alat za starost domena",
+      "open_whois_tool": "Otvori WHOIS alat",
+      "ssl_features": {
+        "chain_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Validacija lanca",
+        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Dnevne provere",
+        "expiry_warnings": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Upozorenja o isteku"
+      },
+      "ssl_monitors": "SSL monitori"
+    },
+    "dkim_selector": "DKIM selektor",
+    "dkim_selector_optional": "DKIM selektor (opciono)",
+    "dkim_spf_heading": "Pratite DKIM, SPF i DMARC zapise za Vaše domene.",
+    "dkim_status": "DKIM status",
+    "dmarc_status": "DMARC status",
+    "dnsbl_heading": "DNSBL monitor",
+    "dnsbl_help": "Proverite da li je Vaš domen ili IP na crnoj listi. Bićete obavešteni ako se pojavite na spam listama.",
+    "dnsbl_monitors_heading": "Pratite Vaše domene i IP adrese za status crne liste.",
+    "domain_age_help": "Izračunajte starost domena od WHOIS datuma kreiranja sa robusnim rukovanjem formata preko TLD-ova.",
+    "domain_optional": "Domen (opciono)",
+    "domain_whois_help": "Pogledajte informacije o registratoru, kreiranju, ažuriranju i isteku za bilo koji domen. Uključuje sirovi WHOIS.",
+    "edit_email_auth": "Uredi monitor autentifikacije e-pošte",
+    "email_auth_heading": "Monitor autentifikacije e-pošte",
+    "email_auth_help": "Pratite DKIM, SPF i DMARC zapise za Vaš domen. Obezbedite isporučivost e-pošte.",
+    "fresh": "Ažurno",
+    "full_whois_response": "Puni WHOIS odgovor",
+    "ip_address": "IP adresa",
+    "ip_address_optional": "IP adresa (opciono)",
+    "key_details": "Ključni detalji",
+    "monitors": {
+      "domain_to_monitor": "Domen za praćenje"
+    },
+    "need_uptime_monitoring": "Treba Vam praćenje dostupnosti?",
+    "recent_checks": "Nedavne provere",
+    "registration_details": "Detalji registracije",
+    "registration_info": "Informacije o registraciji",
+    "spf_status": "SPF status",
+    "ssl_get_alerts": "Pratite SSL sertifikate i dobijajte upozorenja prije isteka. Dnevne automatske provere.",
+    "ssl_monitors_heading": "Monitor SSL sertifikata",
+    "ssl_monitors_help": "Pratite SSL sertifikate i primajte upozorenja prije isteka.",
+    "tools_dashboard_heading": "Kreirajte automatske monitore za SSL sertifikate, DNS crne liste i zapise za autentifikaciju e-pošte.",
+    "whois": {
+      "force_fresh_help": "Označite da uvek upitate sveže WHOIS podatke umesto da koristite keširane rezultate",
+      "force_fresh_lookup": "Primoraj svežu pretragu (preskoči keš)"
+    },
+    "dkim_spf": {
+      "add_monitor": "Dodaj monitor",
+      "add_new_monitor": "Dodaj novi monitor autentifikacije e-pošte",
+      "check_dkim": "Proveri DKIM",
+      "check_dmarc": "Proveri DMARC",
+      "check_spf": "Proveri SPF",
+      "empty": "Još nema monitora autentifikacije e-pošte. Dodajte svoj prvi monitor iznad.",
+      "leave_empty_skip_dkim": "Ostavite prazno da preskočite DKIM",
+      "leave_empty_use_default": "Ostavite prazno da koristite \"default\"",
+      "monitors_title": "Monitori autentifikacije e-pošte",
+      "your_monitors": "Vaši monitori autentifikacije e-pošte"
+    },
+    "dnsbl": {
+      "actions": {
+        "adding": "Dodavanje DNSBL monitora...",
+        "checking": "Provjera DNSBL...",
+        "deleting": "Brisanje DNSBL monitora..."
+      },
+      "add_monitor": "Dodaj monitor",
+      "add_new_monitor": "Dodaj novi DNSBL monitor",
+      "added_success": "DNSBL monitor je uspješno dodat",
+      "blacklist_details_title": "Detalji crne liste",
+      "check_complete": "Provjera završena!",
+      "delete_title": "Obrisati DNSBL monitor?",
+      "domain_or_ip_help": "Navedite domen ili IP adresu (ili oba).",
+      "deleted": "Monitor je obrisan.",
+      "empty": "Još nema DNSBL monitora. Dodajte svoj prvi monitor iznad.",
+      "failed_add": "Neuspješno dodavanje monitora: ",
+      "failed_check": "Neuspješna provjera monitora: ",
+      "failed_delete": "Neuspješno brisanje monitora: ",
+      "ip_direct_help": "Ili navedite IP direktno",
+      "listed_on": "Navedeno na:",
+      "lists_plural": "liste",
+      "lists_singular": "lista",
+      "no_blacklists_text": "Ovaj domen/IP trenutno nije naveden ni na jednoj crnoj listi.",
+      "no_blacklists_title": "Nema crnih lista",
+      "status": {
+        "clean": "Čisto"
+      },
+      "your_dnsbl_monitors": "Vaši DNSBL monitori"
+    },
+    "monitor_enabled": "Monitor omogućen",
+    "ssl": {
+      "actions": {
+        "adding": "Dodavanje SSL monitora...",
+        "checking": "Provjera SSL...",
+        "deleting": "Brisanje SSL monitora..."
+      },
+      "add_monitor": "Dodaj monitor",
+      "add_new_monitor": "Dodaj novi SSL monitor",
+      "added_success": "SSL monitor je uspješno dodat",
+      "alert_days_before_help": "Upozori X dana prije isteka",
+      "check_complete": "Provjera završena",
+      "checked_success": "SSL sertifikat je uspješno proveren!",
+      "days_remaining": "dana preostalo",
+      "delete_title": "Obrisati SSL monitor?",
+      "deleted": "Monitor je obrisan.",
+      "details_title": "Detalji SSL sertifikata",
+      "empty": "Još nema SSL monitora. Dodajte svoj prvi monitor iznad.",
+      "enter_domain_without_scheme": "Unesite domen bez https://",
+      "expires_at": "Ističe",
+      "failed_add": "Neuspješno dodavanje monitora: ",
+      "failed_check": "Neuspješna provjera SSL-a: ",
+      "failed_delete": "Neuspješno brisanje monitora: ",
+      "issued_at": "Izdat",
+      "issuer": "Izdavac",
+      "status": {
+        "expired": "Isteklo",
+        "valid": "Važeći"
+      },
+      "subject": "Subjekt",
+      "your_ssl_monitors": "Vaši SSL monitori"
+    }
+  },
+  "translator": {
+    "admin_notes": "Napomene administratora:",
+    "cancel": "Otkaži",
+    "confirm_delete": "Obrisati ovaj predlog?",
+    "confirm_submit": "Poslati ovaj predlog na pregled?",
+    "current_value": "Trenutna Vrednost",
+    "daily_limit_message": "Dostigli ste dnevni limit predloga. Pokušajte ponovo sutra.",
+    "daily_limit_reached": "Dnevni Limit Dostignut",
+    "edit_suggestion": "Izmeni predlog",
+    "empty": {
+      "description": "Uključite režim prevodioca i počnite da poboljšavate prevode!",
+      "go_to_settings": "Idite u postavke",
+      "title": "Još nema predloga"
+    },
+    "empty_suggestion": "Unesite prevod",
+    "enable_translator_mode": "Uključi Režim Prevodioca",
+    "enter_suggestion": "Molimo unesite predlog prevoda.",
+    "error": "Greška",
+    "hint_click": "na bilo koji tekst za predlog prevoda",
+    "how_it_works": {
+      "step1_desc": "Uključite režim prevodioca u podešavanjima profila da aktivirate funkciju.",
+      "step1_title": "Uključite režim prevodioca",
+      "step2_desc": "Koristite Ctrl+Shift+Klik (Cmd+Shift+Klik na Mac-u) na bilo koji tekst sa ključem prevoda.",
+      "step2_title": "Kliknite da predložite",
+      "step3_desc": "Administratori pregledaju Vaše predloge i primenjuju ih da poboljšaju prevode.",
+      "step3_title": "Pošaljite na pregled",
+      "title": "Kako radi Pomoćnik za prevod"
+    },
+    "my_suggestions": "Moji Predlozi",
+    "no_suggestions": "Još uvek niste poslali nijedan predlog prevoda.",
+    "original": "Original",
+    "pending_suggestions": "Predlozi na Čekanju",
+    "preview": "Pregled",
+    "preview_hint": "Pregled će se ažurirati dok kucate",
+    "remaining": "Preostalo danas:",
+    "save_draft": "Sačuvaj kao Nacrt",
+    "saved": "Sačuvano",
+    "saved_message": "Predlog prevoda sačuvan kao nacrt.",
+    "stats": {
+      "approved": "Odobreno",
+      "approved_desc": "Prihvaćeni prevodi",
+      "drafts": "Nacrti",
+      "drafts_desc": "Još nije poslato",
+      "pending": "Čeka pregled",
+      "pending_desc": "Čeka odobrenje",
+      "quota_desc": "Današnji limit",
+      "quota_remaining": "Preostala kvota"
+    },
+    "status": {
+      "approved": "Odobreno",
+      "draft": "Nacrti",
+      "pending": "Na čekanju",
+      "rejected": "Odbijeno"
+    },
+    "status_applied": "Primenjeno",
+    "status_approved": "Odobreno",
+    "status_draft": "Nacrt",
+    "status_pending": "Čeka Pregled",
+    "status_rejected": "Odbijeno",
+    "submit": "Pošalji na Pregled",
+    "submit_for_review": "Pošalji na pregled",
+    "submitted": "Poslato",
+    "submitted_desc": "Vaš predlog je poslat na pregled.",
+    "submitted_message": "Hvala! Vaš predlog prevoda je poslat na pregled.",
+    "suggest_translation": "Predloži Prevod",
+    "suggested": "Predlog",
+    "suggested_translation": "Predloženi prevod",
+    "suggested_value": "Vaš Predlog",
+    "suggestions_page_title": "Moji Predlozi Prevoda",
+    "title": "Režim Prevodioca",
+    "translation_key": "Ključ Prevoda",
+    "translator_mode_description": "Pomozite da se poboljšaju prevodi predlaganjem izmena. Koristite Ctrl+Shift+Klik na bilo koji tekst za prevod.",
+    "view_all": "Prikaži Sve Predloge",
+    "whitelisted_status": "Vi ste prevodilac na beloj listi sa povećanim dnevnim limitom."
+  },
+  "account": {
+    "accept_transfer": "Prihvati prenos",
+    "account_banned": "Vaš račun je blokiran",
+    "account_deletion": "Brisanje računa",
+    "account_preferences": "Postavke računa",
+    "activated": "Aktivirano",
+    "all_maintenance": "Svi događaji održavanja",
+    "all_monitors_data": "Svi monitori i podaci nadzora",
+    "all_status_pages": "Sve status stranice",
+    "back_to_home": "Nazad na početnu",
+    "check_history": "Povijest provjera monitora",
+    "confirm_password": "Potvrdite lozinku",
+    "connect_social_login": "Poveži društveno prijavljivanje",
+    "export_checks": "Rezultati provjera monitora (poslednjih 90 dana, organizovano po datumu)",
+    "export_components": "Komponente i grupe komponenti",
+    "export_data": "Izvezi svoje podatke",
+    "export_incidents": "Incidenti i njihova ažuriranja",
+    "export_maintenance": "Periodi održavanja i rasporedi",
+    "export_monitors": "Svi monitori sa njihovim konfiguracijama provjera",
+    "export_pages": "Sve status stranice sa njihovim podešavanjima i konfiguracijama",
+    "export_used_for": "Ovaj izvoz se može koristiti za:",
+    "extend_plan_limits": "Proširite limite plana kupovinom dodataka. Nakon uspješnog plaćanja, aktiviraju se automatski (obrada vebhukova).",
+    "invite_links_email_only": "Linkovi za poziv kreiraju račune samo na osnovu e-pošte.",
+    "learn_data_deletion": "Saznajte više o našim praksama brisanja podataka",
+    "link_google_github": "Možete povezati Google/GitHub/itd. da biste se prijavili bez lozinke.",
+    "login_required": "Potrebna prijava",
+    "manage_connections": "Upravljaj vezama",
+    "oauth_connections": "OAuth veze (GitHub, Google)",
+    "password_protects_account": "Ovo postavlja (ili resetuje) lozinku računa koji će biti vlasnik status stranice.",
+    "password_set": "Lozinka je postavljena",
+    "please_sign_in": "Prijavite se ili kreirajte račun da biste nastavili.",
+    "purchase": "Kupi",
+    "secure_your_account": "Zaštitite svoj račun",
+    "set_a_password": "Postavite lozinku",
+    "set_password": "Postavi lozinku",
+    "set_password_or_social": "Postavite lozinku ili povežite društveno prijavljivanje da biste nastavili.",
+    "social_optional_convenient": "Povezivanje društvenog prijavljivanja je opcionalno, ali zgodno.",
+    "use_unique_password": "Koristite jedinstvenu lozinku koju ne koristite nigde drugde.",
+    "why_this_step": "Zašto ovaj korak?",
+    "your_content": "Vaš sadržaj:",
+    "your_settings": "Vaša postavke:",
+    "youre_signed_in": "Prijavljeni ste. Radi bezbednosti, postavite lozinku i opcionalno povežite društveno prijavljivanje."
+  },
+  "brand": {
+    "hsp": "HSP"
+  },
+  "domains": {
+    "access_dns_settings": "Pristup DNS postavkama Vašeg domena",
+    "add_dns_verification": "Dodajte DNS zapis za verifikaciju",
+    "add_new_txt_record": "Dodajte novi TXT zapis sa detaljima prikazanim iznad",
+    "check_email_setup": "Proverite svoju e-poštu za detaljna uputstva za postavku",
+    "common_examples": "Uobičajeni primeri:",
+    "connect_custom_domain": "Povežite svoj prilagođeni domen",
+    "custom_domain_verified": "Prilagođeni domen verifikovan",
+    "dns_record_to_add": "DNS zapis za dodavanje",
+    "domain_verification_pending": "Verfikacija domena na čekanju",
+    "find_dns_management": "Pronađite odeljak za upravljanje DNS-om ili DNS postavkama",
+    "host_name": "Host / Ime",
+    "ill_add_later": "Dodaću ovo kasnije",
+    "issued_at": "Izdato u",
+    "make_accessible": "Da biste omogućili pristup vašoj statusnoj strani na Vašem prilagođenom domenu, dodajte ovaj DNS zapis:",
+    "need_re_verify": "Treba ponovo da verifikujete vlasništvo? Uklonite i ponovo dodajte domen.",
+    "not_done_yet": "Još niste završili — dodajte CNAME zapis ispod da biste završili postavku.",
+    "ownership_verified": "Vlasništvo verifikovano! Još jedan korak... 🎉",
+    "primary_domain": "Primarni domen",
+    "record_value": "Vrednost zapisa",
+    "save_changes": "Sačuvajte promjene",
+    "ssl_certificate": "SSL sertifikat",
+    "value_points_to": "Vrednost / Upućuje na",
+    "verification_failed": "Verfikacija nije uspjela",
+    "verification_pending": "Verfikacija na čekanju",
+    "verifying": "Verfikacija...",
+    "verifying_domain": "Verfikacija Vašeg domena...",
+    "whats_happening": "Što se dešava?"
+  },
+  "downgrade": {
+    "alert_title": "Važno:",
+    "comparison_resource": "Resurs",
+    "custom_domain_confirm": "Razumijem da će moj prilagođeni domen biti uklonjen",
+    "custom_domain_intro": "Sljedeći prilagođeni domen(i) će prestati da rade:",
+    "custom_domain_revert": "Vaše status stranice će se vratiti na besplatne poddomene (npr. vasastranica.statuspage.me)",
+    "data_retention_confirm": "Razumijem da će neizabrani resursi biti onemogućeni ali će podaci biti sačuvani",
+    "effective_date_label": "Prelazak na niži plan stupa na snagu:",
+    "feedback_comments_label": "Dodatni komentari",
+    "feedback_reason_ended": "Projekat završen",
+    "feedback_reason_expensive": "Preskupo",
+    "feedback_reason_features": "Nedovoljno funkcija",
+    "feedback_reason_label": "Zašto prelazite na niži plan?",
+    "feedback_reason_other": "Drugo",
+    "feedback_reason_select": "Izaberite razlog...",
+    "feedback_reason_switching": "Prelazak na drugi servis",
+    "feedback_reason_temporary": "Privremeno - kasnije ću preći na viši plan",
+    "resource_subscribers": "Pretplatnici",
+    "select_page_first": "Molimo prvo izaberite status stranicu da biste videli dostupne monitore.",
+    "step1_subtitle": "Izaberite 1 status stranicu koja će ostati aktivna. Ostale će biti onemogućene."
+  },
+  "embeds": {
+    "badge": "Bedž:",
+    "heading": "Ugrađivanje i dodaci statusne stranice",
+    "intro": "Kopirajte i nalepite ove isečke u Vašu veb stranicu ili dokumente. Zamenite TVOJ_SLUG sa slag-om Vaše statusne stranice.",
+    "json": {
+      "description": "Programatski pristup za prilagođeno renderovanje.",
+      "heading": "JSON krajnja tačka"
+    },
+    "live_widget": {
+      "description": "Ugrađena skripta koja prikazuje karticu sa temom. Podrška za svetlu/tamu/automatsku temu, opcioni spisak incidenata, interval osvežavanja.",
+      "heading": "Živi dodatak (skripta)"
+    },
+    "markdown": {
+      "description": "Koristite ovo u GitHub README, Zendesk, Notion, itd. Bedž odražava trenutni ukupni status.",
+      "heading": "Markdown isečci"
+    },
+    "minimal_line": "Minimalna linija:",
+    "params": "Parametri:",
+    "preview": {
+      "compact_badge_description": "Kompaktni bedž: inline sparkline vremena odgovora (poslednjih 45 min).",
+      "compact_incidents_description": "Kompaktno + spisak incidenata (ako ih ima), prilagodljivo korisničkoj temi.",
+      "dark_card_description": "Tamna kartica: sparkline dostupnosti za 14 dana samo.",
+      "description": "Živi primeri (svi koriste slag Vaše prve statusne stranice ako je dostupan). Kopirajte odgovarajući kod ispod svakog pregleda.",
+      "full_card_description": "Puna kartica: incidenti + oba sparklina + automatsko osvežavanje.",
+      "full_widget_disabled_link_description": "Puni vidžet sa onemogućenim linkom (statička kartica).",
+      "heading": "Pregled",
+      "minimal_description": "Minimalno: samo naslov statusa."
+    },
+    "svg": {
+      "description": "Keširani jednostavni bedž. Nema JavaScript-a. Dobar za README ili dokumente.",
+      "heading": "SVG bedž"
+    },
+    "wordpress": {
+      "description": "Zvanični WordPress dodatak sa Gutenberg blokom, klasičnim vidžetom i shortcode.",
+      "heading": "WordPress dodatak"
+    }
+  },
+  "errors": {
+    "an_error_occurred": "Došlo je do greške.",
+    "complete_these_steps": "Završite ove korake da bi monitori mogli da šalju obavijesti e-poštom. Možete sve promeniti kasnije.",
+    "contact_support": "Kontaktirajte podršku",
+    "something_went_wrong": "Nešto je pošlo naopako",
+    "unauthorized": "Neovlašćeno"
+  },
+  "forms": {
+    "add_condition": "Dodajte uslov",
+    "basic_information": "Osnovne informacije",
+    "brand_color_palette": "Pleta boja brenda",
+    "custom_headers_json": "Prilagođeni zaglavlja (JSON)",
+    "favicon_label": "Prilagođeni favikon",
+    "mark_down_if_response_time": "Označite DOWN ako je vreme odziva",
+    "read_our_guide": "Pročitajte naš vodič",
+    "recommended": "(preporučeno)",
+    "team_information": "Informacije o timu",
+    "upload_custom_favicon": "Otpremite prilagođeni favikon za svoju statusnu stranicu. Podržani formati: PNG, JPG, SVG, ICO (maks. 100KB)."
+  },
+  "maintenance": {
+    "affected_monitors_optional": "Pogođeni monitori (opciono)",
+    "empty_state": "Još uvek niste zakazali nijedan događaj održavanja.",
+    "end_time_utc": "Vreme završetka (UTC)",
+    "give_clear_title": "Dajte svom održavanju jasan i opisan naslov",
+    "maintenance_updates": "Ažuriranja održavanja",
+    "message_optional": "Poruka (opciono)",
+    "post_update": "Objavi ažuriranje",
+    "select_affected_components": "Izaberite komponente koje su pogođene ovim održavanjem",
+    "select_components_first": "Prvo izaberite komponente da biste učitali monitore.",
+    "start_time_utc": "Vreme početka (UTC)",
+    "upcoming": "Predstojeće",
+    "when_maintenance_begin": "Kada će održavanje početi",
+    "when_maintenance_complete": "Kada će održavanje biti završeno"
+  },
+  "monitor_locations": {
+    "primary": "Primarno"
+  },
+  "monitors_advanced": {
+    "allowed_downtime": "Dozvoljeno vreme prekida",
+    "available_regions": "Dostupni regioni",
+    "breach_impact": "Uticaj prekoračenja",
+    "budget_remaining": "Preostali budžet",
+    "current_month_downtime_budget": "Budžet prekida za tekući mesec",
+    "downtime_duration": "Trajanje prekida",
+    "monthly_summary": "Mesečni pregled",
+    "recent_sla_breaches": "Nedavna SLA prekoračenja (poslednjih 90 dana)",
+    "remaining": "Preostalo",
+    "report_notes": "Napomene izveštaja",
+    "select_locations_map": "Izaberite lokacije na mapi",
+    "simulate_check_tip": "💡 Koristite \"Simulate Check\" da vizualizujete pingove ka Vašim sajtovima.",
+    "sla_target": "SLA cilj",
+    "sla_target_settings": "Postavke SLA cilja",
+    "total_downtime": "Ukupno vreme prekida",
+    "your_monitor_targets": "Vaši ciljevi monitora"
+  },
+  "onboarding": {
+    "create_your_status_page": "Kreirajte svoju status stranicu",
+    "do_this_later": "Uradi ovo kasnije"
+  },
+  "postmortems": {
+    "current_date_format": "Trenutni datum (2. januar 2006)",
+    "current_time_format": "Trenutno vreme (15:04)",
+    "dashboard_incidents_templates": "Nadzorna ploča / Incidenti / Šabloni /",
+    "dashboard_maintenance": "Nadzorna ploča / Održavanje /",
+    "date_time_combined": "Datum i vreme kombinovano",
+    "detailed_message_with_placeholders": "Detaljna poruka sa mestodržaocima za dinamički sadržaj",
+    "incident_configuration": "Konfiguracija incidenta",
+    "message_template": "Šablon poruke",
+    "optional_auto_set_severity": "Opciono: Automatsko postavljanje ozbiljnosti komponente pri korišćenju ovog šablona",
+    "pro_feature": "Pro funkcija",
+    "review_incident_response": "Pregledajte proces odgovora na incident",
+    "schedule_training": "Zakažite obuku za tim",
+    "send_notifications_on_create": "Pošaljite obavijesti svim pretplatnicima kada se incident kreira",
+    "status_page_name": "Naziv statusne stranice",
+    "template_details": "Detalji šablona",
+    "template_global": "Ostavite kao \"Globalno\" da biste koristili ovaj šablon na svim stranicama",
+    "usage_count": "Broj korišćenja:"
+  },
+  "sla": {
+    "month": "Mesec",
+    "no_breaches": "Nema SLA prekršaja"
+  },
+  "validation": {
+    "invalid": "✗ Nevažeće",
+    "valid": "✓ Važeće"
+  }
+}
