@@ -1913,6 +1913,11 @@
       "dark_logo_url_help": "Logo za tamnu temu.",
       "description": "za {{name}}",
       "heading": "Postavke statusne stranice",
+      "restore_banner": {
+        "body": "Vaše Premium postavke od prije smanjenja paketa su sačuvane.",
+        "link": "Pregledajte i vratite ih",
+        "title": "Prethodne postavke su dostupne!"
+      },
       "light_logo_url_help": "Logo za svetlu temu.",
       "locked_footer": {
         "body_prefix": "Neke funkcije nisu dostupne u Vašem trenutnom planu.",

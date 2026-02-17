@@ -633,6 +633,11 @@
       "dark_logo_url_help": "Logotipo para tema oscuro.",
       "description": "para __PH0_",
       "heading": "Configuración de la página de estado",
+      "restore_banner": {
+        "body": "Se guardaron tus ajustes Premium de antes de la degradación.",
+        "link": "Revisarlos y restaurarlos",
+        "title": "¡Ajustes anteriores disponibles!"
+      },
       "light_logo_url_help": "Logotipo para tema claro.",
       "locked_footer": {
         "body_prefix": "Algunas funciones no están disponibles en su plan actual.",

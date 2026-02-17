@@ -629,6 +629,11 @@
       "dark_logo_url_help": "Logo für das dunkle Theme.",
       "description": "für {{name}}",
       "heading": "Einstellungen der Statusseite",
+      "restore_banner": {
+        "body": "Ihre Premium-Einstellungen von vor dem Downgrade wurden gespeichert.",
+        "link": "Ansehen und wiederherstellen",
+        "title": "Vorherige Einstellungen verfügbar!"
+      },
       "light_logo_url_help": "Logo für das helle Theme.",
       "locked_footer": {
         "body_prefix": "Einige Funktionen sind in Ihrem aktuellen Tarif nicht verfügbar.",

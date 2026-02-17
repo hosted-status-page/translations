@@ -629,6 +629,11 @@
       "dark_logo_url_help": "Logo para tema escuro.",
       "description": "para {{name}}",
       "heading": "Configurações da página de status",
+      "restore_banner": {
+        "body": "Suas configurações Premium de antes do downgrade foram salvas.",
+        "link": "Revisar e restaurar",
+        "title": "Configurações anteriores disponíveis!"
+      },
       "light_logo_url_help": "Logo para tema claro.",
       "locked_footer": {
         "body_prefix": "Alguns recursos não estão disponíveis no seu plano atual.",

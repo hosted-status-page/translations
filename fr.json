@@ -629,6 +629,11 @@
       "dark_logo_url_help": "Logo pour le thème sombre.",
       "description": "pour {{name}}",
       "heading": "Paramètres de la page de statut",
+      "restore_banner": {
+        "body": "Vos paramètres Premium d’avant le rétrogradage ont été enregistrés.",
+        "link": "Les examiner et les restaurer",
+        "title": "Paramètres précédents disponibles !"
+      },
       "light_logo_url_help": "Logo pour le thème clair.",
       "locked_footer": {
         "body_prefix": "Certaines fonctionnalités ne sont pas disponibles dans votre forfait actuel.",

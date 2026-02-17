@@ -1913,6 +1913,11 @@
       "dark_logo_url_help": "Logo for dark theme.",
       "description": "for {{name}}",
       "heading": "Status Page Settings",
+      "restore_banner": {
+        "body": "Your premium settings from before the downgrade were saved.",
+        "link": "Review and restore them",
+        "title": "Previous Settings Available!"
+      },
       "light_logo_url_help": "Logo for light theme.",
       "locked_footer": {
         "body_prefix": "Some features are not available in your current plan.",
