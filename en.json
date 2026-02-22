@@ -259,6 +259,7 @@
     "active_label": "Active:",
     "active_until": "Active until:",
     "all_notification_channels": "All notification channels",
+    "admin_set_plan": "Plan configured by administrator",
     "amount": "Amount",
     "audit_logs": "Audit logs",
     "auto_renew": "Auto-renew",
