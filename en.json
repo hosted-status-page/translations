@@ -269,6 +269,11 @@
     "branding": "branding",
     "breadcrumb": "Billing & Plan",
     "check_interval": "check interval",
+    "check_interval_help": "Monitors run at least every {{seconds}} seconds on your plan.",
+    "check_interval_sublabel": "Minimum monitor check frequency",
+    "check_locations": "Check Locations",
+    "check_locations_help": "Number of global locations used to verify uptime.",
+    "check_locations_sublabel": "Geographic check points",
     "choose_best_plan": "Choose the best plan for your business needs.",
     "contact_support": "contact support",
     "current_period": "Current period",
@@ -453,6 +458,7 @@
     "usage": {
       "active_subscribers_help": "Active subscribers across all pages.",
       "monitors_busiest_help": "Monitor count on your most active status page.",
+      "monitors_per_page_help": "Peak monitor count on your busiest status page vs. the per-page limit.",
       "total_published_status_pages": "Total published status pages in your workspace."
     },
     "usage_snapshot": "Usage snapshot",
