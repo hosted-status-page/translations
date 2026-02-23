@@ -3,7 +3,6 @@
     "menu": {
       "dashboard": "Painel",
       "users_admins": "Usuários e administradores",
-      "croatian": "🇭🇷 Croata",
       "users": "Usuários",
       "unvalidated": "Usuários não validados",
       "administrators": "Administradores",
@@ -44,9 +43,7 @@
       "public_pages": "Páginas públicas",
       "misc": "Diversos",
       "profile": "Perfil",
-      "logout": "Sair",
-      "email_logs": "Logs de e-mail",
-      "invite_links": "Links de convite"
+      "logout": "Sair"
     }
   },
   "nav": {
@@ -57,8 +54,6 @@
     "billing_plan": "Cobrança e plano",
     "teams": "Equipes",
     "addons": "Complementos",
-    "greeting_anonymous": "Olá!",
-    "greeting_name": "Olá, {{name}}!",
     "misc": "Diversos",
     "lifetime_deals": "Ofertas vitalícias",
     "help": "Ajuda",
@@ -78,190 +73,16 @@
       "errors": {
         "calculate_failed": "Erro ao realizar o cálculo"
       }
-    },
-    "add_dnsbl_monitor": "Adicionar monitor DNSBL",
-    "add_email_auth_monitor": "Adicionar monitor de autenticação de e-mail",
-    "add_ssl_monitor": "Adicionar monitor SSL",
-    "alert_days_before": "Dias de alerta antes",
-    "authentication_methods": "Métodos de autenticação para verificar",
-    "blacklisted": "Na lista negra",
-    "blacklisted_on": "Na lista negra em",
-    "blacklisted_on_help": "Este domínio/IP está listado nas seguintes listas negras:",
-    "cached": "Em cache",
-    "check_records": "Verificar registros",
-    "create_status_page_advanced": "Crie uma página de status com monitores avançados, gerenciamento de incidentes e notificações para assinantes.",
-    "dashboard": {
-      "active_monitors": "Monitores ativos",
-      "dnsbl_features": {
-        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Verificações diárias",
-        "ip_domain_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Verificações de IP e domínio",
-        "multiple_blacklists": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Múltiplas listas negras"
-      },
-      "domain_age_calculator": "Calculadora de idade do domínio",
-      "domain_whois_lookup": "Consulta WHOIS do domínio",
-      "email_auth_features": {
-        "dkim_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Validação DKIM",
-        "dmarc_policy": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Política DMARC",
-        "spf_record_check": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Verificação do registro SPF"
-      },
-      "email_auth_monitors": "Monitores de autenticação de e-mail",
-      "manage_dnsbl_monitors": "Gerenciar monitores DNSBL",
-      "manage_email_auth_monitors": "Gerenciar monitores de e-mail",
-      "manage_ssl_monitors": "Gerenciar monitores SSL",
-      "open_age_tool": "Abrir ferramenta de idade",
-      "open_whois_tool": "Abrir ferramenta WHOIS",
-      "ssl_features": {
-        "chain_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Validação da cadeia",
-        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Verificações diárias",
-        "expiry_warnings": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Alertas de vencimento"
-      },
-      "ssl_monitors": "Monitores SSL"
-    },
-    "dkim_selector": "Seletor DKIM",
-    "dkim_selector_optional": "Seletor DKIM (opcional)",
-    "dkim_spf_heading": "Monitore registros DKIM, SPF e DMARC para seus domínios.",
-    "dkim_status": "Status DKIM",
-    "dmarc_status": "Status DMARC",
-    "dnsbl_heading": "Monitor DNSBL",
-    "dnsbl_help": "Verifique se seu domínio ou IP está em blacklist. Seja notificado se aparecer em listas de spam.",
-    "dnsbl_monitors_heading": "Monitore seus domínios e IPs para status de lista negra.",
-    "domain_age_help": "Calcule a idade do domínio a partir da data de criação do WHOIS com manipulação robusta de formato em TLDs.",
-    "domain_optional": "Domínio (opcional)",
-    "domain_whois_help": "Exiba informações de registrador, criação, atualização e expiração para qualquer domínio. Inclui WHOIS bruto.",
-    "edit_email_auth": "Editar monitor de autenticação de e-mail",
-    "email_auth_heading": "Monitor de autenticação de e-mail",
-    "email_auth_help": "Monitore registros DKIM, SPF e DMARC do seu domínio. Garanta a entregabilidade de e-mails.",
-    "fresh": "Atualizado",
-    "full_whois_response": "Resposta completa do WHOIS",
-    "ip_address": "Endereço IP",
-    "ip_address_optional": "Endereço IP (opcional)",
-    "key_details": "Detalhes da chave",
-    "monitors": {
-      "domain_to_monitor": "Domínio a monitorar"
-    },
-    "need_uptime_monitoring": "Precisa de monitoramento de uptime?",
-    "recent_checks": "Verificações recentes",
-    "registration_details": "Detalhes do registro",
-    "registration_info": "Informações de registro",
-    "spf_status": "Status SPF",
-    "ssl_get_alerts": "Monitore certificados SSL e receba alertas antes do vencimento. Verificações automáticas diárias.",
-    "ssl_monitors_heading": "Monitor de certificado SSL",
-    "ssl_monitors_help": "Monitore certificados SSL e receba alertas antes do vencimento.",
-    "tools_dashboard_heading": "Crie monitores automatizados para certificados SSL, blacklists de DNS e registros de autenticação de e-mail.",
-    "whois": {
-      "force_fresh_help": "Marque para sempre consultar dados WHOIS atualizados em vez de usar resultados em cache",
-      "force_fresh_lookup": "Forçar consulta atualizada (ignorar cache)"
-    },
-    "dkim_spf": {
-      "add_monitor": "Adicionar monitor",
-      "add_new_monitor": "Adicionar novo monitor de autenticação de e-mail",
-      "check_dkim": "Verificar DKIM",
-      "check_dmarc": "Verificar DMARC",
-      "check_spf": "Verificar SPF",
-      "empty": "Ainda não há monitores de autenticação de e-mail. Adicione seu primeiro monitor acima.",
-      "leave_empty_skip_dkim": "Deixe em branco para ignorar o DKIM",
-      "leave_empty_use_default": "Deixe em branco para usar \"default\"",
-      "monitors_title": "Monitores de autenticação de e-mail",
-      "your_monitors": "Seus monitores de autenticação de e-mail"
-    },
-    "dnsbl": {
-      "actions": {
-        "adding": "Adicionando monitor DNSBL...",
-        "checking": "Verificando DNSBL...",
-        "deleting": "Excluindo monitor DNSBL..."
-      },
-      "add_monitor": "Adicionar monitor",
-      "add_new_monitor": "Adicionar novo monitor DNSBL",
-      "added_success": "Monitor DNSBL adicionado com sucesso",
-      "blacklist_details_title": "Detalhes da lista negra",
-      "check_complete": "Verificação concluída!",
-      "delete_title": "Excluir monitor DNSBL?",
-      "domain_or_ip_help": "Informe um domínio ou endereço IP (ou ambos).",
-      "deleted": "O monitor foi excluído.",
-      "empty": "Ainda não há monitores DNSBL. Adicione seu primeiro monitor acima.",
-      "failed_add": "Falha ao adicionar monitor: ",
-      "failed_check": "Falha ao verificar monitor: ",
-      "failed_delete": "Falha ao excluir monitor: ",
-      "ip_direct_help": "Ou informe um IP diretamente",
-      "listed_on": "Listado em:",
-      "lists_plural": "listas",
-      "lists_singular": "lista",
-      "no_blacklists_text": "Este domínio/IP não está listado atualmente em nenhuma lista negra.",
-      "no_blacklists_title": "Nenhuma lista negra",
-      "status": {
-        "clean": "Limpo"
-      },
-      "your_dnsbl_monitors": "Seus monitores DNSBL"
-    },
-    "monitor_enabled": "Monitor ativado",
-    "ssl": {
-      "actions": {
-        "adding": "Adicionando monitor SSL...",
-        "checking": "Verificando SSL...",
-        "deleting": "Excluindo monitor SSL..."
-      },
-      "add_monitor": "Adicionar monitor",
-      "add_new_monitor": "Adicionar novo monitor SSL",
-      "added_success": "Monitor SSL adicionado com sucesso",
-      "alert_days_before_help": "Alertar X dias antes do vencimento",
-      "check_complete": "Verificação concluída",
-      "checked_success": "Certificado SSL verificado com sucesso!",
-      "days_remaining": "dias restantes",
-      "delete_title": "Excluir monitor SSL?",
-      "deleted": "O monitor foi excluído.",
-      "details_title": "Detalhes do certificado SSL",
-      "empty": "Ainda não há monitores SSL. Adicione seu primeiro monitor acima.",
-      "enter_domain_without_scheme": "Informe o domínio sem https://",
-      "expires_at": "Expira em",
-      "failed_add": "Falha ao adicionar monitor: ",
-      "failed_check": "Falha ao verificar SSL: ",
-      "failed_delete": "Falha ao excluir monitor: ",
-      "issued_at": "Emitido em",
-      "issuer": "Emissor",
-      "status": {
-        "expired": "Expirado",
-        "valid": "Válido"
-      },
-      "subject": "Assunto",
-      "your_ssl_monitors": "Seus monitores SSL"
     }
   },
   "monitors": {
-    "add_monitor": "Adicionar monitor",
     "add": {
       "heading": "Adicionar monitor",
-      "create_button": "Criar monitor",
-      "help_path": "Crie ou escolha um componente em uma de suas páginas de status e, em seguida, defina o monitor.",
-      "inline_component_help": "Se informado, um novo componente será criado e o monitor será associado a ele."
-    },
-    "create_flow": {
-      "create_failed": "Falha ao criar o monitor.",
-      "creating_monitor": "Criando monitor...",
-      "generic_error": "Algo deu errado ao criar o monitor.",
-      "include_failed": "Falha ao incluir o monitor na página de status.",
-      "include_prompt_no": "Agora não",
-      "include_prompt_text": "Você sempre pode alterar isso depois em Configurações da página de status.",
-      "include_prompt_title": "Incluir este monitor na página de status?",
-      "include_prompt_yes": "Sim, incluir",
-      "include_success_text": "O monitor agora está visível na sua página de status.",
-      "include_success_title": "Monitor incluído",
-      "initial_check_done_text_prefix": "O monitor está",
-      "initial_check_done_text_response": "Tempo de resposta",
-      "initial_check_done_title": "Verificação inicial concluída",
-      "initial_check_failed": "A verificação inicial falhou.",
-      "initial_check_text": "Aguarde enquanto executamos uma verificação fora do agendamento para o seu novo monitor.",
-      "initial_check_title": "Executando a verificação inicial...",
-      "invalid_interval_title": "Intervalo inválido",
-      "response_time_na": "n/d"
+      "create_button": "Criar monitor"
     },
     "edit": {
       "heading": "Editar monitor",
-      "update_button": "Atualizar monitor",
-      "delete_button": "Delete Monitor",
-      "delete_title": "Delete Monitor?",
-      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
-      "deleted": "Monitor has been deleted.",
-      "delete_failed": "Failed to delete monitor: "
+      "update_button": "Atualizar monitor"
     },
     "back_to_list": "Voltar para monitores",
     "form": {
@@ -307,7 +128,7 @@
       "timeout_label": "Tempo limite",
       "retries_label": "Tentativas",
       "locations_label": "Locais de monitoramento",
-      "tags_label": "Marcadores",
+      "tags_label": "Tags",
       "component_label": "Componente",
       "no_component": "Sem componente",
       "component_help": "Selecione a qual componente este monitor pertence na sua página de status."
@@ -356,145 +177,11 @@
     "table": {
       "created_at": "Criado em",
       "down_for": "Fora do ar há"
-    },
-    "adaptive_post_incident": {
-      "enable": "Ativar monitoramento adaptativo pós-incidente",
-      "title": "Monitoramento adaptativo pós-incidente"
-    },
-    "availability": "Disponibilidade",
-    "availability_metrics": "Métricas de disponibilidade",
-    "avg_rt_ms": "Tempo de resposta médio (ms)",
-    "check_interval": "Intervalo de verificação (segundos)",
-    "cta": {
-      "add_monitor": "Adicionar monitor"
-    },
-    "db_monitoring_under_development": "O monitoramento seguro e avançado de banco de dados está em desenvolvimento.",
-    "disable": "Desabilitar",
-    "disable_info_no_alerts": "Você não receberá alertas de tempo de inatividade",
-    "disable_info_no_metrics": "Nenhuma métrica de tempo de atividade será coletada",
-    "disable_info_no_outages": "A página de status não refletirá nenhuma interrupção",
-    "disable_info_title": "Quando um monitor está desativado:",
-    "dismiss": "Descartar",
-    "download_plugin": "Baixar plugin",
-    "enable": "Ativar",
-    "filter_all_pages": "Todas as páginas de status",
-    "filter_all_statuses": "Todos os status",
-    "filter_label": "Filtro:",
-    "filters": {
-      "all_and": "TODOS (E)",
-      "any_or": "QUALQUER (OU)",
-      "greater_than": "maior que",
-      "less_than": "menor que",
-      "match": "Combinar",
-      "of_the_following": "dos seguintes:"
-    },
-    "heading": "Monitore o desempenho e a disponibilidade de seus serviços",
-    "last_check": "Última verificação",
-    "learn_more": "Saber mais",
-    "list": {
-      "create_first": "Crie seu primeiro monitor",
-      "heading": "Seus monitores",
-      "none_message": "Tudo certo, mas ainda não há monitores."
-    },
-    "loading_metrics": "Carregando métricas...",
-    "metric_response": "Resposta",
-    "metric_response_unit": "ms",
-    "metric_uptime": "Tempo de atividade",
-    "mtbf": "MTBF",
-    "mttr": "MTTR",
-    "next_check": "Próxima verificação",
-    "not_checked": "Não verificado",
-    "show_on_public": "Mostrar na página de status pública",
-    "status_down": "Inativo",
-    "status_unknown": "Desconhecido",
-    "status_up": "Ativo",
-    "total_checks": "Total de verificações",
-    "wordpress_alert_text": "Use nosso plugin gratuito do WordPress para exibir seu widget StatusPage.me diretamente no seu site. Nenhum código necessário, personalização completa incluída com nosso bloco Gutenberg.",
-    "wordpress_alert_title": "Incorpore seu widget StatusPage.me no WordPress",
-    "avg_response": "Avg. Response"
+    }
   },
   "status_pages": {
     "view_status_page": "Ver sua página de status",
     "components_groups": "Componentes e Grupos",
-    "components_page": {
-      "component_map_loading": "Carregando mapa de componentes…",
-      "component_map_unavailable": "O mapa de componentes está temporariamente indisponível.",
-      "components_subtitle": "Serviços e monitores individuais para acompanhar",
-      "empty_components_help": "Clique em \"Novo componente\" para adicionar seu primeiro serviço",
-      "empty_components_title": "Nenhum componente ainda",
-      "empty_groups_help": "Clique em \"Novo grupo\" para criar sua primeira categoria",
-      "empty_groups_title": "Nenhum grupo ainda",
-      "groups_heading": "Grupos de componentes",
-      "groups_subtitle": "Categorias opcionais para organizar componentes",
-      "loading": "Carregando...",
-      "new_component": "Novo componente",
-      "new_group": "Novo grupo",
-      "no_url_specified": "Nenhuma URL informada",
-      "search_placeholder": "Pesquisar componentes pelo nome...",
-      "swal": {
-        "assign_to_group": {
-          "placeholder": "Selecione um grupo",
-          "title": "Atribuir a um grupo"
-        },
-        "delete_component": {
-          "confirm": "Sim, excluir!",
-          "text": "Esta ação não pode ser desfeita!",
-          "title": "Excluir este componente?"
-        },
-        "delete_group": {
-          "confirm": "Sim, excluir!",
-          "text": "Os componentes permanecerão sem grupo.",
-          "title": "Excluir este grupo?"
-        },
-        "edit_component": {
-          "title": "Editar componente"
-        },
-        "new_component": {
-          "input_label": "Digite um nome para o novo componente",
-          "input_placeholder": "Nome do componente",
-          "title": "Nome do componente"
-        },
-        "new_group": {
-          "input_label": "Digite um nome para o novo grupo",
-          "input_placeholder": "Nome do grupo",
-          "title": "Nome do grupo"
-        }
-      },
-      "tip_ungrouped_other": "Componentes sem grupo aparecerão em uma seção \"Outros componentes\" na sua página de status",
-      "tip_use_groups": "Use grupos como \"Backend\", \"Frontend\", \"Infraestrutura\" para organizar muitos componentes",
-      "tips_title": "Dicas:",
-      "toast": {
-        "component_created": "Componente criado",
-        "component_deleted": "Componente excluído",
-        "component_updated": "Componente atualizado",
-        "csrf_invalid": "O token CSRF é inválido — atualize a página",
-        "csrf_missing": "O token CSRF está ausente — atualize a página",
-        "delete_failed": "Falha ao excluir",
-        "failed_to_create_component": "Falha ao criar componente",
-        "failed_to_create_group": "Falha ao criar grupo",
-        "failed_to_load_data": "Falha ao carregar dados",
-        "group_created": "Grupo criado",
-        "group_deleted": "Grupo excluído",
-        "init_no_status_page_selected": "Falha ao inicializar a página — nenhuma página de status selecionada",
-        "no_status_pages_available": "Nenhuma página de status disponível",
-        "rename_failed": "Falha ao renomear",
-        "save_failed": "Falha ao salvar",
-        "update_failed": "Falha ao atualizar"
-      },
-      "tooltip_delete_component": "Excluir componente",
-      "tooltip_edit_component": "Editar componente",
-      "tooltip_move_down": "Mover para baixo",
-      "tooltip_move_up": "Mover para cima",
-      "ungrouped": "Sem grupo",
-      "url_placeholder": "https://example.com",
-      "validation": {
-        "component_name_required": "Você precisa inserir um nome do componente!",
-        "group_name_required": "Você precisa inserir um nome do grupo!",
-        "name_required": "O nome é obrigatório",
-        "url_invalid": "A URL deve ser uma URL absoluta válida (inclua https://)",
-        "url_must_start_http": "A URL deve começar com http:// ou https://"
-      }
-    },
     "organize_help": "Organize sua página de status com componentes e grupos opcionais",
     "how_it_works_intro": "Como funciona:",
     "components_explanation": "Componentes são os serviços/monitores que você deseja rastrear (ex.: \"Servidor API\", \"Website\")",
@@ -508,10 +195,7 @@
     "component_name_required": "Nome do componente *",
     "component_url_placeholder": "https://exemplo.com (opcional)",
     "component_example": "ex.: Servidor API",
-    "component_map": "Mapa de componentes",
     "link_to_docs": "Link para documentação do serviço",
-    "no_components_configured": "Nenhum componente configurado para esta página de status.",
-    "none_yet": "Ainda não há páginas de status",
     "no_group_option": "— Sem grupo —",
     "optional_grouping": "Agrupamento opcional",
     "step3_manage_components": "Passo 3: Gerenciar seus componentes",
@@ -548,8 +232,7 @@
       "new_status_page": "Nova página de status",
       "components": "Componentes",
       "embeds": "Incorporações",
-      "edit_status_page": "Editar página de status",
-      "create_status_page": "Criar página de status"
+      "edit_status_page": "Editar página de status"
     },
     "table": {
       "active_incidents": "Incidentes ativos",
@@ -561,108 +244,11 @@
       "tabs": {
         "access": "Acesso",
         "ownership_transfer": "Transferência de Propriedade",
-        "misc": "Diversos",
-        "analytics": "Análise da Web",
-        "subscribers": "Assinantes",
-        "components": "Componentes",
-        "dependencies": "Dependências",
-        "incidents": "Incidentes",
-        "monitors": "Monitores",
-        "notifications": "Notificações",
-        "visual": "Visual"
+        "misc": "Diversos"
       },
       "custom_domain": {
-        "label": "Domínio Personalizado",
-        "actions": {
-          "removing": "Removendo domínio personalizado...",
-          "setting_primary": "Definindo domínio principal..."
-        },
-        "cname": {
-          "checking_dns": "Verificando DNS…",
-          "error": "Erro ao verificar DNS",
-          "mismatch": "O CNAME aponta para <code>__DETECTED__</code>, mas o esperado é <code>__EXPECTED__</code>. Atualize seu DNS e tente novamente.",
-          "not_found": "Nenhum CNAME encontrado ainda. Esperado <code>__EXPECTED__</code>. A propagação do DNS pode levar de 5 a 30 minutos.",
-          "ok": "O CNAME está configurado corretamente. O provisionamento de SSL começará automaticamente."
-        },
-        "errors": {
-          "remove_failed": "Falha ao remover domínio personalizado",
-          "set_primary_failed": "Falha ao definir domínio principal"
-        },
-        "remove_confirm": {
-          "confirm": "Sim, remover",
-          "text": "Isso removerá a configuração do seu domínio personalizado. Você pode configurá-lo novamente mais tarde.",
-          "title": "Remover domínio personalizado?"
-        },
-        "remove_success": {
-          "text": "O domínio personalizado foi removido e o domínio padrão foi definido como principal.",
-          "title": "Removido!"
-        },
-        "set_primary_confirm": {
-          "confirm": "Sim, definir como principal",
-          "html": "Isso fará de <strong>__DOMAIN__</strong> o seu domínio principal.<br><small class=\"text-muted\">Sua página de status ficará acessível por padrão neste domínio.</small>",
-          "title": "Definir como domínio principal?"
-        },
-        "set_primary_placeholder": {
-          "text": "O domínio principal será definido quando isso for implementado."
-        },
-        "set_primary_success": {
-          "text": "Domínio principal definido com sucesso!"
-        },
-        "set_primary_suggest": {
-          "html": "Deseja definir <strong>__DOMAIN__</strong> como seu domínio principal?<br><small class=\"text-muted\">Sua página de status ficará acessível por padrão neste domínio.</small>",
-          "title": "Definir como domínio principal?"
-        },
-        "ssl": {
-          "failed": "Falha ao verificar o SSL",
-          "updated_reload": "Status do SSL atualizado. Recarregando a página..."
-        }
-      },
-      "active": "Ativa",
-      "auto_create_incident": "Criar incidente automaticamente quando o monitor ficar DOWN (primeira detecção)",
-      "auto_resolve_auto_created": "Resolver automaticamente incidentes criados automaticamente quando o monitor se recuperar",
-      "auto_resolve_help": "Adiciona uma atualização de resolução padrão (\"Resolvido automaticamente após a recuperação do monitor\"). Você ainda pode editar os detalhes ou criar um post-mortem depois.",
-      "blocked": "Bloqueada",
-      "blocked_message": "Esta página de status está bloqueada. Entre em contato com o suporte para ajuda para desbloqueá-la.",
-      "create_monitor": "Criar novo monitor",
-      "custom_css": "CSS personalizado",
-      "custom_title": "Título personalizado",
-      "dark_logo_url_help": "Logo para tema escuro.",
-      "description": "para {{name}}",
-      "heading": "Configurações da página de status",
-      "restore_banner": {
-        "body": "Suas configurações Premium de antes do downgrade foram salvas.",
-        "link": "Revisar e restaurar",
-        "title": "Configurações anteriores disponíveis!"
-      },
-      "light_logo_url_help": "Logo para tema claro.",
-      "locked_footer": {
-        "body_prefix": "Alguns recursos não estão disponíveis no seu plano atual.",
-        "body_suffix": "para acessar opções avançadas de personalização, automação e marca."
-      },
-      "logo_url": "URL do logotipo",
-      "logo_url_help": "Forneça uma URL direta da imagem do seu logo.",
-      "monitor": "Monitor",
-      "monitors_help": "Monitores acompanham o uptime e o desempenho dos seus serviços. Selecione quais monitores exibir nesta página de status.",
-      "no_monitors_for_page": "Nenhum monitor para esta página de status.",
-      "notify_for_auto_created": "Notificar assinantes sobre incidentes criados automaticamente",
-      "password": "Senha",
-      "premium_alert": {
-        "body": "Alguns recursos avançados estão desativados no seu plano atual.",
-        "title": "Recursos Premium disponíveis!"
-      },
-      "public_archived_incidents_heading": "Incidentes arquivados",
-      "public_archived_incidents_subtitle": "Controle se os visitantes podem ver incidentes arquivados no arquivo público de incidentes.",
-      "public_show_archived_incidents": "Permitir que visitantes mostrem incidentes arquivados",
-      "public_show_archived_incidents_help": "Quando ativado, os endpoints do arquivo público de incidentes podem incluir incidentes arquivados.",
-      "save": "Salvar configurações",
-      "shared_team_alert": {
-        "body": "Você está editando uma página vinculada à equipe como administrador. As alterações ficam visíveis para a equipe e são registradas.",
-        "title": "Página de status de equipe compartilhada:"
-      },
-      "show_daily_pills": "Mostrar indicadores diários",
-      "show_response_graph": "Mostrar gráfico de resposta",
-      "slug_locked_help": "O slug não pode ser alterado após a criação",
-      "slug_url_prefix": "URL da sua página de status:"
+        "label": "Domínio Personalizado"
+      }
     },
     "custom_domain": {
       "verify": {
@@ -752,190 +338,7 @@
     "type_url_helper": "Digite a URL completa para habilitar a exclusão.",
     "must_enter_exact": "Você deve digitar",
     "exactly_enable": "exatamente para habilitar a exclusão.",
-    "delete_this_page": "Excluir esta página de status",
-    "lifetime": {
-      "heading": "💎 Ofertas Vitalícias",
-      "subtitle": "Gerencie seu acesso vitalício e veja as ofertas disponíveis",
-      "view_available_deals": "Ver ofertas disponíveis",
-      "no_deals_title": "Você ainda não comprou uma oferta vitalícia",
-      "no_deals_description": "Garanta acesso vitalício a recursos premium de monitoramento com pagamento único. Sem taxas recorrentes, uso ilimitado!",
-      "check_below": "Confira abaixo! 👇",
-      "my_purchases_heading": "Minhas compras vitalícias",
-      "my_purchases_badge": "Ativo",
-      "table_plan": "Plano",
-      "table_amount_paid": "Valor pago",
-      "table_purchase_date": "Data da compra",
-      "table_one_time": "pagamento único",
-      "table_lifetime_access": "Acesso vitalício",
-      "purchase_summary_total_invested": "Total investido",
-      "purchase_summary_active_plans": "Planos ativos",
-      "purchase_summary_estimated_savings": "Economia estimada",
-      "purchase_summary_vs_annual": "vs 3 anos anuais",
-      "available_heading": "Ofertas vitalícias disponíveis",
-      "paused_title": "Campanha de ofertas vitalícias pausada",
-      "paused_message": "Nossa campanha atual de ofertas vitalícias está pausada. A próxima onda será anunciada em nosso blog e canais de redes sociais.",
-      "benefits_heading": "Por que escolher acesso vitalício?",
-      "benefits_pay_once_title": "Pague uma vez, use para sempre",
-      "benefits_pay_once_desc": "Sem taxas recorrentes",
-      "benefits_savings_title": "Economias massivas",
-      "benefits_savings_desc": "Economize até 85% a longo prazo",
-      "benefits_features_title": "Todos os recursos incluídos",
-      "benefits_features_desc": "Funcionalidade completa do plano",
-      "benefits_upgrade_title": "Atualize a qualquer momento",
-      "benefits_upgrade_desc": "Pague a diferença para atualizar",
-      "purchase_button": "💎 Obter acesso vitalício",
-      "processing": "Processando...",
-      "purchase_failed": "Compra falhou",
-      "purchase_error": "Falha ao iniciar a compra. Por favor, tente novamente.",
-      "connection_error": "Erro de conexão",
-      "connection_error_msg": "Ocorreu um erro. Por favor, tente novamente ou entre em contato com o suporte.",
-      "view_details": "Ver detalhes",
-      "status_pages_label": "Página de status",
-      "status_pages_plural": "Páginas de status",
-      "monitors_per_page": "Monitores/Página",
-      "custom_domain_feature": "Domínio personalizado",
-      "available_badge": "Disponível",
-      "left_label": "restantes"
-    },
-    "accent_color": "Cor de destaque",
-    "analytics": {
-      "info": "💡 As análises são injetadas no domínio da sua página de status (domínio personalizado ou subdomínio hospedado). Elas evitam cookies e respeitam regras de exclusão. Se você usa um subdomínio hospedado (ex.: <em>your-page.statuspage.me</em>), crie a propriedade/site/projeto de análise com esse nome de host exato (your-page.statuspage.me)."
-    },
-    "auto_reload": "Recarregar automaticamente",
-    "automatic_incident_management": "Gerenciamento automático de incidentes",
-    "background_color": "Cor de fundo",
-    "branding_section": "Identidade visual",
-    "cancel_transfer": "Cancelar transferência",
-    "cannot_undo": "Isso não pode ser desfeito",
-    "choose_event_types": "Escolha quais eventos acionam notificações",
-    "components": {
-      "add_component": "➕",
-      "failed_loading": "Falha ao carregar componentes",
-      "help": "Gerencie os componentes que aparecem nesta página de status. Componentes agrupam monitores e incidentes.",
-      "loading": "Carregando componentes..."
-    },
-    "components_will_delete": "Todos os componentes desta página serão excluídos",
-    "confirm_password_transfer": "Confirme sua senha",
-    "cookieless_only": "Apenas provedores amigáveis à privacidade, sem cookies, são suportados.",
-    "create_new_channel": "Criar novo canal",
-    "custom_domain_tip": "Configure um domínio personalizado para sua página de status",
-    "danger_zone": "Zona de perigo",
-    "dark_theme_logo": "Logo do tema escuro",
-    "dark_theme_logo_url": "URL do logo do tema escuro",
-    "default_logo": "Logo padrão",
-    "display_options": "Opções de exibição",
-    "edit": {
-      "heading": "Editar página de status"
-    },
-    "email_link_help": "Enviaremos um link por e-mail para o destinatário aceitar a transferência.",
-    "empty_state_help": "Crie sua primeira página de status para começar.",
-    "enable_analytics": "Ativar análise web para esta página de status",
-    "enable_disable_status_page": "Ativar ou desativar esta página de status",
-    "enable_quiet_hours": "Ativar Horas Silenciosas",
-    "end_time": "Hora de término",
-    "exclude_by_cookie": "Excluir por cookie (nome exato)",
-    "extract_colors": "Extraia cores do seu logotipo para criar um esquema de cores correspondente para sua página de status.",
-    "extracted_colors": "Cores extraídas",
-    "historical_uptime_access": "Acesso ao tempo de atividade histórico (Equipes)",
-    "if_cookie_exists": "Se este cookie existir, a análise não será injetada.",
-    "incidents_removed": "Quaisquer incidentes associados serão removidos",
-    "include_non_impacting": "Incluir dependências não impactantes no banner",
-    "initiate_transfer_help": "Isso iniciará uma transferência de propriedade para outro endereço de e-mail",
-    "invalid_image_url": "URL da imagem inválida",
-    "light_theme_logo": "Logo do tema claro",
-    "light_theme_logo_url": "URL do logo do tema claro",
-    "link_notification_channel": "Vincular canal de notificação",
-    "list": {
-      "create_new": "Criar nova página de status",
-      "none_message": "Você ainda não tem páginas de status.",
-      "notifications_button": "Notificações",
-      "notifications_button_title": "Configure canais de notificação reutilizáveis para todas as suas páginas de status"
-    },
-    "live_preview": "Visualização ao vivo",
-    "loading_channels": "Carregando canais...",
-    "logo_previews": "Visualizações do logo",
-    "max_notifications_per_window": "Máximo de notificações por janela",
-    "monitors_detached": "Monitores anexados àqueles componentes serão desanexados",
-    "new": {
-      "heading": "Criar página de status",
-      "info": "Você pode criar esta página de status sem monitores. Depois, adicione Componentes e Incidentes e, opcionalmente, atribua monitores nas configurações.",
-      "slug_help": "O slug será usado na URL pública, por exemplo https://minha-empresa.statuspage.me — você pode alterar o domínio principal gratuito mais tarde."
-    },
-    "new_password_ready": "Nova senha pronta (será aplicada ao salvar)",
-    "no_monitors_yet": "Esta página de status não tem monitores ainda.",
-    "notifications": {
-      "event_types": {
-        "dnsbl_listed": "Listagens DNSBL",
-        "heading": "Tipos de evento",
-        "incident_created": "Incidente criado",
-        "incident_resolved": "Incidente resolvido",
-        "incident_updated": "Incidente atualizado",
-        "maintenance": "Janelas de manutenção",
-        "monitor_down": "Monitor fora do ar",
-        "monitor_up": "Monitor recuperado",
-        "ssl_expiring": "SSL expirando"
-      },
-      "link_channel": "Vincular canal",
-      "manage_channels": "Gerenciar canais",
-      "no_available_channels": "Não há canais disponíveis para vincular.",
-      "preferences_heading": "Preferências de notificação",
-      "preferences_subtitle": "Controle quando e como você recebe notificações",
-      "quiet_hours": {
-        "always_send_critical": "Sempre enviar alertas críticos (monitor fora do ar, incidentes)",
-        "heading": "Horário silencioso"
-      },
-      "rate_limiting": {
-        "heading": "Limitação de taxa",
-        "window_15m": "15 minutos",
-        "window_1h": "1 hora",
-        "window_30m": "30 minutos",
-        "window_5m": "5 minutos"
-      },
-      "reset_to_defaults": "Restaurar padrões",
-      "save_preferences": "Salvar preferências",
-      "subtitle": "Selecione quais canais recebem alertas desta página de status"
-    },
-    "password_help": "Mínimo de 4 caracteres. Os visitantes precisarão desta senha para visualizar sua página de status.",
-    "password_protection": "Proteção por senha",
-    "password_set": "Senha definida",
-    "placement": "Posicionamento",
-    "prevent_notification_flooding": "Evitar inundação de notificações devido a mudanças rápidas de status",
-    "preview": "Visualização:",
-    "preview_text": "É assim que o texto aparecerá em sua página de status.",
-    "primary_color": "Cor primária",
-    "privacy_analytics": "Análise web amigável à privacidade",
-    "privacy_security": "Privacidade & Segurança",
-    "public_subscriptions": "Assinaturas públicas",
-    "recipient_email": "E-mail do destinatário",
-    "required_confirm_owner": "Obrigatório para confirmar que você é o proprietário.",
-    "secondary": "Secundário",
-    "secondary_color": "Cor secundária",
-    "select_channel_help": "Selecione um canal para receber notificações desta página de status.",
-    "set_password": "Definir uma senha",
-    "settings_saved": "Configurações salvas",
-    "show_availability_metrics": "Mostrar métricas de disponibilidade (MTBF/MTTR)",
-    "show_monitor_badges": "Mostrar crachás de tipo de monitor (API/DNS/Site)",
-    "showcase_featured": "Sua página de status está em destaque na vitrine!",
-    "showcase_not_opted": "Você ainda não optou por participar da vitrine.",
-    "start_time": "Hora de início",
-    "status_page_limit_reached": "Limite de páginas de status atingido.",
-    "status_settings": "Configurações de status",
-    "subscribed_on": "Inscreveu-se em",
-    "subscriber_list": "Lista de assinantes",
-    "subscribers": {
-      "empty_row": "Ainda não há assinantes"
-    },
-    "suppress_non_critical": "Suprimir notificações não críticas durante as horas especificadas",
-    "text_color": "Cor do texto",
-    "time_window": "Janela de tempo",
-    "toggle_channels_help": "Alternar canais para esta página de status",
-    "transfer_ownership": "Transferir propriedade",
-    "unlock_premium_features": "Desbloqueie recursos Premium!",
-    "upgrade_your_plan": "fazer upgrade do seu plano",
-    "use_recipients_email": "Usar o endereço de e-mail da conta do destinatário",
-    "user_experience": "Experiência do usuário",
-    "where_inject_snippet": "Onde injetar o snippet de rastreamento.",
-    "create_status_page": "Criar página de status"
+    "delete_this_page": "Excluir esta página de status"
   },
   "components": {
     "form": {
@@ -945,17 +348,7 @@
       "create_new": "Criar um novo componente",
       "new_name_label": "Nome do novo componente",
       "url_optional_label": "URL do componente (opcional)"
-    },
-    "description": "Descrição",
-    "generate_conditions": "Gerar condições",
-    "import_from_json": "Importar de JSON",
-    "invalid_json": "JSON inválido",
-    "json_response": "Resposta JSON",
-    "paste_expected_json": "Cole a resposta JSON que você espera da API. Vamos gerar condições para corresponder a cada campo.",
-    "paste_expected_json_short": "Cole abaixo a resposta JSON esperada. Vamos analisá-la e gerar condições para cada campo.",
-    "performance_tracking": "Rastreamento de desempenho",
-    "select_placeholder": "Selecione um serviço para configurar os campos obrigatórios.",
-    "select_status_page_and_refresh": "Selecione uma página de status e clique em Atualizar."
+    }
   },
   "incidents": {
     "nav": {
@@ -964,14 +357,14 @@
       "templates": "Modelos"
     },
     "templates": {
+      "delete_confirm": {
+        "title": "Excluir modelo?",
+        "text": "Tem certeza de que deseja excluir este modelo? Esta ação não pode ser desfeita.",
+        "confirm": "Excluir"
+      },
       "actions": {
         "deleting": "Excluindo modelo...",
         "saving": "Salvando modelo..."
-      },
-      "delete_confirm": {
-        "confirm": "Excluir",
-        "text": "Tem certeza de que deseja excluir este modelo? Esta ação não pode ser desfeita.",
-        "title": "Excluir modelo?"
       },
       "errors": {
         "delete_failed": "Falha ao excluir o modelo",
@@ -981,107 +374,8 @@
       }
     },
     "view": {
-      "archived_reason_label": "Motivo do arquivamento:",
-      "component": "Componente:",
-      "created": "Criado:",
-      "edit": "📝 Editar incidente",
-      "ended": "Encerrado:",
-      "error": "Erro:",
-      "hidden_badge": "🙈 Oculto da página de status",
-      "hidden_help": "Este incidente está arquivado e oculto dos Incidentes recentes da página de status, mas o link direto continua funcionando.",
-      "last_updated": "Última atualização:",
-      "message": "Mensagem:",
-      "resolved_prompt": "✅ Incidente resolvido. Registre um post-mortem agora para documentar impacto e remediação.",
-      "started": "Iniciado:",
-      "status": "Status:",
-      "unhide_button": "👁️ Mostrar na página de status"
-    },
-    "create_incident": "Criar Incidente",
-    "incident_details": "Detalhes do Incidente",
-    "incident_title": "Título do Incidente",
-    "incident_title_placeholder": "p. ex., Falha de conexão com o banco de dados",
-    "incident_description": "Descrição",
-    "incident_description_placeholder": "Descreva o que aconteceu...",
-    "incident_severity": "Severidade",
-    "incident_started": "Começou",
-    "incident_ended": "Terminou",
-    "incident_duration": "Duração",
-    "affected_services": "Serviços Afetados",
-    "add_update": "Adicionar Atualização",
-    "edit_incident": "Editar Incidente",
-    "close_incident": "Fechar Incidente",
-    "reopen_incident": "Reabrir Incidente",
-    "delete_incident": "Excluir Incidente",
-    "incident_status": "Status do Incidente",
-    "investigating": "Investigando",
-    "identified": "Identificado",
-    "monitoring": "Monitorando",
-    "new_incident": "Novo incidente",
-    "no_title": "(Sem título)",
-    "no_message": "(Sem mensagem)",
-    "no_updates_yet": "Sem atualizações ainda",
-    "notification_preview": "Prévia da notificação",
-    "resolved": "Resolvido",
-    "template_preview": "Prévia",
-    "no_incidents": "Sem incidentes ainda",
-    "no_incidents_message": "Crie seu primeiro incidente para começar",
-    "export_incidents": "Exportar",
-    "filter_incidents": "Filtrar",
-    "search_placeholder": "Pesquisar incidentes...",
-    "severity_critical": "Crítico",
-    "severity_major": "Maior",
-    "severity_minor": "Menor",
-    "incident_created_success": "Incidente criado com sucesso",
-    "incident_updated_success": "Incidente atualizado com sucesso",
-    "incident_deleted_success": "Incidente excluído com sucesso",
-    "confirm_delete_incident": "Tem certeza de que deseja excluir este incidente?",
-    "updates": "Atualizações do Incidente",
-    "no_updates": "Sem atualizações ainda",
-    "add_status_update": "Adicionar Atualização de Status",
-    "update_status_message": "Mensagem de atualização de status",
-    "timeline": {
-      "heading": "Linha do tempo"
-    },
-    "created_by": "Criado por",
-    "last_updated": "Última atualização",
-    "postmortem_published": "Postmortem Publicado",
-    "postmortem_draft": "Rascunho de Postmortem",
-    "no_postmortem": "Sem Postmortem",
-    "manage_postmortem": "Gerenciar",
-    "view_incident": "Ver Incidente",
-    "no_incidents_found": "Nenhum incidente encontrado",
-    "create_first_incident": "Criar Seu Primeiro Incidente",
-    "active_incidents": "Incidentes ativos",
-    "affected_component": "Componente afetado",
-    "alert_sent": "Alerta enviado",
-    "be_clear_concise": "Seja claro e conciso no título",
-    "confirmed_quorum": "Confirmado (Quórum)",
-    "connected_channels": "Canais conectados",
-    "creating_effective_reports": "Criando relatórios eficazes de incidentes",
-    "current_state": "Estado atual",
-    "dashboard_incidents": "Painel / Incidentes /",
-    "detected": "Detectado",
-    "detection_delay": "Atraso na detecção",
-    "empty_state": "Você ainda não criou nenhum incidente.",
-    "explain_what_happened": "Explique o que aconteceu e o impacto",
-    "filter_by_state": "Filtrar por estado",
-    "filter_by_status_page": "Filtrar por página de status",
-    "first_detection": "Primeira detecção",
-    "heading": {
-      "new": "Novo incidente",
-      "updates": "Atualizações do incidente"
-    },
-    "help_tips": "Ajuda e dicas",
-    "include_resolution": "Inclua o que você está fazendo para resolver",
-    "items_per_page": "Itens por página",
-    "jump_start_preset": "Comece com um predefinido para preencher automaticamente incidentes comuns.",
-    "shared_team_status_page": "Página de status da equipe compartilhada:",
-    "total_incidents": "Total de incidentes",
-    "try_adjusting_search": "Tente ajustar sua pesquisa ou criar um novo componente.",
-    "update_regularly": "Atualize regularmente com o progresso",
-    "auto_resolved": "Resolvido automaticamente",
-    "legend": "Legenda",
-    "silent": "Silencioso"
+      "archived_reason_label": "Motivo do arquivamento:"
+    }
   },
   "notification_channels": {
     "heading": "Canais de notificação",
@@ -1107,26 +401,20 @@
     "not_linked": "Não está vinculado a nenhuma página de status",
     "used_by": "Usado por:",
     "telegram_channel_id_help": "Clique com o botão direito no canal → Ver detalhes do canal → Copiar ID do canal",
-    "bot_type": "Tipo de bot",
     "types": {
       "discord": "Discord",
       "webhook": "Webhook",
       "slack": "Slack",
       "telegram": "Telegram",
       "email": "E-mail",
-      "googlechat": "Google Chat",
-      "mattermost": "Mattermost",
       "ms_teams": "MS Teams",
-      "pagerduty": "PagerDuty",
-      "pushover": "Pushover",
-      "rocketchat": "Rocket.Chat"
+      "pushover": "Pushover"
     },
     "fields": {
       "webhook_url": "URL do webhook",
       "bot_token": "Token do bot",
       "channel_id": "ID do canal",
       "chat_id": "ID do chat",
-      "integration_key": "Chave de integração",
       "recipients": "Destinatários",
       "user_key": "Chave do usuário",
       "api_token": "Token de API"
@@ -1142,7 +430,6 @@
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
       "pushover_user_key": "Sua chave de usuário do Pushover",
       "pushover_api_token": "Seu token de API do Pushover",
-      "pagerduty_integration_key": "ex.: a1b2c3d4e5f6...",
       "webhook_url": "https://seu-servidor.com/webhook",
       "webhook_headers_json": "{\"Authorization\": \"Bearer seu-token\"}"
     },
@@ -1165,11 +452,6 @@
       "msteams": {
         "heading": "Configuração do Microsoft Teams",
         "how_to_create_webhook": "Como criar um webhook do Teams"
-      },
-      "pagerduty": {
-        "heading": "Configuração do PagerDuty",
-        "how_to_get_key": "Como obter uma chave de integração do PagerDuty",
-        "setup_info": "No PagerDuty, crie um serviço, adicione uma integração \"Events API v2\" e cole aqui a Chave de Integração (Routing Key). O StatusPage.me acionará e resolverá incidentes do PagerDuty automaticamente."
       },
       "pushover": {
         "heading": "Configuração do Pushover",
@@ -1253,22 +535,6 @@
     "nav": {
       "maintenances": "Manutenções",
       "schedule_maintenance": "Agendar manutenção"
-    },
-    "form": {
-      "components_label": "Componentes afetados"
-    },
-    "list": {
-      "empty_title": "Nenhuma manutenção agendada",
-      "heading": "Manutenções agendadas"
-    },
-    "status": {
-      "ongoing": "Em andamento",
-      "past": "Passada"
-    },
-    "table": {
-      "notify": "Notificar",
-      "status_page": "Página de status",
-      "window": "Período"
     }
   },
   "heartbeats": {
@@ -1305,126 +571,39 @@
     },
     "modal": {
       "create_title": "Criar monitor de Heartbeat",
-      "ping_help": "Use esta URL para enviar ping para o seu monitor de Heartbeat a partir do seu cron job ou script:",
-      "ping_url_with_name": "URL de ping: __NAME__",
-      "create_button": "Criar heartbeat",
-      "example": "Exemplo",
-      "ping_url": "URL de ping"
+      "ping_help": "Use esta URL para enviar ping para o seu monitor de Heartbeat a partir do seu cron job ou script:"
     },
     "never": "Nunca",
-    "auto_infer": "Detectar automaticamente",
-    "actions": {
-      "creating": "Criando heartbeat...",
-      "deleting": "Excluindo heartbeat...",
-      "updating": "Atualizando heartbeat..."
-    },
-    "auto_infer_expected": "Inferir automaticamente o intervalo esperado",
-    "delete_confirm": {
-      "confirm": "Excluir",
-      "text": "Isso excluirá permanentemente \"__NAME__\" e seu histórico de pings.",
-      "title": "Excluir heartbeat?"
-    },
-    "edit": {
-      "fields": {
-        "enabled": "Ativado",
-        "public_name": "Nome público (opcional)"
-      },
-      "placeholders": {
-        "description": "Descrição opcional",
-        "expected_interval": "Deixe em branco para auto",
-        "grace": "300",
-        "name": "Nome do heartbeat",
-        "public_name": "Deixe em branco para usar o nome interno"
-      },
-      "title": "Editar heartbeat"
-    },
-    "errors": {
-      "create_failed": "Falha ao criar o monitor de heartbeat.",
-      "create_failed_with": "Falha ao criar o heartbeat: __ERROR__",
-      "delete_failed": "Falha ao excluir o heartbeat.",
-      "load_failed": "Falha ao carregar o heartbeat.",
-      "update_failed": "Falha ao atualizar o heartbeat.",
-      "validation_failed": "Falha na validação."
-    },
-    "form": {
-      "description": "Descrição (opcional)",
-      "description_placeholder": "Executa todas as noites às 2h",
-      "expected_interval": "Intervalo esperado (segundos)",
-      "expected_interval_placeholder": "Deixe em branco para inferência automática",
-      "grace_period": "Período de tolerância (segundos)",
-      "name": "Nome",
-      "name_placeholder": "Tarefa de backup diário",
-      "public_name_help": "Deixe em branco para usar o nome interno.",
-      "public_name_placeholder": "Backup diário",
-      "status_page": "Página de status",
-      "status_page_placeholder": "Selecione uma página de status...",
-      "grace_help": "Tempo extra antes de marcar como sem ping (padrão: 300 = 5 minutos)",
-      "interval_help": "Deixe em branco para detectar automaticamente a partir dos 3 primeiros pings"
-    },
-    "toast": {
-      "copied_to_clipboard": "Copiado para a área de transferência",
-      "deleted": "Heartbeat excluído",
-      "updated": "Heartbeat atualizado"
-    },
-    "validation": {
-      "expected_positive": "O intervalo esperado deve ser um número positivo.",
-      "expected_positive_seconds": "O intervalo esperado deve ser um número positivo de segundos.",
-      "expected_required_when_no_autoinfer": "O intervalo esperado é obrigatório quando a inferência automática está desativada.",
-      "fix_highlighted_fields": "Corrija os campos destacados.",
-      "grace_positive": "O período de tolerância deve ser um número positivo.",
-      "grace_positive_seconds": "O período de tolerância deve ser um número positivo de segundos.",
-      "name_required": "O nome é obrigatório.",
-      "status_page_required": "Selecione uma página de status."
-    },
-    "details_and_pings": "Detalhes do monitor de heartbeat e pings recentes",
-    "pinged_at": "Ping em",
-    "public_name_optional": "Nome público (opcional)",
-    "user_agent": "User-Agent"
+    "auto_infer": "Detectar automaticamente"
   },
   "teams": {
     "list": {
       "my_teams": "Minhas equipes",
-      "shared_with_me": "Compartilhadas comigo",
-      "description": "Colabore com sua equipe nas suas páginas de status",
-      "heading": "Equipes"
+      "shared_with_me": "Compartilhadas comigo"
     },
     "your_role": "Sua função: ",
     "roles": {
       "owner": "Proprietário",
-      "admin": "Administrador",
-      "editor": "Editor(a)",
+      "admin": "Admin",
+      "editor": "Editor",
       "viewer": "Visualizador"
     },
     "table": {
       "name": "Nome",
       "role": "Função",
       "members": "Membros",
-      "created": "Criado em",
-      "actions": "Ações",
-      "invited_by": "Convidado por",
-      "my_role": "Minha função",
-      "status_pages": "Páginas de status",
-      "team": "Equipe"
+      "created": "Criado em"
     },
     "stats": {
       "total_monitors": "Total de monitores",
       "status_pages": "Páginas de status",
-      "team_members": "Membros da equipe",
-      "invites": "Convites pendentes",
-      "manage_invites": "Gerenciar",
-      "owned": "Minhas equipes",
-      "shared": "Equipes compartilhadas",
-      "view_my": "Ver",
-      "view_shared": "Ver"
+      "team_members": "Membros da equipe"
     },
     "actions": {
       "create_team": "Criar equipe",
       "invite_member": "Convidar membro",
       "leave_team": "Sair da equipe",
-      "delete_team": "Excluir equipe",
-      "incident": "Criar incidente",
-      "maintenance": "Agendar manutenção",
-      "manage": "Gerenciar equipes"
+      "delete_team": "Excluir equipe"
     },
     "invitations": {
       "pending": "Convites pendentes",
@@ -1481,10 +660,6 @@
       "coming_soon": {
         "title": "Em breve",
         "text": "Sair de equipes estará disponível em breve."
-      },
-      "confirmed": "Você saiu da equipe.",
-      "progress": {
-        "leaving": "Saindo da equipe…"
       }
     },
     "limits": {
@@ -1506,16 +681,6 @@
       "shared_teams": "Equipes compartilhadas",
       "overview": "Visão geral",
       "audit_logs": "Logs de auditoria"
-    },
-    "sidebar": {
-      "active_team": "Equipe ativa",
-      "analytics": "Análises",
-      "incidents": "Incidentes",
-      "maintenances": "Manutenções",
-      "set_badge": "ativo",
-      "shared_resources": "Recursos compartilhados",
-      "shared_status_pages": "Páginas de status compartilhadas",
-      "settings_history": "Histórico"
     },
     "audit_logs": {
       "no_teams": {
@@ -1540,7 +705,7 @@
         "joined": "Entrou",
         "sent": "Enviado",
         "status_page": "Página de status",
-        "slug": "Identificador"
+        "slug": "Slug"
       },
       "labels": {
         "active": "Ativo",
@@ -1559,7 +724,7 @@
       "invite": {
         "form": {
           "email_label": "Endereço de e-mail",
-          "email_placeholder": "colega@exemplo.com",
+          "email_placeholder": "colleague@example.com",
           "role_label": "Função",
           "role_option_admin": "Admin - Editor + configurações da página de status",
           "role_option_editor": "Editor - Pode criar/atualizar incidentes",
@@ -1663,103 +828,6 @@
           "failed_unlink": "Falha ao desvincular a página de status"
         }
       }
-    },
-    "action_filter": "Filtro de ação",
-    "all_already_linked": "Todas as suas páginas de status já estão vinculadas a esta equipe.",
-    "context": {
-      "shared_incidents": "Visualizando incidentes compartilhados",
-      "shared_maintenances": "Visualizando manutenções compartilhadas",
-      "team_id": "ID da equipe:"
-    },
-    "create_page_first": "Crie uma página de status primeiro, depois volte para vinculá-la a esta equipe.",
-    "cta": {
-      "create": "Criar equipe"
-    },
-    "edit_team": "Editar Equipe",
-    "empty": {
-      "cta": "Crie sua primeira equipe",
-      "description": "Crie uma equipe para colaborar com outras pessoas nas suas páginas de status",
-      "title": "Ainda não há equipes",
-      "upgrade": "Faça upgrade para habilitar equipes"
-    },
-    "form": {
-      "back": "Voltar para equipes",
-      "create_heading": "Criar uma equipe",
-      "description": "Descrição",
-      "description_help": "Opcional. Pelo que esta equipe é responsável?",
-      "details": "Detalhes da equipe",
-      "edit_heading": "Editar equipe",
-      "name": "Nome da equipe",
-      "name_help": "Escolha um nome claro que seus colegas vão reconhecer.",
-      "tips_title": "Dicas"
-    },
-    "info": {
-      "title": "Como as equipes funcionam"
-    },
-    "invite_team_member": "Convidar membro da equipe",
-    "link_status_page": "Vincular página de status",
-    "member": {
-      "title": "Equipes das quais faço parte"
-    },
-    "member_can_create_incidents": "Pode criar/atualizar incidentes e manutenções nas páginas de status vinculadas.",
-    "mine": {
-      "description": "Equipes que você criou e possui",
-      "heading": "Minhas equipes"
-    },
-    "overview": {
-      "description": "Visão geral rápida e ações para suas equipes",
-      "heading": "Equipes",
-      "invites_hint": "Você tem convites pendentes para equipes. Abra Equipes compartilhadas para aceitá-los ou recusá-los.",
-      "open_shared": "Abrir equipes compartilhadas"
-    },
-    "owned": {
-      "title": "Equipes que eu possuo"
-    },
-    "owner_full_control": "Controle total: gerenciar configurações da equipe, membros e páginas de status vinculadas.",
-    "quick_actions": "Ações rápidas",
-    "recent_actions": "Ações recentes para sua equipe",
-    "select_status_page": "Selecione a página de status",
-    "settings_escalated_role": "Acesso às configurações requer uma função elevada",
-    "shared": {
-      "description": "Equipes para as quais você foi convidado ou adicionado",
-      "empty": {
-        "description": "Quando alguém convidar você para uma equipe, ela aparecerá aqui.",
-        "title": "Nenhuma equipe compartilhada"
-      },
-      "heading": "Equipes compartilhadas"
-    },
-    "team_audit_logs": "Logs de auditoria da equipe",
-    "upgrade": {
-      "cta": "Fazer upgrade",
-      "description": "Faça upgrade para colaborar com a equipe e compartilhar acesso às páginas de status.",
-      "title": "Equipes não estão incluídas no seu plano atual."
-    },
-    "viewer_read_only": "Acesso somente leitura para visualizar incidentes e dados da página de status.",
-    "settings_history": {
-      "title": "Histórico de configurações",
-      "subtitle": "Alterações recentes de configurações para páginas de status compartilhadas em",
-      "subtitle_generic": "Alterações recentes de configurações para páginas de status compartilhadas",
-      "empty_no_pages_title": "Sem páginas de status compartilhadas",
-      "filter_status_page": "Página de status",
-      "all_pages": "Todas as páginas compartilhadas",
-      "filter_limit": "Limite",
-      "col_actor": "Ator",
-      "col_status_page": "Página de status",
-      "col_changes": "Alterações",
-      "before": "Antes",
-      "after": "Depois",
-      "empty_title": "Sem alterações",
-      "empty_description": "Nenhuma alteração de configuração foi registrada para as páginas de status compartilhadas desta equipe ainda.",
-      "empty_no_teams_description": "Você ainda não é membro de nenhuma equipe compartilhada.",
-      "empty_no_pages_description": "Ainda não há páginas de status compartilhadas vinculadas a esta equipe.",
-      "cta_view_shared_teams": "Ver equipes compartilhadas",
-      "cta_view_team_status_pages": "Ver páginas de status da equipe",
-      "via": "via",
-      "more_changes": "+{{count}} a mais",
-      "no_visible_changes": "Nenhuma alteração visível de configuração",
-      "view_details": "Ver detalhes",
-      "col_setting": "Configuração",
-      "show_raw_json": "Mostrar JSON bruto"
     }
   },
   "severities": {
@@ -1772,45 +840,12 @@
       "medium": "Média",
       "high": "Alta",
       "critical": "Crítica"
-    },
-    "header": {
-      "code": "Código",
-      "color": "Cor",
-      "default": "Padrão",
-      "impact": "Impacto",
-      "name": "Nome"
-    },
-    "heading": "Severidades de componentes",
-    "intro": "Os padrões globais são mostrados abaixo. Severidades personalizadas por conta ainda não estão habilitadas (usuários UUID).",
-    "roadmap": {
-      "message": "A configuração de severidade personalizada está no nosso roadmap. Por enquanto, as severidades padrão abaixo são usadas para todas as contas.",
-      "title": "Em breve!"
     }
   },
   "notifications": {
     "breadcrumb": "Notificações",
     "heading": "Preferências de notificação",
     "description": "Gerencie como e quando você recebe notificações",
-    "hub": {
-      "add_channel": "Adicionar canal de notificação",
-      "column_channel": "Canal",
-      "column_type": "Tipo",
-      "column_verified": "Verificado",
-      "manage_channels": "Gerenciar canais de notificação",
-      "matrix_title": "Matriz de canais × páginas de status",
-      "nav_title": "Central de notificações",
-      "need_status_page": "Crie uma página de status primeiro para configurar notificações.",
-      "no_channels": "Nenhum canal de notificação configurado",
-      "no_channels_help": "Configure canais de notificação para receber alertas quando incidentes ocorrerem.",
-      "notifications_suffix": "notificações",
-      "quick_links": "Links rápidos",
-      "quick_tips": "Dicas rápidas",
-      "subtitle": "Gerencie todos os canais de notificação em todas as suas páginas de status em um só lugar.",
-      "tip_click_page": "Clique no nome de uma página de status para configurar suas notificações",
-      "tip_green_badge": "Badges verdes significam que o canal está ativo para essa página de status",
-      "tip_unverified": "Canais não verificados podem não entregar notificações de forma confiável",
-      "title": "Central de notificações"
-    },
     "frequency": {
       "all": "Todos os e-mails",
       "frequent": "E-mails frequentes",
@@ -1874,7 +909,7 @@
   },
   "postmortem": {
     "nav": {
-      "postmortem": "Post-mortem"
+      "postmortem": "Postmortem"
     },
     "not_available": "Relatórios de postmortem não estão disponíveis no seu plano atual. <a href=\"/user/billing\">Faça upgrade</a> para habilitar este recurso.",
     "form": {
@@ -1882,40 +917,19 @@
       "timeline": "Linha do tempo",
       "severity": "Severidade",
       "duration": "Duração",
-      "tags": "Marcadores",
+      "tags": "Tags",
       "lessons_learned": "Lições aprendidas",
       "action_items": "Itens de ação",
       "publish_status": "Status de publicação",
       "schedule_publish": "Agendar publicação",
-      "publish_now": "Publicar agora",
-      "for": "Post-mortem para: {{title}}",
-      "impact": "Impacto",
-      "overview_placeholder": "Visão geral de alto nível (suporta Markdown)",
-      "remediation": "Remediação",
-      "remediation_placeholder": "Correções e ações de acompanhamento",
-      "root_cause": "Causa raiz",
-      "root_cause_placeholder": "O que causou o incidente?"
+      "publish_now": "Publicar agora"
     },
     "visibility": {
       "draft": "Rascunho",
       "private": "Privado",
       "public": "Público"
     },
-    "publish_help": "Depois de publicado, não é possível desfazer a publicação. As edições atualizam o conteúdo mantendo a data original de publicação.",
-    "action": {
-      "create": "Criar post-mortem"
-    },
-    "add": "📘 Adicionar post-mortem",
-    "edit": "📝 Editar post-mortem",
-    "view": {
-      "component": "Componente",
-      "heading": "Post-mortem",
-      "impact": "Impacto",
-      "published_date": "Publicado",
-      "remediation": "Remediação",
-      "root_cause": "Causa raiz",
-      "summary": "Resumo"
-    }
+    "publish_help": "Depois de publicado, não é possível desfazer a publicação. As edições atualizam o conteúdo mantendo a data original de publicação."
   },
   "security": {
     "two_factor_auth_description": "A autenticação de dois fatores adiciona uma camada extra de segurança à sua conta, exigindo mais do que apenas uma senha para fazer login.",
@@ -1966,14 +980,8 @@
       "failed_remove": "Falha ao remover a chave de segurança",
       "actions": {
         "removing": "Removendo chave de segurança..."
-      },
-      "registered_label": "Registrado"
-    },
-    "disabled_lower": "desativado",
-    "email_verified": "E-mail verificado!",
-    "email_verified_success": "Obrigado por verificar seu endereço de e-mail. Agora você tem acesso total a todos os recursos.",
-    "enabled_lower": "ativado",
-    "breadcrumb": "Segurança"
+      }
+    }
   },
   "profile": {
     "breadcrumb_account": "Conta",
@@ -2003,30 +1011,6 @@
       "failed_update": "Falha ao atualizar a senha. Tente novamente.",
       "could_not_update_title": "Não foi possível atualizar a senha",
       "network_error_title": "Erro de rede"
-    },
-    "translator": {
-      "heading": "Ajudante de Tradução",
-      "description": "Ajude a melhorar as traduções sugerindo correções. Quando habilitado, você pode fazer Ctrl+Shift+Clique (ou Cmd+Shift+Clique no Mac) em qualquer texto traduzível para sugerir melhorias.",
-      "enable_mode": "Ativar Modo Tradutor",
-      "enable_description": "Mostrar a barra de ferramentas do tradutor e ativar recursos de sugestões",
-      "whitelisted_title": "Tradutor de Confiança",
-      "whitelisted_description": "Você tem um limite diário aumentado de sugestões (250/dia) por suas contribuições valiosas.",
-      "daily_quota": "Cota Diária",
-      "suggestions_per_day": "sugestões/dia",
-      "your_drafts": "Seus Rascunhos",
-      "view_suggestions": "Ver Minhas Sugestões"
-    },
-    "2fa": {
-      "heading": "Autenticação de dois fatores"
-    },
-    "back_to_dashboard": "Voltar ao painel",
-    "email_label": "E-mail",
-    "full_name": "Nome completo",
-    "go_to_login_now": "Ir para o login agora",
-    "have_i_been_pwned": "Have I Been Pwned",
-    "privacy_policy": "Política de privacidade",
-    "security_keys": {
-      "heading": "Chaves de segurança (WebAuthn)"
     }
   },
   "connections": {
@@ -2079,8 +1063,7 @@
   "account_deletion": {
     "warning": {
       "title": "Exclusão permanente da conta",
-      "text": "Esta ação não pode ser desfeita. Todos os seus dados serão excluídos permanentemente.",
-      "subscription_cancel": "Encerrar sua conta cancela imediatamente qualquer assinatura ativa."
+      "text": "Esta ação não pode ser desfeita. Todos os seus dados serão excluídos permanentemente."
     },
     "export_first": {
       "heading": "Exporte seus dados primeiro (recomendado)",
@@ -2166,7 +1149,6 @@
     "current_plan": "Plano atual",
     "understand_subscription": "Entenda o que sua assinatura inclui",
     "plan_status": "Status do plano",
-    "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
     "included_features": "📦 Recursos incluídos",
     "private_status_pages": "Páginas de status privadas",
     "audit_logs": "Logs de auditoria",
@@ -2185,7 +1167,6 @@
     "subscription_overview": "Visão geral da assinatura",
     "subscription_key_details": "Detalhes principais do seu ciclo de cobrança atual",
     "auto_renew": "Renovação automática",
-    "billing_cycle_label": "Billing cycle",
     "next_billing_date": "Próxima data de cobrança",
     "current_period": "Período atual",
     "subscription_reference": "Referência da assinatura",
@@ -2213,7 +1194,7 @@
     "will_cancel_subscription": "Isso cancelará sua assinatura",
     "moved_to_free": "Você será movido para o plano gratuito",
     "refund_processing_days": "O processamento do reembolso pode levar de 5 a 10 dias úteis",
-    "status_pages": "páginas de status",
+    "status_pages": "Páginas de status",
     "actions": {
       "purchase_upgrade": "Comprar / Fazer upgrade",
       "extend_trial_plus_7_days": "Estender teste (+7 dias)",
@@ -2335,29 +1316,7 @@
         "title": "Sem assinatura",
         "text": "Nenhuma assinatura encontrada. Entre em contato com o suporte."
       }
-    },
-    "up_to": "Até",
-    "status_page": "página de status",
-    "unlimited_status_pages": "Páginas de status ilimitadas",
-    "monitors_per_page": "monitores por página",
-    "unlimited_monitors_per_page": "Monitores ilimitados por página",
-    "support_suffix": "suporte",
-    "full_support": "Suporte completo",
-    "check_interval": "intervalo de verificação",
-    "flexible_check_interval": "Intervalo de verificação flexível",
-    "monitoring_location": "localização de monitoramento",
-    "monitoring_locations": "localizações de monitoramento",
-    "global_locations": "Localizações globais",
-    "notifications": "notificações",
-    "all_notification_channels": "Todos os canais de notificação",
-    "branding": "marca",
-    "full_branding": "Marca completa",
-    "embeds_widgets": "embeds e widgets",
-    "full_embeds_widgets": "Embeds e widgets completos",
-    "trial_label": "Teste",
-    "grace_period_label": "Período de Carência",
-    "active_label": "Ativo:",
-    "active_until": "Active until:"
+    }
   },
   "misc": {
     "language_names": {
@@ -2367,34 +1326,8 @@
       "french": "🇫🇷 Français",
       "german": "🇩🇪 Deutsch",
       "serbian": "🇷🇸 Српски",
-      "arabic": "🇸🇦 العربية",
-      "croatian": "🇭🇷 Croatian"
-    },
-    "assign_groups": "Atribua componentes a grupos ou deixe-os não agrupados – ambos funcionam perfeitamente!",
-    "assign_to": "Atribuir a:",
-    "compare_plans": "Comparar planos",
-    "components_help": "Organize os componentes da sua página de status em grupos opcionais",
-    "confirmed": "Confirmado",
-    "connect_external_help": "Conecte provedores externos para login mais rápido e seguro.",
-    "contact_support_more_help": "Entre em contato com o suporte para mais ajuda.",
-    "disabled": "Desabilitado",
-    "expiring_soon": "Expirando em breve",
-    "must_start_http": "Deve começar com http:// ou https://",
-    "my_profile": "Meu perfil",
-    "otp_if_configured": "OTP (se configurado)",
-    "processing": "Processando…",
-    "remember_me": "Lembrar de mim",
-    "save_work_refresh": "Salve seu trabalho e atualize a página para continuar.",
-    "search_ctrl_slash": "Pesquisar (Ctrl+/)",
-    "session_expiring": "Sua sessão expirará em:",
-    "sold_out": "Esgotado",
-    "unverified": "Não verificado",
-    "upgrade_feature": "Atualize seu plano",
-    "upgrade_to_paid": "Atualize para um plano pago",
-    "url_optional": "URL (opcional)",
-    "use_reorder_buttons": "Use os botões de seta para cima/baixo para reordenar grupos e componentes",
-    "verified": "Verificado",
-    "view_plans": "Ver planos"
+      "arabic": "🇸🇦 العربية"
+    }
   },
   "common": {
     "error": "Erro",
@@ -2416,59 +1349,12 @@
     "url": "URL",
     "actions": "Ações",
     "message": "Mensagem",
-    "na": "N/D",
     "password": "Senha",
     "save_changes": "Salvar alterações",
     "action": "Ação",
     "yes": "Sim",
     "please_enter_value": "Por favor, insira um valor para confirmar.",
-    "please_try_again": "Por favor, tente novamente.",
-    "all": "Todos",
-    "apply": "Aplicar",
-    "beta": "Beta",
-    "connected": "Conectado",
-    "continue": "Continuar",
-    "count": "Contagem",
-    "custom": "Personalizado",
-    "days": "Dias",
-    "delete": "Excluir",
-    "details": "Detalhes",
-    "check_now": "Verificar agora",
-    "view": "Ver",
-    "enabled": "Ativado",
-    "end": "Fim",
-    "expires": "Expira",
-    "go": "Ir",
-    "hours": "Horas",
-    "how_it_works": "Como funciona:",
-    "items": "Itens",
-    "loading": "Carregando...",
-    "min_abbrev": "min",
-    "name_colon": "Nome:",
-    "no": "Não",
-    "none_option": "— Nenhum —",
-    "note_label": "Nota:",
-    "permission_denied_message": "Você não tem permissão para acessar esta página.",
-    "plan": "Plano",
-    "port": "Porta",
-    "print": "Imprimir",
-    "range_to": "a",
-    "refresh": "Atualizar",
-    "start": "Início",
-    "tip_label": "Dica:",
-    "type_colon": "Tipo:",
-    "upgrade_now": "Fazer upgrade agora",
-    "value_label": "Valor:",
-    "back": "Voltar",
-    "csrf_missing_refresh": "Token CSRF ausente. Atualize e tente novamente.",
-    "csrf_missing_refresh_page": "Token CSRF ausente. Atualize a página e tente novamente.",
-    "not_now": "Agora não",
-    "request_failed_with": "Falha na solicitação: {{error}}",
-    "settings": "Configurações",
-    "success": "Sucesso",
-    "unexpected_error": "Ocorreu um erro inesperado",
-    "filter": "Filter",
-    "time": "Time"
+    "please_try_again": "Por favor, tente novamente."
   },
   "dashboard": {
     "no_active_incidents_help": "Nenhum incidente ativo. Continue — adicione um monitor ou compartilhe uma página de status.",
@@ -2479,47 +1365,7 @@
     "add_first_monitor": "Adicione seu primeiro monitor",
     "get_started": "Primeiros passos",
     "no_recent_activity": "Nenhuma atividade recente",
-    "onboarding_complete": "✅ Onboarding concluído — tudo pronto!",
-    "account_settings_breadcrumb": "Configurações da conta /",
-    "action_required": "Ação necessária",
-    "activity": "Atividade",
-    "add_monitor": "Adicionar monitor",
-    "all_systems_operational": "Todos os sistemas operacionais",
-    "avg_response_time": "Tempo médio de resposta",
-    "degradation_detected": "Degradação de desempenho detectada",
-    "response_time_increased": "o tempo de resposta aumentou {{changePercent}}% nos últimos {{days}} dias",
-    "dependency_outages_detected": "Falhas de dependências detectadas",
-    "affected_dependencies_help": "Nenhum incidente ativo, mas {{count}} páginas de status são afetadas por interrupções de fornecedores terceiros.",
-    "affected_dependencies_help_one": "Nenhum incidente ativo, mas {{count}} página de status é afetada por interrupções de fornecedores terceiros.",
-    "affected_dependencies_help_other": "Nenhum incidente ativo, mas {{count}} páginas de status são afetadas por interrupções de fornecedores terceiros.",
-    "create_first_status_page": "Crie sua primeira página de status",
-    "create_first_status_page_help": "Adicione uma página de status para desbloquear resumos de saúde do serviço, disponibilidade e incidentes.",
-    "create_status_page": "Criar página de status",
-    "dashboard_breadcrumb": "Painel /",
-    "empty_state": "Comece adicionando um monitor ou criando uma página de status.",
-    "health_summary_placeholder": "Vamos mostrar um resumo rápido do status aqui.",
-    "invite_teammate": "Convidar colega",
-    "last_visit": "Última visita: —",
-    "loading": "Carregando...",
-    "loading_ellipsis": "Carregando…",
-    "loading_service_health": "Carregando saúde do serviço…",
-    "new_incident": "Novo incidente",
-    "onboarding_benefits": "Concluir a configuração significa:",
-    "onboarding_checklist": "Lista de verificação para começar",
-    "onboarding_create_update_incidents": "Criar e atualizar incidentes",
-    "onboarding_email_notifications": "Notificações por e-mail quando os monitores detectarem incidentes",
-    "onboarding_later": "Concluir depois",
-    "onboarding_mark_complete": "Marcar onboarding como concluído",
-    "onboarding_public_page": "Uma página pública que seus usuários podem consultar durante interrupções",
-    "onboarding_why": "Por que concluir o onboarding?",
-    "overall_uptime": "Uptime geral (últimos 30 dias)",
-    "select_status_page_for_health": "Escolha uma página de status",
-    "service_health": "Saúde do serviço",
-    "service_health_help": "Escolha uma página de status para carregar o resumo",
-    "status_page_label_lower": "Página de status",
-    "view_all": "Ver tudo",
-    "view_all_incidents": "Ver todos os incidentes",
-    "view_analytics": "Ver análises"
+    "onboarding_complete": "✅ Onboarding concluído — tudo pronto!"
   },
   "analytics": {
     "exclude_maintenance": "Excluir janelas de manutenção",
@@ -2572,55 +1418,41 @@
     },
     "historical": {
       "select_status_page": {
-        "title": "Selecione uma página de status",
-        "continue": "Continuar",
-        "refresh": "Atualizar",
-        "export": "Exportar",
-        "body_continue": "Escolha uma página de status para continuar.",
-        "body_refresh": "Escolha uma página de status, clique em Ir e depois atualize.",
-        "body_export": "Escolha uma página de status para exportar."
+        "title": "Select a status page",
+        "continue": "Continue",
+        "refresh": "Refresh",
+        "export": "Export",
+        "body_continue": "Pick a status page to continue.",
+        "body_refresh": "Pick a status page, click Go, then refresh.",
+        "body_export": "Pick a status page to export."
       },
       "forbidden": {
-        "default_message": "O acesso à disponibilidade histórica não é permitido para o seu cargo.",
+        "default_message": "Acesso ao histórico não permitido para o seu cargo.",
         "title": "Acesso negado.",
-        "guidance": "Peça ao proprietário da página de status para habilitar a função da sua equipe em Configurações da página de status → Acesso → Acesso à disponibilidade histórica (Equipes).",
-        "no_chart": "Nenhum gráfico disponível devido ao acesso restrito."
+        "guidance": "Solicite ao responsável pela status page para habilitar a função da sua equipe em Configurações da Status Page → Acesso → Acesso ao Histórico de Uptime (Equipes).",
+        "no_chart": "Não há gráfico disponível por causa de acesso restrito."
       },
       "retention": {
-        "badge_days": "Retenção: {{days}} dias",
-        "badge_unlimited": "Retenção: Ilimitada",
-        "start_date_clamped": "A data inicial foi ajustada para {{date}} devido aos limites de retenção."
+        "badge_days": "Retenção de: {{days}} dias",
+        "badge_unlimited": "Retenção: Sem limites",
+        "start_date_clamped": "Data inicial ajustada para {{date}} devido aos limites de retenção."
       },
       "table": {
-        "no_data": "Sem dados para este intervalo.",
+        "no_data": "Sem dados para o período.",
         "no_monitors": "Nenhum monitor encontrado."
       },
       "monitors": {
-        "all_first_5": "Todos os monitores (primeiros 5)",
+        "all_first_5": "Todos os monitores (Primeiros 5)",
         "monitor_fallback": "Monitor {{id}}"
       },
       "load_failed": {
-        "title": "Não foi possível carregar os dados"
+        "title": "Não foi possível carregar os dados."
       },
       "network_error": {
-        "title": "Erro de rede",
-        "text": "Falha ao carregar os dados. Verifique sua conexão e tente novamente."
-      },
-      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
-      "empty_title": "Select a Status Page"
-    },
-    "availability_response_time_heading": "Disponibilidade e tempo de resposta",
-    "avg_response_time_title": "Tempo médio de resposta",
-    "component_health_heading": "Integridade do componente",
-    "custom_range_label": "Intervalo personalizado:",
-    "filters_label": "Filtros:",
-    "historical_uptime_heading": "Disponibilidade histórica",
-    "limited_access": "Acesso limitado.",
-    "loading_data": "Carregando dados de análise...",
-    "max_response_time_title": "Tempo máximo de resposta",
-    "no_downtime_detected": "Nenhum tempo de inatividade detectado para este período.",
-    "select_status_page_placeholder": "Selecione uma página de status…",
-    "time_period_label": "Período:"
+        "title": "Network error",
+        "text": "Falha ao carregar dados. Por favor, revise sua conexão e tente novamente."
+      }
+    }
   },
   "account_settings": {
     "nav": {
@@ -2641,40 +1473,40 @@
       "subtitle": "Escolha como você gostaria de entrar em contato com a nossa equipe de suporte. Estamos aqui para ajudar!"
     },
     "cards": {
-      "email": {
-        "cta": "Enviar e-mail",
-        "text": "Envie um e-mail e retornaremos em até 24 horas.",
-        "title": "E-mail"
-      },
       "live_chat": {
-        "cta": "Iniciar chat",
+        "title": "Chat ao vivo",
         "text": "Obtenha ajuda instantânea com a nossa equipe de suporte via chat ao vivo.",
-        "title": "Chat ao vivo"
+        "cta": "Iniciar chat"
       },
       "telegram": {
-        "cta": "Entrar no Telegram",
-        "text": "Fale com a gente pelo Telegram para assistência urgente."
+        "text": "Fale com a gente pelo Telegram para assistência urgente.",
+        "cta": "Entrar no Telegram"
+      },
+      "email": {
+        "title": "E-mail",
+        "text": "Envie um e-mail e retornaremos em até 24 horas.",
+        "cta": "Enviar e-mail"
       }
     },
     "community": {
+      "text": "Ou participe da nossa comunidade no Discord para suporte entre usuários, atualizações e discussões.",
       "discord": {
         "aria": "Entre no nosso Discord — obtenha ajuda e converse com o time",
-        "subtitle": "Obtenha ajuda no Discord",
-        "title": "Converse com o time"
+        "title": "Converse com o time",
+        "subtitle": "Obtenha ajuda no Discord"
       },
       "slack": {
         "aria": "Entre no nosso Slack — obtenha ajuda e converse com o time",
-        "subtitle": "Obtenha ajuda no Slack",
-        "title": "Entrar no Slack"
-      },
-      "text": "Ou participe da nossa comunidade no Discord para suporte entre usuários, atualizações e discussões."
+        "title": "Entrar no Slack",
+        "subtitle": "Obtenha ajuda no Slack"
+      }
+    },
+    "footer": {
+      "title": "Precisa de ajuda imediata?",
+      "text": "Para assuntos urgentes, o chat ao vivo é a forma mais rápida de obter ajuda. Nosso tempo médio de resposta é inferior a 5 minutos durante o horário comercial."
     },
     "email": {
       "fallback_subject": "Solicitação de suporte"
-    },
-    "footer": {
-      "text": "Para assuntos urgentes, o chat ao vivo é a forma mais rápida de obter ajuda. Nosso tempo médio de resposta é inferior a 5 minutos durante o horário comercial.",
-      "title": "Precisa de ajuda imediata?"
     }
   },
   "health": {
@@ -2688,316 +1520,5 @@
     "down": "Fora do ar",
     "unknown": "Desconhecido",
     "no_monitors": "Sem monitores"
-  },
-  "translator": {
-    "title": "Modo Tradutor",
-    "pending_suggestions": "Sugestões Pendentes",
-    "my_suggestions": "Minhas Sugestões",
-    "hint_click": "em qualquer texto para sugerir tradução",
-    "stats": {
-      "drafts": "Rascunhos",
-      "drafts_desc": "Ainda não enviados",
-      "pending": "Pendente de revisão",
-      "pending_desc": "Aguardando aprovação",
-      "approved": "Aprovadas",
-      "approved_desc": "Traduções aceitas",
-      "quota_remaining": "Cota restante",
-      "quota_desc": "Limite de hoje"
-    },
-    "status": {
-      "draft": "Rascunhos",
-      "pending": "Pendente",
-      "approved": "Aprovadas",
-      "rejected": "Rejeitadas"
-    },
-    "how_it_works": {
-      "title": "Como funciona o Assistente de Tradução",
-      "step1_title": "Ativar o Modo Tradutor",
-      "step1_desc": "Ative o Modo Tradutor nas configurações do seu perfil para ativar o recurso.",
-      "step2_title": "Clique para sugerir",
-      "step2_desc": "Use Ctrl+Shift+Clique (Cmd+Shift+Clique no Mac) em qualquer texto com uma chave de tradução.",
-      "step3_title": "Enviar para revisão",
-      "step3_desc": "Suas sugestões são revisadas por administradores e aplicadas para melhorar as traduções."
-    },
-    "empty": {
-      "title": "Nenhuma sugestão ainda",
-      "description": "Ative o Modo Tradutor e comece a melhorar as traduções!",
-      "go_to_settings": "Ir para Configurações"
-    },
-    "original": "Texto original",
-    "suggested": "Sugerida",
-    "admin_notes": "Notas do administrador:",
-    "submit_for_review": "Enviar para revisão",
-    "confirm_submit": "Enviar esta sugestão para revisão?",
-    "confirm_delete": "Excluir esta sugestão?",
-    "edit_suggestion": "Editar sugestão",
-    "suggested_translation": "Tradução sugerida",
-    "empty_suggestion": "Digite uma tradução",
-    "suggest_translation": "Sugerir Tradução",
-    "translation_key": "Chave de Tradução",
-    "current_value": "Valor Atual",
-    "suggested_value": "Sua Sugestão",
-    "preview_hint": "A pré-visualização será atualizada enquanto você digita",
-    "preview": "Pré-visualização",
-    "remaining": "Restantes hoje:",
-    "cancel": "Cancelar",
-    "save_draft": "Salvar como Rascunho",
-    "submit": "Enviar para Revisão",
-    "daily_limit_reached": "Limite Diário Atingido",
-    "daily_limit_message": "Você atingiu seu limite diário de sugestões. Tente novamente amanhã.",
-    "saved": "Salvo",
-    "saved_message": "Sugestão de tradução salva como rascunho.",
-    "submitted": "Enviado",
-    "submitted_desc": "Sua sugestão foi enviada para revisão.",
-    "submitted_message": "Obrigado! Sua sugestão de tradução foi enviada para revisão.",
-    "error": "Erro",
-    "enter_suggestion": "Por favor, insira uma sugestão de tradução.",
-    "enable_translator_mode": "Ativar Modo Tradutor",
-    "translator_mode_description": "Ajude a melhorar as traduções sugerindo alterações. Use Ctrl+Shift+Clique em qualquer texto traduzível.",
-    "whitelisted_status": "Você é um tradutor na lista branca com limite diário aumentado.",
-    "suggestions_page_title": "Minhas Sugestões de Tradução",
-    "no_suggestions": "Você ainda não enviou nenhuma sugestão de tradução.",
-    "status_draft": "Rascunho",
-    "status_pending": "Aguardando Revisão",
-    "status_approved": "Aprovado",
-    "status_rejected": "Rejeitado",
-    "status_applied": "Aplicado",
-    "view_all": "Ver Todas as Sugestões"
-  },
-  "addons": {
-    "checkout": {
-      "actions": {
-        "creating": "Criando sessão de checkout..."
-      },
-      "created": {
-        "text": "Redirecionando para o checkout...",
-        "title": "Redirecionando"
-      },
-      "errors": {
-        "failed_try_again": "Falha ao criar a sessão de checkout. Tente novamente."
-      }
-    },
-    "monitors_plus": "Monitores +",
-    "pages_plus": "Páginas +",
-    "services_plus": "Serviços +"
-  },
-  "account": {
-    "accept_transfer": "Aceitar transferência",
-    "account_banned": "Sua conta foi banida",
-    "account_deletion": "Exclusão da conta",
-    "account_preferences": "Preferências da conta",
-    "activated": "Ativado",
-    "all_maintenance": "Todos os eventos de manutenção",
-    "all_monitors_data": "Todos os monitores e dados de monitoramento",
-    "all_status_pages": "Todas as páginas de status",
-    "back_to_home": "Voltar para a página inicial",
-    "check_history": "Histórico de verificações do monitor",
-    "confirm_password": "Confirmar senha",
-    "connect_social_login": "Conectar login social",
-    "export_checks": "Resultados de verificação do monitor (últimos 90 dias, organizados por data)",
-    "export_components": "Componentes e grupos de componentes",
-    "export_data": "Exportar seus dados",
-    "export_incidents": "Incidentes e suas atualizações",
-    "export_maintenance": "Janelas e agendas de manutenção",
-    "export_monitors": "Todos os monitores com suas configurações de verificação",
-    "export_pages": "Todas as páginas de status com suas configurações",
-    "export_used_for": "Esta exportação pode ser usada para:",
-    "extend_plan_limits": "Estenda os limites do seu plano comprando add-ons. Após o pagamento, eles são ativados automaticamente (processamento de webhooks).",
-    "invite_links_email_only": "Links de convite criam contas apenas a partir do e-mail.",
-    "learn_data_deletion": "Saiba mais sobre nossas práticas de exclusão de dados",
-    "link_google_github": "Você pode vincular Google/GitHub/etc. para entrar sem senha.",
-    "login_required": "Login obrigatório",
-    "manage_connections": "Gerenciar conexões",
-    "oauth_connections": "Conexões OAuth (GitHub, Google)",
-    "password_protects_account": "Isso define (ou redefine) a senha da conta que será proprietária da página de status.",
-    "password_set": "Senha definida",
-    "please_sign_in": "Entre ou crie uma conta para continuar.",
-    "purchase": "Comprar",
-    "secure_your_account": "Proteja sua conta",
-    "set_a_password": "Definir uma senha",
-    "set_password": "Definir senha",
-    "set_password_or_social": "Defina uma senha ou conecte um login social para continuar.",
-    "social_optional_convenient": "Conectar login social é opcional, mas conveniente.",
-    "use_unique_password": "Use uma senha exclusiva que você não reutiliza em outros lugares.",
-    "why_this_step": "Por que esta etapa?",
-    "your_content": "Seu conteúdo:",
-    "your_settings": "Suas configurações:",
-    "youre_signed_in": "Você está conectado. Por segurança, defina uma senha e, opcionalmente, conecte um login social."
-  },
-  "brand": {
-    "hsp": "HSP"
-  },
-  "domains": {
-    "access_dns_settings": "Acesso às configurações de DNS do seu domínio",
-    "add_dns_verification": "Adicionar registro de verificação de DNS",
-    "add_new_txt_record": "Adicione um novo registro TXT com os detalhes mostrados acima",
-    "check_email_setup": "Verifique seu e-mail para instruções detalhadas de configuração",
-    "common_examples": "Exemplos comuns:",
-    "connect_custom_domain": "Conecte seu domínio personalizado",
-    "custom_domain_verified": "Domínio personalizado verificado",
-    "dns_record_to_add": "Registro DNS a ser adicionado",
-    "domain_verification_pending": "Verificação de domínio pendente",
-    "find_dns_management": "Encontre a seção de gerenciamento de DNS ou configurações de DNS",
-    "host_name": "Host / Nome",
-    "ill_add_later": "Adicionarei isso mais tarde",
-    "issued_at": "Emitido em",
-    "make_accessible": "Para tornar sua página de status acessível no seu domínio personalizado, adicione este registro DNS:",
-    "need_re_verify": "Precisa verificar novamente a propriedade? Remova e adicione novamente o domínio.",
-    "not_done_yet": "Você ainda não terminou — adicione o registro CNAME abaixo para concluir a configuração.",
-    "ownership_verified": "Propriedade verificada! Mais um passo... 🎉",
-    "primary_domain": "Domínio principal",
-    "record_value": "Valor do registro",
-    "save_changes": "Salvar alterações",
-    "ssl_certificate": "Certificado SSL",
-    "value_points_to": "Valor / Aponta para",
-    "verification_failed": "Verificação falhou",
-    "verification_pending": "Verificação pendente",
-    "verifying": "Verificando...",
-    "verifying_domain": "Verificando seu domínio...",
-    "whats_happening": "O que está acontecendo?"
-  },
-  "downgrade": {
-    "alert_title": "Importante:",
-    "comparison_resource": "Recurso",
-    "custom_domain_confirm": "Entendo que meu domínio personalizado será removido",
-    "custom_domain_intro": "Os seguintes domínios personalizados deixarão de funcionar:",
-    "custom_domain_revert": "Suas páginas de status voltarão aos subdomínios gratuitos (ex.: suapagina.statuspage.me)",
-    "data_retention_confirm": "Entendo que os recursos não selecionados serão desativados, mas os dados serão mantidos",
-    "effective_date_label": "O downgrade entra em vigor:",
-    "feedback_comments_label": "Comentários adicionais",
-    "feedback_reason_ended": "Projeto encerrado",
-    "feedback_reason_expensive": "Muito caro",
-    "feedback_reason_features": "Poucos recursos",
-    "feedback_reason_label": "Por que você está fazendo downgrade?",
-    "feedback_reason_other": "Outro",
-    "feedback_reason_select": "Selecione um motivo...",
-    "feedback_reason_switching": "Migrando para outro serviço",
-    "feedback_reason_temporary": "Temporário - vou fazer upgrade depois",
-    "resource_subscribers": "Assinantes",
-    "select_page_first": "Selecione uma página de status primeiro para ver os monitores disponíveis.",
-    "step1_subtitle": "Selecione 1 página de status para manter ativa. As outras serão desativadas."
-  },
-  "embeds": {
-    "badge": "Selo:",
-    "heading": "Incorporações e widgets da página de status",
-    "intro": "Copie e cole estes snippets no seu site ou docs. Substitua YOUR_SLUG pelo slug da sua página de status.",
-    "json": {
-      "description": "Acesso programático para renderização personalizada.",
-      "heading": "Endpoint JSON"
-    },
-    "live_widget": {
-      "description": "Script inline que renderiza um card com tema. Suporta tema claro/escuro/auto, lista opcional de incidentes e intervalo de atualização.",
-      "heading": "Widget ao vivo (Script)"
-    },
-    "markdown": {
-      "description": "Use estes em README do GitHub, Zendesk, Notion, etc. O selo reflete o status geral ao vivo.",
-      "heading": "Snippets Markdown"
-    },
-    "minimal_line": "Linha minimalista:",
-    "params": "Parâmetros:",
-    "preview": {
-      "compact_badge_description": "Selo compacto: sparkline inline do tempo de resposta (últimos 45 min).",
-      "compact_incidents_description": "Compacto + lista de incidentes (se houver), adaptado ao tema do usuário.",
-      "dark_card_description": "Card escuro: apenas sparkline de uptime de 14 dias.",
-      "description": "Exemplos ao vivo (todos usam o slug da sua primeira página de status, se disponível). Copie o código correspondente abaixo de cada prévia.",
-      "full_card_description": "Card completo: incidentes + ambos os sparklines + atualização automática.",
-      "full_widget_disabled_link_description": "Widget completo com link desativado (card estático).",
-      "heading": "Prévia",
-      "minimal_description": "Minimalista: apenas o título do status."
-    },
-    "svg": {
-      "description": "Selo simples em cache. Sem JavaScript. Bom para README ou docs.",
-      "heading": "Selo SVG"
-    },
-    "wordpress": {
-      "description": "Plugin oficial do WordPress com bloco Gutenberg, widget clássico e shortcodes.",
-      "heading": "Plugin do WordPress"
-    }
-  },
-  "errors": {
-    "an_error_occurred": "Ocorreu um erro.",
-    "complete_these_steps": "Conclua estas etapas para que os monitores possam enviar notificações por e-mail. Você pode alterar tudo depois.",
-    "contact_support": "Contatar suporte",
-    "something_went_wrong": "Algo deu errado",
-    "unauthorized": "Não autorizado"
-  },
-  "forms": {
-    "add_condition": "Adicionar condição",
-    "basic_information": "Informações básicas",
-    "brand_color_palette": "Paleta de cores da marca",
-    "custom_headers_json": "Cabeçalhos personalizados (JSON)",
-    "favicon_label": "Favicon personalizado",
-    "mark_down_if_response_time": "Marcar DOWN se o tempo de resposta for",
-    "read_our_guide": "Leia nosso guia",
-    "recommended": "(recomendado)",
-    "team_information": "Informações da equipe",
-    "upload_custom_favicon": "Faça upload de um favicon personalizado para sua página de status. Formatados suportados: PNG, JPG, SVG, ICO (máx. 100KB)."
-  },
-  "maintenance": {
-    "affected_monitors_optional": "Monitores afetados (opcional)",
-    "empty_state": "Você ainda não agendou nenhum evento de manutenção.",
-    "end_time_utc": "Horário de término (UTC)",
-    "give_clear_title": "Dê à sua manutenção um título claro e descritivo",
-    "maintenance_updates": "Atualizações de manutenção",
-    "message_optional": "Mensagem (opcional)",
-    "post_update": "Publicar atualização",
-    "select_affected_components": "Selecione os componentes afetados por esta manutenção",
-    "select_components_first": "Selecione os componentes primeiro para carregar monitores.",
-    "start_time_utc": "Horário de início (UTC)",
-    "upcoming": "Próximas",
-    "when_maintenance_begin": "Quando a manutenção vai começar",
-    "when_maintenance_complete": "Quando a manutenção será concluída"
-  },
-  "monitor_locations": {
-    "primary": "Primário"
-  },
-  "monitors_advanced": {
-    "allowed_downtime": "Tempo de inatividade permitido",
-    "available_regions": "Regiões disponíveis",
-    "breach_impact": "Impacto da violação",
-    "budget_remaining": "Orçamento restante",
-    "current_month_downtime_budget": "Orçamento de inatividade do mês atual",
-    "downtime_duration": "Duração da inatividade",
-    "monthly_summary": "Resumo mensal",
-    "recent_sla_breaches": "Violações recentes de SLA (últimos 90 dias)",
-    "remaining": "Restante",
-    "report_notes": "Notas do relatório",
-    "select_locations_map": "Selecione locais no mapa",
-    "simulate_check_tip": "💡 Use \"Simulate Check\" para visualizar pings para seus sites.",
-    "sla_target": "Meta de SLA",
-    "sla_target_settings": "Configurações da meta de SLA",
-    "total_downtime": "Inatividade total",
-    "your_monitor_targets": "Suas metas de monitor"
-  },
-  "onboarding": {
-    "create_your_status_page": "Crie sua página de status",
-    "do_this_later": "Fazer isso depois"
-  },
-  "postmortems": {
-    "current_date_format": "Data atual (2 de jan de 2006)",
-    "current_time_format": "Hora atual (15:04)",
-    "dashboard_incidents_templates": "Painel / Incidentes / Modelos /",
-    "dashboard_maintenance": "Painel / Manutenção /",
-    "date_time_combined": "Data e hora combinadas",
-    "detailed_message_with_placeholders": "Mensagem detalhada com espaços reservados para conteúdo dinâmico",
-    "incident_configuration": "Configuração do incidente",
-    "message_template": "Modelo de mensagem",
-    "optional_auto_set_severity": "Opcional: Definir automaticamente a gravidade do componente ao usar este modelo",
-    "pro_feature": "Recurso Pro",
-    "review_incident_response": "Revisar o processo de resposta ao incidente",
-    "schedule_training": "Agendar treinamento para a equipe",
-    "send_notifications_on_create": "Enviar notificações para todos os assinantes quando o incidente for criado",
-    "status_page_name": "Nome da página de status",
-    "template_details": "Detalhes do modelo",
-    "template_global": "Deixe como \"Global\" para usar este modelo em todas as páginas",
-    "usage_count": "Contagem de uso:"
-  },
-  "sla": {
-    "month": "Mês",
-    "no_breaches": "Sem violações de SLA"
-  },
-  "validation": {
-    "invalid": "✗ Inválido",
-    "valid": "✓ Válido"
   }
 }
