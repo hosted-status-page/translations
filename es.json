@@ -988,7 +988,7 @@
       "archived_reason_label": "Motivo de archivo:",
       "component": "Componente:",
       "created": "Creado:",
-      "edit": "📝 Editar incidentes",
+      "edit": "📝 Añadir actualización del incidente",
       "ended": "Agregado:",
       "error": "Error:",
       "hidden_badge": "🙈 Oculto en la página de estado",
@@ -998,7 +998,8 @@
       "resolved_prompt": "Escuché el incidente resuelto. Capturar un postmortem ahora para documentar el impacto &quot; remediación.",
       "started": "Comenzó:",
       "status": "Situación:",
-      "unhide_button": "👁️ Mostrar en la página de estado"
+      "unhide_button": "👁️ Mostrar en la página de estado",
+      "view_live": "🌐 Ver incidente en vivo"
     },
     "create_incident": "Crear Incidente",
     "incident_details": "Detalles del Incidente",

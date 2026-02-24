@@ -853,7 +853,7 @@
       "archived_reason_label": "Razlog arhiviranja:",
       "component": "Komponenta",
       "created": "Kreirano",
-      "edit": "Izmeni incident",
+      "edit": "📝 Dodaj ažuriranje incidenta",
       "ended": "Završeno",
       "error": "Greška",
       "hidden_badge": "🙈 Sakriveno sa status stranice",
@@ -863,7 +863,8 @@
       "resolved_prompt": "Incident je rešen. Zabeležite postmortem kako biste dokumentovali uticaj i remedijaciju.",
       "started": "Počelo",
       "status": "Status",
-      "unhide_button": "👁️ Prikaži na status stranici"
+      "unhide_button": "👁️ Prikaži na status stranici",
+      "view_live": "🌐 Pregled uživo"
     },
     "view_incident": "Prikaži Incident",
     "active_incidents": "Aktivni incidenti",

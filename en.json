@@ -860,7 +860,7 @@
       "archived_reason_label": "Archive reason:",
       "component": "Component:",
       "created": "Created:",
-      "edit": "📝 Edit Incident",
+      "edit": "📝 Add Incident Update",
       "ended": "Ended:",
       "error": "Error:",
       "hidden_badge": "🙈",
@@ -870,7 +870,8 @@
       "resolved_prompt": "✅ Incident resolved. Capture a postmortem now to document impact & remediation.",
       "started": "Started:",
       "status": "Status:",
-      "unhide_button": "👁️"
+      "unhide_button": "👁️",
+      "view_live": "🌐 View Live Incident"
     },
     "view_incident": "View Incident",
     "active_incidents": "Active Incidents",

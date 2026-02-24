@@ -984,7 +984,7 @@
       "archived_reason_label": "Archivierungsgrund:",
       "component": "Komponente",
       "created": "Erstellt",
-      "edit": "Vorfall bearbeiten",
+      "edit": "📝 Vorfall-Update hinzufügen",
       "ended": "Beendet",
       "error": "Fehler",
       "hidden_badge": "🙈 Auf der Statusseite ausgeblendet",
@@ -994,7 +994,8 @@
       "resolved_prompt": "Vorfall behoben. Erfassen Sie jetzt eine Nachbesprechung, um Auswirkungen und Abhilfemaßnahmen zu dokumentieren.",
       "started": "Begonnen",
       "status": "Status",
-      "unhide_button": "👁️ Auf Statusseite anzeigen"
+      "unhide_button": "👁️ Auf Statusseite anzeigen",
+      "view_live": "🌐 Live-Vorfall anzeigen"
     },
     "create_incident": "Vorfall erstellen",
     "incident_details": "Vorfalldetails",
