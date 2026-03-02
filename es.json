@@ -19,6 +19,7 @@
       "agents": "Agentes",
       "captcha_logs": "Troncos captcha",
       "spam_keywords": "Palabras clave del Spam",
+      "sp_mon": "Páginas de estado y monitores",
       "telegram_tests": "Tests de telegrama",
       "configuration": "Configuración",
       "configuration_menu": "Configuración",

@@ -22,6 +22,7 @@
       "agents": "Agentes",
       "captcha_logs": "Logs de captcha",
       "spam_keywords": "Palavras-chave de spam",
+      "sp_mon": "Páginas de status e monitores",
       "telegram_tests": "Testes do Telegram",
       "configuration": "Configuração",
       "configuration_menu": "Configuração",
