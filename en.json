@@ -12,6 +12,14 @@
       "export": "I understand that I should export my data before deletion, or I'm okay with losing all my data permanently.",
       "final": "I understand this action is <strong>permanent and cannot be undone</strong>."
     },
+    "reason": {
+      "label": "Reason for leaving (optional)",
+      "note": "This is optional and only used to improve our service.",
+      "placeholder": "Help us improve by sharing why you're leaving..."
+    },
+    "step_up": {
+      "heading": "Confirm your identity to proceed"
+    },
     "delete_button": "Permanently Delete My Account",
     "export_first": {
       "cta": "Go to Data Export",
@@ -1469,6 +1477,12 @@
     "current_password": "Current password",
     "email_cannot_be_changed": "Email cannot be changed",
     "gravatar_help": "To change your avatar, head to <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> and update your profile picture.",
+    "avatar": {
+      "custom_help": "Custom avatar is generated from your email via local avatar API.",
+      "source_custom": "Custom (local avatar API)",
+      "source_gravatar": "Gravatar",
+      "source_label": "Avatar source"
+    },
     "heading": "Profile Information",
     "new_password": "New password",
     "password": {
@@ -1518,10 +1532,38 @@
     }
   },
   "security": {
+    "api_keys": {
+      "active_label": "Active",
+      "create_button": "Create API Key",
+      "heading": "API Keys",
+      "name_hint": "Give the key a name so you can recognize it later.",
+      "name_label": "Key name",
+      "no_keys": "No API keys created yet.",
+      "not_available": "API access is not available on your current plan. <a href=\"/user/billing?open_pricing=1\">Upgrade</a> to enable API keys.",
+      "revoke_button": "Revoke",
+      "status": {
+        "active": "Active",
+        "revoked": "Revoked"
+      },
+      "table": {
+        "created": "Created",
+        "last_used": "Last used",
+        "name": "Name",
+        "prefix": "Prefix",
+        "status": "Status"
+      },
+      "token_once_hint": "You will only see the token once."
+    },
     "authenticator_code": "Authenticator code",
     "backup_code": "Backup code",
+    "backup_code_label": "Backup Code (if no 2FA device)",
+    "backup_code_placeholder": "Backup code (optional)",
+    "confirm_password": "Confirm Password",
+    "confirm_password_placeholder": "Enter your current password",
     "confirm_using_2fa": "Confirm using one of the following:",
     "or_enter_manually": "Or enter this code manually:",
+    "otp_code_label": "2FA Code (if enabled)",
+    "otp_code_placeholder": "6-digit code (optional)",
     "save_backup_codes": "Save these codes in a safe place. You will not be able to see them again!",
     "scan_qr_code": "Scan the QR code with your authenticator app:",
     "security_keys": {

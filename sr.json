@@ -12,6 +12,14 @@
       "export": "Разумем да треба да извезем податке пре брисања, или прихватам да ће сви моји подаци бити трајно изгубљени.",
       "final": "Разумем да је ова радња <strong>трајна и не може се поништити</strong>."
     },
+    "reason": {
+      "label": "Разлог одласка (опционо)",
+      "note": "Ово је опционо и користи се само да бисмо побољшали нашу услугу.",
+      "placeholder": "Помозите нам да се побољшамо тако што ћете поделити зашто одлазите..."
+    },
+    "step_up": {
+      "heading": "Потврдите свој идентитет да бисте наставили"
+    },
     "delete_button": "Трајно обриши мој налог",
     "export_first": {
       "cta": "Иди на страницу за извоз података",
@@ -104,6 +112,7 @@
       "marketing": "Маркетинг",
       "misc": "Остало",
       "monitoring_captcha": "Мониторинг и CAPTCHA",
+      "monitoring": "Мониторинг",
       "notification_channels": "Канали обавештења",
       "onboarding_steps": "Кораци за увођење",
       "operations": "Операције",
@@ -251,6 +260,8 @@
     "branding": "брендирање",
     "breadcrumb": "Наплата и план",
     "check_interval": "интервал провере",
+    "check_interval_sublabel": "Минимална учесталост провере монитора",
+    "check_interval_help": "Монитори се извршавају најмање на сваких {{seconds}} секунди на вашем плану.",
     "choose_best_plan": "Изаберите најбољи план за потребе вашег бизниса.",
     "contact_support": "контактирајте подршку",
     "current_period": "Тренутни период",
@@ -269,6 +280,9 @@
     "full_embeds_widgets": "Потпуне уградње и виџети",
     "full_support": "Пуна подршка",
     "global_locations": "Глобалне локације",
+    "check_locations": "Локације провере",
+    "check_locations_sublabel": "Географске тачке провере",
+    "check_locations_help": "Број глобалних локација које се користе за проверу доступности.",
     "grace": {
       "upgrade_within_prefix": "Надоградите у року од",
       "upgrade_within_suffix": "да бисте задржали премијум функције.",
@@ -298,6 +312,7 @@
     "per_month": "/месец",
     "period": "Период",
     "plan_status": "Статус плана",
+    "admin_set_plan": "План конфигурисан од стране администратора",
     "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
     "price": "Цена",
     "private_status_pages": "Приватне статус странице",
@@ -435,6 +450,7 @@
     "usage": {
       "active_subscribers_help": "Активни претплатници на свим страницама.",
       "monitors_busiest_help": "Број монитора на вашој најактивнијој статус страници.",
+      "monitors_per_page_help": "Вршни број монитора на вашој најактивнијој статус страници у односу на лимит по страници.",
       "total_published_status_pages": "Укупно објављених статус страница у вашем радном простору."
     },
     "usage_snapshot": "Преглед употребе",
@@ -1444,6 +1460,12 @@
     "current_password": "Тренутна лозинка",
     "email_cannot_be_changed": "Е-пошта се не може променити",
     "gravatar_help": "Да бисте променили ваш аватар, идите на <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Граватар</a> и ажурирајте вашу профилну слику.",
+    "avatar": {
+      "custom_help": "Прилагођени аватар се генерише из ваше е-поште преко локалног API-ја за аватаре.",
+      "source_custom": "Прилагођено (локални API за аватаре)",
+      "source_gravatar": "Gravatar",
+      "source_label": "Извор аватара"
+    },
     "heading": "Информације о профилу",
     "new_password": "Нова лозинка",
     "password": {
@@ -1497,6 +1519,34 @@
     "backup_code": "Резервни код",
     "confirm_using_2fa": "Потврдите једном од следећих опција:",
     "or_enter_manually": "Или унеsite овај код ручно:",
+    "api_keys": {
+      "active_label": "Активни",
+      "create_button": "Креирај API кључ",
+      "heading": "API кључеви",
+      "name_hint": "Дајте му назив да бисте га касније могли препознати.",
+      "name_label": "Назив кључа",
+      "no_keys": "Још нисте креирали API кључеве.",
+      "not_available": "API приступ није доступан у вашем тренутном плану. <a href=\"/user/billing?open_pricing=1\">Надоградите</a> да бисте омогућили API кључеве.",
+      "revoke_button": "Опозови",
+      "status": {
+        "active": "Активан",
+        "revoked": "Опозван"
+      },
+      "table": {
+        "created": "Креиран",
+        "last_used": "Последња употреба",
+        "name": "Назив",
+        "prefix": "Префикс",
+        "status": "Статус"
+      },
+      "token_once_hint": "Токен ћете видети само једном."
+    },
+    "backup_code_label": "Резервни код (ако немате 2FA уређај)",
+    "backup_code_placeholder": "Резервни код (опционо)",
+    "confirm_password": "Потврдите лозинку",
+    "confirm_password_placeholder": "Унесите вашу тренутну лозинку",
+    "otp_code_label": "2FA код (ако је омогућено)",
+    "otp_code_placeholder": "Код од 6 цифара (опционо)",
     "save_backup_codes": "Сачувајте ове кодове на безбедном месту. Нећете моћи поново да их видите!",
     "scan_qr_code": "Скенирајте QР код помоћу ваше апликације за аутентификацију:",
     "security_keys": {

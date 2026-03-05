@@ -15,6 +15,7 @@
       "impersonation_audit": "Auditoría de la personalidad",
       "user_admin_audit": "Auditoría del personal",
       "monitoring_captcha": "Monitorización &quot; Captcha",
+      "monitoring": "Monitorización",
       "regions": "Regiones",
       "agents": "Agentes",
       "captcha_logs": "Troncos captcha",
@@ -1924,10 +1925,38 @@
     }
   },
   "security": {
+    "api_keys": {
+      "active_label": "Activas",
+      "create_button": "Crear clave API",
+      "heading": "Claves API",
+      "name_hint": "Ponle un nombre para poder reconocerla más tarde.",
+      "name_label": "Nombre de la clave",
+      "no_keys": "Aún no has creado claves API.",
+      "not_available": "El acceso a la API no está disponible en tu plan actual. <a href=\"/user/billing?open_pricing=1\">Mejora</a> para habilitar las claves API.",
+      "revoke_button": "Revocar",
+      "status": {
+        "active": "Activa",
+        "revoked": "Revocada"
+      },
+      "table": {
+        "created": "Creada",
+        "last_used": "Último uso",
+        "name": "Nombre",
+        "prefix": "Prefijo",
+        "status": "Estado"
+      },
+      "token_once_hint": "Solo verás el token una vez."
+    },
     "two_factor_auth_description": "La autenticación de dos factores añade una capa adicional de seguridad a tu cuenta al requerir algo más que una contraseña para iniciar sesión.",
     "set_up_authenticator_app": "Configurar app de autenticación",
     "scan_qr_code": "Escanea el código QR con tu aplicación de autenticación:",
     "or_enter_manually": "O introduce este código manualmente:",
+    "backup_code_label": "Código de respaldo (si no tienes dispositivo 2FA)",
+    "backup_code_placeholder": "Código de respaldo (opcional)",
+    "confirm_password": "Confirmar contraseña",
+    "confirm_password_placeholder": "Introduce tu contraseña actual",
+    "otp_code_label": "Código 2FA (si está habilitado)",
+    "otp_code_placeholder": "Código de 6 dígitos (opcional)",
     "two_factor": {
       "not_available": "La autenticación de dos factores no está disponible en tu plan actual. <a href=\"/user/billing\">Actualiza</a> para habilitar esta función de seguridad.",
       "enabled_message": "La 2FA está <strong>activada</strong> actualmente para tu cuenta.",
@@ -1985,6 +2014,12 @@
     "breadcrumb_account": "Cuenta",
     "heading": "Información sobre el perfil",
     "gravatar_help": "Para cambiar su avatar, diríjase a <a href=\"__PH0__ target=\"_blank\" rel=\"noopener\">Gravatar_</a> y actualice su imagen de perfil.",
+    "avatar": {
+      "custom_help": "El avatar personalizado se genera a partir de tu correo mediante la API local de avatares.",
+      "source_custom": "Personalizado (API local de avatares)",
+      "source_gravatar": "Gravatar",
+      "source_label": "Origen del avatar"
+    },
     "email_cannot_be_changed": "El correo electrónico no se puede cambiar",
     "current_password": "Contraseña actual",
     "new_password": "Nueva contraseña",
@@ -2140,6 +2175,14 @@
       "export": "Entiendo que debo exportar mis datos antes de la eliminación, o acepto perder todos mis datos de forma permanente.",
       "final": "Entiendo que esta acción es <strong>permanente y no se puede deshacer</strong>."
     },
+    "reason": {
+      "label": "Motivo para irte (opcional)",
+      "note": "Esto es opcional y solo se usa para mejorar nuestro servicio.",
+      "placeholder": "Ayúdanos a mejorar compartiendo por qué te vas..."
+    },
+    "step_up": {
+      "heading": "Confirma tu identidad para continuar"
+    },
     "delete_button": "Eliminar mi cuenta de forma permanente",
     "swal": {
       "final_warning": {
@@ -2172,6 +2215,7 @@
     "current_plan": "Plan actual",
     "understand_subscription": "Comprende qué incluye tu suscripción",
     "plan_status": "Estado del plan",
+    "admin_set_plan": "Plan configurado por el administrador",
     "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
     "included_features": "📦 Funciones incluidas",
     "private_status_pages": "Páginas de estado privadas",
@@ -2257,6 +2301,7 @@
     "usage": {
       "total_published_status_pages": "Total de páginas de estado publicadas en tu espacio de trabajo.",
       "monitors_busiest_help": "Número de monitores en tu página de estado más activa.",
+      "monitors_per_page_help": "Pico de monitores en tu página de estado más activa frente al límite por página.",
       "active_subscribers_help": "Suscriptores activos en todas las páginas."
     },
     "transaction_type": {
@@ -2350,10 +2395,15 @@
     "support_suffix": "soporte",
     "full_support": "Soporte completo",
     "check_interval": "intervalo de verificación",
+    "check_interval_sublabel": "Frecuencia mínima de comprobación del monitor",
+    "check_interval_help": "Los monitores se ejecutan al menos cada {{seconds}} segundos en tu plan.",
     "flexible_check_interval": "Intervalo de verificación flexible",
     "monitoring_location": "ubicación de monitoreo",
     "monitoring_locations": "ubicaciones de monitoreo",
     "global_locations": "Ubicaciones globales",
+    "check_locations": "Ubicaciones de comprobación",
+    "check_locations_sublabel": "Puntos de comprobación geográficos",
+    "check_locations_help": "Número de ubicaciones globales usadas para verificar el tiempo de actividad.",
     "notifications": "notificaciones",
     "all_notification_channels": "Todos los canales de notificación",
     "branding": "marca",

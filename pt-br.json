@@ -18,6 +18,7 @@
       "impersonation_audit": "Auditoria de impersonação",
       "user_admin_audit": "Auditoria de usuário/admin",
       "monitoring_captcha": "Monitoramento e Captcha",
+      "monitoring": "Monitoramento",
       "regions": "Regiões",
       "agents": "Agentes",
       "captcha_logs": "Logs de captcha",
@@ -1924,6 +1925,34 @@
     "set_up_authenticator_app": "Configurar app autenticador",
     "scan_qr_code": "Escaneie o QR code com seu app autenticador:",
     "or_enter_manually": "Ou insira este código manualmente:",
+    "api_keys": {
+      "active_label": "Ativas",
+      "create_button": "Criar chave de API",
+      "heading": "Chaves de API",
+      "name_hint": "Dê um nome para poder reconhecê-la mais tarde.",
+      "name_label": "Nome da chave",
+      "no_keys": "Você ainda não criou chaves de API.",
+      "not_available": "O acesso à API não está disponível no seu plano atual. <a href=\"/user/billing?open_pricing=1\">Faça upgrade</a> para habilitar chaves de API.",
+      "revoke_button": "Revogar",
+      "status": {
+        "active": "Ativa",
+        "revoked": "Revogada"
+      },
+      "table": {
+        "created": "Criada",
+        "last_used": "Último uso",
+        "name": "Nome",
+        "prefix": "Prefixo",
+        "status": "Status"
+      },
+      "token_once_hint": "Você só verá o token uma vez."
+    },
+    "backup_code_label": "Código de backup (se você não tiver um dispositivo 2FA)",
+    "backup_code_placeholder": "Código de backup (opcional)",
+    "confirm_password": "Confirmar senha",
+    "confirm_password_placeholder": "Digite sua senha atual",
+    "otp_code_label": "Código 2FA (se ativado)",
+    "otp_code_placeholder": "Código de 6 dígitos (opcional)",
     "two_factor": {
       "not_available": "A autenticação de dois fatores não está disponível no seu plano atual. <a href=\"/user/billing\">Faça upgrade</a> para habilitar este recurso de segurança.",
       "enabled_message": "A 2FA está <strong>ativada</strong> na sua conta.",
@@ -1981,6 +2010,12 @@
     "breadcrumb_account": "Conta",
     "heading": "Informações do perfil",
     "gravatar_help": "Para alterar seu avatar, acesse o <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> e atualize sua foto de perfil.",
+    "avatar": {
+      "custom_help": "O avatar personalizado é gerado a partir do seu e-mail via a API local de avatares.",
+      "source_custom": "Personalizado (API local de avatares)",
+      "source_gravatar": "Gravatar",
+      "source_label": "Fonte do avatar"
+    },
     "email_cannot_be_changed": "O e-mail não pode ser alterado",
     "current_password": "Senha atual",
     "new_password": "Nova senha",
@@ -2136,6 +2171,14 @@
       "export": "Eu entendo que devo exportar meus dados antes da exclusão, ou aceito perder todos os meus dados permanentemente.",
       "final": "Eu entendo que esta ação é <strong>permanente e não pode ser desfeita</strong>."
     },
+    "reason": {
+      "label": "Motivo da saída (opcional)",
+      "note": "Isso é opcional e usado apenas para melhorar nosso serviço.",
+      "placeholder": "Ajude-nos a melhorar compartilhando por que você está saindo..."
+    },
+    "step_up": {
+      "heading": "Confirme sua identidade para continuar"
+    },
     "delete_button": "Excluir minha conta permanentemente",
     "swal": {
       "final_warning": {
@@ -2168,6 +2211,7 @@
     "current_plan": "Plano atual",
     "understand_subscription": "Entenda o que sua assinatura inclui",
     "plan_status": "Status do plano",
+    "admin_set_plan": "Plano configurado pelo administrador",
     "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
     "included_features": "📦 Recursos incluídos",
     "private_status_pages": "Páginas de status privadas",
@@ -2253,6 +2297,7 @@
     "usage": {
       "total_published_status_pages": "Total de páginas de status publicadas no seu workspace.",
       "monitors_busiest_help": "Quantidade de monitores na sua página de status mais ativa.",
+      "monitors_per_page_help": "Pico de monitores na sua página de status mais ativa em comparação com o limite por página.",
       "active_subscribers_help": "Assinantes ativos em todas as páginas."
     },
     "transaction_type": {
@@ -2346,10 +2391,15 @@
     "support_suffix": "suporte",
     "full_support": "Suporte completo",
     "check_interval": "intervalo de verificação",
+    "check_interval_sublabel": "Frequência mínima de verificação do monitor",
+    "check_interval_help": "Os monitores são executados pelo menos a cada {{seconds}} segundos no seu plano.",
     "flexible_check_interval": "Intervalo de verificação flexível",
     "monitoring_location": "localização de monitoramento",
     "monitoring_locations": "localizações de monitoramento",
     "global_locations": "Localizações globais",
+    "check_locations": "Locais de verificação",
+    "check_locations_sublabel": "Pontos de verificação geográficos",
+    "check_locations_help": "Número de locais globais usados para verificar a disponibilidade.",
     "notifications": "notificações",
     "all_notification_channels": "Todos os canais de notificação",
     "branding": "marca",

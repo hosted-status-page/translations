@@ -18,6 +18,7 @@
       "impersonation_audit": "Impersonation-Audit",
       "user_admin_audit": "Benutzer-Admin-Audit",
       "monitoring_captcha": "Überwachung & Captcha",
+      "monitoring": "Überwachung",
       "regions": "Regionen",
       "agents": "Agenten",
       "captcha_logs": "Captcha-Protokolle",
@@ -1920,10 +1921,38 @@
     }
   },
   "security": {
+    "api_keys": {
+      "active_label": "Aktiv",
+      "create_button": "API-Schlüssel erstellen",
+      "heading": "API-Schlüssel",
+      "name_hint": "Geben Sie dem Schlüssel einen Namen, damit Sie ihn später wiedererkennen.",
+      "name_label": "Schlüsselname",
+      "no_keys": "Noch keine API-Schlüssel erstellt.",
+      "not_available": "API-Zugriff ist in Ihrem aktuellen Plan nicht verfügbar. <a href=\"/user/billing?open_pricing=1\">Upgrade</a>, um API-Schlüssel zu aktivieren.",
+      "revoke_button": "Widerrufen",
+      "status": {
+        "active": "Aktiv",
+        "revoked": "Widerrufen"
+      },
+      "table": {
+        "created": "Erstellt",
+        "last_used": "Zuletzt verwendet",
+        "name": "Name",
+        "prefix": "Präfix",
+        "status": "Status"
+      },
+      "token_once_hint": "Sie sehen das Token nur einmal."
+    },
     "two_factor_auth_description": "Die Zwei-Faktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene für Ihr Konto, indem sie beim Anmelden mehr als nur ein Passwort erfordert.",
     "set_up_authenticator_app": "Authenticator-App einrichten",
     "scan_qr_code": "Scannen Sie den QR-Code mit Ihrer Authenticator-App:",
     "or_enter_manually": "Oder geben Sie diesen Code manuell ein:",
+    "backup_code_label": "Backup-Code (wenn kein 2FA-Gerät)",
+    "backup_code_placeholder": "Backup-Code (optional)",
+    "confirm_password": "Passwort bestätigen",
+    "confirm_password_placeholder": "Geben Sie Ihr aktuelles Passwort ein",
+    "otp_code_label": "2FA-Code (falls aktiviert)",
+    "otp_code_placeholder": "6-stelliger Code (optional)",
     "two_factor": {
       "not_available": "Die Zwei-Faktor-Authentifizierung ist in Ihrem aktuellen Plan nicht verfügbar. <a href=\"/user/billing\">Upgraden</a>, um diese Sicherheitsfunktion zu aktivieren.",
       "enabled_message": "2FA ist für Ihr Konto derzeit <strong>aktiviert</strong>.",
@@ -1981,6 +2010,12 @@
     "breadcrumb_account": "Konto",
     "heading": "Profilinformationen",
     "gravatar_help": "Um Ihren Avatar zu ändern, besuchen Sie <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> und aktualisieren Sie Ihr Profilbild.",
+    "avatar": {
+      "custom_help": "Der benutzerdefinierte Avatar wird aus Ihrer E-Mail über eine lokale Avatar-API erzeugt.",
+      "source_custom": "Benutzerdefiniert (lokale Avatar-API)",
+      "source_gravatar": "Gravatar",
+      "source_label": "Avatar-Quelle"
+    },
     "email_cannot_be_changed": "E-Mail kann nicht geändert werden",
     "current_password": "Aktuelles Passwort",
     "new_password": "Neues Passwort",
@@ -2136,6 +2171,14 @@
       "export": "Ich verstehe, dass ich meine Daten vor dem Löschen exportieren sollte, oder ich akzeptiere, dass alle meine Daten dauerhaft verloren gehen.",
       "final": "Ich verstehe, dass diese Aktion <strong>dauerhaft ist und nicht rückgängig gemacht werden kann</strong>."
     },
+    "reason": {
+      "label": "Grund für die Kündigung (optional)",
+      "note": "Optional und wird nur zur Verbesserung unseres Services verwendet.",
+      "placeholder": "Hilf uns, besser zu werden, indem du sagst, warum du gehst..."
+    },
+    "step_up": {
+      "heading": "Bestätigen Sie Ihre Identität, um fortzufahren"
+    },
     "delete_button": "Mein Konto dauerhaft löschen",
     "swal": {
       "final_warning": {
@@ -2253,6 +2296,7 @@
     "usage": {
       "total_published_status_pages": "Gesamtzahl veröffentlichter Statusseiten in Ihrem Workspace.",
       "monitors_busiest_help": "Monitoranzahl auf Ihrer aktivsten Statusseite.",
+      "monitors_per_page_help": "Höchste Monitoranzahl auf Ihrer aktivsten Statusseite im Vergleich zum Pro-Seite-Limit.",
       "active_subscribers_help": "Aktive Abonnenten über alle Seiten."
     },
     "transaction_type": {
@@ -2346,12 +2390,18 @@
     "support_suffix": "Support",
     "full_support": "Vollständiger Support",
     "check_interval": "Prüfintervall",
+    "check_interval_help": "Monitore werden in Ihrem Plan mindestens alle {{seconds}} Sekunden ausgeführt.",
+    "check_interval_sublabel": "Minimale Prüfhäufigkeit der Monitore",
+    "check_locations": "Prüfstandorte",
+    "check_locations_help": "Anzahl globaler Standorte, die zur Verfügbarkeitsprüfung verwendet werden.",
+    "check_locations_sublabel": "Geografische Prüfstandorte",
     "flexible_check_interval": "Flexibles Prüfintervall",
     "monitoring_location": "Überwachungsstandort",
     "monitoring_locations": "Überwachungsstandorte",
     "global_locations": "Globale Standorte",
     "notifications": "Benachrichtigungen",
     "all_notification_channels": "Alle Benachrichtigungskanäle",
+    "admin_set_plan": "Plan vom Administrator konfiguriert",
     "branding": "Branding",
     "full_branding": "Vollständiges Branding",
     "embeds_widgets": "Embeds & Widgets",

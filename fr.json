@@ -18,6 +18,7 @@
       "impersonation_audit": "Audit d'usurpation",
       "user_admin_audit": "Audit utilisateur-admin",
       "monitoring_captcha": "Surveillance et Captcha",
+      "monitoring": "Surveillance",
       "regions": "Régions",
       "agents": "Agents",
       "captcha_logs": "Journaux Captcha",
@@ -1936,6 +1937,34 @@
     "set_up_authenticator_app": "Configurer une application d’authentification",
     "scan_qr_code": "Scannez le code QR avec votre application d’authentification :",
     "or_enter_manually": "Ou saisissez ce code manuellement :",
+    "api_keys": {
+      "active_label": "Actives",
+      "create_button": "Créer une clé API",
+      "heading": "Clés API",
+      "name_hint": "Donnez-lui un nom pour pouvoir la reconnaître plus tard.",
+      "name_label": "Nom de la clé",
+      "no_keys": "Vous n'avez pas encore créé de clés API.",
+      "not_available": "L’accès à l’API n’est pas disponible dans votre offre actuelle. <a href=\"/user/billing?open_pricing=1\">Mettez à niveau</a> pour activer les clés API.",
+      "revoke_button": "Révoquer",
+      "status": {
+        "active": "Active",
+        "revoked": "Révoquée"
+      },
+      "table": {
+        "created": "Créée",
+        "last_used": "Dernière utilisation",
+        "name": "Nom",
+        "prefix": "Préfixe",
+        "status": "Statut"
+      },
+      "token_once_hint": "Vous ne verrez le jeton qu’une seule fois."
+    },
+    "backup_code_label": "Code de secours (si vous n’avez pas d’appareil 2FA)",
+    "backup_code_placeholder": "Code de secours (optionnel)",
+    "confirm_password": "Confirmer le mot de passe",
+    "confirm_password_placeholder": "Entrez votre mot de passe actuel",
+    "otp_code_label": "Code 2FA (si activé)",
+    "otp_code_placeholder": "Code à 6 chiffres (optionnel)",
     "two_factor": {
       "not_available": "L’authentification à deux facteurs n’est pas disponible dans votre offre actuelle. <a href=\"/user/billing\">Passez à une offre supérieure</a> pour activer cette fonctionnalité.",
       "enabled_message": "La 2FA est actuellement <strong>activée</strong> pour votre compte.",
@@ -1993,6 +2022,12 @@
     "breadcrumb_account": "Compte",
     "heading": "Informations du profil",
     "gravatar_help": "Pour changer votre avatar, rendez-vous sur <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> et mettez à jour votre photo de profil.",
+    "avatar": {
+      "custom_help": "L’avatar personnalisé est généré à partir de votre e-mail via l’API locale d’avatars.",
+      "source_custom": "Personnalisé (API locale d’avatars)",
+      "source_gravatar": "Gravatar",
+      "source_label": "Source de l’avatar"
+    },
     "email_cannot_be_changed": "L’e-mail ne peut pas être modifié",
     "current_password": "Mot de passe actuel",
     "new_password": "Nouveau mot de passe",
@@ -2148,6 +2183,14 @@
       "export": "Je comprends que je devrais exporter mes données avant la suppression, ou j’accepte de perdre définitivement toutes mes données.",
       "final": "Je comprends que cette action est <strong>définitive et irréversible</strong>."
     },
+    "reason": {
+      "label": "Raison de votre départ (optionnel)",
+      "note": "Ceci est optionnel et n’est utilisé que pour améliorer notre service.",
+      "placeholder": "Aidez-nous à nous améliorer en partageant pourquoi vous partez..."
+    },
+    "step_up": {
+      "heading": "Confirmez votre identité pour continuer"
+    },
     "delete_button": "Supprimer mon compte définitivement",
     "swal": {
       "final_warning": {
@@ -2180,6 +2223,7 @@
     "current_plan": "Forfait actuel",
     "understand_subscription": "Comprenez ce que votre abonnement inclut",
     "plan_status": "Statut du forfait",
+    "admin_set_plan": "Forfait configuré par un administrateur",
     "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
     "included_features": "📦 Fonctionnalités incluses",
     "private_status_pages": "Pages de statut privées",
@@ -2265,6 +2309,7 @@
     "usage": {
       "total_published_status_pages": "Total des pages de statut publiées dans votre espace de travail.",
       "monitors_busiest_help": "Nombre de moniteurs sur votre page de statut la plus active.",
+      "monitors_per_page_help": "Nombre maximal de moniteurs sur votre page de statut la plus active par rapport à la limite par page.",
       "active_subscribers_help": "Abonnés actifs sur toutes les pages."
     },
     "transaction_type": {
@@ -2358,10 +2403,15 @@
     "support_suffix": "support",
     "full_support": "Support complet",
     "check_interval": "intervalle de vérification",
+    "check_interval_sublabel": "Fréquence minimale de vérification du moniteur",
+    "check_interval_help": "Les moniteurs s’exécutent au moins toutes les {{seconds}} secondes avec votre forfait.",
     "flexible_check_interval": "Intervalle de vérification flexible",
     "monitoring_location": "emplacement de surveillance",
     "monitoring_locations": "emplacements de surveillance",
     "global_locations": "Emplacements globaux",
+    "check_locations": "Emplacements de vérification",
+    "check_locations_sublabel": "Points de vérification géographiques",
+    "check_locations_help": "Nombre d’emplacements mondiaux utilisés pour vérifier la disponibilité.",
     "notifications": "notifications",
     "all_notification_channels": "Tous les canaux de notification",
     "branding": "image de marque",

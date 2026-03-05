@@ -18,6 +18,7 @@
       "impersonation_audit": "مراجعة الانتحال",
       "user_admin_audit": "مراجعة مشرف المستخدمين",
       "monitoring_captcha": "المراقبة والكابتشا",
+      "monitoring": "المراقبة",
       "regions": "المناطق",
       "agents": "الوكلاء",
       "captcha_logs": "سجلات الكابتشا",
@@ -1932,10 +1933,38 @@
     }
   },
   "security": {
+    "api_keys": {
+      "active_label": "نشط",
+      "create_button": "إنشاء مفتاح API",
+      "heading": "مفاتيح API",
+      "name_hint": "امنح المفتاح اسمًا لتتمكن من التعرف عليه لاحقًا.",
+      "name_label": "اسم المفتاح",
+      "no_keys": "لم يتم إنشاء أي مفاتيح API بعد.",
+      "not_available": "لا تتوفر إمكانية الوصول إلى API ضمن خطتك الحالية. <a href=\"/user/billing?open_pricing=1\">قم بالترقية</a> لتمكين مفاتيح API.",
+      "revoke_button": "إلغاء",
+      "status": {
+        "active": "نشط",
+        "revoked": "ملغي"
+      },
+      "table": {
+        "created": "تاريخ الإنشاء",
+        "last_used": "آخر استخدام",
+        "name": "الاسم",
+        "prefix": "البادئة",
+        "status": "الحالة"
+      },
+      "token_once_hint": "سترى الرمز مرة واحدة فقط."
+    },
     "two_factor_auth_description": "توفر المصادقة الثنائية طبقة أمان إضافية لحسابك من خلال طلب أكثر من كلمة مرور عند تسجيل الدخول.",
     "set_up_authenticator_app": "إعداد تطبيق المصادقة",
     "scan_qr_code": "امسح رمز QR باستخدام تطبيق المصادقة لديك:",
     "or_enter_manually": "أو أدخل هذا الرمز يدويًا:",
+    "backup_code_label": "رمز احتياطي (في حال عدم وجود جهاز 2FA)",
+    "backup_code_placeholder": "رمز احتياطي (اختياري)",
+    "confirm_password": "تأكيد كلمة المرور",
+    "confirm_password_placeholder": "أدخل كلمة المرور الحالية",
+    "otp_code_label": "رمز 2FA (إن كان مفعّلًا)",
+    "otp_code_placeholder": "رمز من 6 أرقام (اختياري)",
     "two_factor": {
       "not_available": "المصادقة الثنائية غير متاحة في خطتك الحالية. <a href=\"/user/billing\">قم بالترقية</a> لتفعيل هذه الميزة الأمنية.",
       "enabled_message": "المصادقة الثنائية <strong>مفعّلة</strong> حاليًا لحسابك.",
@@ -1993,6 +2022,12 @@
     "breadcrumb_account": "الحساب",
     "heading": "معلومات الملف الشخصي",
     "gravatar_help": "لتغيير صورتك الرمزية، توجه إلى <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> وحدّث صورة ملفك الشخصي.",
+    "avatar": {
+      "custom_help": "يتم إنشاء الصورة الرمزية المخصصة من بريدك الإلكتروني عبر API الصور الرمزية المحلية.",
+      "source_custom": "مخصص (API الصور الرمزية المحلية)",
+      "source_gravatar": "Gravatar",
+      "source_label": "مصدر الصورة الرمزية"
+    },
     "email_cannot_be_changed": "لا يمكن تغيير البريد الإلكتروني",
     "current_password": "كلمة المرور الحالية",
     "new_password": "كلمة المرور الجديدة",
@@ -2148,6 +2183,14 @@
       "export": "أفهم أنه ينبغي عليّ تصدير بياناتي قبل الحذف، أو أقبل بأن جميع بياناتي ستفقد نهائيًا.",
       "final": "أفهم أن هذا الإجراء <strong>نهائي ولا يمكن التراجع عنه</strong>."
     },
+    "reason": {
+      "label": "سبب المغادرة (اختياري)",
+      "note": "هذا اختياري ويُستخدم فقط لتحسين خدمتنا.",
+      "placeholder": "ساعدنا على التحسين بمشاركة سبب مغادرتك..."
+    },
+    "step_up": {
+      "heading": "أكّد هويتك للمتابعة"
+    },
     "delete_button": "حذف حسابي نهائيًا",
     "swal": {
       "final_warning": {
@@ -2265,6 +2308,7 @@
     "usage": {
       "total_published_status_pages": "إجمالي صفحات الحالة المنشورة في مساحة العمل الخاصة بك.",
       "monitors_busiest_help": "عدد المراقبات في أكثر صفحات الحالة نشاطًا.",
+      "monitors_per_page_help": "أعلى عدد للمراقبات في أكثر صفحات الحالة نشاطًا مقارنةً بالحد لكل صفحة.",
       "active_subscribers_help": "المشتركون النشطون عبر جميع الصفحات."
     },
     "transaction_type": {
@@ -2358,12 +2402,18 @@
     "support_suffix": "دعم",
     "full_support": "دعم كامل",
     "check_interval": "فترة الفحص",
+    "check_interval_help": "تعمل المراقبات مرة واحدة على الأقل كل {{seconds}} ثانية ضمن خطتك.",
+    "check_interval_sublabel": "الحد الأدنى لتكرار فحص المراقبات",
+    "check_locations": "مواقع الفحص",
+    "check_locations_help": "عدد المواقع العالمية المستخدمة للتحقق من التوفر.",
+    "check_locations_sublabel": "نقاط فحص جغرافية",
     "flexible_check_interval": "فترة فحص مرنة",
     "monitoring_location": "موقع المراقبة",
     "monitoring_locations": "مواقع المراقبة",
     "global_locations": "مواقع عالمية",
     "notifications": "إشعارات",
     "all_notification_channels": "جميع قنوات الإشعارات",
+    "admin_set_plan": "الخطة مُعدة بواسطة المسؤول",
     "branding": "العلامة التجارية",
     "full_branding": "علامة تجارية كاملة",
     "embeds_widgets": "عمليات التضمين والأدوات",
