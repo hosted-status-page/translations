@@ -3002,7 +3002,22 @@
     "when_maintenance_complete": "Wann die Wartung abgeschlossen sein wird"
   },
   "monitor_locations": {
-    "primary": "Primär"
+    "defaults_alert_link": "Monitor bearbeiten",
+    "defaults_alert_middle": "ignorieren diese Standardwerte.",
+    "defaults_alert_override_label": "Regionen pro Monitor",
+    "defaults_alert_prefix": "Standardstandorte gelten für das gesamte Konto. Monitore mit benutzerdefinierten",
+    "defaults_alert_suffix": "um ihn anzupassen.",
+    "defaults_intro_override_path": "Monitor bearbeiten -> Regionen pro Monitor",
+    "defaults_intro_prefix": "Dies sind Ihre Standard-Monitorstandorte. Sie gelten für alle Monitore, sofern Sie einen Monitor nicht überschreiben unter",
+    "defaults_intro_suffix": "Kostenlose Pläne bleiben auf die primäre Region der Plattform beschränkt, während bezahlte Pläne bis zu ihrem Planlimit auswählen können.",
+    "error_free_plan_cannot_modify": "Nutzer des kostenlosen Plans können Monitorstandorte nicht ändern. Bitte upgraden Sie Ihren Plan, um zusätzliche Standorte auszuwählen.",
+    "error_select_at_least_one": "Wählen Sie mindestens einen Standort aus.",
+    "primary": "Primär",
+    "swal": {
+      "upgrade_button": "Upgrade",
+      "upgrade_required_text": "Nutzer des kostenlosen Plans können Monitorstandorte nicht ändern. Bitte upgraden Sie Ihren Plan, um zusätzliche Standorte auszuwählen.",
+      "upgrade_required_title": "Upgrade erforderlich"
+    }
   },
   "monitors_advanced": {
     "allowed_downtime": "Erlaubte Ausfallzeit",

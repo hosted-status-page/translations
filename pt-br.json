@@ -3001,7 +3001,22 @@
     "when_maintenance_complete": "Quando a manutenção será concluída"
   },
   "monitor_locations": {
-    "primary": "Primário"
+    "defaults_alert_link": "Editar um monitor",
+    "defaults_alert_middle": "ignoram esses padrões.",
+    "defaults_alert_override_label": "Regiões por monitor",
+    "defaults_alert_prefix": "Os locais padrão são para toda a conta. Monitores com",
+    "defaults_alert_suffix": "para personalizá-lo.",
+    "defaults_intro_override_path": "Editar monitor -> Regiões por monitor",
+    "defaults_intro_prefix": "Estes são os locais padrão do seu monitor. Eles se aplicam a todos os monitores, a menos que você substitua um monitor em",
+    "defaults_intro_suffix": "Planos gratuitos permanecem bloqueados na região primária da plataforma, enquanto planos pagos podem escolher até o limite do plano.",
+    "error_free_plan_cannot_modify": "Usuários do plano gratuito não podem modificar os locais de monitoramento. Faça upgrade do seu plano para selecionar locais adicionais.",
+    "error_select_at_least_one": "Selecione pelo menos um local.",
+    "primary": "Primário",
+    "swal": {
+      "upgrade_button": "Fazer upgrade",
+      "upgrade_required_text": "Usuários do plano gratuito não podem modificar os locais de monitoramento. Faça upgrade do seu plano para selecionar locais adicionais.",
+      "upgrade_required_title": "Upgrade necessário"
+    }
   },
   "monitors_advanced": {
     "allowed_downtime": "Tempo de inatividade permitido",
