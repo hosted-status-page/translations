@@ -1674,6 +1674,9 @@
       "new_component": "Nova komponenta",
       "new_group": "Nova grupa",
       "no_url_specified": "URL nije naveden",
+      "manual_badge": "Ručno",
+      "manual_badge_title": "Nema povezanog monitora — status se određuje samo prema incidentima",
+      "override_badge_title": "Ručna nadjačavanje statusa je aktivna",
       "search_placeholder": "Pretražite komponente po nazivu...",
       "swal": {
         "assign_to_group": {
@@ -1702,6 +1705,19 @@
           "input_label": "Unesite naziv nove grupe",
           "input_placeholder": "Naziv grupe",
           "title": "Naziv grupe"
+        },
+        "override": {
+          "confirm": "Primijeni",
+          "help_prefix": "Ručno postavite prikazani status za",
+          "help_suffix": "bez obzira na rezultate monitora. Aktivni incidenti imaju prednost nad nadjačavanjima.",
+          "label": "Nadjačavanje statusa",
+          "none": "— Bez nadjačavanja (koristi status monitora) —",
+          "status_degraded": "Smanjene performanse",
+          "status_down": "Veliki prekid rada",
+          "status_maintenance": "Na održavanju",
+          "status_partial": "Djelomični prekid rada",
+          "status_up": "Operativno",
+          "title": "Postavi nadjačavanje statusa"
         }
       },
       "tip_ungrouped_other": "Komponente bez grupe će se prikazati u odjeljku \"Ostale komponente\" na vašoj status stranici",
@@ -1721,12 +1737,16 @@
         "group_deleted": "Grupa je obrisana",
         "init_no_status_page_selected": "Neuspjelo inicijaliziranje stranice - nije odabrana status stranica",
         "no_status_pages_available": "Nema dostupnih status stranica",
+        "override_applied": "Nadjačavanje statusa je primijenjeno",
+        "override_cleared": "Nadjačavanje statusa je uklonjeno",
+        "override_update_failed": "Nije uspjelo ažuriranje nadjačavanja",
         "rename_failed": "Preimenovanje nije uspelo",
         "save_failed": "Čuvanje nije uspelo",
         "update_failed": "Ažuriranje nije uspelo"
       },
       "tooltip_delete_component": "Izbriši komponentu",
       "tooltip_edit_component": "Uredi komponentu",
+      "tooltip_set_status_override": "Postavi nadjačavanje statusa",
       "tooltip_move_down": "Pomakni dolje",
       "tooltip_move_up": "Pomakni gore",
       "ungrouped": "Bez grupe",

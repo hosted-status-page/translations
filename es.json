@@ -436,6 +436,9 @@
       "new_component": "Nuevo componente",
       "new_group": "Nuevo grupo",
       "no_url_specified": "No se especificó URL",
+      "manual_badge": "Manual",
+      "manual_badge_title": "No hay monitor adjunto; el estado depende solo de los incidentes",
+      "override_badge_title": "Anulación manual de estado activa",
       "search_placeholder": "Buscar componentes por nombre...",
       "swal": {
         "assign_to_group": {
@@ -464,6 +467,19 @@
           "input_label": "Introduce un nombre para el nuevo grupo",
           "input_placeholder": "Nombre del grupo",
           "title": "Nombre del grupo"
+        },
+        "override": {
+          "confirm": "Aplicar",
+          "help_prefix": "Establece manualmente el estado mostrado para",
+          "help_suffix": "independientemente de los resultados del monitor. Los incidentes activos tienen prioridad sobre las anulaciones.",
+          "label": "Anulación de estado",
+          "none": "— Sin anulación (usar estado del monitor) —",
+          "status_degraded": "Rendimiento degradado",
+          "status_down": "Interrupción mayor",
+          "status_maintenance": "En mantenimiento",
+          "status_partial": "Interrupción parcial",
+          "status_up": "Operativo",
+          "title": "Establecer anulación de estado"
         }
       },
       "tip_ungrouped_other": "Los componentes sin grupo aparecerán en una sección \"Otros componentes\" en tu página de estado",
@@ -483,12 +499,16 @@
         "group_deleted": "Grupo eliminado",
         "init_no_status_page_selected": "No se pudo inicializar la página: no hay una página de estado seleccionada",
         "no_status_pages_available": "No hay páginas de estado disponibles",
+        "override_applied": "Anulación de estado aplicada",
+        "override_cleared": "Anulación de estado eliminada",
+        "override_update_failed": "No se pudo actualizar la anulación",
         "rename_failed": "Error al renombrar",
         "save_failed": "Error al guardar",
         "update_failed": "Error al actualizar"
       },
       "tooltip_delete_component": "Eliminar componente",
       "tooltip_edit_component": "Editar componente",
+      "tooltip_set_status_override": "Establecer anulación de estado",
       "tooltip_move_down": "Bajar",
       "tooltip_move_up": "Subir",
       "ungrouped": "Sin grupo",

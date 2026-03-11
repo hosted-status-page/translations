@@ -432,6 +432,9 @@
       "new_component": "Nouveau composant",
       "new_group": "Nouveau groupe",
       "no_url_specified": "Aucune URL renseignée",
+      "manual_badge": "Manuel",
+      "manual_badge_title": "Aucun moniteur associé — le statut dépend uniquement des incidents",
+      "override_badge_title": "Surcharge manuelle du statut active",
       "search_placeholder": "Rechercher des composants par nom...",
       "swal": {
         "assign_to_group": {
@@ -460,6 +463,19 @@
           "input_label": "Saisissez un nom pour le nouveau groupe",
           "input_placeholder": "Nom du groupe",
           "title": "Nom du groupe"
+        },
+        "override": {
+          "confirm": "Appliquer",
+          "help_prefix": "Définissez manuellement le statut affiché pour",
+          "help_suffix": "indépendamment des résultats des moniteurs. Les incidents actifs ont priorité sur les surcharges.",
+          "label": "Surcharge du statut",
+          "none": "— Aucune surcharge (utiliser le statut du moniteur) —",
+          "status_degraded": "Performance dégradée",
+          "status_down": "Panne majeure",
+          "status_maintenance": "En maintenance",
+          "status_partial": "Panne partielle",
+          "status_up": "Opérationnel",
+          "title": "Définir une surcharge du statut"
         }
       },
       "tip_ungrouped_other": "Les composants sans groupe apparaîtront dans une section \"Autres composants\" sur votre page de statut",
@@ -479,12 +495,16 @@
         "group_deleted": "Groupe supprimé",
         "init_no_status_page_selected": "Échec de l'initialisation de la page — aucune page de statut sélectionnée",
         "no_status_pages_available": "Aucune page de statut disponible",
+        "override_applied": "Surcharge du statut appliquée",
+        "override_cleared": "Surcharge du statut supprimée",
+        "override_update_failed": "Échec de la mise à jour de la surcharge",
         "rename_failed": "Échec du renommage",
         "save_failed": "Échec de l'enregistrement",
         "update_failed": "Échec de la mise à jour"
       },
       "tooltip_delete_component": "Supprimer le composant",
       "tooltip_edit_component": "Modifier le composant",
+      "tooltip_set_status_override": "Définir une surcharge du statut",
       "tooltip_move_down": "Descendre",
       "tooltip_move_up": "Monter",
       "ungrouped": "Non groupé",

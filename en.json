@@ -1674,6 +1674,9 @@
       "new_component": "New Component",
       "new_group": "New Group",
       "no_url_specified": "No URL specified",
+      "manual_badge": "Manual",
+      "manual_badge_title": "No monitor attached — status driven by incidents only",
+      "override_badge_title": "Manual status override active",
       "search_placeholder": "Search components by name...",
       "swal": {
         "assign_to_group": {
@@ -1702,6 +1705,19 @@
           "input_label": "Enter a name for the new group",
           "input_placeholder": "Group name",
           "title": "Group name"
+        },
+        "override": {
+          "confirm": "Apply",
+          "help_prefix": "Manually set the displayed status for",
+          "help_suffix": "regardless of monitor results. Active incidents take priority over overrides.",
+          "label": "Override Status",
+          "none": "— No override (use monitor status) —",
+          "status_degraded": "Degraded Performance",
+          "status_down": "Major Outage",
+          "status_maintenance": "Under Maintenance",
+          "status_partial": "Partial Outage",
+          "status_up": "Operational",
+          "title": "Set Status Override"
         }
       },
       "tip_ungrouped_other": "Components without a group will appear in an \"Other Components\" section on your status page",
@@ -1721,12 +1737,16 @@
         "group_deleted": "Group deleted",
         "init_no_status_page_selected": "Failed to initialize page - no status page selected",
         "no_status_pages_available": "No status pages available",
+        "override_applied": "Status override applied",
+        "override_cleared": "Status override cleared",
+        "override_update_failed": "Failed to update override",
         "rename_failed": "Rename failed",
         "save_failed": "Save failed",
         "update_failed": "Update failed"
       },
       "tooltip_delete_component": "Delete component",
       "tooltip_edit_component": "Edit component",
+      "tooltip_set_status_override": "Set status override",
       "tooltip_move_down": "Move down",
       "tooltip_move_up": "Move up",
       "ungrouped": "Ungrouped",

@@ -436,6 +436,9 @@
       "new_component": "Neue Komponente",
       "new_group": "Neue Gruppe",
       "no_url_specified": "Keine URL angegeben",
+      "manual_badge": "Manuell",
+      "manual_badge_title": "Kein Monitor verbunden — Status wird nur durch Vorfälle gesteuert",
+      "override_badge_title": "Manuelle Statusüberschreibung aktiv",
       "search_placeholder": "Komponenten nach Name suchen...",
       "swal": {
         "assign_to_group": {
@@ -464,6 +467,19 @@
           "input_label": "Gib einen Namen für die neue Gruppe ein",
           "input_placeholder": "Gruppenname",
           "title": "Gruppenname"
+        },
+        "override": {
+          "confirm": "Anwenden",
+          "help_prefix": "Lege den angezeigten Status für",
+          "help_suffix": "manuell fest, unabhängig von Monitor-Ergebnissen. Aktive Vorfälle haben Vorrang vor Überschreibungen.",
+          "label": "Status überschreiben",
+          "none": "— Keine Überschreibung (Monitorstatus verwenden) —",
+          "status_degraded": "Eingeschränkte Leistung",
+          "status_down": "Großer Ausfall",
+          "status_maintenance": "In Wartung",
+          "status_partial": "Teilweiser Ausfall",
+          "status_up": "Betriebsbereit",
+          "title": "Statusüberschreibung festlegen"
         }
       },
       "tip_ungrouped_other": "Komponenten ohne Gruppe erscheinen als Abschnitt \"Weitere Komponenten\" auf deiner Statusseite",
@@ -483,12 +499,16 @@
         "group_deleted": "Gruppe gelöscht",
         "init_no_status_page_selected": "Seite konnte nicht initialisiert werden – keine Statusseite ausgewählt",
         "no_status_pages_available": "Keine Statusseiten verfügbar",
+        "override_applied": "Statusüberschreibung angewendet",
+        "override_cleared": "Statusüberschreibung entfernt",
+        "override_update_failed": "Statusüberschreibung konnte nicht aktualisiert werden",
         "rename_failed": "Umbenennen fehlgeschlagen",
         "save_failed": "Speichern fehlgeschlagen",
         "update_failed": "Aktualisierung fehlgeschlagen"
       },
       "tooltip_delete_component": "Komponente löschen",
       "tooltip_edit_component": "Komponente bearbeiten",
+      "tooltip_set_status_override": "Statusüberschreibung festlegen",
       "tooltip_move_down": "Nach unten",
       "tooltip_move_up": "Nach oben",
       "ungrouped": "Ohne Gruppe",

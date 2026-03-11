@@ -432,6 +432,9 @@
       "new_component": "Novo componente",
       "new_group": "Novo grupo",
       "no_url_specified": "Nenhuma URL informada",
+      "manual_badge": "Manual",
+      "manual_badge_title": "Nenhum monitor anexado — o status é determinado apenas por incidentes",
+      "override_badge_title": "Substituição manual de status ativa",
       "search_placeholder": "Pesquisar componentes pelo nome...",
       "swal": {
         "assign_to_group": {
@@ -460,6 +463,19 @@
           "input_label": "Digite um nome para o novo grupo",
           "input_placeholder": "Nome do grupo",
           "title": "Nome do grupo"
+        },
+        "override": {
+          "confirm": "Aplicar",
+          "help_prefix": "Defina manualmente o status exibido para",
+          "help_suffix": "independentemente dos resultados do monitor. Incidentes ativos têm prioridade sobre substituições.",
+          "label": "Substituição de status",
+          "none": "— Sem substituição (usar status do monitor) —",
+          "status_degraded": "Desempenho degradado",
+          "status_down": "Interrupção grave",
+          "status_maintenance": "Em manutenção",
+          "status_partial": "Interrupção parcial",
+          "status_up": "Operacional",
+          "title": "Definir substituição de status"
         }
       },
       "tip_ungrouped_other": "Componentes sem grupo aparecerão em uma seção \"Outros componentes\" na sua página de status",
@@ -479,12 +495,16 @@
         "group_deleted": "Grupo excluído",
         "init_no_status_page_selected": "Falha ao inicializar a página — nenhuma página de status selecionada",
         "no_status_pages_available": "Nenhuma página de status disponível",
+        "override_applied": "Substituição de status aplicada",
+        "override_cleared": "Substituição de status removida",
+        "override_update_failed": "Falha ao atualizar a substituição",
         "rename_failed": "Falha ao renomear",
         "save_failed": "Falha ao salvar",
         "update_failed": "Falha ao atualizar"
       },
       "tooltip_delete_component": "Excluir componente",
       "tooltip_edit_component": "Editar componente",
+      "tooltip_set_status_override": "Definir substituição de status",
       "tooltip_move_down": "Mover para baixo",
       "tooltip_move_up": "Mover para cima",
       "ungrouped": "Sem grupo",

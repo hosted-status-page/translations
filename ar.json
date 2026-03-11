@@ -432,6 +432,9 @@
       "new_component": "مكوّن جديد",
       "new_group": "مجموعة جديدة",
       "no_url_specified": "لم يتم تحديد URL",
+      "manual_badge": "يدوي",
+      "manual_badge_title": "لا يوجد مراقب مرتبط — يتم تحديد الحالة بالاعتماد على الحوادث فقط",
+      "override_badge_title": "تجاوز الحالة اليدوي نشط",
       "search_placeholder": "ابحث عن المكوّنات بالاسم...",
       "swal": {
         "assign_to_group": {
@@ -460,6 +463,19 @@
           "input_label": "أدخل اسمًا للمجموعة الجديدة",
           "input_placeholder": "اسم المجموعة",
           "title": "اسم المجموعة"
+        },
+        "override": {
+          "confirm": "تطبيق",
+          "help_prefix": "اضبط الحالة المعروضة يدويًا لـ",
+          "help_suffix": "بغض النظر عن نتائج المراقب. تكون للحوادث النشطة أولوية على التجاوزات.",
+          "label": "تجاوز الحالة",
+          "none": "— بدون تجاوز (استخدم حالة المراقب) —",
+          "status_degraded": "أداء متدهور",
+          "status_down": "انقطاع كبير",
+          "status_maintenance": "قيد الصيانة",
+          "status_partial": "انقطاع جزئي",
+          "status_up": "تشغيلي",
+          "title": "تعيين تجاوز الحالة"
         }
       },
       "tip_ungrouped_other": "ستظهر المكوّنات بدون مجموعة في قسم \"مكوّنات أخرى\" على صفحة الحالة",
@@ -479,12 +495,16 @@
         "group_deleted": "تم حذف المجموعة",
         "init_no_status_page_selected": "فشل تهيئة الصفحة - لم يتم اختيار صفحة حالة",
         "no_status_pages_available": "لا توجد صفحات حالة متاحة",
+        "override_applied": "تم تطبيق تجاوز الحالة",
+        "override_cleared": "تمت إزالة تجاوز الحالة",
+        "override_update_failed": "فشل تحديث التجاوز",
         "rename_failed": "فشل إعادة التسمية",
         "save_failed": "فشل الحفظ",
         "update_failed": "فشل التحديث"
       },
       "tooltip_delete_component": "حذف المكوّن",
       "tooltip_edit_component": "تعديل المكوّن",
+      "tooltip_set_status_override": "تعيين تجاوز الحالة",
       "tooltip_move_down": "نقل للأسفل",
       "tooltip_move_up": "نقل للأعلى",
       "ungrouped": "بدون مجموعة",
