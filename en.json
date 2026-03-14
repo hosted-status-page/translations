@@ -589,6 +589,7 @@
     "get_started": "Get started",
     "no_active_incidents_help": "No active incidents. Keep shipping — add a monitor or share a status page.",
     "no_recent_activity": "No recent activity",
+    "view_all_activity": "View all activity →",
     "onboarding_complete": "✅ Onboarding complete - you're all set!",
     "update_incident": "Update incident",
     "account_settings_breadcrumb": "Account settings /",

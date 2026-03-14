@@ -589,6 +589,7 @@
     "get_started": "Početak",
     "no_active_incidents_help": "Nema aktivnih incidenata. Samo tako — dodajte monitor ili podelite status stranicu.",
     "no_recent_activity": "Nema nedavnih aktivnosti",
+    "view_all_activity": "Pogledaj sve aktivnosti →",
     "onboarding_complete": "✅ Onbording završen - sve je spremno!",
     "update_incident": "Ažuriraj incident",
     "account_settings_breadcrumb": "Postavke računa /",

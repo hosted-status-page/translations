@@ -572,6 +572,7 @@
     "get_started": "Почетак",
     "no_active_incidents_help": "Нема активних инцидената. Само тако — додајте монитор или поделите статус страницу.",
     "no_recent_activity": "Нема недавних активности",
+    "view_all_activity": "Погледај све активности →",
     "onboarding_complete": "✅ Онбординг завршен - све је спремно!",
     "update_incident": "Ажурирај инцидент",
     "account_settings_breadcrumb": "Подешавања налога /",
