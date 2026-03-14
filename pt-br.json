@@ -49,6 +49,90 @@
       "logout": "Sair",
       "email_logs": "Logs de e-mail",
       "invite_links": "Links de convite"
+    },
+    "tools_page": {
+      "heading": "Ferramentas",
+      "description": "Ações de manutenção para agendamento e saúde dos monitores.",
+      "types": {
+        "all": "todos os tipos de monitores",
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF"
+      },
+      "rows": {
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF",
+        "rows": "linhas"
+      },
+      "deleted_slug_check": {
+        "title": "Verificação de slug excluído",
+        "description": "Verifica se um slug da plataforma está bloqueado para reutilização (proteção de 30 dias) e quando será desbloqueado.",
+        "slug_label": "Slug",
+        "slug_placeholder": "exemplo",
+        "check_button": "Verificar",
+        "swal": {
+          "missing_slug_title": "Slug ausente",
+          "missing_slug_text": "Digite um slug para verificar."
+        },
+        "result": {
+          "slug": "Slug",
+          "status_page_exists": "Existe uma página de status ativa",
+          "deleted_slug_exists": "Existe um registro de slug excluído",
+          "blocked_now": "Bloqueado agora",
+          "unblock_at": "Desbloqueia em"
+        }
+      },
+      "slug_cache_rebuild": {
+        "title": "Reconstrução do cache de slugs",
+        "description": "Reconstrói <code>cache/status_page_slugs_cache.json</code> a partir de <code>status_pages</code> e atualiza o cache em memória de slugs para verificações de permissão TLS.",
+        "button": "Reconstruir cache de slugs",
+        "swal": {
+          "confirm_title": "Reconstruir o cache de slugs?",
+          "confirm_text": "Isso vai regenerar o cache de slugs a partir da tabela status_pages.",
+          "confirm_button": "Reconstruir",
+          "success_title": "Cache de slugs reconstruído",
+          "success_text": "{{count}} slugs carregados."
+        }
+      },
+      "suppressed_results": {
+        "title": "Resultados suprimidos de monitores",
+        "description": "Inspecione amostras DOWN suprimidas recentemente (self-hosted guard/deploy guard) e a contagem por motivo.",
+        "button": "Abrir JSON de resultados suprimidos"
+      },
+      "auto_heal": {
+        "title": "Autoajuste da próxima verificação",
+        "description": "Corrige valores ausentes ou inválidos de <code>next_check_at</code> em monitores de ferramentas habilitados ajustando-os para o próximo limite alinhado em UTC (diariamente às 00:00 UTC ou a cada 6 horas em 00/06/12/18 UTC).",
+        "buttons": {
+          "dnsbl": "Corrigir DNSBL",
+          "ssl": "Corrigir SSL",
+          "dkim_spf": "Corrigir DKIM/SPF",
+          "all": "Corrigir tudo"
+        },
+        "help": "Atualiza apenas linhas onde o agendamento está ausente ou inválido; mantém intactos os agendamentos já alinhados.",
+        "swal": {
+          "confirm_title": "Executar autoajuste?",
+          "confirm_text": "Isso atualizará next_check_at para {{type}}.",
+          "confirm_button": "Executar",
+          "success_title": "Autoajuste concluído"
+        }
+      },
+      "realign": {
+        "title": "Realinhar a próxima verificação (UTC)",
+        "description": "Força <code>next_check_at</code> nos monitores de ferramentas habilitados para o próximo limite alinhado em UTC, mesmo que atualmente esteja no futuro, mas fora de sincronia.",
+        "buttons": {
+          "dnsbl": "Realinhar DNSBL",
+          "ssl": "Realinhar SSL",
+          "dkim_spf": "Realinhar DKIM/SPF",
+          "all": "Realinhar tudo"
+        },
+        "swal": {
+          "confirm_title": "Realinhar next_check_at?",
+          "confirm_text": "Isso substituirá next_check_at para os monitores de ferramentas habilitados do tipo selecionado.",
+          "confirm_button": "Realinhar",
+          "success_title": "Realinhamento concluído"
+        }
+      }
     }
   },
   "nav": {

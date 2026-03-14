@@ -150,6 +150,90 @@
       "users_admins": "Korisnici i administratori",
       "email_logs": "Logovi e-pošte",
       "invite_links": "Linkovi za poziv"
+    },
+    "tools_page": {
+      "heading": "Alati",
+      "description": "Radnje održavanja za raspoređivanje monitora i zdravlje sustava.",
+      "types": {
+        "all": "sve vrste monitora",
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF"
+      },
+      "rows": {
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF",
+        "rows": "redaka"
+      },
+      "deleted_slug_check": {
+        "title": "Provjera obrisanog sluga",
+        "description": "Provjerava je li slug platforme blokiran za ponovnu upotrebu (zaštita od 30 dana) i kada će se odblokirati.",
+        "slug_label": "Slug",
+        "slug_placeholder": "primjer",
+        "check_button": "Provjeri",
+        "swal": {
+          "missing_slug_title": "Nedostaje slug",
+          "missing_slug_text": "Unesite slug za provjeru."
+        },
+        "result": {
+          "slug": "Slug",
+          "status_page_exists": "Aktivna status stranica postoji",
+          "deleted_slug_exists": "Postoji zapis o obrisanom slugu",
+          "blocked_now": "Trenutno blokiran",
+          "unblock_at": "Odblokira se u"
+        }
+      },
+      "slug_cache_rebuild": {
+        "title": "Obnova cachea slugova",
+        "description": "Ponovno gradi <code>cache/status_page_slugs_cache.json</code> iz <code>status_pages</code> i ažurira memorijski cache slugova za TLS provjere dopuštenja.",
+        "button": "Obnovi cache slugova",
+        "swal": {
+          "confirm_title": "Obnoviti cache slugova?",
+          "confirm_text": "Ovo će ponovno generirati cache slugova iz tablice status_pages.",
+          "confirm_button": "Obnovi",
+          "success_title": "Cache slugova obnovljen",
+          "success_text": "Učitano je {{count}} slugova."
+        }
+      },
+      "suppressed_results": {
+        "title": "Potisnuti rezultati monitora",
+        "description": "Pregledajte nedavno potisnute DOWN uzorke monitora (self-hosted guard/deploy guard) i broj po razlogu.",
+        "button": "Otvori JSON potisnutih rezultata"
+      },
+      "auto_heal": {
+        "title": "Samopopravak sljedeće provjere",
+        "description": "Ispravlja nedostajuće ili neispravne vrijednosti <code>next_check_at</code> na omogućenim alatnim monitorima postavljanjem na sljedeću UTC usklađenu granicu (svakodnevno u 00:00 UTC ili svakih 6 sati u 00/06/12/18 UTC).",
+        "buttons": {
+          "dnsbl": "Popravi DNSBL",
+          "ssl": "Popravi SSL",
+          "dkim_spf": "Popravi DKIM/SPF",
+          "all": "Popravi sve"
+        },
+        "help": "Ažurira samo retke gdje raspored nedostaje ili je neispravan; već usklađeni rasporedi ostaju netaknuti.",
+        "swal": {
+          "confirm_title": "Pokrenuti samopopravak?",
+          "confirm_text": "Ovo će ažurirati next_check_at za {{type}}.",
+          "confirm_button": "Pokreni",
+          "success_title": "Samopopravak dovršen"
+        }
+      },
+      "realign": {
+        "title": "Ponovno poravnaj sljedeću provjeru (UTC)",
+        "description": "Prisilno postavlja <code>next_check_at</code> na omogućenim alatnim monitorima na sljedeću UTC usklađenu granicu čak i ako je trenutno u budućnosti, ali izvan rasporeda.",
+        "buttons": {
+          "dnsbl": "Poravnaj DNSBL",
+          "ssl": "Poravnaj SSL",
+          "dkim_spf": "Poravnaj DKIM/SPF",
+          "all": "Poravnaj sve"
+        },
+        "swal": {
+          "confirm_title": "Ponovno poravnati next_check_at?",
+          "confirm_text": "Ovo će prebrisati next_check_at za omogućene alatne monitore odabrane vrste.",
+          "confirm_button": "Poravnaj",
+          "success_title": "Poravnanje dovršeno"
+        }
+      }
     }
   },
   "analytics": {

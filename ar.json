@@ -49,6 +49,90 @@
       "logout": "تسجيل الخروج",
       "email_logs": "سجلات البريد الإلكتروني",
       "invite_links": "روابط الدعوة"
+    },
+    "tools_page": {
+      "heading": "الأدوات",
+      "description": "إجراءات صيانة لجدولة المراقبات وصحة النظام.",
+      "types": {
+        "all": "جميع أنواع المراقبات",
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF"
+      },
+      "rows": {
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF",
+        "rows": "صفوف"
+      },
+      "deleted_slug_check": {
+        "title": "فحص slug المحذوف",
+        "description": "يتحقق مما إذا كان slug المنصة محظورًا من إعادة الاستخدام (حماية لمدة 30 يومًا) ومتى سيتم إلغاء الحظر.",
+        "slug_label": "Slug",
+        "slug_placeholder": "example",
+        "check_button": "تحقق",
+        "swal": {
+          "missing_slug_title": "slug مفقود",
+          "missing_slug_text": "أدخل slug للتحقق منه."
+        },
+        "result": {
+          "slug": "Slug",
+          "status_page_exists": "توجد صفحة حالة نشطة",
+          "deleted_slug_exists": "يوجد سجل slug محذوف",
+          "blocked_now": "محظور الآن",
+          "unblock_at": "يتم إلغاء الحظر في"
+        }
+      },
+      "slug_cache_rebuild": {
+        "title": "إعادة بناء ذاكرة slug المؤقتة",
+        "description": "يعيد إنشاء <code>cache/status_page_slugs_cache.json</code> من <code>status_pages</code> ويحدّث ذاكرة slug داخل الذاكرة لفحوصات السماح TLS.",
+        "button": "إعادة بناء ذاكرة slug المؤقتة",
+        "swal": {
+          "confirm_title": "إعادة بناء ذاكرة slug المؤقتة؟",
+          "confirm_text": "سيؤدي هذا إلى إعادة توليد ذاكرة slug المؤقتة من جدول status_pages.",
+          "confirm_button": "إعادة البناء",
+          "success_title": "تمت إعادة بناء ذاكرة slug المؤقتة",
+          "success_text": "تم تحميل {{count}} من slug."
+        }
+      },
+      "suppressed_results": {
+        "title": "نتائج المراقبات المكبوتة",
+        "description": "افحص عينات DOWN المكبوتة مؤخرًا (self-hosted guard/deploy guard) وعددها حسب السبب.",
+        "button": "فتح JSON للنتائج المكبوتة"
+      },
+      "auto_heal": {
+        "title": "الإصلاح التلقائي للفحص التالي",
+        "description": "يصلح قيم <code>next_check_at</code> المفقودة أو غير الصالحة في مراقبات الأدوات المفعلة عبر ضبطها إلى الحد التالي المتوافق مع UTC (يوميًا عند 00:00 UTC أو كل 6 ساعات عند 00/06/12/18 UTC).",
+        "buttons": {
+          "dnsbl": "إصلاح DNSBL",
+          "ssl": "إصلاح SSL",
+          "dkim_spf": "إصلاح DKIM/SPF",
+          "all": "إصلاح الكل"
+        },
+        "help": "يحدّث فقط الصفوف التي يكون فيها الجدول مفقودًا أو غير صالح؛ ويحافظ على الجداول المتوافقة كما هي.",
+        "swal": {
+          "confirm_title": "تشغيل الإصلاح التلقائي؟",
+          "confirm_text": "سيؤدي هذا إلى تحديث next_check_at لـ {{type}}.",
+          "confirm_button": "تشغيل",
+          "success_title": "اكتمل الإصلاح التلقائي"
+        }
+      },
+      "realign": {
+        "title": "إعادة محاذاة الفحص التالي (UTC)",
+        "description": "يفرض <code>next_check_at</code> في مراقبات الأدوات المفعلة على الحد التالي المتوافق مع UTC حتى لو كانت القيمة الحالية مستقبلية ولكنها خارج الجدول.",
+        "buttons": {
+          "dnsbl": "محاذاة DNSBL",
+          "ssl": "محاذاة SSL",
+          "dkim_spf": "محاذاة DKIM/SPF",
+          "all": "محاذاة الكل"
+        },
+        "swal": {
+          "confirm_title": "إعادة محاذاة next_check_at؟",
+          "confirm_text": "سيؤدي هذا إلى استبدال next_check_at لمراقبات الأدوات المفعلة من النوع المحدد.",
+          "confirm_button": "إعادة المحاذاة",
+          "success_title": "اكتملت إعادة المحاذاة"
+        }
+      }
     }
   },
   "nav": {

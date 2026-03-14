@@ -150,6 +150,90 @@
       "users_admins": "Users & Admins",
       "email_logs": "Email Logs",
       "invite_links": "Invite Links"
+    },
+    "tools_page": {
+      "heading": "Tools",
+      "description": "Maintenance actions for monitor scheduling and health.",
+      "types": {
+        "all": "all monitor types",
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF"
+      },
+      "rows": {
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF",
+        "rows": "rows"
+      },
+      "deleted_slug_check": {
+        "title": "Deleted Slug Check",
+        "description": "Checks if a platform slug is blocked for reuse (30-day protection) and when it unblocks.",
+        "slug_label": "Slug",
+        "slug_placeholder": "example",
+        "check_button": "Check",
+        "swal": {
+          "missing_slug_title": "Missing slug",
+          "missing_slug_text": "Enter a slug to check."
+        },
+        "result": {
+          "slug": "Slug",
+          "status_page_exists": "Active status page exists",
+          "deleted_slug_exists": "Deleted slug record exists",
+          "blocked_now": "Blocked now",
+          "unblock_at": "Unblock at"
+        }
+      },
+      "slug_cache_rebuild": {
+        "title": "Slug Cache Rebuild",
+        "description": "Rebuilds <code>cache/status_page_slugs_cache.json</code> from <code>status_pages</code> and updates in-memory slug cache for TLS allow checks.",
+        "button": "Rebuild Slug Cache",
+        "swal": {
+          "confirm_title": "Rebuild slug cache?",
+          "confirm_text": "This will regenerate slug cache from status_pages table.",
+          "confirm_button": "Rebuild",
+          "success_title": "Slug Cache Rebuilt",
+          "success_text": "Loaded {{count}} slugs."
+        }
+      },
+      "suppressed_results": {
+        "title": "Suppressed Monitor Results",
+        "description": "Inspect recently suppressed monitor DOWN samples (self-hosted guard/deploy guard) and reason counts.",
+        "button": "Open Suppressed Results JSON"
+      },
+      "auto_heal": {
+        "title": "Auto-Heal Next Check",
+        "description": "Fixes missing/invalid <code>next_check_at</code> on enabled tool monitors by setting it to the next UTC-aligned boundary (daily at 00:00 UTC, or 6-hourly at 00/06/12/18 UTC).",
+        "buttons": {
+          "dnsbl": "Heal DNSBL",
+          "ssl": "Heal SSL",
+          "dkim_spf": "Heal DKIM/SPF",
+          "all": "Heal All"
+        },
+        "help": "Only updates rows where scheduling is missing/invalid; keeps aligned schedules intact.",
+        "swal": {
+          "confirm_title": "Run Auto-Heal?",
+          "confirm_text": "This will update next_check_at for {{type}}.",
+          "confirm_button": "Run",
+          "success_title": "Auto-Heal Complete"
+        }
+      },
+      "realign": {
+        "title": "Realign Next Check (UTC)",
+        "description": "Forces <code>next_check_at</code> on enabled tool monitors to the next UTC-aligned boundary even if it is currently in the future but off-schedule.",
+        "buttons": {
+          "dnsbl": "Realign DNSBL",
+          "ssl": "Realign SSL",
+          "dkim_spf": "Realign DKIM/SPF",
+          "all": "Realign All"
+        },
+        "swal": {
+          "confirm_title": "Realign next_check_at?",
+          "confirm_text": "This will overwrite next_check_at for enabled tool monitors of the selected type.",
+          "confirm_button": "Realign",
+          "success_title": "Realign Complete"
+        }
+      }
     }
   },
   "analytics": {

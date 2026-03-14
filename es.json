@@ -46,6 +46,90 @@
       "logout": "Cerrar sesión",
       "email_logs": "Registros de correo",
       "invite_links": "Enlaces de invitación"
+    },
+    "tools_page": {
+      "heading": "Herramientas",
+      "description": "Acciones de mantenimiento para la programación y salud de los monitores.",
+      "types": {
+        "all": "todos los tipos de monitores",
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF"
+      },
+      "rows": {
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF",
+        "rows": "filas"
+      },
+      "deleted_slug_check": {
+        "title": "Comprobación de slug eliminado",
+        "description": "Comprueba si un slug de la plataforma está bloqueado para reutilizarse (protección de 30 días) y cuándo se desbloqueará.",
+        "slug_label": "Slug",
+        "slug_placeholder": "ejemplo",
+        "check_button": "Comprobar",
+        "swal": {
+          "missing_slug_title": "Falta el slug",
+          "missing_slug_text": "Introduce un slug para comprobarlo."
+        },
+        "result": {
+          "slug": "Slug",
+          "status_page_exists": "Existe una página de estado activa",
+          "deleted_slug_exists": "Existe un registro de slug eliminado",
+          "blocked_now": "Bloqueado ahora",
+          "unblock_at": "Se desbloquea en"
+        }
+      },
+      "slug_cache_rebuild": {
+        "title": "Reconstrucción de la caché de slugs",
+        "description": "Reconstruye <code>cache/status_page_slugs_cache.json</code> a partir de <code>status_pages</code> y actualiza la caché en memoria de slugs para las comprobaciones de permisos TLS.",
+        "button": "Reconstruir caché de slugs",
+        "swal": {
+          "confirm_title": "¿Reconstruir la caché de slugs?",
+          "confirm_text": "Esto regenerará la caché de slugs desde la tabla status_pages.",
+          "confirm_button": "Reconstruir",
+          "success_title": "Caché de slugs reconstruida",
+          "success_text": "Se cargaron {{count}} slugs."
+        }
+      },
+      "suppressed_results": {
+        "title": "Resultados de monitores suprimidos",
+        "description": "Inspecciona muestras DOWN suprimidas recientemente (protección self-hosted/deploy guard) y el recuento por motivo.",
+        "button": "Abrir JSON de resultados suprimidos"
+      },
+      "auto_heal": {
+        "title": "Auto-reparar la próxima comprobación",
+        "description": "Corrige valores faltantes o no válidos de <code>next_check_at</code> en monitores de herramientas habilitados ajustándolos al siguiente límite alineado con UTC (diariamente a las 00:00 UTC o cada 6 horas a las 00/06/12/18 UTC).",
+        "buttons": {
+          "dnsbl": "Reparar DNSBL",
+          "ssl": "Reparar SSL",
+          "dkim_spf": "Reparar DKIM/SPF",
+          "all": "Reparar todo"
+        },
+        "help": "Solo actualiza filas donde la programación falta o es inválida; mantiene intactas las programaciones ya alineadas.",
+        "swal": {
+          "confirm_title": "¿Ejecutar auto-reparación?",
+          "confirm_text": "Esto actualizará next_check_at para {{type}}.",
+          "confirm_button": "Ejecutar",
+          "success_title": "Auto-reparación completada"
+        }
+      },
+      "realign": {
+        "title": "Realinear la próxima comprobación (UTC)",
+        "description": "Fuerza <code>next_check_at</code> en los monitores de herramientas habilitados al siguiente límite alineado con UTC, incluso si actualmente está en el futuro pero fuera de horario.",
+        "buttons": {
+          "dnsbl": "Realinear DNSBL",
+          "ssl": "Realinear SSL",
+          "dkim_spf": "Realinear DKIM/SPF",
+          "all": "Realinear todo"
+        },
+        "swal": {
+          "confirm_title": "¿Realinear next_check_at?",
+          "confirm_text": "Esto sobrescribirá next_check_at para los monitores de herramientas habilitados del tipo seleccionado.",
+          "confirm_button": "Realinear",
+          "success_title": "Realineación completada"
+        }
+      }
     }
   },
   "nav": {

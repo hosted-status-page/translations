@@ -49,6 +49,90 @@
       "logout": "Abmelden",
       "email_logs": "E-Mail-Protokolle",
       "invite_links": "Einladungslinks"
+    },
+    "tools_page": {
+      "heading": "Werkzeuge",
+      "description": "Wartungsaktionen für die Überwachungsplanung und den Systemzustand.",
+      "types": {
+        "all": "alle Monitortypen",
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF"
+      },
+      "rows": {
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF",
+        "rows": "Zeilen"
+      },
+      "deleted_slug_check": {
+        "title": "Prüfung gelöschter Slugs",
+        "description": "Prüft, ob ein Plattform-Slug für die Wiederverwendung gesperrt ist (30-Tage-Schutz) und wann er wieder freigegeben wird.",
+        "slug_label": "Slug",
+        "slug_placeholder": "beispiel",
+        "check_button": "Prüfen",
+        "swal": {
+          "missing_slug_title": "Slug fehlt",
+          "missing_slug_text": "Geben Sie einen zu prüfenden Slug ein."
+        },
+        "result": {
+          "slug": "Slug",
+          "status_page_exists": "Aktive Statusseite vorhanden",
+          "deleted_slug_exists": "Eintrag für gelöschten Slug vorhanden",
+          "blocked_now": "Derzeit gesperrt",
+          "unblock_at": "Freigabe am"
+        }
+      },
+      "slug_cache_rebuild": {
+        "title": "Slug-Cache neu aufbauen",
+        "description": "Erstellt <code>cache/status_page_slugs_cache.json</code> aus <code>status_pages</code> neu und aktualisiert den In-Memory-Slug-Cache für TLS-Zulassungsprüfungen.",
+        "button": "Slug-Cache neu aufbauen",
+        "swal": {
+          "confirm_title": "Slug-Cache neu aufbauen?",
+          "confirm_text": "Dadurch wird der Slug-Cache aus der Tabelle status_pages neu erzeugt.",
+          "confirm_button": "Neu aufbauen",
+          "success_title": "Slug-Cache neu aufgebaut",
+          "success_text": "{{count}} Slugs geladen."
+        }
+      },
+      "suppressed_results": {
+        "title": "Unterdrückte Monitor-Ergebnisse",
+        "description": "Prüfen Sie kürzlich unterdrückte DOWN-Samples von Monitoren (Self-Hosted-Guard/Deploy-Guard) und die Anzahl je Grund.",
+        "button": "JSON mit unterdrückten Ergebnissen öffnen"
+      },
+      "auto_heal": {
+        "title": "Nächste Prüfung automatisch reparieren",
+        "description": "Behebt fehlende oder ungültige Werte von <code>next_check_at</code> bei aktivierten Tool-Monitoren, indem sie auf die nächste UTC-ausgerichtete Grenze gesetzt werden (täglich um 00:00 UTC oder alle 6 Stunden um 00/06/12/18 UTC).",
+        "buttons": {
+          "dnsbl": "DNSBL reparieren",
+          "ssl": "SSL reparieren",
+          "dkim_spf": "DKIM/SPF reparieren",
+          "all": "Alles reparieren"
+        },
+        "help": "Aktualisiert nur Zeilen, bei denen die Planung fehlt oder ungültig ist; bereits ausgerichtete Planungen bleiben erhalten.",
+        "swal": {
+          "confirm_title": "Auto-Heal ausführen?",
+          "confirm_text": "Dadurch wird next_check_at für {{type}} aktualisiert.",
+          "confirm_button": "Ausführen",
+          "success_title": "Auto-Heal abgeschlossen"
+        }
+      },
+      "realign": {
+        "title": "Nächste Prüfung neu ausrichten (UTC)",
+        "description": "Erzwingt für aktivierte Tool-Monitore einen <code>next_check_at</code>-Wert auf die nächste UTC-ausgerichtete Grenze, selbst wenn der aktuelle Wert in der Zukunft liegt, aber nicht im Takt ist.",
+        "buttons": {
+          "dnsbl": "DNSBL neu ausrichten",
+          "ssl": "SSL neu ausrichten",
+          "dkim_spf": "DKIM/SPF neu ausrichten",
+          "all": "Alles neu ausrichten"
+        },
+        "swal": {
+          "confirm_title": "next_check_at neu ausrichten?",
+          "confirm_text": "Dadurch wird next_check_at für aktivierte Tool-Monitore des ausgewählten Typs überschrieben.",
+          "confirm_button": "Neu ausrichten",
+          "success_title": "Neuausrichtung abgeschlossen"
+        }
+      }
     }
   },
   "nav": {

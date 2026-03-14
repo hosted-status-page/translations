@@ -49,6 +49,90 @@
       "logout": "Déconnexion",
       "email_logs": "Journaux d’e-mails",
       "invite_links": "Liens d’invitation"
+    },
+    "tools_page": {
+      "heading": "Outils",
+      "description": "Actions de maintenance pour la planification et la santé des moniteurs.",
+      "types": {
+        "all": "tous les types de moniteurs",
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF"
+      },
+      "rows": {
+        "dnsbl": "DNSBL",
+        "ssl": "SSL",
+        "dkim_spf": "DKIM/SPF",
+        "rows": "lignes"
+      },
+      "deleted_slug_check": {
+        "title": "Vérification de slug supprimé",
+        "description": "Vérifie si un slug de plateforme est bloqué pour réutilisation (protection de 30 jours) et quand il sera débloqué.",
+        "slug_label": "Slug",
+        "slug_placeholder": "exemple",
+        "check_button": "Vérifier",
+        "swal": {
+          "missing_slug_title": "Slug manquant",
+          "missing_slug_text": "Saisissez un slug à vérifier."
+        },
+        "result": {
+          "slug": "Slug",
+          "status_page_exists": "Une page de statut active existe",
+          "deleted_slug_exists": "Un enregistrement de slug supprimé existe",
+          "blocked_now": "Bloqué actuellement",
+          "unblock_at": "Débloqué à partir du"
+        }
+      },
+      "slug_cache_rebuild": {
+        "title": "Reconstruction du cache de slugs",
+        "description": "Reconstruit <code>cache/status_page_slugs_cache.json</code> à partir de <code>status_pages</code> et met à jour le cache mémoire des slugs pour les vérifications d’autorisation TLS.",
+        "button": "Reconstruire le cache de slugs",
+        "swal": {
+          "confirm_title": "Reconstruire le cache de slugs ?",
+          "confirm_text": "Cela va régénérer le cache des slugs depuis la table status_pages.",
+          "confirm_button": "Reconstruire",
+          "success_title": "Cache de slugs reconstruit",
+          "success_text": "{{count}} slugs chargés."
+        }
+      },
+      "suppressed_results": {
+        "title": "Résultats de moniteurs supprimés",
+        "description": "Inspectez les échantillons DOWN récemment supprimés (garde auto-hébergée/garde de déploiement) et le nombre par raison.",
+        "button": "Ouvrir le JSON des résultats supprimés"
+      },
+      "auto_heal": {
+        "title": "Auto-réparation du prochain contrôle",
+        "description": "Corrige les valeurs <code>next_check_at</code> manquantes ou invalides sur les moniteurs d’outils activés en les plaçant sur la prochaine limite UTC alignée (quotidiennement à 00:00 UTC, ou toutes les 6 heures à 00/06/12/18 UTC).",
+        "buttons": {
+          "dnsbl": "Réparer DNSBL",
+          "ssl": "Réparer SSL",
+          "dkim_spf": "Réparer DKIM/SPF",
+          "all": "Tout réparer"
+        },
+        "help": "Met à jour uniquement les lignes où la planification est manquante ou invalide ; conserve les planifications déjà alignées.",
+        "swal": {
+          "confirm_title": "Lancer l’auto-réparation ?",
+          "confirm_text": "Cela mettra à jour next_check_at pour {{type}}.",
+          "confirm_button": "Exécuter",
+          "success_title": "Auto-réparation terminée"
+        }
+      },
+      "realign": {
+        "title": "Réaligner le prochain contrôle (UTC)",
+        "description": "Force <code>next_check_at</code> sur les moniteurs d’outils activés vers la prochaine limite UTC alignée même si la valeur est actuellement dans le futur mais hors planning.",
+        "buttons": {
+          "dnsbl": "Réaligner DNSBL",
+          "ssl": "Réaligner SSL",
+          "dkim_spf": "Réaligner DKIM/SPF",
+          "all": "Tout réaligner"
+        },
+        "swal": {
+          "confirm_title": "Réaligner next_check_at ?",
+          "confirm_text": "Cela écrasera next_check_at pour les moniteurs d’outils activés du type sélectionné.",
+          "confirm_button": "Réaligner",
+          "success_title": "Réalignement terminé"
+        }
+      }
     }
   },
   "nav": {
