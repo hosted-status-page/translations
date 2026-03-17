@@ -286,8 +286,8 @@
         "no_data": "Nema podataka za ovaj opseg.",
         "no_monitors": "Nije pronađen nijedan monitor."
       },
-      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
-      "empty_title": "Select a Status Page"
+      "empty_description": "Odaberite status stranicu iz padajućeg izbornika iznad kako biste vidjeli povijesne podatke o dostupnosti.",
+      "empty_title": "Odaberite status stranicu"
     },
     "manage_share_tokens": "Upravljaj tokenima za deljenje",
     "show_downtime_only": "Prikaži samo padove",
@@ -351,12 +351,12 @@
       "upgrade_plan": "Nadogradi plan"
     },
     "active_label": "Aktivan:",
-    "active_until": "Active until:",
+    "active_until": "Aktivno do:",
     "all_notification_channels": "Svi kanali za obavijesti",
     "amount": "Iznos",
     "audit_logs": "Audit logovi",
     "auto_renew": "Automatsko obnavljanje",
-    "billing_cycle_label": "Billing cycle",
+    "billing_cycle_label": "Obračunski ciklus",
     "billing_history": "Povijest naplate",
     "billing_history_navigation": "Navigacija istorije naplate",
     "branding": "brendiranje",
@@ -415,7 +415,7 @@
     "period": "Period",
     "plan_status": "Status plana",
     "admin_set_plan": "Plan konfigurisan od strane administratora",
-    "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
+    "plan_change_info": "Nadogradnja ili spuštanje plana stupa na snagu odmah uz razmjernu naplatu. Promjena obračunskog ciklusa (mjesečno/godišnje) resetira datum naplate. Neiskorišteni saldo automatski se pripisuje budućim obnovama.",
     "price": "Cena",
     "private_status_pages": "Privatne status stranice",
     "promo_code_prefix": "Promo kod",
@@ -589,6 +589,7 @@
     "save_changes": "Sačuvaj izmene",
     "settings": "Postavke",
     "status": "Status",
+    "subject": "Predmet",
     "success": "Uspjeh",
     "unexpected_error": "Došlo je do neočekivane greške",
     "unlink": "Otkači",
@@ -634,8 +635,8 @@
     "type_colon": "Tip:",
     "upgrade_now": "Nadogradi sada",
     "value_label": "Vrednost:",
-    "filter": "Filter",
-    "time": "Time"
+    "filter": "Filtriraj",
+    "time": "Vrijeme"
   },
   "components": {
     "form": {
@@ -1126,11 +1127,11 @@
     "edit": {
       "heading": "Uredi monitor",
       "update_button": "Ažuriraj monitor",
-      "delete_button": "Delete Monitor",
-      "delete_title": "Delete Monitor?",
-      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
-      "deleted": "Monitor has been deleted.",
-      "delete_failed": "Failed to delete monitor: "
+      "delete_button": "Izbriši monitor",
+      "delete_title": "Izbrisati monitor?",
+      "delete_warning": "Ovo će trajno izbrisati ovaj monitor i sve njegove povijesne podatke. Ovu radnju nije moguće poništiti.",
+      "deleted": "Monitor je izbrisan.",
+      "delete_failed": "Brisanje monitora nije uspjelo: "
     },
     "form": {
       "add_header_button": "Dodaj zaglavlje",
@@ -1205,7 +1206,7 @@
     },
     "availability": "Dostupnost",
     "availability_metrics": "Metrike dostupnosti",
-    "avg_response": "Avg. Response",
+    "avg_response": "Prosj. odziv",
     "avg_rt_ms": "Prosečno vreme odziva (ms)",
     "check_interval": "Interval proveravanja (sekunde)",
     "cta": {
@@ -1217,9 +1218,12 @@
     "disable_info_no_metrics": "Neće se prikupljati metrike dostupnosti",
     "disable_info_no_outages": "Statusna stranica neće odražavati prekide rada",
     "disable_info_title": "Kada je monitor onemogućen:",
+    "delivered": "Isporučeno",
     "dismiss": "Odbij",
     "download_plugin": "Preuzmi plagin",
     "enable": "Omogući",
+    "event": "Događaj",
+    "failed": "Neuspješno",
     "filter_all_pages": "Sve statusne stranice",
     "filter_all_statuses": "Svi statusi",
     "filter_label": "Filter:",
@@ -1234,6 +1238,7 @@
     "heading": "Nadzori performanse i dostupnost svojih servisa",
     "last_check": "Poslednja provjera",
     "learn_more": "Saznaj više",
+    "live": "Uživo...",
     "list": {
       "create_first": "Kreirajte svoj prvi monitor",
       "heading": "Vaši monitori",
@@ -1247,6 +1252,10 @@
     "mttr": "MTTR",
     "next_check": "Sljedeća provjera",
     "not_checked": "Nije provereno",
+    "no_alerts": "Nema alerta za ovaj monitor.",
+    "no_notifications": "Nijedna obavijest nije poslana za ovaj monitor.",
+    "notification_history": "Povijest obavijesti",
+    "channel": "Kanal",
     "show_on_public": "Prikaži na javnoj statusnoj strani",
     "status_down": "Neaktivan",
     "status_unknown": "Nepoznato",
@@ -1828,6 +1837,7 @@
         "failed_to_load_data": "Neuspjelo učitavanje podataka",
         "group_created": "Grupa je kreirana",
         "group_deleted": "Grupa je obrisana",
+        "group_renamed": "Grupa je preimenovana",
         "init_no_status_page_selected": "Neuspjelo inicijaliziranje stranice - nije odabrana status stranica",
         "no_status_pages_available": "Nema dostupnih status stranica",
         "override_applied": "Nadjačavanje statusa je primijenjeno",

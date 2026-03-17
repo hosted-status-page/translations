@@ -343,11 +343,11 @@
     "edit": {
       "heading": "Modifier le moniteur",
       "update_button": "Mettre à jour le moniteur",
-      "delete_button": "Delete Monitor",
-      "delete_title": "Delete Monitor?",
-      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
-      "deleted": "Monitor has been deleted.",
-      "delete_failed": "Failed to delete monitor: "
+      "delete_button": "Supprimer le moniteur",
+      "delete_title": "Supprimer le moniteur ?",
+      "delete_warning": "Cela supprimera définitivement ce moniteur et toutes ses données historiques. Cette action est irréversible.",
+      "deleted": "Le moniteur a été supprimé.",
+      "delete_failed": "Échec de la suppression du moniteur : "
     },
     "back_to_list": "Retour aux moniteurs",
     "form": {
@@ -460,9 +460,12 @@
     "disable_info_no_metrics": "Aucune métrique de disponibilité ne sera collectée",
     "disable_info_no_outages": "La page de statut ne reflétera aucune panne",
     "disable_info_title": "Lorsque le moniteur est désactivé :",
+    "delivered": "Livré",
     "dismiss": "Rejeter",
     "download_plugin": "Télécharger le plugin",
     "enable": "Activer",
+    "event": "Événement",
+    "failed": "Échec",
     "filter_all_pages": "Toutes les pages de statut",
     "filter_all_statuses": "Tous les statuts",
     "filter_label": "Filtre :",
@@ -477,6 +480,7 @@
     "heading": "Surveillez les performances et la disponibilité de vos services",
     "last_check": "Dernière vérification",
     "learn_more": "En savoir plus",
+    "live": "En direct...",
     "list": {
       "create_first": "Créez votre premier moniteur",
       "heading": "Vos moniteurs",
@@ -490,6 +494,10 @@
     "mttr": "MTTR",
     "next_check": "Prochaine vérification",
     "not_checked": "Non vérifié",
+    "no_alerts": "Aucune alerte pour ce moniteur.",
+    "no_notifications": "Aucune notification envoyée pour ce moniteur.",
+    "notification_history": "Historique des notifications",
+    "channel": "Canal",
     "show_on_public": "Afficher sur la page de statut publique",
     "status_down": "Hors ligne",
     "status_unknown": "Inconnu",
@@ -497,7 +505,7 @@
     "total_checks": "Total des vérifications",
     "wordpress_alert_text": "Utilisez notre plugin WordPress gratuit pour afficher votre widget StatusPage.me directement sur votre site. Aucun code requis, personnalisation complète incluse avec notre bloc Gutenberg.",
     "wordpress_alert_title": "Intégrez votre widget StatusPage.me sur WordPress",
-    "avg_response": "Avg. Response"
+    "avg_response": "Réponse moyenne"
   },
   "status_pages": {
     "view_status_page": "Voir votre page de statut",
@@ -577,6 +585,7 @@
         "failed_to_load_data": "Échec du chargement des données",
         "group_created": "Groupe créé",
         "group_deleted": "Groupe supprimé",
+        "group_renamed": "Groupe renommé",
         "init_no_status_page_selected": "Échec de l'initialisation de la page — aucune page de statut sélectionnée",
         "no_status_pages_available": "Aucune page de statut disponible",
         "override_applied": "Surcharge du statut appliquée",
@@ -1041,7 +1050,37 @@
     "use_recipients_email": "Utiliser l’adresse e-mail du compte du destinataire",
     "user_experience": "Expérience utilisateur",
     "where_inject_snippet": "Où injecter l’extrait de suivi.",
-    "create_status_page": "Créer une page de statut"
+    "create_status_page": "Créer une page de statut",
+    "quick_analytics": {
+      "title": "Analyses",
+      "button_title": "Voir les analyses sur 30 jours",
+      "button_aria_label": "Voir les analyses",
+      "uptime_30d": "Disponibilité (30 j) :",
+      "avg_response": "Temps de réponse moyen :",
+      "incidents": "Incidents :",
+      "visitors_30d": "Visiteurs (30 j) :",
+      "last_30_days": "30 derniers jours",
+      "uptime_label": "Disponibilité",
+      "avg_response_short": "Réponse moyenne",
+      "incidents_label": "Incidents",
+      "total_downtime": "Temps d'arrêt total",
+      "unique_visitors": "Visiteurs uniques",
+      "view_full_analytics": "Voir toutes les analyses",
+      "failed_to_load": "Échec du chargement",
+      "failed_to_load_analytics": "Impossible de charger les analyses."
+    },
+    "overrides": {
+      "section_title": "Surcharges de statut des composants",
+      "section_subtitle": "Définissez manuellement le statut affiché pour n'importe quel composant, indépendamment des résultats des moniteurs",
+      "loading_components": "Chargement des composants...",
+      "no_components": "Aucun composant",
+      "failed_to_load": "Impossible de charger les composants.",
+      "override_applied": "Surcharge appliquée",
+      "override_cleared": "Surcharge supprimée",
+      "update_failed": "Impossible de mettre à jour la surcharge",
+      "dot_override_title": "Surcharge : {{status}}",
+      "dot_monitor_title": "Moniteur : {{status}}"
+    }
   },
   "components": {
     "form": {
@@ -2332,7 +2371,7 @@
     "understand_subscription": "Comprenez ce que votre abonnement inclut",
     "plan_status": "Statut du forfait",
     "admin_set_plan": "Forfait configuré par un administrateur",
-    "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
+    "plan_change_info": "La mise à niveau ou la rétrogradation de votre forfait prend effet immédiatement avec une facturation au prorata. Changer de cycle de facturation (mensuel/annuel) réinitialise votre date de facturation. Tout solde inutilisé est automatiquement crédité sur les prochains renouvellements.",
     "included_features": "📦 Fonctionnalités incluses",
     "private_status_pages": "Pages de statut privées",
     "audit_logs": "Journaux d’audit",
@@ -2351,7 +2390,7 @@
     "subscription_overview": "Aperçu de l’abonnement",
     "subscription_key_details": "Détails clés de votre cycle de facturation actuel",
     "auto_renew": "Renouvellement automatique",
-    "billing_cycle_label": "Billing cycle",
+    "billing_cycle_label": "Cycle de facturation",
     "next_billing_date": "Prochaine date de facturation",
     "current_period": "Période actuelle",
     "subscription_reference": "Référence d’abonnement",
@@ -2529,18 +2568,18 @@
     "trial_label": "Essai",
     "grace_period_label": "Période de Grâce",
     "active_label": "Actif:",
-    "active_until": "Active until:"
+    "active_until": "Actif jusqu’au :"
   },
   "misc": {
     "language_names": {
-      "english": "🇺🇸 English",
-      "spanish": "🇪🇸 Español",
-      "portuguese_br": "🇧🇷 Português (Brasil)",
+      "english": "🇺🇸 Anglais",
+      "spanish": "🇪🇸 Espagnol",
+      "portuguese_br": "🇧🇷 Portugais (Brésil)",
       "french": "🇫🇷 Français",
-      "german": "🇩🇪 Deutsch",
-      "serbian": "🇷🇸 Српски",
-      "arabic": "🇸🇦 العربية",
-      "croatian": "🇭🇷 Croatian"
+      "german": "🇩🇪 Allemand",
+      "serbian": "🇷🇸 Serbe",
+      "arabic": "🇸🇦 Arabe",
+      "croatian": "🇭🇷 Croate"
     },
     "assign_groups": "Attribuez des composants à des groupes ou laissez-les non groupés – les deux fonctionnent parfaitement !",
     "assign_to": "Attribuer à :",
@@ -2593,9 +2632,10 @@
     "url": "URL",
     "actions": "Actions",
     "message": "Message",
-    "na": "N/A",
+    "na": "N/D",
     "password": "Mot de passe",
     "save_changes": "Enregistrer les modifications",
+    "subject": "Sujet",
     "action": "Action",
     "yes": "Oui",
     "not_now": "Pas maintenant",
@@ -2643,8 +2683,8 @@
     "type_colon": "Type :",
     "upgrade_now": "Mettre à niveau maintenant",
     "value_label": "Valeur :",
-    "filter": "Filter",
-    "time": "Time"
+    "filter": "Filtrer",
+    "time": "Heure"
   },
   "dashboard": {
     "no_active_incidents_help": "Aucun incident actif. Continuez — ajoutez un moniteur ou partagez une page de statut.",
@@ -2813,8 +2853,8 @@
         "title": "Erreur réseau",
         "text": "Échec du chargement des données. Veuillez vérifier votre connexion et réessayer."
       },
-      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
-      "empty_title": "Select a Status Page"
+      "empty_description": "Choisissez une page de statut dans la liste ci-dessus pour afficher les données historiques de disponibilité.",
+      "empty_title": "Choisissez une page de statut"
     },
     "availability_response_time_heading": "Disponibilité & temps de réponse",
     "avg_response_time_title": "Temps de réponse moyen",

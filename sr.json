@@ -269,8 +269,8 @@
         "no_data": "Нема података за овај опсег.",
         "no_monitors": "Није пронађен ниједан монитор."
       },
-      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
-      "empty_title": "Select a Status Page"
+      "empty_description": "Изаберите статус страницу из падајућег менија изнад да бисте видели историјске податке о доступности.",
+      "empty_title": "Изаберите статус страницу"
     },
     "manage_share_tokens": "Управљај токенима за дељење",
     "show_downtime_only": "Прикажи само падове",
@@ -338,7 +338,7 @@
     "amount": "Износ",
     "audit_logs": "Аудит логови",
     "auto_renew": "Аутоматско обнављање",
-    "billing_cycle_label": "Billing cycle",
+    "billing_cycle_label": "Обрачунски циклус",
     "billing_history": "Историја наплате",
     "billing_history_navigation": "Навигација историје наплате",
     "branding": "брендирање",
@@ -397,7 +397,7 @@
     "period": "Период",
     "plan_status": "Статус плана",
     "admin_set_plan": "План конфигурисан од стране администратора",
-    "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
+    "plan_change_info": "Надоградња или прелазак на нижи план ступају на снагу одмах, уз пропорционалну наплату. Промена циклуса наплате (месечно/годишње) ресетује датум наплате. Неискоришћени износ се аутоматски признаје као кредит за будуће обнове.",
     "price": "Цена",
     "private_status_pages": "Приватне статус странице",
     "promo_code_prefix": "Промо код",
@@ -540,7 +540,7 @@
     "usage_snapshot": "Преглед употребе",
     "used": "искоришћено",
     "will_cancel_subscription": "Ово ће отказати вашу претплату",
-    "active_until": "Active until:"
+    "active_until": "Активно до:"
   },
   "common": {
     "action": "Акција",
@@ -616,9 +616,10 @@
     "request_failed_with": "Захтев није успео: {{error}}",
     "settings": "Подешавања",
     "success": "Успех",
+    "subject": "Предмет",
     "unexpected_error": "Дошло је до неочекиване грешке",
-    "filter": "Filter",
-    "time": "Time"
+    "filter": "Филтер",
+    "time": "Време"
   },
   "components": {
     "form": {
@@ -1109,11 +1110,11 @@
     "edit": {
       "heading": "Уреди монитор",
       "update_button": "Ажурирај монитор",
-      "delete_button": "Delete Monitor",
-      "delete_title": "Delete Monitor?",
-      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
-      "deleted": "Monitor has been deleted.",
-      "delete_failed": "Failed to delete monitor: "
+      "delete_button": "Обриши монитор",
+      "delete_title": "Обриши монитор?",
+      "delete_warning": "Ово ће трајно обрисати овај монитор и све његове историјске податке. Ова радња не може да се опозове.",
+      "deleted": "Монитор је обрисан.",
+      "delete_failed": "Брисање монитора није успело: "
     },
     "form": {
       "add_header_button": "Додај заглавље",
@@ -1199,9 +1200,12 @@
     "disable_info_no_metrics": "Неће се прикупљати метрике доступности",
     "disable_info_no_outages": "Статусна страница неће одражавати прекиде рада",
     "disable_info_title": "Када је монитор онемогућен:",
+    "delivered": "Достављено",
     "dismiss": "Одбиј",
     "download_plugin": "Преузми плагин",
     "enable": "Омогући",
+    "event": "Догађај",
+    "failed": "Неуспешно",
     "filter_all_pages": "Све странице статуса",
     "filter_all_statuses": "Сви статуси",
     "filter_label": "Филтер:",
@@ -1216,6 +1220,7 @@
     "heading": "Надзори перформансе и доступност својих сервиса",
     "last_check": "Последња провера",
     "learn_more": "Сазнај више",
+    "live": "Уживо...",
     "list": {
       "create_first": "Креирајте свој први монитор",
       "heading": "Ваши монитори",
@@ -1229,6 +1234,10 @@
     "mttr": "МТТР",
     "next_check": "Следећа провера",
     "not_checked": "Није проверено",
+    "no_alerts": "Нема алерта за овај монитор.",
+    "no_notifications": "Ниједно обавештење није послато за овај монитор.",
+    "notification_history": "Историја обавештења",
+    "channel": "Канал",
     "show_on_public": "Прикажи на јавној статусној страни",
     "status_down": "Неактиван",
     "status_unknown": "Непознато",
@@ -1236,7 +1245,7 @@
     "total_checks": "Укупно провера",
     "wordpress_alert_text": "Користи наш бесплатни WordPress плагин да прикажи свој СтатусПаге.ме виџет директно на свом сајту. Није потребан код, комплетна прилагођавања укључена са нашим Гутенберг блоком.",
     "wordpress_alert_title": "Уградите свој СтатусПаге.ме виџет на WordPress",
-    "avg_response": "Avg. Response"
+    "avg_response": "Просечан одзив"
   },
   "nav": {
     "addons": "Додаци",
@@ -1813,6 +1822,7 @@
         "failed_to_load_data": "Неуспело учитавање података",
         "group_created": "Група је креирана",
         "group_deleted": "Група је обрисана",
+        "group_renamed": "Група је преименована",
         "init_no_status_page_selected": "Неуспела иницијализација странице - није изабрана статус страница",
         "no_status_pages_available": "Нема доступних статус страница",
         "override_applied": "Надјачавање статуса је примењено",

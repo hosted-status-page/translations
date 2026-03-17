@@ -343,11 +343,11 @@
     "edit": {
       "heading": "Monitor bearbeiten",
       "update_button": "Monitor aktualisieren",
-      "delete_button": "Delete Monitor",
-      "delete_title": "Delete Monitor?",
-      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
-      "deleted": "Monitor has been deleted.",
-      "delete_failed": "Failed to delete monitor: "
+      "delete_button": "Monitor löschen",
+      "delete_title": "Monitor löschen?",
+      "delete_warning": "Dadurch wird dieser Monitor dauerhaft gelöscht, einschließlich aller historischen Daten. Diese Aktion kann nicht rückgängig gemacht werden.",
+      "deleted": "Der Monitor wurde gelöscht.",
+      "delete_failed": "Monitor konnte nicht gelöscht werden: "
     },
     "back_to_list": "Zurück zu Monitoren",
     "form": {
@@ -460,9 +460,12 @@
     "disable_info_no_metrics": "Es werden keine Verfügbarkeitsmetriken erfasst",
     "disable_info_no_outages": "Die Statusseite zeigt keine Ausfälle an",
     "disable_info_title": "Wenn ein Monitor deaktiviert ist:",
+    "delivered": "Zugestellt",
     "dismiss": "Ablehnen",
     "download_plugin": "Plugin herunterladen",
     "enable": "Aktivieren",
+    "event": "Ereignis",
+    "failed": "Fehlgeschlagen",
     "filter_all_pages": "Alle Statusseiten",
     "filter_all_statuses": "Alle Status",
     "filter_label": "Filter:",
@@ -477,6 +480,7 @@
     "heading": "Überwachen Sie die Leistung und Verfügbarkeit Ihrer Dienste",
     "last_check": "Letzte Überprüfung",
     "learn_more": "Mehr erfahren",
+    "live": "Live...",
     "list": {
       "create_first": "Erstellen Sie Ihren ersten Monitor",
       "heading": "Ihre Monitore",
@@ -490,6 +494,10 @@
     "mttr": "MTTR",
     "next_check": "Nächste Überprüfung",
     "not_checked": "Nicht überprüft",
+    "no_alerts": "Keine Alarme für diesen Monitor.",
+    "no_notifications": "Für diesen Monitor wurden keine Benachrichtigungen gesendet.",
+    "notification_history": "Benachrichtigungsverlauf",
+    "channel": "Kanal",
     "show_on_public": "Auf öffentlicher Statusseite anzeigen",
     "status_down": "Inaktiv",
     "status_unknown": "Unbekannt",
@@ -497,7 +505,7 @@
     "total_checks": "Gesamtüberprüfungen",
     "wordpress_alert_text": "Verwenden Sie unser kostenloses WordPress-Plugin, um Ihr StatusPage.me-Widget direkt auf Ihrer Website anzuzeigen. Kein Code erforderlich, vollständige Anpassung mit unserem Gutenberg-Block enthalten.",
     "wordpress_alert_title": "Betten Sie Ihr StatusPage.me-Widget in WordPress ein",
-    "avg_response": "Avg. Response"
+    "avg_response": "Durchschn. Antwort"
   },
   "status_pages": {
     "view_status_page": "Ihre Statusseite anzeigen",
@@ -581,6 +589,7 @@
         "failed_to_load_data": "Daten konnten nicht geladen werden",
         "group_created": "Gruppe erstellt",
         "group_deleted": "Gruppe gelöscht",
+        "group_renamed": "Gruppe umbenannt",
         "init_no_status_page_selected": "Seite konnte nicht initialisiert werden – keine Statusseite ausgewählt",
         "no_status_pages_available": "Keine Statusseiten verfügbar",
         "override_applied": "Statusüberschreibung angewendet",
@@ -1041,7 +1050,37 @@
     "use_recipients_email": "Verwenden Sie die E-Mail-Adresse des Empfängerkontos",
     "user_experience": "Nutzererfahrung",
     "where_inject_snippet": "Wo das Tracking-Snippet injiziert werden soll.",
-    "create_status_page": "Statusseite erstellen"
+    "create_status_page": "Statusseite erstellen",
+    "quick_analytics": {
+      "title": "Analysen",
+      "button_title": "30-Tage-Analysen anzeigen",
+      "button_aria_label": "Analysen anzeigen",
+      "uptime_30d": "Verfügbarkeit (30 T):",
+      "avg_response": "Durchschn. Antwort:",
+      "incidents": "Vorfälle:",
+      "visitors_30d": "Besucher (30 T):",
+      "last_30_days": "letzte 30 Tage",
+      "uptime_label": "Verfügbarkeit",
+      "avg_response_short": "Durchschn. Antwort",
+      "incidents_label": "Vorfälle",
+      "total_downtime": "Gesamtausfallzeit",
+      "unique_visitors": "Eindeutige Besucher",
+      "view_full_analytics": "Alle Analysen anzeigen",
+      "failed_to_load": "Laden fehlgeschlagen",
+      "failed_to_load_analytics": "Analysen konnten nicht geladen werden."
+    },
+    "overrides": {
+      "section_title": "Statusüberschreibungen für Komponenten",
+      "section_subtitle": "Legen Sie den angezeigten Status für jede Komponente unabhängig von den Monitor-Ergebnissen manuell fest",
+      "loading_components": "Komponenten werden geladen...",
+      "no_components": "Keine Komponenten",
+      "failed_to_load": "Komponenten konnten nicht geladen werden.",
+      "override_applied": "Überschreibung angewendet",
+      "override_cleared": "Überschreibung entfernt",
+      "update_failed": "Überschreibung konnte nicht aktualisiert werden",
+      "dot_override_title": "Überschreibung: {{status}}",
+      "dot_monitor_title": "Monitor: {{status}}"
+    }
   },
   "components": {
     "form": {
@@ -2319,7 +2358,7 @@
     "current_plan": "Aktueller Plan",
     "understand_subscription": "Sehen Sie, was Ihr Abonnement beinhaltet",
     "plan_status": "Planstatus",
-    "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
+    "plan_change_info": "Eine Hoch- oder Herabstufung Ihres Plans wird sofort wirksam und anteilig berechnet. Das Wechseln des Abrechnungszyklus (monatlich/jährlich) setzt Ihr Abrechnungsdatum zurück. Nicht genutztes Guthaben wird automatisch auf zukünftige Verlängerungen angerechnet.",
     "included_features": "📦 Enthaltene Funktionen",
     "private_status_pages": "Private Statusseiten",
     "audit_logs": "Audit-Logs",
@@ -2338,7 +2377,7 @@
     "subscription_overview": "Abonnementübersicht",
     "subscription_key_details": "Wichtige Details für Ihren aktuellen Abrechnungszeitraum",
     "auto_renew": "Automatische Verlängerung",
-    "billing_cycle_label": "Billing cycle",
+    "billing_cycle_label": "Abrechnungszyklus",
     "next_billing_date": "Nächstes Abrechnungsdatum",
     "current_period": "Aktueller Zeitraum",
     "subscription_reference": "Abonnement-Referenz",
@@ -2517,18 +2556,18 @@
     "trial_label": "Testzeitraum",
     "grace_period_label": "Kulanzfrist",
     "active_label": "Aktiv:",
-    "active_until": "Active until:"
+    "active_until": "Aktiv bis:"
   },
   "misc": {
     "language_names": {
-      "english": "🇺🇸 English",
-      "spanish": "🇪🇸 Español",
-      "portuguese_br": "🇧🇷 Português (Brasil)",
+      "english": "🇺🇸 Englisch",
+      "spanish": "🇪🇸 Spanisch",
+      "portuguese_br": "🇧🇷 Portugiesisch (Brasilien)",
       "french": "🇫🇷 Français",
       "german": "🇩🇪 Deutsch",
-      "serbian": "🇷🇸 Српски",
-      "arabic": "🇸🇦 العربية",
-      "croatian": "🇭🇷 Croatian"
+      "serbian": "🇷🇸 Serbisch",
+      "arabic": "🇸🇦 Arabisch",
+      "croatian": "🇭🇷 Kroatisch"
     },
     "assign_groups": "Weisen Sie Komponenten Gruppen zu oder lassen Sie sie ungruppiert – beides funktioniert perfekt!",
     "assign_to": "Zuweisen an:",
@@ -2584,6 +2623,7 @@
     "na": "N/A",
     "password": "Passwort",
     "save_changes": "Änderungen speichern",
+    "subject": "Betreff",
     "action": "Aktion",
     "yes": "Ja",
     "not_now": "Nicht jetzt",
@@ -2631,8 +2671,8 @@
     "type_colon": "Typ:",
     "upgrade_now": "Jetzt upgraden",
     "value_label": "Wert:",
-    "filter": "Filter",
-    "time": "Time"
+    "filter": "Filtern",
+    "time": "Zeit"
   },
   "dashboard": {
     "no_active_incidents_help": "Keine aktiven Vorfälle. Weiter so — fügen Sie einen Monitor hinzu oder teilen Sie eine Statusseite.",
@@ -2801,8 +2841,8 @@
         "title": "Netzwerkfehler",
         "text": "Daten konnten nicht geladen werden. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut."
       },
-      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
-      "empty_title": "Select a Status Page"
+      "empty_description": "Wählen Sie oben im Dropdown eine Statusseite aus, um historische Verfügbarkeitsdaten anzuzeigen.",
+      "empty_title": "Wählen Sie eine Statusseite aus"
     },
     "availability_response_time_heading": "Verfügbarkeit & Antwortzeit",
     "avg_response_time_title": "Durchschnittliche Antwortzeit",

@@ -343,11 +343,11 @@
     "edit": {
       "heading": "تحرير مونيتور",
       "update_button": "تحديث مونيتور",
-      "delete_button": "Delete Monitor",
-      "delete_title": "Delete Monitor?",
-      "delete_warning": "This will permanently delete this monitor and all its historical data. This action cannot be undone.",
-      "deleted": "Monitor has been deleted.",
-      "delete_failed": "Failed to delete monitor: "
+      "delete_button": "حذف المونيتور",
+      "delete_title": "حذف المونيتور؟",
+      "delete_warning": "سيؤدي هذا إلى حذف هذا المونيتور وجميع بياناته التاريخية نهائيًا. لا يمكن التراجع عن هذا الإجراء.",
+      "deleted": "تم حذف المونيتور.",
+      "delete_failed": "فشل حذف المونيتور: "
     },
     "back_to_list": "العودة إلى المونيتورات",
     "form": {
@@ -460,9 +460,12 @@
     "disable_info_no_metrics": "لن يتم جمع أي مقاييس لوقت التشغيل",
     "disable_info_no_outages": "لن تعكس صفحة الحالة أي انقطاعات",
     "disable_info_title": "عند تعطيل المراقب:",
+    "delivered": "تم التسليم",
     "dismiss": "تجاهل",
     "download_plugin": "تحميل البرنامج المساعد",
     "enable": "تمكين",
+    "event": "الحدث",
+    "failed": "فشل",
     "filter_all_pages": "جميع صفحات الحالة",
     "filter_all_statuses": "جميع الحالات",
     "filter_label": "عامل التصفية:",
@@ -477,6 +480,7 @@
     "heading": "راقب أداء وتوفر خدماتك",
     "last_check": "آخر فحص",
     "learn_more": "تعرف على المزيد",
+    "live": "مباشر...",
     "list": {
       "create_first": "أنشئ أول مونيتور",
       "heading": "قائمة المونيتورات",
@@ -490,6 +494,10 @@
     "mttr": "MTTR",
     "next_check": "الفحص التالي",
     "not_checked": "لم يتم الفحص",
+    "no_alerts": "لا توجد تنبيهات لهذا المونيتور.",
+    "no_notifications": "لم يتم إرسال أي إشعارات لهذا المونيتور.",
+    "notification_history": "سجل الإشعارات",
+    "channel": "القناة",
     "show_on_public": "عرض على صفحة الحالة العامة",
     "status_down": "غير متصل",
     "status_unknown": "غير معروف",
@@ -497,7 +505,7 @@
     "total_checks": "إجمالي الفحوصات",
     "wordpress_alert_text": "استخدم مكوّن WordPress المجاني لدينا لعرض أداة StatusPage.me مباشرة على موقعك. لا توجد حاجة لأي رمز برمجي، وتخصيص كامل مدرج مع كتلة Gutenberg الخاصة بنا.",
     "wordpress_alert_title": "قم بدمج أداتك StatusPage.me على WordPress",
-    "avg_response": "Avg. Response"
+    "avg_response": "متوسط الاستجابة"
   },
   "status_pages": {
     "view_status_page": "عرض صفحة الحالة الخاصة بك",
@@ -577,6 +585,7 @@
         "failed_to_load_data": "فشل تحميل البيانات",
         "group_created": "تم إنشاء المجموعة",
         "group_deleted": "تم حذف المجموعة",
+        "group_renamed": "تمت إعادة تسمية المجموعة",
         "init_no_status_page_selected": "فشل تهيئة الصفحة - لم يتم اختيار صفحة حالة",
         "no_status_pages_available": "لا توجد صفحات حالة متاحة",
         "override_applied": "تم تطبيق تجاوز الحالة",
@@ -1041,7 +1050,37 @@
     "use_recipients_email": "استخدام عنوان البريد الإلكتروني لحساب المستلم",
     "user_experience": "تجربة المستخدم",
     "where_inject_snippet": "أين يتم حقن مقتطف التتبع.",
-    "create_status_page": "إنشاء صفحة حالة"
+    "create_status_page": "إنشاء صفحة حالة",
+    "quick_analytics": {
+      "title": "التحليلات",
+      "button_title": "عرض تحليلات آخر 30 يومًا",
+      "button_aria_label": "عرض التحليلات",
+      "uptime_30d": "وقت التشغيل (30 يومًا):",
+      "avg_response": "متوسط الاستجابة:",
+      "incidents": "الحوادث:",
+      "visitors_30d": "الزوار (30 يومًا):",
+      "last_30_days": "آخر 30 يومًا",
+      "uptime_label": "وقت التشغيل",
+      "avg_response_short": "متوسط الاستجابة",
+      "incidents_label": "الحوادث",
+      "total_downtime": "إجمالي وقت التوقف",
+      "unique_visitors": "الزوار الفريدون",
+      "view_full_analytics": "عرض التحليلات الكاملة",
+      "failed_to_load": "فشل التحميل",
+      "failed_to_load_analytics": "فشل تحميل التحليلات."
+    },
+    "overrides": {
+      "section_title": "تجاوزات حالة المكوّنات",
+      "section_subtitle": "اضبط يدويًا الحالة المعروضة لأي مكوّن بغض النظر عن نتائج المراقب",
+      "loading_components": "جارٍ تحميل المكوّنات...",
+      "no_components": "لا توجد مكوّنات",
+      "failed_to_load": "فشل تحميل المكوّنات.",
+      "override_applied": "تم تطبيق التجاوز",
+      "override_cleared": "تمت إزالة التجاوز",
+      "update_failed": "فشل تحديث التجاوز",
+      "dot_override_title": "تجاوز: {{status}}",
+      "dot_monitor_title": "مراقب: {{status}}"
+    }
   },
   "components": {
     "form": {
@@ -2331,7 +2370,7 @@
     "current_plan": "الخطة الحالية",
     "understand_subscription": "اعرف ما الذي تتضمنه اشتراكتك",
     "plan_status": "حالة الخطة",
-    "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
+    "plan_change_info": "يصبح ترقية خطتك أو تخفيضها ساريًا فورًا مع فوترة تناسبية. يؤدي تغيير دورة الفوترة (شهري/سنوي) إلى إعادة تعيين تاريخ الفوترة. يُضاف أي رصيد غير مستخدم تلقائيًا إلى التجديدات المستقبلية.",
     "included_features": "📦 الميزات المضمنة",
     "private_status_pages": "صفحات حالة خاصة",
     "audit_logs": "سجلات التدقيق",
@@ -2350,7 +2389,7 @@
     "subscription_overview": "نظرة عامة عن الاشتراك",
     "subscription_key_details": "تفاصيل أساسية لدورة الفوترة الحالية",
     "auto_renew": "التجديد التلقائي",
-    "billing_cycle_label": "Billing cycle",
+    "billing_cycle_label": "دورة الفوترة",
     "next_billing_date": "تاريخ الفوترة التالي",
     "current_period": "الفترة الحالية",
     "subscription_reference": "مرجع الاشتراك",
@@ -2529,18 +2568,18 @@
     "trial_label": "تجربة",
     "grace_period_label": "فترة السماح",
     "active_label": "نشط:",
-    "active_until": "Active until:"
+    "active_until": "نشط حتى:"
   },
   "misc": {
     "language_names": {
-      "english": "🇺🇸 English",
-      "spanish": "🇪🇸 Español",
-      "portuguese_br": "🇧🇷 Português (Brasil)",
-      "french": "🇫🇷 Français",
-      "german": "🇩🇪 Deutsch",
-      "serbian": "🇷🇸 Српски",
+      "english": "🇺🇸 الإنجليزية",
+      "spanish": "🇪🇸 الإسبانية",
+      "portuguese_br": "🇧🇷 البرتغالية (البرازيل)",
+      "french": "🇫🇷 الفرنسية",
+      "german": "🇩🇪 الألمانية",
+      "serbian": "🇷🇸 الصربية",
       "arabic": "🇸🇦 العربية",
-      "croatian": "🇭🇷 Croatian"
+      "croatian": "🇭🇷 الكرواتية"
     },
     "assign_groups": "قم بتخصيص المكونات للمجموعات أو اتركها غير مجمعة - كلاهما يعمل بشكل مثالي!",
     "assign_to": "تخصيص لـ:",
@@ -2596,6 +2635,7 @@
     "na": "غير متاح",
     "password": "كلمة المرور",
     "save_changes": "حفظ التغييرات",
+    "subject": "الموضوع",
     "action": "إجراء",
     "yes": "نعم",
     "not_now": "ليس الآن",
@@ -2643,8 +2683,8 @@
     "type_colon": "النوع:",
     "upgrade_now": "قم بالترقية الآن",
     "value_label": "القيمة:",
-    "filter": "Filter",
-    "time": "Time"
+    "filter": "تصفية",
+    "time": "الوقت"
   },
   "dashboard": {
     "no_active_incidents_help": "لا توجد حوادث نشطة. تابع العمل — أضف مراقبة أو شارك صفحة حالة.",
@@ -2813,8 +2853,8 @@
         "title": "خطأ في الشبكة",
         "text": "فشل تحميل البيانات. يرجى التحقق من اتصالك والمحاولة مرة أخرى."
       },
-      "empty_description": "Choose a status page from the dropdown above to view historical uptime data.",
-      "empty_title": "Select a Status Page"
+      "empty_description": "اختر صفحة حالة من القائمة المنسدلة أعلاه لعرض بيانات مدة التشغيل التاريخية.",
+      "empty_title": "اختر صفحة حالة"
     },
     "availability_response_time_heading": "التوافر ووقت الاستجابة",
     "avg_response_time_title": "متوسط زمن الاستجابة",
