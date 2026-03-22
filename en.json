@@ -1045,6 +1045,7 @@
     },
     "assign_groups": "Assign components to groups or leave them ungrouped – both work perfectly!",
     "assign_to": "Assign to:",
+    "set_status": "Set status",
     "compare_plans": "Compare Plans",
     "components_help": "Organize your status page components into optional groups",
     "confirmed": "Confirmed",
@@ -1780,6 +1781,14 @@
       "manual_badge_title": "No monitor attached — status driven by incidents only",
       "override_badge_title": "Manual status override active",
       "search_placeholder": "Search components by name...",
+      "simple_banner": {
+        "title": "Simple Status Page",
+        "no_monitors": "No monitors needed.",
+        "update_prefix": "Update each component's status manually using the",
+        "update_suffix": "button next to each component.",
+        "immediate_effect": "Status changes take effect immediately for your visitors.",
+        "upgrade_cta": "Upgrade to add more"
+      },
       "swal": {
         "assign_to_group": {
           "placeholder": "Select a group",
@@ -1849,11 +1858,13 @@
       },
       "tooltip_delete_component": "Delete component",
       "tooltip_edit_component": "Edit component",
+      "tooltip_set_status": "Set status",
       "tooltip_set_status_override": "Set status override",
       "tooltip_move_down": "Move down",
       "tooltip_move_up": "Move up",
       "ungrouped": "Ungrouped",
       "url_placeholder": "https://example.com",
+      "limit_reached_title": "Component limit reached - upgrade to add more",
       "validation": {
         "component_name_required": "You need to enter a component name!",
         "group_name_required": "You need to enter a group name!",
@@ -2201,7 +2212,19 @@
       "create_new": "Create New Status Page",
       "none_message": "You have no status pages yet.",
       "notifications_button": "Notifications",
-      "notifications_button_title": "Configure reusable notification channels for all your status pages"
+      "notifications_button_title": "Configure reusable notification channels for all your status pages",
+      "near_limit": {
+        "title": "Approaching your status page limit.",
+        "usage_suffix": "pages used on your current plan.",
+        "cta": "Upgrade plan"
+      },
+      "simple_created": {
+        "title_prefix": "Simple status page created",
+        "body": "Your first component was added successfully.",
+        "cta": "Customize components"
+      },
+      "simple_badge": "Simple",
+      "simple_badge_title": "No monitors - status updated manually"
     },
     "live_preview": "Live Preview",
     "loading_channels": "Loading channels...",
@@ -2316,7 +2339,9 @@
       "override_cleared": "Override cleared",
       "update_failed": "Failed to update override",
       "dot_override_title": "Override: {{status}}",
-      "dot_monitor_title": "Monitor: {{status}}"
+      "dot_monitor_title": "Monitor: {{status}}",
+      "dot_simple_title": "Operational (no monitor)",
+      "no_override_simple": "— Default (Operational) —"
     }
   },
   "runbooks": {
@@ -2372,6 +2397,154 @@
       "title": "Delete runbook?",
       "text": "This will unlink the runbook from all incidents. This action cannot be undone.",
       "failed": "Failed to delete runbook"
+    }
+  },
+  "public_feature_simple_status_page": {
+    "hero": {
+      "title": "A status page without the complexity",
+      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "cta_hint": "Free to start",
+      "cta": "Create Your Status Page"
+    },
+    "benefits": {
+      "badge": "Key Benefits",
+      "title": "Everything you need, nothing you don't",
+      "subtitle": "Tell your users what's up - without setting up a single monitor.",
+      "cards": {
+        "launch": {
+          "title": "Up and running in minutes",
+          "description": "Create a status page, add your services as components, and share the link. No monitors, no agents, no infrastructure required."
+        },
+        "upgrade": {
+          "title": "Upgrade when you're ready",
+          "description": "Start simple and add automated uptime monitoring, custom domains, branding and incident management as your product grows."
+        },
+        "dashboard": {
+          "title": "One-screen control panel",
+          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+        },
+        "notes": {
+          "title": "Add context with notes",
+          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+        },
+        "notifications": {
+          "title": "Subscribers notified automatically",
+          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+        },
+        "history": {
+          "title": "90-day reported history",
+          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+        }
+      }
+    },
+    "use_cases": {
+      "badge": "Use Cases",
+      "title": "Who uses simple status pages?",
+      "subtitle": "Any team that wants to communicate service health without automation.",
+      "startups": {
+        "title": "Startups in early access",
+        "description": "You have a handful of early users and want to show them you take reliability seriously, but you're not ready to invest in full monitoring infrastructure.",
+        "point_1": "Add components for your API, dashboard, and auth service",
+        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_3": "Share the URL in your app footer"
+      },
+      "internal": {
+        "title": "Internal tools & admin panels",
+        "description": "Your internal systems don't face public users, but your teammates still need to know when things are broken or in maintenance.",
+        "point_1": "List internal services as components",
+        "point_2": "Set maintenance status before scheduled downtime",
+        "point_3": "Share with your team on Slack"
+      },
+      "indie": {
+        "title": "Indie makers & side projects",
+        "description": "You run a solo project and want a professional status page without paying for monitoring you don't need yet.",
+        "point_1": "Free plan covers up to 3 components",
+        "point_2": "No credit card required",
+        "point_3": "Looks great and builds user trust"
+      }
+    },
+    "how_it_works": {
+      "badge": "How It Works",
+      "title": "Three steps to a live status page",
+      "subtitle": "No guides needed. No technical setup. Just fill in the blanks.",
+      "step_1": {
+        "title": "Create your status page",
+        "description": "Choose \"Simple Status Page\" when creating a new page. Give it a name - it's ready instantly."
+      },
+      "step_2": {
+        "title": "Add your components",
+        "description": "Add the services, APIs or features you want to track - for example \"API\", \"Dashboard\", \"Auth\". Each becomes a row on your public page."
+      },
+      "step_3": {
+        "title": "Update from your dashboard",
+        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+      }
+    },
+    "statuses": {
+      "title": "Five status states, clearly communicated",
+      "subtitle": "Each component on your page can be set to one of five states that visitors instantly understand - no jargon, no ambiguity.",
+      "operational": {
+        "label": "Operational",
+        "description": "Everything is working normally"
+      },
+      "degraded": {
+        "label": "Degraded",
+        "description": "Working but slower or partially broken"
+      },
+      "partial_outage": {
+        "label": "Partial Outage",
+        "description": "Some users are affected"
+      },
+      "major_outage": {
+        "label": "Major Outage",
+        "description": "Service is down for most users"
+      },
+      "maintenance": {
+        "label": "Maintenance",
+        "description": "Planned work in progress"
+      }
+    },
+    "cta": {
+      "title": "Ready to keep your users in the loop?",
+      "subtitle": "Create a free simple status page in under two minutes. No credit card required.",
+      "button": "Create Your Status Page - Free"
+    },
+    "dashboard_feature": {
+      "badge": "Simple Dashboard",
+      "title": "Update status in two clicks",
+      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
+      "illustration_label": "Simple Dashboard — everything in one screen",
+      "point_1": "See all component statuses and active incidents at a glance",
+      "point_2": "Pin it as your default landing page for instant access after login",
+      "point_3": "No navigating around settings — everything is right there"
+    },
+    "notes_feature": {
+      "badge": "Notes & Incident History",
+      "title": "One note does three things",
+      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
+      "illustration_label": "Notes shown publicly · Incident created automatically",
+      "point_1": "Note appears inline on the public status page",
+      "point_2": "Incident entry created automatically — no separate step",
+      "point_3": "Subscribers notified without opening the incident management flow",
+      "point_4": "Incident auto-resolves when you reset the component to Operational"
+    }
+  },
+  "public_nav": {
+    "simple_status_page": {
+      "title": "Simple Status Page",
+      "description": "No monitors needed - update status manually"
+    }
+  },
+  "terms_page": {
+    "customer_logos": {
+      "nav": "Customer Logos & Marketing",
+      "title": "Customer Logos & Marketing",
+      "use_title": "Use of Company Name & Logo",
+      "body_prefix": "By using",
+      "body_suffix": "you grant us a non-exclusive, royalty-free right to display your company name and/or logo on our homepage or a dedicated customers/showcase page for marketing and social proof purposes.",
+      "opt_out_label": "Opt-Out:",
+      "opt_out_prefix": "You can request removal of your company name and/or logo from our marketing materials at any time by emailing",
+      "opt_out_suffix": "We will process opt-out requests within 14 business days."
     }
   },
   "support": {

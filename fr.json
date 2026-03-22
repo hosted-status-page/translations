@@ -528,6 +528,14 @@
       "manual_badge_title": "Aucun moniteur associé — le statut dépend uniquement des incidents",
       "override_badge_title": "Surcharge manuelle du statut active",
       "search_placeholder": "Rechercher des composants par nom...",
+      "simple_banner": {
+        "title": "Page de statut simple",
+        "no_monitors": "Aucun moniteur nécessaire.",
+        "update_prefix": "Mettez à jour manuellement le statut de chaque composant avec le bouton",
+        "update_suffix": "à côté de chaque composant.",
+        "immediate_effect": "Les changements de statut prennent effet immédiatement pour vos visiteurs.",
+        "upgrade_cta": "Passez à un forfait supérieur pour en ajouter"
+      },
       "swal": {
         "assign_to_group": {
           "placeholder": "Sélectionner un groupe",
@@ -597,11 +605,13 @@
       },
       "tooltip_delete_component": "Supprimer le composant",
       "tooltip_edit_component": "Modifier le composant",
+      "tooltip_set_status": "Définir le statut",
       "tooltip_set_status_override": "Définir une surcharge du statut",
       "tooltip_move_down": "Descendre",
       "tooltip_move_up": "Monter",
       "ungrouped": "Non groupé",
       "url_placeholder": "https://example.com",
+      "limit_reached_title": "Limite de composants atteinte - passez à un forfait supérieur pour en ajouter",
       "validation": {
         "component_name_required": "Vous devez saisir un nom de composant !",
         "group_name_required": "Vous devez saisir un nom de groupe !",
@@ -964,7 +974,19 @@
       "create_new": "Créer une nouvelle page de statut",
       "none_message": "Vous n'avez pas encore de pages de statut.",
       "notifications_button": "Notifications",
-      "notifications_button_title": "Configurez des canaux de notification réutilisables pour toutes vos pages de statut"
+      "notifications_button_title": "Configurez des canaux de notification réutilisables pour toutes vos pages de statut",
+      "near_limit": {
+        "title": "Vous approchez de votre limite de pages de statut.",
+        "usage_suffix": "pages utilisées sur votre forfait actuel.",
+        "cta": "Passer au forfait supérieur"
+      },
+      "simple_created": {
+        "title_prefix": "Page de statut simple créée",
+        "body": "Votre premier composant a été ajouté avec succès.",
+        "cta": "Personnaliser les composants"
+      },
+      "simple_badge": "Simple",
+      "simple_badge_title": "Aucun moniteur - le statut est mis à jour manuellement"
     },
     "live_preview": "Aperçu en direct",
     "loading_channels": "Chargement des canaux...",
@@ -1079,7 +1101,9 @@
       "override_cleared": "Surcharge supprimée",
       "update_failed": "Impossible de mettre à jour la surcharge",
       "dot_override_title": "Surcharge : {{status}}",
-      "dot_monitor_title": "Moniteur : {{status}}"
+      "dot_monitor_title": "Moniteur : {{status}}",
+      "dot_simple_title": "Opérationnel (sans moniteur)",
+      "no_override_simple": "— Par défaut (Opérationnel) —"
     }
   },
   "components": {
@@ -2583,6 +2607,7 @@
     },
     "assign_groups": "Attribuez des composants à des groupes ou laissez-les non groupés – les deux fonctionnent parfaitement !",
     "assign_to": "Attribuer à :",
+    "set_status": "Définir le statut",
     "compare_plans": "Comparer les plans",
     "components_help": "Organisez les composants de votre page de statut en groupes optionnels",
     "confirmed": "Confirmé",
@@ -2934,6 +2959,154 @@
       "title": "Supprimer le runbook ?",
       "text": "Cela détachera le runbook de tous les incidents. Cette action est irréversible.",
       "failed": "Impossible de supprimer le runbook"
+    }
+  },
+  "public_feature_simple_status_page": {
+    "hero": {
+      "title": "Une page de statut sans complexite",
+      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "cta_hint": "Gratuit pour commencer",
+      "cta": "Creez votre page de statut"
+    },
+    "benefits": {
+      "badge": "Points forts",
+      "title": "Tout ce qu'il vous faut, rien de superflu",
+      "subtitle": "Dites a vos utilisateurs ce qui se passe sans configurer le moindre moniteur.",
+      "cards": {
+        "launch": {
+          "title": "Operationnelle en quelques minutes",
+          "description": "Creez une page de statut, ajoutez vos services comme composants et partagez le lien. Aucun moniteur, aucun agent et aucune infrastructure supplementaire requis."
+        },
+        "upgrade": {
+          "title": "Passez a l'etape suivante quand vous etes pret",
+          "description": "Commencez simplement puis ajoutez la surveillance automatique, les domaines personnalises, le branding et la gestion d'incidents a mesure que votre produit grandit."
+        },
+        "dashboard": {
+          "title": "One-screen control panel",
+          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+        },
+        "notes": {
+          "title": "Add context with notes",
+          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+        },
+        "notifications": {
+          "title": "Subscribers notified automatically",
+          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+        },
+        "history": {
+          "title": "90-day reported history",
+          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+        }
+      }
+    },
+    "use_cases": {
+      "badge": "Cas d'usage",
+      "title": "Qui utilise les pages de statut simples ?",
+      "subtitle": "Toute equipe qui veut communiquer l'etat du service sans automatisation.",
+      "startups": {
+        "title": "Startups en acces anticipe",
+        "description": "Vous avez quelques premiers utilisateurs et vous voulez montrer que vous prenez la fiabilite au serieux, sans encore investir dans une infrastructure complete de monitoring.",
+        "point_1": "Ajoutez des composants pour votre API, votre tableau de bord et votre service d'authentification",
+        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_3": "Partagez l'URL dans le pied de page de votre application"
+      },
+      "internal": {
+        "title": "Outils internes et panneaux d'administration",
+        "description": "Vos systemes internes ne sont pas destines au public, mais votre equipe doit tout de meme savoir quand quelque chose casse ou passe en maintenance.",
+        "point_1": "Listez les services internes comme composants",
+        "point_2": "Passez en maintenance avant une interruption planifiee",
+        "point_3": "Partagez-la avec votre equipe sur Slack"
+      },
+      "indie": {
+        "title": "Indie makers et side projects",
+        "description": "Vous gerez un projet solo et vous voulez une page de statut professionnelle sans payer pour du monitoring dont vous n'avez pas encore besoin.",
+        "point_1": "Le plan gratuit couvre jusqu'a 3 composants",
+        "point_2": "Aucune carte bancaire requise",
+        "point_3": "Le rendu est propre et renforce la confiance"
+      }
+    },
+    "how_it_works": {
+      "badge": "Fonctionnement",
+      "title": "Trois etapes pour une page de statut en ligne",
+      "subtitle": "Pas de guide, pas de configuration technique. Il suffit de remplir l'essentiel.",
+      "step_1": {
+        "title": "Creez votre page de statut",
+        "description": "Choisissez \"Page de statut simple\" lors de la creation d'une nouvelle page. Donnez-lui un nom et elle est prete instantanement."
+      },
+      "step_2": {
+        "title": "Ajoutez vos composants",
+        "description": "Ajoutez les services, API ou fonctionnalites que vous voulez suivre - par exemple \"API\", \"Dashboard\" ou \"Auth\". Chacun devient une ligne sur votre page publique."
+      },
+      "step_3": {
+        "title": "Update from your dashboard",
+        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+      }
+    },
+    "statuses": {
+      "title": "Cinq etats de statut expliques clairement",
+      "subtitle": "Chaque composant de votre page peut prendre l'un de cinq etats que les visiteurs comprennent instantanement, sans jargon ni ambiguite.",
+      "operational": {
+        "label": "Operationnel",
+        "description": "Tout fonctionne normalement"
+      },
+      "degraded": {
+        "label": "Degrade",
+        "description": "Le service fonctionne mais plus lentement ou partiellement"
+      },
+      "partial_outage": {
+        "label": "Panne partielle",
+        "description": "Une partie des utilisateurs est affectee"
+      },
+      "major_outage": {
+        "label": "Panne majeure",
+        "description": "Le service est indisponible pour la plupart des utilisateurs"
+      },
+      "maintenance": {
+        "label": "Maintenance",
+        "description": "Travaux planifies en cours"
+      }
+    },
+    "cta": {
+      "title": "Pret a tenir vos utilisateurs informes ?",
+      "subtitle": "Creez une page de statut simple gratuite en moins de deux minutes. Aucune carte bancaire requise.",
+      "button": "Creez votre page de statut - Gratuit"
+    },
+    "dashboard_feature": {
+      "badge": "Simple Dashboard",
+      "title": "Update status in two clicks",
+      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
+      "illustration_label": "Simple Dashboard — everything in one screen",
+      "point_1": "See all component statuses and active incidents at a glance",
+      "point_2": "Pin it as your default landing page for instant access after login",
+      "point_3": "No navigating around settings — everything is right there"
+    },
+    "notes_feature": {
+      "badge": "Notes & Incident History",
+      "title": "One note does three things",
+      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
+      "illustration_label": "Notes shown publicly · Incident created automatically",
+      "point_1": "Note appears inline on the public status page",
+      "point_2": "Incident entry created automatically — no separate step",
+      "point_3": "Subscribers notified without opening the incident management flow",
+      "point_4": "Incident auto-resolves when you reset the component to Operational"
+    }
+  },
+  "public_nav": {
+    "simple_status_page": {
+      "title": "Page de statut simple",
+      "description": "Aucun moniteur requis - mise a jour manuelle du statut"
+    }
+  },
+  "terms_page": {
+    "customer_logos": {
+      "nav": "Logos clients et marketing",
+      "title": "Logos clients et marketing",
+      "use_title": "Utilisation du nom et du logo de l'entreprise",
+      "body_prefix": "En utilisant",
+      "body_suffix": "vous nous accordez un droit non exclusif et libre de redevance d'afficher le nom et/ou le logo de votre entreprise sur notre page d'accueil ou sur une page clients/showcase dediee a des fins marketing et de preuve sociale.",
+      "opt_out_label": "Retrait :",
+      "opt_out_prefix": "Vous pouvez demander a tout moment la suppression du nom et/ou du logo de votre entreprise de nos supports marketing en ecrivant a",
+      "opt_out_suffix": "Nous traiterons les demandes de retrait sous 14 jours ouvres."
     }
   },
   "support": {

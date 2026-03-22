@@ -532,6 +532,14 @@
       "manual_badge_title": "No hay monitor adjunto; el estado depende solo de los incidentes",
       "override_badge_title": "Anulación manual de estado activa",
       "search_placeholder": "Buscar componentes por nombre...",
+      "simple_banner": {
+        "title": "Página de estado simple",
+        "no_monitors": "No se necesitan monitores.",
+        "update_prefix": "Actualiza manualmente el estado de cada componente usando el botón",
+        "update_suffix": "junto a cada componente.",
+        "immediate_effect": "Los cambios de estado se aplican de inmediato para tus visitantes.",
+        "upgrade_cta": "Mejora para añadir más"
+      },
       "swal": {
         "assign_to_group": {
           "placeholder": "Selecciona un grupo",
@@ -601,11 +609,13 @@
       },
       "tooltip_delete_component": "Eliminar componente",
       "tooltip_edit_component": "Editar componente",
+      "tooltip_set_status": "Establecer estado",
       "tooltip_set_status_override": "Establecer anulación de estado",
       "tooltip_move_down": "Bajar",
       "tooltip_move_up": "Subir",
       "ungrouped": "Sin grupo",
       "url_placeholder": "https://example.com",
+      "limit_reached_title": "Se alcanzó el límite de componentes; mejora para añadir más",
       "validation": {
         "component_name_required": "¡Debes introducir un nombre de componente!",
         "group_name_required": "¡Debes introducir un nombre de grupo!",
@@ -968,7 +978,19 @@
       "create_new": "Crear nueva página de estado",
       "none_message": "Aún no tienes páginas de estado.",
       "notifications_button": "Notificaciones",
-      "notifications_button_title": "Configura canales de notificación reutilizables para todas tus páginas de estado"
+      "notifications_button_title": "Configura canales de notificación reutilizables para todas tus páginas de estado",
+      "near_limit": {
+        "title": "Te estás acercando al límite de páginas de estado.",
+        "usage_suffix": "páginas usadas en tu plan actual.",
+        "cta": "Mejorar plan"
+      },
+      "simple_created": {
+        "title_prefix": "Página de estado simple creada",
+        "body": "Tu primer componente se añadió correctamente.",
+        "cta": "Personalizar componentes"
+      },
+      "simple_badge": "Simple",
+      "simple_badge_title": "Sin monitores; el estado se actualiza manualmente"
     },
     "live_preview": "Vista previa en vivo",
     "loading_channels": "Cargando canales...",
@@ -1083,7 +1105,9 @@
       "override_cleared": "Anulación eliminada",
       "update_failed": "No se pudo actualizar la anulación",
       "dot_override_title": "Anulación: {{status}}",
-      "dot_monitor_title": "Monitor: {{status}}"
+      "dot_monitor_title": "Monitor: {{status}}",
+      "dot_simple_title": "Operativo (sin monitor)",
+      "no_override_simple": "— Predeterminado (Operativo) —"
     }
   },
   "components": {
@@ -2575,6 +2599,7 @@
     },
     "assign_groups": "Asigna componentes a grupos o déjalos sin agrupar; ¡ambas opciones funcionan perfectamente!",
     "assign_to": "Asignar a:",
+    "set_status": "Establecer estado",
     "compare_plans": "Comparar planes",
     "components_help": "Organiza los componentes de tu página de estado en grupos opcionales",
     "confirmed": "Confirmado",
@@ -2928,6 +2953,154 @@
       "title": "¿Eliminar runbook?",
       "text": "Esto desvinculará el runbook de todos los incidentes. Esta acción no se puede deshacer.",
       "failed": "No se pudo eliminar el runbook"
+    }
+  },
+  "public_feature_simple_status_page": {
+    "hero": {
+      "title": "Una pagina de estado sin complejidad",
+      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "cta_hint": "Gratis para empezar",
+      "cta": "Crea tu pagina de estado"
+    },
+    "benefits": {
+      "badge": "Beneficios clave",
+      "title": "Todo lo que necesitas, nada de lo que no",
+      "subtitle": "Cuenta a tus usuarios lo que ocurre sin configurar ni un solo monitor.",
+      "cards": {
+        "launch": {
+          "title": "Lista en minutos",
+          "description": "Crea una pagina de estado, anade tus servicios como componentes y comparte el enlace. Sin monitores, sin agentes y sin infraestructura adicional."
+        },
+        "upgrade": {
+          "title": "Mejora cuando estes listo",
+          "description": "Empieza de forma simple y anade monitoreo automatico, dominios personalizados, branding y gestion de incidentes a medida que crece tu producto."
+        },
+        "dashboard": {
+          "title": "One-screen control panel",
+          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+        },
+        "notes": {
+          "title": "Add context with notes",
+          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+        },
+        "notifications": {
+          "title": "Subscribers notified automatically",
+          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+        },
+        "history": {
+          "title": "90-day reported history",
+          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+        }
+      }
+    },
+    "use_cases": {
+      "badge": "Casos de uso",
+      "title": "Quien usa paginas de estado simples?",
+      "subtitle": "Cualquier equipo que quiera comunicar el estado del servicio sin automatizacion.",
+      "startups": {
+        "title": "Startups en acceso anticipado",
+        "description": "Tienes un pequeno grupo de usuarios iniciales y quieres demostrar que te tomas en serio la fiabilidad, pero todavia no estas listo para invertir en una infraestructura completa de monitoreo.",
+        "point_1": "Anade componentes para tu API, panel y servicio de autenticacion",
+        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_3": "Comparte la URL en el pie de tu aplicacion"
+      },
+      "internal": {
+        "title": "Herramientas internas y paneles de admin",
+        "description": "Tus sistemas internos no estan orientados al publico, pero tu equipo sigue necesitando saber cuando algo falla o entra en mantenimiento.",
+        "point_1": "Lista servicios internos como componentes",
+        "point_2": "Activa estado de mantenimiento antes de una parada programada",
+        "point_3": "Compartela con tu equipo en Slack"
+      },
+      "indie": {
+        "title": "Indie makers y proyectos paralelos",
+        "description": "Llevas un proyecto en solitario y quieres una pagina de estado profesional sin pagar por monitoreo que todavia no necesitas.",
+        "point_1": "El plan gratuito cubre hasta 3 componentes",
+        "point_2": "No hace falta tarjeta de credito",
+        "point_3": "Se ve bien y genera confianza"
+      }
+    },
+    "how_it_works": {
+      "badge": "Como funciona",
+      "title": "Tres pasos para una pagina de estado en vivo",
+      "subtitle": "Sin guias, sin configuracion tecnica. Solo rellena lo esencial.",
+      "step_1": {
+        "title": "Crea tu pagina de estado",
+        "description": "Elige \"Pagina de estado simple\" al crear una pagina nueva. Ponle un nombre y estara lista al instante."
+      },
+      "step_2": {
+        "title": "Anade tus componentes",
+        "description": "Anade los servicios, APIs o funciones que quieras seguir - por ejemplo \"API\", \"Panel\" o \"Auth\". Cada uno aparece como una fila en tu pagina publica."
+      },
+      "step_3": {
+        "title": "Update from your dashboard",
+        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+      }
+    },
+    "statuses": {
+      "title": "Cinco estados, explicados con claridad",
+      "subtitle": "Cada componente de tu pagina puede tener uno de cinco estados que los visitantes entienden al instante, sin jerga ni ambiguedad.",
+      "operational": {
+        "label": "Operativo",
+        "description": "Todo funciona con normalidad"
+      },
+      "degraded": {
+        "label": "Degradado",
+        "description": "Funciona, pero mas lento o con fallos parciales"
+      },
+      "partial_outage": {
+        "label": "Interrupcion parcial",
+        "description": "Algunos usuarios estan afectados"
+      },
+      "major_outage": {
+        "label": "Interrupcion mayor",
+        "description": "El servicio esta caido para la mayoria de usuarios"
+      },
+      "maintenance": {
+        "label": "Mantenimiento",
+        "description": "Trabajo planificado en curso"
+      }
+    },
+    "cta": {
+      "title": "Listo para mantener informados a tus usuarios?",
+      "subtitle": "Crea una pagina de estado simple gratis en menos de dos minutos. No hace falta tarjeta de credito.",
+      "button": "Crea tu pagina de estado - Gratis"
+    },
+    "dashboard_feature": {
+      "badge": "Simple Dashboard",
+      "title": "Update status in two clicks",
+      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
+      "illustration_label": "Simple Dashboard — everything in one screen",
+      "point_1": "See all component statuses and active incidents at a glance",
+      "point_2": "Pin it as your default landing page for instant access after login",
+      "point_3": "No navigating around settings — everything is right there"
+    },
+    "notes_feature": {
+      "badge": "Notes & Incident History",
+      "title": "One note does three things",
+      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
+      "illustration_label": "Notes shown publicly · Incident created automatically",
+      "point_1": "Note appears inline on the public status page",
+      "point_2": "Incident entry created automatically — no separate step",
+      "point_3": "Subscribers notified without opening the incident management flow",
+      "point_4": "Incident auto-resolves when you reset the component to Operational"
+    }
+  },
+  "public_nav": {
+    "simple_status_page": {
+      "title": "Pagina de estado simple",
+      "description": "Sin monitores - actualiza el estado manualmente"
+    }
+  },
+  "terms_page": {
+    "customer_logos": {
+      "nav": "Logotipos de clientes y marketing",
+      "title": "Logotipos de clientes y marketing",
+      "use_title": "Uso del nombre y logotipo de la empresa",
+      "body_prefix": "Al usar",
+      "body_suffix": "nos otorgas un derecho no exclusivo y libre de regalias para mostrar el nombre y/o logotipo de tu empresa en nuestra pagina principal o en una pagina dedicada de clientes/showcase con fines de marketing y prueba social.",
+      "opt_out_label": "Exclusion:",
+      "opt_out_prefix": "Puedes solicitar en cualquier momento la retirada del nombre y/o logotipo de tu empresa de nuestros materiales de marketing escribiendo a",
+      "opt_out_suffix": "Procesaremos las solicitudes de exclusion en un plazo de 14 dias laborables."
     }
   },
   "support": {

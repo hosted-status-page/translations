@@ -1045,6 +1045,7 @@
     },
     "assign_groups": "Dodelite komponente grupama ili ih ostavite negrupisanim – oba načina rade savršeno!",
     "assign_to": "Dodeli:",
+    "set_status": "Postavi status",
     "compare_plans": "Uporedite planove",
     "components_help": "Organizujte komponente svoje statusne stranice u opcione grupe",
     "confirmed": "Potvrđeno",
@@ -1780,6 +1781,14 @@
       "manual_badge_title": "Nema povezanog monitora — status se određuje samo prema incidentima",
       "override_badge_title": "Ručna nadjačavanje statusa je aktivna",
       "search_placeholder": "Pretražite komponente po nazivu...",
+      "simple_banner": {
+        "title": "Jednostavna statusna stranica",
+        "no_monitors": "Monitori nisu potrebni.",
+        "update_prefix": "Ručno ažurirajte status svake komponente pomoću gumba",
+        "update_suffix": "pokraj svake komponente.",
+        "immediate_effect": "Promjene statusa odmah stupaju na snagu za vaše posjetitelje.",
+        "upgrade_cta": "Nadogradite za više"
+      },
       "swal": {
         "assign_to_group": {
           "placeholder": "Odaberite grupu",
@@ -1849,11 +1858,13 @@
       },
       "tooltip_delete_component": "Izbriši komponentu",
       "tooltip_edit_component": "Uredi komponentu",
+      "tooltip_set_status": "Postavi status",
       "tooltip_set_status_override": "Postavi nadjačavanje statusa",
       "tooltip_move_down": "Pomakni dolje",
       "tooltip_move_up": "Pomakni gore",
       "ungrouped": "Bez grupe",
       "url_placeholder": "https://example.com",
+      "limit_reached_title": "Dosegnut je limit komponenti - nadogradite za više",
       "validation": {
         "component_name_required": "Morate unijeti naziv komponente!",
         "group_name_required": "Morate unijeti naziv grupe!",
@@ -2201,7 +2212,19 @@
       "create_new": "Kreiraj novu status stranicu",
       "none_message": "Nemate statusna stranica.",
       "notifications_button": "Obavijesti",
-      "notifications_button_title": "Podesite ponovo upotrebljive kanale za obavijesti za sve Vaše status stranice"
+      "notifications_button_title": "Podesite ponovo upotrebljive kanale za obavijesti za sve Vaše status stranice",
+      "near_limit": {
+        "title": "Približavate se limitu statusnih stranica.",
+        "usage_suffix": "stranica iskorišteno na vašem trenutnom planu.",
+        "cta": "Nadogradi plan"
+      },
+      "simple_created": {
+        "title_prefix": "Jednostavna statusna stranica je kreirana",
+        "body": "Vaša prva komponenta je uspješno dodana.",
+        "cta": "Prilagodi komponente"
+      },
+      "simple_badge": "Jednostavna",
+      "simple_badge_title": "Bez monitora - status se ažurira ručno"
     },
     "live_preview": "Pregled uživo",
     "loading_channels": "Učitavanje kanala...",
@@ -2316,7 +2339,9 @@
       "override_cleared": "Nadjačavanje uklonjeno",
       "update_failed": "Ažuriranje nadjačavanja nije uspjelo",
       "dot_override_title": "Nadjačavanje: {{status}}",
-      "dot_monitor_title": "Monitor: {{status}}"
+      "dot_monitor_title": "Monitor: {{status}}",
+      "dot_simple_title": "Operativno (bez monitora)",
+      "no_override_simple": "— Zadano (Operativno) —"
     }
   },
   "runbooks": {
@@ -2372,6 +2397,154 @@
       "title": "Izbrisati runbook?",
       "text": "Time će se runbook odspojiti od svih incidenata. Ovu radnju nije moguće poništiti.",
       "failed": "Brisanje runbooka nije uspjelo"
+    }
+  },
+  "public_feature_simple_status_page": {
+    "hero": {
+      "title": "Status stranica bez komplikacija",
+      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "cta_hint": "Besplatno za početak",
+      "cta": "Kreirajte svoju status stranicu"
+    },
+    "benefits": {
+      "badge": "Ključne prednosti",
+      "title": "Sve što trebate, ništa što ne trebate",
+      "subtitle": "Recite svojim korisnicima što se događa bez postavljanja ijednog monitora.",
+      "cards": {
+        "launch": {
+          "title": "Pokrenite se za nekoliko minuta",
+          "description": "Napravite status stranicu, dodajte svoje usluge kao komponente i podijelite poveznicu. Bez monitora, bez agenata i bez dodatne infrastrukture."
+        },
+        "upgrade": {
+          "title": "Nadogradite kad budete spremni",
+          "description": "Počnite jednostavno, a zatim dodajte automatski monitoring dostupnosti, vlastite domene, branding i upravljanje incidentima kako vaš proizvod raste."
+        },
+        "dashboard": {
+          "title": "One-screen control panel",
+          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+        },
+        "notes": {
+          "title": "Add context with notes",
+          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+        },
+        "notifications": {
+          "title": "Subscribers notified automatically",
+          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+        },
+        "history": {
+          "title": "90-day reported history",
+          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+        }
+      }
+    },
+    "use_cases": {
+      "badge": "Primjene",
+      "title": "Tko koristi jednostavne status stranice?",
+      "subtitle": "Svaki tim koji želi komunicirati stanje usluge bez automatizacije.",
+      "startups": {
+        "title": "Startupi u ranom pristupu",
+        "description": "Imate nekoliko ranih korisnika i želite pokazati da ozbiljno shvaćate pouzdanost, ali još niste spremni ulagati u potpunu infrastrukturu za monitoring.",
+        "point_1": "Dodajte komponente za svoj API, nadzornu ploču i autentikacijsku uslugu",
+        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_3": "Podijelite URL u podnožju svoje aplikacije"
+      },
+      "internal": {
+        "title": "Interni alati i admin paneli",
+        "description": "Vaši interni sustavi nisu za javnost, ali vaš tim i dalje mora znati kada je nešto pokvareno ili u održavanju.",
+        "point_1": "Popišite interne usluge kao komponente",
+        "point_2": "Postavite status održavanja prije planiranog zastoja",
+        "point_3": "Podijelite je s timom na Slacku"
+      },
+      "indie": {
+        "title": "Indie makeri i side projekti",
+        "description": "Vodite solo projekt i želite profesionalnu status stranicu bez plaćanja monitoringa koji vam još ne treba.",
+        "point_1": "Besplatni plan pokriva do 3 komponente",
+        "point_2": "Kartica nije potrebna",
+        "point_3": "Izgleda odlično i gradi povjerenje korisnika"
+      }
+    },
+    "how_it_works": {
+      "badge": "Kako funkcionira",
+      "title": "Tri koraka do aktivne status stranice",
+      "subtitle": "Bez vodiča. Bez tehničkog postavljanja. Samo ispunite osnove.",
+      "step_1": {
+        "title": "Kreirajte svoju status stranicu",
+        "description": "Odaberite \"Jednostavna status stranica\" kada stvarate novu stranicu. Dajte joj naziv i odmah je spremna."
+      },
+      "step_2": {
+        "title": "Dodajte svoje komponente",
+        "description": "Dodajte usluge, API-je ili značajke koje želite pratiti - na primjer \"API\", \"Nadzorna ploča\" ili \"Auth\". Svaka postaje redak na vašoj javnoj stranici."
+      },
+      "step_3": {
+        "title": "Update from your dashboard",
+        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+      }
+    },
+    "statuses": {
+      "title": "Pet statusa, jasno prikazanih",
+      "subtitle": "Svaka komponenta na vašoj stranici može imati jedan od pet statusa koje posjetitelji odmah razumiju, bez žargona i nejasnoća.",
+      "operational": {
+        "label": "Operativno",
+        "description": "Sve radi normalno"
+      },
+      "degraded": {
+        "label": "Usporeno",
+        "description": "Radi, ali sporije ili djelomično neispravno"
+      },
+      "partial_outage": {
+        "label": "Djelomični prekid",
+        "description": "Neki korisnici su pogođeni"
+      },
+      "major_outage": {
+        "label": "Veliki prekid",
+        "description": "Usluga ne radi većini korisnika"
+      },
+      "maintenance": {
+        "label": "Održavanje",
+        "description": "Planirani radovi su u tijeku"
+      }
+    },
+    "cta": {
+      "title": "Spremni držati korisnike u toku?",
+      "subtitle": "Kreirajte besplatnu jednostavnu status stranicu za manje od dvije minute. Kartica nije potrebna.",
+      "button": "Kreirajte svoju status stranicu - Besplatno"
+    },
+    "dashboard_feature": {
+      "badge": "Simple Dashboard",
+      "title": "Update status in two clicks",
+      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
+      "illustration_label": "Simple Dashboard — everything in one screen",
+      "point_1": "See all component statuses and active incidents at a glance",
+      "point_2": "Pin it as your default landing page for instant access after login",
+      "point_3": "No navigating around settings — everything is right there"
+    },
+    "notes_feature": {
+      "badge": "Notes & Incident History",
+      "title": "One note does three things",
+      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
+      "illustration_label": "Notes shown publicly · Incident created automatically",
+      "point_1": "Note appears inline on the public status page",
+      "point_2": "Incident entry created automatically — no separate step",
+      "point_3": "Subscribers notified without opening the incident management flow",
+      "point_4": "Incident auto-resolves when you reset the component to Operational"
+    }
+  },
+  "public_nav": {
+    "simple_status_page": {
+      "title": "Jednostavna status stranica",
+      "description": "Bez monitora - ručno ažurirajte status"
+    }
+  },
+  "terms_page": {
+    "customer_logos": {
+      "nav": "Logotipi korisnika i marketing",
+      "title": "Logotipi korisnika i marketing",
+      "use_title": "Korištenje naziva i logotipa tvrtke",
+      "body_prefix": "Korištenjem",
+      "body_suffix": "dajete nam neisključivo pravo bez naknade da prikažemo naziv i/ili logotip vaše tvrtke na našoj početnoj stranici ili posebnoj customers/showcase stranici u marketinške svrhe i kao društveni dokaz.",
+      "opt_out_label": "Isključenje:",
+      "opt_out_prefix": "U bilo kojem trenutku možete zatražiti uklanjanje naziva i/ili logotipa svoje tvrtke iz naših marketinških materijala slanjem e-pošte na",
+      "opt_out_suffix": "Zahtjeve za isključenje obradit ćemo u roku od 14 radnih dana."
     }
   },
   "support": {

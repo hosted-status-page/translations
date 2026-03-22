@@ -528,6 +528,14 @@
       "manual_badge_title": "لا يوجد مراقب مرتبط — يتم تحديد الحالة بالاعتماد على الحوادث فقط",
       "override_badge_title": "تجاوز الحالة اليدوي نشط",
       "search_placeholder": "ابحث عن المكوّنات بالاسم...",
+      "simple_banner": {
+        "title": "صفحة حالة بسيطة",
+        "no_monitors": "لا حاجة إلى مراقبات.",
+        "update_prefix": "حدّث حالة كل مكوّن يدويًا باستخدام زر",
+        "update_suffix": "بجوار كل مكوّن.",
+        "immediate_effect": "تدخل تغييرات الحالة حيز التنفيذ فورًا لزوّارك.",
+        "upgrade_cta": "قم بالترقية لإضافة المزيد"
+      },
       "swal": {
         "assign_to_group": {
           "placeholder": "اختر مجموعة",
@@ -597,11 +605,13 @@
       },
       "tooltip_delete_component": "حذف المكوّن",
       "tooltip_edit_component": "تعديل المكوّن",
+      "tooltip_set_status": "تعيين الحالة",
       "tooltip_set_status_override": "تعيين تجاوز الحالة",
       "tooltip_move_down": "نقل للأسفل",
       "tooltip_move_up": "نقل للأعلى",
       "ungrouped": "بدون مجموعة",
       "url_placeholder": "https://example.com",
+      "limit_reached_title": "تم بلوغ حد المكوّنات - قم بالترقية لإضافة المزيد",
       "validation": {
         "component_name_required": "يجب إدخال اسم المكوّن!",
         "group_name_required": "يجب إدخال اسم المجموعة!",
@@ -964,7 +974,19 @@
       "create_new": "إنشاء صفحة جديدة",
       "none_message": "لا توجد صفحات حالة",
       "notifications_button": "الإشعارات",
-      "notifications_button_title": "قم بإعداد قنوات إشعارات قابلة لإعادة الاستخدام لجميع صفحات الحالة الخاصة بك"
+      "notifications_button_title": "قم بإعداد قنوات إشعارات قابلة لإعادة الاستخدام لجميع صفحات الحالة الخاصة بك",
+      "near_limit": {
+        "title": "أنت تقترب من حد صفحات الحالة.",
+        "usage_suffix": "صفحات مستخدمة في خطتك الحالية.",
+        "cta": "ترقية الخطة"
+      },
+      "simple_created": {
+        "title_prefix": "تم إنشاء صفحة حالة بسيطة",
+        "body": "تمت إضافة أول مكوّن بنجاح.",
+        "cta": "تخصيص المكوّنات"
+      },
+      "simple_badge": "بسيطة",
+      "simple_badge_title": "من دون مراقبات - يتم تحديث الحالة يدويًا"
     },
     "live_preview": "معاينة مباشرة",
     "loading_channels": "جاري تحميل القنوات...",
@@ -1079,7 +1101,9 @@
       "override_cleared": "تمت إزالة التجاوز",
       "update_failed": "فشل تحديث التجاوز",
       "dot_override_title": "تجاوز: {{status}}",
-      "dot_monitor_title": "مراقب: {{status}}"
+      "dot_monitor_title": "مراقب: {{status}}",
+      "dot_simple_title": "تشغيلي (بدون مراقب)",
+      "no_override_simple": "— الافتراضي (تشغيلي) —"
     }
   },
   "components": {
@@ -2583,6 +2607,7 @@
     },
     "assign_groups": "قم بتخصيص المكونات للمجموعات أو اتركها غير مجمعة - كلاهما يعمل بشكل مثالي!",
     "assign_to": "تخصيص لـ:",
+    "set_status": "تعيين الحالة",
     "compare_plans": "مقارنة الخطط",
     "components_help": "نظم مكونات صفحة الحالة الخاصة بك في مجموعات اختيارية",
     "confirmed": "مؤكد",
@@ -2934,6 +2959,154 @@
       "title": "هل تريد حذف دليل التشغيل؟",
       "text": "سيؤدي هذا إلى إلغاء ربط دليل التشغيل من جميع الحوادث. لا يمكن التراجع عن هذا الإجراء.",
       "failed": "تعذر حذف دليل التشغيل"
+    }
+  },
+  "public_feature_simple_status_page": {
+    "hero": {
+      "title": "صفحة حالة بلا تعقيد",
+      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "cta_hint": "ابدأ مجانًا",
+      "cta": "أنشئ صفحة الحالة الخاصة بك"
+    },
+    "benefits": {
+      "badge": "أهم المزايا",
+      "title": "كل ما تحتاجه، ولا شيء مما لا تحتاجه",
+      "subtitle": "أخبر مستخدميك بما يحدث من دون إعداد أي مراقب.",
+      "cards": {
+        "launch": {
+          "title": "جاهزة خلال دقائق",
+          "description": "أنشئ صفحة حالة، وأضف خدماتك كمكوّنات، وشارك الرابط. من دون مراقبات أو وكلاء أو بنية تحتية إضافية."
+        },
+        "upgrade": {
+          "title": "قم بالترقية عندما تكون جاهزًا",
+          "description": "ابدأ بشكل بسيط ثم أضف مراقبة توفر تلقائية، ونطاقات مخصصة، وهوية بصرية، وإدارة للحوادث مع نمو منتجك."
+        },
+        "dashboard": {
+          "title": "One-screen control panel",
+          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+        },
+        "notes": {
+          "title": "Add context with notes",
+          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+        },
+        "notifications": {
+          "title": "Subscribers notified automatically",
+          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+        },
+        "history": {
+          "title": "90-day reported history",
+          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+        }
+      }
+    },
+    "use_cases": {
+      "badge": "حالات الاستخدام",
+      "title": "من يستخدم صفحات الحالة البسيطة؟",
+      "subtitle": "أي فريق يريد إيصال حالة الخدمة من دون أتمتة.",
+      "startups": {
+        "title": "الشركات الناشئة في الوصول المبكر",
+        "description": "لديك عدد قليل من المستخدمين الأوائل وتريد أن تُظهر أنك تأخذ الموثوقية على محمل الجد، لكنك لست مستعدًا بعد للاستثمار في بنية مراقبة كاملة.",
+        "point_1": "أضف مكوّنات لواجهة API ولوحة التحكم وخدمة المصادقة",
+        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_3": "شارك URL في تذييل تطبيقك"
+      },
+      "internal": {
+        "title": "الأدوات الداخلية ولوحات الإدارة",
+        "description": "أنظمتك الداخلية ليست موجهة للعامة، لكن فريقك ما زال بحاجة إلى معرفة وقت حدوث الأعطال أو الصيانة.",
+        "point_1": "أدرج الخدمات الداخلية كمكوّنات",
+        "point_2": "اضبط حالة الصيانة قبل التوقف المجدول",
+        "point_3": "شاركها مع فريقك على Slack"
+      },
+      "indie": {
+        "title": "المطورون المستقلون والمشاريع الجانبية",
+        "description": "أنت تدير مشروعًا فرديًا وتريد صفحة حالة احترافية من دون الدفع مقابل مراقبة لا تحتاجها بعد.",
+        "point_1": "تغطي الخطة المجانية حتى 3 مكوّنات",
+        "point_2": "لا حاجة إلى بطاقة ائتمان",
+        "point_3": "تبدو رائعة وتبني ثقة المستخدم"
+      }
+    },
+    "how_it_works": {
+      "badge": "كيف تعمل",
+      "title": "ثلاث خطوات لصفحة حالة مباشرة",
+      "subtitle": "من دون أدلة أو إعداد تقني. فقط املأ الأساسيات.",
+      "step_1": {
+        "title": "أنشئ صفحة الحالة الخاصة بك",
+        "description": "اختر \"صفحة حالة بسيطة\" عند إنشاء صفحة جديدة. أعطها اسمًا وستصبح جاهزة فورًا."
+      },
+      "step_2": {
+        "title": "أضف مكوّناتك",
+        "description": "أضف الخدمات أو واجهات API أو الميزات التي تريد تتبعها - مثل \"API\" أو \"لوحة التحكم\" أو \"Auth\". يتحول كل منها إلى صف في صفحتك العامة."
+      },
+      "step_3": {
+        "title": "Update from your dashboard",
+        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+      }
+    },
+    "statuses": {
+      "title": "خمس حالات واضحة وسهلة الفهم",
+      "subtitle": "يمكن تعيين كل مكوّن في صفحتك إلى واحدة من خمس حالات يفهمها الزوار فورًا، من دون مصطلحات معقدة أو غموض.",
+      "operational": {
+        "label": "تشغيلي",
+        "description": "كل شيء يعمل بشكل طبيعي"
+      },
+      "degraded": {
+        "label": "متدهور",
+        "description": "يعمل ولكن بشكل أبطأ أو مع خلل جزئي"
+      },
+      "partial_outage": {
+        "label": "انقطاع جزئي",
+        "description": "بعض المستخدمين متأثرون"
+      },
+      "major_outage": {
+        "label": "انقطاع كبير",
+        "description": "الخدمة متوقفة لمعظم المستخدمين"
+      },
+      "maintenance": {
+        "label": "صيانة",
+        "description": "أعمال مجدولة قيد التنفيذ"
+      }
+    },
+    "cta": {
+      "title": "هل أنت مستعد لإبقاء مستخدميك على اطلاع؟",
+      "subtitle": "أنشئ صفحة حالة بسيطة مجانية في أقل من دقيقتين. لا حاجة إلى بطاقة ائتمان.",
+      "button": "أنشئ صفحة الحالة الخاصة بك - مجانًا"
+    },
+    "dashboard_feature": {
+      "badge": "Simple Dashboard",
+      "title": "Update status in two clicks",
+      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
+      "illustration_label": "Simple Dashboard — everything in one screen",
+      "point_1": "See all component statuses and active incidents at a glance",
+      "point_2": "Pin it as your default landing page for instant access after login",
+      "point_3": "No navigating around settings — everything is right there"
+    },
+    "notes_feature": {
+      "badge": "Notes & Incident History",
+      "title": "One note does three things",
+      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
+      "illustration_label": "Notes shown publicly · Incident created automatically",
+      "point_1": "Note appears inline on the public status page",
+      "point_2": "Incident entry created automatically — no separate step",
+      "point_3": "Subscribers notified without opening the incident management flow",
+      "point_4": "Incident auto-resolves when you reset the component to Operational"
+    }
+  },
+  "public_nav": {
+    "simple_status_page": {
+      "title": "صفحة حالة بسيطة",
+      "description": "من دون مراقبات - حدّث الحالة يدويًا"
+    }
+  },
+  "terms_page": {
+    "customer_logos": {
+      "nav": "شعارات العملاء والتسويق",
+      "title": "شعارات العملاء والتسويق",
+      "use_title": "استخدام اسم الشركة وشعارها",
+      "body_prefix": "باستخدامك",
+      "body_suffix": "فإنك تمنحنا حقًا غير حصري وبدون رسوم لعرض اسم شركتك و/أو شعارها على صفحتنا الرئيسية أو على صفحة مخصصة للعملاء/العرض لأغراض التسويق وإثبات الثقة الاجتماعية.",
+      "opt_out_label": "إلغاء الاشتراك:",
+      "opt_out_prefix": "يمكنك طلب إزالة اسم شركتك و/أو شعارها من موادنا التسويقية في أي وقت عبر مراسلتنا على",
+      "opt_out_suffix": "سنقوم بمعالجة طلبات الإزالة خلال 14 يوم عمل."
     }
   },
   "support": {

@@ -532,6 +532,14 @@
       "manual_badge_title": "Kein Monitor verbunden — Status wird nur durch Vorfälle gesteuert",
       "override_badge_title": "Manuelle Statusüberschreibung aktiv",
       "search_placeholder": "Komponenten nach Name suchen...",
+      "simple_banner": {
+        "title": "Einfache Statusseite",
+        "no_monitors": "Keine Monitore erforderlich.",
+        "update_prefix": "Aktualisieren Sie den Status jeder Komponente manuell mit der Schaltfläche",
+        "update_suffix": "neben jeder Komponente.",
+        "immediate_effect": "Statusänderungen werden für Ihre Besucher sofort wirksam.",
+        "upgrade_cta": "Upgraden, um mehr hinzuzufügen"
+      },
       "swal": {
         "assign_to_group": {
           "placeholder": "Gruppe auswählen",
@@ -601,11 +609,13 @@
       },
       "tooltip_delete_component": "Komponente löschen",
       "tooltip_edit_component": "Komponente bearbeiten",
+      "tooltip_set_status": "Status festlegen",
       "tooltip_set_status_override": "Statusüberschreibung festlegen",
       "tooltip_move_down": "Nach unten",
       "tooltip_move_up": "Nach oben",
       "ungrouped": "Ohne Gruppe",
       "url_placeholder": "https://example.com",
+      "limit_reached_title": "Komponentenlimit erreicht - upgraden, um mehr hinzuzufügen",
       "validation": {
         "component_name_required": "Du musst einen Komponentennamen eingeben!",
         "group_name_required": "Du musst einen Gruppennamen eingeben!",
@@ -964,7 +974,19 @@
       "create_new": "Neue Statusseite erstellen",
       "none_message": "Sie haben noch keine Statusseiten.",
       "notifications_button": "Benachrichtigungen",
-      "notifications_button_title": "Konfigurieren Sie wiederverwendbare Benachrichtigungskanäle für alle Ihre Statusseiten"
+      "notifications_button_title": "Konfigurieren Sie wiederverwendbare Benachrichtigungskanäle für alle Ihre Statusseiten",
+      "near_limit": {
+        "title": "Sie nähern sich Ihrem Statusseiten-Limit.",
+        "usage_suffix": "Seiten Ihres aktuellen Plans verwendet.",
+        "cta": "Plan upgraden"
+      },
+      "simple_created": {
+        "title_prefix": "Einfache Statusseite erstellt",
+        "body": "Ihre erste Komponente wurde erfolgreich hinzugefügt.",
+        "cta": "Komponenten anpassen"
+      },
+      "simple_badge": "Einfach",
+      "simple_badge_title": "Keine Monitore - Status wird manuell aktualisiert"
     },
     "live_preview": "Live-Vorschau",
     "loading_channels": "Kanäle werden geladen...",
@@ -1079,7 +1101,9 @@
       "override_cleared": "Überschreibung entfernt",
       "update_failed": "Überschreibung konnte nicht aktualisiert werden",
       "dot_override_title": "Überschreibung: {{status}}",
-      "dot_monitor_title": "Monitor: {{status}}"
+      "dot_monitor_title": "Monitor: {{status}}",
+      "dot_simple_title": "Betriebsbereit (ohne Monitor)",
+      "no_override_simple": "— Standard (Betriebsbereit) —"
     }
   },
   "components": {
@@ -2571,6 +2595,7 @@
     },
     "assign_groups": "Weisen Sie Komponenten Gruppen zu oder lassen Sie sie ungruppiert – beides funktioniert perfekt!",
     "assign_to": "Zuweisen an:",
+    "set_status": "Status festlegen",
     "compare_plans": "Pläne vergleichen",
     "components_help": "Organisieren Sie Ihre Statusseiten-Komponenten in optionale Gruppen",
     "confirmed": "Bestätigt",
@@ -2922,6 +2947,154 @@
       "title": "Runbook löschen?",
       "text": "Dadurch wird das Runbook von allen Vorfällen getrennt. Diese Aktion kann nicht rückgängig gemacht werden.",
       "failed": "Runbook konnte nicht gelöscht werden"
+    }
+  },
+  "public_feature_simple_status_page": {
+    "hero": {
+      "title": "Eine Statusseite ohne Komplexitat",
+      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "cta_hint": "Kostenlos starten",
+      "cta": "Erstellen Sie Ihre Statusseite"
+    },
+    "benefits": {
+      "badge": "Wichtige Vorteile",
+      "title": "Alles, was Sie brauchen, und nichts, was Sie nicht brauchen",
+      "subtitle": "Zeigen Sie Ihren Nutzern, was los ist, ohne auch nur einen Monitor einzurichten.",
+      "cards": {
+        "launch": {
+          "title": "In wenigen Minuten live",
+          "description": "Erstellen Sie eine Statusseite, fugen Sie Ihre Dienste als Komponenten hinzu und teilen Sie den Link. Keine Monitore, keine Agenten und keine zusatzliche Infrastruktur erforderlich."
+        },
+        "upgrade": {
+          "title": "Upgraden, wenn Sie bereit sind",
+          "description": "Starten Sie einfach und fugen Sie automatisches Uptime-Monitoring, eigene Domains, Branding und Incident-Management hinzu, wenn Ihr Produkt wachst."
+        },
+        "dashboard": {
+          "title": "One-screen control panel",
+          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+        },
+        "notes": {
+          "title": "Add context with notes",
+          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+        },
+        "notifications": {
+          "title": "Subscribers notified automatically",
+          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+        },
+        "history": {
+          "title": "90-day reported history",
+          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+        }
+      }
+    },
+    "use_cases": {
+      "badge": "Anwendungsfalle",
+      "title": "Wer nutzt einfache Statusseiten?",
+      "subtitle": "Jedes Team, das den Servicestatus ohne Automatisierung kommunizieren mochte.",
+      "startups": {
+        "title": "Startups im Early Access",
+        "description": "Sie haben eine kleine Gruppe fruher Nutzer und wollen zeigen, dass Sie Zuverlassigkeit ernst nehmen, sind aber noch nicht bereit, in vollstandige Monitoring-Infrastruktur zu investieren.",
+        "point_1": "Fugen Sie Komponenten fur Ihre API, Ihr Dashboard und Ihren Auth-Service hinzu",
+        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_3": "Teilen Sie die URL im Footer Ihrer App"
+      },
+      "internal": {
+        "title": "Interne Tools und Admin-Panels",
+        "description": "Ihre internen Systeme sind nicht offentlich, aber Ihr Team muss trotzdem wissen, wenn etwas kaputt ist oder sich in Wartung befindet.",
+        "point_1": "Listen Sie interne Dienste als Komponenten auf",
+        "point_2": "Setzen Sie vor geplanter Downtime den Wartungsstatus",
+        "point_3": "Teilen Sie sie mit Ihrem Team in Slack"
+      },
+      "indie": {
+        "title": "Indie-Maker und Nebenprojekte",
+        "description": "Sie betreiben ein Solo-Projekt und wollen eine professionelle Statusseite, ohne fur Monitoring zu zahlen, das Sie noch nicht brauchen.",
+        "point_1": "Der kostenlose Plan umfasst bis zu 3 Komponenten",
+        "point_2": "Keine Kreditkarte erforderlich",
+        "point_3": "Sieht gut aus und schafft Vertrauen"
+      }
+    },
+    "how_it_works": {
+      "badge": "So funktioniert es",
+      "title": "Drei Schritte zu einer live geschalteten Statusseite",
+      "subtitle": "Keine Anleitungen. Keine technische Einrichtung. Einfach das Wesentliche ausfullen.",
+      "step_1": {
+        "title": "Erstellen Sie Ihre Statusseite",
+        "description": "Wahlen Sie \"Einfache Statusseite\", wenn Sie eine neue Seite erstellen. Geben Sie ihr einen Namen - sie ist sofort bereit."
+      },
+      "step_2": {
+        "title": "Fugen Sie Ihre Komponenten hinzu",
+        "description": "Fugen Sie die Dienste, APIs oder Funktionen hinzu, die Sie verfolgen mochten - zum Beispiel \"API\", \"Dashboard\" oder \"Auth\". Jede davon wird zu einer Zeile auf Ihrer offentlichen Seite."
+      },
+      "step_3": {
+        "title": "Update from your dashboard",
+        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+      }
+    },
+    "statuses": {
+      "title": "Funf Statuszustande klar kommuniziert",
+      "subtitle": "Jede Komponente auf Ihrer Seite kann auf einen von funf Zustanden gesetzt werden, die Besucher sofort verstehen - ohne Fachjargon und ohne Mehrdeutigkeit.",
+      "operational": {
+        "label": "Betriebsbereit",
+        "description": "Alles funktioniert normal"
+      },
+      "degraded": {
+        "label": "Beeintrachtigt",
+        "description": "Funktioniert, aber langsamer oder teilweise eingeschrankt"
+      },
+      "partial_outage": {
+        "label": "Teilweiser Ausfall",
+        "description": "Einige Nutzer sind betroffen"
+      },
+      "major_outage": {
+        "label": "Grosser Ausfall",
+        "description": "Der Dienst ist fur die meisten Nutzer nicht verfugbar"
+      },
+      "maintenance": {
+        "label": "Wartung",
+        "description": "Geplante Arbeiten laufen"
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihre Nutzer auf dem Laufenden zu halten?",
+      "subtitle": "Erstellen Sie in unter zwei Minuten kostenlos eine einfache Statusseite. Keine Kreditkarte erforderlich.",
+      "button": "Erstellen Sie Ihre Statusseite - Kostenlos"
+    },
+    "dashboard_feature": {
+      "badge": "Simple Dashboard",
+      "title": "Update status in two clicks",
+      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
+      "illustration_label": "Simple Dashboard — everything in one screen",
+      "point_1": "See all component statuses and active incidents at a glance",
+      "point_2": "Pin it as your default landing page for instant access after login",
+      "point_3": "No navigating around settings — everything is right there"
+    },
+    "notes_feature": {
+      "badge": "Notes & Incident History",
+      "title": "One note does three things",
+      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
+      "illustration_label": "Notes shown publicly · Incident created automatically",
+      "point_1": "Note appears inline on the public status page",
+      "point_2": "Incident entry created automatically — no separate step",
+      "point_3": "Subscribers notified without opening the incident management flow",
+      "point_4": "Incident auto-resolves when you reset the component to Operational"
+    }
+  },
+  "public_nav": {
+    "simple_status_page": {
+      "title": "Einfache Statusseite",
+      "description": "Keine Monitore erforderlich - Status manuell aktualisieren"
+    }
+  },
+  "terms_page": {
+    "customer_logos": {
+      "nav": "Kundenlogos & Marketing",
+      "title": "Kundenlogos & Marketing",
+      "use_title": "Verwendung von Firmenname und Logo",
+      "body_prefix": "Durch die Nutzung von",
+      "body_suffix": "gewahren Sie uns das nicht ausschliessliche und lizenzfreie Recht, Ihren Firmennamen und/oder Ihr Logo auf unserer Startseite oder auf einer speziellen Kunden-/Showcase-Seite fur Marketing- und Social-Proof-Zwecke anzuzeigen.",
+      "opt_out_label": "Opt-out:",
+      "opt_out_prefix": "Sie konnen jederzeit die Entfernung Ihres Firmennamens und/oder Logos aus unseren Marketingmaterialien anfordern, indem Sie eine E-Mail senden an",
+      "opt_out_suffix": "Wir bearbeiten Opt-out-Anfragen innerhalb von 14 Werktagen."
     }
   },
   "support": {

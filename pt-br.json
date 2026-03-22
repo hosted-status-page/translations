@@ -528,6 +528,14 @@
       "manual_badge_title": "Nenhum monitor anexado — o status é determinado apenas por incidentes",
       "override_badge_title": "Substituição manual de status ativa",
       "search_placeholder": "Pesquisar componentes pelo nome...",
+      "simple_banner": {
+        "title": "Página de status simples",
+        "no_monitors": "Nenhum monitor é necessário.",
+        "update_prefix": "Atualize manualmente o status de cada componente usando o botão",
+        "update_suffix": "ao lado de cada componente.",
+        "immediate_effect": "As mudanças de status entram em vigor imediatamente para seus visitantes.",
+        "upgrade_cta": "Faça upgrade para adicionar mais"
+      },
       "swal": {
         "assign_to_group": {
           "placeholder": "Selecione um grupo",
@@ -597,11 +605,13 @@
       },
       "tooltip_delete_component": "Excluir componente",
       "tooltip_edit_component": "Editar componente",
+      "tooltip_set_status": "Definir status",
       "tooltip_set_status_override": "Definir substituição de status",
       "tooltip_move_down": "Mover para baixo",
       "tooltip_move_up": "Mover para cima",
       "ungrouped": "Sem grupo",
       "url_placeholder": "https://example.com",
+      "limit_reached_title": "Limite de componentes atingido - faça upgrade para adicionar mais",
       "validation": {
         "component_name_required": "Você precisa inserir um nome do componente!",
         "group_name_required": "Você precisa inserir um nome do grupo!",
@@ -964,7 +974,19 @@
       "create_new": "Criar nova página de status",
       "none_message": "Você ainda não tem páginas de status.",
       "notifications_button": "Notificações",
-      "notifications_button_title": "Configure canais de notificação reutilizáveis para todas as suas páginas de status"
+      "notifications_button_title": "Configure canais de notificação reutilizáveis para todas as suas páginas de status",
+      "near_limit": {
+        "title": "Você está se aproximando do limite de páginas de status.",
+        "usage_suffix": "páginas usadas no seu plano atual.",
+        "cta": "Fazer upgrade do plano"
+      },
+      "simple_created": {
+        "title_prefix": "Página de status simples criada",
+        "body": "Seu primeiro componente foi adicionado com sucesso.",
+        "cta": "Personalizar componentes"
+      },
+      "simple_badge": "Simples",
+      "simple_badge_title": "Sem monitores - o status é atualizado manualmente"
     },
     "live_preview": "Visualização ao vivo",
     "loading_channels": "Carregando canais...",
@@ -1079,7 +1101,9 @@
       "override_cleared": "Substituição removida",
       "update_failed": "Falha ao atualizar a substituição",
       "dot_override_title": "Substituição: {{status}}",
-      "dot_monitor_title": "Monitor: {{status}}"
+      "dot_monitor_title": "Monitor: {{status}}",
+      "dot_simple_title": "Operacional (sem monitor)",
+      "no_override_simple": "— Padrão (Operacional) —"
     }
   },
   "components": {
@@ -2571,6 +2595,7 @@
     },
     "assign_groups": "Atribua componentes a grupos ou deixe-os não agrupados – ambos funcionam perfeitamente!",
     "assign_to": "Atribuir a:",
+    "set_status": "Definir status",
     "compare_plans": "Comparar planos",
     "components_help": "Organize os componentes da sua página de status em grupos opcionais",
     "confirmed": "Confirmado",
@@ -2922,6 +2947,154 @@
       "title": "Excluir runbook?",
       "text": "Isso desvinculará o runbook de todos os incidentes. Esta ação não pode ser desfeita.",
       "failed": "Falha ao excluir o runbook"
+    }
+  },
+  "public_feature_simple_status_page": {
+    "hero": {
+      "title": "Uma pagina de status sem complexidade",
+      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "cta_hint": "Gratis para comecar",
+      "cta": "Crie sua pagina de status"
+    },
+    "benefits": {
+      "badge": "Principais beneficios",
+      "title": "Tudo o que voce precisa, nada do que nao precisa",
+      "subtitle": "Mostre aos seus usuarios o que esta acontecendo sem configurar um unico monitor.",
+      "cards": {
+        "launch": {
+          "title": "No ar em minutos",
+          "description": "Crie uma pagina de status, adicione seus servicos como componentes e compartilhe o link. Sem monitores, sem agentes e sem infraestrutura extra."
+        },
+        "upgrade": {
+          "title": "Faca upgrade quando estiver pronto",
+          "description": "Comece de forma simples e adicione monitoramento automatico, dominios personalizados, branding e gestao de incidentes conforme seu produto cresce."
+        },
+        "dashboard": {
+          "title": "One-screen control panel",
+          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+        },
+        "notes": {
+          "title": "Add context with notes",
+          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+        },
+        "notifications": {
+          "title": "Subscribers notified automatically",
+          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+        },
+        "history": {
+          "title": "90-day reported history",
+          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+        }
+      }
+    },
+    "use_cases": {
+      "badge": "Casos de uso",
+      "title": "Quem usa paginas de status simples?",
+      "subtitle": "Qualquer equipe que queira comunicar a saude do servico sem automacao.",
+      "startups": {
+        "title": "Startups em acesso antecipado",
+        "description": "Voce tem alguns usuarios iniciais e quer mostrar que leva confiabilidade a serio, mas ainda nao esta pronto para investir em uma infraestrutura completa de monitoramento.",
+        "point_1": "Adicione componentes para sua API, painel e servico de autenticacao",
+        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_3": "Compartilhe a URL no rodape do seu app"
+      },
+      "internal": {
+        "title": "Ferramentas internas e paineis administrativos",
+        "description": "Seus sistemas internos nao sao publicos, mas sua equipe ainda precisa saber quando algo quebrou ou entrou em manutencao.",
+        "point_1": "Liste servicos internos como componentes",
+        "point_2": "Defina o status de manutencao antes de uma parada programada",
+        "point_3": "Compartilhe com sua equipe no Slack"
+      },
+      "indie": {
+        "title": "Indie makers e projetos paralelos",
+        "description": "Voce toca um projeto solo e quer uma pagina de status profissional sem pagar por monitoramento que ainda nao precisa.",
+        "point_1": "O plano gratuito cobre ate 3 componentes",
+        "point_2": "Sem cartao de credito",
+        "point_3": "Fica bonito e aumenta a confianca do usuario"
+      }
+    },
+    "how_it_works": {
+      "badge": "Como funciona",
+      "title": "Tres passos para uma pagina de status no ar",
+      "subtitle": "Sem guias. Sem configuracao tecnica. Basta preencher o essencial.",
+      "step_1": {
+        "title": "Crie sua pagina de status",
+        "description": "Escolha \"Pagina de status simples\" ao criar uma nova pagina. De um nome e ela fica pronta na hora."
+      },
+      "step_2": {
+        "title": "Adicione seus componentes",
+        "description": "Adicione os servicos, APIs ou recursos que voce quer acompanhar - por exemplo \"API\", \"Painel\" ou \"Auth\". Cada um vira uma linha na sua pagina publica."
+      },
+      "step_3": {
+        "title": "Update from your dashboard",
+        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+      }
+    },
+    "statuses": {
+      "title": "Cinco estados de status, comunicados com clareza",
+      "subtitle": "Cada componente da sua pagina pode receber um de cinco estados que os visitantes entendem na hora, sem jargao e sem ambiguidades.",
+      "operational": {
+        "label": "Operacional",
+        "description": "Tudo esta funcionando normalmente"
+      },
+      "degraded": {
+        "label": "Degradado",
+        "description": "Funciona, mas mais lento ou parcialmente quebrado"
+      },
+      "partial_outage": {
+        "label": "Interrupcao Parcial",
+        "description": "Alguns usuarios foram afetados"
+      },
+      "major_outage": {
+        "label": "Interrupcao Grave",
+        "description": "O servico esta fora do ar para a maioria dos usuarios"
+      },
+      "maintenance": {
+        "label": "Manutencao",
+        "description": "Trabalho planejado em andamento"
+      }
+    },
+    "cta": {
+      "title": "Pronto para manter seus usuarios informados?",
+      "subtitle": "Crie uma pagina de status simples gratuita em menos de dois minutos. Sem cartao de credito.",
+      "button": "Crie sua pagina de status - Gratis"
+    },
+    "dashboard_feature": {
+      "badge": "Simple Dashboard",
+      "title": "Update status in two clicks",
+      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
+      "illustration_label": "Simple Dashboard — everything in one screen",
+      "point_1": "See all component statuses and active incidents at a glance",
+      "point_2": "Pin it as your default landing page for instant access after login",
+      "point_3": "No navigating around settings — everything is right there"
+    },
+    "notes_feature": {
+      "badge": "Notes & Incident History",
+      "title": "One note does three things",
+      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
+      "illustration_label": "Notes shown publicly · Incident created automatically",
+      "point_1": "Note appears inline on the public status page",
+      "point_2": "Incident entry created automatically — no separate step",
+      "point_3": "Subscribers notified without opening the incident management flow",
+      "point_4": "Incident auto-resolves when you reset the component to Operational"
+    }
+  },
+  "public_nav": {
+    "simple_status_page": {
+      "title": "Pagina de status simples",
+      "description": "Sem monitores - atualize o status manualmente"
+    }
+  },
+  "terms_page": {
+    "customer_logos": {
+      "nav": "Logotipos de clientes e marketing",
+      "title": "Logotipos de clientes e marketing",
+      "use_title": "Uso do nome e do logotipo da empresa",
+      "body_prefix": "Ao usar",
+      "body_suffix": "voce nos concede o direito nao exclusivo e livre de royalties de exibir o nome e/ou o logotipo da sua empresa em nossa pagina inicial ou em uma pagina dedicada de clientes/showcase para fins de marketing e prova social.",
+      "opt_out_label": "Opt-out:",
+      "opt_out_prefix": "Voce pode solicitar a remocao do nome e/ou do logotipo da sua empresa dos nossos materiais de marketing a qualquer momento enviando um e-mail para",
+      "opt_out_suffix": "Processaremos as solicitacoes de opt-out em ate 14 dias uteis."
     }
   },
   "support": {
