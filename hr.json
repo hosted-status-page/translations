@@ -606,6 +606,9 @@
     "delete": "Izbrišite",
     "details": "Detalji",
     "check_now": "Proveri sada",
+    "action_cannot_undo": "Ova se radnja ne može poništiti.",
+    "confirm_delete": "Da, izbriši",
+    "deleted": "Izbrisano!",
     "view": "Pogledaj",
     "enabled": "Omogućeno",
     "end": "Kraj",
@@ -1333,6 +1336,51 @@
         "heading": "Webhook postavke"
       }
     },
+    "sms": {
+      "cost_controls": {
+        "body": "SMS poruke naplaćuje vaš pružatelj usluge.",
+        "title": "Kontrola troškova"
+      },
+      "events": {
+        "heartbeat_missed": "Heartbeat propušten",
+        "heartbeat_recovered": "Heartbeat oporavljen",
+        "incident_created": "Incident kreiran",
+        "incident_resolved": "Incident riješen",
+        "monitor_degraded": "Monitor degradiran",
+        "monitor_down": "Monitor nedostupan",
+        "monitor_recovered": "Monitor oporavljen",
+        "ssl_expiring": "SSL uskoro istječe"
+      },
+      "events_label": "Obavijesti me o ovim događajima",
+      "fields": {
+        "account_reference": "Referenca računa",
+        "account_sid": "Account SID",
+        "api_key": "API ključ",
+        "api_secret": "API tajna",
+        "auth_token": "Auth token",
+        "daily_limit": "Maks. SMS poruka dnevno",
+        "dedupe_minutes": "Min. minuta između upozorenja",
+        "from_number": "Broj pošiljatelja",
+        "password": "Lozinka",
+        "to_numbers": "Brojevi primatelja",
+        "username": "Korisničko ime"
+      },
+      "heading": "SMS konfiguracija",
+      "help": {
+        "daily_limit": "Strogi limit za sve događaje na ovom kanalu",
+        "dedupe_minutes": "Potiskuje duplicirane SMS poruke unutar ovog razdoblja",
+        "from_number": "Telefonski broj ili alfanumerički ID pošiljatelja u E.164 formatu",
+        "get_credentials_at": "Preuzmite vjerodajnice na",
+        "to_numbers": "Telefonski brojevi odvojeni zarezima u E.164 formatu"
+      },
+      "provider_label": "1. Odaberite integraciju",
+      "providers": {
+        "esendex": "Esendex",
+        "messagebird": "MessageBird",
+        "twilio": "Twilio",
+        "vonage": "Vonage (Nexmo)"
+      }
+    },
     "delete_confirm_button": "Izbrišite kanal",
     "delete_confirm_prefix": "Da li ste sigurni da želite da obrišete",
     "delete_confirm_suffix": "?",
@@ -1382,6 +1430,14 @@
       "discord_webhook_url": "https://discord.com/api/webhooks/...",
       "email_recipients": "Unesi e-poštu i pritisni Enter",
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
+      "sms_account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "sms_api_key": "Vaš Vonage API ključ",
+      "sms_api_secret": "Vaša Vonage API tajna",
+      "sms_auth_token": "Vaš Twilio auth token",
+      "sms_esendex_password": "Vaša Esendex lozinka",
+      "sms_from_number": "+12345678900",
+      "sms_messagebird_api_key": "Vaš MessageBird pristupni ključ",
+      "sms_to_numbers": "+19876543210,+10987654321",
       "pushover_api_token": "Vaš Pushover API token",
       "pushover_user_key": "Vaš Pushover korisnički ključ",
       "pagerduty_integration_key": "npr. a1b2c3d4e5f6...",
@@ -1429,6 +1485,7 @@
       "pushover": "Pushover",
       "rocketchat": "Rocket.Chat",
       "slack": "Slack",
+      "sms": "SMS",
       "telegram": "Telegram",
       "webhook": "Webhook"
     },
@@ -1440,8 +1497,15 @@
       "invalid_headers_json": "Nevažeći JSON u prilagođenim zaglavljima",
       "msteams_webhook_required": "Molimo unesite Microsoft Teams webhook URL",
       "name_required": "Molimo unesite naziv kanala",
+      "pagerduty_key_required": "Molimo unesite PagerDuty integracijski ključ",
       "pushover_required": "Molimo unesite Pushover korisnički ključ i API token",
       "slack_required": "Molimo unesite Slack bot token i ID kanala",
+      "sms_esendex_required": "Molimo ispunite sva Esendex polja",
+      "sms_event_required": "Molimo odaberite barem jedan događaj koji pokreće SMS upozorenja",
+      "sms_messagebird_required": "Molimo unesite MessageBird API ključ",
+      "sms_numbers_required": "Molimo unesite broj pošiljatelja i brojeve primatelja",
+      "sms_twilio_required": "Molimo unesite Twilio Account SID i auth token",
+      "sms_vonage_required": "Molimo unesite Vonage API ključ i API tajnu",
       "telegram_bot_token_required": "Molimo unesite token svog Telegram bota",
       "telegram_chat_id_required": "Molimo unesite svoj Telegram Chat ID",
       "type_required": "Molimo izaberite tip kanala",
@@ -3192,15 +3256,34 @@
       "force_fresh_lookup": "Primoraj svežu pretragu (preskoči keš)"
     },
     "dkim_spf": {
+      "actions": {
+        "adding": "Dodavanje monitora autentifikacije e-pošte...",
+        "checking": "Provjera autentifikacije e-pošte...",
+        "deleting": "Brisanje monitora autentifikacije e-pošte...",
+        "saving": "Spremanje promjena..."
+      },
       "add_monitor": "Dodaj monitor",
       "add_new_monitor": "Dodaj novi monitor autentifikacije e-pošte",
+      "added_success": "Monitor autentifikacije e-pošte uspješno je dodan",
+      "check_complete": "Provjera završena",
+      "checked_success": "Autentifikacija e-pošte uspješno je provjerena!",
       "check_dkim": "Proveri DKIM",
       "check_dmarc": "Proveri DMARC",
       "check_spf": "Proveri SPF",
+      "delete_title": "Obrisati monitor autentifikacije e-pošte?",
+      "deleted": "Monitor je obrisan.",
+      "dkim": "DKIM",
       "empty": "Još nema monitora autentifikacije e-pošte. Dodajte svoj prvi monitor iznad.",
+      "failed_add": "Neuspješno dodavanje monitora: ",
+      "failed_check": "Neuspješna provjera autentifikacije e-pošte: ",
+      "failed_delete": "Neuspješno brisanje monitora: ",
+      "failed_update": "Neuspješno ažuriranje monitora: ",
       "leave_empty_skip_dkim": "Ostavite prazno da preskočite DKIM",
       "leave_empty_use_default": "Ostavite prazno da koristite \"default\"",
       "monitors_title": "Monitori autentifikacije e-pošte",
+      "spf": "SPF",
+      "dmarc": "DMARC",
+      "updated_success": "Monitor je uspješno ažuriran",
       "your_monitors": "Vaši monitori autentifikacije e-pošte"
     },
     "dnsbl": {

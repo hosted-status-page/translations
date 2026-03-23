@@ -606,6 +606,9 @@
     "delete": "Delete",
     "details": "Details",
     "check_now": "Check Now",
+    "action_cannot_undo": "This action cannot be undone.",
+    "confirm_delete": "Yes, delete it",
+    "deleted": "Deleted!",
     "disabled": "Disabled",
     "view": "View",
     "enabled": "Enabled",
@@ -1333,6 +1336,51 @@
         "heading": "Webhook Configuration"
       }
     },
+    "sms": {
+      "cost_controls": {
+        "body": "SMS messages are billed by your provider.",
+        "title": "Cost controls"
+      },
+      "events": {
+        "heartbeat_missed": "Heartbeat Missed",
+        "heartbeat_recovered": "Heartbeat Recovered",
+        "incident_created": "Incident Created",
+        "incident_resolved": "Incident Resolved",
+        "monitor_degraded": "Monitor Degraded",
+        "monitor_down": "Monitor Down",
+        "monitor_recovered": "Monitor Recovered",
+        "ssl_expiring": "SSL Expiring"
+      },
+      "events_label": "Alert me for these events",
+      "fields": {
+        "account_reference": "Account Reference",
+        "account_sid": "Account SID",
+        "api_key": "API Key",
+        "api_secret": "API Secret",
+        "auth_token": "Auth Token",
+        "daily_limit": "Max SMS per day",
+        "dedupe_minutes": "Min. minutes between alerts",
+        "from_number": "Sender / From Number",
+        "password": "Password",
+        "to_numbers": "Recipient Numbers",
+        "username": "Username"
+      },
+      "heading": "SMS Configuration",
+      "help": {
+        "daily_limit": "Hard cap across all events for this channel",
+        "dedupe_minutes": "Suppress duplicate SMS within this window",
+        "from_number": "Phone number or alphanumeric sender ID in E.164 format",
+        "get_credentials_at": "Get credentials at",
+        "to_numbers": "Comma-separated phone numbers in E.164 format"
+      },
+      "provider_label": "1. Select an Integration",
+      "providers": {
+        "esendex": "Esendex",
+        "messagebird": "MessageBird",
+        "twilio": "Twilio",
+        "vonage": "Vonage (Nexmo)"
+      }
+    },
     "delete_confirm_button": "Delete Channel",
     "delete_confirm_prefix": "Are you sure you want to delete",
     "delete_confirm_suffix": "?",
@@ -1382,6 +1430,14 @@
       "discord_webhook_url": "https://discord.com/api/webhooks/...",
       "email_recipients": "Type email and press Enter",
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
+      "sms_account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "sms_api_key": "Your Vonage API Key",
+      "sms_api_secret": "Your Vonage API Secret",
+      "sms_auth_token": "Your Twilio Auth Token",
+      "sms_esendex_password": "Your Esendex password",
+      "sms_from_number": "+12345678900",
+      "sms_messagebird_api_key": "Your MessageBird Access Key",
+      "sms_to_numbers": "+19876543210,+10987654321",
       "pushover_api_token": "Your Pushover API token",
       "pushover_user_key": "Your Pushover user key",
       "pagerduty_integration_key": "e.g., a1b2c3d4e5f6...",
@@ -1429,6 +1485,7 @@
       "pushover": "Pushover",
       "rocketchat": "Rocket.Chat",
       "slack": "Slack",
+      "sms": "SMS",
       "telegram": "Telegram",
       "webhook": "Webhook"
     },
@@ -1440,8 +1497,15 @@
       "invalid_headers_json": "Invalid JSON in custom headers",
       "msteams_webhook_required": "Please enter a Microsoft Teams webhook URL",
       "name_required": "Please enter a channel name",
+      "pagerduty_key_required": "Please enter a PagerDuty Integration Key",
       "pushover_required": "Please enter Pushover user key and API token",
       "slack_required": "Please enter Slack bot token and channel ID",
+      "sms_esendex_required": "Please fill in all Esendex fields",
+      "sms_event_required": "Please select at least one event to trigger SMS alerts",
+      "sms_messagebird_required": "Please enter a MessageBird API Key",
+      "sms_numbers_required": "Please enter sender and recipient phone numbers",
+      "sms_twilio_required": "Please enter Twilio Account SID and Auth Token",
+      "sms_vonage_required": "Please enter Vonage API Key and API Secret",
       "telegram_bot_token_required": "Please enter your custom Telegram bot token",
       "telegram_chat_id_required": "Please enter your Telegram chat ID",
       "type_required": "Please select a channel type",
@@ -3195,15 +3259,34 @@
       "force_fresh_lookup": "Force Fresh Lookup (skip cache)"
     },
     "dkim_spf": {
+      "actions": {
+        "adding": "Adding email auth monitor...",
+        "checking": "Checking email auth...",
+        "deleting": "Deleting email auth monitor...",
+        "saving": "Saving changes..."
+      },
       "add_monitor": "Add Monitor",
       "add_new_monitor": "Add New Email Auth Monitor",
+      "added_success": "Email authentication monitor added successfully",
+      "check_complete": "Check Complete",
+      "checked_success": "Email authentication checked successfully!",
       "check_dkim": "Check DKIM",
       "check_dmarc": "Check DMARC",
       "check_spf": "Check SPF",
+      "delete_title": "Delete Email Auth Monitor?",
+      "deleted": "Monitor has been deleted.",
+      "dkim": "DKIM",
       "empty": "No email auth monitors yet. Add your first monitor above.",
+      "failed_add": "Failed to add monitor: ",
+      "failed_check": "Failed to check email auth: ",
+      "failed_delete": "Failed to delete monitor: ",
+      "failed_update": "Failed to update monitor: ",
       "leave_empty_skip_dkim": "Leave empty to skip DKIM",
       "leave_empty_use_default": "Leave empty to use \"default\"",
       "monitors_title": "Email Auth Monitors",
+      "spf": "SPF",
+      "dmarc": "DMARC",
+      "updated_success": "Monitor updated successfully",
       "your_monitors": "Your Email Auth Monitors"
     },
     "dnsbl": {

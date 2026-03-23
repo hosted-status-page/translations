@@ -239,15 +239,34 @@
       "force_fresh_lookup": "Aktualisierte Abfrage erzwingen (Cache überspringen)"
     },
     "dkim_spf": {
+      "actions": {
+        "adding": "E-Mail-Auth-Monitor wird hinzugefügt...",
+        "checking": "E-Mail-Authentifizierung wird geprüft...",
+        "deleting": "E-Mail-Auth-Monitor wird gelöscht...",
+        "saving": "Änderungen werden gespeichert..."
+      },
       "add_monitor": "Monitor hinzufügen",
       "add_new_monitor": "Neuen E-Mail-Auth-Monitor hinzufügen",
+      "added_success": "E-Mail-Auth-Monitor erfolgreich hinzugefügt",
+      "check_complete": "Prüfung abgeschlossen",
+      "checked_success": "E-Mail-Authentifizierung erfolgreich geprüft!",
       "check_dkim": "DKIM prüfen",
       "check_dmarc": "DMARC prüfen",
       "check_spf": "SPF prüfen",
+      "delete_title": "E-Mail-Auth-Monitor löschen?",
+      "deleted": "Monitor wurde gelöscht.",
+      "dkim": "DKIM",
       "empty": "Noch keine E-Mail-Auth-Monitore. Füge oben deinen ersten Monitor hinzu.",
+      "failed_add": "Monitor konnte nicht hinzugefügt werden: ",
+      "failed_check": "E-Mail-Authentifizierung konnte nicht geprüft werden: ",
+      "failed_delete": "Monitor konnte nicht gelöscht werden: ",
+      "failed_update": "Monitor konnte nicht aktualisiert werden: ",
       "leave_empty_skip_dkim": "Leer lassen, um DKIM zu überspringen",
       "leave_empty_use_default": "Leer lassen, um \"default\" zu verwenden",
       "monitors_title": "E-Mail-Auth-Monitore",
+      "spf": "SPF",
+      "dmarc": "DMARC",
+      "updated_success": "Monitor erfolgreich aktualisiert",
       "your_monitors": "Deine E-Mail-Auth-Monitore"
     },
     "dnsbl": {
@@ -1424,7 +1443,8 @@
       "ms_teams": "MS Teams",
       "pagerduty": "PagerDuty",
       "pushover": "Pushover",
-      "rocketchat": "Rocket.Chat"
+      "rocketchat": "Rocket.Chat",
+      "sms": "SMS"
     },
     "fields": {
       "webhook_url": "Webhook-URL",
@@ -1485,6 +1505,51 @@
         "headers_help": "Optionale benutzerdefinierte Header im JSON-Format"
       }
     },
+    "sms": {
+      "cost_controls": {
+        "body": "SMS-Nachrichten werden über Ihren Anbieter abgerechnet.",
+        "title": "Kostenkontrolle"
+      },
+      "events": {
+        "heartbeat_missed": "Heartbeat verpasst",
+        "heartbeat_recovered": "Heartbeat wiederhergestellt",
+        "incident_created": "Vorfall erstellt",
+        "incident_resolved": "Vorfall gelöst",
+        "monitor_degraded": "Monitor beeinträchtigt",
+        "monitor_down": "Monitor ausgefallen",
+        "monitor_recovered": "Monitor wiederhergestellt",
+        "ssl_expiring": "SSL läuft bald ab"
+      },
+      "events_label": "Benachrichtige mich bei diesen Ereignissen",
+      "fields": {
+        "account_reference": "Kontoreferenz",
+        "account_sid": "Account SID",
+        "api_key": "API-Schlüssel",
+        "api_secret": "API-Geheimnis",
+        "auth_token": "Auth-Token",
+        "daily_limit": "Max. SMS pro Tag",
+        "dedupe_minutes": "Min. Minuten zwischen Warnungen",
+        "from_number": "Absender-/Von-Nummer",
+        "password": "Passwort",
+        "to_numbers": "Empfängernummern",
+        "username": "Benutzername"
+      },
+      "heading": "SMS-Konfiguration",
+      "help": {
+        "daily_limit": "Harte Obergrenze für alle Ereignisse dieses Kanals",
+        "dedupe_minutes": "Unterdrückt doppelte SMS innerhalb dieses Zeitfensters",
+        "from_number": "Telefonnummer oder alphanumerische Absender-ID im E.164-Format",
+        "get_credentials_at": "Zugangsdaten erhalten Sie unter",
+        "to_numbers": "Kommagetrennte Telefonnummern im E.164-Format"
+      },
+      "provider_label": "1. Wählen Sie eine Integration",
+      "providers": {
+        "esendex": "Esendex",
+        "messagebird": "MessageBird",
+        "twilio": "Twilio",
+        "vonage": "Vonage (Nexmo)"
+      }
+    },
     "telegram": {
       "use_our_bot": "Unseren Bot verwenden",
       "easy_badge": "Einfach",
@@ -1528,9 +1593,15 @@
       "slack_required": "Bitte geben Sie Slack Bot-Token und Kanal-ID ein",
       "telegram_chat_id_required": "Bitte geben Sie Ihre Telegram-Chat-ID ein",
       "telegram_bot_token_required": "Bitte geben Sie Ihr benutzerdefiniertes Telegram-Bot-Token ein",
-      "email_recipient_required": "Bitte geben Sie mindestens einen E-Mail-Empfänger ein",
       "msteams_webhook_required": "Bitte geben Sie eine Microsoft Teams-Webhook-URL ein",
+      "pagerduty_key_required": "Bitte geben Sie einen PagerDuty-Integrationsschlüssel ein",
       "pushover_required": "Bitte geben Sie Pushover Benutzerschlüssel und API-Token ein",
+      "sms_esendex_required": "Bitte füllen Sie alle Esendex-Felder aus",
+      "sms_event_required": "Bitte wählen Sie mindestens ein Ereignis aus, das SMS-Warnungen auslöst",
+      "sms_messagebird_required": "Bitte geben Sie einen MessageBird-API-Schlüssel ein",
+      "sms_numbers_required": "Bitte geben Sie Absender- und Empfängernummern ein",
+      "sms_twilio_required": "Bitte geben Sie Twilio Account SID und Auth-Token ein",
+      "sms_vonage_required": "Bitte geben Sie Vonage API-Schlüssel und API-Geheimnis ein",
       "webhook_url_required": "Bitte geben Sie eine Webhook-URL ein",
       "invalid_headers_json": "Ungültiges JSON in den benutzerdefinierten Headern",
       "invalid_email_format": "Ungültiges E-Mail-Format: {{email}}"
@@ -2799,6 +2870,9 @@
     "delete": "Löschen",
     "details": "Details",
     "check_now": "Jetzt prüfen",
+    "action_cannot_undo": "Diese Aktion kann nicht rückgängig gemacht werden.",
+    "confirm_delete": "Ja, löschen",
+    "deleted": "Gelöscht!",
     "view": "Ansehen",
     "enabled": "Aktiviert",
     "end": "Ende",

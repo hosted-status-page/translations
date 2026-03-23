@@ -243,15 +243,34 @@
       "force_fresh_lookup": "Lookup de fuerza fresca (caché de esquí)"
     },
     "dkim_spf": {
+      "actions": {
+        "adding": "Añadiendo monitor de autenticación de correo...",
+        "checking": "Comprobando autenticación de correo...",
+        "deleting": "Eliminando monitor de autenticación de correo...",
+        "saving": "Guardando cambios..."
+      },
       "add_monitor": "Añadir monitor",
       "add_new_monitor": "Añadir nuevo monitor de autenticación de correo",
+      "added_success": "Monitor de autenticación de correo añadido correctamente",
+      "check_complete": "Comprobación completada",
+      "checked_success": "¡La autenticación de correo se comprobó correctamente!",
       "check_dkim": "Comprobar DKIM",
       "check_dmarc": "Comprobar DMARC",
       "check_spf": "Comprobar SPF",
+      "delete_title": "¿Eliminar monitor de autenticación de correo?",
+      "deleted": "El monitor ha sido eliminado.",
+      "dkim": "DKIM",
       "empty": "Aún no hay monitores de autenticación de correo. Añade tu primer monitor arriba.",
+      "failed_add": "No se pudo añadir el monitor: ",
+      "failed_check": "No se pudo comprobar la autenticación de correo: ",
+      "failed_delete": "No se pudo eliminar el monitor: ",
+      "failed_update": "No se pudo actualizar el monitor: ",
       "leave_empty_skip_dkim": "Déjalo vacío para omitir DKIM",
       "leave_empty_use_default": "Déjalo vacío para usar \"default\"",
       "monitors_title": "Monitores de autenticación de correo",
+      "spf": "SPF",
+      "dmarc": "DMARC",
+      "updated_success": "Monitor actualizado correctamente",
       "your_monitors": "Tus monitores de autenticación de correo"
     },
     "dnsbl": {
@@ -1428,7 +1447,8 @@
       "ms_teams": "MS Teams",
       "pagerduty": "PagerDuty",
       "pushover": "Pushover",
-      "rocketchat": "Rocket.Chat"
+      "rocketchat": "Rocket.Chat",
+      "sms": "SMS"
     },
     "fields": {
       "webhook_url": "URL de webhook",
@@ -1449,6 +1469,14 @@
       "telegram_chat_id": "-1001234567890",
       "email_recipients": "Escribe un correo y pulsa Enter",
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
+      "sms_account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "sms_api_key": "Tu clave API de Vonage",
+      "sms_api_secret": "Tu secreto API de Vonage",
+      "sms_auth_token": "Tu Auth Token de Twilio",
+      "sms_esendex_password": "Tu contraseña de Esendex",
+      "sms_from_number": "+12345678900",
+      "sms_messagebird_api_key": "Tu clave de acceso de MessageBird",
+      "sms_to_numbers": "+19876543210,+10987654321",
       "pushover_user_key": "Tu clave de usuario de Pushover",
       "pushover_api_token": "Tu token de API de Pushover",
       "pagerduty_integration_key": "p. ej., a1b2c3d4e5f6...",
@@ -1487,6 +1515,51 @@
       "webhook": {
         "heading": "Configuración de webhook",
         "headers_help": "Encabezados personalizados opcionales en formato JSON"
+      }
+    },
+    "sms": {
+      "cost_controls": {
+        "body": "Los mensajes SMS se facturan a través de tu proveedor.",
+        "title": "Controles de costos"
+      },
+      "events": {
+        "heartbeat_missed": "Latido perdido",
+        "heartbeat_recovered": "Latido recuperado",
+        "incident_created": "Incidente creado",
+        "incident_resolved": "Incidente resuelto",
+        "monitor_degraded": "Monitor degradado",
+        "monitor_down": "Monitor caído",
+        "monitor_recovered": "Monitor recuperado",
+        "ssl_expiring": "SSL por caducar"
+      },
+      "events_label": "Avísame de estos eventos",
+      "fields": {
+        "account_reference": "Referencia de cuenta",
+        "account_sid": "Account SID",
+        "api_key": "Clave API",
+        "api_secret": "Secreto API",
+        "auth_token": "Token de autenticación",
+        "daily_limit": "Máx. SMS por día",
+        "dedupe_minutes": "Mín. minutos entre alertas",
+        "from_number": "Número del remitente",
+        "password": "Contraseña",
+        "to_numbers": "Números de destinatario",
+        "username": "Nombre de usuario"
+      },
+      "heading": "Configuración de SMS",
+      "help": {
+        "daily_limit": "Límite estricto para todos los eventos de este canal",
+        "dedupe_minutes": "Suprime SMS duplicados dentro de esta ventana",
+        "from_number": "Número de teléfono o ID de remitente alfanumérico en formato E.164",
+        "get_credentials_at": "Obtén las credenciales en",
+        "to_numbers": "Números de teléfono separados por comas en formato E.164"
+      },
+      "provider_label": "1. Selecciona una integración",
+      "providers": {
+        "esendex": "Esendex",
+        "messagebird": "MessageBird",
+        "twilio": "Twilio",
+        "vonage": "Vonage (Nexmo)"
       }
     },
     "telegram": {
@@ -1532,9 +1605,15 @@
       "slack_required": "Por favor, introduce el token del bot de Slack y el ID del canal",
       "telegram_chat_id_required": "Por favor, introduce tu ID de chat de Telegram",
       "telegram_bot_token_required": "Por favor, introduce el token de tu bot personalizado de Telegram",
-      "email_recipient_required": "Por favor, introduce al menos un destinatario de correo",
       "msteams_webhook_required": "Por favor, introduce una URL de webhook de Microsoft Teams",
+      "pagerduty_key_required": "Por favor, introduce una clave de integración de PagerDuty",
       "pushover_required": "Por favor, introduce la clave de usuario y el token de API de Pushover",
+      "sms_esendex_required": "Por favor, completa todos los campos de Esendex",
+      "sms_event_required": "Por favor, selecciona al menos un evento que active las alertas SMS",
+      "sms_messagebird_required": "Por favor, introduce una clave API de MessageBird",
+      "sms_numbers_required": "Por favor, introduce el número del remitente y los números de destinatario",
+      "sms_twilio_required": "Por favor, introduce el Account SID y el Auth Token de Twilio",
+      "sms_vonage_required": "Por favor, introduce la clave API y el secreto API de Vonage",
       "webhook_url_required": "Por favor, introduce una URL de webhook",
       "invalid_headers_json": "JSON no válido en los encabezados personalizados",
       "invalid_email_format": "Formato de correo electrónico inválido: {{email}}"
@@ -2803,6 +2882,9 @@
     "delete": "Eliminar",
     "details": "Detalles",
     "check_now": "Comprobar ahora",
+    "action_cannot_undo": "Esta acción no se puede deshacer.",
+    "confirm_delete": "Sí, eliminar",
+    "deleted": "¡Eliminado!",
     "view": "Ver",
     "enabled": "Habilitado",
     "end": "Fin",
