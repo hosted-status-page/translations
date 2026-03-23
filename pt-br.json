@@ -576,6 +576,10 @@
           "status_partial": "Interrupção parcial",
           "status_up": "Operacional",
           "title": "Definir substituição de status"
+        },
+        "access_denied": {
+          "title": "Access denied",
+          "text": "You do not have permission to manage access for this group."
         }
       },
       "tip_ungrouped_other": "Componentes sem grupo aparecerão em uma seção \"Outros componentes\" na sua página de status",
@@ -618,6 +622,23 @@
         "name_required": "O nome é obrigatório",
         "url_invalid": "A URL deve ser uma URL absoluta válida (inclua https://)",
         "url_must_start_http": "A URL deve começar com http:// ou https://"
+      },
+      "tooltip_manage_access": "Manage access",
+      "access_restricted": "Restricted",
+      "access_restricted_title": "Access restricted to specific members",
+      "access_modal": {
+        "title": "Manage Access",
+        "add_member": "Add member",
+        "select_member": "Select a member…",
+        "role": "Role",
+        "role_editor": "Editor",
+        "role_viewer": "Viewer",
+        "add": "Add",
+        "no_eligible": "All eligible team members are already assigned.",
+        "no_restrictions_note": "No restrictions set. All page editors can modify this group. Add at least one member to restrict access.",
+        "member": "Member",
+        "empty": "No members assigned.",
+        "select_member_error": "Please select a member"
       }
     },
     "organize_help": "Organize sua página de status com componentes e grupos opcionais",
@@ -787,7 +808,117 @@
       "show_daily_pills": "Mostrar indicadores diários",
       "show_response_graph": "Mostrar gráfico de resposta",
       "slug_locked_help": "O slug não pode ser alterado após a criação",
-      "slug_url_prefix": "URL da sua página de status:"
+      "slug_url_prefix": "URL da sua página de status:",
+      "access": {
+        "enable_access_control_suffix": "to enable access control.",
+        "button": "Access Settings",
+        "disabled_help": "Access control is disabled. Toggle the switch above to enable it.",
+        "modal_title": "Access Settings",
+        "save_button": "Save Access Settings",
+        "badges": {
+          "not_set": "Not set"
+        },
+        "summary": {
+          "ip_allowlist": "IP Allowlist",
+          "magic_link": "Email Magic Link",
+          "azure_ad": "Azure AD",
+          "google": "Google",
+          "oidc": "OIDC",
+          "no_method": "No access method configured"
+        },
+        "password": {
+          "description": "Visitors enter a shared password to unlock the page",
+          "minimum_help": "Minimum 4 characters. Will be applied when you save settings.",
+          "pending_new_password": "New password ready — will apply when you save settings",
+          "change_modal": {
+            "title": "Change Password",
+            "input_label": "Enter new password",
+            "input_placeholder": "New password (min 4 characters)",
+            "confirm": "Set Password",
+            "validation": "Password must be at least 4 characters",
+            "pending_message": "New password set (will apply when you save)"
+          },
+          "remove_modal": {
+            "title": "Remove Password?",
+            "text": "This will remove password protection from your status page. Anyone will be able to view it.",
+            "confirm": "Yes, remove it",
+            "pending_message": "Password will be removed when you save"
+          }
+        },
+        "ip_allowlist": {
+          "description": "Visitors from allowed IPs or ranges bypass all other checks",
+          "enable": "Enable IP allowlist",
+          "allowed_label": "Allowed IPs / CIDR Ranges",
+          "allowed_placeholder": "One entry per line, e.g.:&#10;203.0.113.42&#10;10.0.0.0/8&#10;192.168.1.0/24",
+          "help": "Supports individual IPs and CIDR notation. Matching visitors are admitted automatically."
+        },
+        "magic_link": {
+          "description": "Visitors request a one-time login link sent to their email",
+          "enable": "Enable email magic link",
+          "allowed_addresses_label": "Allowed Email Addresses",
+          "allowed_addresses_placeholder": "One email per line, e.g.:&#10;alice@example.com&#10;bob@company.org",
+          "allowed_addresses_help": "Only these addresses can request a login link.",
+          "allow_team": "Also allow team members",
+          "allow_team_help": "(anyone with team access to this status page)",
+          "expiry_label": "Link expiry",
+          "expiry_15": "15 minutes",
+          "expiry_30": "30 minutes",
+          "expiry_60": "1 hour"
+        },
+        "azure": {
+          "title": "Azure AD / Microsoft",
+          "description": "Visitors sign in with their Microsoft work account",
+          "enable": "Enable Azure AD authentication",
+          "tenant_id_label": "Tenant ID",
+          "tenant_id_help": "Your Azure AD directory (tenant) ID or primary domain (e.g. <code>contoso.com</code>).",
+          "client_id_label": "Application (Client) ID",
+          "client_secret_label": "Client Secret",
+          "client_secret_placeholder": "Paste client secret value",
+          "redirect_prefix": "In your Azure app registration, add",
+          "redirect_suffix": "as a redirect URI under <strong>Authentication → Web</strong>."
+        },
+        "shared": {
+          "keep_existing_secret_placeholder": "Leave blank to keep existing secret",
+          "keep_existing_secret_help": "Leave blank to keep the existing secret. Only fill in to set a new one.",
+          "keep_existing_secret_short": "Leave blank to keep the existing secret."
+        },
+        "google": {
+          "title": "Google Workspace",
+          "description": "Visitors sign in with their Google Workspace account",
+          "enable": "Enable Google Workspace authentication",
+          "client_id_label": "Client ID",
+          "client_id_help": "OAuth 2.0 Client ID from Google Cloud Console.",
+          "client_secret_label": "Client Secret",
+          "client_secret_placeholder": "Paste client secret",
+          "hosted_domain_label": "Hosted Domain (optional)",
+          "hosted_domain_placeholder": "yourcompany.com",
+          "hosted_domain_help": "Restrict login to a specific Google Workspace domain (e.g. <code>acme.com</code>). Leave blank to allow any Google account.",
+          "redirect_prefix": "In Google Cloud Console, add",
+          "redirect_suffix": "as an authorized redirect URI."
+        },
+        "oidc": {
+          "title": "Generic OIDC",
+          "description": "Any OpenID Connect provider (Okta, Auth0, Keycloak, etc.)",
+          "enable": "Enable Generic OIDC authentication",
+          "issuer_label": "Issuer URL",
+          "issuer_help": "The OIDC issuer base URL. Discovery will be fetched from <code>{issuer}/.well-known/openid-configuration</code>.",
+          "client_id_label": "Client ID",
+          "client_id_placeholder": "your-client-id",
+          "client_secret_label": "Client Secret",
+          "client_secret_placeholder": "Paste client secret",
+          "redirect_prefix": "Configure",
+          "redirect_suffix": "as the redirect URI in your identity provider."
+        },
+        "allowed_domains": {
+          "title": "Allowed Email Domains",
+          "description": "Restrict SSO logins to specific email domains",
+          "configured": "Configured",
+          "any_domain": "Any domain",
+          "label": "Allowed Domains",
+          "placeholder": "acme.com&#10;partner.org",
+          "help": "One domain per line. When set, any SSO user (Azure AD, Google, OIDC) whose email is not in this list will be denied access. Leave blank to allow all domains."
+        }
+      }
     },
     "custom_domain": {
       "verify": {
@@ -1835,7 +1966,8 @@
           "select_status_page": "Selecione uma página de status",
           "failed_link": "Falha ao vincular a página de status",
           "failed_unlink": "Falha ao desvincular a página de status"
-        }
+        },
+        "manage_component_access": "Manage component access"
       }
     },
     "action_filter": "Filtro de ação",
@@ -2697,7 +2829,8 @@
     "success": "Sucesso",
     "unexpected_error": "Ocorreu um erro inesperado",
     "filter": "Filtrar",
-    "time": "Hora"
+    "time": "Hora",
+    "disabled": "Disabled"
   },
   "dashboard": {
     "no_active_incidents_help": "Nenhum incidente ativo. Continue — adicione um monitor ou compartilhe uma página de status.",
