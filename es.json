@@ -3357,6 +3357,10 @@
         "subtitle": "Recibe ayuda en Slack"
       }
     },
+    "guides": {
+      "text": "Consulta <a href=\"/docs/Account+%26+Billing/account-security-passwords\">Seguridad de la cuenta y protección de contraseña</a> o <a href=\"/docs/Account+%26+Billing/account-temporary-support-access\">Acceso temporal de soporte (TSA)</a> si tu pregunta trata sobre la protección de la cuenta, la aprobación de sesiones de soporte o un acceso de soporte inesperado.",
+      "title": "Guías de seguridad y acceso"
+    },
     "footer": {
       "title": "¿Necesitas ayuda inmediata?",
       "text": "Para asuntos urgentes, el chat en vivo es la forma más rápida de obtener ayuda. Nuestro tiempo de respuesta promedio es inferior a 5 minutos durante el horario laboral."

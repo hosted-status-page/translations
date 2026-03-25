@@ -3058,6 +3058,10 @@
       },
       "text": "Ili se pridružite našoj Discord zajednici za podršku među korisnicima, novosti i razgovore."
     },
+    "guides": {
+      "text": "Pogledajte <a href=\"/docs/Account+%26+Billing/account-security-passwords\">Sigurnost računa i zaštitu lozinke</a> ili <a href=\"/docs/Account+%26+Billing/account-temporary-support-access\">Privremeni pristup podrške (TSA)</a> ako je vaše pitanje vezano uz zaštitu računa, odobravanje sesije podrške ili neočekivani pristup podrške.",
+      "title": "Vodiči za sigurnost i pristup"
+    },
     "email": {
       "fallback_subject": "Zahtjev za podršku"
     },

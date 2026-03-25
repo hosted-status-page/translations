@@ -2779,6 +2779,10 @@
       },
       "text": "Or, join our Discord community for peer support, updates, and discussions."
     },
+    "guides": {
+      "text": "Review <a href=\"/docs/Account+%26+Billing/account-security-passwords\">Account Security &amp; Password Protection</a> or <a href=\"/docs/Account+%26+Billing/account-temporary-support-access\">Temporary Support Access (TSA)</a> if your question is about account protection, support-session approval, or unexpected support access.",
+      "title": "Security & access guides"
+    },
     "email": {
       "fallback_subject": "Support Request"
     },

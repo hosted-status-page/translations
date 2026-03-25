@@ -3351,6 +3351,10 @@
       },
       "text": "Ou participe da nossa comunidade no Discord para suporte entre usuários, atualizações e discussões."
     },
+    "guides": {
+      "text": "Consulte <a href=\"/docs/Account+%26+Billing/account-security-passwords\">Segurança da conta e proteção por senha</a> ou <a href=\"/docs/Account+%26+Billing/account-temporary-support-access\">Acesso temporário de suporte (TSA)</a> se a sua dúvida for sobre proteção da conta, aprovação de sessão de suporte ou acesso de suporte inesperado.",
+      "title": "Guias de segurança e acesso"
+    },
     "email": {
       "fallback_subject": "Solicitação de suporte"
     },

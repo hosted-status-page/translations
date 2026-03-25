@@ -3370,6 +3370,10 @@
         "subtitle": "Obtenir de l'aide sur Slack"
       }
     },
+    "guides": {
+      "text": "Consultez <a href=\"/docs/Account+%26+Billing/account-security-passwords\">Sécurité du compte et protection du mot de passe</a> ou <a href=\"/docs/Account+%26+Billing/account-temporary-support-access\">Accès temporaire du support (TSA)</a> si votre question concerne la protection du compte, l'approbation d'une session de support ou un accès support inattendu.",
+      "title": "Guides de sécurité et d'accès"
+    },
     "footer": {
       "title": "Besoin d'une assistance immédiate ?",
       "text": "Pour les sujets urgents, le chat en direct est le moyen le plus rapide d'obtenir de l'aide. Notre temps de réponse moyen est inférieur à 5 minutes pendant les heures ouvrées."

@@ -2779,6 +2779,10 @@
       },
       "text": "Eller gå med i vårt Discord community för peer support, uppdateringar och diskussioner."
     },
+    "guides": {
+      "text": "Läs <a href=\"/docs/Account+%26+Billing/account-security-passwords\">Kontosäkerhet och lösenordsskydd</a> eller <a href=\"/docs/Account+%26+Billing/account-temporary-support-access\">Tillfällig supportåtkomst (TSA)</a> om din fråga gäller kontoskydd, godkännande av supportsessioner eller oväntad supportåtkomst.",
+      "title": "Guider för säkerhet och åtkomst"
+    },
     "email": {
       "fallback_subject": "Stödförfrågan"
     },
