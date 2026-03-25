@@ -1183,7 +1183,7 @@
       "token_label": "Token",
       "type_label": "Monitor typ",
       "url_label": "URL",
-      "url_placeholder": "https://example.com",
+      "url_placeholder": "https://exempel.se",
       "username_label": "Användarnamn"
     },
     "nav": {
@@ -1467,7 +1467,7 @@
         "step_2_text_2": "till bot eller lägg till den i din grupp/kanal",
         "step_3_label": "Steg 3:",
         "step_3_text": "Få din Chat ID med",
-        "step_3_text_2": "och klistra in den nedan"
+        "step_3_text_2": "och klistra in det nedan"
       },
       "use_custom_bot": "Använd Custom Bot",
       "use_our_bot": "Använd vår Bot",
@@ -1680,6 +1680,9 @@
       "enable_description": "Visa översättarverktygsfältet och aktivera förslagsfunktioner",
       "enable_mode": "Aktivera översättare Mode",
       "heading": "Översättningshjälpare",
+      "sp_fab_heading": "Översättningshjälpare för statussida",
+      "sp_fab_hint": "Översätt statussidessträngar snabbare med den flytande hjälparen.",
+      "sp_fab_cta": "Öppna statussideshjälparen",
       "suggestions_per_day": "Förslag/dag",
       "view_suggestions": "Visa mina förslag",
       "whitelisted_description": "Du har en ökad daglig förslagsgräns (250/dag) för dina värdefulla bidrag.",
@@ -1818,15 +1821,15 @@
     "and_roles": "och",
     "attach_monitors_help": "Bifoga bildskärmar för att spåra upptid",
     "auto_reload_help": "Automatiskt uppdatera statussidadata varje minut",
-    "auto_save_help": "Changes are saved automatically. You can edit component names and URLs inline, change groups, and reorder items.",
+    "auto_save_help": "Ändringar sparas automatiskt. Du kan redigera komponentnamn och URL:er direkt på plats, byta grupper och ändra ordningen på objekt.",
     "can_view_historical": "roller kan se historisk upptid.",
     "change_password": "Ändra lösenord",
     "choose_primary_domain": "Välj Primär domän",
-    "component_example": "e.g., API Server",
+    "component_example": "t.ex. API-server",
     "component_map": "Komponentkarta",
     "component_name_required": "Komponentnamn *",
-    "component_url_placeholder": "https://example.com (optional)",
-    "components_explanation": "Components are the services/monitors you want to track (e.g., \"API Server\", \"Website\")",
+    "component_url_placeholder": "https://example.com (valfritt)",
+    "components_explanation": "Komponenter är de tjänster och övervakare du vill följa (t.ex. \"API-server\", \"Webbplats\")",
     "components_groups": "Komponenter och grupper",
     "components_page": {
       "component_map_loading": "Lastkomponentkarta...",
@@ -1841,7 +1844,7 @@
       "loading": "Lastning...",
       "new_component": "Ny komponent",
       "new_group": "Ny grupp",
-      "no_url_specified": "No URL specified",
+      "no_url_specified": "Ingen URL angiven",
       "manual_badge": "Manual Manual",
       "manual_badge_title": "Ingen bildskärm bifogad - status som drivs av incidenter endast",
       "override_badge_title": "Manuell status åsidosätter aktiv",
@@ -1952,30 +1955,30 @@
         "select_member_error": "Välj en medlem"
       },
       "ungrouped": "Otrouped",
-      "url_placeholder": "https://example.com",
+      "url_placeholder": "https://exempel.se",
       "limit_reached_title": "Komponentgräns nått - uppgradera för att lägga till mer",
       "validation": {
         "component_name_required": "Du måste ange ett komponentnamn!",
         "group_name_required": "Du måste ange ett gruppnamn!",
         "name_required": "Namn krävs",
-        "url_invalid": "URL must be a valid absolute URL (include https://)",
-        "url_must_start_http": "URL must start with http:// or https://"
+        "url_invalid": "URL:en måste vara en giltig absolut URL-adress (inkludera https://)",
+        "url_must_start_http": "URL:en måste börja med http:// eller https://"
       }
     },
     "configure_custom_domain": "Konfigurera anpassad domän",
-    "confirm_url": "To confirm, type the full URL of your status page:",
+    "confirm_url": "Bekräfta genom att skriva hela URL:en till din statussida:",
     "current_domain": "✓ Nuvarande",
     "custom_domain": {
       "verify": {
         "active_message": "Din egen domän är nu aktiv",
         "check_failed": "Underlåtenhet att kontrollera verifieringsstatus. Försök igen.",
-        "pending_body": "DNS record not found yet. We'll continue checking and notify you when verified.",
+        "pending_body": "DNS-posten har inte hittats ännu. Vi fortsätter att kontrollera och meddelar dig när den har verifierats.",
         "pending_title": "Fortfarande i väntan",
         "verified_body": "Din anpassade domän har verifierats och aktiverats framgångsrikt.",
         "verified_fallback": "Domän verifierad framgångsrikt! Sidan kommer att laddas om.",
         "verified_title": "Domän verifierad!",
         "verify_failed": "Ett fel inträffade under kontroll. Försök igen.",
-        "verify_failed_with_message": "An error occurred during verification: {{message}}"
+        "verify_failed_with_message": "Ett fel uppstod under verifieringen: {{message}}"
       }
     },
     "custom_domain_unavailable": "Anpassad domän är inte tillgänglig i din nuvarande plan.",
@@ -1994,7 +1997,7 @@
         "title": "Raderad"
       }
     },
-    "delete_permanent": "Deleting your status page is <u>permanent</u>",
+    "delete_permanent": "Att radera din statussida är <u>permanent</u>",
     "delete_selected": "Radera vald",
     "delete_this_page": "Ta bort denna statussida",
     "dependencies_help": "Visa statusrutor från tredje part över dina komponentgrupper.",
@@ -2005,7 +2008,7 @@
     "enable_password_protection": "för att aktivera lösenordsskydd.",
     "exactly_enable": "exakt för att möjliggöra radering.",
     "export_csv": "Exportera som CSV",
-    "export_json": "Export as JSON",
+    "export_json": "Exportera som JSON",
     "favicon_dark_theme": "Används i mörkt läge",
     "favicon_enable": "Aktivera",
     "favicon_light_theme": "Används i ljusläge",
@@ -2077,7 +2080,7 @@
     "nav": {
       "components": "Komponenter",
       "edit_status_page": "Redigera Status Page",
-      "embeds": "Embeds",
+      "embeds": "Inbäddningar",
       "new_status_page": "Ny status sida",
       "status_pages": "Statussidor",
       "create_status_page": "Skapa status sida"
@@ -2085,9 +2088,9 @@
     "no_group_option": "- Ingen grupp -",
     "no_groups_yet": "Inga grupper ännu. Grupper hjälper till att organisera komponenter visuellt.",
     "no_subscribers": "Inga abonnenter ännu",
-    "no_url": "No URL",
+    "no_url": "Ingen URL",
     "optional_grouping": "Valfri gruppering",
-    "order_column": "Order",
+    "order_column": "Ordning",
     "organize_help": "Organisera din statussida med komponenter och valfria grupper",
     "owner_always_access": "Statussidans ägare har alltid tillgång. Som standard, bara lag",
     "palette": {
@@ -2122,11 +2125,11 @@
           "setting_primary": "Inställning av primärdomän..."
         },
         "cname": {
-          "checking_dns": "Checking DNS…",
-          "error": "Error checking DNS",
-          "mismatch": "CNAME points to <code>__DETECTED__</code>, but expected <code>__EXPECTED__</code>. Update your DNS and try again.",
-          "not_found": "No CNAME found yet. Expected <code>__EXPECTED__</code>. DNS may take 5–30 minutes to propagate.",
-          "ok": "CNAME is correctly configured. SSL provisioning will begin automatically."
+          "checking_dns": "Kontrollerar DNS…",
+          "error": "Fel vid kontroll av DNS",
+          "mismatch": "CNAME pekar på <code>__DETECTED__</code>, men <code>__EXPECTED__</code> förväntas. Uppdatera din DNS och försök igen.",
+          "not_found": "Ingen CNAME hittades ännu. Förväntat värde är <code>__EXPECTED__</code>. DNS kan ta 5–30 minuter att spridas.",
+          "ok": "CNAME är korrekt konfigurerad. SSL-provisionering startar automatiskt."
         },
         "errors": {
           "remove_failed": "Underlåten att ta bort anpassad domän",
@@ -2144,7 +2147,7 @@
         },
         "set_primary_confirm": {
           "confirm": "Ja, sätt som primär",
-          "html": "This will make <strong>__DOMAIN__</strong> your primary domain.<br><small class=\"text-muted\">Your status page will be accessible at this domain by default.</small>",
+          "html": "Detta gör <strong>__DOMAIN__</strong> till din primära domän.<br><small class=\"text-muted\">Din statussida kommer som standard att vara tillgänglig på denna domän.</small>",
           "title": "Ställ in som primär domän?"
         },
         "set_primary_placeholder": {
@@ -2154,12 +2157,12 @@
           "text": "Primär domän satt framgångsrikt!"
         },
         "set_primary_suggest": {
-          "html": "Would you like to set <strong>__DOMAIN__</strong> as your primary domain?<br><small class=\"text-muted\">Your status page will be accessible at this domain by default.</small>",
+          "html": "Vill du sätta <strong>__DOMAIN__</strong> som din primära domän?<br><small class=\"text-muted\">Din statussida kommer som standard att vara tillgänglig på denna domän.</small>",
           "title": "Ställ in som primär domän?"
         },
         "ssl": {
-          "failed": "Failed to check SSL",
-          "updated_reload": "SSL status updated. Reloading page..."
+          "failed": "Det gick inte att kontrollera SSL",
+          "updated_reload": "SSL-status uppdaterad. Laddar om sidan..."
         }
       },
       "save_failed": "Misslyckades med att spara inställningar. Försök igen.",
@@ -2173,11 +2176,11 @@
           "not_set": "Inte inställd"
         },
         "summary": {
-          "ip_allowlist": "IP Allowlist",
+          "ip_allowlist": "IP-tillåtelselista",
           "magic_link": "E-post magisk länk",
-          "azure_ad": "Azure AD",
+          "azure_ad": "Azure AD-inloggning",
           "google": "Google Google Google Google",
-          "oidc": "OIDC",
+          "oidc": "OIDC-inloggning",
           "no_method": "Ingen åtkomstmetod konfigurerad"
         },
         "password": {
@@ -2201,7 +2204,7 @@
         },
         "ip_allowlist": {
           "description": "Besökare från tillåtna IPs eller intervall kringgå alla andra kontroller",
-          "enable": "Enable IP allowlist",
+          "enable": "Aktivera IP-tillåtelselista",
           "allowed_label": "Tillåtna IPs / CIDR Ranges",
           "allowed_placeholder": "En post per rad, t.ex.:&#10;203.0.113.42&#10;10.0.0.0/8&#10;192.168.1.0/24",
           "help": "Stöder enskilda IPs och CIDR notation. Matcha besökare erkänns automatiskt."
@@ -2220,16 +2223,16 @@
           "expiry_60": "1 timme"
         },
         "azure": {
-          "title": "Azure AD / Microsoft",
+          "title": "Azure AD / Microsoft-inloggning",
           "description": "Besökare loggar in med sitt Microsoft-konto",
           "enable": "Aktivera Azure AD-autentisering",
           "tenant_id_label": "Hyresgäst Id",
-          "tenant_id_help": "Your Azure AD directory (tenant) ID or primary domain (e.g. <code>contoso.com</code>).",
+          "tenant_id_help": "ID för din Azure AD-katalog (tenant) eller primär domän (t.ex. <code>contoso.com</code>).",
           "client_id_label": "Applikation (klient) ID",
           "client_secret_label": "Kundhemlighet",
           "client_secret_placeholder": "Klistra kundens hemliga värde",
           "redirect_prefix": "I din Azure app registrering, lägg till",
-          "redirect_suffix": "as a redirect URI under <strong>Authentication → Web</strong>."
+          "redirect_suffix": "som redirect URI under <strong>Authentication → Web</strong>."
         },
         "shared": {
           "keep_existing_secret_placeholder": "Lämna tomt för att hålla befintlig hemlighet",
@@ -2245,8 +2248,8 @@
           "client_secret_label": "Kundhemlighet",
           "client_secret_placeholder": "Klipp kundhemlighet",
           "hosted_domain_label": "Hosted Domain (tillval)",
-          "hosted_domain_placeholder": "yourcompany.com",
-          "hosted_domain_help": "Restrict login to a specific Google Workspace domain (e.g. <code>acme.com</code>). Leave blank to allow any Google account.",
+          "hosted_domain_placeholder": "dittforetag.se",
+          "hosted_domain_help": "Begränsa inloggning till en viss Google Workspace-domän (t.ex. <code>acme.com</code>). Lämna tomt för att tillåta vilket Google-konto som helst.",
           "redirect_prefix": "I Google Cloud Console, lägg till",
           "redirect_suffix": "Som auktoriserad omdirigerad URI."
         },
@@ -2254,8 +2257,8 @@
           "title": "Generisk OIDC",
           "description": "Alla OpenID Connect-leverantörer (Okta, Auth0, Keycloak, etc.)",
           "enable": "Aktivera Generic OIDC-autentisering",
-          "issuer_label": "Issuer URL",
-          "issuer_help": "The OIDC issuer base URL. Discovery will be fetched from <code>{issuer}/.well-known/openid-configuration</code>.",
+          "issuer_label": "Issuer-URL",
+          "issuer_help": "Bas-URL för OIDC-issuer. Discovery hämtas från <code>{issuer}/.well-known/openid-configuration</code>.",
           "client_id_label": "Kund ID",
           "client_id_placeholder": "Din klient-id",
           "client_secret_label": "Kundhemlighet",
@@ -2269,13 +2272,13 @@
           "configured": "Konfigurerad",
           "any_domain": "Alla domäner",
           "label": "Tillåtna domäner",
-          "placeholder": "acme.com&#10;partner.org",
+          "placeholder": "foretag.se&#10;partner.org",
           "help": "En domän per rad. När du är inställd kommer alla SSO-användare (Azure AD, Google, OIDC) vars e-post inte finns i den här listan att nekas åtkomst. Lämna tomma för att tillåta alla domäner."
         }
       },
       "tabs": {
         "access": "Access Access",
-        "misc": "Misc.",
+        "misc": "Övrigt",
         "ownership_transfer": "Ägartransfer",
         "analytics": "Webbanalys",
         "subscribers": "Abonnenter",
@@ -2296,7 +2299,7 @@
       "custom_css": "Anpassad CSS",
       "custom_title": "Anpassad titel",
       "dark_logo_url_help": "Logo för mörkt tema.",
-      "description": "for {{name}}",
+      "description": "för {{name}}",
       "heading": "Status Page Inställningar",
       "restore_banner": {
         "body": "Dina premiuminställningar från innan nedgraderingen sparades.",
@@ -2308,9 +2311,9 @@
         "body_prefix": "Vissa funktioner är inte tillgängliga i din nuvarande plan.",
         "body_suffix": "för att få tillgång till avancerad anpassning, automatisering och branding alternativ."
       },
-      "logo_url": "Logo URL",
-      "logo_url_help": "Provide a direct image URL for your logo.",
-      "monitor": "Monitor",
+      "logo_url": "Logotyp-URL",
+      "logo_url_help": "Ange en direkt bild-URL för din logotyp.",
+      "monitor": "Övervakare",
       "monitors_help": "Övervakare spårar upptid och prestanda för dina tjänster. Välj vilka bildskärmar som ska visas på denna statussida.",
       "no_monitors_for_page": "Inga bildskärmar för denna statussida.",
       "notify_for_auto_created": "Meddela abonnenter för automatiska incidenter",
@@ -2331,18 +2334,18 @@
       "show_daily_pills": "Visa dagliga piller",
       "show_response_graph": "Visa svar Graph",
       "slug_locked_help": "Slug kan inte ändras efter skapelsen",
-      "slug_url_prefix": "Your status page URL:"
+      "slug_url_prefix": "Din URL för statussidan:"
     },
     "setup_custom_domain": "Ställ in anpassad domän",
-    "showcase_description": "Get featured in our <a href=\"/showcase\" target=\"_blank\">public showcase</a> to demonstrate your commitment to transparency and reliability. This is a great way to build trust with potential customers.",
-    "showcase_directory": "Showcase Directory",
+    "showcase_description": "Bli presenterad i vår <a href=\"/showcase\" target=\"_blank\">offentliga showcase</a> för att visa ditt engagemang för transparens och tillförlitlighet. Det är ett bra sätt att bygga förtroende hos potentiella kunder.",
+    "showcase_directory": "Showcase-katalog",
     "showcase_help": "Funktionera din status sida i vår offentliga utställning",
     "slug_blocked": "Snigeln kommer att blockeras från återanvändning i 30 dagar",
     "status_availability_help": "Kontrollera total status sida tillgänglighet",
     "step1_create_groups": "Steg 1: Skapa grupper (valfritt)",
     "step2_add_components": "Steg 2: Lägg till komponenter",
     "step3_manage_components": "Steg 3: Hantera dina komponenter",
-    "subscribe_disabled_help": "When disabled, the public \"Subscribe\" button is hidden and the subscribe API is blocked for this status page.",
+    "subscribe_disabled_help": "När detta är avstängt döljs den offentliga knappen \"Prenumerera\" och prenumerations-API:t blockeras för den här statussidan.",
     "table": {
       "active_incidents": "Aktiva incidenter",
       "affected_monitors": "Drabbade monitorer",
@@ -2353,25 +2356,25 @@
     "total_subscribers": "Totala prenumeranter",
     "transfer_pending": "Transfer väntar",
     "transfer_pending_for": "En överföringsbegäran väntar för närvarande på",
-    "type_url_helper": "Type the full URL to enable deletion.",
-    "upgrade_pro_reload": "🔄 <a href=\"/user/billing\" class=\"text-decoration-none\">Upgrade to Pro</a> to enable auto-reload",
+    "type_url_helper": "Skriv hela URL:en för att aktivera radering.",
+    "upgrade_pro_reload": "🔄 <a href=\"/user/billing\" class=\"text-decoration-none\">Uppgradera till Pro</a> för att aktivera automatisk uppdatering",
     "upgrade_required": "Uppgradering krävs",
     "use_on_page_column": "Använd på sidan",
     "user_experience_help": "Förbättra hur användare interagerar med din statussida",
     "view_status_page": "Visa din statussida",
     "accent_color": "Accent färg",
     "analytics": {
-      "info": "💡 Analytics are injected on your status page domain (custom domain or hosted subdomain). They avoid cookies and respect exclusion rules. If you use a hosted subdomain (e.g. <em>your-page.statuspage.me</em>), create the analytics property/site/project with that exact hostname (your-page.statuspage.me)."
+      "info": "💡 Analys injiceras på domänen för din statussida (anpassad domän eller hostad subdomän). Den använder inga cookies och följer reglerna för exkludering. Om du använder en hostad subdomän (t.ex. <em>din-sida.statuspage.me</em>) ska du skapa egenskapen/sajten/projektet i analysverktyget med exakt det värdnamnet (din-sida.statuspage.me)."
     },
-    "auto_reload": "Auto Reload",
+    "auto_reload": "Automatisk uppdatering",
     "automatic_incident_management": "Automatisk incidenthantering",
     "background_color": "Bakgrundsfärg",
-    "branding_section": "Branding",
+    "branding_section": "Varumärke",
     "cancel_transfer": "Avbryt överföring",
     "cannot_undo": "Detta kan inte vara ogjort",
     "choose_event_types": "Välj vilka händelser som utlöser meddelanden",
     "components": {
-      "add_component": "➕",
+      "add_component": "Lägg till komponent",
       "failed_loading": "Misslyckade lastkomponenter",
       "help": "Hantera de komponenter som visas på denna statussida. Komponenter gruppskärmar och incidenter.",
       "loading": "Lastkomponenter..."
@@ -2383,7 +2386,7 @@
     "custom_domain_tip": "Ställ in en anpassad domän för din status sida",
     "danger_zone": "Farliga zonen",
     "dark_theme_logo": "Mörk tema logo",
-    "dark_theme_logo_url": "Dark Theme Logo URL",
+    "dark_theme_logo_url": "URL för mörk temalogotyp",
     "default_logo": "Standard Logo",
     "display_options": "Visa alternativ",
     "edit": {
@@ -2403,9 +2406,9 @@
     "incidents_removed": "Eventuella tillhörande incidenter kommer att tas bort",
     "include_non_impacting": "Inkludera icke-påverkande beroenden i banner",
     "initiate_transfer_help": "Detta kommer att initiera en ägaröverföring till en annan e-postadress",
-    "invalid_image_url": "Invalid image URL",
+    "invalid_image_url": "Ogiltig bild-URL",
     "light_theme_logo": "Ljus tema logo",
-    "light_theme_logo_url": "Light Theme Logo URL",
+    "light_theme_logo_url": "URL för ljus temalogotyp",
     "link_notification_channel": "Länkmeddelandekanal",
     "list": {
       "create_new": "Skapa ny status sida",
@@ -2425,7 +2428,7 @@
       "simple_badge": "Enkel",
       "simple_badge_title": "Ingen bildskärm - status uppdaterad manuellt"
     },
-    "live_preview": "Live Preview",
+    "live_preview": "Liveförhandsvisning",
     "loading_channels": "Ledande kanaler...",
     "logo_previews": "Logo förhandsvisningar",
     "max_notifications_per_window": "Max meddelanden per fönster",
@@ -2433,13 +2436,13 @@
     "new": {
       "heading": "Skapa status sida",
       "info": "Du kan skapa den här statussidan utan bildskärmar. Senare, lägga till komponenter och incidenter, och eventuellt tilldela bildskärmar i inställningar.",
-      "slug_help": "Slug will be used in the public URL, for example https://my-company.statuspage.me — you can change the free primary domain later."
+      "slug_help": "Sluggen används i den offentliga URL:en, till exempel https://my-company.statuspage.me — du kan ändra den kostnadsfria primära domänen senare."
     },
     "new_password_ready": "Nytt lösenord redo (kommer att gälla när du sparar)",
     "no_monitors_yet": "Denna status sida har inga bildskärmar ännu.",
     "notifications": {
       "event_types": {
-        "dnsbl_listed": "DNSBL Listings",
+        "dnsbl_listed": "DNSBL-listningar",
         "heading": "Eventtyper",
         "incident_created": "Incident skapade",
         "incident_resolved": "Incident löst",
@@ -2447,7 +2450,7 @@
         "maintenance": "Underhåll Windows",
         "monitor_down": "Monitor ner",
         "monitor_up": "Monitor återställd",
-        "ssl_expiring": "SSL Expiring"
+        "ssl_expiring": "SSL löper ut"
       },
       "link_channel": "Länk kanal",
       "manage_channels": "Hantera kanaler",
@@ -2488,7 +2491,7 @@
     "set_password": "Ställ ett lösenord",
     "settings_saved": "Inställningar sparade",
     "show_availability_metrics": "Visa tillgänglighetsmätningar (mtbf/mttr)",
-    "show_monitor_badges": "Show Monitor Type Badges (API/DNS/Site)",
+    "show_monitor_badges": "Visa märken för monitortyp (API/DNS/Sajt)",
     "showcase_featured": "Din statussida finns i showcase!",
     "showcase_not_opted": "Du har inte valt till showcase ännu.",
     "start_time": "Starttid",
@@ -2511,15 +2514,15 @@
     "where_inject_snippet": "Var att injicera spårningsnippet.",
     "create_status_page": "Skapa status sida",
     "quick_analytics": {
-      "title": "Analytics",
+      "title": "Analys",
       "button_title": "Visa 30-dagars analys",
       "button_aria_label": "Visa analys",
-      "uptime_30d": "Uptime (30d):",
+      "uptime_30d": "Upptid (30 d):",
       "avg_response": "Avg svar:",
       "incidents": "Incidenter:",
       "visitors_30d": "Besökare (30d):",
       "last_30_days": "Förra 30 dagarna",
-      "uptime_label": "Uptime",
+      "uptime_label": "Upptid",
       "avg_response_short": "Avg svar",
       "incidents_label": "Incidenter",
       "total_downtime": "Total stillestånd",
@@ -2535,10 +2538,10 @@
       "no_components": "Inga komponenter",
       "failed_to_load": "Misslyckades med att ladda komponenter.",
       "override_applied": "Override tillämpad",
-      "override_cleared": "Override cleared",
+      "override_cleared": "Åsidosättning borttagen",
       "update_failed": "Misslyckades med att uppdatera override",
-      "dot_override_title": "Override: {{status}}",
-      "dot_monitor_title": "Monitor: {{status}}",
+      "dot_override_title": "Åsidosättning: {{status}}",
+      "dot_monitor_title": "Övervakare: {{status}}",
       "dot_simple_title": "Operativ (ingen bildskärm)",
       "no_override_simple": "- Standard (Operational)"
     }
@@ -3370,6 +3373,8 @@
     "enter_suggestion": "Ange en föreslagen översättning.",
     "error": "Fel",
     "hint_click": "på någon text som föreslår översättning",
+    "sp_fab_toggle": "Översättarhjälp för statussida",
+    "sp_fab_toggle_help": "Öppna eller stäng den flytande översättarhjälpen för statussidor.",
     "how_it_works": {
       "step1_desc": "Slå på Översättarläge i dina profilinställningar för att aktivera funktionen.",
       "step1_title": "Aktivera översättare Mode",
@@ -3655,6 +3660,285 @@
   "sla": {
     "month": "Månad",
     "no_breaches": "Inget SLA Breaches"
+  },
+  "sp": {
+    "status": {
+      "operational": "Operativ",
+      "degraded": "Försämrad",
+      "partial_outage": "Delvis driftstopp",
+      "major_outage": "Stort driftstopp",
+      "outage": "Driftstopp",
+      "unknown": "Okänd",
+      "monitoring_disabled": "Övervakning inaktiverad",
+      "all_systems_operational": "Alla system fungerar normalt"
+    },
+    "incident_state": {
+      "investigating": "Undersöker",
+      "identified": "Identifierad",
+      "monitoring": "Övervakar",
+      "resolved": "Löst",
+      "initial": "Inledande",
+      "state_change": "Statusändring",
+      "update": "Uppdatering"
+    },
+    "uptime": {
+      "1d": "1 dags drifttid",
+      "7d": "7 dagars drifttid",
+      "30d": "30 dagars drifttid",
+      "90d": "90 dagars drifttid",
+      "1y": "1 års drifttid"
+    },
+    "monitor": {
+      "disabled_badge": "Inaktiverad",
+      "disabled_no_data": "Monitor inaktiverad — inga data tillgängliga",
+      "disabled_detail": "Den här monitorn är för tillfället inaktiverad. Ingen data samlas in.",
+      "loading": "Laddar",
+      "loading_chart": "Laddar diagram...",
+      "loading_chart_data": "Laddar diagramdata...",
+      "no_minute_data": "Inga minutdata tillgängliga",
+      "failed_chart_data": "Kunde inte ladda diagramdata",
+      "failed_monitor_data": "Kunde inte ladda monitordata",
+      "refresh": "Uppdatera sidan",
+      "resp_last_24h_1min": "Svar senaste 24h (1-min)",
+      "resp_last_24h": "Svar senaste 24h",
+      "today_utc": "Idag (UTC)",
+      "last_90_days": "Senaste 90 dagarna (dagligen)",
+      "recent_agent_checks": "Senaste agentprovningar per region",
+      "avg_response_time": "Genomsnittlig svarstid:",
+      "no_updates": "Inga uppdateringar registrerade.",
+      "maintenance_title": "Underhåll"
+    },
+    "nav": {
+      "status_page": "Statussida",
+      "breadcrumb": "Brodsmulenavigering",
+      "toggle_navigation": "Växla navigering",
+      "incidents": "Incidenter",
+      "maintenance": "Underhåll",
+      "back_to_status_page": "Tillbaka till statussidan",
+      "previous_incident": "Föregående incident",
+      "next_incident": "Nästa incident",
+      "incident_history": "Incidenthistorik",
+      "components": "Komponenter",
+      "heartbeats": "Hjärtslag"
+    },
+    "legend": {
+      "label": "Förklaring:",
+      "operational": "Operativ",
+      "degraded": "Försämrad",
+      "partial": "Delvis",
+      "outage": "Driftstopp",
+      "maintenance": "Underhåll",
+      "unknown": "Okänd",
+      "active_incident": "Aktiv incident"
+    },
+    "subscription": {
+      "subscribe_to_updates": "Prenumerera på uppdateringar",
+      "email_label": "E-post",
+      "email_placeholder": "du@example.com",
+      "method_label": "Metod",
+      "feeds_label": "Flöden",
+      "feeds_help": "Använd dessa i en RSS-läsare för att följa statusuppdateringar utan e-post.",
+      "check_inbox": "Kontrollera din inkorg",
+      "inbox_detail": "Om din e-post finns på listan kommer du snart få en inloggningslänk.",
+      "send_login_link": "Skicka inloggningslänk",
+      "enter_email": "Ange din e-post för att få en engångsinloggningslänk.",
+      "email_option": "E-post",
+      "enter_valid_email": "Ange en giltig e-postadress.",
+      "subscribe_btn": "Prenumerera",
+      "close": "Stäng"
+    },
+    "maintenance": {
+      "scheduled": "Planerat underhåll",
+      "upcoming_heading": "Kommande underhåll",
+      "no_scheduled": "Inget planerat underhåll",
+      "no_scheduled_detail": "Det finns för tillfället inga planerade underhållshändelser.",
+      "badge_scheduled": "Planerat",
+      "badge_completed": "Slutfört",
+      "affected_components": "Berörda komponenter",
+      "updates": "Uppdateringar",
+      "updates_label": "Uppdateringar"
+    },
+    "incident": {
+      "active": "Aktiva incidenter",
+      "ongoing_aria": "Pågående incident",
+      "no_recent": "Inga senaste incidenter",
+      "no_reported": "Inga incidenter rapporterade.",
+      "history": "Incidenthistorik",
+      "active_summary_prefix": "Aktiva:",
+      "active_summary_total": "totalt {{total}}",
+      "active_summary_earliest": "tidigast {{time}} UTC",
+      "impacted_by_active": "Påverkad av aktiv incident: {{state}}",
+      "since_utc": "sedan {{time}} UTC",
+      "archive_hint_prefix": "För att se alla tidigare incidenter, gå till",
+      "click_to_view": "Klicka för att visa detaljer",
+      "show_more_updates": "Visa {{count}} fler uppdateringar",
+      "show_less_updates": "Visa mindre",
+      "updates_label": "Uppdateringar:"
+    },
+    "incident_view": {
+      "inactive_notice": "Den här statussidan är inaktiv. Om du är sajtägaren aktiverar du den i inställningarna för statussidan.",
+      "breadcrumb_current": "Incident",
+      "details_title": "Incidentdetaljer",
+      "meta_title": "Incident: {{title}}{{component}} - {{name}}",
+      "meta_description": "Incidentdetaljer, tidslinje och uppdateringshistorik för {{name}}. Följ påverkan, statusändringar och återställningsförlopp.",
+      "archived_label": "Arkiverad:",
+      "archived_notice": "Den här incidenten är dold från statusidans incidentlistor, men den är fortfarande tillgänglig via den här direktlänken.",
+      "archive_reason": "Orsak till arkivering:",
+      "postmortem": "Postmortem",
+      "show": "Visa",
+      "hide": "Dölj",
+      "summary": "Sammanfattning",
+      "impact": "Påverkan",
+      "root_cause": "Grundorsak",
+      "remediation": "Åtgärd",
+      "timeline": "Tidslinje",
+      "published": "Publicerad",
+      "date_unknown": "(okänt datum)",
+      "show_more_updates": "Visa {{count}} fler uppdateringar ({{label}})",
+      "segment_investigating_identified": "mellan Undersöker och Identifierad",
+      "segment_monitoring_resolved": "mellan Övervakning och Löst"
+    },
+    "page": {
+      "title_with_name": "{{name}} status",
+      "default_title": "Statussida",
+      "meta_description_service": "Status i realtid och incidentrapporter för {{name}}-komponenter.",
+      "meta_description_uptime": "Tillgänglighet i realtid, historik över drifttid och incidentrapporter för {{name}}-komponenter.",
+      "last_monitor_check": "Senaste övervakningskontroll:",
+      "blocked_heading": "Statussida blockerad",
+      "blocked_detail": "Den här statussidan är för tillfället blockerad och inte tillgänglig.",
+      "blocked_owner": "Om du är ägaren, kontakta support för att återställa åtkomst.",
+      "private_intro": "Den här sidan är privat. Använd en av metoderna nedan för att få åtkomst.",
+      "private_no_method": "Den här sidan är privat men ingen åtkomstmetod har konfigurerats. Kontakta sidans ägare.",
+      "incorrect_password": "Felaktigt lösenord. Försök igen.",
+      "too_many_attempts": "För många försök. Vänta",
+      "last_updated": "Senast uppdaterad",
+      "theme": "Tema",
+      "password_required": "Lösenord krävs för att visa den här statussidan",
+      "sign_in": "Logga in för att visa den här statussidan",
+      "day_uptime_aria": "{{date}} {{percent}}% drifttid",
+      "showing_last_days_title": "Visar de senaste {{days}} dagarna på den här skärmstorleken",
+      "showing_last_days_short": "({{days}} visas)"
+    },
+    "archive": {
+      "meta_incidents_description": "Historiskt incidentarkiv för {{name}}",
+      "meta_maintenance_description": "Historiskt underhållsarkiv för {{name}}",
+      "view_by": "Visa efter",
+      "day": "Dag",
+      "month": "Månad",
+      "year": "År",
+      "custom_range": "Anpassat intervall",
+      "date": "Datum",
+      "date_range": "Datumintervall",
+      "to": "till",
+      "sort": "Sortering",
+      "newest_first": "Nyast först",
+      "oldest_first": "Äldst först",
+      "search": "Sök",
+      "search_placeholder": "Filtrera efter titel...",
+      "apply_filters": "Använd filter",
+      "previous_month": "Föregående månad",
+      "next_month": "Nästa månad",
+      "calendar": "Kalender",
+      "days_with_incidents": "Dagar med incidenter",
+      "days_with_maintenances": "Dagar med underhåll",
+      "incidents_title": "Incidentarkiv",
+      "maintenances_title": "Underhållsarkiv",
+      "incidents_heading": "Incidenter",
+      "maintenances_heading": "Underhåll",
+      "result_one": "{{count}} resultat",
+      "result_other": "{{count}} resultat",
+      "date_time": "Datum och tid",
+      "title": "Titel",
+      "actions": "Åtgärder",
+      "no_incidents_selected": "Inga incidenter valda",
+      "no_maintenances_selected": "Inga underhåll valda",
+      "select_incidents_hint": "Välj ett datum eller använd filter för att visa incidenter",
+      "select_maintenances_hint": "Välj ett datum eller använd filter för att visa underhåll",
+      "previous": "Föregående",
+      "next": "Nästa",
+      "loading_incidents": "Laddar incidenter...",
+      "loading_maintenances": "Laddar underhåll...",
+      "no_incidents_found": "Inga incidenter hittades",
+      "no_maintenances_found": "Inga underhåll hittades",
+      "view_details": "Visa detaljer",
+      "view": "Visa",
+      "error_loading_incidents": "Det gick inte att ladda incidenter: {{error}}",
+      "error_loading_maintenances": "Det gick inte att ladda underhåll: {{error}}",
+      "page_info": "Sida {{page}}",
+      "page_info_end": "Sida {{page}} (slut)",
+      "select_date_validation": "Välj ett datum",
+      "select_month_validation": "Välj en månad",
+      "enter_year_validation": "Ange ett år",
+      "select_date_range_validation": "Välj ett datumintervall"
+    },
+    "locale_label": "Sidspråk",
+    "locale_help": "Välj det språk som visas på din publika statussida.",
+    "theme": {
+      "toggle_aria_label": "Växla tema",
+      "tooltip_light": "Ljust läge. Klicka för mörkt läge.",
+      "tooltip_dark": "Mörkt läge. Klicka för systemläge.",
+      "tooltip_system": "Systemläge. Klicka för ljust läge.",
+      "light": "Ljust",
+      "dark": "Mörkt",
+      "system": "System"
+    },
+    "overall": {
+      "summary": "Övergripande status speglar aktiva incidenter och övervakarnas hälsa.",
+      "affected_by": "Påverkad av",
+      "depends_on": "Beroende av",
+      "no_incidents": "Inga incidenter registrerade.",
+      "tooltip": "Övergripande status speglar aktiva incidenter och övervakarnas hälsa."
+    },
+    "component": {
+      "open_link_aria": "Öppna komponentlänk i en ny flik",
+      "reported_status_past_90_days": "Rapporterad status under de senaste 90 dagarna",
+      "scheduled_overlap_status_note": "Obs: Dagliga statusmarkeringar tonas när de överlappar planerat underhåll.",
+      "scheduled_overlap_uptime_note": "Obs: Dagliga drifttidsmarkeringar tonas när de överlappar planerat underhåll."
+    },
+    "dependency": {
+      "section_aria": "Beroenden",
+      "fallback_name": "Beroende"
+    },
+    "annotations": {
+      "inactive": "Inaktiv",
+      "down_for": "Nere {{duration}}",
+      "inactive_for": "Inaktiv i {{duration}}",
+      "inactive_after": "Inaktiv efter {{time}} UTC",
+      "partially_inactive": "Delvis inaktiv",
+      "partially_inactive_after": "Delvis inaktiv efter {{time}} UTC",
+      "partially_inactive_range": "Delvis inaktiv {{from}}-{{to}} UTC",
+      "day_inactive_fraction": "{{percent}}% av dagen inaktiv"
+    },
+    "hourly": {
+      "incidents_affecting_hour_one": "{{count}} incident påverkar denna timme",
+      "incidents_affecting_hour_other": "{{count}} incidenter påverkar denna timme",
+      "ongoing_lower": "pågående",
+      "uptime": "{{percent}}% drifttid",
+      "average_response": "{{value}}ms genomsnittlig svarstid",
+      "monitoring_scheduled_for": "Övervakning schemalagd för {{time}}",
+      "loading_data_for": "Laddar data för {{time}}",
+      "no_data_for": "Inga data för {{time}}",
+      "no_data_alt": "Inga data",
+      "response_above_average": "Den genomsnittliga svarstiden för den här perioden är högre än 7-dagarsgenomsnittet.",
+      "no_incidents": "Inga incidenter",
+      "hour_heading": "Timme {{hour}}:00 UTC",
+      "incidents_reported_one": "{{count}} incident rapporterad",
+      "incidents_reported_other": "{{count}} incidenter rapporterade",
+      "downtime_recorded": "Driftstopp registrerat",
+      "day_affected_fraction": "{{percent}}% av dagen påverkad",
+      "decreased_downtime_by": "Minskade driftstoppet med {{minutes}}m",
+      "increased_downtime_by": "Ökade driftstoppet med {{minutes}}m"
+    },
+    "settings": {
+      "show_component_uptime": "Visa komponentens upptidsprocent",
+      "default_component_uptime": "Standardupptid för komponent",
+      "component_uptime_help": "Styr vilket upptidsintervall som visas som standard på komponentkorten på den publika statussidan."
+    },
+    "footer": {
+      "powered_by": "Drivs av",
+      "logo_alt": "Statussidelogotyp",
+      "analytics_disclaimer": "Den här anpassade domänen använder integritetsvänlig analys för aggregerade trafikinsikter."
+    }
   },
   "validation": {
     "invalid": "Invalid",
