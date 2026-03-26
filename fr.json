@@ -41,7 +41,7 @@
       "ltd_management": "Gestion LTD",
       "tools": "Outils",
       "competitors": "Concurrents",
-      "marketing": "Marketing",
+      "marketing": "Commercialisation",
       "landing_pages": "Pages d'atterrissage",
       "public_pages": "Pages publiques",
       "misc": "Divers",
@@ -68,7 +68,7 @@
       "deleted_slug_check": {
         "title": "Vérification de slug supprimé",
         "description": "Vérifie si un slug de plateforme est bloqué pour réutilisation (protection de 30 jours) et quand il sera débloqué.",
-        "slug_label": "Slug",
+        "slug_label": "Limace",
         "sms": "SMS",
         "slug_placeholder": "exemple",
         "check_button": "Vérifier",
@@ -77,7 +77,7 @@
           "missing_slug_text": "Saisissez un slug à vérifier."
         },
         "result": {
-          "slug": "Slug",
+          "slug": "Limace",
           "status_page_exists": "Une page de statut active existe",
           "deleted_slug_exists": "Un enregistrement de slug supprimé existe",
           "blocked_now": "Bloqué actuellement",
@@ -103,7 +103,7 @@
       },
       "auto_heal": {
         "title": "Auto-réparation du prochain contrôle",
-        "description": "Corrige les valeurs <code>next_check_at</code> manquantes ou invalides sur les moniteurs d’outils activés en les plaçant sur la prochaine limite UTC alignée (quotidiennement à 00:00 UTC, ou toutes les 6 heures à 00/06/12/18 UTC).",
+        "description": "Corrige <code>next_check_at</code> manquant/invalide sur les moniteurs d'outils activés en le définissant sur la prochaine limite alignée sur UTC (tous les jours à 00h00 UTC ou toutes les 6 heures au 00/06/12/18 UTC).",
         "buttons": {
           "dnsbl": "Réparer DNSBL",
           "ssl": "Réparer SSL",
@@ -149,7 +149,7 @@
     "misc": "Divers",
     "lifetime_deals": "Offres à vie",
     "help": "Aide",
-    "support": "Support",
+    "support": "Soutien",
     "documentation": "Documentation"
   },
   "tools": {
@@ -180,16 +180,16 @@
     "dashboard": {
       "active_monitors": "Moniteurs actifs",
       "dnsbl_features": {
-        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Vérifications quotidiennes",
+        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Contrôles quotidiens",
         "ip_domain_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Vérifications IP et domaine",
-        "multiple_blacklists": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Listes noires multiples"
+        "multiple_blacklists": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Plusieurs listes noires"
       },
       "domain_age_calculator": "Calculateur d’âge de domaine",
       "domain_whois_lookup": "Recherche WHOIS du domaine",
       "email_auth_features": {
         "dkim_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Validation DKIM",
         "dmarc_policy": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Politique DMARC",
-        "spf_record_check": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Vérification de l’enregistrement SPF"
+        "spf_record_check": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Vérification des enregistrements SPF"
       },
       "email_auth_monitors": "Moniteurs d’authentification e-mail",
       "manage_dnsbl_monitors": "Gérer les moniteurs DNSBL",
@@ -199,7 +199,7 @@
       "open_whois_tool": "Ouvrir l’outil WHOIS",
       "ssl_features": {
         "chain_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Validation de la chaîne",
-        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Vérifications quotidiennes",
+        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Contrôles quotidiens",
         "expiry_warnings": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Avertissements d’expiration"
       },
       "ssl_monitors": "Moniteurs SSL"
@@ -388,7 +388,7 @@
       "query_params_label": "Paramètres de requête",
       "request_section_title": "Requête",
       "request_section_help": "Ces paramètres sont envoyés à la cible. Ils ne sont pas validés automatiquement.",
-      "request_query_params_label": "Paramètres de requête (requête)",
+      "request_query_params_label": "Paramètres de requête de requête",
       "request_query_params_help": "Ajoutés à l’URL de la requête. Non validés sauf si vous ajoutez des assertions de réponse.",
       "request_headers_label": "En-têtes (requête)",
       "request_headers_help": "Envoyés avec la requête. Non validés sauf si vous ajoutez des assertions de réponse.",
@@ -508,7 +508,7 @@
     },
     "loading_metrics": "Chargement des métriques...",
     "metric_response": "Réponse",
-    "metric_response_unit": "ms",
+    "metric_response_unit": "MS",
     "metric_uptime": "Disponibilité",
     "mtbf": "MTBF",
     "mttr": "MTTR",
@@ -549,7 +549,7 @@
       "override_badge_title": "Surcharge manuelle du statut active",
       "search_placeholder": "Rechercher des composants par nom...",
       "simple_banner": {
-        "title": "Page de statut simple",
+        "title": "Page d'état simple",
         "no_monitors": "Aucun moniteur nécessaire.",
         "update_prefix": "Mettez à jour manuellement le statut de chaque composant avec le bouton",
         "update_suffix": "à côté de chaque composant.",
@@ -598,8 +598,8 @@
           "title": "Définir une surcharge du statut"
         },
         "access_denied": {
-          "title": "Access denied",
-          "text": "You do not have permission to manage access for this group."
+          "title": "Accès refusé",
+          "text": "Vous n'êtes pas autorisé à gérer l'accès à ce groupe."
         }
       },
       "tip_ungrouped_other": "Les composants sans groupe apparaîtront dans une section \"Autres composants\" sur votre page de statut",
@@ -643,22 +643,22 @@
         "url_invalid": "L'URL doit être une URL absolue valide (inclure https://)",
         "url_must_start_http": "L'URL doit commencer par http:// ou https://"
       },
-      "tooltip_manage_access": "Manage access",
-      "access_restricted": "Restricted",
-      "access_restricted_title": "Access restricted to specific members",
+      "tooltip_manage_access": "Gérer l'accès",
+      "access_restricted": "Limité",
+      "access_restricted_title": "Accès réservé à des membres spécifiques",
       "access_modal": {
-        "title": "Manage Access",
-        "add_member": "Add member",
-        "select_member": "Select a member…",
-        "role": "Role",
-        "role_editor": "Editor",
-        "role_viewer": "Viewer",
-        "add": "Add",
-        "no_eligible": "All eligible team members are already assigned.",
-        "no_restrictions_note": "No restrictions set. All page editors can modify this group. Add at least one member to restrict access.",
-        "member": "Member",
-        "empty": "No members assigned.",
-        "select_member_error": "Please select a member"
+        "title": "Gérer l'accès",
+        "add_member": "Ajouter un membre",
+        "select_member": "Sélectionnez un membre…",
+        "role": "Rôle",
+        "role_editor": "Éditeur",
+        "role_viewer": "Téléspectateur",
+        "add": "Ajouter",
+        "no_eligible": "Tous les membres éligibles de l’équipe sont déjà affectés.",
+        "no_restrictions_note": "Aucune restriction définie. Tous les éditeurs de pages peuvent modifier ce groupe. Ajoutez au moins un membre pour restreindre l'accès.",
+        "member": "Membre",
+        "empty": "Aucun membre affecté.",
+        "select_member_error": "Veuillez sélectionner un membre"
       }
     },
     "organize_help": "Organisez votre page de statut avec des composants et des groupes optionnels",
@@ -706,7 +706,7 @@
     },
     "form": {
       "status_page_label": "Page de statut",
-      "slug": "Slug",
+      "slug": "Limace",
       "location_help": "Choisissez où se trouve ce composant."
     },
     "nav": {
@@ -834,113 +834,113 @@
       "slug_locked_help": "Le slug ne peut pas être modifié après la création",
       "slug_url_prefix": "URL de votre page de statut :",
       "access": {
-        "enable_access_control_suffix": "to enable access control.",
-        "button": "Access Settings",
-        "disabled_help": "Access control is disabled. Toggle the switch above to enable it.",
-        "modal_title": "Access Settings",
-        "save_button": "Save Access Settings",
+        "enable_access_control_suffix": "pour activer le contrôle d’accès.",
+        "button": "Accéder aux paramètres",
+        "disabled_help": "Le contrôle d'accès est désactivé. Basculez le commutateur ci-dessus pour l’activer.",
+        "modal_title": "Accéder aux paramètres",
+        "save_button": "Enregistrer les paramètres d'accès",
         "badges": {
-          "not_set": "Not set"
+          "not_set": "Non défini"
         },
         "summary": {
-          "ip_allowlist": "IP Allowlist",
-          "magic_link": "Email Magic Link",
-          "azure_ad": "Azure AD",
+          "ip_allowlist": "Liste d'adresses IP autorisées",
+          "magic_link": "Lien magique par e-mail",
+          "azure_ad": "Azure AD",
           "google": "Google",
           "oidc": "OIDC",
-          "no_method": "No access method configured"
+          "no_method": "Aucune méthode d'accès configurée"
         },
         "password": {
-          "description": "Visitors enter a shared password to unlock the page",
-          "minimum_help": "Minimum 4 characters. Will be applied when you save settings.",
-          "pending_new_password": "New password ready — will apply when you save settings",
+          "description": "Les visiteurs saisissent un mot de passe partagé pour déverrouiller la page",
+          "minimum_help": "Minimum 4 caractères. Sera appliqué lorsque vous enregistrerez les paramètres.",
+          "pending_new_password": "Nouveau mot de passe prêt – s’appliquera lorsque vous enregistrerez les paramètres",
           "change_modal": {
-            "title": "Change Password",
-            "input_label": "Enter new password",
-            "input_placeholder": "New password (min 4 characters)",
-            "confirm": "Set Password",
-            "validation": "Password must be at least 4 characters",
-            "pending_message": "New password set (will apply when you save)"
+            "title": "Changer le mot de passe",
+            "input_label": "Entrez le nouveau mot de passe",
+            "input_placeholder": "Nouveau mot de passe (min 4 caractères)",
+            "confirm": "Définir le mot de passe",
+            "validation": "Le mot de passe doit contenir au moins 4 caractères",
+            "pending_message": "Nouveau mot de passe défini (s'appliquera lorsque vous enregistrerez)"
           },
           "remove_modal": {
-            "title": "Remove Password?",
-            "text": "This will remove password protection from your status page. Anyone will be able to view it.",
-            "confirm": "Yes, remove it",
-            "pending_message": "Password will be removed when you save"
+            "title": "Supprimer le mot de passe ?",
+            "text": "Cela supprimera la protection par mot de passe de votre page de statut. Tout le monde pourra le voir.",
+            "confirm": "Oui, supprime-le",
+            "pending_message": "Le mot de passe sera supprimé lorsque vous enregistrerez"
           }
         },
         "ip_allowlist": {
-          "description": "Visitors from allowed IPs or ranges bypass all other checks",
-          "enable": "Enable IP allowlist",
-          "allowed_label": "Allowed IPs / CIDR Ranges",
-          "allowed_placeholder": "One entry per line, e.g.:&#10;203.0.113.42&#10;10.0.0.0/8&#10;192.168.1.0/24",
-          "help": "Supports individual IPs and CIDR notation. Matching visitors are admitted automatically."
+          "description": "Les visiteurs provenant d’adresses IP ou de plages autorisées contournent toutes les autres vérifications",
+          "enable": "Activer la liste blanche d'adresses IP",
+          "allowed_label": "Adresses IP/Plages CIDR autorisées",
+          "allowed_placeholder": "Une entrée par ligne, par exemple :&#10;203.0.113.42&#10;10.0.0.0/8&#10;192.168.1.0/24",
+          "help": "Prend en charge les adresses IP individuelles et la notation CIDR. Les visiteurs correspondants sont admis automatiquement."
         },
         "magic_link": {
-          "description": "Visitors request a one-time login link sent to their email",
-          "enable": "Enable email magic link",
-          "allowed_addresses_label": "Allowed Email Addresses",
-          "allowed_addresses_placeholder": "One email per line, e.g.:&#10;alice@example.com&#10;bob@company.org",
-          "allowed_addresses_help": "Only these addresses can request a login link.",
-          "allow_team": "Also allow team members",
-          "allow_team_help": "(anyone with team access to this status page)",
-          "expiry_label": "Link expiry",
+          "description": "Les visiteurs demandent un lien de connexion unique envoyé à leur adresse e-mail",
+          "enable": "Activer le lien magique par e-mail",
+          "allowed_addresses_label": "Adresses e-mail autorisées",
+          "allowed_addresses_placeholder": "Un e-mail par ligne, par exemple :&#10;alice@example.com&#10;bob@company.org",
+          "allowed_addresses_help": "Seules ces adresses peuvent demander un lien de connexion.",
+          "allow_team": "Autoriser également les membres de l'équipe",
+          "allow_team_help": "(toute personne ayant accès en équipe à cette page de statut)",
+          "expiry_label": "Expiration du lien",
           "expiry_15": "15 minutes",
           "expiry_30": "30 minutes",
-          "expiry_60": "1 hour"
+          "expiry_60": "1 heure"
         },
         "azure": {
-          "title": "Azure AD / Microsoft",
-          "description": "Visitors sign in with their Microsoft work account",
-          "enable": "Enable Azure AD authentication",
-          "tenant_id_label": "Tenant ID",
-          "tenant_id_help": "Your Azure AD directory (tenant) ID or primary domain (e.g. <code>contoso.com</code>).",
-          "client_id_label": "Application (Client) ID",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret value",
-          "redirect_prefix": "In your Azure app registration, add",
-          "redirect_suffix": "as a redirect URI under <strong>Authentication → Web</strong>."
+          "title": "Azure AD/Microsoft",
+          "description": "Les visiteurs se connectent avec leur compte professionnel Microsoft",
+          "enable": "Activer l'authentification Azure AD",
+          "tenant_id_label": "ID du locataire",
+          "tenant_id_help": "Votre ID d’annuaire Azure AD (locataire) ou domaine principal (par exemple <code>contoso.com</code>).",
+          "client_id_label": "ID d'application (client)",
+          "client_secret_label": "Secret client",
+          "client_secret_placeholder": "Coller la valeur secrète du client",
+          "redirect_prefix": "Dans l’inscription de votre application Azure, ajoutez",
+          "redirect_suffix": "comme URI de redirection sous <strong>Authentication → Web</strong>."
         },
         "shared": {
-          "keep_existing_secret_placeholder": "Leave blank to keep existing secret",
-          "keep_existing_secret_help": "Leave blank to keep the existing secret. Only fill in to set a new one.",
-          "keep_existing_secret_short": "Leave blank to keep the existing secret."
+          "keep_existing_secret_placeholder": "Laisser vide pour conserver le secret existant",
+          "keep_existing_secret_help": "Laissez vide pour conserver le secret existant. Remplissez uniquement pour en définir un nouveau.",
+          "keep_existing_secret_short": "Laissez vide pour conserver le secret existant."
         },
         "google": {
-          "title": "Google Workspace",
-          "description": "Visitors sign in with their Google Workspace account",
-          "enable": "Enable Google Workspace authentication",
-          "client_id_label": "Client ID",
-          "client_id_help": "OAuth 2.0 Client ID from Google Cloud Console.",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret",
-          "hosted_domain_label": "Hosted Domain (optional)",
-          "hosted_domain_placeholder": "yourcompany.com",
-          "hosted_domain_help": "Restrict login to a specific Google Workspace domain (e.g. <code>acme.com</code>). Leave blank to allow any Google account.",
-          "redirect_prefix": "In Google Cloud Console, add",
-          "redirect_suffix": "as an authorized redirect URI."
+          "title": "Espace de travail Google",
+          "description": "Les visiteurs se connectent avec leur compte Google Workspace",
+          "enable": "Activer l'authentification Google Workspace",
+          "client_id_label": "Identifiant client",
+          "client_id_help": "ID client OAuth 2.0 de Google Cloud Console.",
+          "client_secret_label": "Secret client",
+          "client_secret_placeholder": "Coller le secret client",
+          "hosted_domain_label": "Domaine hébergé (facultatif)",
+          "hosted_domain_placeholder": "votreentreprise.com",
+          "hosted_domain_help": "Restreindre la connexion à un domaine Google Workspace spécifique (par exemple <code>acme.com</code>). Laissez vide pour autoriser n'importe quel compte Google.",
+          "redirect_prefix": "Dans Google Cloud Console, ajoutez",
+          "redirect_suffix": "comme URI de redirection autorisé."
         },
         "oidc": {
-          "title": "Generic OIDC",
-          "description": "Any OpenID Connect provider (Okta, Auth0, Keycloak, etc.)",
-          "enable": "Enable Generic OIDC authentication",
-          "issuer_label": "Issuer URL",
-          "issuer_help": "The OIDC issuer base URL. Discovery will be fetched from <code>{issuer}/.well-known/openid-configuration</code>.",
-          "client_id_label": "Client ID",
-          "client_id_placeholder": "your-client-id",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret",
-          "redirect_prefix": "Configure",
-          "redirect_suffix": "as the redirect URI in your identity provider."
+          "title": "OIDC générique",
+          "description": "Tout fournisseur OpenID Connect (Okta, Auth0, Keycloak, etc.)",
+          "enable": "Activer l'authentification OIDC générique",
+          "issuer_label": "URL de l'émetteur",
+          "issuer_help": "L'URL de base de l'émetteur OIDC. La découverte sera récupérée à partir de <code>{issuer}/.well-known/openid-configuration</code>.",
+          "client_id_label": "Identifiant client",
+          "client_id_placeholder": "votre-identifiant-client",
+          "client_secret_label": "Secret client",
+          "client_secret_placeholder": "Coller le secret client",
+          "redirect_prefix": "Configurer",
+          "redirect_suffix": "comme URI de redirection dans votre fournisseur d’identité."
         },
         "allowed_domains": {
-          "title": "Allowed Email Domains",
-          "description": "Restrict SSO logins to specific email domains",
-          "configured": "Configured",
-          "any_domain": "Any domain",
-          "label": "Allowed Domains",
+          "title": "Domaines de messagerie autorisés",
+          "description": "Restreindre les connexions SSO à des domaines de messagerie spécifiques",
+          "configured": "Configuré",
+          "any_domain": "N'importe quel domaine",
+          "label": "Domaines autorisés",
           "placeholder": "acme.com&#10;partner.org",
-          "help": "One domain per line. When set, any SSO user (Azure AD, Google, OIDC) whose email is not in this list will be denied access. Leave blank to allow all domains."
+          "help": "Un domaine par ligne. Lorsqu'il est défini, tout utilisateur SSO (Azure AD, Google, OIDC) dont l'adresse e-mail ne figure pas dans cette liste se verra refuser l'accès. Laissez vide pour autoriser tous les domaines."
         }
       }
     },
@@ -1341,7 +1341,7 @@
     "close_incident": "Fermer l'incident",
     "reopen_incident": "Rouvrir l'incident",
     "delete_incident": "Supprimer l'incident",
-    "incident_status": "État de l'incident",
+    "incident_status": "Statut de l'incident",
     "investigating": "Investigation en cours",
     "identified": "Identifié",
     "monitoring": "Surveillance",
@@ -1379,7 +1379,7 @@
     "manage_postmortem": "Gérer",
     "view_incident": "Afficher l'Incident",
     "no_incidents_found": "Aucun incident trouvé",
-    "create_first_incident": "Créer Votre Premier Incident",
+    "create_first_incident": "Créez votre premier incident",
     "active_incidents": "Incidents actifs",
     "affected_component": "Composant affecté",
     "alert_sent": "Alerte envoyée",
@@ -1438,16 +1438,16 @@
     "telegram_channel_id_help": "Clic droit sur le canal → Voir les détails du canal → Copier l’ID du canal",
     "bot_type": "Type de bot",
     "types": {
-      "discord": "Discord",
+      "discord": "Discorde",
       "webhook": "Webhook",
-      "slack": "Slack",
-      "telegram": "Telegram",
+      "slack": "Mou",
+      "telegram": "Télégramme",
       "email": "E-mail",
-      "googlechat": "Google Chat",
-      "mattermost": "Mattermost",
-      "ms_teams": "MS Teams",
-      "pagerduty": "PagerDuty",
-      "pushover": "Pushover",
+      "googlechat": "Chat Google",
+      "mattermost": "Le plus important",
+      "ms_teams": "Équipes MS",
+      "pagerduty": "Service de téléavertisseur",
+      "pushover": "Jeu d'enfant",
       "rocketchat": "Rocket.Chat",
       "sms": "SMS"
     },
@@ -1459,19 +1459,18 @@
       "chat_id": "ID du chat",
       "integration_key": "Clé d’intégration",
       "recipients": "Destinataires",
-      "user_key": "Clé utilisateur",
-      "webhook_url": "URL du webhook"
+      "user_key": "Clé utilisateur"
     },
     "placeholders": {
       "channel_name": "ex. : Mon serveur Discord, Slack pro, Telegram personnel",
       "discord_webhook_url": "https://discord.com/api/webhooks/...",
       "slack_bot_token": "xoxb-...",
       "slack_channel_id": "C0XXXXXXXXX",
-      "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "telegram_bot_token": "123456789: ABCdefGHIjklMNOpqrsTUVwxyz",
       "telegram_chat_id": "-1001234567890",
       "email_recipients": "Saisissez un e-mail et appuyez sur Entrée",
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
-      "sms_account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "sms_account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "sms_api_key": "Votre clé API Vonage",
       "sms_api_secret": "Votre secret API Vonage",
       "sms_auth_token": "Votre jeton d'authentification Twilio",
@@ -1537,7 +1536,7 @@
       "events_label": "Alertez-moi pour ces événements",
       "fields": {
         "account_reference": "Référence de compte",
-        "account_sid": "Account SID",
+        "account_sid": "Numéro de compte du compte",
         "api_key": "Clé API",
         "api_secret": "Secret API",
         "auth_token": "Jeton d'authentification",
@@ -1559,7 +1558,7 @@
       "provider_label": "1. Sélectionnez une intégration",
       "providers": {
         "esendex": "Esendex",
-        "messagebird": "MessageBird",
+        "messagebird": "MessageOiseau",
         "twilio": "Twilio",
         "vonage": "Vonage (Nexmo)"
       }
@@ -1642,7 +1641,7 @@
   },
   "maintenances": {
     "nav": {
-      "maintenances": "Maintenances",
+      "maintenances": "Entretiens",
       "schedule_maintenance": "Planifier une maintenance"
     },
     "form": {
@@ -1683,7 +1682,7 @@
       "status": "Statut",
       "last_ping": "Dernier ping",
       "expected_interval": "Intervalle attendu",
-      "actions": "Actions"
+      "actions": "Actes"
     },
     "status": {
       "healthy": "Sain",
@@ -1782,7 +1781,7 @@
     },
     "pinged_at": "Ping effectué à",
     "public_name_optional": "Nom public (facultatif)",
-    "user_agent": "User-Agent"
+    "user_agent": "Agent utilisateur"
   },
   "teams": {
     "list": {
@@ -1794,16 +1793,16 @@
     "your_role": "Votre rôle : ",
     "roles": {
       "owner": "Propriétaire",
-      "admin": "Admin",
+      "admin": "Administrateur",
       "editor": "Éditeur",
-      "viewer": "Viewer"
+      "viewer": "Téléspectateur"
     },
     "table": {
       "name": "Nom",
       "role": "Rôle",
       "members": "Membres",
       "created": "Créé",
-      "actions": "Actions",
+      "actions": "Actes",
       "invited_by": "Invité par",
       "my_role": "Mon rôle",
       "status_pages": "Pages de statut",
@@ -1919,10 +1918,10 @@
       "active_team": "Équipe active",
       "analytics": "Analyses",
       "incidents": "Incidents",
-      "maintenances": "Maintenances",
+      "maintenances": "Entretiens",
       "set_badge": "actif",
       "shared_resources": "Ressources partagées",
-      "shared_status_pages": "Pages de statut partagées",
+      "shared_status_pages": "Pages d'état partagées",
       "settings_history": "Historique"
     },
     "audit_logs": {
@@ -1948,7 +1947,7 @@
         "joined": "A rejoint",
         "sent": "Envoyée",
         "status_page": "Page de statut",
-        "slug": "Slug"
+        "slug": "Limace"
       },
       "labels": {
         "active": "Actif",
@@ -1967,7 +1966,7 @@
       "invite": {
         "form": {
           "email_label": "Adresse e-mail",
-          "email_placeholder": "colleague@example.com",
+          "email_placeholder": "collègue@exemple.com",
           "role_label": "Rôle",
           "role_option_admin": "Admin - Éditeur + paramètres de la page de statut",
           "role_option_editor": "Éditeur - Peut créer/mettre à jour des incidents",
@@ -2042,7 +2041,7 @@
         }
       },
       "status_pages": {
-        "title": "Pages de statut liées",
+        "title": "Pages d'état liées",
         "link_cta": "Lier une page de statut",
         "empty": "Aucune page de statut n’est encore liée à cette équipe.",
         "link_first_cta": "Liez votre première page de statut",
@@ -2055,22 +2054,22 @@
           "unlinking": "Dissociation de la page de statut…"
         },
         "link_success": {
-          "title": "Page de statut liée"
+          "title": "Page d'état liée"
         },
         "unlink": {
           "title": "Dissocier la page de statut ?",
-          "html": "Retirer <strong>{{name}}</strong> de cette équipe ?<br><br>Les membres de l’équipe perdront l’accès à cette page de statut.",
+          "html": "Supprimer <strong>{{name}}</strong> de cette équipe ?<br><br>Les membres de l'équipe perdront l'accès à cette page de statut.",
           "confirm": "Oui, dissocier"
         },
         "unlink_success": {
-          "title": "Page de statut dissociée"
+          "title": "Page d'état non liée"
         },
         "errors": {
           "select_status_page": "Veuillez sélectionner une page de statut",
           "failed_link": "Échec de la liaison de la page de statut",
           "failed_unlink": "Échec de la dissociation de la page de statut"
         },
-        "manage_component_access": "Manage component access"
+        "manage_component_access": "Gérer l'accès aux composants"
       }
     },
     "action_filter": "Filtre d’action",
@@ -2198,7 +2197,7 @@
     "hub": {
       "add_channel": "Ajouter un canal de notification",
       "column_channel": "Canal",
-      "column_type": "Type",
+      "column_type": "Taper",
       "column_verified": "Vérifié",
       "manage_channels": "Gérer les canaux de notification",
       "matrix_title": "Matrice canaux × pages de statut",
@@ -2206,7 +2205,7 @@
       "need_status_page": "Créez d’abord une page de statut pour configurer les notifications.",
       "no_channels": "Aucun canal de notification configuré",
       "no_channels_help": "Configurez des canaux de notification pour recevoir des alertes lorsqu’un incident se produit.",
-      "notifications_suffix": "notifications",
+      "notifications_suffix": "avis",
       "quick_links": "Liens rapides",
       "quick_tips": "Conseils rapides",
       "subtitle": "Gérez tous les canaux de notification sur vos pages de statut au même endroit.",
@@ -2303,7 +2302,7 @@
     "visibility": {
       "draft": "Brouillon",
       "private": "Privé",
-      "public": "Public"
+      "public": "Publique"
     },
     "publish_help": "Une fois publié, il ne peut pas être dépublié. Les modifications mettront à jour le contenu tout en conservant la date de publication d'origine.",
     "action": {
@@ -2336,7 +2335,7 @@
       "not_available": "L’accès à l’API n’est pas disponible dans votre offre actuelle. <a href=\"/user/billing?open_pricing=1\">Mettez à niveau</a> pour activer les clés API.",
       "revoke_button": "Révoquer",
       "status": {
-        "active": "Active",
+        "active": "Actif",
         "revoked": "Révoquée"
       },
       "table": {
@@ -2464,7 +2463,7 @@
     "email_label": "E-mail",
     "full_name": "Nom complet",
     "go_to_login_now": "Aller à la connexion maintenant",
-    "have_i_been_pwned": "Have I Been Pwned",
+    "have_i_been_pwned": "Ai-je été pwned",
     "privacy_policy": "Politique de confidentialité",
     "security_keys": {
       "heading": "Clés de sécurité (WebAuthn)"
@@ -2492,7 +2491,7 @@
       "compliance": "<strong>Conformité :</strong> Conserver des enregistrements pour audit et conformité"
     },
     "whats_included": {
-      "title": "Contenu de l’export :"
+      "title": "Ce qui est inclus dans l'exportation :"
     },
     "button": "Exporter toutes les données",
     "privacy": {
@@ -2508,12 +2507,12 @@
       "text": "Les moniteurs, incidents et résultats de moniteur utilisent le format JSON Lines (un objet JSON par ligne) pour traiter efficacement de grands ensembles de données. Cela permet le streaming et le traitement de grandes listes sans tout charger en mémoire."
     },
     "status": {
-      "generating": "Génération de l’export...",
+      "generating": "Génération de l'exportation...",
       "preparing": "Préparation des données...",
-      "completed": "✓ Export terminé avec succès !"
+      "completed": "✓ Exportation terminée avec succès !"
     },
     "errors": {
-      "failed_with_status": "Échec de l’export : ",
+      "failed_with_status": "Échec de l'exportation :",
       "failed_try_again": "✗ Échec de l’export. Veuillez réessayer."
     }
   },
@@ -2534,7 +2533,7 @@
         "custom_domains": "Configurations de domaines personnalisés",
         "notification_channels": "Paramètres des canaux de notification"
       },
-      "cta": "Aller à la page d’export de données",
+      "cta": "Accédez à Exportation de données",
       "note": "Vous pouvez exporter vos données puis revenir sur cette page pour continuer la suppression du compte."
     },
     "what_deleted": {
@@ -2645,7 +2644,7 @@
     "download_receipts": "Téléchargez les reçus et consultez les débits précédents",
     "export_csv": "Exporter en CSV",
     "date": "Date",
-    "type": "Type",
+    "type": "Taper",
     "amount": "Montant",
     "period": "Période",
     "reference": "Référence",
@@ -2732,7 +2731,7 @@
       },
       "cancel_trial": {
         "title": "Annuler l’essai",
-        "html": "Souhaitez-vous vraiment annuler votre essai ?<br><br><small class=\"text-muted\">Vous serez rétabli sur le forfait gratuit sans frais.</small>",
+        "html": "Êtes-vous sûr de vouloir annuler votre essai ?<br><br><small class=\"text-muted\">Vous reviendrez au forfait gratuit sans frais.</small>",
         "confirm": "Oui, annuler",
         "cancel": "Conserver l’essai",
         "processing": "Annulation de l’essai",
@@ -2743,7 +2742,7 @@
         "error_try_again": "Une erreur s’est produite lors de l’annulation. Veuillez réessayer."
       },
       "cancel_internal_trial": {
-        "html": "Souhaitez-vous vraiment annuler votre essai ?<br><br><small class=\"text-muted\">Vous serez immédiatement rétabli sur le forfait gratuit.</small>"
+        "html": "Êtes-vous sûr de vouloir annuler votre essai ?<br><br><small class=\"text-muted\">Vous serez immédiatement ramené au forfait gratuit.</small>"
       },
       "cancel_subscription": {
         "title": "Annuler l’abonnement",
@@ -2792,7 +2791,7 @@
     "unlimited_status_pages": "Pages de statut illimitées",
     "monitors_per_page": "moniteurs par page",
     "unlimited_monitors_per_page": "Moniteurs illimités par page",
-    "support_suffix": "support",
+    "support_suffix": "soutien",
     "full_support": "Support complet",
     "check_interval": "intervalle de vérification",
     "check_interval_sublabel": "Fréquence minimale de vérification du moniteur",
@@ -2804,7 +2803,7 @@
     "check_locations": "Emplacements de vérification",
     "check_locations_sublabel": "Points de vérification géographiques",
     "check_locations_help": "Nombre d’emplacements mondiaux utilisés pour vérifier la disponibilité.",
-    "notifications": "notifications",
+    "notifications": "avis",
     "all_notification_channels": "Tous les canaux de notification",
     "branding": "image de marque",
     "full_branding": "Image de marque complète",
@@ -2820,7 +2819,7 @@
       "english": "🇺🇸 Anglais",
       "spanish": "🇪🇸 Espagnol",
       "portuguese_br": "🇧🇷 Portugais (Brésil)",
-      "french": "🇫🇷 Français",
+      "french": "🇫🇷 English",
       "german": "🇩🇪 Allemand",
       "serbian": "🇷🇸 Serbe",
       "arabic": "🇸🇦 Arabe",
@@ -2857,7 +2856,7 @@
     "error": "Erreur",
     "csrf_missing_refresh": "Jeton CSRF manquant. Veuillez actualiser et réessayer.",
     "csrf_missing_refresh_page": "Jeton CSRF manquant. Veuillez actualiser la page et réessayer.",
-    "info": "Info",
+    "info": "Informations",
     "ok": "OK",
     "success": "Succès",
     "save": "Enregistrer",
@@ -2876,7 +2875,7 @@
     "name": "Nom",
     "status": "Statut",
     "url": "URL",
-    "actions": "Actions",
+    "actions": "Actes",
     "message": "Message",
     "na": "N/D",
     "password": "Mot de passe",
@@ -2934,7 +2933,12 @@
     "value_label": "Valeur :",
     "filter": "Filtrer",
     "time": "Heure",
-    "disabled": "Disabled"
+    "disabled": "Désactivé",
+    "read_only_access_title": "Accès en lecture seule",
+    "read_only_maintenances_message": "Vous pouvez afficher les maintenances planifiées, mais votre rôle actuel ne vous permet pas de les créer ou de les modifier.",
+    "read_only_incidents_message": "Vous pouvez visualiser les incidents, mais votre rôle actuel ne vous permet pas d'en créer.",
+    "read_only_oncall_edit_message": "Vous pouvez consulter ce planning, mais votre rôle actuel ne vous permet pas de le modifier.",
+    "read_only_oncall_incidents_message": "Vous pouvez consulter ce planning, mais votre rôle actuel ne vous permet pas de créer des incidents à partir de celui-ci."
   },
   "dashboard": {
     "no_active_incidents_help": "Aucun incident actif. Continuez — ajoutez un moniteur ou partagez une page de statut.",
@@ -3015,7 +3019,7 @@
     "service_health_help": "Choisissez une page de statut pour charger le résumé",
     "status_page_label_lower": "Page de statut",
     "view_all": "Tout voir",
-    "view_all_incidents": "Voir tous les incidents",
+    "view_all_incidents": "Afficher tous les incidents",
     "view_analytics": "Voir les analyses"
   },
   "analytics": {
@@ -3080,7 +3084,7 @@
       "forbidden": {
         "default_message": "L’accès à la disponibilité historique n’est pas autorisé pour votre rôle.",
         "title": "Accès refusé.",
-        "guidance": "Demandez au propriétaire de la page de statut d’activer votre rôle d’équipe dans Paramètres de la page de statut → Accès → Accès à la disponibilité historique (Équipes).",
+        "guidance": "Demandez au propriétaire de la page d'état d'activer votre rôle d'équipe dans Paramètres de la page d'état → Accès → Accès à la disponibilité historique (équipes).",
         "no_chart": "Aucun graphique disponible en raison d’un accès restreint."
       },
       "retention": {
@@ -3128,11 +3132,11 @@
       "connections": "Connexions",
       "data_export": "Export de données",
       "close_account": "Fermer le compte",
-      "support": "Support"
+      "support": "Soutien"
     }
   },
   "runbooks": {
-    "label": "Runbooks",
+    "label": "Livres d'exécution",
     "create": "Créer un runbook",
     "create_one": "Créer un runbook",
     "edit_one": "Modifier le runbook",
@@ -3189,7 +3193,7 @@
   "public_feature_simple_status_page": {
     "hero": {
       "title": "Une page de statut sans complexite",
-      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "subtitle": "Aucun moniteur à configurer. Aucune intégration à câbler. Créez une page d'état simple, mettez à jour les statuts des composants à partir d'un seul tableau de bord et tenez vos utilisateurs informés grâce à des notes riches en contexte qui créent automatiquement un historique des incidents.",
       "cta_hint": "Gratuit pour commencer",
       "cta": "Creez votre page de statut"
     },
@@ -3207,20 +3211,20 @@
           "description": "Commencez simplement puis ajoutez la surveillance automatique, les domaines personnalises, le branding et la gestion d'incidents a mesure que votre produit grandit."
         },
         "dashboard": {
-          "title": "One-screen control panel",
-          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+          "title": "Panneau de commande à un écran",
+          "description": "Le tableau de bord simple regroupe tout au même endroit : statuts des composants, incidents actifs et mises à jour rapides. Pas de navigation, pas de pages de paramètres."
         },
         "notes": {
-          "title": "Add context with notes",
-          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+          "title": "Ajouter du contexte avec des notes",
+          "description": "Lorsque vous modifiez l'état d'un composant, ajoutez une note facultative (par exemple, « Enquête sur les taux d'erreur élevés »). Il s'affiche publiquement à côté du composant et crée automatiquement un enregistrement d'incident."
         },
         "notifications": {
-          "title": "Subscribers notified automatically",
-          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+          "title": "Abonnés avertis automatiquement",
+          "description": "Lorsque vous ajoutez une note à un changement de statut, les abonnés de votre page sont automatiquement avertis : aucun incident distinct à créer, aucune étape supplémentaire."
         },
         "history": {
-          "title": "90-day reported history",
-          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+          "title": "Historique rapporté sur 90 jours",
+          "description": "Chaque composant affiche une bande d'état signalé sur 90 jours : verte pour les jours opérationnels, coches colorées pour les incidents, les remplacements ou la maintenance. Un enregistrement transparent pour vos utilisateurs."
         }
       }
     },
@@ -3232,7 +3236,7 @@
         "title": "Startups en acces anticipe",
         "description": "Vous avez quelques premiers utilisateurs et vous voulez montrer que vous prenez la fiabilite au serieux, sans encore investir dans une infrastructure complete de monitoring.",
         "point_1": "Ajoutez des composants pour votre API, votre tableau de bord et votre service d'authentification",
-        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_2": "Mettre à jour le statut avec une note du tableau de bord lors d'incidents",
         "point_3": "Partagez l'URL dans le pied de page de votre application"
       },
       "internal": {
@@ -3263,8 +3267,8 @@
         "description": "Ajoutez les services, API ou fonctionnalites que vous voulez suivre - par exemple \"API\", \"Dashboard\" ou \"Auth\". Chacun devient une ligne sur votre page publique."
       },
       "step_3": {
-        "title": "Update from your dashboard",
-        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+        "title": "Mise à jour depuis votre tableau de bord",
+        "description": "Lorsque quelque chose change, ouvrez le tableau de bord simple, choisissez un statut et ajoutez une note facultative. Votre page publique est mise à jour instantanément et les abonnés sont avertis si vous avez inclus une note."
       }
     },
     "statuses": {
@@ -3287,7 +3291,7 @@
         "description": "Le service est indisponible pour la plupart des utilisateurs"
       },
       "maintenance": {
-        "label": "Maintenance",
+        "label": "Entretien",
         "description": "Travaux planifies en cours"
       }
     },
@@ -3297,28 +3301,28 @@
       "button": "Creez votre page de statut - Gratuit"
     },
     "dashboard_feature": {
-      "badge": "Simple Dashboard",
-      "title": "Update status in two clicks",
-      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
-      "illustration_label": "Simple Dashboard — everything in one screen",
-      "point_1": "See all component statuses and active incidents at a glance",
-      "point_2": "Pin it as your default landing page for instant access after login",
-      "point_3": "No navigating around settings — everything is right there"
+      "badge": "Tableau de bord simple",
+      "title": "Mettre à jour le statut en deux clics",
+      "description": "Le tableau de bord simple est votre base d'accueil pour la page. Chaque composant est répertorié avec son état actuel et sa note. Cliquez sur Modifier, choisissez un état, ajoutez éventuellement une note et enregistrez – c'est fait.",
+      "illustration_label": "Tableau de bord simple : tout sur un seul écran",
+      "point_1": "Visualisez tous les statuts des composants et les incidents actifs en un coup d'œil",
+      "point_2": "Épinglez-le comme page de destination par défaut pour un accès instantané après la connexion",
+      "point_3": "Pas de navigation dans les paramètres : tout est là"
     },
     "notes_feature": {
-      "badge": "Notes & Incident History",
-      "title": "One note does three things",
-      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
-      "illustration_label": "Notes shown publicly · Incident created automatically",
-      "point_1": "Note appears inline on the public status page",
-      "point_2": "Incident entry created automatically — no separate step",
-      "point_3": "Subscribers notified without opening the incident management flow",
-      "point_4": "Incident auto-resolves when you reset the component to Operational"
+      "badge": "Notes et historique des incidents",
+      "title": "Une note fait trois choses",
+      "description": "Lorsque vous ajoutez une note à côté d'un changement de statut (par exemple « Enquête sur les taux d'erreur élevés »), la plateforme l'affiche automatiquement à côté du composant sur votre page publique, crée un enregistrement d'incident dans votre historique et informe les abonnés, le tout à partir d'un seul formulaire.",
+      "illustration_label": "Notes affichées publiquement · Incident créé automatiquement",
+      "point_1": "La note apparaît en ligne sur la page d'état publique",
+      "point_2": "Entrée d'incident créée automatiquement — pas d'étape distincte",
+      "point_3": "Abonnés avertis sans ouvrir le flux de gestion des incidents",
+      "point_4": "L'incident se résout automatiquement lorsque vous réinitialisez le composant sur Opérationnel"
     }
   },
   "public_nav": {
     "simple_status_page": {
-      "title": "Page de statut simple",
+      "title": "Page d'état simple",
       "description": "Aucun moniteur requis - mise a jour manuelle du statut"
     }
   },
@@ -3335,7 +3339,7 @@
     }
   },
   "support": {
-    "title": "Support",
+    "title": "Soutien",
     "header": {
       "title": "Aide & support",
       "subtitle": "Choisissez comment vous souhaitez contacter notre équipe support. Nous sommes là pour vous aider !"
@@ -3387,7 +3391,7 @@
     "degraded": "Dégradé",
     "partial_outage": "Panne partielle",
     "major_outage": "Panne majeure",
-    "maintenance": "Maintenance",
+    "maintenance": "Entretien",
     "blocked": "Bloqué",
     "inactive": "Inactif",
     "down": "Hors service",
@@ -3529,7 +3533,7 @@
     },
     "monitors_plus": "Moniteurs +",
     "pages_plus": "Pages +",
-    "services_plus": "Services +"
+    "services_plus": "Prestations +"
   },
   "brand": {
     "hsp": "HSP"
@@ -3702,7 +3706,7 @@
     "dashboard_maintenance": "Tableau de bord / Maintenance /",
     "date_time_combined": "Date et heure combinées",
     "detailed_message_with_placeholders": "Message détaillé avec des espaces réservés pour le contenu dynamique",
-    "incident_configuration": "Configuration de l'incident",
+    "incident_configuration": "Configuration des incidents",
     "message_template": "Modèle de message",
     "optional_auto_set_severity": "Optionnel : Définir automatiquement la gravité du composant lors de l'utilisation de ce modèle",
     "pro_feature": "Fonctionnalité Pro",
@@ -3763,14 +3767,14 @@
       "recent_agent_checks": "Vérifications récentes de l'agent par région",
       "avg_response_time": "Temps de réponse moyen :",
       "no_updates": "Aucune mise à jour enregistrée.",
-      "maintenance_title": "Maintenance"
+      "maintenance_title": "Entretien"
     },
     "nav": {
       "status_page": "Page de statut",
       "breadcrumb": "Fil d'Ariane",
       "toggle_navigation": "Afficher la navigation",
       "incidents": "Incidents",
-      "maintenance": "Maintenance",
+      "maintenance": "Entretien",
       "back_to_status_page": "Retour à la page de statut",
       "previous_incident": "Incident précédent",
       "next_incident": "Incident suivant",
@@ -3784,7 +3788,7 @@
       "degraded": "Dégradé",
       "partial": "Partiel",
       "outage": "Panne",
-      "maintenance": "Maint.",
+      "maintenance": "Entretien.",
       "unknown": "Inconnu",
       "active_incident": "Incident actif"
     },
@@ -3836,7 +3840,7 @@
       "inactive_notice": "Cette page de statut est inactive. Si vous êtes le propriétaire du site, activez-la depuis les paramètres de votre page de statut.",
       "breadcrumb_current": "Incident",
       "details_title": "Détails de l'incident",
-      "meta_title": "Incident : {{title}}{{component}} - {{name}}",
+      "meta_title": "Incident : {{title}}{{component}} - {{name}}",
       "meta_description": "Détails de l'incident, chronologie et historique des mises à jour pour {{name}}. Suivez l'impact, les changements de statut et la progression du rétablissement.",
       "archived_label": "Archivé :",
       "archived_notice": "Cet incident est masqué dans les listes d'incidents de la page de statut, mais il reste accessible via ce lien direct.",
@@ -3861,7 +3865,7 @@
       "meta_description_service": "État du service en temps réel et rapports d'incident pour les composants de {{name}}.",
       "meta_description_uptime": "Disponibilité en temps réel, historique de disponibilité et rapports d'incident pour les composants de {{name}}.",
       "last_monitor_check": "Dernière vérification du moniteur :",
-      "blocked_heading": "Page de statut bloquée",
+      "blocked_heading": "Page d'état bloquée",
       "blocked_detail": "Cette page de statut est actuellement bloquée et inaccessible.",
       "blocked_owner": "Si vous êtes le propriétaire, contactez le support pour rétablir l'accès.",
       "private_intro": "Cette page est privée. Utilisez l'une des méthodes ci-dessous pour y accéder.",
@@ -3901,12 +3905,12 @@
       "incidents_title": "Archive des incidents",
       "maintenances_title": "Archive de maintenance",
       "incidents_heading": "Incidents",
-      "maintenances_heading": "Maintenances",
+      "maintenances_heading": "Entretiens",
       "result_one": "{{count}} résultat",
       "result_other": "{{count}} résultats",
       "date_time": "Date et heure",
       "title": "Titre",
-      "actions": "Actions",
+      "actions": "Actes",
       "no_incidents_selected": "Aucun incident sélectionné",
       "no_maintenances_selected": "Aucune maintenance sélectionnée",
       "select_incidents_hint": "Sélectionnez une date ou appliquez des filtres pour voir les incidents",
@@ -3928,7 +3932,7 @@
       "enter_year_validation": "Veuillez saisir une année",
       "select_date_range_validation": "Veuillez sélectionner une plage de dates"
     },
-    "locale_label": "Langue de la page",
+    "locale_label": "Langue des pages",
     "locale_help": "Choisissez la langue affichée sur votre page de statut publique.",
     "theme": {
       "toggle_aria_label": "Changer de thème",

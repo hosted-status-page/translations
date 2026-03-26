@@ -68,15 +68,15 @@
       "deleted_slug_check": {
         "title": "فحص slug المحذوف",
         "description": "يتحقق مما إذا كان slug المنصة محظورًا من إعادة الاستخدام (حماية لمدة 30 يومًا) ومتى سيتم إلغاء الحظر.",
-        "slug_label": "Slug",
-        "slug_placeholder": "example",
+        "slug_label": "سبيكة",
+        "slug_placeholder": "مثال",
         "check_button": "تحقق",
         "swal": {
           "missing_slug_title": "slug مفقود",
           "missing_slug_text": "أدخل slug للتحقق منه."
         },
         "result": {
-          "slug": "Slug",
+          "slug": "سبيكة",
           "status_page_exists": "توجد صفحة حالة نشطة",
           "deleted_slug_exists": "يوجد سجل slug محذوف",
           "blocked_now": "محظور الآن",
@@ -102,7 +102,7 @@
       },
       "auto_heal": {
         "title": "الإصلاح التلقائي للفحص التالي",
-        "description": "يصلح قيم <code>next_check_at</code> المفقودة أو غير الصالحة في مراقبات الأدوات المفعلة عبر ضبطها إلى الحد التالي المتوافق مع UTC (يوميًا عند 00:00 UTC أو كل 6 ساعات عند 00/06/12/18 UTC).",
+        "description": "يعمل على إصلاح <code>next_check_at</code> المفقود/غير الصالح على شاشات الأدوات الممكّنة عن طريق تعيينه على الحد التالي المحاذاة للتوقيت العالمي المنسق (يوميًا في تمام الساعة 00:00 بالتوقيت العالمي المنسق، أو كل 6 ساعات في 00/06/12/18 بالتوقيت العالمي المنسق).",
         "buttons": {
           "dnsbl": "إصلاح DNSBL",
           "ssl": "إصلاح SSL",
@@ -179,16 +179,16 @@
     "dashboard": {
       "active_monitors": "المراقِبات النشطة",
       "dnsbl_features": {
-        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> فحوصات يومية",
-        "ip_domain_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> فحوصات IP والنطاق",
+        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> الفحوصات اليومية",
+        "ip_domain_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> فحص IP والنطاق",
         "multiple_blacklists": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> قوائم سوداء متعددة"
       },
       "domain_age_calculator": "حاسبة عمر النطاق",
       "domain_whois_lookup": "بحث WHOIS للنطاق",
       "email_auth_features": {
-        "dkim_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> التحقق من DKIM",
+        "dkim_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> التحقق من صحة DKIM",
         "dmarc_policy": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> سياسة DMARC",
-        "spf_record_check": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> فحص سجل SPF"
+        "spf_record_check": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> التحقق من سجل نظام التعرف على هوية المرسل (SPF)."
       },
       "email_auth_monitors": "مراقبات مصادقة البريد الإلكتروني",
       "manage_dnsbl_monitors": "إدارة مراقبات DNSBL",
@@ -197,8 +197,8 @@
       "open_age_tool": "فتح أداة عمر النطاق",
       "open_whois_tool": "فتح أداة WHOIS",
       "ssl_features": {
-        "chain_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> التحقق من السلسلة",
-        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> فحوصات يومية",
+        "chain_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> التحقق من صحة السلسلة",
+        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> الفحوصات اليومية",
         "expiry_warnings": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> تحذيرات انتهاء الصلاحية"
       },
       "ssl_monitors": "مراقبات SSL"
@@ -597,8 +597,8 @@
           "title": "تعيين تجاوز الحالة"
         },
         "access_denied": {
-          "title": "Access denied",
-          "text": "You do not have permission to manage access for this group."
+          "title": "تم الرفض",
+          "text": "ليس لديك إذن لإدارة الوصول لهذه المجموعة."
         }
       },
       "tip_ungrouped_other": "ستظهر المكوّنات بدون مجموعة في قسم \"مكوّنات أخرى\" على صفحة الحالة",
@@ -642,22 +642,22 @@
         "url_invalid": "يجب أن يكون URL عنوانًا مطلقًا وصحيحًا (تضمين https://)",
         "url_must_start_http": "يجب أن يبدأ URL بـ http:// أو https://"
       },
-      "tooltip_manage_access": "Manage access",
-      "access_restricted": "Restricted",
-      "access_restricted_title": "Access restricted to specific members",
+      "tooltip_manage_access": "إدارة الوصول",
+      "access_restricted": "مقيد",
+      "access_restricted_title": "يقتصر الوصول على أعضاء محددين",
       "access_modal": {
-        "title": "Manage Access",
-        "add_member": "Add member",
-        "select_member": "Select a member…",
-        "role": "Role",
-        "role_editor": "Editor",
-        "role_viewer": "Viewer",
-        "add": "Add",
-        "no_eligible": "All eligible team members are already assigned.",
-        "no_restrictions_note": "No restrictions set. All page editors can modify this group. Add at least one member to restrict access.",
-        "member": "Member",
-        "empty": "No members assigned.",
-        "select_member_error": "Please select a member"
+        "title": "إدارة الوصول",
+        "add_member": "إضافة عضو",
+        "select_member": "اختر عضوا…",
+        "role": "دور",
+        "role_editor": "محرر",
+        "role_viewer": "مشاهد",
+        "add": "يضيف",
+        "no_eligible": "تم بالفعل تعيين جميع أعضاء الفريق المؤهلين.",
+        "no_restrictions_note": "لم يتم تعيين أي قيود. يمكن لجميع محرري الصفحة تعديل هذه المجموعة. قم بإضافة عضو واحد على الأقل لتقييد الوصول.",
+        "member": "عضو",
+        "empty": "لم يتم تعيين أي أعضاء.",
+        "select_member_error": "الرجاء اختيار عضو"
       }
     },
     "organize_help": "نظم صفحة الحالة الخاصة بك مع المكونات والمجموعات الاختيارية",
@@ -829,113 +829,113 @@
       "slug_locked_help": "لا يمكن تغيير المعرّف (Slug) بعد الإنشاء",
       "slug_url_prefix": "URL صفحة الحالة الخاص بك:",
       "access": {
-        "enable_access_control_suffix": "to enable access control.",
-        "button": "Access Settings",
-        "disabled_help": "Access control is disabled. Toggle the switch above to enable it.",
-        "modal_title": "Access Settings",
-        "save_button": "Save Access Settings",
+        "enable_access_control_suffix": "لتمكين التحكم في الوصول.",
+        "button": "إعدادات الوصول",
+        "disabled_help": "تم تعطيل التحكم في الوصول. قم بتبديل المفتاح أعلاه لتمكينه.",
+        "modal_title": "إعدادات الوصول",
+        "save_button": "حفظ إعدادات الوصول",
         "badges": {
-          "not_set": "Not set"
+          "not_set": "لم يتم ضبطه"
         },
         "summary": {
-          "ip_allowlist": "IP Allowlist",
-          "magic_link": "Email Magic Link",
-          "azure_ad": "Azure AD",
+          "ip_allowlist": "قائمة عناوين IP المسموح بها",
+          "magic_link": "البريد الإلكتروني الرابط السحري",
+          "azure_ad": "أزور م",
           "google": "Google",
           "oidc": "OIDC",
-          "no_method": "No access method configured"
+          "no_method": "لم يتم تكوين طريقة الوصول"
         },
         "password": {
-          "description": "Visitors enter a shared password to unlock the page",
-          "minimum_help": "Minimum 4 characters. Will be applied when you save settings.",
-          "pending_new_password": "New password ready — will apply when you save settings",
+          "description": "يقوم الزائرون بإدخال كلمة مرور مشتركة لفتح الصفحة",
+          "minimum_help": "الحد الأدنى 4 أحرف. سيتم تطبيقه عند حفظ الإعدادات.",
+          "pending_new_password": "كلمة المرور الجديدة جاهزة - سيتم تطبيقها عند حفظ الإعدادات",
           "change_modal": {
-            "title": "Change Password",
-            "input_label": "Enter new password",
-            "input_placeholder": "New password (min 4 characters)",
-            "confirm": "Set Password",
-            "validation": "Password must be at least 4 characters",
-            "pending_message": "New password set (will apply when you save)"
+            "title": "تغيير كلمة المرور",
+            "input_label": "أدخل كلمة المرور الجديدة",
+            "input_placeholder": "كلمة المرور الجديدة (4 أحرف على الأقل)",
+            "confirm": "تعيين كلمة المرور",
+            "validation": "يجب أن تتكون كلمة المرور من 4 أحرف على الأقل",
+            "pending_message": "تعيين كلمة مرور جديدة (سيتم تطبيقها عند الحفظ)"
           },
           "remove_modal": {
-            "title": "Remove Password?",
-            "text": "This will remove password protection from your status page. Anyone will be able to view it.",
-            "confirm": "Yes, remove it",
-            "pending_message": "Password will be removed when you save"
+            "title": "هل تريد إزالة كلمة المرور؟",
+            "text": "سيؤدي هذا إلى إزالة الحماية بكلمة المرور من صفحة الحالة الخاصة بك. سيكون أي شخص قادرا على مشاهدته.",
+            "confirm": "نعم، قم بإزالته",
+            "pending_message": "ستتم إزالة كلمة المرور عند الحفظ"
           }
         },
         "ip_allowlist": {
-          "description": "Visitors from allowed IPs or ranges bypass all other checks",
-          "enable": "Enable IP allowlist",
-          "allowed_label": "Allowed IPs / CIDR Ranges",
-          "allowed_placeholder": "One entry per line, e.g.:&#10;203.0.113.42&#10;10.0.0.0/8&#10;192.168.1.0/24",
-          "help": "Supports individual IPs and CIDR notation. Matching visitors are admitted automatically."
+          "description": "يتجاوز الزائرون من عناوين IP أو النطاقات المسموح بها جميع عمليات التحقق الأخرى",
+          "enable": "تفعيل القائمة المسموح بها لعناوين IP",
+          "allowed_label": "نطاقات عناوين IP / CIDR المسموح بها",
+          "allowed_placeholder": "إدخال واحد لكل سطر، على سبيل المثال:&#10;203.0.113.42&#10;10.0.0.0/8&#10;192.168.1.0/24",
+          "help": "يدعم عناوين IP الفردية وتدوين CIDR. يتم قبول الزوار المطابقين تلقائيا."
         },
         "magic_link": {
-          "description": "Visitors request a one-time login link sent to their email",
-          "enable": "Enable email magic link",
-          "allowed_addresses_label": "Allowed Email Addresses",
-          "allowed_addresses_placeholder": "One email per line, e.g.:&#10;alice@example.com&#10;bob@company.org",
-          "allowed_addresses_help": "Only these addresses can request a login link.",
-          "allow_team": "Also allow team members",
-          "allow_team_help": "(anyone with team access to this status page)",
-          "expiry_label": "Link expiry",
-          "expiry_15": "15 minutes",
-          "expiry_30": "30 minutes",
-          "expiry_60": "1 hour"
+          "description": "يطلب الزائرون إرسال رابط تسجيل الدخول لمرة واحدة إلى بريدهم الإلكتروني",
+          "enable": "تمكين الارتباط السحري للبريد الإلكتروني",
+          "allowed_addresses_label": "عناوين البريد الإلكتروني المسموح بها",
+          "allowed_addresses_placeholder": "بريد إلكتروني واحد في كل سطر، على سبيل المثال:&#10;alice@example.com&#10;bob@company.org",
+          "allowed_addresses_help": "يمكن لهذه العناوين فقط طلب رابط تسجيل الدخول.",
+          "allow_team": "السماح أيضا لأعضاء الفريق",
+          "allow_team_help": "(أي شخص لديه حق الوصول إلى صفحة الحالة هذه)",
+          "expiry_label": "انتهاء صلاحية الرابط",
+          "expiry_15": "15 دقيقة",
+          "expiry_30": "30 دقيقة",
+          "expiry_60": "1 ساعة"
         },
         "azure": {
-          "title": "Azure AD / Microsoft",
-          "description": "Visitors sign in with their Microsoft work account",
-          "enable": "Enable Azure AD authentication",
-          "tenant_id_label": "Tenant ID",
-          "tenant_id_help": "Your Azure AD directory (tenant) ID or primary domain (e.g. <code>contoso.com</code>).",
-          "client_id_label": "Application (Client) ID",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret value",
-          "redirect_prefix": "In your Azure app registration, add",
-          "redirect_suffix": "as a redirect URI under <strong>Authentication → Web</strong>."
+          "title": "أزور إعلان / مايكروسوفت",
+          "description": "يقوم الزائرون بتسجيل الدخول باستخدام حساب عمل Microsoft الخاص بهم",
+          "enable": "تمكين مصادقة Azure AD",
+          "tenant_id_label": "معرف المستأجر",
+          "tenant_id_help": "معرف دليل Azure AD (المستأجر) أو المجال الأساسي (على سبيل المثال، <code>contoso.com</code>).",
+          "client_id_label": "معرف التطبيق (العميل).",
+          "client_secret_label": "سر العميل",
+          "client_secret_placeholder": "لصق القيمة السرية للعميل",
+          "redirect_prefix": "في تسجيل تطبيق Azure الخاص بك، قم بإضافة",
+          "redirect_suffix": "كمعرف URI لإعادة التوجيه ضمن <strong>Authentication → Web</strong>."
         },
         "shared": {
-          "keep_existing_secret_placeholder": "Leave blank to keep existing secret",
-          "keep_existing_secret_help": "Leave blank to keep the existing secret. Only fill in to set a new one.",
-          "keep_existing_secret_short": "Leave blank to keep the existing secret."
+          "keep_existing_secret_placeholder": "اتركه فارغًا للحفاظ على السر الموجود",
+          "keep_existing_secret_help": "اتركه فارغًا للحفاظ على السر الموجود. املأ فقط لتعيين واحدة جديدة.",
+          "keep_existing_secret_short": "اتركه فارغًا للحفاظ على السر الموجود."
         },
         "google": {
-          "title": "Google Workspace",
-          "description": "Visitors sign in with their Google Workspace account",
-          "enable": "Enable Google Workspace authentication",
-          "client_id_label": "Client ID",
-          "client_id_help": "OAuth 2.0 Client ID from Google Cloud Console.",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret",
-          "hosted_domain_label": "Hosted Domain (optional)",
+          "title": "مساحة عمل جوجل",
+          "description": "يقوم الزائرون بتسجيل الدخول باستخدام حساباتهم على Google Workspace",
+          "enable": "تفعيل مصادقة Google Workspace",
+          "client_id_label": "معرف العميل",
+          "client_id_help": "معرف عميل OAuth 2.0 من Google Cloud Console.",
+          "client_secret_label": "سر العميل",
+          "client_secret_placeholder": "لصق سر العميل",
+          "hosted_domain_label": "المجال المستضاف (اختياري)",
           "hosted_domain_placeholder": "yourcompany.com",
-          "hosted_domain_help": "Restrict login to a specific Google Workspace domain (e.g. <code>acme.com</code>). Leave blank to allow any Google account.",
-          "redirect_prefix": "In Google Cloud Console, add",
-          "redirect_suffix": "as an authorized redirect URI."
+          "hosted_domain_help": "تقييد تسجيل الدخول بنطاق Google Workspace محدد (مثل <code>acme.com</code>). اتركه فارغًا للسماح بأي حساب Google.",
+          "redirect_prefix": "في Google Cloud Console، أضف",
+          "redirect_suffix": "باعتباره URI لإعادة التوجيه المعتمد."
         },
         "oidc": {
-          "title": "Generic OIDC",
-          "description": "Any OpenID Connect provider (Okta, Auth0, Keycloak, etc.)",
-          "enable": "Enable Generic OIDC authentication",
-          "issuer_label": "Issuer URL",
-          "issuer_help": "The OIDC issuer base URL. Discovery will be fetched from <code>{issuer}/.well-known/openid-configuration</code>.",
-          "client_id_label": "Client ID",
-          "client_id_placeholder": "your-client-id",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret",
-          "redirect_prefix": "Configure",
-          "redirect_suffix": "as the redirect URI in your identity provider."
+          "title": "OIDC عام",
+          "description": "أي مزود OpenID Connect (Okta، Auth0، Keycloak، وما إلى ذلك)",
+          "enable": "تمكين مصادقة OIDC العامة",
+          "issuer_label": "عنوان URL للمصدر",
+          "issuer_help": "عنوان URL الأساسي لجهة إصدار OIDC. سيتم جلب الاكتشاف من <code>{issuer}/.well-known/openid-configuration</code>.",
+          "client_id_label": "معرف العميل",
+          "client_id_placeholder": "معرف العميل الخاص بك",
+          "client_secret_label": "سر العميل",
+          "client_secret_placeholder": "لصق سر العميل",
+          "redirect_prefix": "تكوين",
+          "redirect_suffix": "باعتباره URI لإعادة التوجيه في موفر الهوية الخاص بك."
         },
         "allowed_domains": {
-          "title": "Allowed Email Domains",
-          "description": "Restrict SSO logins to specific email domains",
-          "configured": "Configured",
-          "any_domain": "Any domain",
-          "label": "Allowed Domains",
+          "title": "مجالات البريد الإلكتروني المسموح بها",
+          "description": "تقييد تسجيلات الدخول الموحّدة (SSO) على مجالات بريد إلكتروني محددة",
+          "configured": "تم تكوينه",
+          "any_domain": "أي مجال",
+          "label": "المجالات المسموح بها",
           "placeholder": "acme.com&#10;partner.org",
-          "help": "One domain per line. When set, any SSO user (Azure AD, Google, OIDC) whose email is not in this list will be denied access. Leave blank to allow all domains."
+          "help": "مجال واحد في كل سطر. عند التعيين، سيتم رفض وصول أي مستخدم لتسجيل الدخول الموحّد (Azure AD وGoogle وOIDC) الذي لا يوجد بريده الإلكتروني في هذه القائمة. اتركه فارغًا للسماح بجميع المجالات."
         }
       }
     },
@@ -1433,17 +1433,17 @@
     "telegram_channel_id_help": "انقر بزر الماوس الأيمن على القناة → عرض تفاصيل القناة → نسخ معرّف القناة",
     "bot_type": "نوع البوت",
     "types": {
-      "discord": "Discord",
-      "webhook": "Webhook",
-      "slack": "Slack",
-      "telegram": "Telegram",
+      "discord": "الفتنة",
+      "webhook": "خطاف ويب",
+      "slack": "سلاك",
+      "telegram": "برقية",
       "email": "البريد الإلكتروني",
-      "googlechat": "Google Chat",
-      "mattermost": "Mattermost",
-      "ms_teams": "MS Teams",
+      "googlechat": "دردشة جوجل",
+      "mattermost": "الأهم",
+      "ms_teams": "فرق MS",
       "pagerduty": "PagerDuty",
-      "pushover": "Pushover",
-      "rocketchat": "Rocket.Chat",
+      "pushover": "مهمة سهلة",
+      "rocketchat": "صاروخ.دردشة",
       "sms": "SMS"
     },
     "fields": {
@@ -1465,7 +1465,7 @@
       "telegram_chat_id": "-1001234567890",
       "email_recipients": "اكتب بريدًا إلكترونيًا واضغط Enter",
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
-      "sms_account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "sms_account_sid": "ايه سي هههههههههههههههههههههههههههههههههههههههههههههههههههه",
       "sms_api_key": "مفتاح API الخاص بـ Vonage",
       "sms_api_secret": "سر API الخاص بـ Vonage",
       "sms_auth_token": "رمز مصادقة Twilio الخاص بك",
@@ -1531,7 +1531,7 @@
       "events_label": "نبّهني لهذه الأحداث",
       "fields": {
         "account_reference": "مرجع الحساب",
-        "account_sid": "Account SID",
+        "account_sid": "معرف معرف الحساب (SID) للحساب",
         "api_key": "مفتاح API",
         "api_secret": "سر API",
         "auth_token": "رمز المصادقة",
@@ -1552,10 +1552,10 @@
       },
       "provider_label": "1. اختر تكاملاً",
       "providers": {
-        "esendex": "Esendex",
-        "messagebird": "MessageBird",
-        "twilio": "Twilio",
-        "vonage": "Vonage (Nexmo)"
+        "esendex": "إسنديكس",
+        "messagebird": "رسالة بيرد",
+        "twilio": "تويليو",
+        "vonage": "فوناجي (نيكسمو)"
       }
     },
     "telegram": {
@@ -1776,7 +1776,7 @@
     },
     "pinged_at": "تم ping في",
     "public_name_optional": "الاسم العام (اختياري)",
-    "user_agent": "User-Agent"
+    "user_agent": "وكيل المستخدم"
   },
   "teams": {
     "list": {
@@ -1961,7 +1961,7 @@
       "invite": {
         "form": {
           "email_label": "عنوان البريد الإلكتروني",
-          "email_placeholder": "colleague@example.com",
+          "email_placeholder": "زميل@example.com",
           "role_label": "الدور",
           "role_option_admin": "مسؤول - محرر + إعدادات صفحة الحالة",
           "role_option_editor": "محرر - يمكنه إنشاء/تحديث الحوادث",
@@ -2053,7 +2053,7 @@
         },
         "unlink": {
           "title": "إلغاء ربط صفحة الحالة؟",
-          "html": "إزالة <strong>{{name}}</strong> من هذا الفريق؟<br><br>سيفقد أعضاء الفريق الوصول إلى صفحة الحالة هذه.",
+          "html": "هل تريد إزالة <strong>{{name}}</strong> من هذا الفريق؟<br><br> سيفقد أعضاء الفريق إمكانية الوصول إلى صفحة الحالة هذه.",
           "confirm": "نعم، إلغاء الربط"
         },
         "unlink_success": {
@@ -2064,7 +2064,7 @@
           "failed_link": "فشل ربط صفحة الحالة",
           "failed_unlink": "فشل إلغاء ربط صفحة الحالة"
         },
-        "manage_component_access": "Manage component access"
+        "manage_component_access": "إدارة الوصول إلى المكونات"
       }
     },
     "action_filter": "فلتر الإجراء",
@@ -2408,7 +2408,7 @@
     "avatar": {
       "custom_help": "يتم إنشاء الصورة الرمزية المخصصة من بريدك الإلكتروني عبر API الصور الرمزية المحلية.",
       "source_custom": "مخصص (API الصور الرمزية المحلية)",
-      "source_gravatar": "Gravatar",
+      "source_gravatar": "غرفاتار",
       "source_label": "مصدر الصورة الرمزية"
     },
     "email_cannot_be_changed": "لا يمكن تغيير البريد الإلكتروني",
@@ -2725,7 +2725,7 @@
       },
       "cancel_trial": {
         "title": "إلغاء التجربة",
-        "html": "هل تريد حقًا إلغاء تجربتك؟<br><br><small class=\"text-muted\">سيتم إعادتك إلى الخطة المجانية دون أي رسوم.</small>",
+        "html": "هل أنت متأكد من رغبتك في إلغاء النسخة التجريبية؟<br><br><small class=\"text-muted\">ستتم إعادتك مرة أخرى إلى الخطة المجانية بدون أي رسوم.</small>",
         "confirm": "نعم، ألغِ التجربة",
         "cancel": "الاحتفاظ بالتجربة",
         "processing": "جارٍ إلغاء التجربة",
@@ -2736,7 +2736,7 @@
         "error_try_again": "حدث خطأ أثناء إلغاء التجربة. يرجى المحاولة مرة أخرى."
       },
       "cancel_internal_trial": {
-        "html": "هل تريد حقًا إلغاء تجربتك؟<br><br><small class=\"text-muted\">سيتم إعادتك إلى الخطة المجانية فورًا.</small>"
+        "html": "هل أنت متأكد من رغبتك في إلغاء النسخة التجريبية؟<br><br><small class=\"text-muted\">ستتم إعادتك إلى الخطة المجانية على الفور.</small>"
       },
       "cancel_subscription": {
         "title": "إلغاء الاشتراك",
@@ -2928,7 +2928,12 @@
     "value_label": "القيمة:",
     "filter": "تصفية",
     "time": "الوقت",
-    "disabled": "Disabled"
+    "disabled": "عاجز",
+    "read_only_access_title": "الوصول للقراءة فقط",
+    "read_only_maintenances_message": "يمكنك عرض عمليات الصيانة المجدولة، لكن دورك الحالي لا يسمح بإنشائها أو تحريرها.",
+    "read_only_incidents_message": "يمكنك عرض الأحداث، لكن دورك الحالي لا يسمح بإنشائها.",
+    "read_only_oncall_edit_message": "يمكنك عرض هذا الجدول الزمني، لكن دورك الحالي لا يسمح بتحريره.",
+    "read_only_oncall_incidents_message": "يمكنك عرض هذا الجدول الزمني، لكن دورك الحالي لا يسمح بإنشاء حوادث منه."
   },
   "dashboard": {
     "no_active_incidents_help": "لا توجد حوادث نشطة. تابع العمل — أضف مراقبة أو شارك صفحة حالة.",
@@ -3074,7 +3079,7 @@
       "forbidden": {
         "default_message": "لا يُسمح لدورك بالوصول إلى التوافر التاريخي.",
         "title": "تم رفض الوصول.",
-        "guidance": "اطلب من مالك صفحة الحالة تفعيل دور فريقك في إعدادات صفحة الحالة → الوصول → الوصول إلى التوافر التاريخي (الفرق).",
+        "guidance": "اطلب من مالك صفحة الحالة تمكين دور فريقك في إعدادات صفحة الحالة → الوصول → الوصول التاريخي لوقت التشغيل (الفرق).",
         "no_chart": "لا يتوفر مخطط بسبب تقييد الوصول."
       },
       "retention": {
@@ -3183,7 +3188,7 @@
   "public_feature_simple_status_page": {
     "hero": {
       "title": "صفحة حالة بلا تعقيد",
-      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "subtitle": "لا توجد شاشات لتكوينها. لا يوجد تكامل للأسلاك. أنشئ صفحة حالة بسيطة، وقم بتحديث حالات المكونات من لوحة معلومات واحدة، وأبق المستخدمين على علم بملاحظات غنية بالسياق تعمل على إنشاء سجل الحوادث تلقائيًا.",
       "cta_hint": "ابدأ مجانًا",
       "cta": "أنشئ صفحة الحالة الخاصة بك"
     },
@@ -3201,20 +3206,20 @@
           "description": "ابدأ بشكل بسيط ثم أضف مراقبة توفر تلقائية، ونطاقات مخصصة، وهوية بصرية، وإدارة للحوادث مع نمو منتجك."
         },
         "dashboard": {
-          "title": "One-screen control panel",
-          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+          "title": "لوحة تحكم بشاشة واحدة",
+          "description": "تضع لوحة المعلومات البسيطة كل شيء في مكان واحد — حالات المكونات، والحوادث النشطة، والتحديثات السريعة. لا يوجد التنقل ولا صفحات الإعدادات."
         },
         "notes": {
-          "title": "Add context with notes",
-          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+          "title": "إضافة السياق مع الملاحظات",
+          "description": "عند تغيير حالة أحد المكونات، قم بإضافة ملاحظة اختيارية (على سبيل المثال، \"التحقيق في معدلات الخطأ المرتفعة\"). ويظهر بشكل عام بجوار المكون — ويقوم تلقائيًا بإنشاء سجل للحادث."
         },
         "notifications": {
-          "title": "Subscribers notified automatically",
-          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+          "title": "يتم إخطار المشتركين تلقائيا",
+          "description": "عند إضافة ملاحظة لتغيير الحالة، يتم إخطار المشتركين في صفحتك تلقائيًا - لا توجد حادثة منفصلة لإنشاءها، ولا توجد خطوات إضافية."
         },
         "history": {
-          "title": "90-day reported history",
-          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+          "title": "التاريخ المُبلغ عنه لمدة 90 يومًا",
+          "description": "يعرض كل مكون شريطًا مدته 90 يومًا من الحالة المُبلغ عنها - باللون الأخضر لأيام التشغيل، أو علامات التجزئة الملونة للحوادث، أو التجاوزات، أو الصيانة. سجل شفاف للمستخدمين."
         }
       }
     },
@@ -3226,7 +3231,7 @@
         "title": "الشركات الناشئة في الوصول المبكر",
         "description": "لديك عدد قليل من المستخدمين الأوائل وتريد أن تُظهر أنك تأخذ الموثوقية على محمل الجد، لكنك لست مستعدًا بعد للاستثمار في بنية مراقبة كاملة.",
         "point_1": "أضف مكوّنات لواجهة API ولوحة التحكم وخدمة المصادقة",
-        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_2": "قم بتحديث الحالة بملاحظة من لوحة المعلومات أثناء الحوادث",
         "point_3": "شارك URL في تذييل تطبيقك"
       },
       "internal": {
@@ -3257,8 +3262,8 @@
         "description": "أضف الخدمات أو واجهات API أو الميزات التي تريد تتبعها - مثل \"API\" أو \"لوحة التحكم\" أو \"Auth\". يتحول كل منها إلى صف في صفحتك العامة."
       },
       "step_3": {
-        "title": "Update from your dashboard",
-        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+        "title": "التحديث من لوحة التحكم الخاصة بك",
+        "description": "عندما يتغير شيء ما، افتح لوحة المعلومات البسيطة، واختر حالة وأضف ملاحظة اختيارية. يتم تحديث صفحتك العامة على الفور — ويتم إخطار المشتركين إذا قمت بتضمين ملاحظة."
       }
     },
     "statuses": {
@@ -3291,23 +3296,23 @@
       "button": "أنشئ صفحة الحالة الخاصة بك - مجانًا"
     },
     "dashboard_feature": {
-      "badge": "Simple Dashboard",
-      "title": "Update status in two clicks",
-      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
-      "illustration_label": "Simple Dashboard — everything in one screen",
-      "point_1": "See all component statuses and active incidents at a glance",
-      "point_2": "Pin it as your default landing page for instant access after login",
-      "point_3": "No navigating around settings — everything is right there"
+      "badge": "لوحة تحكم بسيطة",
+      "title": "تحديث الحالة بنقرتين",
+      "description": "لوحة المعلومات البسيطة هي القاعدة الرئيسية للصفحة. يتم سرد كل مكون مع حالته الحالية وملاحظة. انقر فوق \"تحرير\"، واختر حالة، وأضف ملاحظة اختياريًا، ثم احفظ - تم.",
+      "illustration_label": "لوحة تحكم بسيطة - كل شيء في شاشة واحدة",
+      "point_1": "اطلع على جميع حالات المكونات والحوادث النشطة في لمحة سريعة",
+      "point_2": "قم بتثبيتها كصفحة مقصودة افتراضية للوصول الفوري بعد تسجيل الدخول",
+      "point_3": "لا داعي للتنقل حول الإعدادات - كل شيء موجود هناك"
     },
     "notes_feature": {
-      "badge": "Notes & Incident History",
-      "title": "One note does three things",
-      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
-      "illustration_label": "Notes shown publicly · Incident created automatically",
-      "point_1": "Note appears inline on the public status page",
-      "point_2": "Incident entry created automatically — no separate step",
-      "point_3": "Subscribers notified without opening the incident management flow",
-      "point_4": "Incident auto-resolves when you reset the component to Operational"
+      "badge": "الملاحظات وتاريخ الحوادث",
+      "title": "ملاحظة واحدة تفعل ثلاثة أشياء",
+      "description": "عند إضافة ملاحظة إلى جانب تغيير الحالة (على سبيل المثال، \"التحقيق في معدلات الخطأ المرتفعة\")، يعرضها النظام الأساسي تلقائيًا بجوار المكون على صفحتك العامة، وينشئ سجل حادث في سجلك، ويخطر المشتركين - كل ذلك من نموذج واحد.",
+      "illustration_label": "يتم عرض الملاحظات علنًا · يتم إنشاء الحادث تلقائيًا",
+      "point_1": "تظهر الملاحظة مضمنة في صفحة الحالة العامة",
+      "point_2": "تم إنشاء إدخال الحادث تلقائيًا - لا توجد خطوة منفصلة",
+      "point_3": "يتم إخطار المشتركين دون فتح تدفق إدارة الأحداث",
+      "point_4": "يتم حل الحادث تلقائيًا عند إعادة تعيين المكون إلى وضع التشغيل"
     }
   },
   "public_nav": {

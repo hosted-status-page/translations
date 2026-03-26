@@ -55,7 +55,7 @@
       "toggle_navigation": "Prikaži navigaciju",
       "incidents": "Incidenti",
       "maintenance": "Održavanje",
-      "back_to_status_page": "Natrag na status stranicu",
+      "back_to_status_page": "Povratak na stranicu statusa",
       "previous_incident": "Prethodni incident",
       "next_incident": "Sljedeći incident",
       "incident_history": "Povijest incidenata",
@@ -125,7 +125,7 @@
       "archived_label": "Arhivirano:",
       "archived_notice": "Ovaj incident je skriven s popisa incidenata na status stranici, ali je i dalje dostupan putem ove izravne poveznice.",
       "archive_reason": "Razlog arhiviranja:",
-      "postmortem": "Postmortem",
+      "postmortem": "Postmortalno",
       "show": "Prikaži",
       "hide": "Sakrij",
       "summary": "Sažetak",
@@ -191,7 +191,7 @@
       "date_time": "Datum i vrijeme",
       "title": "Naslov",
       "actions": "Radnje",
-      "no_incidents_selected": "Nijedan incident nije odabran",
+      "no_incidents_selected": "Nema odabranih incidenata",
       "no_maintenances_selected": "Nijedno održavanje nije odabrano",
       "select_incidents_hint": "Odaberite datum ili primijenite filtre za prikaz incidenata",
       "select_maintenances_hint": "Odaberite datum ili primijenite filtre za prikaz održavanja",
@@ -411,7 +411,7 @@
       "marketing": "Marketing",
       "misc": "Ostalo",
       "monitoring_captcha": "Monitoring i CAPTCHA",
-      "monitoring": "Monitoring",
+      "monitoring": "Praćenje",
       "notification_channels": "Kanali obavijesti",
       "onboarding_steps": "Koraci za uvođenje",
       "operations": "Operacije",
@@ -422,7 +422,7 @@
       "regions": "Regioni",
       "settings": "Postavke",
       "spam_keywords": "Spam ključne reči",
-      "sp_mon": "Status stranice i monitori",
+      "sp_mon": "Stranice statusa i monitori",
       "telegram_tests": "Telegram testovi",
       "tools": "Alati",
       "trials": "Probniperiodi",
@@ -451,7 +451,7 @@
       "deleted_slug_check": {
         "title": "Provjera obrisanog sluga",
         "description": "Provjerava je li slug platforme blokiran za ponovnu upotrebu (zaštita od 30 dana) i kada će se odblokirati.",
-        "slug_label": "Slug",
+        "slug_label": "Puž",
         "slug_placeholder": "primjer",
         "check_button": "Provjeri",
         "swal": {
@@ -459,8 +459,8 @@
           "missing_slug_text": "Unesite slug za provjeru."
         },
         "result": {
-          "slug": "Slug",
-          "status_page_exists": "Aktivna status stranica postoji",
+          "slug": "Puž",
+          "status_page_exists": "Stranica aktivnog statusa postoji",
           "deleted_slug_exists": "Postoji zapis o obrisanom slugu",
           "blocked_now": "Trenutno blokiran",
           "unblock_at": "Odblokira se u"
@@ -485,7 +485,7 @@
       },
       "auto_heal": {
         "title": "Samopopravak sljedeće provjere",
-        "description": "Ispravlja nedostajuće ili neispravne vrijednosti <code>next_check_at</code> na omogućenim alatnim monitorima postavljanjem na sljedeću UTC usklađenu granicu (svakodnevno u 00:00 UTC ili svakih 6 sati u 00/06/12/18 UTC).",
+        "description": "Popravlja nedostajući/nevažeći <code>next_check_at</code> na omogućenim monitorima alata postavljanjem na sljedeću granicu usklađenu s UTC-om (svakodnevno u 00:00 UTC ili svakih 6 sati u 00/06/12/18 UTC).",
         "buttons": {
           "dnsbl": "Popravi DNSBL",
           "ssl": "Popravi SSL",
@@ -566,7 +566,7 @@
       },
       "table": {
         "no_data": "Nema podataka za ovaj opseg.",
-        "no_monitors": "Nije pronađen nijedan monitor."
+        "no_monitors": "Nisu pronađeni monitori."
       },
       "empty_description": "Odaberite status stranicu iz padajućeg izbornika iznad kako biste vidjeli povijesne podatke o dostupnosti.",
       "empty_title": "Odaberite status stranicu"
@@ -678,7 +678,7 @@
     "heartbeat_monitors_heading": "Heartbeat monitori",
     "included_features": "📦 Uključene funkcije",
     "keep_access_until_period_ends": "Zadržite pristup do kraja tekućeg perioda",
-    "limit": "Limit:",
+    "limit": "Ograničiti:",
     "lose_access_right_away": "Odmah gubite pristup",
     "max_members_per_team": "Maksimum članova po timu",
     "monitoring_location": "lokacija nadzora",
@@ -694,7 +694,7 @@
     "no_transactions_title": "Još uvek nema transakcija naplate",
     "notifications": "obavijesti",
     "per_month": "/mesec",
-    "period": "Period",
+    "period": "Razdoblje",
     "plan_status": "Status plana",
     "admin_set_plan": "Plan konfigurisan od strane administratora",
     "plan_change_info": "Nadogradnja ili spuštanje plana stupa na snagu odmah uz razmjernu naplatu. Promjena obračunskog ciklusa (mjesečno/godišnje) resetira datum naplate. Neiskorišteni saldo automatski se pripisuje budućim obnovama.",
@@ -731,7 +731,7 @@
     "sure_request_refund": "Da li ste sigurni da želite da zatražite povraćaj?",
     "swal": {
       "cancel_internal_trial": {
-        "html": "Da li zaista želite da otkažete probni period?<br><br><small class=\"text-muted\">Odmah ćete biti vraćeni na besplatan plan.</small>"
+        "html": "Jeste li sigurni da želite otkazati probu?<br><br><small class=\"text-muted\">Odmah ćete biti vraćeni na besplatni plan.</small>"
       },
       "cancel_subscription": {
         "action_immediate": "Otkazivanje pretplate...",
@@ -760,7 +760,7 @@
         "confirm": "Da, otkaži",
         "error_try_again": "Došlo je do greške prilikom otkazivanja probe. Pokušajte ponovo.",
         "failed_prefix": "Nije moguće otkazati probu: ",
-        "html": "Da li zaista želite da otkažete probni period?<br><br><small class=\"text-muted\">Bićete vraćeni na besplatan plan bez troškova.</small>",
+        "html": "Jeste li sigurni da želite otkazati probu?<br><br><small class=\"text-muted\">Vratit ćete se na besplatni plan bez dodatnih troškova.</small>",
         "processing": "Otkazivanje probe",
         "title": "Otkaži probu"
       },
@@ -770,7 +770,7 @@
         "error_try_again": "Došlo je do greške prilikom produžavanja probe. Pokušajte ponovo.",
         "failed_prefix": "Nije moguće produžiti probu: ",
         "processing": "Produžavanje probe",
-        "success": "Probni period je uspješno produžen! Produžen je za 7 dana.",
+        "success": "Proba je uspješno produžena! Proba vam je produžena za 7 dana.",
         "text": "Da li zaista želite da produžite probni period za 7 dana? Ovo je moguće samo jednom po probi.",
         "title": "Produži probni period"
       },
@@ -922,7 +922,12 @@
     "value_label": "Vrednost:",
     "filter": "Filtriraj",
     "time": "Vrijeme",
-    "disabled": "Disabled"
+    "disabled": "Onesposobljeno",
+    "read_only_access_title": "Pristup samo za čitanje",
+    "read_only_maintenances_message": "Možete vidjeti planirana održavanja, ali vaša trenutna uloga ne dopušta njihovo stvaranje ili uređivanje.",
+    "read_only_incidents_message": "Možete vidjeti incidente, ali vaša trenutna uloga ne dopušta njihovo stvaranje.",
+    "read_only_oncall_edit_message": "Možete vidjeti ovaj raspored, ali vaša trenutna uloga ne dopušta njegovo uređivanje.",
+    "read_only_oncall_incidents_message": "Možete vidjeti ovaj raspored, ali vaša trenutna uloga ne dopušta stvaranje incidenata iz njega."
   },
   "components": {
     "form": {
@@ -1158,12 +1163,12 @@
       "grace_positive": "Period blažnosti mora biti pozitivan broj.",
       "grace_positive_seconds": "Period blažnosti mora biti pozitivan broj sekundi.",
       "name_required": "Ime je obvezno.",
-      "status_page_required": "Molimo izaberite status stranicu."
+      "status_page_required": "Odaberite stranicu statusa."
     },
     "details_and_pings": "Detalji heartbeat monitora i nedavni ping-ovi",
     "pinged_at": "Ping-ovano u",
     "public_name_optional": "Javno ime (opciono)",
-    "user_agent": "User-Agent"
+    "user_agent": "Korisnički agent"
   },
   "incidents": {
     "add_status_update": "Dodaj ažuriranje statusa",
@@ -1171,7 +1176,7 @@
     "affected_services": "Uticane usluge",
     "close_incident": "Zatvorite incident",
     "confirm_delete_incident": "Da li ste sigurni da želite da obrišete ovaj incident?",
-    "create_first_incident": "Napravite Svoj Prvi Incident",
+    "create_first_incident": "Stvorite svoj prvi incident",
     "create_incident": "Napravi incident",
     "created_by": "Napravljeno od",
     "delete_incident": "Izbrišite incident",
@@ -1288,7 +1293,7 @@
     "include_resolution": "Uključite što radite da biste to rešili",
     "items_per_page": "Stavki po strani",
     "jump_start_preset": "Pokrenite sa podešavanjem da biste automatski popunili uobičajene incidente.",
-    "shared_team_status_page": "Status stranica deljenog tima:",
+    "shared_team_status_page": "Dijeljena stranica statusa tima:",
     "total_incidents": "Ukupno incidenata",
     "try_adjusting_search": "Pokušajte da prilagodite pretragu ili kreirajte novu komponentu.",
     "update_regularly": "Redovno ažurirajte sa napredovanjem",
@@ -1322,12 +1327,12 @@
     "language_names": {
       "arabic": "🇸🇦 العربية",
       "croatian": "🇭🇷 Hrvatski",
-      "english": "🇺🇸 English",
+      "english": "🇺🇸 engleski",
       "french": "🇫🇷 Français",
       "german": "🇩🇪 Deutsch",
-      "portuguese_br": "🇧🇷 Português (Brasil)",
+      "portuguese_br": "🇧🇷 português (Brazil)",
       "serbian": "🇷🇸 Srpski",
-      "spanish": "🇪🇸 Español"
+      "spanish": "🇪🇸 Španjolski"
     },
     "assign_groups": "Dodelite komponente grupama ili ih ostavite negrupisanim – oba načina rade savršeno!",
     "assign_to": "Dodeli:",
@@ -1462,7 +1467,7 @@
       "site_url_label": "URL sajta",
       "tags_label": "Oznake",
       "timeout_label": "Tajmaut",
-      "token_label": "Token",
+      "token_label": "Znak",
       "type_label": "Tip monitora",
       "url_label": "URL",
       "url_placeholder": "https://primer.com",
@@ -1527,7 +1532,7 @@
     "learn_more": "Saznaj više",
     "live": "Uživo...",
     "list": {
-      "create_first": "Kreirajte svoj prvi monitor",
+      "create_first": "Napravite svoj prvi monitor",
       "heading": "Vaši monitori",
       "none_message": "Sve je podešeno, ali nema monitora."
     },
@@ -1636,7 +1641,7 @@
       "events_label": "Obavijesti me o ovim događajima",
       "fields": {
         "account_reference": "Referenca računa",
-        "account_sid": "Account SID",
+        "account_sid": "SID računa",
         "api_key": "API ključ",
         "api_secret": "API tajna",
         "auth_token": "Auth token",
@@ -1680,7 +1685,7 @@
       "api_token": "API token",
       "bot_token": "Token bota",
       "channel_id": "ID kanala",
-      "chat_id": "Chat ID",
+      "chat_id": "ID chata",
       "integration_key": "Integracioni ključ",
       "recipients": "Primaoci",
       "user_key": "Korisnički ključ",
@@ -1712,7 +1717,7 @@
       "discord_webhook_url": "https://discord.com/api/webhooks/...",
       "email_recipients": "Unesi e-poštu i pritisni Enter",
       "msteams_webhook_url": "https://outlook.office.com/webhook/...",
-      "sms_account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "sms_account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "sms_api_key": "Vaš Vonage API ključ",
       "sms_api_secret": "Vaša Vonage API tajna",
       "sms_auth_token": "Vaš Twilio auth token",
@@ -1758,15 +1763,15 @@
     "telegram_channel_id_help": "Desni klik na kanal → Detalji kanala → Kopiraj ID kanala",
     "bot_type": "Tip bota",
     "types": {
-      "discord": "Discord",
+      "discord": "Razdor",
       "email": "E-pošta",
       "googlechat": "Google Chat",
-      "mattermost": "Mattermost",
-      "ms_teams": "MS Teams",
+      "mattermost": "najvažnije",
+      "ms_teams": "MS timovi",
       "pagerduty": "PagerDuty",
-      "pushover": "Pushover",
-      "rocketchat": "Rocket.Chat",
-      "slack": "Slack",
+      "pushover": "Guranje",
+      "rocketchat": "Raketa.Chat",
+      "slack": "Zatišje",
       "sms": "SMS",
       "telegram": "Telegram",
       "webhook": "Webhook"
@@ -1831,7 +1836,7 @@
       "column_type": "Tip",
       "column_verified": "Verifikovano",
       "manage_channels": "Upravljanje kanalima obavijesti",
-      "matrix_title": "Matrica kanala × status stranice",
+      "matrix_title": "Kanal × Matrica stranice statusa",
       "nav_title": "Centar obavijesti",
       "need_status_page": "Prvo napravite status stranicu da biste podesili obavijesti.",
       "no_channels": "Nema podešenih kanala obavijesti",
@@ -1897,7 +1902,7 @@
       "root_cause_placeholder": "Što je izazvalo incident?"
     },
     "nav": {
-      "postmortem": "Postmortem"
+      "postmortem": "Postmortalno"
     },
     "not_available": "Postmortem izveštaji nisu dostupni u Vašem trenutnom planu. <a href=\"/user/billing\">Nadogradite</a> da biste omogućili ovu funkciju.",
     "publish_help": "Jednom objavljeno ne može se poništiti. Izmene će ažurirati sadržaj uz zadržavanje originalnog datuma objavljivanja.",
@@ -2098,7 +2103,7 @@
   "status_pages": {
     "add_group": "Dodaj grupu",
     "advanced_customization": "da pristupite naprednom prilagođavanju, automatizaciji i opcijama brendiranja.",
-    "affects_overall_column": "Utiče na ukupan status",
+    "affects_overall_column": "Utječe na sveukupno",
     "allow_subscribe_email": "Dozvoli posetiocima da se pretplate putem e-pošte",
     "and_roles": "i",
     "attach_monitors_help": "Prikačite monitore da pratite dostupnost",
@@ -2181,8 +2186,8 @@
           "title": "Postavi nadjačavanje statusa"
         },
         "access_denied": {
-          "title": "Access denied",
-          "text": "You do not have permission to manage access for this group."
+          "title": "Pristup odbijen",
+          "text": "Nemate dozvolu za upravljanje pristupom ovoj grupi."
         }
       },
       "tip_ungrouped_other": "Komponente bez grupe će se prikazati u odjeljku \"Ostale komponente\" na vašoj status stranici",
@@ -2202,7 +2207,7 @@
         "group_deleted": "Grupa je obrisana",
         "group_renamed": "Grupa je preimenovana",
         "init_no_status_page_selected": "Neuspjelo inicijaliziranje stranice - nije odabrana status stranica",
-        "no_status_pages_available": "Nema dostupnih status stranica",
+        "no_status_pages_available": "Nema dostupnih stranica statusa",
         "override_applied": "Nadjačavanje statusa je primijenjeno",
         "override_cleared": "Nadjačavanje statusa je uklonjeno",
         "override_update_failed": "Nije uspjelo ažuriranje nadjačavanja",
@@ -2226,22 +2231,22 @@
         "url_invalid": "URL mora biti ispravna apsolutna adresa (uključite https://)",
         "url_must_start_http": "URL mora početi sa http:// ili https://"
       },
-      "tooltip_manage_access": "Manage access",
-      "access_restricted": "Restricted",
-      "access_restricted_title": "Access restricted to specific members",
+      "tooltip_manage_access": "Upravljanje pristupom",
+      "access_restricted": "Ograničen",
+      "access_restricted_title": "Pristup je ograničen na određene članove",
       "access_modal": {
-        "title": "Manage Access",
-        "add_member": "Add member",
-        "select_member": "Select a member…",
-        "role": "Role",
-        "role_editor": "Editor",
-        "role_viewer": "Viewer",
-        "add": "Add",
-        "no_eligible": "All eligible team members are already assigned.",
-        "no_restrictions_note": "No restrictions set. All page editors can modify this group. Add at least one member to restrict access.",
-        "member": "Member",
-        "empty": "No members assigned.",
-        "select_member_error": "Please select a member"
+        "title": "Upravljanje pristupom",
+        "add_member": "Dodaj člana",
+        "select_member": "Odaberite člana…",
+        "role": "Uloga",
+        "role_editor": "Urednik",
+        "role_viewer": "Gledatelj",
+        "add": "Dodati",
+        "no_eligible": "Svi članovi tima koji ispunjavaju uvjete već su dodijeljeni.",
+        "no_restrictions_note": "Nema postavljenih ograničenja. Svi urednici stranica mogu mijenjati ovu grupu. Dodajte najmanje jednog člana da biste ograničili pristup.",
+        "member": "Član",
+        "empty": "Nema dodijeljenih članova.",
+        "select_member_error": "Odaberite člana"
       }
     },
     "configure_custom_domain": "Konfiguriši prilagođeni domen",
@@ -2269,7 +2274,7 @@
         "title": "Obrisati status stranicu?"
       },
       "errors": {
-        "failed": "Neuspješno brisanje status stranice."
+        "failed": "Brisanje stranice statusa nije uspjelo."
       },
       "success": {
         "body": "Status stranica je uspješno obrisana.",
@@ -2278,7 +2283,7 @@
     },
     "delete_permanent": "Brisanje Vaše statusne stranice je <u>trajno</u>",
     "delete_selected": "Izbrišite izabrane",
-    "delete_this_page": "Izbrišite ovu status stranicu",
+    "delete_this_page": "Izbriši ovu stranicu statusa",
     "dependencies_help": "Prikazuje kutije statusa trećih strana iznad Vaših grupa komponenti.",
     "dependencies_section": "Zavisnosti",
     "drag_to_reorder": "Prevucite da promenite redosled",
@@ -2301,7 +2306,7 @@
     "groups_explanation": "Grupe pomažu da organizujete komponente u kategorije (npr. \"Backend servisi\", \"Infrastruktura\")",
     "groups_optional": "Grupe su opcione – komponente bez grupa će biti prikazane odvojeno",
     "no_components_configured": "Nema podešenih komponenti za ovu status stranicu.",
-    "none_yet": "Još nema status stranica",
+    "none_yet": "Još nema stranica statusa",
     "heading": {
       "components": "Komponente"
     },
@@ -2459,7 +2464,7 @@
         "visual": "Vizuelno"
       },
       "active": "Aktivno",
-      "auto_create_incident": "Automatski kreiraj incident kada je monitor NEAKTIVAN (prvo otkrivanje)",
+      "auto_create_incident": "Automatsko stvaranje incidenta na monitoru DOLJE (prva detekcija)",
       "auto_resolve_auto_created": "Automatski rešavaj automatski kreirane incidente kada se monitor oporavi",
       "auto_resolve_help": "Dodaje podrazumevano ažuriranje rešenja (\"Automatski rešeno nakon oporavka monitora\"). Još uvek možete urediti detalje ili kreirati postmortem kasnije.",
       "blocked": "Blokirano",
@@ -2503,115 +2508,115 @@
       "show_daily_pills": "Prikaži dnevne pilule",
       "show_response_graph": "Prikaži grafikon odgovora",
       "slug_locked_help": "slug se ne može promeniti nakon kreiranja",
-      "slug_url_prefix": "URL Vaše status stranice:",
+      "slug_url_prefix": "URL vaše stranice statusa:",
       "access": {
-        "enable_access_control_suffix": "to enable access control.",
-        "button": "Access Settings",
-        "disabled_help": "Access control is disabled. Toggle the switch above to enable it.",
-        "modal_title": "Access Settings",
-        "save_button": "Save Access Settings",
+        "enable_access_control_suffix": "kako bi se omogućila kontrola pristupa.",
+        "button": "Pristup postavkama",
+        "disabled_help": "Kontrola pristupa je onemogućena. Uključite gornji prekidač da biste ga omogućili.",
+        "modal_title": "Pristup postavkama",
+        "save_button": "Spremi postavke pristupa",
         "badges": {
-          "not_set": "Not set"
+          "not_set": "Nije postavljeno"
         },
         "summary": {
-          "ip_allowlist": "IP Allowlist",
+          "ip_allowlist": "Popis dopuštenih IP adresa",
           "magic_link": "Email Magic Link",
           "azure_ad": "Azure AD",
           "google": "Google",
           "oidc": "OIDC",
-          "no_method": "No access method configured"
+          "no_method": "Metoda pristupa nije konfigurirana"
         },
         "password": {
-          "description": "Visitors enter a shared password to unlock the page",
-          "minimum_help": "Minimum 4 characters. Will be applied when you save settings.",
-          "pending_new_password": "New password ready — will apply when you save settings",
+          "description": "Posjetitelji unose zajedničku lozinku za otključavanje stranice",
+          "minimum_help": "Minimalno 4 znaka. Primijenit će se kada spremite postavke.",
+          "pending_new_password": "Nova lozinka je spremna — primijenit će se kada spremite postavke",
           "change_modal": {
-            "title": "Change Password",
-            "input_label": "Enter new password",
-            "input_placeholder": "New password (min 4 characters)",
-            "confirm": "Set Password",
-            "validation": "Password must be at least 4 characters",
-            "pending_message": "New password set (will apply when you save)"
+            "title": "Promjena lozinke",
+            "input_label": "Unesite novu lozinku",
+            "input_placeholder": "Nova lozinka (najmanje 4 znaka)",
+            "confirm": "Postavi lozinku",
+            "validation": "Lozinka mora imati najmanje 4 znaka",
+            "pending_message": "Nova lozinka postavljena (primjenit će se kada spremite)"
           },
           "remove_modal": {
-            "title": "Remove Password?",
-            "text": "This will remove password protection from your status page. Anyone will be able to view it.",
-            "confirm": "Yes, remove it",
-            "pending_message": "Password will be removed when you save"
+            "title": "Ukloniti lozinku?",
+            "text": "Ovo će ukloniti zaštitu lozinkom s vaše stranice statusa. Svatko će ga moći vidjeti.",
+            "confirm": "Da, ukloni ga",
+            "pending_message": "Lozinka će biti uklonjena kada spremite"
           }
         },
         "ip_allowlist": {
-          "description": "Visitors from allowed IPs or ranges bypass all other checks",
-          "enable": "Enable IP allowlist",
-          "allowed_label": "Allowed IPs / CIDR Ranges",
-          "allowed_placeholder": "One entry per line, e.g.:&#10;203.0.113.42&#10;10.0.0.0/8&#10;192.168.1.0/24",
-          "help": "Supports individual IPs and CIDR notation. Matching visitors are admitted automatically."
+          "description": "Posjetitelji s dopuštenih IP adresa ili raspona zaobilaze sve ostale provjere",
+          "enable": "Omogući popis dopuštenih IP adresa",
+          "allowed_label": "Dopušteni IP/CIDR rasponi",
+          "allowed_placeholder": "Jedan unos po retku, npr.:&#10;203.0.113.42&#10;10.0.0.0/8&#10;192.168.1.0/24",
+          "help": "Podržava pojedinačne IP adrese i CIDR notaciju. Posjetitelji koji se podudaraju primaju se automatski."
         },
         "magic_link": {
-          "description": "Visitors request a one-time login link sent to their email",
-          "enable": "Enable email magic link",
-          "allowed_addresses_label": "Allowed Email Addresses",
-          "allowed_addresses_placeholder": "One email per line, e.g.:&#10;alice@example.com&#10;bob@company.org",
-          "allowed_addresses_help": "Only these addresses can request a login link.",
-          "allow_team": "Also allow team members",
-          "allow_team_help": "(anyone with team access to this status page)",
-          "expiry_label": "Link expiry",
-          "expiry_15": "15 minutes",
-          "expiry_30": "30 minutes",
-          "expiry_60": "1 hour"
+          "description": "Posjetitelji zahtijevaju jednokratnu vezu za prijavu koja im se šalje na e-poštu",
+          "enable": "Omogući čarobnu vezu e-pošte",
+          "allowed_addresses_label": "Dopuštene adrese e-pošte",
+          "allowed_addresses_placeholder": "Jedna e-pošta po retku, npr.:&#10;alice@example.com&#10;bob@company.org",
+          "allowed_addresses_help": "Samo ove adrese mogu zatražiti vezu za prijavu.",
+          "allow_team": "Također dopustite članovima tima",
+          "allow_team_help": "(svatko s timskim pristupom ovoj stranici statusa)",
+          "expiry_label": "Istek veze",
+          "expiry_15": "15 minuta",
+          "expiry_30": "30 minuta",
+          "expiry_60": "1 sat"
         },
         "azure": {
           "title": "Azure AD / Microsoft",
-          "description": "Visitors sign in with their Microsoft work account",
-          "enable": "Enable Azure AD authentication",
-          "tenant_id_label": "Tenant ID",
-          "tenant_id_help": "Your Azure AD directory (tenant) ID or primary domain (e.g. <code>contoso.com</code>).",
-          "client_id_label": "Application (Client) ID",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret value",
-          "redirect_prefix": "In your Azure app registration, add",
-          "redirect_suffix": "as a redirect URI under <strong>Authentication → Web</strong>."
+          "description": "Posjetitelji se prijavljuju svojim Microsoftovim radnim računom",
+          "enable": "Omogući Azure AD provjeru autentičnosti",
+          "tenant_id_label": "ID stanara",
+          "tenant_id_help": "Vaš ID direktorija Azure AD (zakupac) ili primarna domena (npr. <code>contoso.com</code>).",
+          "client_id_label": "ID aplikacije (klijenta).",
+          "client_secret_label": "Tajna klijenta",
+          "client_secret_placeholder": "Zalijepi tajnu vrijednost klijenta",
+          "redirect_prefix": "U svojoj registraciji aplikacije Azure dodajte",
+          "redirect_suffix": "kao URI za preusmjeravanje pod <strong>Authentication → Web</strong>."
         },
         "shared": {
-          "keep_existing_secret_placeholder": "Leave blank to keep existing secret",
-          "keep_existing_secret_help": "Leave blank to keep the existing secret. Only fill in to set a new one.",
-          "keep_existing_secret_short": "Leave blank to keep the existing secret."
+          "keep_existing_secret_placeholder": "Ostavite prazno kako biste sačuvali postojeću tajnu",
+          "keep_existing_secret_help": "Ostavite prazno kako biste zadržali postojeću tajnu. Ispunite samo za postavljanje novog.",
+          "keep_existing_secret_short": "Ostavite prazno kako biste zadržali postojeću tajnu."
         },
         "google": {
           "title": "Google Workspace",
-          "description": "Visitors sign in with their Google Workspace account",
-          "enable": "Enable Google Workspace authentication",
-          "client_id_label": "Client ID",
-          "client_id_help": "OAuth 2.0 Client ID from Google Cloud Console.",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret",
-          "hosted_domain_label": "Hosted Domain (optional)",
-          "hosted_domain_placeholder": "yourcompany.com",
-          "hosted_domain_help": "Restrict login to a specific Google Workspace domain (e.g. <code>acme.com</code>). Leave blank to allow any Google account.",
-          "redirect_prefix": "In Google Cloud Console, add",
-          "redirect_suffix": "as an authorized redirect URI."
+          "description": "Posjetitelji se prijavljuju svojim Google Workspace računom",
+          "enable": "Omogući Google Workspace autentifikaciju",
+          "client_id_label": "ID klijenta",
+          "client_id_help": "ID klijenta OAuth 2.0 s Google Cloud konzole.",
+          "client_secret_label": "Tajna klijenta",
+          "client_secret_placeholder": "Zalijepi tajnu klijenta",
+          "hosted_domain_label": "Hostirana domena (neobavezno)",
+          "hosted_domain_placeholder": "vaša tvrtka.com",
+          "hosted_domain_help": "Ograničite prijavu na određenu Google Workspace domenu (npr. <code>acme.com</code>). Ostavite prazno kako biste dopustili bilo koji Google račun.",
+          "redirect_prefix": "U Google Cloud Console dodajte",
+          "redirect_suffix": "kao ovlašteni URI za preusmjeravanje."
         },
         "oidc": {
-          "title": "Generic OIDC",
-          "description": "Any OpenID Connect provider (Okta, Auth0, Keycloak, etc.)",
-          "enable": "Enable Generic OIDC authentication",
-          "issuer_label": "Issuer URL",
-          "issuer_help": "The OIDC issuer base URL. Discovery will be fetched from <code>{issuer}/.well-known/openid-configuration</code>.",
-          "client_id_label": "Client ID",
-          "client_id_placeholder": "your-client-id",
-          "client_secret_label": "Client Secret",
-          "client_secret_placeholder": "Paste client secret",
-          "redirect_prefix": "Configure",
-          "redirect_suffix": "as the redirect URI in your identity provider."
+          "title": "Generički OIDC",
+          "description": "Bilo koji pružatelj OpenID Connect (Okta, Auth0, Keycloak, itd.)",
+          "enable": "Omogući generičku OIDC provjeru autentičnosti",
+          "issuer_label": "URL izdavatelja",
+          "issuer_help": "Osnovni URL izdavatelja OIDC-a. Otkriće će se dohvatiti iz <code>{issuer}/.well-known/openid-configuration</code>.",
+          "client_id_label": "ID klijenta",
+          "client_id_placeholder": "ID vašeg-klijenta",
+          "client_secret_label": "Tajna klijenta",
+          "client_secret_placeholder": "Zalijepi tajnu klijenta",
+          "redirect_prefix": "Konfigurirati",
+          "redirect_suffix": "kao URI za preusmjeravanje u vašem davatelju identiteta."
         },
         "allowed_domains": {
-          "title": "Allowed Email Domains",
-          "description": "Restrict SSO logins to specific email domains",
-          "configured": "Configured",
-          "any_domain": "Any domain",
-          "label": "Allowed Domains",
+          "title": "Dopuštene domene e-pošte",
+          "description": "Ograničite SSO prijave na određene domene e-pošte",
+          "configured": "Konfigurirano",
+          "any_domain": "Bilo koja domena",
+          "label": "Dopuštene domene",
           "placeholder": "acme.com&#10;partner.org",
-          "help": "One domain per line. When set, any SSO user (Azure AD, Google, OIDC) whose email is not in this list will be denied access. Leave blank to allow all domains."
+          "help": "Jedna domena po retku. Kada je postavljeno, svim SSO korisnicima (Azure AD, Google, OIDC) čija adresa e-pošte nije na ovom popisu bit će odbijen pristup. Ostavite prazno kako biste dopustili sve domene."
         }
       }
     },
@@ -2640,7 +2645,7 @@
     "upgrade_required": "Neophodna nadgradnja",
     "use_on_page_column": "Koristi na stranici",
     "user_experience_help": "Poboljšajte kako korisnici komuniciraju sa Vašom stranicom statusa",
-    "view_status_page": "Pogledajte Vašu status stranicu",
+    "view_status_page": "Pogledajte svoju stranicu statusa",
     "accent_color": "Boja akcenata",
     "analytics": {
       "info": "💡 Analitika se ubacuje na domen Vaše status stranice (prilagođeni domen ili hostovani poddomen). Ne koristi kolačiće i poštuje pravila izuzimanja. Ako koristite hostovani poddomen (npr. <em>your-page.statuspage.me</em>), kreirajte analitičku svojinu/sajt/projekat sa tim tačnim imenom hosta (your-page.statuspage.me)."
@@ -2690,7 +2695,7 @@
     "light_theme_logo_url": "URL logoa svetle teme",
     "link_notification_channel": "Poveži kanal obavijesti",
     "list": {
-      "create_new": "Kreiraj novu status stranicu",
+      "create_new": "Stvori novu stranicu statusa",
       "none_message": "Nemate statusna stranica.",
       "notifications_button": "Obavijesti",
       "notifications_button_title": "Podesite ponovo upotrebljive kanale za obavijesti za sve Vaše status stranice",
@@ -2882,10 +2887,10 @@
   },
   "public_feature_simple_status_page": {
     "hero": {
-      "title": "Status stranica bez komplikacija",
-      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "title": "Stranica statusa bez složenosti",
+      "subtitle": "Nema monitora za konfiguraciju. Nema integracija za povezivanje. Izradite jednostavnu stranicu sa statusom, ažurirajte statuse komponenti s jedne nadzorne ploče i informirajte svoje korisnike pomoću bilješki bogatih kontekstom koje automatski stvaraju povijest incidenata.",
       "cta_hint": "Besplatno za početak",
-      "cta": "Kreirajte svoju status stranicu"
+      "cta": "Napravite svoju stranicu statusa"
     },
     "benefits": {
       "badge": "Ključne prednosti",
@@ -2901,20 +2906,20 @@
           "description": "Počnite jednostavno, a zatim dodajte automatski monitoring dostupnosti, vlastite domene, branding i upravljanje incidentima kako vaš proizvod raste."
         },
         "dashboard": {
-          "title": "One-screen control panel",
-          "description": "The Simple Dashboard puts everything in one place — component statuses, active incidents, and quick updates. No navigating around, no settings pages."
+          "title": "Upravljačka ploča s jednim zaslonom",
+          "description": "Jednostavna nadzorna ploča stavlja sve na jedno mjesto — statuse komponenti, aktivne incidente i brza ažuriranja. Nema navigacije, nema stranica s postavkama."
         },
         "notes": {
-          "title": "Add context with notes",
-          "description": "When changing a component's status, add an optional note (e.g. \"Investigating elevated error rates\"). It shows publicly next to the component — and automatically creates an incident record."
+          "title": "Dodajte kontekst s bilješkama",
+          "description": "Kada mijenjate status komponente, dodajte neobaveznu napomenu (npr. \"Istraživanje povišenih stopa pogreške\"). Prikazuje se javno pored komponente — i automatski stvara zapis incidenta."
         },
         "notifications": {
-          "title": "Subscribers notified automatically",
-          "description": "When you add a note to a status change, your page's subscribers are notified automatically — no separate incident to create, no extra steps."
+          "title": "Pretplatnici automatski obaviješteni",
+          "description": "Kada dodate bilješku o promjeni statusa, pretplatnici vaše stranice automatski se obavještavaju — nema zasebnog incidenta za stvaranje, nema dodatnih koraka."
         },
         "history": {
-          "title": "90-day reported history",
-          "description": "Every component shows a 90-day strip of reported status — green for operational days, coloured ticks for incidents, overrides, or maintenance. A transparent record for your users."
+          "title": "90-dnevna prijavljena povijest",
+          "description": "Svaka komponenta prikazuje 90-dnevnu traku prijavljenog statusa — zeleno za radne dane, obojene kvačice za incidente, nadjačavanja ili održavanje. Transparentan zapis za vaše korisnike."
         }
       }
     },
@@ -2926,7 +2931,7 @@
         "title": "Startupi u ranom pristupu",
         "description": "Imate nekoliko ranih korisnika i želite pokazati da ozbiljno shvaćate pouzdanost, ali još niste spremni ulagati u potpunu infrastrukturu za monitoring.",
         "point_1": "Dodajte komponente za svoj API, nadzornu ploču i autentikacijsku uslugu",
-        "point_2": "Update status with a note from the dashboard during incidents",
+        "point_2": "Ažurirajte status s porukom s nadzorne ploče tijekom incidenata",
         "point_3": "Podijelite URL u podnožju svoje aplikacije"
       },
       "internal": {
@@ -2949,7 +2954,7 @@
       "title": "Tri koraka do aktivne status stranice",
       "subtitle": "Bez vodiča. Bez tehničkog postavljanja. Samo ispunite osnove.",
       "step_1": {
-        "title": "Kreirajte svoju status stranicu",
+        "title": "Izradite svoju stranicu statusa",
         "description": "Odaberite \"Jednostavna status stranica\" kada stvarate novu stranicu. Dajte joj naziv i odmah je spremna."
       },
       "step_2": {
@@ -2957,8 +2962,8 @@
         "description": "Dodajte usluge, API-je ili značajke koje želite pratiti - na primjer \"API\", \"Nadzorna ploča\" ili \"Auth\". Svaka postaje redak na vašoj javnoj stranici."
       },
       "step_3": {
-        "title": "Update from your dashboard",
-        "description": "When something changes, open the Simple Dashboard, pick a status and add an optional note. Your public page updates instantly — and subscribers are notified if you included a note."
+        "title": "Ažurirajte s nadzorne ploče",
+        "description": "Kada se nešto promijeni, otvorite jednostavnu nadzornu ploču, odaberite status i dodajte neobaveznu bilješku. Vaša se javna stranica trenutno ažurira — a pretplatnici dobivaju obavijest ako ste dodali bilješku."
       }
     },
     "statuses": {
@@ -2991,23 +2996,23 @@
       "button": "Kreirajte svoju status stranicu - Besplatno"
     },
     "dashboard_feature": {
-      "badge": "Simple Dashboard",
-      "title": "Update status in two clicks",
-      "description": "The Simple Dashboard is your home base for the page. Every component is listed with its current status and note. Click edit, pick a state, optionally add a note, and save — done.",
-      "illustration_label": "Simple Dashboard — everything in one screen",
-      "point_1": "See all component statuses and active incidents at a glance",
-      "point_2": "Pin it as your default landing page for instant access after login",
-      "point_3": "No navigating around settings — everything is right there"
+      "badge": "Jednostavna nadzorna ploča",
+      "title": "Ažurirajte status u dva klika",
+      "description": "Jednostavna nadzorna ploča vaša je početna baza za stranicu. Svaka komponenta je navedena sa svojim trenutnim statusom i napomenom. Kliknite uredi, odaberite stanje, po želji dodajte bilješku i spremite — gotovo.",
+      "illustration_label": "Jednostavna nadzorna ploča — sve na jednom zaslonu",
+      "point_1": "Pogledajte sve statuse komponenti i aktivne incidente na prvi pogled",
+      "point_2": "Prikvačite je kao zadanu odredišnu stranicu za trenutni pristup nakon prijave",
+      "point_3": "Nema navigacije oko postavki — sve je tu"
     },
     "notes_feature": {
-      "badge": "Notes & Incident History",
-      "title": "One note does three things",
-      "description": "When you add a note alongside a status change (e.g. \"Investigating elevated error rates\"), the platform automatically shows it next to the component on your public page, creates an incident record in your history, and notifies subscribers — all from a single form.",
-      "illustration_label": "Notes shown publicly · Incident created automatically",
-      "point_1": "Note appears inline on the public status page",
-      "point_2": "Incident entry created automatically — no separate step",
-      "point_3": "Subscribers notified without opening the incident management flow",
-      "point_4": "Incident auto-resolves when you reset the component to Operational"
+      "badge": "Bilješke i povijest incidenata",
+      "title": "Jedna bilješka čini tri stvari",
+      "description": "Kada dodate bilješku uz promjenu statusa (npr. \"Istraživanje povišenih stopa pogreške\"), platforma je automatski prikazuje pored komponente na vašoj javnoj stranici, stvara zapis o incidentu u vašoj povijesti i obavještava pretplatnike - sve iz jednog obrasca.",
+      "illustration_label": "Bilješke prikazane javno · Incident kreiran automatski",
+      "point_1": "Bilješka se pojavljuje unutar stranice na stranici javnog statusa",
+      "point_2": "Unos incidenta kreiran automatski — bez zasebnog koraka",
+      "point_3": "Pretplatnici su obaviješteni bez otvaranja tijeka upravljanja incidentom",
+      "point_4": "Incident se automatski rješava kada komponentu vratite na operativno stanje"
     }
   },
   "public_nav": {
@@ -3150,7 +3155,7 @@
         },
         "form": {
           "email_label": "Adresa e-pošte",
-          "email_placeholder": "colleague@example.com",
+          "email_placeholder": "kolega@primjer.com",
           "role_label": "Uloga",
           "role_option_admin": "Admin – Urednik + postavke status stranice",
           "role_option_editor": "Urednik – Može da kreira/ažurira incidente",
@@ -3215,9 +3220,9 @@
         "create_cta": "Kreiraj status stranicu",
         "empty": "Još nema status stranica povezanih sa ovim timom.",
         "errors": {
-          "failed_link": "Neuspješno povezivanje status stranice",
-          "failed_unlink": "Neuspješno otkačinje status stranice",
-          "select_status_page": "Molimo izaberite status stranicu"
+          "failed_link": "Povezivanje stranice statusa nije uspjelo",
+          "failed_unlink": "Prekid veze stranice statusa nije uspio",
+          "select_status_page": "Odaberite stranicu statusa"
         },
         "info": "Članovi tima će moći da pristupe ovoj status stranici u skladu sa svojim ulogama.",
         "link_cta": "Poveži status stranicu",
@@ -3234,13 +3239,13 @@
         "title": "Povezane status stranice",
         "unlink": {
           "confirm": "Da, otkači",
-          "html": "Ukloniti <strong>{{name}}</strong> iz ovog tima?<br><br>Članovi tima će izgubiti pristup ovoj status stranici.",
+          "html": "Ukloniti <strong>{{name}}</strong> iz ovog tima?<br><br>Članovi tima će izgubiti pristup ovoj stranici statusa.",
           "title": "Otkačiti status stranicu?"
         },
         "unlink_success": {
           "title": "Status stranica otkačena"
         },
-        "manage_component_access": "Manage component access"
+        "manage_component_access": "Upravljanje pristupom komponenti"
       },
       "table": {
         "joined": "Pridružen",
@@ -3331,7 +3336,7 @@
       "settings_history": "Povijest"
     },
     "roles": {
-      "admin": "Admin",
+      "admin": "Administrator",
       "editor": "Urednik",
       "owner": "Vlasnik",
       "viewer": "Posmatrač"
@@ -3448,7 +3453,7 @@
       "empty_no_teams_description": "Još niste član nijednog dijeljenog tima.",
       "empty_no_pages_description": "Još nema dijeljenih status stranica povezanih s ovim timom.",
       "cta_view_shared_teams": "Prikaži dijeljene timove",
-      "cta_view_team_status_pages": "Prikaži status stranice tima",
+      "cta_view_team_status_pages": "Pogledajte stranice statusa tima",
       "via": "putem",
       "more_changes": "+{{count}} više",
       "no_visible_changes": "Nema vidljivih promjena postavki",
@@ -3485,16 +3490,16 @@
     "dashboard": {
       "active_monitors": "Aktivni monitori",
       "dnsbl_features": {
-        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Dnevne provere",
-        "ip_domain_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Provere IP-a i domena",
-        "multiple_blacklists": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Više crnih lista"
+        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Dnevne provjere",
+        "ip_domain_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> IP i provjere domene",
+        "multiple_blacklists": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Višestruke crne liste"
       },
       "domain_age_calculator": "Kalkulator starosti domena",
       "domain_whois_lookup": "WHOIS pretraga domena",
       "email_auth_features": {
-        "dkim_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Validacija DKIM-a",
-        "dmarc_policy": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> DMARC politika",
-        "spf_record_check": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Provjera SPF zapisa"
+        "dkim_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> DKIM provjera valjanosti",
+        "dmarc_policy": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> DMARC pravilo",
+        "spf_record_check": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> SPF provjera zapisa"
       },
       "email_auth_monitors": "Monitori autentifikacije e-pošte",
       "manage_dnsbl_monitors": "Upravljaj DNSBL monitorima",
@@ -3503,8 +3508,8 @@
       "open_age_tool": "Otvori alat za starost domena",
       "open_whois_tool": "Otvori WHOIS alat",
       "ssl_features": {
-        "chain_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Validacija lanca",
-        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Dnevne provere",
+        "chain_validation": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Provjera valjanosti lanca",
+        "daily_checks": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Dnevne provjere",
         "expiry_warnings": "<i class=\"bi bi-check-circle-fill text-success me-1\"></i> Upozorenja o isteku"
       },
       "ssl_monitors": "SSL monitori"
@@ -3521,7 +3526,7 @@
     "domain_optional": "Domen (opciono)",
     "domain_whois_help": "Pogledajte informacije o registratoru, kreiranju, ažuriranju i isteku za bilo koji domen. Uključuje sirovi WHOIS.",
     "edit_email_auth": "Uredi monitor autentifikacije e-pošte",
-    "email_auth_heading": "Monitor autentifikacije e-pošte",
+    "email_auth_heading": "Email Auth Monitor",
     "email_auth_help": "Pratite DKIM, SPF i DMARC zapise za Vaš domen. Obezbedite isporučivost e-pošte.",
     "fresh": "Ažurno",
     "full_whois_response": "Puni WHOIS odgovor",
@@ -3582,7 +3587,7 @@
         "deleting": "Brisanje DNSBL monitora..."
       },
       "add_monitor": "Dodaj monitor",
-      "add_new_monitor": "Dodaj novi DNSBL monitor",
+      "add_new_monitor": "Dodajte novi DNSBL monitor",
       "added_success": "DNSBL monitor je uspješno dodat",
       "blacklist_details_title": "Detalji crne liste",
       "check_complete": "Provjera završena!",
@@ -3612,7 +3617,7 @@
         "deleting": "Brisanje SSL monitora..."
       },
       "add_monitor": "Dodaj monitor",
-      "add_new_monitor": "Dodaj novi SSL monitor",
+      "add_new_monitor": "Dodajte novi SSL monitor",
       "added_success": "SSL monitor je uspješno dodat",
       "alert_days_before_help": "Upozori X dana prije isteka",
       "check_complete": "Provjera završena",
@@ -3669,7 +3674,7 @@
     },
     "my_suggestions": "Moji Predlozi",
     "no_suggestions": "Još uvek niste poslali nijedan predlog prevoda.",
-    "original": "Original",
+    "original": "Izvornik",
     "pending_suggestions": "Predlozi na Čekanju",
     "preview": "Pregled",
     "preview_hint": "Pregled će se ažurirati dok kucate",
@@ -3918,7 +3923,7 @@
     "your_monitor_targets": "Vaši ciljevi monitora"
   },
   "onboarding": {
-    "create_your_status_page": "Kreirajte svoju status stranicu",
+    "create_your_status_page": "Napravite svoju stranicu statusa",
     "do_this_later": "Uradi ovo kasnije"
   },
   "postmortems": {

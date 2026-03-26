@@ -640,7 +640,12 @@
     "time": "Time",
     "type_colon": "Type:",
     "upgrade_now": "Upgrade now",
-    "value_label": "Value:"
+    "value_label": "Value:",
+    "read_only_access_title": "Read-only access",
+    "read_only_maintenances_message": "You can view scheduled maintenances, but your current role does not allow creating or editing them.",
+    "read_only_incidents_message": "You can view incidents, but your current role does not allow creating them.",
+    "read_only_oncall_edit_message": "You can view this schedule, but your current role does not allow editing it.",
+    "read_only_oncall_incidents_message": "You can view this schedule, but your current role does not allow creating incidents from it."
   },
   "components": {
     "form": {
