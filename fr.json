@@ -3428,7 +3428,8 @@
       "step2_title": "Cliquez pour suggérer",
       "step2_desc": "Utilisez Ctrl+Maj+Clic (Cmd+Maj+Clic sur Mac) sur n’importe quel texte avec une clé de traduction.",
       "step3_title": "Soumettre pour révision",
-      "step3_desc": "Vos suggestions sont examinées par les administrateurs et appliquées pour améliorer les traductions."
+      "step3_desc": "Vos suggestions sont examinées par les administrateurs et appliquées pour améliorer les traductions.",
+      "trusted_desc": "Les traducteurs de confiance passent la validation manuelle et vont directement dans la file des suggestions approuvées."
     },
     "empty": {
       "title": "Aucune suggestion pour le moment",
@@ -3458,6 +3459,9 @@
     "daily_limit_message": "Vous avez atteint votre limite quotidienne de suggestions. Réessayez demain.",
     "saved": "Enregistré",
     "saved_message": "Suggestion de traduction enregistrée comme brouillon.",
+    "auto_approved": "Approuvée automatiquement",
+    "auto_approved_desc": "Votre suggestion a été approuvée automatiquement parce que vous êtes un traducteur de confiance.",
+    "auto_approved_message": "Merci ! Votre suggestion de traduction a été approuvée automatiquement parce que vous êtes un traducteur de confiance.",
     "submitted": "Soumis",
     "submitted_desc": "Votre suggestion a été soumise pour révision.",
     "submitted_message": "Merci! Votre suggestion de traduction a été soumise pour révision.",

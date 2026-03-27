@@ -3391,6 +3391,7 @@
       "step2_title": "Click to Suggest",
       "step3_desc": "Your suggestions are reviewed by admins and applied to improve translations.",
       "step3_title": "Submit for Review",
+      "trusted_desc": "Trusted translators skip manual approval and move straight into the approved queue.",
       "title": "How Translation Helper Works"
     },
     "my_suggestions": "My Suggestions",
@@ -3403,6 +3404,9 @@
     "save_draft": "Save as Draft",
     "saved": "Saved",
     "saved_message": "Translation suggestion saved as draft.",
+    "auto_approved": "Auto-approved",
+    "auto_approved_desc": "Your suggestion was approved automatically because you are a trusted translator.",
+    "auto_approved_message": "Thank you! Your translation suggestion was approved automatically because you are a trusted translator.",
     "stats": {
       "approved": "Approved",
       "approved_desc": "Accepted translations",

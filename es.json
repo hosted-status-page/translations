@@ -3416,7 +3416,8 @@
       "step2_title": "Haz clic para sugerir",
       "step2_desc": "Usa Ctrl+Shift+Clic (Cmd+Shift+Clic en Mac) en cualquier texto con una clave de traducción.",
       "step3_title": "Enviar para revisión",
-      "step3_desc": "Tus sugerencias las revisan los administradores y se aplican para mejorar las traducciones."
+      "step3_desc": "Tus sugerencias las revisan los administradores y se aplican para mejorar las traducciones.",
+      "trusted_desc": "Los traductores de confianza omiten la aprobación manual y pasan directamente a la cola de aprobadas."
     },
     "empty": {
       "title": "Aún no hay sugerencias",
@@ -3446,6 +3447,9 @@
     "daily_limit_message": "Has alcanzado tu límite diario de sugerencias. Inténtalo de nuevo mañana.",
     "saved": "Guardado",
     "saved_message": "Sugerencia de traducción guardada como borrador.",
+    "auto_approved": "Aprobada automáticamente",
+    "auto_approved_desc": "Tu sugerencia fue aprobada automáticamente porque eres un traductor de confianza.",
+    "auto_approved_message": "¡Gracias! Tu sugerencia de traducción fue aprobada automáticamente porque eres un traductor de confianza.",
     "submitted": "Enviado",
     "submitted_desc": "Tu sugerencia se ha enviado para revisión.",
     "submitted_message": "¡Gracias! Tu sugerencia de traducción ha sido enviada para revisión.",

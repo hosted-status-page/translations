@@ -3391,6 +3391,7 @@
       "step2_title": "Klicka för att föreslå",
       "step3_desc": "Dina förslag granskas av administratörer och tillämpas för att förbättra översättningarna.",
       "step3_title": "Lämna in för granskning",
+      "trusted_desc": "Betrodda översättare hoppar över manuell granskning och går direkt till kön för godkända förslag.",
       "title": "Hur översättningshjälpare fungerar"
     },
     "my_suggestions": "Mina förslag",
@@ -3403,6 +3404,9 @@
     "save_draft": "Spara som Draft",
     "saved": "Sparad",
     "saved_message": "Översättningsförslag sparade som utkast.",
+    "auto_approved": "Godkänd automatiskt",
+    "auto_approved_desc": "Ditt förslag godkändes automatiskt eftersom du är en betrodd översättare.",
+    "auto_approved_message": "Tack! Ditt översättningsförslag godkändes automatiskt eftersom du är en betrodd översättare.",
     "stats": {
       "approved": "Godkänd",
       "approved_desc": "Godtagna översättningar",

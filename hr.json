@@ -3670,6 +3670,7 @@
       "step2_title": "Kliknite da predložite",
       "step3_desc": "Administratori pregledaju Vaše predloge i primenjuju ih da poboljšaju prevode.",
       "step3_title": "Pošaljite na pregled",
+      "trusted_desc": "Pouzdani prevodioci preskaču ručno odobravanje i idu direktno u red odobrenih predloga.",
       "title": "Kako radi Pomoćnik za prevod"
     },
     "my_suggestions": "Moji Predlozi",
@@ -3682,6 +3683,9 @@
     "save_draft": "Sačuvaj kao Nacrt",
     "saved": "Sačuvano",
     "saved_message": "Predlog prevoda sačuvan kao nacrt.",
+    "auto_approved": "Automatski odobreno",
+    "auto_approved_desc": "Vaš predlog je automatski odobren jer ste pouzdani prevodilac.",
+    "auto_approved_message": "Hvala! Vaš predlog prevoda je automatski odobren jer ste pouzdani prevodilac.",
     "stats": {
       "approved": "Odobreno",
       "approved_desc": "Prihvaćeni prevodi",

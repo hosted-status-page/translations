@@ -3410,7 +3410,8 @@
       "step2_title": "Klicken zum Vorschlagen",
       "step2_desc": "Nutze Strg+Umschalt+Klick (Cmd+Umschalt+Klick auf Mac) auf beliebigen Text mit einem Übersetzungsschlüssel.",
       "step3_title": "Zur Prüfung senden",
-      "step3_desc": "Deine Vorschläge werden von Admins geprüft und angewendet, um Übersetzungen zu verbessern."
+      "step3_desc": "Deine Vorschläge werden von Admins geprüft und angewendet, um Übersetzungen zu verbessern.",
+      "trusted_desc": "Vertrauenswürdige Übersetzer überspringen die manuelle Genehmigung und landen direkt in der Warteschlange für genehmigte Vorschläge."
     },
     "empty": {
       "title": "Noch keine Vorschläge",
@@ -3440,6 +3441,9 @@
     "daily_limit_message": "Sie haben Ihr tägliches Vorschlagslimit erreicht. Versuchen Sie es morgen erneut.",
     "saved": "Gespeichert",
     "saved_message": "Übersetzungsvorschlag als Entwurf gespeichert.",
+    "auto_approved": "Automatisch genehmigt",
+    "auto_approved_desc": "Dein Vorschlag wurde automatisch genehmigt, weil du ein vertrauenswürdiger Übersetzer bist.",
+    "auto_approved_message": "Danke! Dein Übersetzungsvorschlag wurde automatisch genehmigt, weil du ein vertrauenswürdiger Übersetzer bist.",
     "submitted": "Eingereicht",
     "submitted_desc": "Dein Vorschlag wurde zur Prüfung gesendet.",
     "submitted_message": "Danke! Ihr Übersetzungsvorschlag wurde zur Überprüfung eingereicht.",

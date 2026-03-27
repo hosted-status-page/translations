@@ -3410,7 +3410,8 @@
       "step2_title": "Clique para sugerir",
       "step2_desc": "Use Ctrl+Shift+Clique (Cmd+Shift+Clique no Mac) em qualquer texto com uma chave de tradução.",
       "step3_title": "Enviar para revisão",
-      "step3_desc": "Suas sugestões são revisadas por administradores e aplicadas para melhorar as traduções."
+      "step3_desc": "Suas sugestões são revisadas por administradores e aplicadas para melhorar as traduções.",
+      "trusted_desc": "Tradutores confiáveis pulam a aprovação manual e vão direto para a fila de aprovadas."
     },
     "empty": {
       "title": "Nenhuma sugestão ainda",
@@ -3440,6 +3441,9 @@
     "daily_limit_message": "Você atingiu seu limite diário de sugestões. Tente novamente amanhã.",
     "saved": "Salvo",
     "saved_message": "Sugestão de tradução salva como rascunho.",
+    "auto_approved": "Aprovada automaticamente",
+    "auto_approved_desc": "Sua sugestão foi aprovada automaticamente porque você é um tradutor confiável.",
+    "auto_approved_message": "Obrigado! Sua sugestão de tradução foi aprovada automaticamente porque você é um tradutor confiável.",
     "submitted": "Enviado",
     "submitted_desc": "Sua sugestão foi enviada para revisão.",
     "submitted_message": "Obrigado! Sua sugestão de tradução foi enviada para revisão.",
