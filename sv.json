@@ -3384,6 +3384,10 @@
     "hint_click": "på någon text som föreslår översättning",
     "sp_fab_toggle": "Översättarhjälp för statussida",
     "sp_fab_toggle_help": "Öppna eller stäng den flytande översättarhjälpen för statussidor.",
+    "open_studio_title": "Oversattningsstudio",
+    "open_studio_description": "Forhandsgranska en demo-statussida och foresla oversattningsforbattringar.",
+    "open_studio_button": "Oppna oversattningsstudio",
+    "open_studio_tooltip": "Oppna oversattningsstudio pa {{language}} {{flag}}",
     "how_it_works": {
       "step1_desc": "Slå på Översättarläge i dina profilinställningar för att aktivera funktionen.",
       "step1_title": "Aktivera översättare Mode",

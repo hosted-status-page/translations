@@ -3663,6 +3663,10 @@
     "hint_click": "na bilo koji tekst za predlog prevoda",
     "sp_fab_toggle": "Pomoćnik prevodioca za statusnu stranicu",
     "sp_fab_toggle_help": "Otvori ili zatvori plutajući pomoćnik za prevod statusne stranice.",
+    "open_studio_title": "Studio za prijevod",
+    "open_studio_description": "Pregledaj demo statusnu stranicu i predlozi poboljsanja prijevoda.",
+    "open_studio_button": "Otvori studio za prijevod",
+    "open_studio_tooltip": "Otvori studio za prijevod na jeziku {{language}} {{flag}}",
     "how_it_works": {
       "step1_desc": "Uključite režim prevodioca u podešavanjima profila da aktivirate funkciju.",
       "step1_title": "Uključite režim prevodioca",

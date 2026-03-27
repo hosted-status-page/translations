@@ -3393,6 +3393,10 @@
     "hint_click": "en cualquier texto para sugerir traducción",
     "sp_fab_toggle": "Ayuda de traducción para página de estado",
     "sp_fab_toggle_help": "Abre o cierra el asistente flotante de traducción para páginas de estado.",
+    "open_studio_title": "Estudio de traduccion",
+    "open_studio_description": "Previsualiza una pagina de estado de demostracion y sugiere mejoras de traduccion.",
+    "open_studio_button": "Abrir estudio de traduccion",
+    "open_studio_tooltip": "Abrir estudio de traduccion en {{language}} {{flag}}",
     "stats": {
       "drafts": "Borradores",
       "drafts_desc": "Aún no enviados",

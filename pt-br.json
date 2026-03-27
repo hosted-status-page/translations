@@ -3387,6 +3387,10 @@
     "hint_click": "em qualquer texto para sugerir tradução",
     "sp_fab_toggle": "Ajuda de tradução da página de status",
     "sp_fab_toggle_help": "Abra ou feche o assistente flutuante de tradução para páginas de status.",
+    "open_studio_title": "Estudio de traducao",
+    "open_studio_description": "Visualize uma pagina de status de demonstracao e sugira melhorias de traducao.",
+    "open_studio_button": "Abrir estudio de traducao",
+    "open_studio_tooltip": "Abrir estudio de traducao em {{language}} {{flag}}",
     "stats": {
       "drafts": "Rascunhos",
       "drafts_desc": "Ainda não enviados",

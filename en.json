@@ -3384,6 +3384,10 @@
     "hint_click": "on any text to suggest translation",
     "sp_fab_toggle": "Status page translator helper",
     "sp_fab_toggle_help": "Open or close the floating status-page translation helper.",
+    "open_studio_title": "Translation Studio",
+    "open_studio_description": "Preview a demo status page and suggest translation improvements.",
+    "open_studio_button": "Open Translation Studio",
+    "open_studio_tooltip": "Open Translation Studio in {{language}} {{flag}}",
     "how_it_works": {
       "step1_desc": "Turn on Translator Mode in your profile settings to activate the feature.",
       "step1_title": "Enable Translator Mode",

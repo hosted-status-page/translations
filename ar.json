@@ -3400,6 +3400,10 @@
     "hint_click": "على أي نص لاقتراح ترجمة",
     "sp_fab_toggle": "مساعد ترجمة صفحة الحالة",
     "sp_fab_toggle_help": "افتح أو أغلق مساعد الترجمة العائم لصفحات الحالة.",
+    "open_studio_title": "استوديو الترجمة",
+    "open_studio_description": "عاين صفحة حالة تجريبية واقترح تحسينات على الترجمة.",
+    "open_studio_button": "افتح استوديو الترجمة",
+    "open_studio_tooltip": "افتح استوديو الترجمة باللغة {{language}} {{flag}}",
     "stats": {
       "drafts": "مسودات",
       "drafts_desc": "لم يتم إرسالها بعد",

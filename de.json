@@ -3387,6 +3387,10 @@
     "hint_click": "auf beliebigen Text klicken um Übersetzung vorzuschlagen",
     "sp_fab_toggle": "Übersetzerhilfe für Statusseiten",
     "sp_fab_toggle_help": "Öffnen oder schließen Sie die schwebende Übersetzerhilfe für Statusseiten.",
+    "open_studio_title": "Ubersetzungsstudio",
+    "open_studio_description": "Sieh dir eine Demo-Statusseite an und schlage Verbesserungen fur Ubersetzungen vor.",
+    "open_studio_button": "Ubersetzungsstudio offnen",
+    "open_studio_tooltip": "Ubersetzungsstudio in {{language}} {{flag}} offnen",
     "stats": {
       "drafts": "Entwürfe",
       "drafts_desc": "Noch nicht eingereicht",

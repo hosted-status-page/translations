@@ -3405,6 +3405,10 @@
     "hint_click": "sur n'importe quel texte pour suggérer une traduction",
     "sp_fab_toggle": "Assistant de traduction des pages de statut",
     "sp_fab_toggle_help": "Ouvrez ou fermez l’assistant flottant de traduction des pages de statut.",
+    "open_studio_title": "Studio de traduction",
+    "open_studio_description": "Previsualisez une page de statut de demonstration et proposez des ameliorations de traduction.",
+    "open_studio_button": "Ouvrir le studio de traduction",
+    "open_studio_tooltip": "Ouvrir le studio de traduction en {{language}} {{flag}}",
     "stats": {
       "drafts": "Brouillons",
       "drafts_desc": "Pas encore envoyés",
