@@ -2934,7 +2934,9 @@
           "owner": "Full control over team settings, members, and linked status pages.",
           "viewer": "Read-only access to view team and status page data."
         },
+        "audit_logs": "Audit Logs",
         "role_permissions": "Role Permissions",
+        "view_logs": "View logs",
         "your_role": "Your Role"
       },
       "status_pages": {
@@ -2973,7 +2975,8 @@
         "member": "Member",
         "sent": "Sent",
         "slug": "Slug",
-        "status_page": "Status Page"
+        "status_page": "Status Page",
+        "invited_by": "Invited By"
       }
     },
     "invitations": {

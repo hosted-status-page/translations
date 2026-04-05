@@ -2935,7 +2935,9 @@
           "viewer": "Läs-bara tillgång till Visa team och status siddata."
         },
         "role_permissions": "Rollbehörigheter",
-        "your_role": "Din roll"
+        "your_role": "Din roll",
+        "audit_logs": "Granskningsloggar",
+        "view_logs": "Visa loggar"
       },
       "status_pages": {
         "create_cta": "Skapa en status sida",
@@ -2973,7 +2975,8 @@
         "member": "ledamot",
         "sent": "Skickas",
         "slug": "Slämma",
-        "status_page": "Statussida"
+        "status_page": "Statussida",
+        "invited_by": "Inbjuden av"
       }
     },
     "invitations": {

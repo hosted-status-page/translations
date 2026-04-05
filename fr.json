@@ -1947,7 +1947,8 @@
         "joined": "A rejoint",
         "sent": "Envoyée",
         "status_page": "Page de statut",
-        "slug": "Limace"
+        "slug": "Limace",
+        "invited_by": "Invité par"
       },
       "labels": {
         "active": "Actif",
@@ -1961,7 +1962,9 @@
           "admin": "Autorisations d’éditeur plus accès aux paramètres de la page de statut.",
           "editor": "Créer et mettre à jour les incidents et maintenances sur les pages de statut liées.",
           "viewer": "Accès en lecture seule pour consulter les données de l’équipe et des pages de statut."
-        }
+        },
+        "audit_logs": "Journaux d'audit",
+        "view_logs": "Voir les journaux"
       },
       "invite": {
         "form": {

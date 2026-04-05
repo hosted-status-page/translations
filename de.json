@@ -1929,7 +1929,8 @@
         "joined": "Beigetreten",
         "sent": "Gesendet",
         "status_page": "Statusseite",
-        "slug": "Schnecke"
+        "slug": "Schnecke",
+        "invited_by": "Eingeladen von"
       },
       "labels": {
         "active": "Aktiv",
@@ -1943,7 +1944,9 @@
           "admin": "Editor-Berechtigungen plus Zugriff auf Statusseiten-Einstellungen.",
           "editor": "Vorfälle und Wartungen auf verknüpften Statusseiten erstellen und aktualisieren.",
           "viewer": "Nur-Lesezugriff zum Anzeigen von Team- und Statusseiten-Daten."
-        }
+        },
+        "audit_logs": "Audit-Protokolle",
+        "view_logs": "Protokolle anzeigen"
       },
       "invite": {
         "form": {

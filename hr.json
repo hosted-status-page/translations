@@ -3219,7 +3219,9 @@
           "viewer": "Samo čitanje za pregled tima i podataka status stranice."
         },
         "role_permissions": "Dozvole uloga",
-        "your_role": "Vaša uloga"
+        "your_role": "Vaša uloga",
+        "audit_logs": "Zapisnici revizije",
+        "view_logs": "Pregled zapisnika"
       },
       "status_pages": {
         "create_cta": "Kreiraj status stranicu",
@@ -3257,7 +3259,8 @@
         "member": "Član",
         "sent": "Poslato",
         "slug": "Slag",
-        "status_page": "Status stranica"
+        "status_page": "Status stranica",
+        "invited_by": "Pozvao/la"
       }
     },
     "invitations": {

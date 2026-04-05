@@ -1932,7 +1932,8 @@
         "joined": "Se unió",
         "sent": "Enviada",
         "status_page": "Página de estado",
-        "slug": "Babosa"
+        "slug": "Babosa",
+        "invited_by": "Invitado por"
       },
       "labels": {
         "active": "Activo",
@@ -1946,7 +1947,9 @@
           "admin": "Permisos de editor más acceso a la configuración de la página de estado.",
           "editor": "Crear y actualizar incidentes y mantenimientos en las páginas de estado vinculadas.",
           "viewer": "Acceso de solo lectura para ver los datos del equipo y de la página de estado."
-        }
+        },
+        "audit_logs": "Registros de auditoría",
+        "view_logs": "Ver registros"
       },
       "invite": {
         "form": {
