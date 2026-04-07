@@ -1172,6 +1172,8 @@
       "record_type_label": "Record Type",
       "request_headers_help": "Sent with the request. Not validated unless you add response assertions.",
       "request_headers_label": "Request headers",
+      "request_body_help": "Sent as the raw request body for POST, PUT, and PATCH requests. Set Content-Type header accordingly (e.g. application/json, application/xml).",
+      "request_body_label": "Request Body",
       "request_query_params_help": "Appended to the request URL. Not validated unless you add response assertions.",
       "request_query_params_label": "Request query parameters",
       "request_section_help": "These settings are sent to the target. They are not automatically validated.",

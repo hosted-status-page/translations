@@ -391,6 +391,8 @@
       "request_query_params_help": "تُضاف إلى عنوان URL للطلب. لن يتم التحقق منها إلا إذا أضفت شروط الاستجابة.",
       "request_headers_label": "الرؤوس (الطلب)",
       "request_headers_help": "تُرسل مع الطلب. لن يتم التحقق منها إلا إذا أضفت شروط الاستجابة.",
+      "request_body_label": "جسم الطلب",
+      "request_body_help": "يُرسل كجسم طلب خام لطلبات POST وPUT وPATCH. اضبط ترويسة Content-Type وفقًا لذلك (مثل application/json وapplication/xml).",
       "response_section_title": "شروط الاستجابة",
       "response_section_help": "هذه القواعد تحدد UP/DOWN.",
       "default_success_hint": "التحقق الافتراضي: رمز الحالة 2xx/3xx يعتبر UP.",

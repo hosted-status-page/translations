@@ -395,6 +395,8 @@
       "request_query_params_help": "Aprobado a la URL de solicitud. No validado a menos que agregue afirmaciones de respuesta.",
       "request_headers_label": "Solicitud de encabezados",
       "request_headers_help": "Con la petición. No validado a menos que agregue afirmaciones de respuesta.",
+      "request_body_label": "Cuerpo de la solicitud",
+      "request_body_help": "Se envía como cuerpo sin procesar de la solicitud para las solicitudes POST, PUT y PATCH. Configure el encabezado Content-Type en consecuencia (p. ej. application/json, application/xml).",
       "response_section_title": "Afirmaciones de la respuesta",
       "response_section_help": "Estas reglas deciden UP/DOWN.",
       "default_success_hint": "Verificación por defecto: 2xx/3x código de estado se considera UP.",

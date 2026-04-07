@@ -391,6 +391,8 @@
       "request_query_params_help": "Adicionados à URL da requisição. Não são validados a menos que você adicione validações de resposta.",
       "request_headers_label": "Cabeçalhos da requisição",
       "request_headers_help": "Enviados com a requisição. Não são validados a menos que você adicione validações de resposta.",
+      "request_body_label": "Corpo da requisição",
+      "request_body_help": "Enviado como corpo bruto da requisição para requisições POST, PUT e PATCH. Defina o cabeçalho Content-Type de acordo (ex.: application/json, application/xml).",
       "response_section_title": "Validações da resposta",
       "response_section_help": "Essas regras definem o estado UP/DOWN.",
       "default_success_hint": "Verificação padrão: status 2xx/3xx é considerado UP.",

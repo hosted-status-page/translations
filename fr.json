@@ -392,6 +392,8 @@
       "request_query_params_help": "Ajoutés à l’URL de la requête. Non validés sauf si vous ajoutez des assertions de réponse.",
       "request_headers_label": "En-têtes (requête)",
       "request_headers_help": "Envoyés avec la requête. Non validés sauf si vous ajoutez des assertions de réponse.",
+      "request_body_label": "Corps de la requête",
+      "request_body_help": "Envoyé comme corps brut de la requête pour les requêtes POST, PUT et PATCH. Définissez l’en-tête Content-Type en conséquence (par ex. application/json, application/xml).",
       "response_section_title": "Assertions de réponse",
       "response_section_help": "Ces règles déterminent UP/DOWN.",
       "default_success_hint": "Vérification par défaut : un code 2xx/3xx est considéré comme UP.",

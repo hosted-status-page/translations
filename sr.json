@@ -1155,6 +1155,8 @@
       "record_type_label": "Тип записа",
       "request_headers_help": "Шаљу се са захтевом. Не проверава се осим ако додате провере одговора.",
       "request_headers_label": "Заглавља (захтев)",
+      "request_body_help": "Шаље се као сирово тело захтева за POST, PUT и PATCH захтеве. Подесите заглавље Content-Type у складу са тим (нпр. application/json, application/xml).",
+      "request_body_label": "Тело захтева",
       "request_query_params_help": "Додају се URL-у захтева. Не проверава се осим ако додате провере одговора.",
       "request_query_params_label": "Параметри упита (захтев)",
       "request_section_help": "Ова подешавања се шаљу циљу. Не проверавају се аутоматски.",

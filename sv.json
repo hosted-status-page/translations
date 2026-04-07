@@ -1172,6 +1172,8 @@
       "record_type_label": "Rekordtyp",
       "request_headers_help": "Skicka med begäran. Inte validerat om du inte lägger till svarspåståenden.",
       "request_headers_label": "Begär headers",
+      "request_body_help": "Skickas som rå begärandekropp för POST-, PUT- och PATCH-begäranden. Ange Content-Type-headern därefter (t.ex. application/json, application/xml).",
+      "request_body_label": "Begärandekropp",
       "request_query_params_help": "Appended to the request URL. Not validated unless you add response assertions.",
       "request_query_params_label": "Begär frågor parametrar",
       "request_section_help": "Dessa inställningar skickas till målet. De valideras inte automatiskt.",

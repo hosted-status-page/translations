@@ -391,6 +391,8 @@
       "request_query_params_help": "Wird an die Request-URL angehängt. Nicht validiert, außer du fügst Response-Regeln hinzu.",
       "request_headers_label": "Header (Anfrage)",
       "request_headers_help": "Werden mit der Anfrage gesendet. Nicht validiert, außer du fügst Response-Regeln hinzu.",
+      "request_body_label": "Anfrage-Body",
+      "request_body_help": "Wird als roher Request-Body für POST-, PUT- und PATCH-Anfragen gesendet. Setze den Content-Type-Header entsprechend (z. B. application/json, application/xml).",
       "response_section_title": "Response-Regeln",
       "response_section_help": "Diese Regeln entscheiden über UP/DOWN.",
       "default_success_hint": "Standardprüfung: Ein 2xx/3xx-Statuscode gilt als UP.",
