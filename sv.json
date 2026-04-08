@@ -3734,7 +3734,8 @@
       "recent_agent_checks": "Senaste agentprovningar per region",
       "avg_response_time": "Genomsnittlig svarstid:",
       "no_updates": "Inga uppdateringar registrerade.",
-      "maintenance_title": "Underhåll"
+      "maintenance_title": "Underhåll",
+      "per_region_history": "Historik per region"
     },
     "nav": {
       "status_page": "Statussida",

@@ -3768,7 +3768,8 @@
       "recent_agent_checks": "Verificações recentes do agente por região",
       "avg_response_time": "Tempo médio de resposta:",
       "no_updates": "Nenhuma atualização registrada.",
-      "maintenance_title": "Manutenção"
+      "maintenance_title": "Manutenção",
+      "per_region_history": "Histórico por região"
     },
     "nav": {
       "status_page": "Página de status",

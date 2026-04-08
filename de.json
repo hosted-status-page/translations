@@ -3771,7 +3771,8 @@
       "recent_agent_checks": "Letzte Agent-Prüfungen nach Region",
       "avg_response_time": "Durchschn. Antwortzeit:",
       "no_updates": "Keine Updates aufgezeichnet.",
-      "maintenance_title": "Wartung"
+      "maintenance_title": "Wartung",
+      "per_region_history": "Verlauf nach Region"
     },
     "nav": {
       "status_page": "Statusseite",

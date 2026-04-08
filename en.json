@@ -3737,7 +3737,8 @@
       "recent_agent_checks": "Recent Agent Checks by Region",
       "avg_response_time": "Avg. Response Time:",
       "no_updates": "No updates recorded.",
-      "maintenance_title": "Maintenance"
+      "maintenance_title": "Maintenance",
+      "per_region_history": "Per-region history"
     },
     "nav": {
       "status_page": "Status Page",

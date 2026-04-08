@@ -3784,7 +3784,8 @@
       "recent_agent_checks": "أحدث فحوصات الوكيل حسب المنطقة",
       "avg_response_time": "متوسط وقت الاستجابة:",
       "no_updates": "لا توجد تحديثات مسجلة.",
-      "maintenance_title": "الصيانة"
+      "maintenance_title": "الصيانة",
+      "per_region_history": "السجل حسب المنطقة"
     },
     "nav": {
       "status_page": "صفحة الحالة",

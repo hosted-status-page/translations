@@ -3734,7 +3734,8 @@
       "recent_agent_checks": "Недавне провере агента по регионима",
       "avg_response_time": "Просечно вријеме одговора:",
       "no_updates": "Нема забележених ажурирања.",
-      "maintenance_title": "Одржавање"
+      "maintenance_title": "Одржавање",
+      "per_region_history": "Историја по регионима"
     },
     "nav": {
       "status_page": "Статусна страница",
