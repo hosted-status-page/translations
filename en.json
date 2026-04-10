@@ -18,7 +18,8 @@
       "placeholder": "Help us improve by sharing why you're leaving..."
     },
     "step_up": {
-      "heading": "Confirm your identity to proceed"
+      "heading": "Confirm your identity to proceed",
+      "hint": "Enter at least one of the following to confirm:"
     },
     "delete_button": "Permanently Delete My Account",
     "export_first": {
@@ -645,7 +646,17 @@
     "read_only_maintenances_message": "You can view scheduled maintenances, but your current role does not allow creating or editing them.",
     "read_only_incidents_message": "You can view incidents, but your current role does not allow creating them.",
     "read_only_oncall_edit_message": "You can view this schedule, but your current role does not allow editing it.",
-    "read_only_oncall_incidents_message": "You can view this schedule, but your current role does not allow creating incidents from it."
+    "read_only_oncall_incidents_message": "You can view this schedule, but your current role does not allow creating incidents from it.",
+    "saving": "Saving...",
+    "adding": "Adding...",
+    "checking": "Checking...",
+    "confirm": "Confirm",
+    "copy": "Copy",
+    "deselect_all": "Deselect All",
+    "saved": "Saved",
+    "select_all": "Select All",
+    "setting": "Setting",
+    "skip": "Skip"
   },
   "components": {
     "form": {
@@ -984,7 +995,17 @@
       "started": "Started:",
       "status": "Status:",
       "unhide_button": "👁️",
-      "view_live": "🌐 View Live Incident"
+      "view_live": "🌐 View Live Incident",
+      "hide_confirm_button": "Yes, hide it",
+      "hide_confirm_text": "This will archive it and hide it from the status page’s Recent Incidents. The incident will still be accessible via its direct link.",
+      "hide_confirm_title": "Hide this incident from the status page?",
+      "unhide_confirm_button": "Yes, show it",
+      "unhide_confirm_text": "This will unarchive it and include it in the status page lists again.",
+      "unhide_confirm_title": "Show this incident on the status page?",
+      "hide_reason_label": "Reason (shown publicly, optional)",
+      "hide_reason_placeholder": "Add a short public note about why this incident was archived.",
+      "hide_reason_text": "Optional: explain why this incident was archived. This note will be visible publicly on the incident page.",
+      "hide_reason_title": "Add a public archive reason?"
     },
     "view_incident": "View Incident",
     "active_incidents": "Active Incidents",
@@ -1700,7 +1721,13 @@
       "view_suggestions": "View My Suggestions",
       "whitelisted_description": "You have an increased daily suggestion limit (250/day) for your valuable contributions.",
       "whitelisted_title": "Trusted Translator",
-      "your_drafts": "Your Drafts"
+      "your_drafts": "Your Drafts",
+      "drafts_suffix": "drafts",
+      "failed_update": "Failed to update translator mode",
+      "mode_disabled_text": "Translator features have been disabled.",
+      "mode_disabled_title": "Translator Mode Disabled",
+      "mode_enabled_text": "You can now Ctrl+Shift+Click on any text to suggest translations.",
+      "mode_enabled_title": "Translator Mode Enabled"
     },
     "2fa": {
       "heading": "Two-Factor Authentication"
@@ -1736,7 +1763,14 @@
         "prefix": "Prefix",
         "status": "Status"
       },
-      "token_once_hint": "You will only see the token once."
+      "token_once_hint": "You will only see the token once.",
+      "copy_now": "Copy this key now. You will not see it again.",
+      "created_title": "API key created",
+      "failed_create": "Failed to create API key",
+      "failed_revoke": "Failed to revoke API key",
+      "revoke_confirm_text": "Requests using this key will stop working.",
+      "revoke_confirm_title": "Revoke this API key?",
+      "saved_it": "I have saved it"
     },
     "authenticator_code": "Authenticator code",
     "backup_code": "Backup code",
@@ -2347,7 +2381,19 @@
       "show_daily_pills": "Show Daily Pills",
       "show_response_graph": "Show Response Graph",
       "slug_locked_help": "Slug cannot be changed after creation",
-      "slug_url_prefix": "Your status page URL:"
+      "slug_url_prefix": "Your status page URL:",
+      "restore_modal": {
+        "confirm": "Restore Selected",
+        "current": "Current",
+        "error": "Failed to restore settings.",
+        "no_changes_body": "All saved settings match your current settings.",
+        "no_changes_title": "No Changes",
+        "saved": "Saved",
+        "select_one": "Select at least one setting to restore",
+        "success_body": "Selected settings have been restored.",
+        "success_title": "Restored!",
+        "title": "Restore Previous Settings"
+      }
     },
     "setup_custom_domain": "Set up Custom Domain",
     "showcase_description": "Get featured in our <a href=\"/showcase\" target=\"_blank\">public showcase</a> to demonstrate your commitment to transparency and reliability. This is a great way to build trust with potential customers.",
@@ -2483,7 +2529,35 @@
       },
       "reset_to_defaults": "Reset to Defaults",
       "save_preferences": "Save Preferences",
-      "subtitle": "Select which channels receive alerts from this status page"
+      "subtitle": "Select which channels receive alerts from this status page",
+      "actions": {
+        "linking": "Linking channel...",
+        "unlinking": "Unlinking channel...",
+        "updating": "Updating channel..."
+      },
+      "confirm_unlink": {
+        "confirm": "Unlink",
+        "text": "It will no longer receive notifications from this status page.",
+        "title": "Unlink channel?"
+      },
+      "errors": {
+        "link_failed": "Failed to link channel",
+        "load_failed": "Failed to load notification channels",
+        "save_failed": "Failed to save preferences",
+        "save_failed_with": "Failed to save preferences: {{error}}",
+        "unlink_failed": "Failed to unlink channel",
+        "update_failed": "Failed to update channel"
+      },
+      "messages": {
+        "channel_linked": "Channel linked successfully",
+        "channel_unlinked": "Channel unlinked successfully",
+        "channel_updated": "Channel updated",
+        "preferences_reset": "Preferences reset to defaults",
+        "preferences_saved": "Notification preferences saved"
+      },
+      "no_channels_linked_yet": "No channels linked yet. Click \"{{linkChannelLabel}}\" to add one.",
+      "unlink_title": "Unlink from this status page",
+      "unnamed_channel": "Unnamed Channel"
     },
     "password_help": "Minimum 4 characters. Visitors will need this password to view your status page.",
     "password_protection": "Password Protection",
@@ -2513,7 +2587,28 @@
     "subscribed_on": "Subscribed On",
     "subscriber_list": "Subscriber List",
     "subscribers": {
-      "empty_row": "No subscribers yet"
+      "empty_row": "No subscribers yet",
+      "bulk_delete_confirm": {
+        "confirm": "Delete",
+        "text": "Are you sure you want to delete {{count}} subscriber(s)? This action cannot be undone.",
+        "title": "Delete subscribers?"
+      },
+      "delete_confirm": {
+        "confirm": "Delete",
+        "text": "Are you sure you want to delete subscriber \"{{email}}\"? This action cannot be undone.",
+        "title": "Delete subscriber?"
+      },
+      "deleting_many": "Deleting subscribers...",
+      "deleting_one": "Deleting subscriber...",
+      "errors": {
+        "bulk_delete_error": "An error occurred while deleting subscribers",
+        "bulk_delete_failed": "Failed to delete subscribers",
+        "delete_error": "An error occurred while deleting subscriber",
+        "delete_failed": "Failed to delete subscriber"
+      },
+      "messages": {
+        "deleted_success": "Subscribers deleted successfully"
+      }
     },
     "suppress_non_critical": "Suppress non-critical notifications during specified hours",
     "text_color": "Text Color",
@@ -2557,6 +2652,57 @@
       "dot_monitor_title": "Monitor: {{status}}",
       "dot_simple_title": "Operational (no monitor)",
       "no_override_simple": "— Default (Operational) —"
+    },
+    "showcase": {
+      "errors": {
+        "update_error": "An error occurred while updating showcase settings",
+        "update_failed": "Failed to update showcase settings"
+      },
+      "messages": {
+        "opted_in": "Your status page will appear in the showcase shortly!",
+        "opted_out": "Your status page has been removed from the showcase."
+      },
+      "modal": {
+        "body_featured": "Your status page is currently featured in the showcase.",
+        "body_join": "Feature your status page in our public showcase to demonstrate transparency and build trust with your users.",
+        "description_help": "A brief description of your business to display in the showcase (max 500 characters)",
+        "description_label": "Description (optional)",
+        "description_placeholder": "Describe your business or service...",
+        "homepage_help": "Display a link to your main website in the showcase",
+        "homepage_label": "Homepage URL (optional)",
+        "homepage_placeholder": "https://yourcompany.com",
+        "opt_in_label": "Show my status page in the showcase",
+        "title_join": "Join the Showcase",
+        "title_settings": "Showcase Settings"
+      }
+    },
+    "transfer": {
+      "cancel_confirm": {
+        "confirm": "Yes, cancel it!",
+        "text": "Are you sure you want to cancel the pending ownership transfer?",
+        "title": "Cancel Transfer?"
+      },
+      "errors": {
+        "cancel_failed": "Failed to cancel transfer.",
+        "email_not_deliverable": "Email address does not appear to be deliverable. Please check the address.",
+        "failed_title": "Transfer Failed",
+        "initiate_failed": "Failed to initiate transfer",
+        "missing_info_body": "Please provide both recipient email and your password.",
+        "missing_info_title": "Missing Information"
+      },
+      "messages": {
+        "cancelled_body": "The transfer has been cancelled.",
+        "cancelled_title": "Cancelled!",
+        "initiated_body": "Transfer invitation sent successfully.",
+        "initiated_title": "Transfer Initiated"
+      },
+      "progress": {
+        "cancelling": "Cancelling...",
+        "transferring_body": "Initiating ownership transfer...",
+        "transferring_title": "Transferring...",
+        "validating_body": "Checking email deliverability...",
+        "validating_title": "Validating..."
+      }
     }
   },
   "runbooks": {
@@ -2871,6 +3017,11 @@
         "resend_coming_soon": {
           "text": "Resend invitation feature will be available soon.",
           "title": "Coming Soon"
+        },
+        "resend": {
+          "confirm": "Yes, resend",
+          "text": "A new invitation email will be sent and the expiry will be extended.",
+          "title": "Resend Invitation?"
         }
       },
       "invite": {
@@ -3372,7 +3523,9 @@
       },
       "subject": "Subject",
       "your_ssl_monitors": "Your SSL Monitors"
-    }
+    },
+    "cached_result": "Cached Result",
+    "unable_retrieve_details": "Unable to retrieve registration details."
   },
   "translator": {
     "admin_notes": "Admin Notes:",
@@ -3980,5 +4133,11 @@
   "validation": {
     "invalid": "✗ Invalid",
     "valid": "✓ Valid"
+  },
+  "time": {
+    "days_ago": "__N__ days ago",
+    "hours_ago": "__N__ hr ago",
+    "just_now": "just now",
+    "minutes_ago": "__N__ min ago"
   }
 }

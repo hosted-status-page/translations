@@ -329,7 +329,9 @@
       },
       "subject": "Thema",
       "your_ssl_monitors": "Deine SSL-Monitore"
-    }
+    },
+    "cached_result": "Zwischengespeichertes Ergebnis",
+    "unable_retrieve_details": "Registrierungsdetails konnten nicht abgerufen werden."
   },
   "monitors": {
     "add_monitor": "Monitor hinzufügen",
@@ -669,7 +671,10 @@
         "no_restrictions_note": "Keine Einschränkungen festgelegt. Alle Seiteneditoren können diese Gruppe ändern. Fügen Sie mindestens ein Mitglied hinzu, um den Zugriff einzuschränken.",
         "member": "Mitglied",
         "empty": "Keine Mitglieder zugewiesen.",
-        "select_member_error": "Bitte wählen Sie ein Mitglied aus"
+        "select_member_error": "Bitte wählen Sie ein Mitglied aus",
+        "add_failed": "Hinzufügen fehlgeschlagen",
+        "load_failed": "Berechtigungen konnten nicht geladen werden.",
+        "remove_failed": "Entfernen fehlgeschlagen"
       }
     },
     "groups_optional": "Gruppen sind optional – Komponenten ohne Gruppen werden separat angezeigt",
@@ -945,6 +950,18 @@
           "placeholder": "acme.com&#10;partner.org",
           "help": "Eine Domain pro Zeile. Wenn diese Option festgelegt ist, wird jedem SSO-Benutzer (Azure AD, Google, OIDC), dessen E-Mail-Adresse nicht in dieser Liste enthalten ist, der Zugriff verweigert. Lassen Sie das Feld leer, um alle Domänen zuzulassen."
         }
+      },
+      "restore_modal": {
+        "confirm": "Auswahl wiederherstellen",
+        "current": "Aktuell",
+        "error": "Einstellungen konnten nicht wiederhergestellt werden.",
+        "no_changes_body": "Alle gespeicherten Einstellungen entsprechen Ihren aktuellen Einstellungen.",
+        "no_changes_title": "Keine Änderungen",
+        "saved": "Gespeichert",
+        "select_one": "Wählen Sie mindestens eine Einstellung zur Wiederherstellung aus",
+        "success_body": "Die ausgewählten Einstellungen wurden wiederhergestellt.",
+        "success_title": "Wiederhergestellt!",
+        "title": "Vorherige Einstellungen wiederherstellen"
       }
     },
     "custom_domain": {
@@ -1188,7 +1205,35 @@
       },
       "reset_to_defaults": "Auf Standard zurücksetzen",
       "save_preferences": "Einstellungen speichern",
-      "subtitle": "Wählen Sie aus, welche Kanäle Benachrichtigungen von dieser Statusseite erhalten"
+      "subtitle": "Wählen Sie aus, welche Kanäle Benachrichtigungen von dieser Statusseite erhalten",
+      "actions": {
+        "linking": "Kanal wird verknüpft...",
+        "unlinking": "Kanal wird getrennt...",
+        "updating": "Kanal wird aktualisiert..."
+      },
+      "confirm_unlink": {
+        "confirm": "Trennen",
+        "text": "Er erhält dann keine Benachrichtigungen mehr von dieser Statusseite.",
+        "title": "Kanal trennen?"
+      },
+      "errors": {
+        "link_failed": "Kanal konnte nicht verknüpft werden",
+        "load_failed": "Benachrichtigungskanäle konnten nicht geladen werden",
+        "save_failed": "Einstellungen konnten nicht gespeichert werden",
+        "save_failed_with": "Einstellungen konnten nicht gespeichert werden: {{error}}",
+        "unlink_failed": "Kanal konnte nicht getrennt werden",
+        "update_failed": "Kanal konnte nicht aktualisiert werden"
+      },
+      "messages": {
+        "channel_linked": "Kanal erfolgreich verknüpft",
+        "channel_unlinked": "Kanal erfolgreich getrennt",
+        "channel_updated": "Kanal aktualisiert",
+        "preferences_reset": "Einstellungen auf Standard zurückgesetzt",
+        "preferences_saved": "Benachrichtigungseinstellungen gespeichert"
+      },
+      "no_channels_linked_yet": "Noch keine Kanäle verknüpft. Klicken Sie auf \"{{linkChannelLabel}}\", um einen hinzuzufügen.",
+      "unlink_title": "Von dieser Statusseite trennen",
+      "unnamed_channel": "Unbenannter Kanal"
     },
     "password_help": "Mindestens 4 Zeichen. Besucher benötigen dieses Passwort, um Ihre Statusseite anzuzeigen.",
     "password_protection": "Passwortschutz",
@@ -1218,7 +1263,28 @@
     "subscribed_on": "Abonniert am",
     "subscriber_list": "Abonnentenliste",
     "subscribers": {
-      "empty_row": "Noch keine Abonnenten"
+      "empty_row": "Noch keine Abonnenten",
+      "bulk_delete_confirm": {
+        "confirm": "Löschen",
+        "text": "Möchten Sie wirklich {{count}} Abonnent(en) löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+        "title": "Abonnenten löschen?"
+      },
+      "delete_confirm": {
+        "confirm": "Löschen",
+        "text": "Möchten Sie den Abonnenten \"{{email}}\" wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+        "title": "Abonnent löschen?"
+      },
+      "deleting_many": "Abonnenten werden gelöscht...",
+      "deleting_one": "Abonnent wird gelöscht...",
+      "errors": {
+        "bulk_delete_error": "Beim Löschen der Abonnenten ist ein Fehler aufgetreten",
+        "bulk_delete_failed": "Abonnenten konnten nicht gelöscht werden",
+        "delete_error": "Beim Löschen des Abonnenten ist ein Fehler aufgetreten",
+        "delete_failed": "Abonnent konnte nicht gelöscht werden"
+      },
+      "messages": {
+        "deleted_success": "Abonnenten erfolgreich gelöscht"
+      }
     },
     "suppress_non_critical": "Nicht kritische Benachrichtigungen während der angegebenen Stunden unterdrücken",
     "text_color": "Textfarbe",
@@ -1262,6 +1328,57 @@
       "dot_monitor_title": "Monitor: {{status}}",
       "dot_simple_title": "Betriebsbereit (ohne Monitor)",
       "no_override_simple": "— Standard (Betriebsbereit) —"
+    },
+    "showcase": {
+      "errors": {
+        "update_error": "Beim Aktualisieren der Showcase-Einstellungen ist ein Fehler aufgetreten",
+        "update_failed": "Showcase-Einstellungen konnten nicht aktualisiert werden"
+      },
+      "messages": {
+        "opted_in": "Ihre Statusseite wird bald im Showcase erscheinen!",
+        "opted_out": "Ihre Statusseite wurde aus dem Showcase entfernt."
+      },
+      "modal": {
+        "body_featured": "Ihre Statusseite ist derzeit im Showcase enthalten.",
+        "body_join": "Präsentieren Sie Ihre Statusseite in unserem öffentlichen Showcase, um Transparenz zu demonstrieren und Vertrauen aufzubauen.",
+        "description_help": "Kurze Beschreibung Ihres Unternehmens für das Showcase (max. 500 Zeichen)",
+        "description_label": "Beschreibung (optional)",
+        "description_placeholder": "Beschreiben Sie Ihr Unternehmen oder Ihren Service...",
+        "homepage_help": "Link zu Ihrer Hauptwebsite im Showcase anzeigen",
+        "homepage_label": "Homepage-URL (optional)",
+        "homepage_placeholder": "https://yourcompany.com",
+        "opt_in_label": "Meine Statusseite im Showcase anzeigen",
+        "title_join": "Showcase beitreten",
+        "title_settings": "Showcase-Einstellungen"
+      }
+    },
+    "transfer": {
+      "cancel_confirm": {
+        "confirm": "Ja, abbrechen!",
+        "text": "Möchten Sie die ausstehende Eigentumsübertragung wirklich abbrechen?",
+        "title": "Übertragung abbrechen?"
+      },
+      "errors": {
+        "cancel_failed": "Übertragung konnte nicht abgebrochen werden.",
+        "email_not_deliverable": "Die E-Mail-Adresse scheint nicht zustellbar zu sein. Bitte überprüfen Sie die Adresse.",
+        "failed_title": "Übertragung fehlgeschlagen",
+        "initiate_failed": "Übertragung konnte nicht gestartet werden",
+        "missing_info_body": "Bitte geben Sie sowohl die Empfänger-E-Mail als auch Ihr Passwort an.",
+        "missing_info_title": "Fehlende Angaben"
+      },
+      "messages": {
+        "cancelled_body": "Die Übertragung wurde abgebrochen.",
+        "cancelled_title": "Abgebrochen!",
+        "initiated_body": "Einladungslink wurde erfolgreich gesendet.",
+        "initiated_title": "Übertragung gestartet"
+      },
+      "progress": {
+        "cancelling": "Wird abgebrochen...",
+        "transferring_body": "Eigentumsübertragung wird gestartet...",
+        "transferring_title": "Übertragung läuft...",
+        "validating_body": "E-Mail-Zustellbarkeit wird geprüft...",
+        "validating_title": "Wird geprüft..."
+      }
     }
   },
   "components": {
@@ -1326,7 +1443,17 @@
       "started": "Begonnen",
       "status": "Status",
       "unhide_button": "👁️ Auf Statusseite anzeigen",
-      "view_live": "🌐 Live-Vorfall anzeigen"
+      "view_live": "🌐 Live-Vorfall anzeigen",
+      "hide_confirm_button": "Ja, ausblenden",
+      "hide_confirm_text": "Dadurch wird er archiviert und in den „Letzten Vorfällen“ der Statusseite ausgeblendet. Der Vorfall bleibt über seinen Direktlink erreichbar.",
+      "hide_confirm_title": "Diesen Vorfall auf der Statusseite ausblenden?",
+      "unhide_confirm_button": "Ja, anzeigen",
+      "unhide_confirm_text": "Dadurch wird er aus dem Archiv geholt und wieder in den Listen der Statusseite angezeigt.",
+      "unhide_confirm_title": "Diesen Vorfall auf der Statusseite anzeigen?",
+      "hide_reason_label": "Grund (öffentlich sichtbar, optional)",
+      "hide_reason_placeholder": "Fügen Sie eine kurze öffentliche Notiz hinzu, warum dieser Vorfall archiviert wurde.",
+      "hide_reason_text": "Optional: Erklären Sie, warum dieser Vorfall archiviert wurde. Diese Notiz wird auf der Vorfallsseite öffentlich sichtbar sein.",
+      "hide_reason_title": "Einen öffentlichen Archivierungsgrund hinzufügen?"
     },
     "create_incident": "Vorfall erstellen",
     "incident_details": "Vorfalldetails",
@@ -1620,7 +1747,8 @@
       "sms_vonage_required": "Bitte geben Sie Vonage API-Schlüssel und API-Geheimnis ein",
       "webhook_url_required": "Bitte geben Sie eine Webhook-URL ein",
       "invalid_headers_json": "Ungültiges JSON in den benutzerdefinierten Headern",
-      "invalid_email_format": "Ungültiges E-Mail-Format: {{email}}"
+      "invalid_email_format": "Ungültiges E-Mail-Format: {{email}}",
+      "email_recipient_required": "Bitte geben Sie mindestens einen E-Mail-Empfänger ein"
     },
     "messages": {
       "load_failed": "Kanäle konnten nicht geladen werden",
@@ -2031,6 +2159,11 @@
         },
         "errors": {
           "failed_cancel": "Einladung konnte nicht abgebrochen werden"
+        },
+        "resend": {
+          "confirm": "Ja, erneut senden",
+          "text": "Eine neue Einladungs-E-Mail wird gesendet und das Ablaufdatum wird verlängert.",
+          "title": "Einladung erneut senden?"
         }
       },
       "status_pages": {
@@ -2334,7 +2467,14 @@
         "prefix": "Präfix",
         "status": "Status"
       },
-      "token_once_hint": "Sie sehen das Token nur einmal."
+      "token_once_hint": "Sie sehen das Token nur einmal.",
+      "copy_now": "Kopieren Sie diesen Schlüssel jetzt. Sie werden ihn nicht noch einmal sehen.",
+      "created_title": "API-Schlüssel erstellt",
+      "failed_create": "API-Schlüssel konnte nicht erstellt werden",
+      "failed_revoke": "API-Schlüssel konnte nicht widerrufen werden",
+      "revoke_confirm_text": "Anfragen mit diesem Schlüssel funktionieren dann nicht mehr.",
+      "revoke_confirm_title": "Diesen API-Schlüssel widerrufen?",
+      "saved_it": "Ich habe ihn gespeichert"
     },
     "two_factor_auth_description": "Die Zwei-Faktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene für Ihr Konto, indem sie beim Anmelden mehr als nur ein Passwort erfordert.",
     "set_up_authenticator_app": "Authenticator-App einrichten",
@@ -2447,7 +2587,13 @@
       "daily_quota": "Tägliches Kontingent",
       "suggestions_per_day": "Vorschläge/Tag",
       "your_drafts": "Ihre Entwürfe",
-      "view_suggestions": "Meine Vorschläge anzeigen"
+      "view_suggestions": "Meine Vorschläge anzeigen",
+      "drafts_suffix": "Entwürfe",
+      "failed_update": "Übersetzungsmodus konnte nicht aktualisiert werden",
+      "mode_disabled_text": "Die Übersetzerfunktionen wurden deaktiviert.",
+      "mode_disabled_title": "Übersetzungsmodus deaktiviert",
+      "mode_enabled_text": "Sie können jetzt mit Strg+Umschalt+Klick auf beliebigen Text Übersetzungsvorschläge machen.",
+      "mode_enabled_title": "Übersetzungsmodus aktiviert"
     },
     "2fa": {
       "heading": "Zwei-Faktor-Authentifizierung"
@@ -2573,7 +2719,8 @@
       "placeholder": "Hilf uns, besser zu werden, indem du sagst, warum du gehst..."
     },
     "step_up": {
-      "heading": "Bestätigen Sie Ihre Identität, um fortzufahren"
+      "heading": "Bestätigen Sie Ihre Identität, um fortzufahren",
+      "hint": "Geben Sie zur Bestätigung mindestens eine der folgenden Angaben ein:"
     },
     "delete_button": "Mein Konto dauerhaft löschen",
     "swal": {
@@ -2931,7 +3078,17 @@
     "read_only_maintenances_message": "Sie können geplante Wartungsarbeiten anzeigen, Ihre aktuelle Rolle erlaubt jedoch nicht, diese zu erstellen oder zu bearbeiten.",
     "read_only_incidents_message": "Sie können Vorfälle anzeigen, aber Ihre aktuelle Rolle lässt das Erstellen dieser Vorfälle nicht zu.",
     "read_only_oncall_edit_message": "Sie können diesen Zeitplan anzeigen, Ihre aktuelle Rolle erlaubt jedoch keine Bearbeitung.",
-    "read_only_oncall_incidents_message": "Sie können diesen Zeitplan anzeigen, Ihre aktuelle Rolle erlaubt jedoch keine Erstellung von Vorfällen daraus."
+    "read_only_oncall_incidents_message": "Sie können diesen Zeitplan anzeigen, Ihre aktuelle Rolle erlaubt jedoch keine Erstellung von Vorfällen daraus.",
+    "saving": "Speichern...",
+    "adding": "Wird hinzugefügt...",
+    "checking": "Wird geprüft...",
+    "confirm": "Bestätigen",
+    "copy": "Kopieren",
+    "deselect_all": "Alle abwählen",
+    "saved": "Gespeichert",
+    "select_all": "Alle auswählen",
+    "setting": "Einstellung",
+    "skip": "Überspringen"
   },
   "dashboard": {
     "no_active_incidents_help": "Keine aktiven Vorfälle. Weiter so — fügen Sie einen Monitor hinzu oder teilen Sie eine Statusseite.",
@@ -4014,5 +4171,11 @@
   "validation": {
     "invalid": "✗ Ungültig",
     "valid": "✓ Gültig"
+  },
+  "time": {
+    "days_ago": "vor __N__ Tagen",
+    "hours_ago": "vor __N__ Std.",
+    "just_now": "gerade eben",
+    "minutes_ago": "vor __N__ Min."
   }
 }

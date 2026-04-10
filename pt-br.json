@@ -329,7 +329,9 @@
       },
       "subject": "Assunto",
       "your_ssl_monitors": "Seus monitores SSL"
-    }
+    },
+    "cached_result": "Resultado em cache",
+    "unable_retrieve_details": "Não foi possível obter os detalhes de registro."
   },
   "monitors": {
     "add_monitor": "Adicionar monitor",
@@ -665,7 +667,10 @@
         "no_restrictions_note": "Nenhuma restrição definida. Todos os editores de páginas podem modificar este grupo. Adicione pelo menos um membro para restringir o acesso.",
         "member": "Membro",
         "empty": "Nenhum membro atribuído.",
-        "select_member_error": "Selecione um membro"
+        "select_member_error": "Selecione um membro",
+        "add_failed": "Falha ao adicionar",
+        "load_failed": "Falha ao carregar permissões.",
+        "remove_failed": "Falha ao remover"
       }
     },
     "organize_help": "Organize sua página de status com componentes e grupos opcionais",
@@ -945,6 +950,18 @@
           "placeholder": "acme.com&#10;partner.org",
           "help": "Um domínio por linha. Quando definido, qualquer usuário SSO (Azure AD, Google, OIDC) cujo email não esteja nesta lista terá acesso negado. Deixe em branco para permitir todos os domínios."
         }
+      },
+      "restore_modal": {
+        "confirm": "Restaurar selecionados",
+        "current": "Atual",
+        "error": "Falha ao restaurar configurações.",
+        "no_changes_body": "Todas as configurações salvas correspondem às suas configurações atuais.",
+        "no_changes_title": "Sem alterações",
+        "saved": "Salvo",
+        "select_one": "Selecione pelo menos uma configuração para restaurar",
+        "success_body": "As configurações selecionadas foram restauradas.",
+        "success_title": "Restaurado!",
+        "title": "Restaurar configurações anteriores"
       }
     },
     "custom_domain": {
@@ -1188,7 +1205,35 @@
       },
       "reset_to_defaults": "Restaurar padrões",
       "save_preferences": "Salvar preferências",
-      "subtitle": "Selecione quais canais recebem alertas desta página de status"
+      "subtitle": "Selecione quais canais recebem alertas desta página de status",
+      "actions": {
+        "linking": "Vinculando canal...",
+        "unlinking": "Desvinculando canal...",
+        "updating": "Atualizando canal..."
+      },
+      "confirm_unlink": {
+        "confirm": "Desvincular",
+        "text": "Ele não receberá mais notificações desta página de status.",
+        "title": "Desvincular canal?"
+      },
+      "errors": {
+        "link_failed": "Falha ao vincular canal",
+        "load_failed": "Falha ao carregar canais de notificação",
+        "save_failed": "Falha ao salvar preferências",
+        "save_failed_with": "Falha ao salvar preferências: {{error}}",
+        "unlink_failed": "Falha ao desvincular canal",
+        "update_failed": "Falha ao atualizar canal"
+      },
+      "messages": {
+        "channel_linked": "Canal vinculado com sucesso",
+        "channel_unlinked": "Canal desvinculado com sucesso",
+        "channel_updated": "Canal atualizado",
+        "preferences_reset": "Preferências redefinidas para o padrão",
+        "preferences_saved": "Preferências de notificação salvas"
+      },
+      "no_channels_linked_yet": "Nenhum canal vinculado ainda. Clique em \"{{linkChannelLabel}}\" para adicionar um.",
+      "unlink_title": "Desvincular desta página de status",
+      "unnamed_channel": "Canal sem nome"
     },
     "password_help": "Mínimo de 4 caracteres. Os visitantes precisarão desta senha para visualizar sua página de status.",
     "password_protection": "Proteção por senha",
@@ -1218,7 +1263,28 @@
     "subscribed_on": "Inscreveu-se em",
     "subscriber_list": "Lista de assinantes",
     "subscribers": {
-      "empty_row": "Ainda não há assinantes"
+      "empty_row": "Ainda não há assinantes",
+      "bulk_delete_confirm": {
+        "confirm": "Excluir",
+        "text": "Tem certeza de que deseja excluir {{count}} assinante(s)? Esta ação não pode ser desfeita.",
+        "title": "Excluir assinantes?"
+      },
+      "delete_confirm": {
+        "confirm": "Excluir",
+        "text": "Tem certeza de que deseja excluir o assinante \"{{email}}\"? Esta ação não pode ser desfeita.",
+        "title": "Excluir assinante?"
+      },
+      "deleting_many": "Excluindo assinantes...",
+      "deleting_one": "Excluindo assinante...",
+      "errors": {
+        "bulk_delete_error": "Ocorreu um erro ao excluir os assinantes",
+        "bulk_delete_failed": "Falha ao excluir assinantes",
+        "delete_error": "Ocorreu um erro ao excluir o assinante",
+        "delete_failed": "Falha ao excluir assinante"
+      },
+      "messages": {
+        "deleted_success": "Assinantes excluídos com sucesso"
+      }
     },
     "suppress_non_critical": "Suprimir notificações não críticas durante as horas especificadas",
     "text_color": "Cor do texto",
@@ -1262,6 +1328,57 @@
       "dot_monitor_title": "Monitor: {{status}}",
       "dot_simple_title": "Operacional (sem monitor)",
       "no_override_simple": "— Padrão (Operacional) —"
+    },
+    "showcase": {
+      "errors": {
+        "update_error": "Ocorreu um erro ao atualizar as configurações do showcase",
+        "update_failed": "Falha ao atualizar as configurações do showcase"
+      },
+      "messages": {
+        "opted_in": "Sua página de status aparecerá no showcase em breve!",
+        "opted_out": "Sua página de status foi removida do showcase."
+      },
+      "modal": {
+        "body_featured": "Sua página de status está atualmente em destaque no showcase.",
+        "body_join": "Destaque sua página de status em nosso showcase público para demonstrar transparência e gerar confiança com seus usuários.",
+        "description_help": "Uma breve descrição do seu negócio para exibir no showcase (máx. 500 caracteres)",
+        "description_label": "Descrição (opcional)",
+        "description_placeholder": "Descreva seu negócio ou serviço...",
+        "homepage_help": "Exibir um link para seu site principal no showcase",
+        "homepage_label": "URL da página inicial (opcional)",
+        "homepage_placeholder": "https://suaempresa.com",
+        "opt_in_label": "Mostrar minha página de status no showcase",
+        "title_join": "Entrar no showcase",
+        "title_settings": "Configurações do showcase"
+      }
+    },
+    "transfer": {
+      "cancel_confirm": {
+        "confirm": "Sim, cancelar",
+        "text": "Tem certeza de que deseja cancelar a transferência de propriedade pendente?",
+        "title": "Cancelar transferência?"
+      },
+      "errors": {
+        "cancel_failed": "Falha ao cancelar a transferência.",
+        "email_not_deliverable": "O endereço de e-mail não parece ser entregável. Verifique o endereço.",
+        "failed_title": "Falha na transferência",
+        "initiate_failed": "Falha ao iniciar a transferência",
+        "missing_info_body": "Forneça o e-mail do destinatário e sua senha.",
+        "missing_info_title": "Informações ausentes"
+      },
+      "messages": {
+        "cancelled_body": "A transferência foi cancelada.",
+        "cancelled_title": "Cancelada!",
+        "initiated_body": "Convite de transferência enviado com sucesso.",
+        "initiated_title": "Transferência iniciada"
+      },
+      "progress": {
+        "cancelling": "Cancelando...",
+        "transferring_body": "Iniciando a transferência de propriedade...",
+        "transferring_title": "Transferindo...",
+        "validating_body": "Verificando a entregabilidade do e-mail...",
+        "validating_title": "Validando..."
+      }
     }
   },
   "components": {
@@ -1326,7 +1443,17 @@
       "started": "Iniciado:",
       "status": "Status:",
       "unhide_button": "👁️ Mostrar na página de status",
-      "view_live": "🌐 Ver incidente ao vivo"
+      "view_live": "🌐 Ver incidente ao vivo",
+      "hide_confirm_button": "Sim, ocultar",
+      "hide_confirm_text": "Isso vai arquivá-lo e ocultá-lo dos Incidentes recentes da página de status. O incidente continuará acessível pelo link direto.",
+      "hide_confirm_title": "Ocultar este incidente da página de status?",
+      "unhide_confirm_button": "Sim, mostrar",
+      "unhide_confirm_text": "Isso vai desarquivá-lo e incluí-lo novamente nas listas da página de status.",
+      "unhide_confirm_title": "Mostrar este incidente na página de status?",
+      "hide_reason_label": "Motivo (mostrado publicamente, opcional)",
+      "hide_reason_placeholder": "Adicione uma breve nota pública sobre por que este incidente foi arquivado.",
+      "hide_reason_text": "Opcional: explique por que este incidente foi arquivado. Esta nota ficará visível publicamente na página do incidente.",
+      "hide_reason_title": "Adicionar um motivo público para o arquivamento?"
     },
     "create_incident": "Criar Incidente",
     "incident_details": "Detalhes do Incidente",
@@ -2027,6 +2154,11 @@
         },
         "errors": {
           "failed_cancel": "Falha ao cancelar convite"
+        },
+        "resend": {
+          "confirm": "Sim, reenviar",
+          "text": "Um novo e-mail de convite será enviado e o prazo de expiração será estendido.",
+          "title": "Reenviar convite?"
         }
       },
       "status_pages": {
@@ -2339,7 +2471,14 @@
         "prefix": "Prefixo",
         "status": "Status"
       },
-      "token_once_hint": "Você só verá o token uma vez."
+      "token_once_hint": "Você só verá o token uma vez.",
+      "copy_now": "Copie esta chave agora. Você não a verá novamente.",
+      "created_title": "Chave de API criada",
+      "failed_create": "Falha ao criar chave de API",
+      "failed_revoke": "Falha ao revogar chave de API",
+      "revoke_confirm_text": "As solicitações que usam esta chave deixarão de funcionar.",
+      "revoke_confirm_title": "Revogar esta chave de API?",
+      "saved_it": "Já salvei"
     },
     "backup_code_label": "Código de backup (se você não tiver um dispositivo 2FA)",
     "backup_code_placeholder": "Código de backup (opcional)",
@@ -2448,7 +2587,13 @@
       "daily_quota": "Cota Diária",
       "suggestions_per_day": "sugestões/dia",
       "your_drafts": "Seus Rascunhos",
-      "view_suggestions": "Ver Minhas Sugestões"
+      "view_suggestions": "Ver Minhas Sugestões",
+      "drafts_suffix": "rascunhos",
+      "failed_update": "Falha ao atualizar o modo tradutor",
+      "mode_disabled_text": "Os recursos do tradutor foram desativados.",
+      "mode_disabled_title": "Modo tradutor desativado",
+      "mode_enabled_text": "Agora você pode usar Ctrl+Shift+Clique em qualquer texto para sugerir traduções.",
+      "mode_enabled_title": "Modo tradutor ativado"
     },
     "2fa": {
       "heading": "Autenticação de dois fatores"
@@ -2574,7 +2719,8 @@
       "placeholder": "Ajude-nos a melhorar compartilhando por que você está saindo..."
     },
     "step_up": {
-      "heading": "Confirme sua identidade para continuar"
+      "heading": "Confirme sua identidade para continuar",
+      "hint": "Digite pelo menos uma das opções a seguir para confirmar:"
     },
     "delete_button": "Excluir minha conta permanentemente",
     "swal": {
@@ -2932,7 +3078,17 @@
     "read_only_maintenances_message": "Você pode visualizar as manutenções agendadas, mas sua função atual não permite criá-las ou editá-las.",
     "read_only_incidents_message": "Você pode visualizar incidentes, mas sua função atual não permite criá-los.",
     "read_only_oncall_edit_message": "Você pode visualizar esta programação, mas sua função atual não permite editá-la.",
-    "read_only_oncall_incidents_message": "Você pode visualizar esse agendamento, mas sua função atual não permite a criação de incidentes a partir dele."
+    "read_only_oncall_incidents_message": "Você pode visualizar esse agendamento, mas sua função atual não permite a criação de incidentes a partir dele.",
+    "saving": "Salvando...",
+    "adding": "Adicionando...",
+    "checking": "Verificando...",
+    "confirm": "Confirmar",
+    "copy": "Copiar",
+    "deselect_all": "Desmarcar tudo",
+    "saved": "Salvo",
+    "select_all": "Selecionar tudo",
+    "setting": "Configuração",
+    "skip": "Pular"
   },
   "dashboard": {
     "no_active_incidents_help": "Nenhum incidente ativo. Continue — adicione um monitor ou compartilhe uma página de status.",
@@ -4011,5 +4167,11 @@
   "validation": {
     "invalid": "✗ Inválido",
     "valid": "✓ Válido"
+  },
+  "time": {
+    "days_ago": "há __N__ dias",
+    "hours_ago": "há __N__ h",
+    "just_now": "agora mesmo",
+    "minutes_ago": "há __N__ min"
   }
 }

@@ -18,7 +18,8 @@
       "placeholder": "Hjälp oss att förbättra genom att dela varför du lämnar..."
     },
     "step_up": {
-      "heading": "Bekräfta din identitet att fortsätta"
+      "heading": "Bekräfta din identitet att fortsätta",
+      "hint": "Ange minst ett av följande för att bekräfta:"
     },
     "delete_button": "Radera permanent mitt konto",
     "export_first": {
@@ -645,7 +646,17 @@
     "read_only_maintenances_message": "Du kan se schemalagda underhåll, men din nuvarande roll tillåter inte att skapa eller redigera dem.",
     "read_only_incidents_message": "Du kan se incidenter, men din nuvarande roll tillåter inte att skapa dem.",
     "read_only_oncall_edit_message": "Du kan se det här schemat, men din nuvarande roll tillåter inte redigering av det.",
-    "read_only_oncall_incidents_message": "Du kan se det här schemat, men din nuvarande roll tillåter inte att incidenter skapas utifrån det."
+    "read_only_oncall_incidents_message": "Du kan se det här schemat, men din nuvarande roll tillåter inte att incidenter skapas utifrån det.",
+    "saving": "Spara...",
+    "adding": "Lägger till...",
+    "checking": "Kontrollerar...",
+    "confirm": "Bekräfta",
+    "copy": "Kopiera",
+    "deselect_all": "Avmarkera alla",
+    "saved": "Sparat",
+    "select_all": "Markera alla",
+    "setting": "Inställning",
+    "skip": "Hoppa över"
   },
   "components": {
     "form": {
@@ -984,7 +995,17 @@
       "started": "Startat:",
       "status": "Status:",
       "unhide_button": "👁️",
-      "view_live": "Visa Live Incident"
+      "view_live": "Visa Live Incident",
+      "hide_confirm_button": "Ja, göm det",
+      "hide_confirm_text": "Detta kommer att arkivera det och dölja det från statussidans senaste incidenter. Händelsen kommer fortfarande att vara tillgänglig via sin direkta länk.",
+      "hide_confirm_title": "Dölj denna händelse från statussidan?",
+      "unhide_confirm_button": "Ja, visa det",
+      "unhide_confirm_text": "Detta kommer att arkivera det och inkludera det i statussidan listor igen.",
+      "unhide_confirm_title": "Visa denna händelse på statussidan?",
+      "hide_reason_label": "Orsak (visas offentligt, valfritt)",
+      "hide_reason_placeholder": "Lägg till en kort offentlig anteckning om varför denna incident arkiverades.",
+      "hide_reason_text": "Valfritt: förklara varför denna incident arkiverades. Denna anteckning kommer att visas offentligt på incidentsidan.",
+      "hide_reason_title": "Lägga till en offentlig arkiveringsorsak?"
     },
     "view_incident": "Visa incident",
     "active_incidents": "Aktiva incidenter",
@@ -1700,7 +1721,13 @@
       "view_suggestions": "Visa mina förslag",
       "whitelisted_description": "Du har en ökad daglig förslagsgräns (250/dag) för dina värdefulla bidrag.",
       "whitelisted_title": "Trusted översättare",
-      "your_drafts": "Dina utkast"
+      "your_drafts": "Dina utkast",
+      "drafts_suffix": "utkast",
+      "failed_update": "Det gick inte att uppdatera översättarläget",
+      "mode_disabled_text": "Översättarfunktionerna har inaktiverats.",
+      "mode_disabled_title": "Översättarläge inaktiverat",
+      "mode_enabled_text": "Du kan nu Ctrl+Shift+klicka på valfri text för att föreslå översättningar.",
+      "mode_enabled_title": "Översättarläge aktiverat"
     },
     "2fa": {
       "heading": "Tvåfaktorsautentisering"
@@ -1736,7 +1763,14 @@
         "prefix": "Prefix",
         "status": "Status status status"
       },
-      "token_once_hint": "Du kommer bara att se token en gång."
+      "token_once_hint": "Du kommer bara att se token en gång.",
+      "copy_now": "Kopiera den här nyckeln nu. Du kommer inte att se den igen.",
+      "created_title": "API-nyckel skapad",
+      "failed_create": "Det gick inte att skapa API-nyckel",
+      "failed_revoke": "Det gick inte att återkalla API-nyckel",
+      "revoke_confirm_text": "Förfrågningar som använder denna nyckel kommer att sluta fungera.",
+      "revoke_confirm_title": "Återkalla denna API-nyckel?",
+      "saved_it": "Jag har sparat den"
     },
     "authenticator_code": "Authenticatorkod",
     "backup_code": "Backup code",
@@ -2347,7 +2381,19 @@
       "show_daily_pills": "Visa dagliga piller",
       "show_response_graph": "Visa svar Graph",
       "slug_locked_help": "Slug kan inte ändras efter skapelsen",
-      "slug_url_prefix": "Din URL för statussidan:"
+      "slug_url_prefix": "Din URL för statussidan:",
+      "restore_modal": {
+        "confirm": "Återställ markerade",
+        "current": "Nuvarande",
+        "error": "Det gick inte att återställa inställningarna.",
+        "no_changes_body": "Alla sparade inställningar matchar dina nuvarande inställningar.",
+        "no_changes_title": "Inga ändringar",
+        "saved": "Sparat",
+        "select_one": "Välj minst en inställning att återställa",
+        "success_body": "De valda inställningarna har återställts.",
+        "success_title": "Återställd!",
+        "title": "Återställ tidigare inställningar"
+      }
     },
     "setup_custom_domain": "Ställ in anpassad domän",
     "showcase_description": "Bli presenterad i vår <a href=\"/showcase\" target=\"_blank\">offentliga showcase</a> för att visa ditt engagemang för transparens och tillförlitlighet. Det är ett bra sätt att bygga förtroende hos potentiella kunder.",
@@ -2483,7 +2529,35 @@
       },
       "reset_to_defaults": "Återställ till standarder",
       "save_preferences": "Spara preferenser",
-      "subtitle": "Välj vilka kanaler som får varningar från denna statussida"
+      "subtitle": "Välj vilka kanaler som får varningar från denna statussida",
+      "actions": {
+        "linking": "Länkande kanal...",
+        "unlinking": "Unlinking kanal...",
+        "updating": "Uppdatering av kanal..."
+      },
+      "confirm_unlink": {
+        "confirm": "Unlink",
+        "text": "Det kommer inte längre att få meddelanden från denna statussida.",
+        "title": "Unlink kanal?"
+      },
+      "errors": {
+        "link_failed": "Misslyckats med länkkanal",
+        "load_failed": "Underlåtenhet att ladda meddelandekanaler",
+        "save_failed": "Misslyckades med att spara preferenser",
+        "save_failed_with": "Failed to save preferences: {{error}}",
+        "unlink_failed": "Misslyckades med unlink kanal",
+        "update_failed": "Misslyckades med att uppdatera kanalen"
+      },
+      "messages": {
+        "channel_linked": "Kanal kopplad framgångsrikt",
+        "channel_unlinked": "Channel unlinked framgångsrikt",
+        "channel_updated": "Kanal uppdaterad",
+        "preferences_reset": "Föreställningar återställs till standarder",
+        "preferences_saved": "Anmälningsinställningar sparade"
+      },
+      "no_channels_linked_yet": "No channels linked yet. Click \"{{linkChannelLabel}}\" to add one.",
+      "unlink_title": "Unlink från denna status sida",
+      "unnamed_channel": "Namnlös kanal"
     },
     "password_help": "Minsta 4 tecken. Besökare behöver detta lösenord för att visa din statussida.",
     "password_protection": "Lösenordsskydd",
@@ -2513,7 +2587,28 @@
     "subscribed_on": "Prenumererad på",
     "subscriber_list": "Prenumerationslista",
     "subscribers": {
-      "empty_row": "Inga abonnenter ännu"
+      "empty_row": "Inga abonnenter ännu",
+      "bulk_delete_confirm": {
+        "confirm": "Ta bort",
+        "text": "Are you sure you want to delete {{count}} subscriber(s)? This action cannot be undone.",
+        "title": "Ta bort abonnenter?"
+      },
+      "delete_confirm": {
+        "confirm": "Ta bort",
+        "text": "Are you sure you want to delete subscriber \"{{email}}\"? This action cannot be undone.",
+        "title": "Radera abonnent?"
+      },
+      "deleting_many": "Ta bort abonnenter...",
+      "deleting_one": "Radera abonnent...",
+      "errors": {
+        "bulk_delete_error": "Ett fel inträffade när du tar bort abonnenter",
+        "bulk_delete_failed": "Underlåten att ta bort abonnenter",
+        "delete_error": "Ett fel inträffade när du tar bort abonnenten",
+        "delete_failed": "Underlåten att ta bort abonnent"
+      },
+      "messages": {
+        "deleted_success": "Prenumeranter raderade framgångsrikt"
+      }
     },
     "suppress_non_critical": "Undertrycka icke-kritiska meddelanden under angivna timmar",
     "text_color": "Textfärg",
@@ -2557,6 +2652,57 @@
       "dot_monitor_title": "Övervakare: {{status}}",
       "dot_simple_title": "Operativ (ingen bildskärm)",
       "no_override_simple": "- Standard (Operational)"
+    },
+    "showcase": {
+      "errors": {
+        "update_error": "Ett fel inträffade vid uppdatering av showcase inställningar",
+        "update_failed": "Underlåten att uppdatera showcase inställningar"
+      },
+      "messages": {
+        "opted_in": "Din statussida kommer att visas i presentationen kort!",
+        "opted_out": "Din statussida har tagits bort från showcase."
+      },
+      "modal": {
+        "body_featured": "Din statussida finns för närvarande i showcase.",
+        "body_join": "Funktionera din status sida i vår offentliga utställning för att visa öppenhet och bygga förtroende med dina användare.",
+        "description_help": "En kort beskrivning av ditt företag för att visa i utställningen (max 500 tecken)",
+        "description_label": "Beskrivning (valfritt)",
+        "description_placeholder": "Beskriv ditt företag eller din service...",
+        "homepage_help": "Visa en länk till din huvudwebbplats i showcase",
+        "homepage_label": "Homepage URL (optional)",
+        "homepage_placeholder": "https://yourcompany.com",
+        "opt_in_label": "Visa min status sida i showcase",
+        "title_join": "Gå med i showcase",
+        "title_settings": "Showcase Inställningar"
+      }
+    },
+    "transfer": {
+      "cancel_confirm": {
+        "confirm": "Ja, avbryta det!",
+        "text": "Är du säker på att du vill avbryta den väntande ägaröverföringen?",
+        "title": "Avbryt överföring?"
+      },
+      "errors": {
+        "cancel_failed": "Misslyckades med att avbryta överföringen.",
+        "email_not_deliverable": "E-postadressen verkar inte kunna levereras. Vänligen kontrollera adressen.",
+        "failed_title": "Överföring misslyckad",
+        "initiate_failed": "Underlåtenhet att initiera överföring",
+        "missing_info_body": "Vänligen ange både mottagarens e-post och ditt lösenord.",
+        "missing_info_title": "Saknas information"
+      },
+      "messages": {
+        "cancelled_body": "Överföringen har avbrutits.",
+        "cancelled_title": "Avbokad!",
+        "initiated_body": "Överföring inbjudan skickas framgångsrikt.",
+        "initiated_title": "Transfer initierad"
+      },
+      "progress": {
+        "cancelling": "Avbokning...",
+        "transferring_body": "Initiera ägaröverföring...",
+        "transferring_title": "Överföring...",
+        "validating_body": "Kontrollera e-postleverans...",
+        "validating_title": "Validera..."
+      }
     }
   },
   "runbooks": {
@@ -2871,6 +3017,11 @@
         "resend_coming_soon": {
           "text": "Ändra inbjudningsfunktionen kommer snart att finnas tillgänglig.",
           "title": "Kommer snart"
+        },
+        "resend": {
+          "confirm": "Ja, skicka igen",
+          "text": "Ett nytt inbjudningsmejl skickas och giltighetstiden förlängs.",
+          "title": "Skicka inbjudan igen?"
         }
       },
       "invite": {
@@ -3372,7 +3523,9 @@
       },
       "subject": "Subjekt",
       "your_ssl_monitors": "Your SSL Monitors"
-    }
+    },
+    "cached_result": "Cached resultat",
+    "unable_retrieve_details": "Kan inte hämta registreringsuppgifter."
   },
   "translator": {
     "admin_notes": "Admin anteckningar:",
@@ -3977,5 +4130,11 @@
   "validation": {
     "invalid": "Invalid",
     "valid": "✓ Giltigt"
+  },
+  "time": {
+    "days_ago": "för __N__ dagar sedan",
+    "hours_ago": "för __N__ tim sedan",
+    "just_now": "just nu",
+    "minutes_ago": "för __N__ min sedan"
   }
 }

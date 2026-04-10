@@ -306,7 +306,8 @@
       "placeholder": "Pomozite nam da se poboljšamo tako što ćete podeliti zašto odlazite..."
     },
     "step_up": {
-      "heading": "Potvrdite svoj identitet da biste nastavili"
+      "heading": "Potvrdite svoj identitet da biste nastavili",
+      "hint": "Unesite barem jedno od sljedećeg za potvrdu:"
     },
     "delete_button": "Trajno izbrišite moj račun",
     "export_first": {
@@ -933,7 +934,17 @@
     "read_only_maintenances_message": "Možete vidjeti planirana održavanja, ali vaša trenutna uloga ne dopušta njihovo stvaranje ili uređivanje.",
     "read_only_incidents_message": "Možete vidjeti incidente, ali vaša trenutna uloga ne dopušta njihovo stvaranje.",
     "read_only_oncall_edit_message": "Možete vidjeti ovaj raspored, ali vaša trenutna uloga ne dopušta njegovo uređivanje.",
-    "read_only_oncall_incidents_message": "Možete vidjeti ovaj raspored, ali vaša trenutna uloga ne dopušta stvaranje incidenata iz njega."
+    "read_only_oncall_incidents_message": "Možete vidjeti ovaj raspored, ali vaša trenutna uloga ne dopušta stvaranje incidenata iz njega.",
+    "saving": "Čuvanje...",
+    "adding": "Dodavanje...",
+    "checking": "Provjera...",
+    "confirm": "Potvrdi",
+    "copy": "Kopiraj",
+    "deselect_all": "Poništi odabir svega",
+    "saved": "Spremljeno",
+    "select_all": "Odaberi sve",
+    "setting": "Postavka",
+    "skip": "Preskoči"
   },
   "components": {
     "form": {
@@ -1272,7 +1283,17 @@
       "started": "Počelo",
       "status": "Status",
       "unhide_button": "👁️ Prikaži na status stranici",
-      "view_live": "🌐 Pregled uživo"
+      "view_live": "🌐 Pregled uživo",
+      "hide_confirm_button": "Da, sakrij",
+      "hide_confirm_text": "Ovo će ga arhivirati i sakriti iz „Nedavnih incidenata“ na status stranici. Incident će i dalje biti dostupan preko direktne veze.",
+      "hide_confirm_title": "Sakriti ovaj incident sa status stranice?",
+      "unhide_confirm_button": "Da, prikaži",
+      "unhide_confirm_text": "Ovo će ga izvaditi iz arhive i ponovo uključiti u liste status stranice.",
+      "unhide_confirm_title": "Prikazati ovaj incident na status stranici?",
+      "hide_reason_label": "Razlog (javno prikazan, neobavezno)",
+      "hide_reason_placeholder": "Dodajte kratku javnu napomenu o tome zašto je ovaj incident arhiviran.",
+      "hide_reason_text": "Neobavezno: objasnite zašto je ovaj incident arhiviran. Ova napomena bit će javno vidljiva na stranici incidenta.",
+      "hide_reason_title": "Dodati javni razlog arhiviranja?"
     },
     "view_incident": "Prikaži Incident",
     "active_incidents": "Aktivni incidenti",
@@ -1988,7 +2009,13 @@
       "view_suggestions": "Pogledaj Moje Predloge",
       "whitelisted_description": "Imate povećan dnevni limit predloga (250/dan) za Vaše vredne doprinose.",
       "whitelisted_title": "Pouzdani Prevodilac",
-      "your_drafts": "Vaši Nacrti"
+      "your_drafts": "Vaši Nacrti",
+      "drafts_suffix": "skice",
+      "failed_update": "Nije uspjelo ažuriranje načina prevoditelja",
+      "mode_disabled_text": "Značajke prevoditelja su onemogućene.",
+      "mode_disabled_title": "Način prevoditelja onemogućen",
+      "mode_enabled_text": "Sada možete pritisnuti Ctrl+Shift+klik na bilo koji tekst kako biste predložili prijevode.",
+      "mode_enabled_title": "Način prevoditelja omogućen"
     },
     "2fa": {
       "heading": "Dvofaktorska autentifikacija"
@@ -2028,7 +2055,14 @@
         "prefix": "Prefiks",
         "status": "Status"
       },
-      "token_once_hint": "Token ćete videti samo jednom."
+      "token_once_hint": "Token ćete videti samo jednom.",
+      "copy_now": "Kopirajte ovaj ključ sada. Nećete ga moći ponovno vidjeti.",
+      "created_title": "API ključ je kreiran",
+      "failed_create": "Nije uspjelo kreiranje API ključa",
+      "failed_revoke": "Nije uspjelo opozivanje API ključa",
+      "revoke_confirm_text": "Zahtjevi koji koriste ovaj ključ prestat će raditi.",
+      "revoke_confirm_title": "Opozvati ovaj API ključ?",
+      "saved_it": "Spremio/la sam ga"
     },
     "backup_code_label": "Rezervni kod (ako nemate 2FA uređaj)",
     "backup_code_placeholder": "Rezervni kod (opcionalno)",
@@ -2260,7 +2294,10 @@
         "no_restrictions_note": "Nema postavljenih ograničenja. Svi urednici stranica mogu mijenjati ovu grupu. Dodajte najmanje jednog člana da biste ograničili pristup.",
         "member": "Član",
         "empty": "Nema dodijeljenih članova.",
-        "select_member_error": "Odaberite člana"
+        "select_member_error": "Odaberite člana",
+        "add_failed": "Dodavanje nije uspjelo",
+        "load_failed": "Nije uspjelo učitavanje dozvola.",
+        "remove_failed": "Uklanjanje nije uspjelo"
       }
     },
     "configure_custom_domain": "Konfiguriši prilagođeni domen",
@@ -2632,6 +2669,18 @@
           "placeholder": "acme.com&#10;partner.org",
           "help": "Jedna domena po retku. Kada je postavljeno, svim SSO korisnicima (Azure AD, Google, OIDC) čija adresa e-pošte nije na ovom popisu bit će odbijen pristup. Ostavite prazno kako biste dopustili sve domene."
         }
+      },
+      "restore_modal": {
+        "confirm": "Vrati odabrano",
+        "current": "Trenutno",
+        "error": "Nije uspjelo vraćanje postavki.",
+        "no_changes_body": "Sve spremljene postavke odgovaraju vašim trenutnim postavkama.",
+        "no_changes_title": "Nema promjena",
+        "saved": "Spremljeno",
+        "select_one": "Odaberite barem jednu postavku za vraćanje",
+        "success_body": "Odabrane postavke su vraćene.",
+        "success_title": "Vraćeno!",
+        "title": "Vrati prethodne postavke"
       }
     },
     "setup_custom_domain": "Podesite prilagođeni domen",
@@ -2768,7 +2817,35 @@
       },
       "reset_to_defaults": "Vrati na podrazumevano",
       "save_preferences": "Sačuvaj postavke",
-      "subtitle": "Izaberite koji kanali primaju obavijesti sa ove status stranice"
+      "subtitle": "Izaberite koji kanali primaju obavijesti sa ove status stranice",
+      "actions": {
+        "linking": "Povezivanje kanala...",
+        "unlinking": "Odpovezivanje kanala...",
+        "updating": "Ažuriranje kanala..."
+      },
+      "confirm_unlink": {
+        "confirm": "Odpoveži",
+        "text": "Više neće primati obavijesti sa ove status stranice.",
+        "title": "Odpoveži kanal?"
+      },
+      "errors": {
+        "link_failed": "Nije uspjelo povezivanje kanala",
+        "load_failed": "Nije uspjelo učitavanje kanala za obavijesti",
+        "save_failed": "Nije uspjelo čuvanje postavki",
+        "save_failed_with": "Nije uspjelo čuvanje postavki: {{error}}",
+        "unlink_failed": "Nije uspjelo odpovezivanje kanala",
+        "update_failed": "Nije uspjelo ažuriranje kanala"
+      },
+      "messages": {
+        "channel_linked": "Kanal je uspješno povezan",
+        "channel_unlinked": "Kanal je uspješno odpovezan",
+        "channel_updated": "Kanal je ažuriran",
+        "preferences_reset": "Postavke su vraćene na podrazumevane",
+        "preferences_saved": "Postavke obavijesti su sačuvane"
+      },
+      "no_channels_linked_yet": "Još nema povezanih kanala. Kliknite na \"{{linkChannelLabel}}\" da dodate jedan.",
+      "unlink_title": "Odpoveži sa ove status stranice",
+      "unnamed_channel": "Kanal bez imena"
     },
     "password_help": "Minimum 4 karaktera. Posetioci će morati da koriste ovu lozinku da bi videli Vašu statusnu stranicu.",
     "password_protection": "Zaštita lozinkom",
@@ -2798,7 +2875,28 @@
     "subscribed_on": "Pretplaćen na",
     "subscriber_list": "Lista pretplatnika",
     "subscribers": {
-      "empty_row": "Još uvek nema pretplatnika"
+      "empty_row": "Još uvek nema pretplatnika",
+      "bulk_delete_confirm": {
+        "confirm": "Izbrišite",
+        "text": "Da li ste sigurni da želite da obrišete {{count}} pretplatnika? Ova radnja se ne može opozvati.",
+        "title": "Obrisati pretplatnike?"
+      },
+      "delete_confirm": {
+        "confirm": "Izbrišite",
+        "text": "Da li ste sigurni da želite da obrišete pretplatnika \"{{email}}\"? Ova radnja se ne može opozvati.",
+        "title": "Obrisati pretplatnika?"
+      },
+      "deleting_many": "Brisanje pretplatnika...",
+      "deleting_one": "Brisanje pretplatnika...",
+      "errors": {
+        "bulk_delete_error": "Došlo je do greške prilikom brisanja pretplatnika",
+        "bulk_delete_failed": "Nije uspjelo brisanje pretplatnika",
+        "delete_error": "Došlo je do greške prilikom brisanja pretplatnika",
+        "delete_failed": "Nije uspjelo brisanje pretplatnika"
+      },
+      "messages": {
+        "deleted_success": "Pretplatnici su uspješno obrisani"
+      }
     },
     "suppress_non_critical": "Potisni nekritična obavijesti tokom određenih sati",
     "text_color": "Boja teksta",
@@ -2842,6 +2940,57 @@
       "dot_monitor_title": "Monitor: {{status}}",
       "dot_simple_title": "Operativno (bez monitora)",
       "no_override_simple": "— Zadano (Operativno) —"
+    },
+    "showcase": {
+      "errors": {
+        "update_error": "Došlo je do greške prilikom ažuriranja postavke prikaza",
+        "update_failed": "Nije uspjelo ažuriranje postavke prikaza"
+      },
+      "messages": {
+        "opted_in": "Vaša status stranica će se uskoro pojaviti u prikazu!",
+        "opted_out": "Vaša status stranica je uklonjena iz prikaza."
+      },
+      "modal": {
+        "body_featured": "Vaša status stranica je trenutno istaknuta u prikazu.",
+        "body_join": "Istaknite Vašu status stranicu u našem javnom prikazu da biste pokazali transparentnost i izgradili poverenje sa korisnicima.",
+        "description_help": "Kratak opis Vašeg biznisa za prikaz (maks. 500 karaktera)",
+        "description_label": "Opis (opciono)",
+        "description_placeholder": "Opišite Vaš biznis ili uslugu...",
+        "homepage_help": "Prikaži link ka Vašem glavnom sajtu u prikazu",
+        "homepage_label": "URL početne stranice (opciono)",
+        "homepage_placeholder": "https://vašakompanija.com",
+        "opt_in_label": "Prikaži moju status stranicu u prikazu",
+        "title_join": "Pridruži se prikazu",
+        "title_settings": "Postavke prikaza"
+      }
+    },
+    "transfer": {
+      "cancel_confirm": {
+        "confirm": "Da, otkaži",
+        "text": "Da li ste sigurni da želite da otkažete prenos vlasništva koji je na čekanju?",
+        "title": "Otkazati prenos?"
+      },
+      "errors": {
+        "cancel_failed": "Nije uspjelo otkazivanje prenosa.",
+        "email_not_deliverable": "Izgleda da adresa e-pošte nije isporučiva. Proverite adresu.",
+        "failed_title": "Prenos nije uspjeo",
+        "initiate_failed": "Nije uspjelo pokretanje prenosa",
+        "missing_info_body": "Navedite e-poštu primaoca i Vašu lozinku.",
+        "missing_info_title": "Nedostaju informacije"
+      },
+      "messages": {
+        "cancelled_body": "Prenos je otkazan.",
+        "cancelled_title": "Otkazano!",
+        "initiated_body": "Pozivnica za prenos je uspješno poslata.",
+        "initiated_title": "Prenos je pokrenut"
+      },
+      "progress": {
+        "cancelling": "Otkazivanje...",
+        "transferring_body": "Pokretanje prenosa vlasništva...",
+        "transferring_title": "Prenos...",
+        "validating_body": "Provjera isporučivosti e-pošte...",
+        "validating_title": "Provjera..."
+      }
     }
   },
   "runbooks": {
@@ -3156,6 +3305,11 @@
         "resend_coming_soon": {
           "text": "Ponovno slanje pozivnice biće dostupno uskoro.",
           "title": "Uskoro"
+        },
+        "resend": {
+          "confirm": "Da, pošalji ponovno",
+          "text": "Poslat će se novi pozivni e-mail i rok isteka će biti produžen.",
+          "title": "Ponovno poslati pozivnicu?"
         }
       },
       "invite": {
@@ -3657,7 +3811,9 @@
       },
       "subject": "Subjekt",
       "your_ssl_monitors": "Vaši SSL monitori"
-    }
+    },
+    "cached_result": "Keširani rezultat",
+    "unable_retrieve_details": "Nije moguće preuzeti detalje registracije."
   },
   "translator": {
     "admin_notes": "Napomene administratora:",
@@ -3977,5 +4133,11 @@
   "validation": {
     "invalid": "✗ Nevažeće",
     "valid": "✓ Važeće"
+  },
+  "time": {
+    "days_ago": "prije __N__ dana",
+    "hours_ago": "prije __N__ sati",
+    "just_now": "upravo sada",
+    "minutes_ago": "prije __N__ min"
   }
 }
