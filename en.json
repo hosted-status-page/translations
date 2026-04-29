@@ -3965,6 +3965,10 @@
       "show_less_updates": "Show less",
       "updates_label": "Updates:"
     },
+    "event": {
+      "show_details": "Show details",
+      "hide_details": "Hide details"
+    },
     "incident_view": {
       "inactive_notice": "This status page is inactive. If you are the site owner, enable it from your status page settings.",
       "breadcrumb_current": "Incident",
