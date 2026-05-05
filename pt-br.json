@@ -1556,6 +1556,7 @@
     "channel_name_label": "Nome do canal",
     "channel_name_help": "Um nome amigável para identificar este canal",
     "channel_type_label": "Tipo de canal",
+    "change_type": "Alterar",
     "delete_modal_title": "Excluir canal",
     "delete_confirm_prefix": "Tem certeza de que deseja excluir",
     "delete_confirm_suffix": "?",
@@ -1664,6 +1665,7 @@
         "ssl_expiring": "SSL prestes a expirar"
       },
       "events_label": "Avise-me sobre estes eventos",
+      "events_optional": "(opcional — por padrão, todos os eventos críticos)",
       "fields": {
         "account_reference": "Referência da conta",
         "account_sid": "ID da conta",
@@ -1722,6 +1724,7 @@
       "saving_action": "Salvando canal de notificação...",
       "deleting": "Excluindo...",
       "deleting_action": "Excluindo canal de notificação...",
+      "preview": "Pré-visualizar mensagem",
       "sending_test": "Enviando notificação de teste...",
       "sending_verification": "Enviando e-mail de verificação..."
     },

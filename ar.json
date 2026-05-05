@@ -1556,6 +1556,7 @@
     "channel_name_label": "اسم القناة",
     "channel_name_help": "اسم سهل للتعرف على هذه القناة",
     "channel_type_label": "نوع القناة",
+    "change_type": "تغيير",
     "delete_modal_title": "حذف القناة",
     "delete_confirm_prefix": "هل أنت متأكد أنك تريد حذف",
     "delete_confirm_suffix": "؟",
@@ -1664,6 +1665,7 @@
         "ssl_expiring": "شهادة SSL على وشك الانتهاء"
       },
       "events_label": "نبّهني لهذه الأحداث",
+      "events_optional": "(اختياري — الوضع الافتراضي هو جميع الأحداث الحرجة)",
       "fields": {
         "account_reference": "مرجع الحساب",
         "account_sid": "معرف معرف الحساب (SID) للحساب",
@@ -1722,6 +1724,7 @@
       "saving_action": "جارٍ حفظ قناة الإشعارات...",
       "deleting": "جارٍ الحذف...",
       "deleting_action": "جارٍ حذف قناة الإشعارات...",
+      "preview": "معاينة الرسالة",
       "sending_test": "جارٍ إرسال إشعار تجريبي...",
       "sending_verification": "جارٍ إرسال بريد التحقق..."
     },

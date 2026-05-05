@@ -1611,6 +1611,7 @@
     "actions": {
       "deleting": "Brisanje...",
       "deleting_action": "Brisanje kanala obaveštavanja...",
+      "preview": "Pregled poruke",
       "saving": "Čuvanje...",
       "saving_action": "Čuvanje kanala obaveštavanja...",
       "sending_test": "Slanje test obavijesti...",
@@ -1624,6 +1625,7 @@
     "channel_name_help": "Prijateljski naziv za identifikaciju ovog kanala",
     "channel_name_label": "Naziv kanala",
     "channel_type_label": "Tip kanala",
+    "change_type": "Promijeni",
     "config": {
       "discord": {
         "heading": "Discord postavke",
@@ -1674,6 +1676,7 @@
         "ssl_expiring": "SSL uskoro istječe"
       },
       "events_label": "Obavijesti me o ovim događajima",
+      "events_optional": "(opcionalno — zadano svi kritični događaji)",
       "fields": {
         "account_reference": "Referenca računa",
         "account_sid": "SID računa",

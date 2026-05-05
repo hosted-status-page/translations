@@ -1323,6 +1323,7 @@
     "actions": {
       "deleting": "Deleting...",
       "deleting_action": "Deleting notification channel...",
+      "preview": "Preview message",
       "saving": "Saving...",
       "saving_action": "Saving notification channel...",
       "sending_test": "Sending test notification...",
@@ -1336,6 +1337,7 @@
     "channel_name_help": "A friendly name to identify this channel",
     "channel_name_label": "Channel Name",
     "channel_type_label": "Channel Type",
+    "change_type": "Change",
     "config": {
       "discord": {
         "heading": "Discord Configuration",
@@ -1386,6 +1388,7 @@
         "ssl_expiring": "SSL Expiring"
       },
       "events_label": "Alert me for these events",
+      "events_optional": "(optional — defaults to all critical events)",
       "fields": {
         "account_reference": "Account Reference",
         "account_sid": "Account SID",

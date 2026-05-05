@@ -1323,6 +1323,7 @@
     "actions": {
       "deleting": "Ta bort...",
       "deleting_action": "Ta bort meddelandekanalen...",
+      "preview": "Förhandsgranska meddelande",
       "saving": "Spara...",
       "saving_action": "Spara meddelandekanal...",
       "sending_test": "Skicka testmeddelande...",
@@ -1336,6 +1337,7 @@
     "channel_name_help": "Ett vänligt namn för att identifiera denna kanal",
     "channel_name_label": "Kanalnamn",
     "channel_type_label": "Kanaltyp",
+    "change_type": "Ändra",
     "config": {
       "discord": {
         "heading": "Disord Configuration",
@@ -1386,6 +1388,7 @@
         "ssl_expiring": "SSL Expiring"
       },
       "events_label": "Varna mig för dessa händelser",
+      "events_optional": "(valfritt — standard är alla kritiska händelser)",
       "fields": {
         "account_reference": "Konto referens",
         "account_sid": "Konto SID",

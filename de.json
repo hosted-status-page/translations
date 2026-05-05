@@ -1556,6 +1556,7 @@
     "channel_name_label": "Kanalname",
     "channel_name_help": "Ein leicht erkennbarer Name für diesen Kanal",
     "channel_type_label": "Kanaltyp",
+    "change_type": "Ändern",
     "delete_modal_title": "Kanal löschen",
     "delete_confirm_prefix": "Möchten Sie",
     "delete_confirm_suffix": " wirklich löschen?",
@@ -1664,6 +1665,7 @@
         "ssl_expiring": "SSL läuft bald ab"
       },
       "events_label": "Benachrichtige mich bei diesen Ereignissen",
+      "events_optional": "(optional — standardmäßig alle kritischen Ereignisse)",
       "fields": {
         "account_reference": "Kontoreferenz",
         "account_sid": "Konto-SID",
@@ -1722,6 +1724,7 @@
       "saving_action": "Benachrichtigungskanal wird gespeichert...",
       "deleting": "Löschen...",
       "deleting_action": "Benachrichtigungskanal wird gelöscht...",
+      "preview": "Nachrichtsvorschau",
       "sending_test": "Testbenachrichtigung wird gesendet...",
       "sending_verification": "Bestätigungs-E-Mail wird gesendet..."
     },
