@@ -1787,9 +1787,11 @@
     },
     "list": {
       "empty_title": "Aucune maintenance planifiée",
-      "heading": "Maintenances planifiées"
+      "heading": "Maintenances planifiées",
+      "upcoming": "À venir"
     },
     "status": {
+      "in_progress": "En cours",
       "ongoing": "En cours",
       "past": "Passée"
     },

@@ -1782,9 +1782,11 @@
     },
     "list": {
       "empty_title": "Nenhuma manutenção agendada",
-      "heading": "Manutenções agendadas"
+      "heading": "Manutenções agendadas",
+      "upcoming": "Próxima"
     },
     "status": {
+      "in_progress": "Em andamento",
       "ongoing": "Em andamento",
       "past": "Passada"
     },

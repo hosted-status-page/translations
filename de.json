@@ -1782,9 +1782,11 @@
     },
     "list": {
       "empty_title": "Keine Wartungen geplant",
-      "heading": "Geplante Wartungen"
+      "heading": "Geplante Wartungen",
+      "upcoming": "Bevorstehend"
     },
     "status": {
+      "in_progress": "In Bearbeitung",
       "ongoing": "Laufend",
       "past": "Vergangen"
     },

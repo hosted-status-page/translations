@@ -1050,9 +1050,11 @@
     },
     "list": {
       "empty_title": "No Maintenance Scheduled",
-      "heading": "Scheduled Maintenances"
+      "heading": "Scheduled Maintenances",
+      "upcoming": "Upcoming"
     },
     "status": {
+      "in_progress": "In Progress",
       "ongoing": "Ongoing",
       "past": "Past"
     },

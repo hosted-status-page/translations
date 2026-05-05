@@ -1786,9 +1786,11 @@
     },
     "list": {
       "empty_title": "No hay mantenimientos programados",
-      "heading": "Mantenimientos programados"
+      "heading": "Mantenimientos programados",
+      "upcoming": "Próximo"
     },
     "status": {
+      "in_progress": "En curso",
       "ongoing": "En curso",
       "past": "Pasado"
     },

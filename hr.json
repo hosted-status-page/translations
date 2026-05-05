@@ -1338,9 +1338,11 @@
     },
     "list": {
       "empty_title": "Nema zakazanih održavanja",
-      "heading": "Zakazana održavanja"
+      "heading": "Zakazana održavanja",
+      "upcoming": "Predstojeće"
     },
     "status": {
+      "in_progress": "U tijeku",
       "ongoing": "U toku",
       "past": "Prošlo"
     },
@@ -1352,7 +1354,6 @@
   },
   "misc": {
     "language_names": {
-      "arabic": "🇸🇦 العربية",
       "croatian": "🇭🇷 Hrvatski",
       "english": "🇺🇸 engleski",
       "french": "🇫🇷 Français",

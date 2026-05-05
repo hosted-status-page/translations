@@ -1050,9 +1050,11 @@
     },
     "list": {
       "empty_title": "Ingen underhållsplanerad",
-      "heading": "Schemalagda underhåll"
+      "heading": "Schemalagda underhåll",
+      "upcoming": "Kommande"
     },
     "status": {
+      "in_progress": "Pågår",
       "ongoing": "Pågående",
       "past": "Förflutet"
     },
@@ -1064,7 +1066,6 @@
   },
   "misc": {
     "language_names": {
-      "arabic": "🇸🇦 العربية",
       "croatian": "Kroatiska",
       "english": "Engelska",
       "french": "Français",
