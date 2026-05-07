@@ -4050,7 +4050,9 @@
       "sign_in": "Melden Sie sich an, um diese Statusseite anzuzeigen",
       "day_uptime_aria": "{{date}} {{percent}}% Verfügbarkeit",
       "showing_last_days_title": "Auf dieser Bildschirmgröße werden die letzten {{days}} Tage angezeigt",
-      "showing_last_days_short": "({{days}} angezeigt)"
+      "showing_last_days_short": "({{days}} angezeigt)",
+      "no_components_note": "Diese Statusseite überwacht noch keine Komponenten.",
+      "no_components_subnote": "Sobald Monitore hinzugefügt werden, erscheinen hier der Verfügbarkeitsverlauf und Vorfallberichte."
     },
     "archive": {
       "meta_incidents_description": "Historisches Vorfallarchiv für {{name}}",

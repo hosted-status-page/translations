@@ -4064,7 +4064,9 @@
       "sign_in": "Connectez-vous pour voir cette page de statut",
       "day_uptime_aria": "{{date}} {{percent}}% de disponibilité",
       "showing_last_days_title": "Affichage des {{days}} derniers jours sur cette taille d'écran",
-      "showing_last_days_short": "({{days}} affichés)"
+      "showing_last_days_short": "({{days}} affichés)",
+      "no_components_note": "Cette page de statut ne surveille encore aucun composant.",
+      "no_components_subnote": "Une fois les moniteurs ajoutés, l'historique de disponibilité et les rapports d'incident apparaîtront ici."
     },
     "archive": {
       "meta_incidents_description": "Archive historique des incidents pour {{name}}",

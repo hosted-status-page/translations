@@ -164,7 +164,9 @@
       "sign_in": "Prijavite se za pregled ove status stranice",
       "day_uptime_aria": "{{date}} {{percent}}% dostupnosti",
       "showing_last_days_title": "Prikazuju se posljednja {{days}} dana na ovoj veličini zaslona",
-      "showing_last_days_short": "({{days}} prikazano)"
+      "showing_last_days_short": "({{days}} prikazano)",
+      "no_components_note": "Ova status stranica još ne prati nijednu komponentu.",
+      "no_components_subnote": "Nakon što se dodaju monitori, ovdje će se prikazati povijest dostupnosti i izvješća o incidentima."
     },
     "archive": {
       "meta_incidents_description": "Povijesna arhiva incidenata za {{name}}",

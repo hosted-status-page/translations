@@ -4062,7 +4062,9 @@
       "sign_in": "سجل الدخول لعرض صفحة الحالة هذه",
       "day_uptime_aria": "{{date}} {{percent}}% وقت تشغيل",
       "showing_last_days_title": "يتم عرض آخر {{days}} يومًا على حجم الشاشة هذا",
-      "showing_last_days_short": "({{days}} معروضة)"
+      "showing_last_days_short": "({{days}} معروضة)",
+      "no_components_note": "لا تراقب صفحة الحالة هذه أي مكونات بعد.",
+      "no_components_subnote": "بمجرد إضافة المراقبات، سيظهر هنا سجل التوافر وتقارير الحوادث."
     },
     "archive": {
       "meta_incidents_description": "أرشيف الحوادث التاريخي لـ {{name}}",

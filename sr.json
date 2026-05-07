@@ -4009,7 +4009,9 @@
       "sign_in": "Пријавите се за приступ овој статусној страници",
       "day_uptime_aria": "{{date}} {{percent}}% доступности",
       "showing_last_days_title": "Приказује се последњих {{days}} дана на овој величини екрана",
-      "showing_last_days_short": "({{days}} приказано)"
+      "showing_last_days_short": "({{days}} приказано)",
+      "no_components_note": "Ова статусна страница још не прати ниједну компоненту.",
+      "no_components_subnote": "Када се додају монитори, овде ће се појавити историја доступности и извештаји о инцидентима."
     },
     "archive": {
       "meta_incidents_description": "Историјска архива инцидената за {{name}}",

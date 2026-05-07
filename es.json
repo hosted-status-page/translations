@@ -4056,7 +4056,9 @@
       "sign_in": "Inicia sesión para ver esta página de estado",
       "day_uptime_aria": "{{date}} {{percent}}% de disponibilidad",
       "showing_last_days_title": "Mostrando los últimos {{days}} días en este tamaño de pantalla",
-      "showing_last_days_short": "({{days}} mostrados)"
+      "showing_last_days_short": "({{days}} mostrados)",
+      "no_components_note": "Esta página de estado aún no supervisa ningún componente.",
+      "no_components_subnote": "Una vez que se agreguen monitores, aquí aparecerán el historial de disponibilidad y los informes de incidentes."
     },
     "archive": {
       "meta_incidents_description": "Archivo histórico de incidentes de {{name}}",

@@ -4016,7 +4016,9 @@
       "sign_in": "Sign in to view this status page",
       "day_uptime_aria": "{{date}} {{percent}}% uptime",
       "showing_last_days_title": "Showing last {{days}} days on this screen size",
-      "showing_last_days_short": "({{days}} shown)"
+      "showing_last_days_short": "({{days}} shown)",
+      "no_components_note": "This status page monitors no components yet.",
+      "no_components_subnote": "Once monitors are added, uptime history and incident reports will appear here."
     },
     "archive": {
       "meta_incidents_description": "Historical incident archive for {{name}}",
