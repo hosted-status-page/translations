@@ -350,7 +350,8 @@
       "purchase_upgrade": "Purchase / Upgrade",
       "request_refund": "Request refund",
       "upgrade_now": "Upgrade now",
-      "upgrade_plan": "Upgrade plan"
+      "upgrade_plan": "Upgrade plan",
+      "update_payment_method": "Update payment method"
     },
     "active_label": "Active:",
     "active_until": "Active until:",
@@ -440,7 +441,12 @@
       "pending": "Pending",
       "processed": "Processed",
       "refunded": "Refunded",
-      "succeeded": "Succeeded"
+      "succeeded": "Succeeded",
+      "draft": "Draft",
+      "incomplete": "Incomplete",
+      "incomplete_expired": "Expired",
+      "uncollectible": "Uncollectible",
+      "voided": "Voided"
     },
     "status_page": "status page",
     "status_pages": "status pages",
