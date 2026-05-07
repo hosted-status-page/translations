@@ -274,6 +274,7 @@
       "retention": {
         "badge_days": "Retention: {{days}} days",
         "badge_unlimited": "Retention: Unlimited",
+        "end_date_clamped": "End date clamped to {{date}} due to retention limits.",
         "start_date_clamped": "Start date clamped to {{date}} due to retention limits."
       },
       "select_status_page": {
@@ -3774,6 +3775,7 @@
     "empty_state": "You haven't scheduled any maintenance events yet.",
     "end_time_utc": "End Time (UTC)",
     "give_clear_title": "Give your maintenance a clear, descriptive title",
+    "maintenance_window": "Maintenance Window",
     "maintenance_updates": "Maintenance Updates",
     "message_optional": "Message (Optional)",
     "post_update": "Post Update",
