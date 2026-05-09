@@ -2832,6 +2832,7 @@
       "upgrade_now": "Mettre à niveau maintenant",
       "request_refund": "Demander un remboursement",
       "upgrade_plan": "Mettre à niveau le forfait",
+      "update_payment_method": "Mettre à jour le moyen de paiement",
       "change_plan": "Changer de forfait",
       "cancel_subscription": "Annuler l’abonnement",
       "explore_plans": "Découvrir les forfaits",
@@ -2876,7 +2877,12 @@
       "processed": "Traité",
       "failed": "Échoué",
       "refunded": "Remboursé",
-      "pending": "En attente"
+      "pending": "En attente",
+      "draft": "Brouillon",
+      "incomplete": "Incomplet",
+      "incomplete_expired": "Expiré",
+      "uncollectible": "Irrécouvrable",
+      "voided": "Annulé"
     },
     "swal": {
       "processing_title": "Traitement...",
@@ -3262,6 +3268,7 @@
       "retention": {
         "badge_days": "Rétention : {{days}} jours",
         "badge_unlimited": "Rétention : illimitée",
+        "end_date_clamped": "La date de fin a été limitée à {{date}} en raison des limites de rétention.",
         "start_date_clamped": "La date de début a été limitée à {{date}} en raison des limites de rétention."
       },
       "table": {
@@ -3829,6 +3836,7 @@
     "empty_state": "Vous n'avez pas encore planifié d'événements de maintenance.",
     "end_time_utc": "Heure de fin (UTC)",
     "give_clear_title": "Donnez à votre maintenance un titre clair et descriptif",
+    "maintenance_window": "Fenêtre de maintenance",
     "maintenance_updates": "Mises à jour de maintenance",
     "message_optional": "Message (optionnel)",
     "post_update": "Publier une mise à jour",
@@ -3995,7 +4003,9 @@
       "close": "Fermer"
     },
     "maintenance": {
+      "active": "Maintenance active",
       "scheduled": "Maintenance planifiée",
+      "upcoming": "Maintenance à venir",
       "upcoming_heading": "Maintenance à venir",
       "no_scheduled": "Aucune maintenance planifiée",
       "no_scheduled_detail": "Aucun événement de maintenance n'est actuellement planifié.",
@@ -4066,7 +4076,17 @@
       "showing_last_days_title": "Affichage des {{days}} derniers jours sur cette taille d'écran",
       "showing_last_days_short": "({{days}} affichés)",
       "no_components_note": "Cette page de statut ne surveille encore aucun composant.",
-      "no_components_subnote": "Une fois les moniteurs ajoutés, l'historique de disponibilité et les rapports d'incident apparaîtront ici."
+      "no_components_subnote": "Une fois les moniteurs ajoutés, l'historique de disponibilité et les rapports d'incident apparaîtront ici.",
+      "components_heading": "Composants"
+    },
+    "private": {
+      "password_label": "Mot de passe",
+      "email_label": "E-mail",
+      "submit": "Déverrouiller",
+      "magic_link_btn": "Envoyer un lien magique",
+      "azure_btn": "Continuer avec Azure AD",
+      "google_btn": "Continuer avec Google",
+      "oidc_btn": "Continuer avec l’authentification unique"
     },
     "archive": {
       "meta_incidents_description": "Archive historique des incidents pour {{name}}",

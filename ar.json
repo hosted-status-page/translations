@@ -2826,6 +2826,7 @@
       "upgrade_now": "الترقية الآن",
       "request_refund": "طلب استرداد",
       "upgrade_plan": "ترقية الخطة",
+      "update_payment_method": "تحديث وسيلة الدفع",
       "change_plan": "تغيير الخطة",
       "cancel_subscription": "إلغاء الاشتراك",
       "explore_plans": "استعراض الخطط",
@@ -2870,7 +2871,12 @@
       "processed": "تمت المعالجة",
       "failed": "فشل",
       "refunded": "مسترد",
-      "pending": "قيد الانتظار"
+      "pending": "قيد الانتظار",
+      "draft": "مسودة",
+      "incomplete": "غير مكتمل",
+      "incomplete_expired": "منتهي الصلاحية",
+      "uncollectible": "غير قابل للتحصيل",
+      "voided": "ملغى"
     },
     "swal": {
       "processing_title": "جارٍ المعالجة...",
@@ -3257,6 +3263,7 @@
       "retention": {
         "badge_days": "الاحتفاظ: {{days}} يومًا",
         "badge_unlimited": "الاحتفاظ: غير محدود",
+        "end_date_clamped": "تم تقييد تاريخ الانتهاء إلى {{date}} بسبب حدود الاحتفاظ.",
         "start_date_clamped": "تم تقييد تاريخ البدء إلى {{date}} بسبب حدود الاحتفاظ."
       },
       "table": {
@@ -3824,6 +3831,7 @@
     "empty_state": "لم تقم بجدولة أي أحداث صيانة حتى الآن.",
     "end_time_utc": "وقت الانتهاء (UTC)",
     "give_clear_title": "امنح عملية الصيانة عنوانًا واضحًا ووصفيًا",
+    "maintenance_window": "نافذة الصيانة",
     "maintenance_updates": "تحديثات الصيانة",
     "message_optional": "رسالة (اختياري)",
     "post_update": "نشر تحديث",
@@ -3993,7 +4001,9 @@
       "close": "إغلاق"
     },
     "maintenance": {
+      "active": "الصيانة النشطة",
       "scheduled": "صيانة مجدولة",
+      "upcoming": "الصيانة القادمة",
       "upcoming_heading": "الصيانة القادمة",
       "no_scheduled": "لا توجد صيانة مجدولة",
       "no_scheduled_detail": "لا توجد حاليًا أي فعاليات صيانة مجدولة.",
@@ -4064,7 +4074,17 @@
       "showing_last_days_title": "يتم عرض آخر {{days}} يومًا على حجم الشاشة هذا",
       "showing_last_days_short": "({{days}} معروضة)",
       "no_components_note": "لا تراقب صفحة الحالة هذه أي مكونات بعد.",
-      "no_components_subnote": "بمجرد إضافة المراقبات، سيظهر هنا سجل التوافر وتقارير الحوادث."
+      "no_components_subnote": "بمجرد إضافة المراقبات، سيظهر هنا سجل التوافر وتقارير الحوادث.",
+      "components_heading": "المكونات"
+    },
+    "private": {
+      "password_label": "كلمة المرور",
+      "email_label": "البريد الإلكتروني",
+      "submit": "فتح القفل",
+      "magic_link_btn": "إرسال رابط سحري",
+      "azure_btn": "المتابعة باستخدام Azure AD",
+      "google_btn": "المتابعة باستخدام Google",
+      "oidc_btn": "المتابعة باستخدام تسجيل الدخول الأحادي"
     },
     "archive": {
       "meta_incidents_description": "أرشيف الحوادث التاريخي لـ {{name}}",

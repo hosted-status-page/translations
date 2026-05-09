@@ -2814,6 +2814,7 @@
       "upgrade_now": "Jetzt upgraden",
       "request_refund": "Rückerstattung anfordern",
       "upgrade_plan": "Plan upgraden",
+      "update_payment_method": "Zahlungsmethode aktualisieren",
       "change_plan": "Plan ändern",
       "cancel_subscription": "Abonnement kündigen",
       "explore_plans": "Pläne ansehen",
@@ -2858,7 +2859,12 @@
       "processed": "Verarbeitet",
       "failed": "Fehlgeschlagen",
       "refunded": "Erstattet",
-      "pending": "Ausstehend"
+      "pending": "Ausstehend",
+      "draft": "Entwurf",
+      "incomplete": "Unvollständig",
+      "incomplete_expired": "Abgelaufen",
+      "uncollectible": "Uneinbringlich",
+      "voided": "Storniert"
     },
     "swal": {
       "processing_title": "Wird verarbeitet...",
@@ -3245,6 +3251,7 @@
       "retention": {
         "badge_days": "Aufbewahrung: {{days}} Tage",
         "badge_unlimited": "Aufbewahrung: Unbegrenzt",
+        "end_date_clamped": "Enddatum wurde aufgrund von Aufbewahrungsgrenzen auf {{date}} begrenzt.",
         "start_date_clamped": "Startdatum wurde aufgrund von Aufbewahrungsgrenzen auf {{date}} begrenzt."
       },
       "table": {
@@ -3812,6 +3819,7 @@
     "empty_state": "Sie haben noch keine Wartungsereignisse geplant.",
     "end_time_utc": "Endzeit (UTC)",
     "give_clear_title": "Geben Sie Ihrer Wartung einen klaren, beschreibenden Titel",
+    "maintenance_window": "Wartungsfenster",
     "maintenance_updates": "Wartungsupdates",
     "message_optional": "Nachricht (optional)",
     "post_update": "Update veröffentlichen",
@@ -3981,7 +3989,9 @@
       "close": "Schließen"
     },
     "maintenance": {
+      "active": "Aktive Wartung",
       "scheduled": "Geplante Wartung",
+      "upcoming": "Bevorstehende Wartung",
       "upcoming_heading": "Bevorstehende Wartung",
       "no_scheduled": "Keine geplante Wartung",
       "no_scheduled_detail": "Derzeit sind keine Wartungsereignisse geplant.",
@@ -4052,7 +4062,17 @@
       "showing_last_days_title": "Auf dieser Bildschirmgröße werden die letzten {{days}} Tage angezeigt",
       "showing_last_days_short": "({{days}} angezeigt)",
       "no_components_note": "Diese Statusseite überwacht noch keine Komponenten.",
-      "no_components_subnote": "Sobald Monitore hinzugefügt werden, erscheinen hier der Verfügbarkeitsverlauf und Vorfallberichte."
+      "no_components_subnote": "Sobald Monitore hinzugefügt werden, erscheinen hier der Verfügbarkeitsverlauf und Vorfallberichte.",
+      "components_heading": "Komponenten"
+    },
+    "private": {
+      "password_label": "Passwort",
+      "email_label": "E-Mail",
+      "submit": "Entsperren",
+      "magic_link_btn": "Magic Link senden",
+      "azure_btn": "Mit Azure AD fortfahren",
+      "google_btn": "Mit Google fortfahren",
+      "oidc_btn": "Mit Single Sign-On fortfahren"
     },
     "archive": {
       "meta_incidents_description": "Historisches Vorfallarchiv für {{name}}",

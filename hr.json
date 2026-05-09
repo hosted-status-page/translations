@@ -95,7 +95,9 @@
       "close": "Zatvori"
     },
     "maintenance": {
+      "active": "Aktivno održavanje",
       "scheduled": "Zakazano održavanje",
+      "upcoming": "Nadolazeće održavanje",
       "upcoming_heading": "Nadolazeće održavanje",
       "no_scheduled": "Nema zakazanog održavanja",
       "no_scheduled_detail": "Trenutno nema zakazanih događaja održavanja.",
@@ -166,7 +168,17 @@
       "showing_last_days_title": "Prikazuju se posljednja {{days}} dana na ovoj veličini zaslona",
       "showing_last_days_short": "({{days}} prikazano)",
       "no_components_note": "Ova status stranica još ne prati nijednu komponentu.",
-      "no_components_subnote": "Nakon što se dodaju monitori, ovdje će se prikazati povijest dostupnosti i izvješća o incidentima."
+      "no_components_subnote": "Nakon što se dodaju monitori, ovdje će se prikazati povijest dostupnosti i izvješća o incidentima.",
+      "components_heading": "Komponente"
+    },
+    "private": {
+      "password_label": "Lozinka",
+      "email_label": "E-pošta",
+      "submit": "Otključaj",
+      "magic_link_btn": "Pošalji magičnu poveznicu",
+      "azure_btn": "Nastavi uz Azure AD",
+      "google_btn": "Nastavi uz Google",
+      "oidc_btn": "Nastavi uz jedinstvenu prijavu"
     },
     "archive": {
       "meta_incidents_description": "Povijesna arhiva incidenata za {{name}}",
@@ -562,6 +574,7 @@
       "retention": {
         "badge_days": "Zadržavanje: {{days}} dana",
         "badge_unlimited": "Zadržavanje: Neograničeno",
+        "end_date_clamped": "Završni datum je ograničen na {{date}} zbog ograničenja zadržavanja.",
         "start_date_clamped": "Početni datum je ograničen na {{date}} zbog ograničenja zadržavanja."
       },
       "select_status_page": {
@@ -639,7 +652,8 @@
       "purchase_upgrade": "Kupi / Nadogradi",
       "request_refund": "Zatraži povraćaj",
       "upgrade_now": "Nadogradi sada",
-      "upgrade_plan": "Nadogradi plan"
+      "upgrade_plan": "Nadogradi plan",
+      "update_payment_method": "Ažuriraj način plaćanja"
     },
     "active_label": "Aktivan:",
     "active_until": "Aktivno do:",
@@ -729,7 +743,12 @@
       "pending": "Na čekanju",
       "processed": "Obrađeno",
       "refunded": "Vraćeno",
-      "succeeded": "Uspješno"
+      "succeeded": "Uspješno",
+      "draft": "Skica",
+      "incomplete": "Nedovršeno",
+      "incomplete_expired": "Isteklo",
+      "uncollectible": "Nenaplativo",
+      "voided": "Poništeno"
     },
     "status_page": "statusna stranica",
     "status_pages": "statusne stranice",
@@ -4063,6 +4082,7 @@
     "empty_state": "Još uvek niste zakazali nijedan događaj održavanja.",
     "end_time_utc": "Vreme završetka (UTC)",
     "give_clear_title": "Dajte svom održavanju jasan i opisan naslov",
+    "maintenance_window": "Prozor održavanja",
     "maintenance_updates": "Ažuriranja održavanja",
     "message_optional": "Poruka (opciono)",
     "post_update": "Objavi ažuriranje",

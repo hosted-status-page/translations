@@ -274,7 +274,8 @@
       "retention": {
         "badge_days": "Retention: {{days}} days",
         "badge_unlimited": "Lagring: Obegränsad",
-        "start_date_clamped": "Start date clamped to {{date}} due to retention limits."
+        "end_date_clamped": "Slutdatumet begränsades till {{date}} på grund av lagringsgränser.",
+        "start_date_clamped": "Startdatumet begränsades till {{date}} på grund av lagringsgränser."
       },
       "select_status_page": {
         "body_continue": "Välj en status sida för att fortsätta.",
@@ -349,7 +350,8 @@
       "purchase_upgrade": "Köp/Uppgradera",
       "request_refund": "Begär återbetalning",
       "upgrade_now": "Uppgradera nu",
-      "upgrade_plan": "Uppgraderingsplan"
+      "upgrade_plan": "Uppgraderingsplan",
+      "update_payment_method": "Uppdatera betalningsmetod"
     },
     "active_label": "Aktiv:",
     "active_until": "Aktiv tills:",
@@ -439,7 +441,12 @@
       "pending": "I väntan",
       "processed": "Bearbetad",
       "refunded": "Återbetalning",
-      "succeeded": "Framgång"
+      "succeeded": "Framgång",
+      "draft": "Utkast",
+      "incomplete": "Ofullständig",
+      "incomplete_expired": "Utgången",
+      "uncollectible": "Ej indrivningsbar",
+      "voided": "Makulerad"
     },
     "status_page": "Statussidan",
     "status_pages": "Statussidor",
@@ -3773,6 +3780,7 @@
     "empty_state": "Du har inte schemalagt några underhållshändelser ännu.",
     "end_time_utc": "Sluttid (UTC)",
     "give_clear_title": "Ge ditt underhåll en tydlig, beskrivande titel",
+    "maintenance_window": "Underhållsfönster",
     "maintenance_updates": "Underhållsuppdateringar",
     "message_optional": "Meddelande (valfritt)",
     "post_update": "Postuppdatering",
@@ -3939,7 +3947,9 @@
       "close": "Stäng"
     },
     "maintenance": {
+      "active": "Aktivt underhåll",
       "scheduled": "Planerat underhåll",
+      "upcoming": "Kommande underhåll",
       "upcoming_heading": "Kommande underhåll",
       "no_scheduled": "Inget planerat underhåll",
       "no_scheduled_detail": "Det finns för tillfället inga planerade underhållshändelser.",
@@ -4010,7 +4020,17 @@
       "showing_last_days_title": "Visar de senaste {{days}} dagarna på den här skärmstorleken",
       "showing_last_days_short": "({{days}} visas)",
       "no_components_note": "Den här statussidan övervakar inga komponenter ännu.",
-      "no_components_subnote": "När monitorer har lagts till visas historik över drifttid och incidentrapporter här."
+      "no_components_subnote": "När monitorer har lagts till visas historik över drifttid och incidentrapporter här.",
+      "components_heading": "Komponenter"
+    },
+    "private": {
+      "password_label": "Losenord",
+      "email_label": "E-post",
+      "submit": "Lås upp",
+      "magic_link_btn": "Skicka magisk länk",
+      "azure_btn": "Fortsätt med Azure AD",
+      "google_btn": "Fortsätt med Google",
+      "oidc_btn": "Fortsätt med enkel inloggning"
     },
     "archive": {
       "meta_incidents_description": "Historiskt incidentarkiv för {{name}}",

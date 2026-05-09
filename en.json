@@ -3951,7 +3951,9 @@
       "close": "Close"
     },
     "maintenance": {
+      "active": "Active Maintenance",
       "scheduled": "Scheduled Maintenance",
+      "upcoming": "Upcoming Maintenance",
       "upcoming_heading": "Upcoming Maintenance",
       "no_scheduled": "No Scheduled Maintenance",
       "no_scheduled_detail": "There are currently no scheduled maintenance events.",
@@ -4026,7 +4028,18 @@
       "showing_last_days_title": "Showing last {{days}} days on this screen size",
       "showing_last_days_short": "({{days}} shown)",
       "no_components_note": "This status page monitors no components yet.",
-      "no_components_subnote": "Once monitors are added, uptime history and incident reports will appear here."
+      "no_components_subnote": "Once monitors are added, uptime history and incident reports will appear here.",
+      "components_heading": "Components"
+    },
+    "private": {
+      "heading": "Sign in to view this status page",
+      "password_label": "Password",
+      "submit": "Unlock",
+      "email_label": "Email",
+      "magic_link_btn": "Send magic link",
+      "azure_btn": "Continue with Azure AD",
+      "google_btn": "Continue with Google",
+      "oidc_btn": "Continue with Single Sign-On"
     },
     "archive": {
       "meta_incidents_description": "Historical incident archive for {{name}}",

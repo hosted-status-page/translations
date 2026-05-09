@@ -255,6 +255,7 @@
       "retention": {
         "badge_days": "Задржавање: {{days}} дана",
         "badge_unlimited": "Задржавање: Неограничено",
+        "end_date_clamped": "Крајњи датум је ограничен на {{date}} због ограничења задржавања.",
         "start_date_clamped": "Почетни датум је ограничен на {{date}} због ограничења задржавања."
       },
       "select_status_page": {
@@ -332,7 +333,8 @@
       "purchase_upgrade": "Купи / Надогради",
       "request_refund": "Затражи повраћај",
       "upgrade_now": "Надогради сада",
-      "upgrade_plan": "Надогради план"
+      "upgrade_plan": "Надогради план",
+      "update_payment_method": "Ажурирај начин плаћања"
     },
     "active_label": "Активан:",
     "all_notification_channels": "Сви канали за обавештења",
@@ -421,7 +423,12 @@
       "pending": "На чекању",
       "processed": "Обрађено",
       "refunded": "Враћено",
-      "succeeded": "Успешно"
+      "succeeded": "Успешно",
+      "draft": "Нацрт",
+      "incomplete": "Недовршено",
+      "incomplete_expired": "Истекло",
+      "uncollectible": "Ненаплативо",
+      "voided": "Поништено"
     },
     "status_page": "страница статуса",
     "status_pages": "странице статуса",
@@ -3774,6 +3781,7 @@
     "empty_state": "Још увек нисте заказали ниједан догађај одржавања.",
     "end_time_utc": "Време завршетка (УТЦ)",
     "give_clear_title": "Дајте свом одржавању јасан и описан наслов",
+    "maintenance_window": "Прозор одржавања",
     "maintenance_updates": "Ажурирања одржавања",
     "message_optional": "Порука (опционо)",
     "post_update": "Објави ажурирање",
@@ -3940,7 +3948,9 @@
       "close": "Затвори"
     },
     "maintenance": {
+      "active": "Активно одржавање",
       "scheduled": "Заказано одржавање",
+      "upcoming": "Предстојеће одржавање",
       "upcoming_heading": "Предстојеће одржавање",
       "no_scheduled": "Нема заказаног одржавања",
       "no_scheduled_detail": "Тренутно нема заказаних догађаја одржавања.",
@@ -4011,7 +4021,17 @@
       "showing_last_days_title": "Приказује се последњих {{days}} дана на овој величини екрана",
       "showing_last_days_short": "({{days}} приказано)",
       "no_components_note": "Ова статусна страница још не прати ниједну компоненту.",
-      "no_components_subnote": "Када се додају монитори, овде ће се појавити историја доступности и извештаји о инцидентима."
+      "no_components_subnote": "Када се додају монитори, овде ће се појавити историја доступности и извештаји о инцидентима.",
+      "components_heading": "Компоненте"
+    },
+    "private": {
+      "password_label": "Лозинка",
+      "email_label": "Имејл",
+      "submit": "Откључај",
+      "magic_link_btn": "Пошаљи магични линк",
+      "azure_btn": "Настави уз Azure AD",
+      "google_btn": "Настави уз Google",
+      "oidc_btn": "Настави уз јединствену пријаву"
     },
     "archive": {
       "meta_incidents_description": "Историјска архива инцидената за {{name}}",

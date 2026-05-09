@@ -2819,6 +2819,7 @@
       "upgrade_now": "Mejorar ahora",
       "request_refund": "Solicitar reembolso",
       "upgrade_plan": "Mejorar plan",
+      "update_payment_method": "Actualizar método de pago",
       "change_plan": "Cambiar plan",
       "cancel_subscription": "Cancelar suscripción",
       "explore_plans": "Explorar planes",
@@ -2863,7 +2864,12 @@
       "processed": "Procesado",
       "failed": "Fallido",
       "refunded": "Reembolsado",
-      "pending": "Pendiente"
+      "pending": "Pendiente",
+      "draft": "Borrador",
+      "incomplete": "Incompleto",
+      "incomplete_expired": "Expirado",
+      "uncollectible": "Incobrable",
+      "voided": "Anulado"
     },
     "swal": {
       "processing_title": "Procesando...",
@@ -3251,6 +3257,7 @@
       "retention": {
         "badge_days": "Retención: {{days}} días",
         "badge_unlimited": "Retención: Ilimitada",
+        "end_date_clamped": "La fecha de fin se ajustó a {{date}} debido a los límites de retención.",
         "start_date_clamped": "La fecha de inicio se ajustó a {{date}} debido a los límites de retención."
       },
       "table": {
@@ -3818,6 +3825,7 @@
     "empty_state": "Aún no has programado ningún evento de mantenimiento.",
     "end_time_utc": "Tiempo final (UTC)",
     "give_clear_title": "Dar su mantenimiento un título claro y descriptivo",
+    "maintenance_window": "Ventana de mantenimiento",
     "maintenance_updates": "Actualizaciones de mantenimiento",
     "message_optional": "Mensaje (Opcional)",
     "post_update": "Actualización",
@@ -3987,7 +3995,9 @@
       "close": "Cerrar"
     },
     "maintenance": {
+      "active": "Mantenimiento activo",
       "scheduled": "Mantenimiento programado",
+      "upcoming": "Próximo mantenimiento",
       "upcoming_heading": "Próximo mantenimiento",
       "no_scheduled": "No hay mantenimiento programado",
       "no_scheduled_detail": "Actualmente no hay eventos de mantenimiento programados.",
@@ -4058,7 +4068,17 @@
       "showing_last_days_title": "Mostrando los últimos {{days}} días en este tamaño de pantalla",
       "showing_last_days_short": "({{days}} mostrados)",
       "no_components_note": "Esta página de estado aún no supervisa ningún componente.",
-      "no_components_subnote": "Una vez que se agreguen monitores, aquí aparecerán el historial de disponibilidad y los informes de incidentes."
+      "no_components_subnote": "Una vez que se agreguen monitores, aquí aparecerán el historial de disponibilidad y los informes de incidentes.",
+      "components_heading": "Componentes"
+    },
+    "private": {
+      "password_label": "Contraseña",
+      "email_label": "Correo electrónico",
+      "submit": "Desbloquear",
+      "magic_link_btn": "Enviar enlace mágico",
+      "azure_btn": "Continuar con Azure AD",
+      "google_btn": "Continuar con Google",
+      "oidc_btn": "Continuar con inicio de sesión único"
     },
     "archive": {
       "meta_incidents_description": "Archivo histórico de incidentes de {{name}}",
