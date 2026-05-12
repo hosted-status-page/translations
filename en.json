@@ -3793,6 +3793,9 @@
     "when_maintenance_complete": "When the maintenance will be completed"
   },
   "monitor_locations": {
+    "defaults_alert_docs_link": "Read the guide",
+    "defaults_alert_docs_prefix": "Need the full setup steps?",
+    "defaults_alert_docs_suffix": ".",
     "defaults_alert_link": "Edit a monitor",
     "defaults_alert_middle": "ignore these defaults.",
     "defaults_alert_override_label": "Per-Monitor Regions",
