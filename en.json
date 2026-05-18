@@ -565,7 +565,8 @@
     },
     "usage_snapshot": "Usage snapshot",
     "used": "used",
-    "will_cancel_subscription": "This will cancel your subscription"
+    "will_cancel_subscription": "This will cancel your subscription",
+    "plan_history": "Plan History"
   },
   "common": {
     "action": "Action",
