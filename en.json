@@ -417,6 +417,7 @@
     "notifications": "notifications",
     "per_month": "/month",
     "period": "Period",
+    "plan_history": "Plan History",
     "plan_status": "Plan status",
     "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
     "price": "Price",
@@ -565,8 +566,7 @@
     },
     "usage_snapshot": "Usage snapshot",
     "used": "used",
-    "will_cancel_subscription": "This will cancel your subscription",
-    "plan_history": "Plan History"
+    "will_cancel_subscription": "This will cancel your subscription"
   },
   "common": {
     "action": "Action",
@@ -2776,14 +2776,14 @@
   "public_feature_simple_status_page": {
     "hero": {
       "title": "A status page without the complexity",
-      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page, update component statuses from a single dashboard, and keep your users informed with context-rich notes that automatically create incident history.",
+      "subtitle": "No monitors to configure. No integrations to wire up. Create a simple status page for a few services or a large manual service directory, update component statuses from one dashboard, and keep users informed with context-rich notes.",
       "cta_hint": "Free to start",
       "cta": "Create Your Status Page"
     },
     "benefits": {
       "badge": "Key Benefits",
       "title": "Everything you need, nothing you don't",
-      "subtitle": "Tell your users what's up - without setting up a single monitor.",
+      "subtitle": "From a few components to large manual service pages, tell users what's affected without setting up monitors.",
       "cards": {
         "launch": {
           "title": "Up and running in minutes",
@@ -2828,6 +2828,13 @@
         "point_1": "List internal services as components",
         "point_2": "Set maintenance status before scheduled downtime",
         "point_3": "Share with your team on Slack"
+      },
+      "operations": {
+        "title": "Operations and vendor-heavy teams",
+        "description": "You manage many services, regions, suppliers, or customer-facing workflows and need a page people can scan quickly.",
+        "point_1": "Group components like Payment Providers, Email Delivery, and Europe",
+        "point_2": "Keep healthy groups collapsed so affected systems stand out",
+        "point_3": "Use notes and maintenance states when updates are manual"
       },
       "indie": {
         "title": "Indie makers & side projects",
@@ -2901,6 +2908,33 @@
       "point_2": "Incident entry created automatically — no separate step",
       "point_3": "Subscribers notified without opening the incident management flow",
       "point_4": "Incident auto-resolves when you reset the component to Operational"
+    },
+    "large_pages": {
+      "badge": "Large Simple Pages",
+      "title": "Built for large manual status pages too",
+      "description": "Simple status pages are not only for small products. Use them for large component-based pages where teams manually report the status of regions, vendors, service categories, internal dependencies, or customer-facing surfaces.",
+      "point_1": "Group components by product area, region, vendor, infrastructure layer, or workflow.",
+      "point_2": "Collapse healthy groups so visitors are not forced through a wall of green components.",
+      "point_3": "Use Large Layout Mode when many groups need compact accordions and an affected systems summary.",
+      "point_4": "Keep monitor-backed pages on the default layout when response time graphs and uptime charts matter.",
+      "large_layout_link": "Read about Large Layout Mode",
+      "collapse_link": "Collapse component groups",
+      "preview": {
+        "title": "Affected Systems",
+        "subtitle": "Surface the systems that need attention first.",
+        "badge": "2 affected",
+        "payment": "Payment Providers",
+        "email": "Email Delivery",
+        "europe": "Europe",
+        "dashboard": "Customer Dashboard",
+        "suppliers": "Desktop Suppliers - Europe",
+        "degraded": "Degraded",
+        "partial_outage": "Partial Outage",
+        "operational": "Operational",
+        "operational_2": "Operational",
+        "operational_3": "Operational",
+        "note": "Healthy groups can stay collapsed. Affected groups stay easy to find."
+      }
     }
   },
   "public_nav": {
