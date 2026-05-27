@@ -2961,12 +2961,14 @@
       "email": {
         "cta": "Send Email",
         "text": "Email us, and we'll get back to you within 24 hours.",
-        "title": "Email"
+        "title": "Email",
+        "badge": "24h reply"
       },
       "live_chat": {
         "cta": "Start Chat",
         "text": "Get instant help from our support team via live chat.",
-        "title": "Live Chat"
+        "title": "Live Chat",
+        "badge": "~5 min avg"
       },
       "telegram": {
         "cta": "Join Telegram",
