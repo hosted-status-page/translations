@@ -2778,6 +2778,7 @@
     "plan_status": "Statut du forfait",
     "admin_set_plan": "Forfait configuré par un administrateur",
     "plan_change_info": "La mise à niveau ou la rétrogradation de votre forfait prend effet immédiatement avec une facturation au prorata. Changer de cycle de facturation (mensuel/annuel) réinitialise votre date de facturation. Tout solde inutilisé est automatiquement crédité sur les prochains renouvellements.",
+    "supported_payment_methods_link": "Moyens de paiement pris en charge",
     "included_features": "📦 Fonctionnalités incluses",
     "private_status_pages": "Pages de statut privées",
     "audit_logs": "Journaux d’audit",

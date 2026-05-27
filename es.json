@@ -2765,6 +2765,7 @@
     "plan_status": "Estado del plan",
     "admin_set_plan": "Plan configurado por el administrador",
     "plan_change_info": "Al subir o bajar de plan, el cambio entra en vigor de inmediato con facturación prorrateada. Cambiar el ciclo de facturación (mensual/anual) restablece tu fecha de facturación. Cualquier saldo no utilizado se acredita automáticamente en futuras renovaciones.",
+    "supported_payment_methods_link": "Métodos de pago compatibles",
     "included_features": "📦 Funciones incluidas",
     "private_status_pages": "Páginas de estado privadas",
     "audit_logs": "Registros de auditoría",

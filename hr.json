@@ -721,6 +721,7 @@
     "plan_status": "Status plana",
     "admin_set_plan": "Plan konfigurisan od strane administratora",
     "plan_change_info": "Nadogradnja ili spuštanje plana stupa na snagu odmah uz razmjernu naplatu. Promjena obračunskog ciklusa (mjesečno/godišnje) resetira datum naplate. Neiskorišteni saldo automatski se pripisuje budućim obnovama.",
+    "supported_payment_methods_link": "Podržane metode plaćanja",
     "price": "Cena",
     "private_status_pages": "Privatne status stranice",
     "promo_code_prefix": "Promo kod",

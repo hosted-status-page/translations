@@ -420,6 +420,7 @@
     "plan_history": "Plan History",
     "plan_status": "Plan status",
     "plan_change_info": "Upgrading or downgrading your plan takes effect immediately with prorated billing. Switching billing cycles (monthly/annual) resets your billing date. Any unused balance is automatically credited toward future renewals.",
+    "supported_payment_methods_link": "Supported payment methods",
     "price": "Price",
     "private_status_pages": "Private status pages",
     "promo_code_prefix": "Promo code",

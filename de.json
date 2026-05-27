@@ -2760,6 +2760,7 @@
     "understand_subscription": "Sehen Sie, was Ihr Abonnement beinhaltet",
     "plan_status": "Planstatus",
     "plan_change_info": "Eine Hoch- oder Herabstufung Ihres Plans wird sofort wirksam und anteilig berechnet. Das Wechseln des Abrechnungszyklus (monatlich/jährlich) setzt Ihr Abrechnungsdatum zurück. Nicht genutztes Guthaben wird automatisch auf zukünftige Verlängerungen angerechnet.",
+    "supported_payment_methods_link": "Unterstützte Zahlungsmethoden",
     "included_features": "📦 Enthaltene Funktionen",
     "private_status_pages": "Private Statusseiten",
     "audit_logs": "Audit-Logs",

@@ -2761,6 +2761,7 @@
     "plan_status": "Status do plano",
     "admin_set_plan": "Plano configurado pelo administrador",
     "plan_change_info": "Fazer upgrade ou downgrade do seu plano entra em vigor imediatamente com cobrança proporcional. Alterar o ciclo de cobrança (mensal/anual) redefine sua data de cobrança. Qualquer saldo não utilizado é creditado automaticamente em futuras renovações.",
+    "supported_payment_methods_link": "Métodos de pagamento compatíveis",
     "included_features": "📦 Recursos incluídos",
     "private_status_pages": "Páginas de status privadas",
     "audit_logs": "Logs de auditoria",

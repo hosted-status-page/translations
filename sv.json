@@ -419,6 +419,7 @@
     "period": "Period",
     "plan_status": "Planstatus",
     "plan_change_info": "Uppgradering eller nedgradering av din plan träder i kraft omedelbart med prorated fakturering. Byta faktureringscykler (månadligen / årlig) återställer ditt faktureringsdatum. All oanvänd balans krediteras automatiskt mot framtida förnyelser.",
+    "supported_payment_methods_link": "Stödda betalningsmetoder",
     "price": "Prispris",
     "private_status_pages": "Privata statussidor",
     "promo_code_prefix": "Promo code",
