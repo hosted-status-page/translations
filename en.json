@@ -567,7 +567,15 @@
     },
     "usage_snapshot": "Usage snapshot",
     "used": "used",
-    "will_cancel_subscription": "This will cancel your subscription"
+    "will_cancel_subscription": "This will cancel your subscription",
+    "account_credit": {
+      "body": "As part of our <strong>SLA commitment</strong>, we issue account credits whenever our platform uptime falls below 99.9% in a given month. These credits are applied automatically to your next invoice — no action needed on your part.",
+      "expiry_note": "Credits expire 12 months from issue date. For full details see our",
+      "subtitle": "Automatically applied to your next invoice",
+      "tc_link": "Uptime &amp; Service Credits",
+      "tc_suffix": "section in the Terms &amp; Conditions.",
+      "title": "Account Credit"
+    }
   },
   "common": {
     "action": "Action",
