@@ -810,6 +810,7 @@
     "actions": {
       "creating": "Creating heartbeat...",
       "deleting": "Deleting heartbeat...",
+      "toggling": "Updating heartbeat...",
       "updating": "Updating heartbeat..."
     },
     "auto_infer": "Auto-infer",
@@ -841,6 +842,7 @@
       "create_failed_with": "Failed to create heartbeat: __ERROR__",
       "delete_failed": "Failed to delete heartbeat.",
       "load_failed": "Failed to load heartbeat.",
+      "toggle_failed": "Failed to toggle heartbeat.",
       "update_failed": "Failed to update heartbeat.",
       "validation_failed": "Validation failed."
     },
@@ -883,6 +885,11 @@
       "heartbeats": "Heartbeats"
     },
     "never": "Never",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "status": {
       "healthy": "Healthy",
       "missed": "Missed",
@@ -895,6 +902,14 @@
       "last_ping": "Last Ping",
       "name": "Name",
       "status": "Status"
+    },
+    "toggle": {
+      "disable_confirm": "Yes, disable it",
+      "disable_text": "Pings will be ignored while disabled.",
+      "disable_title": "Disable heartbeat?",
+      "enable_confirm": "Yes, enable it",
+      "enable_text": "The heartbeat monitor will resume accepting pings.",
+      "enable_title": "Enable heartbeat?"
     },
     "toast": {
       "copied_to_clipboard": "Copied to clipboard",
@@ -914,6 +929,9 @@
     "details_and_pings": "Heartbeat monitor details and recent pings",
     "pinged_at": "Pinged at",
     "public_name_optional": "Public Name (Optional)",
+    "quota": {
+      "used": "Heartbeat monitors used"
+    },
     "user_agent": "User-Agent"
   },
   "incidents": {

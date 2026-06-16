@@ -1804,6 +1804,7 @@
     "actions": {
       "creating": "Creando latido…",
       "deleting": "Eliminando latido…",
+      "toggling": "Actualizando latido…",
       "updating": "Actualizando latido…"
     },
     "nav": {
@@ -1822,6 +1823,14 @@
       "last_ping": "Último Ping",
       "expected_interval": "Intervalo esperado",
       "actions": "Acciones"
+    },
+    "toggle": {
+      "disable_confirm": "Sí, desactivarlo",
+      "disable_text": "Los pings serán ignorados mientras esté desactivado.",
+      "disable_title": "¿Desactivar latido?",
+      "enable_confirm": "Sí, activarlo",
+      "enable_text": "El monitor de latido volverá a aceptar pings.",
+      "enable_title": "¿Activar latido?"
     },
     "status": {
       "healthy": "Salud",
@@ -1846,6 +1855,11 @@
       "ping_url": "URL de Ping"
     },
     "never": "Nunca",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "auto_infer": "Autoinferencia",
     "auto_infer_expected": "Inferir automáticamente el intervalo esperado",
     "delete_confirm": {
@@ -1872,6 +1886,7 @@
       "create_failed_with": "No se pudo crear el latido: __ERROR__",
       "delete_failed": "No se pudo eliminar el latido.",
       "load_failed": "No se pudo cargar el latido.",
+      "toggle_failed": "No se pudo cambiar el estado del latido.",
       "update_failed": "No se pudo actualizar el latido.",
       "validation_failed": "La validación falló."
     },

@@ -1800,6 +1800,7 @@
     "actions": {
       "creating": "جارٍ إنشاء نبض...",
       "deleting": "جارٍ حذف نبض...",
+      "toggling": "جارٍ تحديث نبض...",
       "updating": "جارٍ تحديث نبض..."
     },
     "nav": {
@@ -1818,6 +1819,14 @@
       "last_ping": "آخر ping",
       "expected_interval": "الفاصل الزمني المتوقع",
       "actions": "الإجراءات"
+    },
+    "toggle": {
+      "disable_confirm": "نعم، تعطيل",
+      "disable_text": "سيتم تجاهل الإشارات أثناء التعطيل.",
+      "disable_title": "تعطيل النبض؟",
+      "enable_confirm": "نعم، تفعيل",
+      "enable_text": "سيستأنف مراقب النبض قبول الإشارات.",
+      "enable_title": "تفعيل النبض؟"
     },
     "status": {
       "healthy": "صحي",
@@ -1854,6 +1863,7 @@
       "create_failed_with": "فشل إنشاء النبض: __ERROR__",
       "delete_failed": "فشل حذف النبض.",
       "load_failed": "فشل تحميل النبض.",
+      "toggle_failed": "فشل تبديل حالة النبض.",
       "update_failed": "فشل تحديث النبض.",
       "validation_failed": "فشلت عملية التحقق."
     },
@@ -1897,6 +1907,11 @@
       "ping_url_with_name": "URL: __NAME__"
     },
     "never": "أبداً",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "auto_infer": "الاستدلال التلقائي",
     "details_and_pings": "تفاصيل مراقبة النبضات وعمليات ping الأخيرة",
     "form": {

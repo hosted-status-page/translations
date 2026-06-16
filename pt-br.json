@@ -1814,6 +1814,14 @@
       "expected_interval": "Intervalo esperado",
       "actions": "Ações"
     },
+    "toggle": {
+      "disable_confirm": "Sim, desativar",
+      "disable_text": "Os pings serão ignorados enquanto estiver desativado.",
+      "disable_title": "Desativar heartbeat?",
+      "enable_confirm": "Sim, ativar",
+      "enable_text": "O monitor de heartbeat voltará a aceitar pings.",
+      "enable_title": "Ativar heartbeat?"
+    },
     "status": {
       "healthy": "Saudável",
       "missed": "Sem ping",
@@ -1837,10 +1845,16 @@
       "ping_url": "URL de ping"
     },
     "never": "Nunca",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "auto_infer": "Detectar automaticamente",
     "actions": {
       "creating": "Criando heartbeat...",
       "deleting": "Excluindo heartbeat...",
+      "toggling": "Atualizando heartbeat...",
       "updating": "Atualizando heartbeat..."
     },
     "auto_infer_expected": "Inferir automaticamente o intervalo esperado",
@@ -1868,6 +1882,7 @@
       "create_failed_with": "Falha ao criar o heartbeat: __ERROR__",
       "delete_failed": "Falha ao excluir o heartbeat.",
       "load_failed": "Falha ao carregar o heartbeat.",
+      "toggle_failed": "Falha ao alternar o heartbeat.",
       "update_failed": "Falha ao atualizar o heartbeat.",
       "validation_failed": "Falha na validação."
     },

@@ -809,6 +809,11 @@
       "heartbeats": "Откуцаји"
     },
     "never": "Никад",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "status": {
       "healthy": "Здраво",
       "missed": "Пропуштено",
@@ -822,9 +827,18 @@
       "name": "Име",
       "status": "Статус"
     },
+    "toggle": {
+      "disable_confirm": "Да, онемогући",
+      "disable_text": "Пингови ће бити занемарени dok је онемогућен.",
+      "disable_title": "Онемогући откуцај?",
+      "enable_confirm": "Да, омогући",
+      "enable_text": "Монитор откуцаја ће поново прихватати пингове.",
+      "enable_title": "Омогући откуцај?"
+    },
     "actions": {
       "creating": "Креирање откуцаја...",
       "deleting": "Брисање откуцаја...",
+      "toggling": "Ажурирање откуцаја...",
       "updating": "Ажурирање откуцаја..."
     },
     "auto_infer_expected": "Аутоматски закључи очекивани интервал",
@@ -852,6 +866,7 @@
       "create_failed_with": "Није успело креирање откуцаја: __ЕРРОР__",
       "delete_failed": "Није успело брисање откуцаја.",
       "load_failed": "Није успело учитавање откуцаја.",
+      "toggle_failed": "Није успело пребацивање откуцаја.",
       "update_failed": "Није успело ажурирање откуцаја.",
       "validation_failed": "Валидација није успела."
     },

@@ -801,6 +801,7 @@
     "actions": {
       "creating": "Skapa hjärtslag...",
       "deleting": "Ta bort hjärtslag...",
+      "toggling": "Uppdaterar hjärtslag...",
       "updating": "Uppdatera hjärtslag..."
     },
     "auto_infer": "Auto-infer",
@@ -832,6 +833,7 @@
       "create_failed_with": "Misslyckades med att skapa hjärtslag: __ERROR___",
       "delete_failed": "Misslyckades med att ta bort hjärtslag.",
       "load_failed": "Misslyckades med att ladda hjärtslag.",
+      "toggle_failed": "Misslyckades med att växla hjärtslag.",
       "update_failed": "Misslyckades med att uppdatera hjärtslag.",
       "validation_failed": "Validering misslyckades."
     },
@@ -874,6 +876,11 @@
       "heartbeats": "Hjärtslag"
     },
     "never": "Aldrig aldrig",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "status": {
       "healthy": "Hälsosam",
       "missed": "Missade",
@@ -886,6 +893,14 @@
       "last_ping": "Sista ping",
       "name": "Namnnamn",
       "status": "Status status status"
+    },
+    "toggle": {
+      "disable_confirm": "Ja, inaktivera",
+      "disable_text": "Pingar ignoreras när den är inaktiverad.",
+      "disable_title": "Inaktivera hjärtslag?",
+      "enable_confirm": "Ja, aktivera",
+      "enable_text": "Hjärtslagsmonitorn börjar ta emot pingar igen.",
+      "enable_title": "Aktivera hjärtslag?"
     },
     "toast": {
       "copied_to_clipboard": "Kopierad till Clipboard",

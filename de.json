@@ -1800,6 +1800,7 @@
     "actions": {
       "creating": "Heartbeat wird erstellt…",
       "deleting": "Heartbeat wird gelöscht…",
+      "toggling": "Heartbeat wird aktualisiert…",
       "updating": "Heartbeat wird aktualisiert…"
     },
     "nav": {
@@ -1818,6 +1819,14 @@
       "last_ping": "Letzter Ping",
       "expected_interval": "Erwartetes Intervall",
       "actions": "Aktionen"
+    },
+    "toggle": {
+      "disable_confirm": "Ja, deaktivieren",
+      "disable_text": "Pings werden ignoriert, solange deaktiviert.",
+      "disable_title": "Heartbeat deaktivieren?",
+      "enable_confirm": "Ja, aktivieren",
+      "enable_text": "Der Heartbeat-Monitor nimmt wieder Pings entgegen.",
+      "enable_title": "Heartbeat aktivieren?"
     },
     "status": {
       "healthy": "Gesund",
@@ -1842,6 +1851,11 @@
       "ping_url": "Ping-URL"
     },
     "never": "Nie",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "auto_infer": "Automatische Ableitung",
     "auto_infer_expected": "Erwartetes Intervall automatisch ableiten",
     "delete_confirm": {
@@ -1868,6 +1882,7 @@
       "create_failed_with": "Heartbeat konnte nicht erstellt werden: __ERROR__",
       "delete_failed": "Heartbeat konnte nicht gelöscht werden.",
       "load_failed": "Heartbeat konnte nicht geladen werden.",
+      "toggle_failed": "Heartbeat konnte nicht umgeschaltet werden.",
       "update_failed": "Heartbeat konnte nicht aktualisiert werden.",
       "validation_failed": "Validierung fehlgeschlagen."
     },

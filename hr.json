@@ -1103,6 +1103,7 @@
     "actions": {
       "creating": "Kreiranje otkucaja...",
       "deleting": "Brisanje otkucaja...",
+      "toggling": "Ažuriranje otkucaja...",
       "updating": "Ažuriranje otkucaja..."
     },
     "auto_infer": "Automatska zaključivanja",
@@ -1134,6 +1135,7 @@
       "create_failed_with": "Nije uspjelo kreiranje otkucaja: __ERROR__",
       "delete_failed": "Nije uspjelo brisanje otkucaja.",
       "load_failed": "Nije uspjelo učitavanje otkucaja.",
+      "toggle_failed": "Nije uspjelo prebacivanje otkucaja.",
       "update_failed": "Nije uspjelo ažuriranje otkucaja.",
       "validation_failed": "Validacija nije uspjela."
     },
@@ -1176,6 +1178,11 @@
       "heartbeats": "Otkucaji"
     },
     "never": "Nikad",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "status": {
       "healthy": "Zdravo",
       "missed": "Propušteno",
@@ -1188,6 +1195,14 @@
       "last_ping": "Poslednji ping",
       "name": "Ime",
       "status": "Status"
+    },
+    "toggle": {
+      "disable_confirm": "Da, onemogući",
+      "disable_text": "Pingovi će biti zanemareni dok je onemogućen.",
+      "disable_title": "Onemogući otkucaj?",
+      "enable_confirm": "Da, omogući",
+      "enable_text": "Monitor otkucaja će opet prihvaćati pingove.",
+      "enable_title": "Omogući otkucaj?"
     },
     "toast": {
       "copied_to_clipboard": "Kopirano u klipbord",

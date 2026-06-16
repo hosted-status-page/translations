@@ -1805,6 +1805,7 @@
     "actions": {
       "creating": "Création du heartbeat…",
       "deleting": "Suppression du heartbeat…",
+      "toggling": "Mise à jour du heartbeat…",
       "updating": "Mise à jour du heartbeat…"
     },
     "nav": {
@@ -1823,6 +1824,14 @@
       "last_ping": "Dernier ping",
       "expected_interval": "Intervalle attendu",
       "actions": "Actes"
+    },
+    "toggle": {
+      "disable_confirm": "Oui, désactiver",
+      "disable_text": "Les pings seront ignorés pendant la désactivation.",
+      "disable_title": "Désactiver le heartbeat ?",
+      "enable_confirm": "Oui, activer",
+      "enable_text": "Le moniteur heartbeat reprendra l'acceptation des pings.",
+      "enable_title": "Activer le heartbeat ?"
     },
     "status": {
       "healthy": "Sain",
@@ -1859,6 +1868,7 @@
       "create_failed_with": "Échec de la création du heartbeat : __ERROR__",
       "delete_failed": "Échec de la suppression du heartbeat.",
       "load_failed": "Échec du chargement du heartbeat.",
+      "toggle_failed": "Échec du changement d'état du heartbeat.",
       "update_failed": "Échec de la mise à jour du heartbeat.",
       "validation_failed": "La validation a échoué."
     },
@@ -1902,6 +1912,11 @@
       "ping_url_with_name": "URL de ping : __NAME__"
     },
     "never": "Jamais",
+    "public": {
+      "expected_every": "Expected every",
+      "last_ping": "Last ping",
+      "no_pings_yet": "No pings yet"
+    },
     "auto_infer": "Inférence automatique",
     "details_and_pings": "Détails du moniteur de heartbeat et pings récents",
     "form": {
