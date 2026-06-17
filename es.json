@@ -966,7 +966,10 @@
         "success_body": "Se han restaurado los ajustes seleccionados.",
         "success_title": "¡Restaurado!",
         "title": "Restaurar ajustes anteriores"
-      }
+      },
+      "notify_on_component_change": "Notificar a los suscriptores cuando cambie el estado de un componente",
+      "notify_on_component_change_help": "Envía un correo a los suscriptores cuando el estado de un componente se cambia manualmente (por ejemplo, marcado como Degradado o Interrupción grave). No se aplica mientras un incidente ya esté afectando al componente; las actualizaciones del incidente se encargan de ese caso.",
+      "show_component_uptime_help": "También controla si se pueden añadir monitores a esta página: actívalo para convertir una página de estado simple en una automatizada."
     },
     "custom_domain": {
       "verify": {
@@ -2046,7 +2049,8 @@
       "seats_reached": "Has alcanzado tu límite de asiento para este equipo. Retire a un miembro o actualice su plan.",
       "seats_note": "Los asientos cuentan con miembros invitados y invitaciones pendientes. El dueño de la suscripción no cuenta.",
       "seats_note_brief": "El propietario de la suscripción no cuenta con el límite de asiento.",
-      "check_billing": "Facturación"
+      "check_billing": "Facturación",
+      "sub": "Equipos en su cuenta"
     },
     "nav": {
       "teams": "Equipos",
@@ -2218,7 +2222,8 @@
           "failed_link": "No se pudo vincular la página de estado",
           "failed_unlink": "No se pudo desvincular la página de estado"
         },
-        "manage_component_access": "Administrar el acceso a los componentes"
+        "manage_component_access": "Administrar el acceso a los componentes",
+        "owner_only_info": "Solo el propietario del equipo puede vincular páginas de estado a este equipo."
       }
     },
     "action_filter": "Filtro de acción",

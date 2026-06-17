@@ -962,7 +962,10 @@
         "success_body": "As configurações selecionadas foram restauradas.",
         "success_title": "Restaurado!",
         "title": "Restaurar configurações anteriores"
-      }
+      },
+      "notify_on_component_change": "Notificar assinantes quando o status de um componente mudar",
+      "notify_on_component_change_help": "Envia um e-mail aos assinantes quando o status de um componente é alterado manualmente (por exemplo, marcado como Degradado ou Interrupção Grave). Não se aplica enquanto um incidente já estiver afetando o componente — as atualizações de incidente cuidam desse caso.",
+      "show_component_uptime_help": "Também controla se monitores podem ser adicionados a esta página — ative para converter uma página de status simples em uma automatizada."
     },
     "custom_domain": {
       "verify": {
@@ -2038,7 +2041,8 @@
       "seats_reached": "Você atingiu o limite de assentos desta equipe. Remova um membro ou faça upgrade do plano.",
       "seats_note": "Assentos incluem membros convidados e convites pendentes. O proprietário da assinatura não conta.",
       "seats_note_brief": "O proprietário da assinatura não conta para o limite de assentos.",
-      "check_billing": "Ir para cobrança"
+      "check_billing": "Ir para cobrança",
+      "sub": "Equipes na sua conta"
     },
     "nav": {
       "teams": "Equipes",
@@ -2210,7 +2214,8 @@
           "failed_link": "Falha ao vincular a página de status",
           "failed_unlink": "Falha ao desvincular a página de status"
         },
-        "manage_component_access": "Gerenciar o acesso aos componentes"
+        "manage_component_access": "Gerenciar o acesso aos componentes",
+        "owner_only_info": "Somente o proprietário da equipe pode vincular páginas de status a esta equipe."
       }
     },
     "action_filter": "Filtro de ação",

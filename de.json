@@ -962,7 +962,10 @@
         "success_body": "Die ausgewählten Einstellungen wurden wiederhergestellt.",
         "success_title": "Wiederhergestellt!",
         "title": "Vorherige Einstellungen wiederherstellen"
-      }
+      },
+      "notify_on_component_change": "Abonnenten benachrichtigen, wenn sich der Status einer Komponente ändert",
+      "notify_on_component_change_help": "Sendet Abonnenten eine E-Mail, wenn der Status einer Komponente manuell geändert wird (z. B. auf „Beeinträchtigt“ oder „Schwerwiegende Störung“ gesetzt). Gilt nicht, während die Komponente bereits von einem Vorfall betroffen ist – das wird durch Vorfall-Updates abgedeckt.",
+      "show_component_uptime_help": "Steuert außerdem, ob dieser Seite Monitore hinzugefügt werden können — aktivieren Sie dies, um eine einfache Statusseite in eine automatisierte umzuwandeln."
     },
     "custom_domain": {
       "verify": {
@@ -2043,7 +2046,8 @@
       "seats_reached": "Sie haben das Sitzplatz-Limit für dieses Team erreicht. Entfernen Sie ein Mitglied oder upgraden Sie Ihren Plan.",
       "seats_note": "Sitzplätze zählen eingeladene Mitglieder und ausstehende Einladungen. Der Abonnent-Inhaber wird nicht mitgerechnet.",
       "seats_note_brief": "Der Abonnent-Inhaber wird nicht zum Sitzplatz-Limit mitgerechnet.",
-      "check_billing": "Abrechnung überprüfen"
+      "check_billing": "Abrechnung überprüfen",
+      "sub": "Teams in Ihrem Konto"
     },
     "nav": {
       "teams": "Mannschaften",
@@ -2215,7 +2219,8 @@
           "failed_link": "Statusseite konnte nicht verknüpft werden",
           "failed_unlink": "Verknüpfung konnte nicht aufgehoben werden"
         },
-        "manage_component_access": "Komponentenzugriff verwalten"
+        "manage_component_access": "Komponentenzugriff verwalten",
+        "owner_only_info": "Nur der Teaminhaber kann Statusseiten mit diesem Team verknüpfen."
       }
     },
     "action_filter": "Aktionsfilter",

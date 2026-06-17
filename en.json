@@ -2433,7 +2433,10 @@
         "success_body": "Selected settings have been restored.",
         "success_title": "Restored!",
         "title": "Restore Previous Settings"
-      }
+      },
+      "notify_on_component_change": "Notify subscribers when a component status changes",
+      "notify_on_component_change_help": "Email subscribers when a component's status is changed manually (e.g. marked Degraded or Major Outage). Doesn't apply while an incident is already affecting the component — incident updates handle that case.",
+      "show_component_uptime_help": "Also controls whether monitors can be added to this page — turn this on to convert a simple status page to an automated one."
     },
     "setup_custom_domain": "Set up Custom Domain",
     "showcase_description": "Get featured in our <a href=\"/showcase\" target=\"_blank\">public showcase</a> to demonstrate your commitment to transparency and reliability. This is a great way to build trust with potential customers.",
@@ -3203,7 +3206,8 @@
         },
         "unlink_success": {
           "title": "Status Page Unlinked"
-        }
+        },
+        "owner_only_info": "Only the team owner can link status pages to this team."
       },
       "table": {
         "joined": "Joined",

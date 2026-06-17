@@ -967,7 +967,10 @@
         "success_body": "Les paramètres sélectionnés ont été restaurés.",
         "success_title": "Restauré !",
         "title": "Restaurer les paramètres précédents"
-      }
+      },
+      "notify_on_component_change": "Avertir les abonnés lorsque le statut d'un composant change",
+      "notify_on_component_change_help": "Envoie un e-mail aux abonnés lorsque le statut d'un composant est modifié manuellement (par exemple, marqué comme Dégradé ou Panne majeure). Ne s'applique pas si un incident affecte déjà le composant — les mises à jour d'incident gèrent ce cas.",
+      "show_component_uptime_help": "Contrôle également si des moniteurs peuvent être ajoutés à cette page — activez cette option pour convertir une page de statut simple en page automatisée."
     },
     "custom_domain": {
       "verify": {
@@ -2060,7 +2063,8 @@
       "seats_reached": "Vous avez atteint la limite de sièges pour cette équipe. Supprimez un membre ou mettez à niveau votre plan.",
       "seats_note": "Les sièges comptent les membres invités et les invitations en attente. Le propriétaire de l'abonnement ne compte pas.",
       "seats_note_brief": "Le propriétaire de l'abonnement ne compte pas vers la limite de sièges.",
-      "check_billing": "Vérifier la facturation"
+      "check_billing": "Vérifier la facturation",
+      "sub": "Équipes dans votre compte"
     },
     "nav": {
       "teams": "Équipes",
@@ -2232,7 +2236,8 @@
           "failed_link": "Échec de la liaison de la page de statut",
           "failed_unlink": "Échec de la dissociation de la page de statut"
         },
-        "manage_component_access": "Gérer l'accès aux composants"
+        "manage_component_access": "Gérer l'accès aux composants",
+        "owner_only_info": "Seul le propriétaire de l’équipe peut lier des pages de statut à cette équipe."
       }
     },
     "action_filter": "Filtre d’action",

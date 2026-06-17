@@ -2722,7 +2722,10 @@
         "success_body": "Odabrane postavke su vraćene.",
         "success_title": "Vraćeno!",
         "title": "Vrati prethodne postavke"
-      }
+      },
+      "notify_on_component_change": "Obavijesti pretplatnike kada se promijeni status komponente",
+      "notify_on_component_change_help": "Šalje e-poštu pretplatnicima kada se status komponente ručno promijeni (npr. označen kao Degradiran ili Veliki prekid). Ne primjenjuje se dok incident već utječe na komponentu — ažuriranja incidenta rješavaju taj slučaj.",
+      "show_component_uptime_help": "Također određuje mogu li se monitori dodati na ovu stranicu — uključite ovo da biste jednostavnu statusnu stranicu pretvorili u automatiziranu."
     },
     "setup_custom_domain": "Podesite prilagođeni domen",
     "showcase_description": "Budite predstavljeni u našoj <a href=\"/showcase\" target=\"_blank\">javnoj vitrini</a> da pokažete svoju posvećenost transparentnosti i pouzdanosti. Ovo je odličan način da izgradite poverenje sa potencijalnim klijentima.",
@@ -3456,7 +3459,8 @@
         "unlink_success": {
           "title": "Status stranica otkačena"
         },
-        "manage_component_access": "Upravljanje pristupom komponenti"
+        "manage_component_access": "Upravljanje pristupom komponenti",
+        "owner_only_info": "Samo vlasnik tima može povezati status stranice s ovim timom."
       },
       "table": {
         "joined": "Pridružen",
@@ -3522,7 +3526,8 @@
       "seats_usage": "Sedišta korišćena:",
       "unlimited": "Neograničeno",
       "upgrade_message": "Nadogradite plan da biste kreirali više timova",
-      "usage": "Upotreba timova:"
+      "usage": "Upotreba timova:",
+      "sub": "Timovi na vašem računu"
     },
     "list": {
       "my_teams": "Moji timovi",

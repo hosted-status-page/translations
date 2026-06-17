@@ -2420,7 +2420,10 @@
         "success_body": "De valda inställningarna har återställts.",
         "success_title": "Återställd!",
         "title": "Återställ tidigare inställningar"
-      }
+      },
+      "notify_on_component_change": "Meddela prenumeranter när en komponents status ändras",
+      "notify_on_component_change_help": "Skickar e-post till prenumeranter när en komponents status ändras manuellt (t.ex. markerad som Försämrad eller Större driftstopp). Gäller inte medan en incident redan påverkar komponenten – incidentuppdateringar hanterar det fallet.",
+      "show_component_uptime_help": "Styr även om övervakare kan läggas till på den här sidan — aktivera detta för att omvandla en enkel statussida till en automatiserad."
     },
     "setup_custom_domain": "Ställ in anpassad domän",
     "showcase_description": "Bli presenterad i vår <a href=\"/showcase\" target=\"_blank\">offentliga showcase</a> för att visa ditt engagemang för transparens och tillförlitlighet. Det är ett bra sätt att bygga förtroende hos potentiella kunder.",
@@ -3154,7 +3157,8 @@
         },
         "unlink_success": {
           "title": "Statussidan unlinked"
-        }
+        },
+        "owner_only_info": "Endast lagets ägare kan länka statussidor till detta lag."
       },
       "table": {
         "joined": "Ansluten",
@@ -3220,7 +3224,8 @@
       "seats_usage": "Säten som används:",
       "unlimited": "Obegränsad",
       "upgrade_message": "Uppgradera din plan för att skapa fler lag",
-      "usage": "Teams användning:"
+      "usage": "Teams användning:",
+      "sub": "Team i ditt konto"
     },
     "list": {
       "my_teams": "Mina team",
