@@ -3269,7 +3269,8 @@
       "seats_usage": "Seats Used:",
       "unlimited": "Unlimited",
       "upgrade_message": "Upgrade your plan to create more teams",
-      "usage": "Teams Usage:"
+      "usage": "Teams Usage:",
+      "sub": "Teams in your account"
     },
     "list": {
       "my_teams": "My Teams",
