@@ -1858,7 +1858,8 @@
       "creating": "Criando heartbeat...",
       "deleting": "Excluindo heartbeat...",
       "toggling": "Atualizando heartbeat...",
-      "updating": "Atualizando heartbeat..."
+      "updating": "Atualizando heartbeat...",
+      "detaching": "Desvinculando heartbeat..."
     },
     "auto_infer_expected": "Inferir automaticamente o intervalo esperado",
     "delete_confirm": {
@@ -1887,7 +1888,8 @@
       "load_failed": "Falha ao carregar o heartbeat.",
       "toggle_failed": "Falha ao alternar o heartbeat.",
       "update_failed": "Falha ao atualizar o heartbeat.",
-      "validation_failed": "Falha na validação."
+      "validation_failed": "Falha na validação.",
+      "detach_failed": "Falha ao desvincular o heartbeat."
     },
     "form": {
       "description": "Descrição (opcional)",
@@ -1902,7 +1904,8 @@
       "status_page": "Página de status",
       "status_page_placeholder": "Selecione uma página de status...",
       "grace_help": "Tempo extra antes de marcar como sem ping (padrão: 300 = 5 minutos)",
-      "interval_help": "Deixe em branco para detectar automaticamente a partir dos 3 primeiros pings"
+      "interval_help": "Deixe em branco para detectar automaticamente a partir dos 3 primeiros pings",
+      "private_option": "Nenhuma — heartbeat privado (somente alertas)"
     },
     "toast": {
       "copied_to_clipboard": "Copiado para a área de transferência",
@@ -1922,7 +1925,15 @@
     "details_and_pings": "Detalhes do monitor de heartbeat e pings recentes",
     "pinged_at": "Ping em",
     "public_name_optional": "Nome público (opcional)",
-    "user_agent": "Agente do usuário"
+    "user_agent": "Agente do usuário",
+    "badge": {
+      "private": "Privado"
+    },
+    "make_private": {
+      "confirm_button": "Desvincular",
+      "confirm_text": "Este heartbeat se tornará um <strong>heartbeat privado</strong> — continuará funcionando e enviando alertas, mas não aparecerá mais em nenhuma página de status pública.",
+      "title": "Desvincular da página de status?"
+    }
   },
   "teams": {
     "list": {

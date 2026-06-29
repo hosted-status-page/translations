@@ -802,7 +802,8 @@
       "creating": "Skapa hjärtslag...",
       "deleting": "Ta bort hjärtslag...",
       "toggling": "Uppdaterar hjärtslag...",
-      "updating": "Uppdatera hjärtslag..."
+      "updating": "Uppdatera hjärtslag...",
+      "detaching": "Kopplar bort heartbeat..."
     },
     "auto_infer": "Auto-infer",
     "auto_infer_expected": "Auto-infer förväntat intervall",
@@ -835,7 +836,8 @@
       "load_failed": "Misslyckades med att ladda hjärtslag.",
       "toggle_failed": "Misslyckades med att växla hjärtslag.",
       "update_failed": "Misslyckades med att uppdatera hjärtslag.",
-      "validation_failed": "Validering misslyckades."
+      "validation_failed": "Validering misslyckades.",
+      "detach_failed": "Det gick inte att koppla bort heartbeaten."
     },
     "form": {
       "description": "Beskrivning (Optional)",
@@ -850,7 +852,8 @@
       "status_page": "Statussida",
       "status_page_placeholder": "Välj en statussida...",
       "grace_help": "Extra tid innan du markerar som missat (standard: 300 = 5 minuter)",
-      "interval_help": "Lämna tomt till auto-detektering från första 3 pings"
+      "interval_help": "Lämna tomt till auto-detektering från första 3 pings",
+      "private_option": "Ingen — privat heartbeat (endast varningar)"
     },
     "info": {
       "description": "Till skillnad från regelbundna bildskärmar som kontrollerar dina tjänster väntar hjärtslagsskärmar på dina cronjobb eller skript för att pinga dem. Om det förväntade intervallet + grace period ingen ping tas emot, kommer du att meddelas.",
@@ -920,7 +923,15 @@
     "details_and_pings": "Heartbeat övervaka detaljer och nya pings",
     "pinged_at": "Pinged at",
     "public_name_optional": "Offentligt namn (valfritt)",
-    "user_agent": "Användar-Agent"
+    "user_agent": "Användar-Agent",
+    "badge": {
+      "private": "Privat"
+    },
+    "make_private": {
+      "confirm_button": "Koppla bort",
+      "confirm_text": "Denna heartbeat blir en <strong>privat heartbeat</strong> — den fortsätter att köras och skicka varningar, men visas inte längre på någon offentlig statussida.",
+      "title": "Koppla bort från statussida?"
+    }
   },
   "incidents": {
     "add_status_update": "Lägg till statusuppdatering",

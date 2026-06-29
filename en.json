@@ -810,10 +810,14 @@
     "actions": {
       "creating": "Creating heartbeat...",
       "deleting": "Deleting heartbeat...",
+      "detaching": "Detaching heartbeat...",
       "toggling": "Updating heartbeat...",
       "updating": "Updating heartbeat..."
     },
     "auto_infer": "Auto-infer",
+    "badge": {
+      "private": "Private"
+    },
     "auto_infer_expected": "Auto-infer expected interval",
     "cta": {
       "create": "Create Heartbeat"
@@ -841,6 +845,7 @@
       "create_failed": "Failed to create heartbeat monitor.",
       "create_failed_with": "Failed to create heartbeat: __ERROR__",
       "delete_failed": "Failed to delete heartbeat.",
+      "detach_failed": "Failed to detach heartbeat.",
       "load_failed": "Failed to load heartbeat.",
       "toggle_failed": "Failed to toggle heartbeat.",
       "update_failed": "Failed to update heartbeat.",
@@ -854,6 +859,7 @@
       "grace_period": "Grace Period (seconds)",
       "name": "Name",
       "name_placeholder": "Daily Backup Job",
+      "private_option": "None — private heartbeat (alerts only)",
       "public_name_help": "Leave empty to use the internal name.",
       "public_name_placeholder": "Daily Backup",
       "status_page": "Status Page",
@@ -872,6 +878,11 @@
       "heading": "Heartbeat Monitors",
       "none_help": "Create your first heartbeat monitor to start tracking cron jobs and scheduled tasks",
       "none_message": "No heartbeat monitors yet"
+    },
+    "make_private": {
+      "confirm_button": "Detach",
+      "confirm_text": "This heartbeat will become a <strong>private heartbeat</strong> — it will keep running and sending alerts, but will no longer appear on any public status page.",
+      "title": "Detach from status page?"
     },
     "modal": {
       "create_title": "Create Heartbeat Monitor",

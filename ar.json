@@ -1804,7 +1804,8 @@
       "creating": "جارٍ إنشاء نبض...",
       "deleting": "جارٍ حذف نبض...",
       "toggling": "جارٍ تحديث نبض...",
-      "updating": "جارٍ تحديث نبض..."
+      "updating": "جارٍ تحديث نبض...",
+      "detaching": "جارٍ فصل نقطة النبض..."
     },
     "nav": {
       "heartbeats": "نبضات القلب"
@@ -1868,7 +1869,8 @@
       "load_failed": "فشل تحميل النبض.",
       "toggle_failed": "فشل تبديل حالة النبض.",
       "update_failed": "فشل تحديث النبض.",
-      "validation_failed": "فشلت عملية التحقق."
+      "validation_failed": "فشلت عملية التحقق.",
+      "detach_failed": "فشل فصل نقطة النبض."
     },
     "info": {
       "title": "كيف تعمل مراقبات نبض القلب",
@@ -1930,11 +1932,20 @@
       "public_name_help": "اتركه فارغًا لاستخدام الاسم الداخلي.",
       "public_name_placeholder": "نسخ احتياطي يومي",
       "status_page": "صفحة الحالة",
-      "status_page_placeholder": "اختر صفحة حالة..."
+      "status_page_placeholder": "اختر صفحة حالة...",
+      "private_option": "بلا — نقطة نبض خاصة (تنبيهات فقط)"
     },
     "pinged_at": "تم ping في",
     "public_name_optional": "الاسم العام (اختياري)",
-    "user_agent": "وكيل المستخدم"
+    "user_agent": "وكيل المستخدم",
+    "badge": {
+      "private": "خاص"
+    },
+    "make_private": {
+      "confirm_button": "فصل",
+      "confirm_text": "ستصبح نقطة النبض هذه <strong>نقطة نبض خاصة</strong> — ستستمر في العمل وإرسال التنبيهات، ولكنها لن تظهر بعد الآن في أي صفحة حالة عامة.",
+      "title": "فصل عن صفحة الحالة؟"
+    }
   },
   "teams": {
     "list": {

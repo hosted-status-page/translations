@@ -1109,7 +1109,8 @@
       "creating": "Kreiranje otkucaja...",
       "deleting": "Brisanje otkucaja...",
       "toggling": "Ažuriranje otkucaja...",
-      "updating": "Ažuriranje otkucaja..."
+      "updating": "Ažuriranje otkucaja...",
+      "detaching": "Odvajanje heartbeata..."
     },
     "auto_infer": "Automatska zaključivanja",
     "auto_infer_expected": "Automatski zaključi očekivani interval",
@@ -1142,7 +1143,8 @@
       "load_failed": "Nije uspjelo učitavanje otkucaja.",
       "toggle_failed": "Nije uspjelo prebacivanje otkucaja.",
       "update_failed": "Nije uspjelo ažuriranje otkucaja.",
-      "validation_failed": "Validacija nije uspjela."
+      "validation_failed": "Validacija nije uspjela.",
+      "detach_failed": "Odvajanje heartbeata nije uspjelo."
     },
     "form": {
       "description": "Opis (opciono)",
@@ -1157,7 +1159,8 @@
       "status_page": "Status stranica",
       "status_page_placeholder": "Izaberite status stranicu...",
       "grace_help": "Dodatno vreme prije označavanja kao propušteno (podrazumevano: 300 = 5 minuta)",
-      "interval_help": "Ostavite prazno za automatsko otkrivanje iz prva 3 pinga"
+      "interval_help": "Ostavite prazno za automatsko otkrivanje iz prva 3 pinga",
+      "private_option": "Nijedna — privatni heartbeat (samo upozorenja)"
     },
     "info": {
       "description": "Za razliku od običnih monitora koji proveravaju Vaše usluge, monitori otkucaja čekaju da Vam kron poslovi ili skripte pinguju. Ako se u očekivanom intervalu + periodu blagajnosti ne primi ping, bićete obavešteni.",
@@ -1227,7 +1230,15 @@
     "details_and_pings": "Detalji heartbeat monitora i nedavni ping-ovi",
     "pinged_at": "Ping-ovano u",
     "public_name_optional": "Javno ime (opciono)",
-    "user_agent": "Korisnički agent"
+    "user_agent": "Korisnički agent",
+    "badge": {
+      "private": "Privatno"
+    },
+    "make_private": {
+      "confirm_button": "Odvoji",
+      "confirm_text": "Ovaj heartbeat postat će <strong>privatni heartbeat</strong> — i dalje će raditi i slati upozorenja, ali se više neće prikazivati na javnoj stranici statusa.",
+      "title": "Odvojiti od stranice statusa?"
+    }
   },
   "incidents": {
     "add_status_update": "Dodaj ažuriranje statusa",

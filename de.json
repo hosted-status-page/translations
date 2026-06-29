@@ -1804,7 +1804,8 @@
       "creating": "Heartbeat wird erstellt…",
       "deleting": "Heartbeat wird gelöscht…",
       "toggling": "Heartbeat wird aktualisiert…",
-      "updating": "Heartbeat wird aktualisiert…"
+      "updating": "Heartbeat wird aktualisiert…",
+      "detaching": "Heartbeat wird getrennt..."
     },
     "nav": {
       "heartbeats": "Herzschläge"
@@ -1887,7 +1888,8 @@
       "load_failed": "Heartbeat konnte nicht geladen werden.",
       "toggle_failed": "Heartbeat konnte nicht umgeschaltet werden.",
       "update_failed": "Heartbeat konnte nicht aktualisiert werden.",
-      "validation_failed": "Validierung fehlgeschlagen."
+      "validation_failed": "Validierung fehlgeschlagen.",
+      "detach_failed": "Trennen des Heartbeats fehlgeschlagen."
     },
     "details_and_pings": "Details des Heartbeat-Monitors und letzte Pings",
     "form": {
@@ -1903,7 +1905,8 @@
       "public_name_help": "Leer lassen, um den internen Namen zu verwenden.",
       "public_name_placeholder": "Tägliches Backup",
       "status_page": "Statusseite",
-      "status_page_placeholder": "Statusseite auswählen…"
+      "status_page_placeholder": "Statusseite auswählen…",
+      "private_option": "Keine — privater Heartbeat (nur Benachrichtigungen)"
     },
     "toast": {
       "copied_to_clipboard": "In die Zwischenablage kopiert",
@@ -1922,7 +1925,15 @@
     },
     "pinged_at": "Angepingt am",
     "public_name_optional": "Öffentlicher Name (optional)",
-    "user_agent": "Benutzeragent"
+    "user_agent": "Benutzeragent",
+    "badge": {
+      "private": "Privat"
+    },
+    "make_private": {
+      "confirm_button": "Trennen",
+      "confirm_text": "Dieser Heartbeat wird zu einem <strong>privaten Heartbeat</strong> — er läuft weiter und sendet Benachrichtigungen, erscheint aber nicht mehr auf einer öffentlichen Statusseite.",
+      "title": "Von Statusseite trennen?"
+    }
   },
   "teams": {
     "list": {

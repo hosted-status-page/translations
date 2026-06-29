@@ -1808,7 +1808,8 @@
       "creating": "Creando latido…",
       "deleting": "Eliminando latido…",
       "toggling": "Actualizando latido…",
-      "updating": "Actualizando latido…"
+      "updating": "Actualizando latido…",
+      "detaching": "Desvinculando heartbeat..."
     },
     "nav": {
       "heartbeats": "Latidos cardíacos"
@@ -1891,7 +1892,8 @@
       "load_failed": "No se pudo cargar el latido.",
       "toggle_failed": "No se pudo cambiar el estado del latido.",
       "update_failed": "No se pudo actualizar el latido.",
-      "validation_failed": "La validación falló."
+      "validation_failed": "La validación falló.",
+      "detach_failed": "No se pudo desvincular el heartbeat."
     },
     "details_and_pings": "Los detalles del monitor Heartbeat y los últimos pings",
     "form": {
@@ -1907,7 +1909,8 @@
       "public_name_help": "Déjalo vacío para usar el nombre interno.",
       "public_name_placeholder": "Copia de seguridad diaria",
       "status_page": "Página de estado",
-      "status_page_placeholder": "Selecciona una página de estado…"
+      "status_page_placeholder": "Selecciona una página de estado…",
+      "private_option": "Ninguna — heartbeat privado (solo alertas)"
     },
     "toast": {
       "copied_to_clipboard": "Copiado al portapapeles",
@@ -1926,7 +1929,15 @@
     },
     "pinged_at": "Clavado en",
     "public_name_optional": "Nombre público (opcional)",
-    "user_agent": "Agente de usuario"
+    "user_agent": "Agente de usuario",
+    "badge": {
+      "private": "Privado"
+    },
+    "make_private": {
+      "confirm_button": "Desvincular",
+      "confirm_text": "Este heartbeat se convertirá en un <strong>heartbeat privado</strong>: seguirá funcionando y enviando alertas, pero ya no aparecerá en ninguna página de estado pública.",
+      "title": "¿Desvincular de la página de estado?"
+    }
   },
   "teams": {
     "list": {

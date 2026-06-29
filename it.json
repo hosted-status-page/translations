@@ -811,7 +811,8 @@
       "creating": "Creazione heartbeat...",
       "deleting": "Eliminazione heartbeat...",
       "toggling": "Aggiornamento heartbeat...",
-      "updating": "Aggiornamento heartbeat..."
+      "updating": "Aggiornamento heartbeat...",
+      "detaching": "Scollegamento heartbeat..."
     },
     "auto_infer": "Auto-inferenza",
     "auto_infer_expected": "Inferisci automaticamente l'intervallo previsto",
@@ -844,7 +845,8 @@
       "load_failed": "Impossibile caricare l'heartbeat.",
       "toggle_failed": "Impossibile attivare/disattivare l'heartbeat.",
       "update_failed": "Impossibile aggiornare l'heartbeat.",
-      "validation_failed": "Validazione non riuscita."
+      "validation_failed": "Validazione non riuscita.",
+      "detach_failed": "Impossibile scollegare il heartbeat."
     },
     "form": {
       "description": "Descrizione (opzionale)",
@@ -859,7 +861,8 @@
       "status_page": "Status page",
       "status_page_placeholder": "Seleziona una status page...",
       "grace_help": "Tempo extra prima di segnalare come mancato (predefinito: 300 = 5 minuti)",
-      "interval_help": "Lascia vuoto per rilevare automaticamente dai primi 3 ping"
+      "interval_help": "Lascia vuoto per rilevare automaticamente dai primi 3 ping",
+      "private_option": "Nessuna — heartbeat privato (solo avvisi)"
     },
     "info": {
       "description": "A differenza dei monitor normali che controllano i tuoi servizi, i monitor heartbeat attendono il ping dei tuoi cron job o script. Se non viene ricevuto alcun ping entro l'intervallo previsto più il periodo di tolleranza, verrai notificato.",
@@ -932,7 +935,15 @@
     "quota": {
       "used": "Monitor heartbeat usati"
     },
-    "user_agent": "User-Agent"
+    "user_agent": "User-Agent",
+    "badge": {
+      "private": "Privato"
+    },
+    "make_private": {
+      "confirm_button": "Scollega",
+      "confirm_text": "Questo heartbeat diventerà un <strong>heartbeat privato</strong>: continuerà a funzionare e a inviare avvisi, ma non apparirà più su nessuna pagina di stato pubblica.",
+      "title": "Scollegare dalla pagina di stato?"
+    }
   },
   "incidents": {
     "add_status_update": "Aggiungi aggiornamento di stato",

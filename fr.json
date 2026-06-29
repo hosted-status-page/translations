@@ -1809,7 +1809,8 @@
       "creating": "Création du heartbeat…",
       "deleting": "Suppression du heartbeat…",
       "toggling": "Mise à jour du heartbeat…",
-      "updating": "Mise à jour du heartbeat…"
+      "updating": "Mise à jour du heartbeat…",
+      "detaching": "Détachement du heartbeat..."
     },
     "nav": {
       "heartbeats": "Battements de cœur"
@@ -1873,7 +1874,8 @@
       "load_failed": "Échec du chargement du heartbeat.",
       "toggle_failed": "Échec du changement d'état du heartbeat.",
       "update_failed": "Échec de la mise à jour du heartbeat.",
-      "validation_failed": "La validation a échoué."
+      "validation_failed": "La validation a échoué.",
+      "detach_failed": "Échec du détachement du heartbeat."
     },
     "info": {
       "title": "Comment fonctionnent les moniteurs Heartbeat",
@@ -1935,11 +1937,20 @@
       "public_name_help": "Laissez vide pour utiliser le nom interne.",
       "public_name_placeholder": "Sauvegarde quotidienne",
       "status_page": "Page de statut",
-      "status_page_placeholder": "Sélectionnez une page de statut..."
+      "status_page_placeholder": "Sélectionnez une page de statut...",
+      "private_option": "Aucune — heartbeat privé (alertes uniquement)"
     },
     "pinged_at": "Ping effectué à",
     "public_name_optional": "Nom public (facultatif)",
-    "user_agent": "Agent utilisateur"
+    "user_agent": "Agent utilisateur",
+    "badge": {
+      "private": "Privé"
+    },
+    "make_private": {
+      "confirm_button": "Détacher",
+      "confirm_text": "Ce heartbeat deviendra un <strong>heartbeat privé</strong> — il continuera à fonctionner et à envoyer des alertes, mais n'apparaîtra plus sur aucune page de statut publique.",
+      "title": "Détacher de la page de statut ?"
+    }
   },
   "teams": {
     "list": {
