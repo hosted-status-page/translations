@@ -1134,7 +1134,11 @@
         "name": "Ime otkucaja",
         "public_name": "Ostavite prazno da koristite interno ime"
       },
-      "title": "Uredi otkucaj"
+      "title": "Uredi otkucaj",
+      "assign_to_page": "Dodijeliti stranici statusa (opcionalno)",
+      "keep_current_page": "Zadržati trenutnu stranicu statusa",
+      "keep_private": "Bez dodjele (zadržati privatnim)",
+      "private_notice": "Ovaj heartbeat je privatan — ne prikazuje se na nijednoj stranici statusa."
     },
     "errors": {
       "create_failed": "Nije uspjelo kreiranje monitora otkucaja.",

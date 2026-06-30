@@ -827,7 +827,11 @@
         "name": "Heartbeat namn",
         "public_name": "Lämna tomt för att använda internt namn"
       },
-      "title": "Edit heartbeat"
+      "title": "Edit heartbeat",
+      "assign_to_page": "Tilldela en statussida (valfritt)",
+      "keep_current_page": "Behåll nuvarande statussida",
+      "keep_private": "Otilldelad (behåll privat)",
+      "private_notice": "Denna heartbeat är privat — den visas inte på någon statussida."
     },
     "errors": {
       "create_failed": "Misslyckades med att skapa hjärtslag bildskärm.",

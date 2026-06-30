@@ -836,7 +836,11 @@
         "name": "Nome dell'heartbeat",
         "public_name": "Lascia vuoto per usare il nome interno"
       },
-      "title": "Modifica heartbeat"
+      "title": "Modifica heartbeat",
+      "assign_to_page": "Assegna a una pagina di stato (opzionale)",
+      "keep_current_page": "Mantieni la pagina di stato attuale",
+      "keep_private": "Non assegnato (mantieni privato)",
+      "private_notice": "Questo heartbeat è privato — non appare su nessuna pagina di stato."
     },
     "errors": {
       "create_failed": "Impossibile creare il monitor heartbeat.",

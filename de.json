@@ -1879,7 +1879,11 @@
         "name": "Heartbeat-Name",
         "public_name": "Leer lassen, um internen Namen zu verwenden"
       },
-      "title": "Heartbeat bearbeiten"
+      "title": "Heartbeat bearbeiten",
+      "assign_to_page": "Einer Statusseite zuweisen (optional)",
+      "keep_current_page": "Aktuelle Statusseite beibehalten",
+      "keep_private": "Nicht zuweisen (privat lassen)",
+      "private_notice": "Dieser Heartbeat ist privat — er wird auf keiner Statusseite angezeigt."
     },
     "errors": {
       "create_failed": "Heartbeat-Monitor konnte nicht erstellt werden.",

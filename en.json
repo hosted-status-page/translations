@@ -828,10 +828,13 @@
       "title": "Delete heartbeat?"
     },
     "edit": {
+      "assign_to_page": "Assign to a Status Page (optional)",
       "fields": {
         "enabled": "Enabled",
         "public_name": "Public name (optional)"
       },
+      "keep_current_page": "Keep current status page",
+      "keep_private": "Leave unassigned (keep private)",
       "placeholders": {
         "description": "Optional description",
         "expected_interval": "Leave empty for auto",
@@ -839,6 +842,7 @@
         "name": "Heartbeat name",
         "public_name": "Leave empty to use internal name"
       },
+      "private_notice": "This heartbeat is private — not shown on any status page.",
       "title": "Edit heartbeat"
     },
     "errors": {

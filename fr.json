@@ -1865,7 +1865,11 @@
         "name": "Nom du heartbeat",
         "public_name": "Laissez vide pour utiliser le nom interne"
       },
-      "title": "Modifier le heartbeat"
+      "title": "Modifier le heartbeat",
+      "assign_to_page": "Assigner à une page de statut (optionnel)",
+      "keep_current_page": "Conserver la page de statut actuelle",
+      "keep_private": "Non assigné (garder privé)",
+      "private_notice": "Ce heartbeat est privé — il n'apparaît sur aucune page de statut."
     },
     "errors": {
       "create_failed": "Échec de la création du moniteur heartbeat.",

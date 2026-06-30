@@ -1883,7 +1883,11 @@
         "name": "Nombre del latido",
         "public_name": "Déjalo vacío para usar el nombre interno"
       },
-      "title": "Editar latido"
+      "title": "Editar latido",
+      "assign_to_page": "Asignar a una página de estado (opcional)",
+      "keep_current_page": "Mantener la página de estado actual",
+      "keep_private": "Sin asignar (mantener privado)",
+      "private_notice": "Este heartbeat es privado — no se muestra en ninguna página de estado."
     },
     "errors": {
       "create_failed": "No se pudo crear el monitor de latido.",
