@@ -931,6 +931,30 @@
       "confirm_button": "Koppla bort",
       "confirm_text": "Denna heartbeat blir en <strong>privat heartbeat</strong> — den fortsätter att köras och skicka varningar, men visas inte längre på någon offentlig statussida.",
       "title": "Koppla bort från statussida?"
+    },
+    "troubleshooter": {
+      "accurate_badge": "Korrekt",
+      "accurate_text": "Status verkar korrekt.",
+      "avg_delta": "Genomsn. delta",
+      "deadline_formula": "Tidsfrist = senaste ping + __INTERVAL__ intervall + __GRACE__ marginal = __DEADLINE__",
+      "disabled_badge": "Inaktiverad",
+      "disabled_text": "Heartbeat är inaktiverad — live-tidsfristkontroller hoppas över.",
+      "drift_badge": "Drift",
+      "drift_detected": "Drift upptäcktes för __TIME__ sedan.",
+      "expected": "förväntat",
+      "learning_badge": "Lär sig",
+      "max_delta": "Max delta",
+      "min_delta": "Min delta",
+      "mismatch_badge": "Avvikelse",
+      "mismatch_text": "Sparad status säger Healthy, men live-kontrollen säger att den är",
+      "never_pinged_text": "Inga pingar mottagna än.",
+      "no_data_badge": "Ingen data",
+      "no_drift_badge": "Ingen drift",
+      "no_drift_text": "Ingen nylig drift upptäckt.",
+      "overdue_by": "försenad med __TIME__",
+      "pings_in_window": "Pingar i fönstret",
+      "still_learning_text": "Lär sig fortfarande ditt intervall (3 pingar behövs).",
+      "title": "Felsökare"
     }
   },
   "incidents": {

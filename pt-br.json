@@ -1933,6 +1933,30 @@
       "confirm_button": "Desvincular",
       "confirm_text": "Este heartbeat se tornará um <strong>heartbeat privado</strong> — continuará funcionando e enviando alertas, mas não aparecerá mais em nenhuma página de status pública.",
       "title": "Desvincular da página de status?"
+    },
+    "troubleshooter": {
+      "accurate_badge": "Preciso",
+      "accurate_text": "O status parece preciso.",
+      "avg_delta": "Delta médio",
+      "deadline_formula": "Prazo = último ping + __INTERVAL__ de intervalo + __GRACE__ de tolerância = __DEADLINE__",
+      "disabled_badge": "Desativado",
+      "disabled_text": "O heartbeat está desativado — as verificações de prazo em tempo real são ignoradas.",
+      "drift_badge": "Deriva",
+      "drift_detected": "Deriva detectada há __TIME__.",
+      "expected": "esperado",
+      "learning_badge": "Aprendendo",
+      "max_delta": "Delta máximo",
+      "min_delta": "Delta mínimo",
+      "mismatch_badge": "Incompatibilidade",
+      "mismatch_text": "O status salvo diz Healthy, mas a verificação em tempo real diz que está",
+      "never_pinged_text": "Nenhum ping recebido ainda.",
+      "no_data_badge": "Sem dados",
+      "no_drift_badge": "Sem deriva",
+      "no_drift_text": "Nenhuma deriva recente detectada.",
+      "overdue_by": "atrasado em __TIME__",
+      "pings_in_window": "Pings na janela",
+      "still_learning_text": "Ainda aprendendo seu intervalo (são necessários 3 pings).",
+      "title": "Solução de problemas"
     }
   },
   "teams": {

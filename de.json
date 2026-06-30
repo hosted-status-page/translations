@@ -1933,6 +1933,30 @@
       "confirm_button": "Trennen",
       "confirm_text": "Dieser Heartbeat wird zu einem <strong>privaten Heartbeat</strong> — er läuft weiter und sendet Benachrichtigungen, erscheint aber nicht mehr auf einer öffentlichen Statusseite.",
       "title": "Von Statusseite trennen?"
+    },
+    "troubleshooter": {
+      "accurate_badge": "Genau",
+      "accurate_text": "Status sieht korrekt aus.",
+      "avg_delta": "Durchschn. Abstand",
+      "deadline_formula": "Frist = letzter Ping + __INTERVAL__ Intervall + __GRACE__ Kulanz = __DEADLINE__",
+      "disabled_badge": "Deaktiviert",
+      "disabled_text": "Heartbeat ist deaktiviert — Live-Fristprüfungen werden übersprungen.",
+      "drift_badge": "Drift",
+      "drift_detected": "Drift vor __TIME__ erkannt.",
+      "expected": "erwartet",
+      "learning_badge": "Lernphase",
+      "max_delta": "Max. Abstand",
+      "min_delta": "Min. Abstand",
+      "mismatch_badge": "Abweichung",
+      "mismatch_text": "Gespeicherter Status sagt „Healthy“, aber die Live-Prüfung sagt, es ist",
+      "never_pinged_text": "Noch keine Pings empfangen.",
+      "no_data_badge": "Keine Daten",
+      "no_drift_badge": "Keine Drift",
+      "no_drift_text": "Keine kürzliche Drift erkannt.",
+      "overdue_by": "um __TIME__ überfällig",
+      "pings_in_window": "Pings im Zeitfenster",
+      "still_learning_text": "Lernt noch das Intervall (3 Pings nötig).",
+      "title": "Problembehandlung"
     }
   },
   "teams": {

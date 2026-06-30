@@ -943,6 +943,30 @@
       "confirm_button": "Scollega",
       "confirm_text": "Questo heartbeat diventerà un <strong>heartbeat privato</strong>: continuerà a funzionare e a inviare avvisi, ma non apparirà più su nessuna pagina di stato pubblica.",
       "title": "Scollegare dalla pagina di stato?"
+    },
+    "troubleshooter": {
+      "accurate_badge": "Accurato",
+      "accurate_text": "Lo stato sembra accurato.",
+      "avg_delta": "Delta medio",
+      "deadline_formula": "Scadenza = ultimo ping + __INTERVAL__ di intervallo + __GRACE__ di tolleranza = __DEADLINE__",
+      "disabled_badge": "Disabilitato",
+      "disabled_text": "Il heartbeat è disabilitato — i controlli di scadenza in tempo reale vengono saltati.",
+      "drift_badge": "Deriva",
+      "drift_detected": "Deriva rilevata __TIME__ fa.",
+      "expected": "previsto",
+      "learning_badge": "Apprendimento",
+      "max_delta": "Delta massimo",
+      "min_delta": "Delta minimo",
+      "mismatch_badge": "Discrepanza",
+      "mismatch_text": "Lo stato salvato dice Healthy, ma il controllo in tempo reale dice che è",
+      "never_pinged_text": "Nessun ping ricevuto finora.",
+      "no_data_badge": "Nessun dato",
+      "no_drift_badge": "Nessuna deriva",
+      "no_drift_text": "Nessuna deriva recente rilevata.",
+      "overdue_by": "in ritardo di __TIME__",
+      "pings_in_window": "Ping nella finestra",
+      "still_learning_text": "Ancora in apprendimento dell'intervallo (servono 3 ping).",
+      "title": "Risoluzione problemi"
     }
   },
   "incidents": {

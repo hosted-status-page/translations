@@ -1950,6 +1950,30 @@
       "confirm_button": "Détacher",
       "confirm_text": "Ce heartbeat deviendra un <strong>heartbeat privé</strong> — il continuera à fonctionner et à envoyer des alertes, mais n'apparaîtra plus sur aucune page de statut publique.",
       "title": "Détacher de la page de statut ?"
+    },
+    "troubleshooter": {
+      "accurate_badge": "Exact",
+      "accurate_text": "Le statut semble exact.",
+      "avg_delta": "Delta moyen",
+      "deadline_formula": "Échéance = dernier ping + __INTERVAL__ d'intervalle + __GRACE__ de grâce = __DEADLINE__",
+      "disabled_badge": "Désactivé",
+      "disabled_text": "Le heartbeat est désactivé — les vérifications d'échéance en direct sont ignorées.",
+      "drift_badge": "Dérive",
+      "drift_detected": "Dérive détectée il y a __TIME__.",
+      "expected": "attendu",
+      "learning_badge": "Apprentissage",
+      "max_delta": "Delta max",
+      "min_delta": "Delta min",
+      "mismatch_badge": "Incohérence",
+      "mismatch_text": "Le statut enregistré indique Healthy, mais la vérification en direct indique qu'il est",
+      "never_pinged_text": "Aucun ping reçu pour l'instant.",
+      "no_data_badge": "Aucune donnée",
+      "no_drift_badge": "Aucune dérive",
+      "no_drift_text": "Aucune dérive récente détectée.",
+      "overdue_by": "en retard de __TIME__",
+      "pings_in_window": "Pings dans la fenêtre",
+      "still_learning_text": "Apprentissage de votre intervalle en cours (3 pings nécessaires).",
+      "title": "Dépanneur"
     }
   },
   "teams": {

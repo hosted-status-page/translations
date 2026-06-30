@@ -1238,6 +1238,30 @@
       "confirm_button": "Odvoji",
       "confirm_text": "Ovaj heartbeat postat će <strong>privatni heartbeat</strong> — i dalje će raditi i slati upozorenja, ali se više neće prikazivati na javnoj stranici statusa.",
       "title": "Odvojiti od stranice statusa?"
+    },
+    "troubleshooter": {
+      "accurate_badge": "Točno",
+      "accurate_text": "Status izgleda točno.",
+      "avg_delta": "Prosječna delta",
+      "deadline_formula": "Rok = zadnji ping + __INTERVAL__ interval + __GRACE__ tolerancija = __DEADLINE__",
+      "disabled_badge": "Onemogućeno",
+      "disabled_text": "Heartbeat je onemogućen — provjere roka uživo se preskaču.",
+      "drift_badge": "Odstupanje",
+      "drift_detected": "Odstupanje otkriveno prije __TIME__.",
+      "expected": "očekivano",
+      "learning_badge": "Učenje",
+      "max_delta": "Maks. delta",
+      "min_delta": "Min. delta",
+      "mismatch_badge": "Neslaganje",
+      "mismatch_text": "Pohranjeni status kaže Healthy, ali provjera uživo kaže da je",
+      "never_pinged_text": "Još nema primljenih pingova.",
+      "no_data_badge": "Nema podataka",
+      "no_drift_badge": "Nema odstupanja",
+      "no_drift_text": "Nije otkriveno nedavno odstupanje.",
+      "overdue_by": "kasni __TIME__",
+      "pings_in_window": "Pingovi u prozoru",
+      "still_learning_text": "Još uči vaš interval (potrebna su 3 pinga).",
+      "title": "Rješavanje problema"
     }
   },
   "incidents": {

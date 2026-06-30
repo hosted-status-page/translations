@@ -1945,6 +1945,30 @@
       "confirm_button": "فصل",
       "confirm_text": "ستصبح نقطة النبض هذه <strong>نقطة نبض خاصة</strong> — ستستمر في العمل وإرسال التنبيهات، ولكنها لن تظهر بعد الآن في أي صفحة حالة عامة.",
       "title": "فصل عن صفحة الحالة؟"
+    },
+    "troubleshooter": {
+      "accurate_badge": "دقيق",
+      "accurate_text": "تبدو الحالة دقيقة.",
+      "avg_delta": "متوسط الفارق",
+      "deadline_formula": "الموعد النهائي = آخر نبضة + __INTERVAL__ فاصل زمني + __GRACE__ مهلة = __DEADLINE__",
+      "disabled_badge": "معطّل",
+      "disabled_text": "نقطة النبض معطّلة — يتم تخطي فحوصات الموعد النهائي الحية.",
+      "drift_badge": "انحراف",
+      "drift_detected": "تم اكتشاف انحراف منذ __TIME__.",
+      "expected": "متوقع",
+      "learning_badge": "قيد التعلم",
+      "max_delta": "أقصى فارق",
+      "min_delta": "أدنى فارق",
+      "mismatch_badge": "عدم تطابق",
+      "mismatch_text": "تقول الحالة المخزنة Healthy، لكن الفحص الحي يقول إنها",
+      "never_pinged_text": "لم يتم استلام أي نبضات بعد.",
+      "no_data_badge": "لا توجد بيانات",
+      "no_drift_badge": "لا يوجد انحراف",
+      "no_drift_text": "لم يتم اكتشاف انحراف حديث.",
+      "overdue_by": "متأخر بمقدار __TIME__",
+      "pings_in_window": "النبضات في النافذة الزمنية",
+      "still_learning_text": "لا تزال تتعلم الفاصل الزمني (يلزم 3 نبضات).",
+      "title": "أداة استكشاف الأخطاء وإصلاحها"
     }
   },
   "teams": {
