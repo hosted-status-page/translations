@@ -20,6 +20,7 @@
       "monitoring_captcha": "Monitoramento e Captcha",
       "monitoring": "Monitoramento",
       "regions": "Regiões",
+      "heartbeats": "Monitores Heartbeat",
       "agents": "Agentes",
       "captcha_logs": "Logs de captcha",
       "spam_keywords": "Palavras-chave de spam",
