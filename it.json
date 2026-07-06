@@ -2127,6 +2127,12 @@
         "title": "Eliminata"
       }
     },
+    "delete_group_confirm": {
+      "confirm": "Elimina",
+      "text": "I componenti di questo gruppo diventeranno non raggruppati. Questa azione non può essere annullata.",
+      "title": "Eliminare questo gruppo?"
+    },
+    "delete_group_failed": "Impossibile eliminare il gruppo",
     "delete_permanent": "Eliminare la tua status page è <u>permanente</u>",
     "delete_selected": "Elimina selezionati",
     "delete_this_page": "Elimina questa status page",
@@ -2148,7 +2154,9 @@
       "status_page_label": "Status page"
     },
     "global_column": "Globale",
+    "group_name_required": "Inserisci un nome per il gruppo",
     "group_placeholder": "es., Servizi Backend, Infrastruttura, Frontend...",
+    "group_rename_failed": "Impossibile rinominare il gruppo",
     "groups_explanation": "I gruppi aiutano a organizzare i componenti in categorie (es., \"Servizi Backend\", \"Infrastruttura\")",
     "groups_optional": "I gruppi sono opzionali – i componenti senza gruppo verranno visualizzati separatamente",
     "no_components_configured": "Nessun componente configurato per questa status page.",
@@ -2242,6 +2250,7 @@
     "recipient_must_accept": "Il destinatario deve accettare il trasferimento via email prima che diventi effettivo",
     "remove_component": "Rimuovi componente",
     "remove_password": "Rimuovi password",
+    "rename_group": "Rinomina gruppo",
     "request_expires": "La richiesta scade il",
     "require_password_help": "Richiedi una password per accedere alla tua status page",
     "search_by_email": "Cerca per email...",
@@ -2292,6 +2301,7 @@
         },
         "ssl": {
           "failed": "Impossibile verificare l'SSL",
+          "still_pending": "Il certificato SSL è ancora in fase di provisioning. Riprova più tardi o ricarica la pagina.",
           "updated_reload": "Stato SSL aggiornato. Ricaricamento pagina..."
         }
       },
@@ -2420,6 +2430,7 @@
         "visual": "Aspetto"
       },
       "active": "Attiva",
+      "advanced": "Avanzate",
       "auto_create_incident": "Crea automaticamente un incidente quando il monitor è INATTIVO (primo rilevamento)",
       "auto_resolve_auto_created": "Risolvi automaticamente gli incidenti auto-creati quando il monitor si recupera",
       "auto_resolve_help": "Aggiunge un aggiornamento di risoluzione predefinito (\"Risolto automaticamente dopo il recupero del monitor\"). Puoi comunque modificare i dettagli o creare un post-mortem in seguito.",
@@ -2520,9 +2531,11 @@
     "choose_event_types": "Scegli quali eventi attivano le notifiche",
     "components": {
       "add_component": "➕",
+      "empty_state": "Nessun componente ancora. Aggiungi il tuo primo componente sopra!",
       "failed_loading": "Caricamento componenti non riuscito",
       "help": "Gestisci i componenti che appaiono su questa status page. I componenti raggruppano monitor e incidenti.",
-      "loading": "Caricamento componenti..."
+      "loading": "Caricamento componenti...",
+      "name_required": "Inserisci un nome per il componente"
     },
     "components_will_delete": "Tutti i componenti sotto questa pagina verranno eliminati",
     "confirm_password_transfer": "Confermi la tua password",
@@ -2649,6 +2662,8 @@
     "password_protection": "Protezione con password",
     "password_set": "La password è impostata",
     "placement": "Posizionamento",
+    "placement_footer": "Piè di pagina",
+    "placement_header": "Intestazione",
     "prevent_notification_flooding": "Previeni l'inondazione di notifiche da cambi di stato rapidi",
     "preview": "Anteprima:",
     "preview_text": "Ecco come apparirà il testo sulla tua status page.",

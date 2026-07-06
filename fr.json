@@ -681,7 +681,9 @@
     "groups_explanation": "Les groupes aident à organiser les composants en catégories (par ex. \"Services Backend\", \"Infrastructure\")",
     "groups_optional": "Les groupes sont optionnels – les composants sans groupe seront affichés séparément",
     "step1_create_groups": "Étape 1 : Créer des groupes (Optionnel)",
+    "group_name_required": "Veuillez saisir un nom de groupe",
     "group_placeholder": "par ex. Services Backend, Infrastructure, Frontend...",
+    "group_rename_failed": "Échec du renommage du groupe",
     "add_group": "Ajouter un groupe",
     "no_groups_yet": "Pas encore de groupes. Les groupes aident à organiser visuellement les composants.",
     "step2_add_components": "Étape 2 : Ajouter des composants",
@@ -798,10 +800,12 @@
         },
         "ssl": {
           "failed": "Échec de la vérification SSL",
+          "still_pending": "Le certificat SSL est toujours en cours de provisionnement. Réessayez plus tard ou rechargez la page.",
           "updated_reload": "Statut SSL mis à jour. Rechargement de la page…"
         }
       },
       "active": "Actif",
+      "advanced": "Avancé",
       "auto_create_incident": "Création automatique d'incident lorsque le moniteur est HORS SERVICE (première détection)",
       "auto_resolve_auto_created": "Résoudre automatiquement les incidents auto-créés lorsque le moniteur se rétablit",
       "auto_resolve_help": "Ajoute une mise à jour de résolution par défaut (\"Auto-résolu après la récupération du moniteur\"). Vous pouvez toujours modifier les détails ou créer un post-mortem par la suite.",
@@ -1016,6 +1020,7 @@
     "password_protected": "Votre page de statut est protégée",
     "change_password": "Changer le mot de passe",
     "remove_password": "Supprimer le mot de passe",
+    "rename_group": "Renommer le groupe",
     "password_disabled_msg": "La protection par mot de passe est désactivée. Activez le commutateur ci-dessus pour l'activer.",
     "password_placeholder": "Entrez un mot de passe pour protéger cette page",
     "manage_custom_domain": "Gérer le domaine personnalisé",
@@ -1054,6 +1059,12 @@
     "showcase_help": "Mettre en vedette votre page de statut dans notre vitrine publique",
     "showcase_description": "Soyez présenté dans notre <a href=\"/showcase\" target=\"_blank\">vitrine publique</a> pour démontrer votre engagement envers la transparence et la fiabilité. C'est un excellent moyen de gagner la confiance des clients potentiels.",
     "manage_showcase": "Gérer les paramètres de vitrine",
+    "delete_group_confirm": {
+      "confirm": "Supprimer",
+      "text": "Les composants de ce groupe ne seront plus regroupés. Cette action est irréversible.",
+      "title": "Supprimer ce groupe ?"
+    },
+    "delete_group_failed": "Échec de la suppression du groupe",
     "delete_permanent": "La suppression de votre page de statut est <u>permanente</u>",
     "slug_blocked": "Le slug sera bloqué pour réutilisation pendant 30 jours",
     "confirm_url": "Pour confirmer, tapez l'URL complète de votre page de statut :",
@@ -1119,9 +1130,11 @@
     "choose_event_types": "Choisissez les types d’événements qui déclenchent les notifications",
     "components": {
       "add_component": "Ajouter un composant",
+      "empty_state": "Aucun composant pour l'instant. Ajoutez votre premier composant ci-dessus !",
       "failed_loading": "Échec du chargement des composants",
       "help": "Gérez les composants qui apparaissent sur cette page de statut. Les composants regroupent moniteurs et incidents.",
-      "loading": "Chargement des composants..."
+      "loading": "Chargement des composants...",
+      "name_required": "Veuillez saisir un nom de composant"
     },
     "components_will_delete": "Tous les composants sous cette page seront supprimés",
     "confirm_password_transfer": "Confirmez votre mot de passe",
@@ -1248,6 +1261,8 @@
     "password_protection": "Protection par mot de passe",
     "password_set": "Le mot de passe est défini",
     "placement": "Placement",
+    "placement_footer": "Pied de page",
+    "placement_header": "En-tête",
     "prevent_notification_flooding": "Empêcher l’inondation de notifications due aux changements rapides de statut",
     "preview": "Aperçu :",
     "preview_text": "Voici comment le texte apparaîtra sur votre page de statut.",

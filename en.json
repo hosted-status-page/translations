@@ -2127,6 +2127,12 @@
         "title": "Deleted"
       }
     },
+    "delete_group_confirm": {
+      "confirm": "Delete",
+      "text": "Components in this group will become ungrouped. This cannot be undone.",
+      "title": "Delete this group?"
+    },
+    "delete_group_failed": "Failed to delete group",
     "delete_permanent": "Deleting your status page is <u>permanent</u>",
     "delete_selected": "Delete Selected",
     "delete_this_page": "Delete this status page",
@@ -2148,7 +2154,9 @@
       "status_page_label": "Status Page"
     },
     "global_column": "Global",
+    "group_name_required": "Please enter a group name",
     "group_placeholder": "e.g., Backend Services, Infrastructure, Frontend...",
+    "group_rename_failed": "Failed to rename group",
     "groups_explanation": "Groups help organize components into categories (e.g., \"Backend Services\", \"Infrastructure\")",
     "groups_optional": "Groups are optional – components without groups will display separately",
     "no_components_configured": "No components configured for this status page.",
@@ -2242,6 +2250,7 @@
     "recipient_must_accept": "The recipient must accept the transfer via email before it takes effect",
     "remove_component": "Remove component",
     "remove_password": "Remove Password",
+    "rename_group": "Rename group",
     "request_expires": "The request expires on",
     "require_password_help": "Require a password to access your status page",
     "search_by_email": "Search by email...",
@@ -2292,6 +2301,7 @@
         },
         "ssl": {
           "failed": "Failed to check SSL",
+          "still_pending": "SSL certificate is still provisioning. Check back later or reload the page.",
           "updated_reload": "SSL status updated. Reloading page..."
         }
       },
@@ -2420,6 +2430,7 @@
         "visual": "Visual"
       },
       "active": "Active",
+      "advanced": "Advanced",
       "auto_create_incident": "Auto-create incident on monitor DOWN (first detection)",
       "auto_resolve_auto_created": "Auto-resolve auto-created incidents when monitor recovers",
       "auto_resolve_help": "Adds a default resolution update (\"Auto-resolved after monitor recovery\"). You can still edit details or create a postmortem afterwards.",
@@ -2520,9 +2531,11 @@
     "choose_event_types": "Choose which events trigger notifications",
     "components": {
       "add_component": "➕",
+      "empty_state": "No components yet. Add your first component above!",
       "failed_loading": "Failed loading components",
       "help": "Manage the components that appear on this status page. Components group monitors and incidents.",
-      "loading": "Loading components..."
+      "loading": "Loading components...",
+      "name_required": "Please enter a component name"
     },
     "components_will_delete": "All components under this page will be deleted",
     "confirm_password_transfer": "Confirm your password",
@@ -2649,6 +2662,8 @@
     "password_protection": "Password Protection",
     "password_set": "Password is set",
     "placement": "Placement",
+    "placement_footer": "Footer",
+    "placement_header": "Header",
     "prevent_notification_flooding": "Prevent notification flooding from rapid status changes",
     "preview": "Preview:",
     "preview_text": "This is how text will appear on your status page.",

@@ -680,7 +680,9 @@
     "groups_explanation": "Grupos ajudam a organizar componentes em categorias (ex.: \"Serviços Backend\", \"Infraestrutura\")",
     "groups_optional": "Grupos são opcionais – componentes sem grupos serão exibidos separadamente",
     "step1_create_groups": "Passo 1: Criar grupos (Opcional)",
+    "group_name_required": "Por favor, insira um nome de grupo",
     "group_placeholder": "ex.: Serviços Backend, Infraestrutura, Frontend...",
+    "group_rename_failed": "Falha ao renomear o grupo",
     "add_group": "Adicionar grupo",
     "no_groups_yet": "Ainda não há grupos. Os grupos ajudam a organizar componentes visualmente.",
     "step2_add_components": "Passo 2: Adicionar componentes",
@@ -793,10 +795,12 @@
         },
         "ssl": {
           "failed": "Falha ao verificar o SSL",
+          "still_pending": "O certificado SSL ainda está sendo provisionado. Verifique novamente mais tarde ou recarregue a página.",
           "updated_reload": "Status do SSL atualizado. Recarregando a página..."
         }
       },
       "active": "Ativa",
+      "advanced": "Avançado",
       "auto_create_incident": "Criar incidente automaticamente quando o monitor ficar DOWN (primeira detecção)",
       "auto_resolve_auto_created": "Resolver automaticamente incidentes criados automaticamente quando o monitor se recuperar",
       "auto_resolve_help": "Adiciona uma atualização de resolução padrão (\"Resolvido automaticamente após a recuperação do monitor\"). Você ainda pode editar os detalhes ou criar um post-mortem depois.",
@@ -1012,6 +1016,7 @@
     "password_protected": "Sua página de status está protegida",
     "change_password": "Alterar senha",
     "remove_password": "Remover senha",
+    "rename_group": "Renomear grupo",
     "password_disabled_msg": "A proteção por senha está desativada. Ative o interruptor acima para habilitá-la.",
     "password_placeholder": "Digite uma senha para proteger esta página",
     "manage_custom_domain": "Gerenciar domínio personalizado",
@@ -1050,6 +1055,12 @@
     "showcase_help": "Destaque sua página de status em nossa vitrine pública",
     "showcase_description": "Seja apresentado em nossa <a href=\"/showcase\" target=\"_blank\">vitrine pública</a> para demonstrar seu compromisso com transparência e confiabilidade. Esta é uma ótima maneira de construir confiança com clientes em potencial.",
     "manage_showcase": "Gerenciar configurações de vitrine",
+    "delete_group_confirm": {
+      "confirm": "Excluir",
+      "text": "Os componentes deste grupo ficarão sem agrupamento. Esta ação não pode ser desfeita.",
+      "title": "Excluir este grupo?"
+    },
+    "delete_group_failed": "Falha ao excluir o grupo",
     "delete_permanent": "Excluir sua página de status é <u>permanente</u>",
     "slug_blocked": "O slug será bloqueado para reutilização por 30 dias",
     "confirm_url": "Para confirmar, digite a URL completa da sua página de status:",
@@ -1114,9 +1125,11 @@
     "choose_event_types": "Escolha quais eventos acionam notificações",
     "components": {
       "add_component": "➕",
+      "empty_state": "Nenhum componente ainda. Adicione seu primeiro componente acima!",
       "failed_loading": "Falha ao carregar componentes",
       "help": "Gerencie os componentes que aparecem nesta página de status. Componentes agrupam monitores e incidentes.",
-      "loading": "Carregando componentes..."
+      "loading": "Carregando componentes...",
+      "name_required": "Por favor, insira um nome de componente"
     },
     "components_will_delete": "Todos os componentes desta página serão excluídos",
     "confirm_password_transfer": "Confirme sua senha",
@@ -1243,6 +1256,8 @@
     "password_protection": "Proteção por senha",
     "password_set": "Senha definida",
     "placement": "Posicionamento",
+    "placement_footer": "Rodapé",
+    "placement_header": "Cabeçalho",
     "prevent_notification_flooding": "Evitar inundação de notificações devido a mudanças rápidas de status",
     "preview": "Visualização:",
     "preview_text": "É assim que o texto aparecerá em sua página de status.",

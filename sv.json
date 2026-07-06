@@ -2114,6 +2114,12 @@
         "title": "Raderad"
       }
     },
+    "delete_group_confirm": {
+      "confirm": "Ta bort",
+      "text": "Komponenter i denna grupp blir ogrupperade. Detta kan inte ångras.",
+      "title": "Ta bort denna grupp?"
+    },
+    "delete_group_failed": "Det gick inte att ta bort gruppen",
     "delete_permanent": "Att radera din statussida är <u>permanent</u>",
     "delete_selected": "Radera vald",
     "delete_this_page": "Ta bort denna statussida",
@@ -2135,7 +2141,9 @@
       "status_page_label": "Statussida"
     },
     "global_column": "Global",
+    "group_name_required": "Ange ett gruppnamn",
     "group_placeholder": "Till exempel Backend Services, Infrastructure, Frontend...",
+    "group_rename_failed": "Det gick inte att byta namn på gruppen",
     "groups_explanation": "Grupper hjälper till att organisera komponenter i kategorier (t.ex. \"Backend Services\", \"Infrastruktur\")",
     "groups_optional": "Grupper är valfria – komponenter utan grupper kommer att visas separat",
     "no_components_configured": "Inga komponenter konfigurerade för denna statussida.",
@@ -2229,6 +2237,7 @@
     "recipient_must_accept": "Mottagaren måste acceptera överföringen via e-post innan den träder i kraft",
     "remove_component": "Ta bort komponent",
     "remove_password": "Ta bort lösenord",
+    "rename_group": "Byt namn på grupp",
     "request_expires": "Förfrågan löper ut på",
     "require_password_help": "Kräver ett lösenord för att komma åt din statussida",
     "search_by_email": "Sök via e-post...",
@@ -2279,6 +2288,7 @@
         },
         "ssl": {
           "failed": "Det gick inte att kontrollera SSL",
+          "still_pending": "SSL-certifikatet håller fortfarande på att etableras. Kontrollera igen senare eller ladda om sidan.",
           "updated_reload": "SSL-status uppdaterad. Laddar om sidan..."
         }
       },
@@ -2407,6 +2417,7 @@
         "visual": "Visuell"
       },
       "active": "Aktiv",
+      "advanced": "Avancerat",
       "auto_create_incident": "Skapa incident automatiskt när en övervakare går NER (första upptäckt)",
       "auto_resolve_auto_created": "Auto-resolve auto-skapade incidenter när övervakning återhämtar sig",
       "auto_resolve_help": "Lägger till en standardupplösningsuppdatering (\"Auto-resolved after monitor recovery\"). Du kan fortfarande redigera detaljer eller skapa en postmortem efteråt.",
@@ -2507,9 +2518,11 @@
     "choose_event_types": "Välj vilka händelser som utlöser meddelanden",
     "components": {
       "add_component": "Lägg till komponent",
+      "empty_state": "Inga komponenter än. Lägg till din första komponent ovan!",
       "failed_loading": "Misslyckade lastkomponenter",
       "help": "Hantera de komponenter som visas på denna statussida. Komponenter gruppskärmar och incidenter.",
-      "loading": "Lastkomponenter..."
+      "loading": "Lastkomponenter...",
+      "name_required": "Ange ett komponentnamn"
     },
     "components_will_delete": "Alla komponenter under denna sida kommer att raderas",
     "confirm_password_transfer": "Bekräfta ditt lösenord",
@@ -2636,6 +2649,8 @@
     "password_protection": "Lösenordsskydd",
     "password_set": "Lösenordet är inställt",
     "placement": "Placering",
+    "placement_footer": "Sidfot",
+    "placement_header": "Sidhuvud",
     "prevent_notification_flooding": "Förhindra översvämningar från snabba statusändringar",
     "preview": "Förhandsgranskning:",
     "preview_text": "Så här visas texten på din statussida.",

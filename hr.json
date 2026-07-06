@@ -2421,6 +2421,12 @@
         "title": "Obrisano"
       }
     },
+    "delete_group_confirm": {
+      "confirm": "Izbriši",
+      "text": "Komponente u ovoj grupi postat će negrupirane. Ovo se ne može poništiti.",
+      "title": "Izbrisati ovu grupu?"
+    },
+    "delete_group_failed": "Brisanje grupe nije uspjelo",
     "delete_permanent": "Brisanje Vaše statusne stranice je <u>trajno</u>",
     "delete_selected": "Izbrišite izabrane",
     "delete_this_page": "Izbriši ovu stranicu statusa",
@@ -2442,7 +2448,9 @@
       "status_page_label": "Status stranica"
     },
     "global_column": "Globalno",
+    "group_name_required": "Unesite naziv grupe",
     "group_placeholder": "npr. Backend servisi, Infrastruktura, Frontend...",
+    "group_rename_failed": "Preimenovanje grupe nije uspjelo",
     "groups_explanation": "Grupe pomažu da organizujete komponente u kategorije (npr. \"Backend servisi\", \"Infrastruktura\")",
     "groups_optional": "Grupe su opcione – komponente bez grupa će biti prikazane odvojeno",
     "no_components_configured": "Nema podešenih komponenti za ovu status stranicu.",
@@ -2536,6 +2544,7 @@
     "recipient_must_accept": "Primalac mora da prihvati prenos putem e-pošte prije nego što stupi na snagu",
     "remove_component": "Ukloni komponentu",
     "remove_password": "Ukloni lozinku",
+    "rename_group": "Preimenuj grupu",
     "request_expires": "Zahtjev ističe",
     "require_password_help": "Zahtijeva lozinku za pristup vašoj stranici statusa",
     "search_by_email": "Pretraži po e-pošti...",
@@ -2586,6 +2595,7 @@
         },
         "ssl": {
           "failed": "Nije uspjela provjera SSL-a",
+          "still_pending": "SSL certifikat se još uvijek postavlja. Provjerite kasnije ili ponovno učitajte stranicu.",
           "updated_reload": "SSL status je ažuriran. Ponovo učitavam stranicu..."
         }
       },
@@ -2604,6 +2614,7 @@
         "visual": "Vizuelno"
       },
       "active": "Aktivno",
+      "advanced": "Napredno",
       "auto_create_incident": "Automatsko stvaranje incidenta na monitoru DOLJE (prva detekcija)",
       "auto_resolve_auto_created": "Automatski rešavaj automatski kreirane incidente kada se monitor oporavi",
       "auto_resolve_help": "Dodaje podrazumevano ažuriranje rešenja (\"Automatski rešeno nakon oporavka monitora\"). Još uvek možete urediti detalje ili kreirati postmortem kasnije.",
@@ -2814,9 +2825,11 @@
     "choose_event_types": "Izaberite koje događaje pokreću obavijesti",
     "components": {
       "add_component": "Dodaj komponentu",
+      "empty_state": "Još nema komponenti. Dodajte svoju prvu komponentu iznad!",
       "failed_loading": "Neuspješno učitavanje komponenti",
       "help": "Upravljajte komponentama koje se prikazuju na ovoj stranici statusa. Komponente grupišu monitore i incidente.",
-      "loading": "Učitavanje komponenti..."
+      "loading": "Učitavanje komponenti...",
+      "name_required": "Unesite naziv komponente"
     },
     "components_will_delete": "Sve komponente pod ovom stranicom će biti obrisane",
     "confirm_password_transfer": "Potvrdite svoju lozinku",
@@ -2943,6 +2956,8 @@
     "password_protection": "Zaštita lozinkom",
     "password_set": "Lozinka je postavljena",
     "placement": "Pozicioniranje",
+    "placement_footer": "Podnožje",
+    "placement_header": "Zaglavlje",
     "prevent_notification_flooding": "Sprečite preopterećenje obaveštenjima zbog brzih promjena statusa",
     "preview": "Pregled:",
     "preview_text": "Ovo je kako će tekst izgledati na vašoj statusnoj strani.",

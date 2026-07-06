@@ -680,7 +680,9 @@
     },
     "groups_optional": "Gruppen sind optional – Komponenten ohne Gruppen werden separat angezeigt",
     "step1_create_groups": "Schritt 1: Gruppen erstellen (Optional)",
+    "group_name_required": "Bitte geben Sie einen Gruppennamen ein",
     "group_placeholder": "z.B. Backend-Dienste, Infrastruktur, Frontend...",
+    "group_rename_failed": "Gruppe konnte nicht umbenannt werden",
     "add_group": "Gruppe hinzufügen",
     "no_groups_yet": "Noch keine Gruppen. Gruppen helfen dabei, Komponenten visuell zu organisieren.",
     "step2_add_components": "Schritt 2: Komponenten hinzufügen",
@@ -793,10 +795,12 @@
         },
         "ssl": {
           "failed": "SSL konnte nicht geprüft werden",
+          "still_pending": "SSL-Zertifikat wird noch bereitgestellt. Bitte später erneut prüfen oder die Seite neu laden.",
           "updated_reload": "SSL-Status aktualisiert. Seite wird neu geladen…"
         }
       },
       "active": "Aktiv",
+      "advanced": "Erweitert",
       "auto_create_incident": "Automatisches Erstellen eines Vorfalls bei MONITOR DOWN (erste Erkennung)",
       "auto_resolve_auto_created": "Automatisches Lösen automatisch erstellter Vorfälle, wenn der Monitor wiederhergestellt wird",
       "auto_resolve_help": "Fügt ein Standardauflösungsupdate hinzu (\"Automatisch gelöst nach der Wiederherstellung des Monitors\"). Sie können weiterhin Details bearbeiten oder eine Nachbesprechung erstellen.",
@@ -1011,6 +1015,7 @@
     "password_protected": "Deine Statusseite ist geschützt",
     "change_password": "Passwort ändern",
     "remove_password": "Passwort entfernen",
+    "rename_group": "Gruppe umbenennen",
     "password_disabled_msg": "Der Passwortschutz ist deaktiviert. Aktiviere den Schalter oben, um ihn zu aktivieren.",
     "password_placeholder": "Gib ein Passwort ein, um diese Seite zu schützen",
     "manage_custom_domain": "Benutzerdefinierte Domain verwalten",
@@ -1049,6 +1054,12 @@
     "showcase_help": "Deine Statusseite in unserem öffentlichen Showcase hervorheben",
     "showcase_description": "Werde in unserem <a href=\"/showcase\" target=\"_blank\">öffentlichen Showcase</a> vorgestellt, um dein Engagement für Transparenz und Zuverlässigkeit zu demonstrieren. Dies ist eine großartige Möglichkeit, Vertrauen bei potenziellen Kunden aufzubauen.",
     "manage_showcase": "Showcase-Einstellungen verwalten",
+    "delete_group_confirm": {
+      "confirm": "Löschen",
+      "text": "Komponenten in dieser Gruppe werden nicht mehr gruppiert. Dies kann nicht rückgängig gemacht werden.",
+      "title": "Diese Gruppe löschen?"
+    },
+    "delete_group_failed": "Gruppe konnte nicht gelöscht werden",
     "delete_permanent": "Das Löschen deiner Statusseite ist <u>dauerhaft</u>",
     "slug_blocked": "Der Slug wird 30 Tage lang für die Wiederverwendung gesperrt",
     "confirm_url": "Zum Bestätigen gib die vollständige URL deiner Statusseite ein:",
@@ -1114,9 +1125,11 @@
     "choose_event_types": "Wählen Sie aus, welche Ereignisse Benachrichtigungen auslösen",
     "components": {
       "add_component": "Komponente hinzufügen",
+      "empty_state": "Noch keine Komponenten. Fügen Sie oben Ihre erste Komponente hinzu!",
       "failed_loading": "Fehler beim Laden der Komponenten",
       "help": "Verwalten Sie die Komponenten, die auf dieser Statusseite angezeigt werden. Komponenten gruppieren Monitore und Vorfälle.",
-      "loading": "Lade Komponenten..."
+      "loading": "Lade Komponenten...",
+      "name_required": "Bitte geben Sie einen Komponentennamen ein"
     },
     "components_will_delete": "Alle Komponenten unter dieser Seite werden gelöscht",
     "confirm_password_transfer": "Bestätigen Sie Ihr Passwort",
@@ -1243,6 +1256,8 @@
     "password_protection": "Passwortschutz",
     "password_set": "Passwort ist gesetzt",
     "placement": "Platzierung",
+    "placement_footer": "Fußzeile",
+    "placement_header": "Kopfbereich",
     "prevent_notification_flooding": "Verhindern Sie Benachrichtigungsflut durch schnelle Statusänderungen",
     "preview": "Vorschau:",
     "preview_text": "So wird der Text auf Ihrer Statusseite angezeigt.",

@@ -684,7 +684,9 @@
     "groups_explanation": "Los grupos ayudan a organizar los componentes en categorías (p. ej., \"Servicios Backend\", \"Infraestructura\")",
     "groups_optional": "Los grupos son opcionales: los componentes sin grupos se mostrarán por separado",
     "step1_create_groups": "Paso 1: Crear grupos (Opcional)",
+    "group_name_required": "Por favor, introduce un nombre de grupo",
     "group_placeholder": "p. ej., Servicios Backend, Infraestructura, Frontend...",
+    "group_rename_failed": "Error al renombrar el grupo",
     "add_group": "Agregar grupo",
     "no_groups_yet": "Aún no hay grupos. Los grupos ayudan a organizar los componentes visualmente.",
     "step2_add_components": "Paso 2: Agregar componentes",
@@ -797,10 +799,12 @@
         },
         "ssl": {
           "failed": "No se pudo comprobar SSL",
+          "still_pending": "El certificado SSL todavía se está aprovisionando. Vuelve a comprobarlo más tarde o recarga la página.",
           "updated_reload": "Estado de SSL actualizado. Recargando la página…"
         }
       },
       "active": "Activo",
+      "advanced": "Avanzado",
       "auto_create_incident": "Incidencia de auto-crear en el monitor DOWN (primera detección)",
       "auto_resolve_auto_created": "Auto-resolve auto-creado incidentes cuando el monitor se recupera",
       "auto_resolve_help": "Añade una actualización de resolución predeterminada (\"Resolvado automático después de la recuperación del monitor\"). Aún puedes editar detalles o crear una postmortem después.",
@@ -1016,6 +1020,7 @@
     "password_protected": "Tu página de estado está protegida",
     "change_password": "Cambiar contraseña",
     "remove_password": "Eliminar contraseña",
+    "rename_group": "Renombrar grupo",
     "password_disabled_msg": "La protección con contraseña está desactivada. Activa el interruptor arriba para habilitarla.",
     "password_placeholder": "Ingresa una contraseña para proteger esta página",
     "manage_custom_domain": "Administrar dominio personalizado",
@@ -1054,6 +1059,12 @@
     "showcase_help": "Destaca tu página de estado en nuestro escaparate público",
     "showcase_description": "Aparece en nuestro <a href=\"/showcase\" target=\"_blank\">escaparate público</a> para demostrar tu compromiso con la transparencia y la fiabilidad. Esta es una excelente manera de generar confianza con clientes potenciales.",
     "manage_showcase": "Administrar configuración de escaparate",
+    "delete_group_confirm": {
+      "confirm": "Eliminar",
+      "text": "Los componentes de este grupo quedarán sin agrupar. Esta acción no se puede deshacer.",
+      "title": "¿Eliminar este grupo?"
+    },
+    "delete_group_failed": "Error al eliminar el grupo",
     "delete_permanent": "Eliminar tu página de estado es <u>permanente</u>",
     "slug_blocked": "El slug estará bloqueado para reutilización durante 30 días",
     "confirm_url": "Para confirmar, escribe la URL completa de tu página de estado:",
@@ -1118,9 +1129,11 @@
     "choose_event_types": "Seleccione qué eventos desencadenan notificaciones",
     "components": {
       "add_component": "➕",
+      "empty_state": "Aún no hay componentes. ¡Agrega tu primer componente arriba!",
       "failed_loading": "Componentes de carga fallidos",
       "help": "Administrar los componentes que aparecen en esta página de estado. Grupo de componentes monitores e incidentes.",
-      "loading": "Cargando componentes..."
+      "loading": "Cargando componentes...",
+      "name_required": "Por favor, introduce un nombre de componente"
     },
     "components_will_delete": "Todos los componentes de esta página serán eliminados",
     "confirm_password_transfer": "Confirme su contraseña",
@@ -1247,6 +1260,8 @@
     "password_protection": "Protección de contraseñas",
     "password_set": "Se establece la contraseña",
     "placement": "Lugar",
+    "placement_footer": "Pie de página",
+    "placement_header": "Encabezado",
     "prevent_notification_flooding": "Evitar las inundaciones de notificación por cambios de estado rápido",
     "preview": "Vista previa:",
     "preview_text": "Así es como aparecerá el texto en su página de estado.",
