@@ -2818,6 +2818,11 @@
   "billing": {
     "breadcrumb": "Abrechnung & Plan",
     "free_trial_active": "Kostenlose Testphase aktiv",
+    "free_with_addons": "Sie befinden sich im kostenlosen Plan mit",
+    "active_addon_subscription": "aktives Add-on-Abonnement",
+    "active_addon_subscriptions": "aktive Add-on-Abonnements",
+    "per_month_short": "/Monat",
+    "see_below": "siehe unten",
     "trial_grace_period": "Kulanzzeitraum der Testphase",
     "refund_guarantee_active": "15-Tage-Rückerstattungsgarantie aktiv",
     "refund_period_ended_prefix": "Der 15-tägige Rückererstattungszeitraum ist abgelaufen. Wenn Sie besondere Umstände haben, bitte",

@@ -2822,6 +2822,11 @@
   "billing": {
     "breadcrumb": "Facturación y plan",
     "free_trial_active": "Prueba gratuita activa",
+    "free_with_addons": "Estás en el plan Gratis con",
+    "active_addon_subscription": "suscripción de complemento activa",
+    "active_addon_subscriptions": "suscripciones de complementos activas",
+    "per_month_short": "/mes",
+    "see_below": "ver abajo",
     "trial_grace_period": "Periodo de gracia de la prueba",
     "refund_guarantee_active": "Garantía de reembolso de 15 días activa",
     "refund_period_ended_prefix": "El periodo de reembolso de 15 días ha finalizado. Si tienes circunstancias especiales, por favor",

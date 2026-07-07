@@ -2835,6 +2835,11 @@
   "billing": {
     "breadcrumb": "Facturation & forfait",
     "free_trial_active": "Essai gratuit actif",
+    "free_with_addons": "Vous êtes sur le forfait Gratuit avec",
+    "active_addon_subscription": "abonnement complémentaire actif",
+    "active_addon_subscriptions": "abonnements complémentaires actifs",
+    "per_month_short": "/mois",
+    "see_below": "voir ci-dessous",
     "trial_grace_period": "Période de grâce de l’essai",
     "refund_guarantee_active": "Garantie de remboursement de 15 jours active",
     "refund_period_ended_prefix": "La période de remboursement de 15 jours est terminée. Si vous avez des circonstances particulières, veuillez",

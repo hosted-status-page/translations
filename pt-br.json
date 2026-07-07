@@ -2818,6 +2818,11 @@
   "billing": {
     "breadcrumb": "Cobrança e plano",
     "free_trial_active": "Teste gratuito ativo",
+    "free_with_addons": "Você está no plano Grátis com",
+    "active_addon_subscription": "assinatura de complemento ativa",
+    "active_addon_subscriptions": "assinaturas de complementos ativas",
+    "per_month_short": "/mês",
+    "see_below": "veja abaixo",
     "trial_grace_period": "Período de carência do teste",
     "refund_guarantee_active": "Garantia de reembolso de 15 dias ativa",
     "refund_period_ended_prefix": "O período de reembolso de 15 dias terminou. Se você tiver circunstâncias especiais, por favor",

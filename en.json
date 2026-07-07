@@ -355,6 +355,8 @@
       "update_payment_method": "Update payment method"
     },
     "active_label": "Active:",
+    "active_addon_subscription": "active add-on subscription",
+    "active_addon_subscriptions": "active add-on subscriptions",
     "active_until": "Active until:",
     "all_notification_channels": "All notification channels",
     "admin_set_plan": "Plan configured by administrator",
@@ -386,6 +388,7 @@
     "first_charge": "(first charge)",
     "flexible_check_interval": "Flexible check interval",
     "free_trial_active": "Free trial active",
+    "free_with_addons": "You're on the Free plan with",
     "full_branding": "Full branding",
     "full_embeds_widgets": "Full embeds & widgets",
     "full_support": "Full support",
@@ -417,6 +420,7 @@
     "no_transactions_title": "No billing transactions yet",
     "notifications": "notifications",
     "per_month": "/month",
+    "per_month_short": "/mo",
     "period": "Period",
     "plan_history": "Plan History",
     "plan_status": "Plan status",
@@ -437,6 +441,7 @@
     "refund_processing_days": "Refund processing may take 5-10 business days",
     "refund_reason_optional": "Reason for refund (optional):",
     "response_time_graphs": "Response time graphs",
+    "see_below": "see below",
     "seats_per_team": "Seats per Team",
     "status": {
       "failed": "Failed",

@@ -2830,6 +2830,11 @@
   "billing": {
     "breadcrumb": "الفواتير والخطة",
     "free_trial_active": "التجربة المجانية نشطة",
+    "free_with_addons": "أنت على الخطة المجانية مع",
+    "active_addon_subscription": "اشتراك إضافة نشط",
+    "active_addon_subscriptions": "اشتراكات إضافات نشطة",
+    "per_month_short": "/شهريًا",
+    "see_below": "انظر أدناه",
     "trial_grace_period": "فترة سماح التجربة",
     "refund_guarantee_active": "ضمان استرداد لمدة 15 يومًا نشط",
     "refund_period_ended_prefix": "انتهت فترة الاسترداد لمدة 15 يومًا. إذا كانت لديك ظروف خاصة، يرجى",
