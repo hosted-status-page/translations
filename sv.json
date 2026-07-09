@@ -4106,6 +4106,10 @@
       "day_uptime_aria": "{{date}} {{percent}}% drifttid",
       "showing_last_days_title": "Visar de senaste {{days}} dagarna på den här skärmstorleken",
       "showing_last_days_short": "({{days}} visas)",
+      "uptime_label": "drifttid",
+      "ninety_days_ago": "90 dagar sedan",
+      "forty_five_days_ago": "45 dagar sedan",
+      "today": "Idag",
       "no_components_note": "Den här statussidan övervakar inga komponenter ännu.",
       "no_components_subnote": "När monitorer har lagts till visas historik över drifttid och incidentrapporter här.",
       "components_heading": "Komponenter"

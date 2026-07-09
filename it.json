@@ -4162,6 +4162,10 @@
       "day_uptime_aria": "{{date}} {{percent}}% di uptime",
       "showing_last_days_title": "Visualizzazione degli ultimi {{days}} giorni su questa dimensione schermo",
       "showing_last_days_short": "({{days}} mostrati)",
+      "uptime_label": "tempo di attività",
+      "ninety_days_ago": "90 giorni fa",
+      "forty_five_days_ago": "45 giorni fa",
+      "today": "Oggi",
       "no_components_note": "Questa status page non monitora ancora alcun componente.",
       "no_components_subnote": "Una volta aggiunti i monitor, la cronologia di uptime e i report degli incidenti appariranno qui.",
       "components_heading": "Componenti"

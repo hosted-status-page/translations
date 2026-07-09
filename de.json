@@ -4148,6 +4148,10 @@
       "day_uptime_aria": "{{date}} {{percent}}% Verfügbarkeit",
       "showing_last_days_title": "Auf dieser Bildschirmgröße werden die letzten {{days}} Tage angezeigt",
       "showing_last_days_short": "({{days}} angezeigt)",
+      "uptime_label": "Verfügbarkeit",
+      "ninety_days_ago": "vor 90 Tagen",
+      "forty_five_days_ago": "vor 45 Tagen",
+      "today": "Heute",
       "no_components_note": "Diese Statusseite überwacht noch keine Komponenten.",
       "no_components_subnote": "Sobald Monitore hinzugefügt werden, erscheinen hier der Verfügbarkeitsverlauf und Vorfallberichte.",
       "components_heading": "Komponenten"

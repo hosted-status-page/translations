@@ -4165,6 +4165,10 @@
       "day_uptime_aria": "{{date}} {{percent}}% uptime",
       "showing_last_days_title": "Showing last {{days}} days on this screen size",
       "showing_last_days_short": "({{days}} shown)",
+      "uptime_label": "uptime",
+      "ninety_days_ago": "90 days ago",
+      "forty_five_days_ago": "45 days ago",
+      "today": "Today",
       "no_components_note": "This status page monitors no components yet.",
       "no_components_subnote": "Once monitors are added, uptime history and incident reports will appear here.",
       "components_heading": "Components"

@@ -170,6 +170,10 @@
       "day_uptime_aria": "{{date}} {{percent}}% dostupnosti",
       "showing_last_days_title": "Prikazuju se posljednja {{days}} dana na ovoj veličini zaslona",
       "showing_last_days_short": "({{days}} prikazano)",
+      "uptime_label": "dostupnost",
+      "ninety_days_ago": "prije 90 dana",
+      "forty_five_days_ago": "prije 45 dana",
+      "today": "Danas",
       "no_components_note": "Ova status stranica još ne prati nijednu komponentu.",
       "no_components_subnote": "Nakon što se dodaju monitori, ovdje će se prikazati povijest dostupnosti i izvješća o incidentima.",
       "components_heading": "Komponente"

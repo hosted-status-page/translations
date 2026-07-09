@@ -4160,6 +4160,10 @@
       "day_uptime_aria": "{{date}} {{percent}}% وقت تشغيل",
       "showing_last_days_title": "يتم عرض آخر {{days}} يومًا على حجم الشاشة هذا",
       "showing_last_days_short": "({{days}} معروضة)",
+      "uptime_label": "وقت التشغيل",
+      "ninety_days_ago": "قبل 90 يومًا",
+      "forty_five_days_ago": "قبل 45 يومًا",
+      "today": "اليوم",
       "no_components_note": "لا تراقب صفحة الحالة هذه أي مكونات بعد.",
       "no_components_subnote": "بمجرد إضافة المراقبات، سيظهر هنا سجل التوافر وتقارير الحوادث.",
       "components_heading": "المكونات"

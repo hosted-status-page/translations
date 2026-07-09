@@ -4154,6 +4154,10 @@
       "day_uptime_aria": "{{date}} {{percent}}% de disponibilidad",
       "showing_last_days_title": "Mostrando los últimos {{days}} días en este tamaño de pantalla",
       "showing_last_days_short": "({{days}} mostrados)",
+      "uptime_label": "tiempo de actividad",
+      "ninety_days_ago": "hace 90 días",
+      "forty_five_days_ago": "hace 45 días",
+      "today": "Hoy",
       "no_components_note": "Esta página de estado aún no supervisa ningún componente.",
       "no_components_subnote": "Una vez que se agreguen monitores, aquí aparecerán el historial de disponibilidad y los informes de incidentes.",
       "components_heading": "Componentes"

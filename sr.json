@@ -4107,6 +4107,10 @@
       "day_uptime_aria": "{{date}} {{percent}}% доступности",
       "showing_last_days_title": "Приказује се последњих {{days}} дана на овој величини екрана",
       "showing_last_days_short": "({{days}} приказано)",
+      "uptime_label": "доступност",
+      "ninety_days_ago": "пре 90 дана",
+      "forty_five_days_ago": "пре 45 дана",
+      "today": "Данас",
       "no_components_note": "Ова статусна страница још не прати ниједну компоненту.",
       "no_components_subnote": "Када се додају монитори, овде ће се појавити историја доступности и извештаји о инцидентима.",
       "components_heading": "Компоненте"
