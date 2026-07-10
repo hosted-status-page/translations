@@ -581,7 +581,12 @@
       "tc_link": "Uptime &amp; Service Credits",
       "tc_suffix": "section in the Terms &amp; Conditions.",
       "title": "Account Credit"
-    }
+    },
+    "access": "Access",
+    "lifetime_access": "Lifetime access",
+    "no_further_payments": "None — one-time payment",
+    "plan_change_info_lifetime": "Your lifetime plan never expires and has no recurring charges. Upgrading to a different plan takes effect immediately with prorated billing.",
+    "subscription_key_details_lifetime": "Details of your lifetime purchase"
   },
   "common": {
     "action": "Action",
