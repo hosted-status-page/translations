@@ -1070,6 +1070,8 @@
     "setup_custom_domain": "إعداد النطاق المخصص",
     "lifetime": {
       "heading": "💎 عروض مدى الحياة",
+      "already_purchased_button": "تم الشراء بالفعل",
+      "owned_badge": "مملوك",
       "subtitle": "إدارة وصولك مدى الحياة وعرض العروض المتاحة",
       "view_available_deals": "عرض العروض المتاحة",
       "no_deals_title": "لم تشتر عرض مدى الحياة حتى الآن",
@@ -2873,6 +2875,9 @@
     "heartbeat_monitors": "مراقبات لمهام cron والمهام المجدولة.",
     "subscription_overview": "نظرة عامة عن الاشتراك",
     "subscription_key_details": "تفاصيل أساسية لدورة الفوترة الحالية",
+    "subscription_key_details_lifetime": "تفاصيل عملية الشراء مدى الحياة الخاصة بك",
+    "access": "الوصول",
+    "lifetime_access": "وصول مدى الحياة",
     "auto_renew": "التجديد التلقائي",
     "billing_cycle_label": "دورة الفوترة",
     "next_billing_date": "تاريخ الفوترة التالي",

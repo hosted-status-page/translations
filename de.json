@@ -1070,6 +1070,8 @@
     "setup_custom_domain": "Benutzerdefinierte Domain einrichten",
     "lifetime": {
       "heading": "💎 Lifetime-Angebote",
+      "already_purchased_button": "Bereits gekauft",
+      "owned_badge": "Erworben",
       "subtitle": "Verwalte deinen lebenslangen Zugang und sieh die verfügbaren Angebote",
       "view_available_deals": "Verfügbare Angebote anzeigen",
       "no_deals_title": "Du hast noch kein Lifetime-Angebot gekauft",
@@ -2861,6 +2863,9 @@
     "heartbeat_monitors": "Monitore für Cronjobs und geplante Aufgaben.",
     "subscription_overview": "Abonnementübersicht",
     "subscription_key_details": "Wichtige Details für Ihren aktuellen Abrechnungszeitraum",
+    "subscription_key_details_lifetime": "Details zu Ihrem lebenslangen Kauf",
+    "access": "Zugriff",
+    "lifetime_access": "Lebenslanger Zugriff",
     "auto_renew": "Automatische Verlängerung",
     "billing_cycle_label": "Abrechnungszyklus",
     "next_billing_date": "Nächstes Abrechnungsdatum",

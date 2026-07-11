@@ -1075,6 +1075,8 @@
     "setup_custom_domain": "Configurer le domaine personnalisé",
     "lifetime": {
       "heading": "💎 Offres à vie",
+      "already_purchased_button": "Déjà acheté",
+      "owned_badge": "Possédé",
       "subtitle": "Gérez votre accès à vie et consultez les offres disponibles",
       "view_available_deals": "Voir les offres disponibles",
       "no_deals_title": "Vous n'avez pas encore acheté une offre à vie",
@@ -2879,6 +2881,9 @@
     "heartbeat_monitors": "Moniteurs pour cron jobs et tâches planifiées.",
     "subscription_overview": "Aperçu de l’abonnement",
     "subscription_key_details": "Détails clés de votre cycle de facturation actuel",
+    "subscription_key_details_lifetime": "Détails de votre achat à vie",
+    "access": "Accès",
+    "lifetime_access": "Accès à vie",
     "auto_renew": "Renouvellement automatique",
     "billing_cycle_label": "Cycle de facturation",
     "next_billing_date": "Prochaine date de facturation",

@@ -1074,6 +1074,8 @@
     "delete_this_page": "Eliminar esta página de estado",
     "lifetime": {
       "heading": "💎 Ofertas de por vida",
+      "already_purchased_button": "Ya comprado",
+      "owned_badge": "Adquirido",
       "subtitle": "Administra tu acceso de por vida y ve las ofertas disponibles",
       "view_available_deals": "Ver ofertas disponibles",
       "no_deals_title": "Aún no has comprado una oferta de por vida",
@@ -2866,6 +2868,9 @@
     "heartbeat_monitors": "Monitores para cron jobs y tareas programadas.",
     "subscription_overview": "Resumen de la suscripción",
     "subscription_key_details": "Detalles clave de tu ciclo de facturación actual",
+    "subscription_key_details_lifetime": "Detalles de tu compra de por vida",
+    "access": "Acceso",
+    "lifetime_access": "Acceso de por vida",
     "auto_renew": "Renovación automática",
     "billing_cycle_label": "Ciclo de facturación",
     "next_billing_date": "Próxima fecha de facturación",

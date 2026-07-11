@@ -1070,6 +1070,8 @@
     "delete_this_page": "Excluir esta página de status",
     "lifetime": {
       "heading": "💎 Ofertas Vitalícias",
+      "already_purchased_button": "Já comprado",
+      "owned_badge": "Adquirido",
       "subtitle": "Gerencie seu acesso vitalício e veja as ofertas disponíveis",
       "view_available_deals": "Ver ofertas disponíveis",
       "no_deals_title": "Você ainda não comprou uma oferta vitalícia",
@@ -2862,6 +2864,9 @@
     "heartbeat_monitors": "Monitores para cron jobs e tarefas agendadas.",
     "subscription_overview": "Visão geral da assinatura",
     "subscription_key_details": "Detalhes principais do seu ciclo de cobrança atual",
+    "subscription_key_details_lifetime": "Detalhes da sua compra vitalícia",
+    "access": "Acesso",
+    "lifetime_access": "Acesso vitalício",
     "auto_renew": "Renovação automática",
     "billing_cycle_label": "Ciclo de cobrança",
     "next_billing_date": "Próxima data de cobrança",

@@ -459,7 +459,10 @@
     "status_page": "status page",
     "status_pages": "status pages",
     "subscription_key_details": "Key details for your current billing cycle",
+    "subscription_key_details_lifetime": "Details of your lifetime purchase",
     "subscription_overview": "Subscription overview",
+    "access": "Access",
+    "lifetime_access": "Lifetime access",
     "subscription_reference": "Subscription reference",
     "support_suffix": "support",
     "sure_request_refund": "Are you sure you want to request a refund?",
@@ -582,11 +585,8 @@
       "tc_suffix": "section in the Terms &amp; Conditions.",
       "title": "Account Credit"
     },
-    "access": "Access",
-    "lifetime_access": "Lifetime access",
     "no_further_payments": "None — one-time payment",
-    "plan_change_info_lifetime": "Your lifetime plan never expires and has no recurring charges. Upgrading to a different plan takes effect immediately with prorated billing.",
-    "subscription_key_details_lifetime": "Details of your lifetime purchase"
+    "plan_change_info_lifetime": "Your lifetime plan never expires and has no recurring charges. Upgrading to a different plan takes effect immediately with prorated billing."
   },
   "common": {
     "action": "Action",
@@ -2177,6 +2177,7 @@
     "historical_uptime_help": "Choose which team roles can view historical uptime in the dashboard",
     "how_it_works_intro": "How it works:",
     "lifetime": {
+      "already_purchased_button": "Already Purchased",
       "available_badge": "Available",
       "available_heading": "Available Lifetime Deals",
       "benefits_features_desc": "Full tier functionality",
@@ -2199,6 +2200,7 @@
       "my_purchases_heading": "My Lifetime Purchases",
       "no_deals_description": "Secure lifetime access to premium monitoring features with a one-time payment. No recurring fees, unlimited usage!",
       "no_deals_title": "You Haven't Purchased a Lifetime Deal Yet",
+      "owned_badge": "Owned",
       "paused_message": "Our current Lifetime Deal campaign is paused. The next wave will be announced on our blog and social channels.",
       "paused_title": "Lifetime Deal Campaign Paused",
       "processing": "Processing...",
