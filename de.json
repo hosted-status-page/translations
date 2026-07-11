@@ -14,6 +14,7 @@
       "unlink": "Trennen",
       "audit_queue": "Audit-Warteschlange",
       "email_queue": "E-Mail-Warteschlange",
+      "embed_usage": "Einbettungsnutzung",
       "error_logs": "Fehlerprotokolle",
       "impersonation_audit": "Impersonation-Audit",
       "user_admin_audit": "Benutzer-Admin-Audit",

@@ -11,6 +11,7 @@
       "operations": "Operaciones",
       "audit_queue": "Auditoría",
       "email_queue": "Correo electrónico",
+      "embed_usage": "Uso de widgets incrustados",
       "error_logs": "Registros de errores",
       "impersonation_audit": "Auditoría de la personalidad",
       "user_admin_audit": "Auditoría del personal",

@@ -14,6 +14,7 @@
       "unlink": "Dissocier",
       "audit_queue": "File d'attente d'audit",
       "email_queue": "File d'attente des e-mails",
+      "embed_usage": "Utilisation des widgets intégrés",
       "error_logs": "Journaux d'erreurs",
       "impersonation_audit": "Audit d'usurpation",
       "user_admin_audit": "Audit utilisateur-admin",

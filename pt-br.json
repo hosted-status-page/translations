@@ -14,6 +14,7 @@
       "unlink": "Desvincular",
       "audit_queue": "Fila de auditoria",
       "email_queue": "Fila de e-mails",
+      "embed_usage": "Uso de widgets incorporados",
       "error_logs": "Logs de erros",
       "impersonation_audit": "Auditoria de impersonação",
       "user_admin_audit": "Auditoria de usuário/admin",
