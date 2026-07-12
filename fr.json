@@ -2118,7 +2118,9 @@
       "upgrade_message": "Mettez à niveau votre plan pour créer plus d'équipes",
       "usage": "Utilisation des équipes :",
       "seats_usage": "Sièges utilisés :",
+      "seats_usage_scope": "Nombre total de membres invités dans toutes les équipes que vous possédez.",
       "seats_per_team": "Sièges par équipe :",
+      "seats_per_team_scope": "Plafond maximal pour une seule équipe (pas l'utilisation actuelle).",
       "unlimited": "Illimité",
       "members": "membres",
       "seats_reached": "Vous avez atteint la limite de sièges pour cette équipe. Supprimez un membre ou mettez à niveau votre plan.",
@@ -2158,7 +2160,13 @@
       },
       "errors": {
         "load_failed": "Impossible de charger les équipes. Veuillez réessayer."
-      }
+      },
+      "actor": "Acteur",
+      "filter": "Filtrer",
+      "no_logs": "Aucun journal trouvé",
+      "resource": "Ressource",
+      "show": "Afficher",
+      "time": "Heure"
     },
     "detail": {
       "pending": "Invitations en attente",

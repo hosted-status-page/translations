@@ -3376,20 +3376,26 @@
       "manage": "Upravljaj timovima"
     },
     "audit_logs": {
+      "actor": "Izvršitelj",
       "errors": {
         "load_failed": "Neuspješno učitavanje timova. Pokušajte ponovo."
       },
+      "filter": "Filtriraj",
+      "no_logs": "Nema pronađenih zapisa",
       "no_teams": {
         "text": "Morate biti vlasnik ili admin tima da biste videli dnevnik revizije.",
         "title": "Nema timova"
       },
+      "resource": "Resurs",
       "selector": {
         "confirm": "Prikaži dnevnik",
         "placeholder": "Izaberite tim",
         "text": "Izaberite tim za koji želite da vidite dnevnik revizije:",
         "title": "Izaberite tim",
         "validation": "Molimo izaberite tim"
-      }
+      },
+      "show": "Prikaži",
+      "time": "Vrijeme"
     },
     "delete": {
       "confirm": {
@@ -3600,8 +3606,10 @@
       "seats_note": "Sedišta broje pozvane članove i pozivnice na čekanju. Vlasnik pretplate se ne broi.",
       "seats_note_brief": "Vlasnik pretplate se ne broji prema limitu sedišta.",
       "seats_per_team": "Sedišta po timu:",
+      "seats_per_team_scope": "Maksimalno ograničenje za pojedinačni tim (ne trenutna upotreba).",
       "seats_reached": "Dostigli ste limit sedišta za ovaj tim. Uklonite člana ili nadogradite plan.",
       "seats_usage": "Sedišta korišćena:",
+      "seats_usage_scope": "Ukupan broj pozvanih članova u svim timovima koje posjedujete.",
       "unlimited": "Neograničeno",
       "upgrade_message": "Nadogradite plan da biste kreirali više timova",
       "usage": "Upotreba timova:",

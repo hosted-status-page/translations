@@ -3065,20 +3065,26 @@
       "manage": "Hantera team"
     },
     "audit_logs": {
+      "actor": "Aktör",
       "errors": {
         "load_failed": "Misslyckades med att ladda lag. Försök igen."
       },
+      "filter": "Filtrera",
+      "no_logs": "Inga loggar hittades",
       "no_teams": {
         "text": "Du måste vara ägare eller administratör av ett team för att se revisionsloggar.",
         "title": "Inga team"
       },
+      "resource": "Resurs",
       "selector": {
         "confirm": "Visa Logs",
         "placeholder": "Välj ett team",
         "text": "Välj ett team för att visa revisionsloggar för:",
         "title": "Välj Team",
         "validation": "Välj ett team"
-      }
+      },
+      "show": "Visa",
+      "time": "Tid"
     },
     "delete": {
       "confirm": {
@@ -3289,8 +3295,10 @@
       "seats_note": "Säten räknar inbjudna medlemmar och väntar på inbjudningar. Prenumerationsägaren räknas inte.",
       "seats_note_brief": "Prenumerationsägare räknas inte mot sätesgränsen.",
       "seats_per_team": "Säten per team:",
+      "seats_per_team_scope": "Maximal gräns för ett enskilt team (inte aktuell användning).",
       "seats_reached": "Du har nått din sätesgräns för detta lag. Ta bort en medlem eller uppgradera din plan.",
       "seats_usage": "Säten som används:",
+      "seats_usage_scope": "Totalt antal inbjudna medlemmar i alla team du äger.",
       "unlimited": "Obegränsad",
       "upgrade_message": "Uppgradera din plan för att skapa fler lag",
       "usage": "Teams användning:",

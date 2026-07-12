@@ -3112,20 +3112,26 @@
       "manage": "Gestisci team"
     },
     "audit_logs": {
+      "actor": "Attore",
       "errors": {
         "load_failed": "Impossibile caricare i team. Riprova."
       },
+      "filter": "Filtra",
+      "no_logs": "Nessun registro trovato",
       "no_teams": {
         "text": "Devi essere proprietario o amministratore di un team per visualizzare i log di audit.",
         "title": "Nessun team"
       },
+      "resource": "Risorsa",
       "selector": {
         "confirm": "Visualizza log",
         "placeholder": "Seleziona un team",
         "text": "Scegli un team per cui visualizzare i log di audit:",
         "title": "Seleziona team",
         "validation": "Seleziona un team"
-      }
+      },
+      "show": "Mostra",
+      "time": "Ora"
     },
     "delete": {
       "confirm": {
@@ -3336,8 +3342,10 @@
       "seats_note": "I posti contano i membri invitati e gli inviti in attesa. Il proprietario dell'abbonamento non conta.",
       "seats_note_brief": "Il proprietario dell'abbonamento non conta nel limite dei posti.",
       "seats_per_team": "Posti per team:",
+      "seats_per_team_scope": "Limite massimo per un singolo team (non l'utilizzo attuale).",
       "seats_reached": "Hai raggiunto il limite di posti per questo team. Rimuovi un membro o aggiorna il tuo piano.",
       "seats_usage": "Posti usati:",
+      "seats_usage_scope": "Totale membri invitati in tutti i team di cui sei proprietario.",
       "unlimited": "Illimitato",
       "upgrade_message": "Aggiorna il tuo piano per creare più team",
       "usage": "Utilizzo team:",

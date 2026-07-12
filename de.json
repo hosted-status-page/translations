@@ -2101,7 +2101,9 @@
       "upgrade_message": "Upgraden Sie Ihren Plan, um mehr Teams zu erstellen",
       "usage": "Team-Nutzung:",
       "seats_usage": "Sitzplätze genutzt:",
+      "seats_usage_scope": "Eingeladene Mitglieder insgesamt in allen Teams, die Sie besitzen.",
       "seats_per_team": "Sitzplätze pro Team:",
+      "seats_per_team_scope": "Maximale Obergrenze für ein einzelnes Team (nicht aktuelle Nutzung).",
       "unlimited": "Unbegrenzt",
       "members": "Mitglieder",
       "seats_reached": "Sie haben das Sitzplatz-Limit für dieses Team erreicht. Entfernen Sie ein Mitglied oder upgraden Sie Ihren Plan.",
@@ -2141,7 +2143,13 @@
       },
       "errors": {
         "load_failed": "Teams konnten nicht geladen werden. Bitte versuchen Sie es erneut."
-      }
+      },
+      "actor": "Akteur",
+      "filter": "Filtern",
+      "no_logs": "Keine Protokolle gefunden",
+      "resource": "Ressource",
+      "show": "Anzeigen",
+      "time": "Zeit"
     },
     "detail": {
       "pending": "Ausstehende Einladungen",

@@ -3116,20 +3116,26 @@
       "manage": "Manage Teams"
     },
     "audit_logs": {
+      "actor": "Actor",
       "errors": {
         "load_failed": "Failed to load teams. Please try again."
       },
+      "filter": "Filter",
+      "no_logs": "No logs found",
       "no_teams": {
         "text": "You must be an owner or admin of a team to view audit logs.",
         "title": "No Teams"
       },
+      "resource": "Resource",
       "selector": {
         "confirm": "View Logs",
         "placeholder": "Select a team",
         "text": "Choose a team to view audit logs for:",
         "title": "Select Team",
         "validation": "Please select a team"
-      }
+      },
+      "show": "Show",
+      "time": "Time"
     },
     "delete": {
       "confirm": {
@@ -3340,8 +3346,10 @@
       "seats_note": "Seats count invited members and pending invitations. The subscription owner doesn't count.",
       "seats_note_brief": "Subscription owner doesn't count toward the seat limit.",
       "seats_per_team": "Seats per Team:",
+      "seats_per_team_scope": "Maximum cap for any single team (not current usage).",
       "seats_reached": "You've reached your seat limit for this team. Remove a member or upgrade your plan.",
       "seats_usage": "Seats Used:",
+      "seats_usage_scope": "Total members invited across all teams you own.",
       "unlimited": "Unlimited",
       "upgrade_message": "Upgrade your plan to create more teams",
       "usage": "Teams Usage:",

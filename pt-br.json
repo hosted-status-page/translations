@@ -2096,7 +2096,9 @@
       "upgrade_message": "Faça upgrade do seu plano para criar mais equipes",
       "usage": "Uso de equipes:",
       "seats_usage": "Assentos usados:",
+      "seats_usage_scope": "Total de membros convidados em todas as equipes que você possui.",
       "seats_per_team": "Assentos por equipe:",
+      "seats_per_team_scope": "Limite máximo para uma única equipe (não o uso atual).",
       "unlimited": "Ilimitado",
       "members": "membros",
       "seats_reached": "Você atingiu o limite de assentos desta equipe. Remova um membro ou faça upgrade do plano.",
@@ -2136,7 +2138,13 @@
       },
       "errors": {
         "load_failed": "Não foi possível carregar as equipes. Tente novamente."
-      }
+      },
+      "actor": "Ator",
+      "filter": "Filtrar",
+      "no_logs": "Nenhum registro encontrado",
+      "resource": "Recurso",
+      "show": "Mostrar",
+      "time": "Hora"
     },
     "detail": {
       "pending": "Convites pendentes",
