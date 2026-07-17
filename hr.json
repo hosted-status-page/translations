@@ -2522,12 +2522,47 @@
     "link_to_docs": "Link do dokumentacije servisa",
     "manage_custom_domain": "Upravljaj prilagođenim domenom",
     "manage_showcase": "Upravljaj podešavanjima vitrine",
+    "metrics_page": {
+      "title": "Metrike",
+      "subtitle": "Prikaz spremljenih uživo vrijednosti neovisno o operativnim komponentama.",
+      "select_status_page": "Status stranica",
+      "add_metric": "Dodaj metriku",
+      "empty_title": "Nema metrika na ovoj status stranici",
+      "empty_help": "Kliknite \"Dodaj metriku\" za kreiranje prve vrijednosti uživo.",
+      "action_edit": "Uredi",
+      "action_set": "Postavi vrijednost",
+      "action_reset": "Resetiraj",
+      "action_delete": "Obriši",
+      "swal": {
+        "add_metric": {
+          "title": "Dodaj metriku",
+          "name_label": "Naziv",
+          "value_label": "Početna vrijednost",
+          "unit_label": "Jedinica ili sufiks (opcionalno)",
+          "icon_label": "Ikona (opcionalno)",
+          "no_icon": "Bez ikone",
+          "name_required": "Naziv je obavezan"
+        },
+        "edit_metric": {
+          "title": "Uredi metriku"
+        },
+        "set_value": {
+          "title": "Nova vrijednost",
+          "invalid": "Unesite valjanu brojčanu vrijednost"
+        },
+        "delete": {
+          "title": "Obrisati ovu metriku?",
+          "text": "Ova radnja se ne može poništiti."
+        }
+      }
+    },
     "monitors_section": "Monitori",
     "must_enter_exact": "Morate uneti",
     "nav": {
       "components": "Komponente",
       "edit_status_page": "Uredi status stranicu",
       "embeds": "Ugrađivanja",
+      "metrics": "Metrike",
       "new_status_page": "Nova status stranica",
       "status_pages": "Status stranice",
       "create_status_page": "Kreiraj status stranicu"

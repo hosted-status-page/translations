@@ -714,6 +714,40 @@
     "affects_overall_column": "Afeta em geral",
     "order_column": "Ordem",
     "monitors_section": "Monitores",
+    "metrics_page": {
+      "title": "Métricas",
+      "subtitle": "Exiba valores ao vivo armazenados de forma independente dos componentes operacionais.",
+      "select_status_page": "Página de status",
+      "add_metric": "Adicionar métrica",
+      "empty_title": "Nenhuma métrica nesta página de status",
+      "empty_help": "Clique em \"Adicionar métrica\" para criar seu primeiro valor ao vivo.",
+      "action_edit": "Editar",
+      "action_set": "Definir valor",
+      "action_reset": "Redefinir",
+      "action_delete": "Excluir",
+      "swal": {
+        "add_metric": {
+          "title": "Adicionar métrica",
+          "name_label": "Nome",
+          "value_label": "Valor inicial",
+          "unit_label": "Unidade ou sufixo (opcional)",
+          "icon_label": "Ícone (opcional)",
+          "no_icon": "Sem ícone",
+          "name_required": "O nome é obrigatório"
+        },
+        "edit_metric": {
+          "title": "Editar métrica"
+        },
+        "set_value": {
+          "title": "Novo valor",
+          "invalid": "Informe um valor numérico válido"
+        },
+        "delete": {
+          "title": "Excluir esta métrica?",
+          "text": "Esta ação não pode ser desfeita."
+        }
+      }
+    },
     "attach_monitors_help": "Anexe monitores para rastrear o tempo de atividade",
     "favicon_enable": "Habilitar",
     "upgrade_required": "Atualização necessária",
@@ -730,6 +764,7 @@
       "new_status_page": "Nova página de status",
       "components": "Componentes",
       "embeds": "Incorporações",
+      "metrics": "Métricas",
       "edit_status_page": "Editar página de status",
       "create_status_page": "Criar página de status"
     },

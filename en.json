@@ -2226,12 +2226,47 @@
     "link_to_docs": "Link to service docs",
     "manage_custom_domain": "Manage Custom Domain",
     "manage_showcase": "Manage Showcase Settings",
+    "metrics_page": {
+      "title": "Metrics",
+      "subtitle": "Display stored live values independently from operational components.",
+      "select_status_page": "Status page",
+      "add_metric": "Add metric",
+      "empty_title": "No metrics on this status page",
+      "empty_help": "Click \"Add metric\" to create your first live value.",
+      "action_edit": "Edit",
+      "action_set": "Set value",
+      "action_reset": "Reset",
+      "action_delete": "Delete",
+      "swal": {
+        "add_metric": {
+          "title": "Add metric",
+          "name_label": "Name",
+          "value_label": "Initial value",
+          "unit_label": "Unit or suffix (optional)",
+          "icon_label": "Icon (optional)",
+          "no_icon": "No icon",
+          "name_required": "Name is required"
+        },
+        "edit_metric": {
+          "title": "Edit metric"
+        },
+        "set_value": {
+          "title": "New value",
+          "invalid": "Enter a valid numeric value"
+        },
+        "delete": {
+          "title": "Delete this metric?",
+          "text": "This action cannot be undone."
+        }
+      }
+    },
     "monitors_section": "Monitors",
     "must_enter_exact": "You must enter",
     "nav": {
       "components": "Components",
       "edit_status_page": "Edit Status Page",
       "embeds": "Embeds",
+      "metrics": "Metrics",
       "new_status_page": "New Status Page",
       "status_pages": "Status Pages",
       "create_status_page": "Create Status Page"

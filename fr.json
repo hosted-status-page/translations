@@ -715,6 +715,40 @@
     "affects_overall_column": "Affecte l'état général",
     "order_column": "Ordre",
     "monitors_section": "Moniteurs",
+    "metrics_page": {
+      "title": "Métriques",
+      "subtitle": "Affichez des valeurs en direct stockées indépendamment des composants opérationnels.",
+      "select_status_page": "Page de statut",
+      "add_metric": "Ajouter une métrique",
+      "empty_title": "Aucune métrique sur cette page de statut",
+      "empty_help": "Cliquez sur « Ajouter une métrique » pour créer votre première valeur en direct.",
+      "action_edit": "Modifier",
+      "action_set": "Définir la valeur",
+      "action_reset": "Réinitialiser",
+      "action_delete": "Supprimer",
+      "swal": {
+        "add_metric": {
+          "title": "Ajouter une métrique",
+          "name_label": "Nom",
+          "value_label": "Valeur initiale",
+          "unit_label": "Unité ou suffixe (facultatif)",
+          "icon_label": "Icône (facultatif)",
+          "no_icon": "Aucune icône",
+          "name_required": "Le nom est requis"
+        },
+        "edit_metric": {
+          "title": "Modifier la métrique"
+        },
+        "set_value": {
+          "title": "Nouvelle valeur",
+          "invalid": "Saisissez une valeur numérique valide"
+        },
+        "delete": {
+          "title": "Supprimer cette métrique ?",
+          "text": "Cette action est irréversible."
+        }
+      }
+    },
     "attach_monitors_help": "Attachez les moniteurs pour suivre le temps d'activité",
     "favicon_enable": "Activer",
     "upgrade_required": "Mise à jour requise",
@@ -731,6 +765,7 @@
       "new_status_page": "Nouvelle page de statut",
       "components": "Composants",
       "embeds": "Intégrations",
+      "metrics": "Métriques",
       "edit_status_page": "Modifier la page de statut",
       "create_status_page": "Créer une page de statut"
     },

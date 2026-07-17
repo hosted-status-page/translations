@@ -2222,12 +2222,47 @@
     "link_to_docs": "Link alla documentazione del servizio",
     "manage_custom_domain": "Gestisci dominio personalizzato",
     "manage_showcase": "Gestisci impostazioni vetrina",
+    "metrics_page": {
+      "title": "Metriche",
+      "subtitle": "Mostra valori live memorizzati indipendentemente dai componenti operativi.",
+      "select_status_page": "Status page",
+      "add_metric": "Aggiungi metrica",
+      "empty_title": "Nessuna metrica in questa status page",
+      "empty_help": "Clicca su \"Aggiungi metrica\" per creare il tuo primo valore live.",
+      "action_edit": "Modifica",
+      "action_set": "Imposta valore",
+      "action_reset": "Reimposta",
+      "action_delete": "Elimina",
+      "swal": {
+        "add_metric": {
+          "title": "Aggiungi metrica",
+          "name_label": "Nome",
+          "value_label": "Valore iniziale",
+          "unit_label": "Unità o suffisso (opzionale)",
+          "icon_label": "Icona (opzionale)",
+          "no_icon": "Nessuna icona",
+          "name_required": "Il nome è obbligatorio"
+        },
+        "edit_metric": {
+          "title": "Modifica metrica"
+        },
+        "set_value": {
+          "title": "Nuovo valore",
+          "invalid": "Inserisci un valore numerico valido"
+        },
+        "delete": {
+          "title": "Eliminare questa metrica?",
+          "text": "Questa azione non può essere annullata."
+        }
+      }
+    },
     "monitors_section": "Monitor",
     "must_enter_exact": "Devi inserire",
     "nav": {
       "components": "Componenti",
       "edit_status_page": "Modifica status page",
       "embeds": "Incorporamenti",
+      "metrics": "Metriche",
       "new_status_page": "Nuova status page",
       "status_pages": "Status page",
       "create_status_page": "Crea status page"

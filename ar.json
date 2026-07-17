@@ -714,6 +714,40 @@
     "affects_overall_column": "يؤثر على الحالة العامة",
     "order_column": "الترتيب",
     "monitors_section": "أجهزة المراقبة",
+    "metrics_page": {
+      "title": "المقاييس",
+      "subtitle": "عرض القيم المباشرة المخزنة بشكل مستقل عن المكونات التشغيلية.",
+      "select_status_page": "صفحة الحالة",
+      "add_metric": "إضافة مقياس",
+      "empty_title": "لا توجد مقاييس في صفحة الحالة هذه",
+      "empty_help": "انقر على \"إضافة مقياس\" لإنشاء أول قيمة مباشرة.",
+      "action_edit": "تعديل",
+      "action_set": "تعيين القيمة",
+      "action_reset": "إعادة تعيين",
+      "action_delete": "حذف",
+      "swal": {
+        "add_metric": {
+          "title": "إضافة مقياس",
+          "name_label": "الاسم",
+          "value_label": "القيمة الأولية",
+          "unit_label": "الوحدة أو اللاحقة (اختياري)",
+          "icon_label": "الأيقونة (اختياري)",
+          "no_icon": "بدون أيقونة",
+          "name_required": "الاسم مطلوب"
+        },
+        "edit_metric": {
+          "title": "تعديل المقياس"
+        },
+        "set_value": {
+          "title": "قيمة جديدة",
+          "invalid": "أدخل قيمة رقمية صالحة"
+        },
+        "delete": {
+          "title": "حذف هذا المقياس؟",
+          "text": "لا يمكن التراجع عن هذا الإجراء."
+        }
+      }
+    },
     "attach_monitors_help": "أرفق أجهزة مراقبة لتتبع وقت التشغيل",
     "favicon_enable": "تمكين",
     "upgrade_required": "يلزم الترقية",
@@ -730,6 +764,7 @@
       "new_status_page": "صفحة حالة جديدة",
       "components": "المكونات",
       "embeds": "التضمينات",
+      "metrics": "المقاييس",
       "edit_status_page": "تحرير صفحة الحالة",
       "create_status_page": "إنشاء صفحة حالة"
     },

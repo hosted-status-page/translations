@@ -714,6 +714,40 @@
     "affects_overall_column": "Beeinflusst Gesamtstatus",
     "order_column": "Reihenfolge",
     "monitors_section": "Monitore",
+    "metrics_page": {
+      "title": "Metriken",
+      "subtitle": "Gespeicherte Live-Werte unabhängig von betrieblichen Komponenten anzeigen.",
+      "select_status_page": "Statusseite",
+      "add_metric": "Metrik hinzufügen",
+      "empty_title": "Keine Metriken auf dieser Statusseite",
+      "empty_help": "Klicke auf „Metrik hinzufügen“, um deinen ersten Live-Wert zu erstellen.",
+      "action_edit": "Bearbeiten",
+      "action_set": "Wert setzen",
+      "action_reset": "Zurücksetzen",
+      "action_delete": "Löschen",
+      "swal": {
+        "add_metric": {
+          "title": "Metrik hinzufügen",
+          "name_label": "Name",
+          "value_label": "Anfangswert",
+          "unit_label": "Einheit oder Suffix (optional)",
+          "icon_label": "Symbol (optional)",
+          "no_icon": "Kein Symbol",
+          "name_required": "Name ist erforderlich"
+        },
+        "edit_metric": {
+          "title": "Metrik bearbeiten"
+        },
+        "set_value": {
+          "title": "Neuer Wert",
+          "invalid": "Gib einen gültigen numerischen Wert ein"
+        },
+        "delete": {
+          "title": "Diese Metrik löschen?",
+          "text": "Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+      }
+    },
     "attach_monitors_help": "Monitore anhängen um die Verfügbarkeit zu verfolgen",
     "favicon_enable": "Aktivieren",
     "upgrade_required": "Upgrade erforderlich",
@@ -730,6 +764,7 @@
       "new_status_page": "Neue Status-Seite",
       "components": "Komponenten",
       "embeds": "Einbettungen",
+      "metrics": "Metriken",
       "edit_status_page": "Status-Seite bearbeiten",
       "create_status_page": "Statusseite erstellen"
     },

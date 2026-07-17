@@ -2211,12 +2211,47 @@
     "link_to_docs": "Länk till tjänstdokumentation",
     "manage_custom_domain": "Hantera anpassad domän",
     "manage_showcase": "Hantera Showcase Inställningar",
+    "metrics_page": {
+      "title": "Mätvärden",
+      "subtitle": "Visa sparade livevärden oberoende av operativa komponenter.",
+      "select_status_page": "Statussida",
+      "add_metric": "Lägg till mätvärde",
+      "empty_title": "Inga mätvärden på denna statussida",
+      "empty_help": "Klicka på \"Lägg till mätvärde\" för att skapa ditt första livevärde.",
+      "action_edit": "Redigera",
+      "action_set": "Ange värde",
+      "action_reset": "Återställ",
+      "action_delete": "Ta bort",
+      "swal": {
+        "add_metric": {
+          "title": "Lägg till mätvärde",
+          "name_label": "Namn",
+          "value_label": "Startvärde",
+          "unit_label": "Enhet eller suffix (valfritt)",
+          "icon_label": "Ikon (valfritt)",
+          "no_icon": "Ingen ikon",
+          "name_required": "Namn krävs"
+        },
+        "edit_metric": {
+          "title": "Redigera mätvärde"
+        },
+        "set_value": {
+          "title": "Nytt värde",
+          "invalid": "Ange ett giltigt numeriskt värde"
+        },
+        "delete": {
+          "title": "Ta bort detta mätvärde?",
+          "text": "Denna åtgärd kan inte ångras."
+        }
+      }
+    },
     "monitors_section": "Övervakare",
     "must_enter_exact": "Du måste ange",
     "nav": {
       "components": "Komponenter",
       "edit_status_page": "Redigera Status Page",
       "embeds": "Inbäddningar",
+      "metrics": "Mätvärden",
       "new_status_page": "Ny status sida",
       "status_pages": "Statussidor",
       "create_status_page": "Skapa status sida"
