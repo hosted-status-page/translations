@@ -2316,7 +2316,8 @@
           "error": "Error checking DNS",
           "mismatch": "CNAME points to <code>__DETECTED__</code>, but expected <code>__EXPECTED__</code>. Update your DNS and try again.",
           "not_found": "No CNAME found yet. Expected <code>__EXPECTED__</code>. DNS may take 5–30 minutes to propagate.",
-          "ok": "CNAME is correctly configured. SSL provisioning will begin automatically."
+          "ok": "CNAME is correctly configured. SSL provisioning will begin automatically.",
+          "ownership_conflict": "This domain is already connected to another status page. To claim it here, verify ownership using a TXT record."
         },
         "errors": {
           "remove_failed": "Failed to remove custom domain",

@@ -2312,7 +2312,8 @@
           "error": "Errore nella verifica DNS",
           "mismatch": "Il CNAME punta a <code>__DETECTED__</code>, ma era previsto <code>__EXPECTED__</code>. Aggiorna il tuo DNS e riprova.",
           "not_found": "Nessun CNAME trovato ancora. Previsto <code>__EXPECTED__</code>. Il DNS può richiedere 5-30 minuti per propagarsi.",
-          "ok": "Il CNAME è configurato correttamente. Il provisioning SSL inizierà automaticamente."
+          "ok": "Il CNAME è configurato correttamente. Il provisioning SSL inizierà automaticamente.",
+          "ownership_conflict": "Questo dominio è già collegato a un'altra pagina di stato. Per rivendicarlo qui, verifica la proprietà utilizzando un record TXT."
         },
         "errors": {
           "remove_failed": "Impossibile rimuovere il dominio personalizzato",

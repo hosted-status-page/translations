@@ -799,7 +799,8 @@
           "error": "Fehler beim Prüfen von DNS",
           "mismatch": "CNAME zeigt auf <code>__DETECTED__</code>, erwartet wird <code>__EXPECTED__</code>. Aktualisieren Sie Ihre DNS-Einträge und versuchen Sie es erneut.",
           "not_found": "Noch kein CNAME gefunden. Erwartet <code>__EXPECTED__</code>. DNS kann 5–30 Minuten für die Verbreitung benötigen.",
-          "ok": "CNAME ist korrekt konfiguriert. Die SSL-Bereitstellung startet automatisch."
+          "ok": "CNAME ist korrekt konfiguriert. Die SSL-Bereitstellung startet automatisch.",
+          "ownership_conflict": "Diese Domain ist bereits mit einer anderen Statusseite verbunden. Um sie hier zu beanspruchen, weisen Sie den Besitz mit einem TXT-Eintrag nach."
         },
         "errors": {
           "remove_failed": "Benutzerdefinierte Domain konnte nicht entfernt werden",

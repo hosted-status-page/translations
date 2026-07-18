@@ -804,7 +804,8 @@
           "error": "Erreur lors de la vérification DNS",
           "mismatch": "Le CNAME pointe vers <code>__DETECTED__</code>, mais <code>__EXPECTED__</code> était attendu. Mettez à jour votre DNS et réessayez.",
           "not_found": "Aucun CNAME trouvé pour l’instant. Attendu : <code>__EXPECTED__</code>. La propagation DNS peut prendre 5 à 30 minutes.",
-          "ok": "Le CNAME est correctement configuré. La fourniture SSL démarrera automatiquement."
+          "ok": "Le CNAME est correctement configuré. La fourniture SSL démarrera automatiquement.",
+          "ownership_conflict": "Ce domaine est déjà connecté à une autre page de statut. Pour le revendiquer ici, vérifiez la propriété à l'aide d'un enregistrement TXT."
         },
         "errors": {
           "remove_failed": "Échec de la suppression du domaine personnalisé",

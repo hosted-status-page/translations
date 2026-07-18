@@ -2612,7 +2612,8 @@
           "error": "Greška pri proveri DNS-a",
           "mismatch": "CNAME ukazuje na <code>__DETECTED__</code>, ali se očekuje <code>__EXPECTED__</code>. Ažurirajte DNS i pokušajte ponovo.",
           "not_found": "Još uvek nije pronađen CNAME. Očekuje se <code>__EXPECTED__</code>. DNS može da se propagira 5–30 minuta.",
-          "ok": "CNAME je ispravno podešen. SSL provizionisanje će početi automatski."
+          "ok": "CNAME je ispravno podešen. SSL provizionisanje će početi automatski.",
+          "ownership_conflict": "Ova domena je već povezana s drugom stranicom statusa. Da biste je preuzeli ovdje, potvrdite vlasništvo pomoću TXT zapisa."
         },
         "errors": {
           "remove_failed": "Nije uspjelo uklanjanje prilagođenog domena",

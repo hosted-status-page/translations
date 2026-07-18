@@ -2301,7 +2301,8 @@
           "error": "Fel vid kontroll av DNS",
           "mismatch": "CNAME pekar på <code>__DETECTED__</code>, men <code>__EXPECTED__</code> förväntas. Uppdatera din DNS och försök igen.",
           "not_found": "Ingen CNAME hittades ännu. Förväntat värde är <code>__EXPECTED__</code>. DNS kan ta 5–30 minuter att spridas.",
-          "ok": "CNAME är korrekt konfigurerad. SSL-provisionering startar automatiskt."
+          "ok": "CNAME är korrekt konfigurerad. SSL-provisionering startar automatiskt.",
+          "ownership_conflict": "Den här domänen är redan ansluten till en annan statussida. För att göra anspråk på den här måste du verifiera ägandet med en TXT-post."
         },
         "errors": {
           "remove_failed": "Underlåten att ta bort anpassad domän",

@@ -803,7 +803,8 @@
           "error": "Error al comprobar DNS",
           "mismatch": "El CNAME apunta a <code>__DETECTED__</code>, pero se esperaba <code>__EXPECTED__</code>. Actualiza tu DNS e inténtalo de nuevo.",
           "not_found": "Aún no se encontró ningún CNAME. Se esperaba <code>__EXPECTED__</code>. El DNS puede tardar entre 5 y 30 minutos en propagarse.",
-          "ok": "El CNAME está configurado correctamente. El aprovisionamiento de SSL comenzará automáticamente."
+          "ok": "El CNAME está configurado correctamente. El aprovisionamiento de SSL comenzará automáticamente.",
+          "ownership_conflict": "Este dominio ya está conectado a otra página de estado. Para reclamarlo aquí, verifica la propiedad mediante un registro TXT."
         },
         "errors": {
           "remove_failed": "No se pudo eliminar el dominio personalizado",
