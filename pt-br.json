@@ -387,8 +387,8 @@
       "api_mode_label": "Modo",
       "advanced_settings_hint": "Avançado está selecionado porque este monitor já usa configurações ocultas no modo Simples.",
       "api_mode_help": "Simples mostra apenas a URL, o método, a autenticação e uma correspondência de texto de resposta opcional. Avançado mostra as configurações de requisição, as asserções de resposta, o intervalo, o impacto e outras configurações do monitor.",
-      "expected_result_label": "Resultado esperado",
-      "expected_result_help": "Opcional. Se informado, o corpo da resposta deve conter este texto (e o status deve ser 2xx/3xx).",
+      "expected_result_label": "Correspondência de texto",
+      "expected_result_help": "Verificado somente quando o status da resposta é 2xx/3xx — deixe em branco para tratar qualquer 2xx/3xx como UP. Precisa buscar texto com outro código de status (por exemplo, esperando um 401)? Use Condições avançadas.",
       "query_params_label": "Parâmetros de consulta",
       "request_section_title": "Requisição",
       "request_section_help": "Essas configurações são enviadas ao destino. Elas não são validadas automaticamente.",
@@ -4072,7 +4072,8 @@
       "avg_response_time": "Tempo médio de resposta:",
       "no_updates": "Nenhuma atualização registrada.",
       "maintenance_title": "Manutenção",
-      "per_region_history": "Histórico por região"
+      "per_region_history": "Histórico por região",
+      "region_insufficient_data": "Verificado apenas durante a confirmação de incidentes — {{days}} dia(s) de dados até agora"
     },
     "nav": {
       "status_page": "Página de status",

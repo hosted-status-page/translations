@@ -1271,8 +1271,8 @@
       "component_label": "Componente",
       "default_success_hint": "Non è impostata alcuna verifica personalizzata della risposta. Il monitor è ATTIVO su risposte 2xx/3xx e INATTIVO su tutto il resto.",
       "domain_label": "Dominio",
-      "expected_result_help": "Opzionale. Lascia vuoto per considerare ATTIVE le risposte 2xx/3xx. Se lo compili e non aggiungi verifiche avanzate della risposta, il monitor è ATTIVO solo quando la risposta è 2xx/3xx e il corpo della risposta contiene questo testo.",
-      "expected_result_label": "La risposta deve contenere",
+      "expected_result_help": "Verificato solo quando lo stato della risposta è 2xx/3xx — lascia vuoto per considerare ATTIVO qualsiasi 2xx/3xx. Devi verificare del testo con un codice di stato diverso (ad es. un 401 previsto)? Usa invece le Condizioni avanzate.",
+      "expected_result_label": "Corrispondenza testo",
       "expected_value_label": "Valore previsto",
       "headers_label": "Header",
       "http_method_label": "Metodo HTTP",
@@ -4087,7 +4087,8 @@
       "avg_response_time": "Tempo di risposta medio:",
       "no_updates": "Nessun aggiornamento registrato.",
       "maintenance_title": "Manutenzione",
-      "per_region_history": "Cronologia per regione"
+      "per_region_history": "Cronologia per regione",
+      "region_insufficient_data": "Verificato solo durante la conferma dell'incidente — finora {{days}} giorno/i di dati"
     },
     "nav": {
       "status_page": "Status page",

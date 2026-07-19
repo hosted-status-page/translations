@@ -1258,8 +1258,8 @@
       "component_label": "Komponent",
       "default_success_hint": "Standardkontroll: 2xx/3xx statuskod anses vara UP.",
       "domain_label": "Domän",
-      "expected_result_help": "Valfritt. Om det föreskrivs måste svarsorganet innehålla denna text (och status måste vara 2xx/3xx).",
-      "expected_result_label": "Förväntat resultat",
+      "expected_result_help": "Kontrolleras endast när svarsstatusen är 2xx/3xx — lämna tomt för att behandla alla 2xx/3xx som UP. Behöver du matcha text med en annan statuskod (t.ex. en förväntad 401)? Använd Avancerade villkor istället.",
+      "expected_result_label": "Matcha text",
       "expected_value_label": "Förväntat värde",
       "headers_label": "Headers",
       "http_method_label": "HTTP Method",
@@ -4034,7 +4034,8 @@
       "avg_response_time": "Genomsnittlig svarstid:",
       "no_updates": "Inga uppdateringar registrerade.",
       "maintenance_title": "Underhåll",
-      "per_region_history": "Historik per region"
+      "per_region_history": "Historik per region",
+      "region_insufficient_data": "Kontrolleras endast under incidentbekräftelse — {{days}} dag(ar) med data hittills"
     },
     "nav": {
       "status_page": "Statussida",

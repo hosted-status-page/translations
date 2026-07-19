@@ -387,8 +387,8 @@
       "api_mode_label": "Modus",
       "advanced_settings_hint": "Erweitert ist ausgewählt, weil dieser Monitor bereits Einstellungen verwendet, die im Einfachen Modus verborgen sind.",
       "api_mode_help": "Einfach zeigt nur URL, Methode, Authentifizierung und eine optionale Textübereinstimmung im Antworttext. Erweitert zeigt Anfrage-Einstellungen, Response-Regeln, Intervall, Auswirkung und weitere Monitor-Einstellungen.",
-      "expected_result_label": "Erwartetes Ergebnis",
-      "expected_result_help": "Optional. Wenn gesetzt, muss der Response-Body diesen Text enthalten (und der Status muss 2xx/3xx sein).",
+      "expected_result_label": "Text abgleichen",
+      "expected_result_help": "Wird nur geprüft, wenn der Antwortstatus 2xx/3xx ist — leer lassen, um jede 2xx/3xx-Antwort als UP zu behandeln. Müssen Sie Text bei einem anderen Statuscode abgleichen (z. B. bei einem erwarteten 401)? Verwenden Sie stattdessen die erweiterten Bedingungen.",
       "query_params_label": "Query-Parameter",
       "request_section_title": "Anfrage",
       "request_section_help": "Diese Einstellungen werden an das Ziel gesendet. Sie werden nicht automatisch validiert.",
@@ -4076,7 +4076,8 @@
       "avg_response_time": "Durchschn. Antwortzeit:",
       "no_updates": "Keine Updates aufgezeichnet.",
       "maintenance_title": "Wartung",
-      "per_region_history": "Verlauf nach Region"
+      "per_region_history": "Verlauf nach Region",
+      "region_insufficient_data": "Wird nur während der Vorfallbestätigung überprüft — bisher {{days}} Tag(e) mit Daten"
     },
     "nav": {
       "status_page": "Statusseite",

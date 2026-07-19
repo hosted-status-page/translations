@@ -388,8 +388,8 @@
       "api_mode_label": "Mode",
       "advanced_settings_hint": "Avancé est sélectionné car ce moniteur utilise déjà des paramètres cachés en mode Simple.",
       "api_mode_help": "Simple affiche uniquement l'URL, la méthode, l'authentification et une correspondance de texte de réponse optionnelle. Avancé affiche les paramètres de requête, les assertions de réponse, l'intervalle, l'impact et les autres paramètres du moniteur.",
-      "expected_result_label": "Résultat attendu",
-      "expected_result_help": "Optionnel. Si renseigné, le corps de la réponse doit contenir ce texte (et le statut doit être 2xx/3xx).",
+      "expected_result_label": "Texte à rechercher",
+      "expected_result_help": "Vérifié uniquement lorsque le statut de la réponse est 2xx/3xx — laissez vide pour considérer tout 2xx/3xx comme UP. Besoin de rechercher du texte avec un autre code de statut (par exemple un 401 attendu) ? Utilisez plutôt les conditions avancées.",
       "query_params_label": "Paramètres de requête",
       "request_section_title": "Requête",
       "request_section_help": "Ces paramètres sont envoyés à la cible. Ils ne sont pas validés automatiquement.",
@@ -4090,7 +4090,8 @@
       "avg_response_time": "Temps de réponse moyen :",
       "no_updates": "Aucune mise à jour enregistrée.",
       "maintenance_title": "Entretien",
-      "per_region_history": "Historique par région"
+      "per_region_history": "Historique par région",
+      "region_insufficient_data": "Vérifié uniquement lors de la confirmation d'incident — {{days}} jour(s) de données jusqu'à présent"
     },
     "nav": {
       "status_page": "Page de statut",

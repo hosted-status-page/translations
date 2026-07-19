@@ -391,8 +391,8 @@
       "api_mode_label": "Modo",
       "advanced_settings_hint": "Avanzado está seleccionado porque este monitor ya usa configuraciones ocultas en el modo Sencillo.",
       "api_mode_help": "Sencillo muestra solo la URL, el método, la autenticación y una coincidencia de texto de respuesta opcional. Avanzado muestra la configuración de solicitud, las aserciones de respuesta, el intervalo, el impacto y otras configuraciones del monitor.",
-      "expected_result_label": "Resultado previsto",
-      "expected_result_help": "Opcional. Si se proporciona, el órgano de respuesta debe contener este texto (y el estado debe ser 2xx/3xx).",
+      "expected_result_label": "Coincidencia de texto",
+      "expected_result_help": "Solo se comprueba cuando el estado de la respuesta es 2xx/3xx; déjelo vacío para tratar cualquier 2xx/3xx como UP. ¿Necesita buscar texto con otro código de estado (por ejemplo, esperando un 401)? Use Condiciones avanzadas en su lugar.",
       "query_params_label": "Parámetros de consulta",
       "request_section_title": "Solicitud",
       "request_section_help": "Estos ajustes se envían al objetivo. No se validan automáticamente.",
@@ -4082,7 +4082,8 @@
       "avg_response_time": "Tiempo medio de respuesta:",
       "no_updates": "No hay actualizaciones registradas.",
       "maintenance_title": "Mantenimiento",
-      "per_region_history": "Historial por región"
+      "per_region_history": "Historial por región",
+      "region_insufficient_data": "Solo se verifica durante la confirmación de incidentes — {{days}} día(s) de datos hasta ahora"
     },
     "nav": {
       "status_page": "Página de estado",

@@ -48,7 +48,8 @@
       "avg_response_time": "Prosj. vrijeme odziva:",
       "no_updates": "Nema zabilježenih ažuriranja.",
       "maintenance_title": "Održavanje",
-      "per_region_history": "Povijest po regijama"
+      "per_region_history": "Povijest po regijama",
+      "region_insufficient_data": "Provjerava se samo tijekom potvrde incidenta — {{days}} dan(a) podataka do sada"
     },
     "nav": {
       "status_page": "Status stranica",
@@ -1569,8 +1570,8 @@
       "component_label": "Komponenta",
       "default_success_hint": "Podrazumevana provjera: status kod 2xx/3xx se smatra UP.",
       "domain_label": "Domen",
-      "expected_result_help": "Opciono. Ako je postavljeno, telo odgovora mora da sadrži ovaj tekst (i status mora biti 2xx/3xx).",
-      "expected_result_label": "Očekivani rezultat",
+      "expected_result_help": "Provjerava se samo kada je status odgovora 2xx/3xx — ostavite prazno da se svaki 2xx/3xx smatra UP. Trebate podudaranje teksta uz drugi status kod (npr. očekivani 401)? Umjesto toga koristite Napredne uvjete.",
+      "expected_result_label": "Podudaranje teksta",
       "expected_value_label": "Očekivana vrednost",
       "headers_label": "Zaglavlja",
       "http_method_label": "HTTP metod",

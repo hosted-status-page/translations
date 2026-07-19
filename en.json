@@ -1273,8 +1273,8 @@
       "component_label": "Component",
       "default_success_hint": "No custom response check is set. The monitor is UP on 2xx/3xx responses and DOWN on everything else.",
       "domain_label": "Domain",
-      "expected_result_help": "Optional. Leave this empty to treat 2xx/3xx responses as UP. If you fill it and do not add advanced response assertions, the monitor is UP only when the response is 2xx/3xx and the response body contains this text.",
-      "expected_result_label": "Response must contain",
+      "expected_result_help": "Checked only when the response status is 2xx/3xx — leave empty to treat any 2xx/3xx as UP. Need to match text on a different status code (e.g. expecting a 401)? Use Advanced Conditions instead.",
+      "expected_result_label": "Match text",
       "expected_value_label": "Expected Value",
       "headers_label": "Headers",
       "http_method_label": "HTTP Method",
@@ -4091,7 +4091,8 @@
       "avg_response_time": "Avg. Response Time:",
       "no_updates": "No updates recorded.",
       "maintenance_title": "Maintenance",
-      "per_region_history": "Per-region history"
+      "per_region_history": "Per-region history",
+      "region_insufficient_data": "Checked only during incident confirmation — {{days}} day(s) of data so far"
     },
     "nav": {
       "status_page": "Status Page",
