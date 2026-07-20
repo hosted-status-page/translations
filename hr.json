@@ -2616,6 +2616,11 @@
           "ok": "CNAME je ispravno podešen. SSL provizionisanje će početi automatski.",
           "ownership_conflict": "Ova domena je već povezana s drugom stranicom statusa. Da biste je preuzeli ovdje, potvrdite vlasništvo pomoću TXT zapisa."
         },
+        "disabled": {
+          "admin_body": "Vašu prilagođenu domenu je onemogućio administrator.",
+          "plan_body": "Vaša prilagođena domena je onemogućena jer vaš trenutni plan ne uključuje prilagođene domene.",
+          "upgrade_cta": "Nadogradite svoj plan"
+        },
         "errors": {
           "remove_failed": "Nije uspjelo uklanjanje prilagođenog domena",
           "set_primary_failed": "Nije uspjelo postavljanje primarnog domena"

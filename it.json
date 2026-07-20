@@ -2315,6 +2315,11 @@
           "ok": "Il CNAME è configurato correttamente. Il provisioning SSL inizierà automaticamente.",
           "ownership_conflict": "Questo dominio è già collegato a un'altra pagina di stato. Per rivendicarlo qui, verifica la proprietà utilizzando un record TXT."
         },
+        "disabled": {
+          "admin_body": "Il tuo dominio personalizzato è stato disabilitato da un amministratore.",
+          "plan_body": "Il tuo dominio personalizzato è disabilitato perché il tuo piano attuale non include domini personalizzati.",
+          "upgrade_cta": "Aggiorna il tuo piano"
+        },
         "errors": {
           "remove_failed": "Impossibile rimuovere il dominio personalizzato",
           "set_primary_failed": "Impossibile impostare il dominio primario"

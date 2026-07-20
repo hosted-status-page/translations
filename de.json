@@ -802,6 +802,11 @@
           "ok": "CNAME ist korrekt konfiguriert. Die SSL-Bereitstellung startet automatisch.",
           "ownership_conflict": "Diese Domain ist bereits mit einer anderen Statusseite verbunden. Um sie hier zu beanspruchen, weisen Sie den Besitz mit einem TXT-Eintrag nach."
         },
+        "disabled": {
+          "admin_body": "Ihre benutzerdefinierte Domain wurde von einem Administrator deaktiviert.",
+          "plan_body": "Ihre benutzerdefinierte Domain ist deaktiviert, da Ihr aktueller Plan keine benutzerdefinierten Domains beinhaltet.",
+          "upgrade_cta": "Upgraden Sie Ihren Plan"
+        },
         "errors": {
           "remove_failed": "Benutzerdefinierte Domain konnte nicht entfernt werden",
           "set_primary_failed": "Primäre Domain konnte nicht festgelegt werden"

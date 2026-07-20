@@ -806,6 +806,11 @@
           "ok": "El CNAME está configurado correctamente. El aprovisionamiento de SSL comenzará automáticamente.",
           "ownership_conflict": "Este dominio ya está conectado a otra página de estado. Para reclamarlo aquí, verifica la propiedad mediante un registro TXT."
         },
+        "disabled": {
+          "admin_body": "Un administrador ha deshabilitado tu dominio personalizado.",
+          "plan_body": "Tu dominio personalizado está deshabilitado porque tu plan actual no incluye dominios personalizados.",
+          "upgrade_cta": "Mejora tu plan"
+        },
         "errors": {
           "remove_failed": "No se pudo eliminar el dominio personalizado",
           "set_primary_failed": "No se pudo establecer el dominio principal"

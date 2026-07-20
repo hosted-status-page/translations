@@ -2319,6 +2319,11 @@
           "ok": "CNAME is correctly configured. SSL provisioning will begin automatically.",
           "ownership_conflict": "This domain is already connected to another status page. To claim it here, verify ownership using a TXT record."
         },
+        "disabled": {
+          "admin_body": "Your custom domain has been disabled by an administrator.",
+          "plan_body": "Your custom domain is disabled because your current plan doesn't include custom domains.",
+          "upgrade_cta": "Upgrade your plan"
+        },
         "errors": {
           "remove_failed": "Failed to remove custom domain",
           "set_primary_failed": "Failed to set primary domain"

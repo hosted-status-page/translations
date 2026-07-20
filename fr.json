@@ -807,6 +807,11 @@
           "ok": "Le CNAME est correctement configuré. La fourniture SSL démarrera automatiquement.",
           "ownership_conflict": "Ce domaine est déjà connecté à une autre page de statut. Pour le revendiquer ici, vérifiez la propriété à l'aide d'un enregistrement TXT."
         },
+        "disabled": {
+          "admin_body": "Votre domaine personnalisé a été désactivé par un administrateur.",
+          "plan_body": "Votre domaine personnalisé est désactivé car votre forfait actuel n'inclut pas les domaines personnalisés.",
+          "upgrade_cta": "Mettez à niveau votre forfait"
+        },
         "errors": {
           "remove_failed": "Échec de la suppression du domaine personnalisé",
           "set_primary_failed": "Échec de la définition du domaine principal"
