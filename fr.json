@@ -1499,6 +1499,9 @@
     "view": {
       "archived_reason_label": "Raison d'archivage :",
       "component": "Composant",
+      "monitor_label": "Moniteur",
+      "monitor_whole_component": "Tout le composant (tous les moniteurs)",
+      "monitor_help": "Ce composant regroupe plusieurs moniteurs. Choisissez celui qui est réellement concerné, ou laissez « tout le composant » pour un incident général.",
       "created": "Créé",
       "edit": "📝 Ajouter une mise à jour d'incident",
       "ended": "Fin",

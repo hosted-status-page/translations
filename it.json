@@ -1066,6 +1066,9 @@
     "view": {
       "archived_reason_label": "Motivo dell'archiviazione:",
       "component": "Componente:",
+      "monitor_label": "Monitor",
+      "monitor_whole_component": "Intero componente (tutti i monitor)",
+      "monitor_help": "Questo componente raggruppa più monitor. Scegli quello effettivamente interessato, oppure lascia \"intero componente\" per un incidente generale.",
       "created": "Creato:",
       "edit": "📝 Aggiungi aggiornamento incidente",
       "ended": "Terminato:",

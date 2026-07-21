@@ -1366,6 +1366,9 @@
     "view": {
       "archived_reason_label": "Razlog arhiviranja:",
       "component": "Komponenta",
+      "monitor_label": "Monitor",
+      "monitor_whole_component": "Cijela komponenta (svi monitori)",
+      "monitor_help": "Ova komponenta prati više monitora. Odaberite onaj koji je stvarno pogođen, ili ostavite \"cijela komponenta\" za opći incident.",
       "created": "Kreirano",
       "edit": "📝 Dodaj ažuriranje incidenta",
       "ended": "Završeno",

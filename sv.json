@@ -1054,6 +1054,9 @@
     "view": {
       "archived_reason_label": "Arkiv anledning:",
       "component": "Komponent:",
+      "monitor_label": "Monitor",
+      "monitor_whole_component": "Hela komponenten (alla monitorer)",
+      "monitor_help": "Den här komponenten omfattar flera monitorer. Välj den som faktiskt är påverkad, eller lämna \"hela komponenten\" för en allmän incident.",
       "created": "Skapad:",
       "edit": "Lägg till Incident Update",
       "ended": "Slut:",

@@ -1068,6 +1068,9 @@
     "view": {
       "archived_reason_label": "Archive reason:",
       "component": "Component:",
+      "monitor_label": "Monitor",
+      "monitor_whole_component": "Whole component (all monitors)",
+      "monitor_help": "This component tracks more than one monitor. Pick the one that's actually affected, or leave it as \"whole component\" for a general incident.",
       "created": "Created:",
       "edit": "📝 Add Incident Update",
       "ended": "Ended:",

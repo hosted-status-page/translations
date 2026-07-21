@@ -1498,6 +1498,9 @@
     "view": {
       "archived_reason_label": "Motivo de archivo:",
       "component": "Componente:",
+      "monitor_label": "Monitor",
+      "monitor_whole_component": "Todo el componente (todos los monitores)",
+      "monitor_help": "Este componente agrupa varios monitores. Elige el que realmente está afectado, o déjalo en \"todo el componente\" para un incidente general.",
       "created": "Creado:",
       "edit": "📝 Añadir actualización del incidente",
       "ended": "Agregado:",

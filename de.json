@@ -1494,6 +1494,9 @@
     "view": {
       "archived_reason_label": "Archivierungsgrund:",
       "component": "Komponente",
+      "monitor_label": "Monitor",
+      "monitor_whole_component": "Gesamte Komponente (alle Monitore)",
+      "monitor_help": "Diese Komponente erfasst mehrere Monitore. Wählen Sie den tatsächlich betroffenen aus, oder belassen Sie es bei „gesamte Komponente“ für einen allgemeinen Vorfall.",
       "created": "Erstellt",
       "edit": "📝 Vorfall-Update hinzufügen",
       "ended": "Beendet",
