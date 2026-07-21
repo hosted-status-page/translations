@@ -809,8 +809,8 @@
         },
         "disabled": {
           "admin_body": "Votre domaine personnalisé a été désactivé par un administrateur.",
-          "plan_body": "Votre domaine personnalisé est désactivé car votre forfait actuel n'inclut pas les domaines personnalisés.",
-          "upgrade_cta": "Mettez à niveau votre forfait"
+          "needs_verification_body": "Votre domaine personnalisé est désactivé car sa vérification DNS n'a jamais abouti.",
+          "needs_verification_cta": "Ouvrez « Gérer le domaine personnalisé » ci-dessus et relancez la vérification CNAME pour le réactiver."
         },
         "errors": {
           "remove_failed": "Échec de la suppression du domaine personnalisé",

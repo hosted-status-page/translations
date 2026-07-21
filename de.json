@@ -804,8 +804,8 @@
         },
         "disabled": {
           "admin_body": "Ihre benutzerdefinierte Domain wurde von einem Administrator deaktiviert.",
-          "plan_body": "Ihre benutzerdefinierte Domain ist deaktiviert, da Ihr aktueller Plan keine benutzerdefinierten Domains beinhaltet.",
-          "upgrade_cta": "Upgraden Sie Ihren Plan"
+          "needs_verification_body": "Ihre benutzerdefinierte Domain ist deaktiviert, da die DNS-Verifizierung nie abgeschlossen wurde.",
+          "needs_verification_cta": "Öffnen Sie oben „Benutzerdefinierte Domain verwalten“ und führen Sie die CNAME-Prüfung erneut aus, um sie zu reaktivieren."
         },
         "errors": {
           "remove_failed": "Benutzerdefinierte Domain konnte nicht entfernt werden",

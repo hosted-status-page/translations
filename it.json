@@ -2317,8 +2317,8 @@
         },
         "disabled": {
           "admin_body": "Il tuo dominio personalizzato è stato disabilitato da un amministratore.",
-          "plan_body": "Il tuo dominio personalizzato è disabilitato perché il tuo piano attuale non include domini personalizzati.",
-          "upgrade_cta": "Aggiorna il tuo piano"
+          "needs_verification_body": "Il tuo dominio personalizzato è disabilitato perché non ha mai completato la verifica DNS.",
+          "needs_verification_cta": "Apri \"Gestisci dominio personalizzato\" qui sopra e riesegui il controllo CNAME per riattivarlo."
         },
         "errors": {
           "remove_failed": "Impossibile rimuovere il dominio personalizzato",

@@ -2306,8 +2306,8 @@
         },
         "disabled": {
           "admin_body": "Din anpassade domän har inaktiverats av en administratör.",
-          "plan_body": "Din anpassade domän är inaktiverad eftersom din nuvarande plan inte inkluderar anpassade domäner.",
-          "upgrade_cta": "Uppgradera din plan"
+          "needs_verification_body": "Din anpassade domän är inaktiverad eftersom DNS-verifieringen aldrig slutfördes.",
+          "needs_verification_cta": "Öppna \"Hantera anpassad domän\" ovan och kör CNAME-kontrollen igen för att återaktivera den."
         },
         "errors": {
           "remove_failed": "Underlåten att ta bort anpassad domän",

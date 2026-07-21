@@ -2618,8 +2618,8 @@
         },
         "disabled": {
           "admin_body": "Vašu prilagođenu domenu je onemogućio administrator.",
-          "plan_body": "Vaša prilagođena domena je onemogućena jer vaš trenutni plan ne uključuje prilagođene domene.",
-          "upgrade_cta": "Nadogradite svoj plan"
+          "needs_verification_body": "Vaša prilagođena domena je onemogućena jer nikada nije završena DNS provjera.",
+          "needs_verification_cta": "Otvorite Upravljanje prilagođenom domenom iznad i ponovno pokrenite CNAME provjeru kako biste je ponovno aktivirali."
         },
         "errors": {
           "remove_failed": "Nije uspjelo uklanjanje prilagođenog domena",

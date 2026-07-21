@@ -808,8 +808,8 @@
         },
         "disabled": {
           "admin_body": "Un administrador ha deshabilitado tu dominio personalizado.",
-          "plan_body": "Tu dominio personalizado está deshabilitado porque tu plan actual no incluye dominios personalizados.",
-          "upgrade_cta": "Mejora tu plan"
+          "needs_verification_body": "Tu dominio personalizado está deshabilitado porque nunca completó la verificación de DNS.",
+          "needs_verification_cta": "Abre \"Gestionar dominio personalizado\" arriba y vuelve a ejecutar la comprobación de CNAME para reactivarlo."
         },
         "errors": {
           "remove_failed": "No se pudo eliminar el dominio personalizado",

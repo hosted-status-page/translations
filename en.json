@@ -2321,8 +2321,8 @@
         },
         "disabled": {
           "admin_body": "Your custom domain has been disabled by an administrator.",
-          "plan_body": "Your custom domain is disabled because your current plan doesn't include custom domains.",
-          "upgrade_cta": "Upgrade your plan"
+          "needs_verification_body": "Your custom domain is disabled because it never completed DNS verification.",
+          "needs_verification_cta": "Open Manage Custom Domain above and re-run the CNAME check to reactivate it."
         },
         "errors": {
           "remove_failed": "Failed to remove custom domain",

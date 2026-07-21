@@ -804,8 +804,8 @@
         },
         "disabled": {
           "admin_body": "Seu domínio personalizado foi desativado por um administrador.",
-          "plan_body": "Seu domínio personalizado está desativado porque seu plano atual não inclui domínios personalizados.",
-          "upgrade_cta": "Atualize seu plano"
+          "needs_verification_body": "Seu domínio personalizado está desativado porque a verificação de DNS nunca foi concluída.",
+          "needs_verification_cta": "Abra \"Gerenciar Domínio Personalizado\" acima e execute novamente a verificação de CNAME para reativá-lo."
         },
         "errors": {
           "remove_failed": "Falha ao remover domínio personalizado",
