@@ -2314,6 +2314,10 @@
           "set_primary_failed": "Underlåtenhet att ställa in primär domän"
         },
         "label": "Anpassad domän",
+        "origin_check": {
+          "warning_body": "Vi kunde inte bekräfta att din anpassade domän når våra servrar direkt. Detta betyder oftast att den dirigeras via en tredjeparts-proxy eller CDN (som Cloudflare) med egna regler, eller att DNS pekar någon annanstans.",
+          "warning_cta": "om du behöver hjälp med felsökning."
+        },
         "remove_confirm": {
           "confirm": "Ja, ta bort den",
           "text": "Detta kommer att ta bort din anpassade domänkonfiguration. Du kan alltid ställa in det igen senare.",

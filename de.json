@@ -811,6 +811,10 @@
           "remove_failed": "Benutzerdefinierte Domain konnte nicht entfernt werden",
           "set_primary_failed": "Primäre Domain konnte nicht festgelegt werden"
         },
+        "origin_check": {
+          "warning_body": "Wir konnten nicht bestätigen, dass Ihre benutzerdefinierte Domain unsere Server direkt erreicht. Das bedeutet meist, dass sie über einen Proxy oder CDN eines Drittanbieters (wie Cloudflare) mit eigenen Regeln geleitet wird oder dass DNS auf einen anderen Ort zeigt.",
+          "warning_cta": "falls Sie Hilfe bei der Fehlerbehebung benötigen."
+        },
         "remove_confirm": {
           "confirm": "Ja, entfernen",
           "text": "Dadurch wird Ihre Konfiguration für die benutzerdefinierte Domain entfernt. Sie können sie später jederzeit erneut einrichten.",

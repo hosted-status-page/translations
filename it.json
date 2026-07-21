@@ -2325,6 +2325,10 @@
           "set_primary_failed": "Impossibile impostare il dominio primario"
         },
         "label": "Dominio personalizzato",
+        "origin_check": {
+          "warning_body": "Non siamo riusciti a confermare che il tuo dominio personalizzato raggiunga direttamente i nostri server. Questo di solito significa che è instradato tramite un proxy o CDN di terze parti (come Cloudflare) con regole proprie, oppure che il DNS punta altrove.",
+          "warning_cta": "se hai bisogno di aiuto per risolvere il problema."
+        },
         "remove_confirm": {
           "confirm": "Sì, rimuovilo",
           "text": "Questo rimuoverà la configurazione del tuo dominio personalizzato. Potrai sempre configurarlo di nuovo in seguito.",

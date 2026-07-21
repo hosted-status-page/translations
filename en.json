@@ -2329,6 +2329,10 @@
           "set_primary_failed": "Failed to set primary domain"
         },
         "label": "Custom Domain",
+        "origin_check": {
+          "warning_body": "We couldn't confirm that your custom domain is reaching our servers directly. This usually means it's routed through a third-party proxy or CDN (such as Cloudflare) with its own rules, or DNS is pointing elsewhere.",
+          "warning_cta": "if you need help troubleshooting."
+        },
         "remove_confirm": {
           "confirm": "Yes, remove it",
           "text": "This will remove your custom domain configuration. You can always set it up again later.",

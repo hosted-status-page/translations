@@ -2626,6 +2626,10 @@
           "set_primary_failed": "Nije uspjelo postavljanje primarnog domena"
         },
         "label": "Prilagođeni domen",
+        "origin_check": {
+          "warning_body": "Nismo mogli potvrditi da vaša prilagođena domena izravno doseže naše servere. To obično znači da je usmjerena putem proxyja ili CDN-a treće strane (poput Cloudflarea) s vlastitim pravilima, ili da DNS pokazuje negdje drugdje.",
+          "warning_cta": "ako vam je potrebna pomoć pri rješavanju problema."
+        },
         "remove_confirm": {
           "confirm": "Da, ukloni",
           "text": "Ovo će ukloniti postavke prilagođenog domena. Uvek možete ponovo da ga podesite kasnije.",

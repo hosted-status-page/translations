@@ -815,6 +815,10 @@
           "remove_failed": "No se pudo eliminar el dominio personalizado",
           "set_primary_failed": "No se pudo establecer el dominio principal"
         },
+        "origin_check": {
+          "warning_body": "No pudimos confirmar que tu dominio personalizado llegue directamente a nuestros servidores. Esto suele significar que está enrutado a través de un proxy o CDN de terceros (como Cloudflare) con sus propias reglas, o que el DNS apunta a otro lugar.",
+          "warning_cta": "si necesitas ayuda para solucionarlo."
+        },
         "remove_confirm": {
           "confirm": "Sí, eliminarlo",
           "text": "Esto eliminará la configuración de tu dominio personalizado. Puedes configurarlo de nuevo más tarde.",

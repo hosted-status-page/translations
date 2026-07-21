@@ -816,6 +816,10 @@
           "remove_failed": "Échec de la suppression du domaine personnalisé",
           "set_primary_failed": "Échec de la définition du domaine principal"
         },
+        "origin_check": {
+          "warning_body": "Nous n'avons pas pu confirmer que votre domaine personnalisé atteint directement nos serveurs. Cela signifie généralement qu'il est acheminé via un proxy ou un CDN tiers (comme Cloudflare) avec ses propres règles, ou que le DNS pointe ailleurs.",
+          "warning_cta": "si vous avez besoin d'aide pour résoudre ce problème."
+        },
         "remove_confirm": {
           "confirm": "Oui, le supprimer",
           "text": "Cela supprimera la configuration de votre domaine personnalisé. Vous pourrez toujours le configurer à nouveau plus tard.",

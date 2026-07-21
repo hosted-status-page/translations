@@ -811,6 +811,10 @@
           "remove_failed": "Falha ao remover domínio personalizado",
           "set_primary_failed": "Falha ao definir domínio principal"
         },
+        "origin_check": {
+          "warning_body": "Não conseguimos confirmar que seu domínio personalizado está chegando diretamente aos nossos servidores. Isso geralmente significa que ele está sendo roteado por um proxy ou CDN de terceiros (como o Cloudflare) com regras próprias, ou que o DNS está apontando para outro lugar.",
+          "warning_cta": "se precisar de ajuda para resolver isso."
+        },
         "remove_confirm": {
           "confirm": "Sim, remover",
           "text": "Isso removerá a configuração do seu domínio personalizado. Você pode configurá-lo novamente mais tarde.",
