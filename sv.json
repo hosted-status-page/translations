@@ -1852,7 +1852,8 @@
       "failed_revoke": "Det gick inte att återkalla API-nyckel",
       "revoke_confirm_text": "Förfrågningar som använder denna nyckel kommer att sluta fungera.",
       "revoke_confirm_title": "Återkalla denna API-nyckel?",
-      "saved_it": "Jag har sparat den"
+      "saved_it": "Jag har sparat den",
+      "terraform_hint": "Föredrar du Infrastructure as Code? Hantera statussidor, övervakare och incidenter med <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">Terraform-providern</a>."
     },
     "authenticator_code": "Authenticatorkod",
     "backup_code": "Backup code",

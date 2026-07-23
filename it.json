@@ -1865,7 +1865,8 @@
       "failed_revoke": "Impossibile revocare la chiave API",
       "revoke_confirm_text": "Le richieste che usano questa chiave non funzioneranno più.",
       "revoke_confirm_title": "Revocare questa chiave API?",
-      "saved_it": "L'ho salvata"
+      "saved_it": "L'ho salvata",
+      "terraform_hint": "Preferisci l'Infrastructure as Code? Gestisci pagine di stato, monitor e incidenti con il <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">provider Terraform</a>."
     },
     "authenticator_code": "Codice dell'app di autenticazione",
     "backup_code": "Codice di backup",

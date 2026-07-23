@@ -2620,7 +2620,8 @@
       "failed_revoke": "No se pudo revocar la clave API",
       "revoke_confirm_text": "Las solicitudes que usen esta clave dejarán de funcionar.",
       "revoke_confirm_title": "¿Revocar esta clave API?",
-      "saved_it": "Ya la he guardado"
+      "saved_it": "Ya la he guardado",
+      "terraform_hint": "¿Prefieres la Infraestructura como Código? Gestiona páginas de estado, monitores e incidentes con el <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">proveedor de Terraform</a>."
     },
     "two_factor_auth_description": "La autenticación de dos factores añade una capa adicional de seguridad a tu cuenta al requerir algo más que una contraseña para iniciar sesión.",
     "set_up_authenticator_app": "Configurar app de autenticación",

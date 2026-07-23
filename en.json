@@ -1867,7 +1867,8 @@
       "failed_revoke": "Failed to revoke API key",
       "revoke_confirm_text": "Requests using this key will stop working.",
       "revoke_confirm_title": "Revoke this API key?",
-      "saved_it": "I have saved it"
+      "saved_it": "I have saved it",
+      "terraform_hint": "Prefer Infrastructure as Code? Manage status pages, monitors, and incidents with the <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">Terraform provider</a>."
     },
     "authenticator_code": "Authenticator code",
     "backup_code": "Backup code",

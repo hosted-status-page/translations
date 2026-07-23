@@ -2616,7 +2616,8 @@
       "failed_revoke": "API-Schlüssel konnte nicht widerrufen werden",
       "revoke_confirm_text": "Anfragen mit diesem Schlüssel funktionieren dann nicht mehr.",
       "revoke_confirm_title": "Diesen API-Schlüssel widerrufen?",
-      "saved_it": "Ich habe ihn gespeichert"
+      "saved_it": "Ich habe ihn gespeichert",
+      "terraform_hint": "Bevorzugen Sie Infrastructure as Code? Verwalten Sie Statusseiten, Monitore und Vorfälle mit dem <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">Terraform-Provider</a>."
     },
     "two_factor_auth_description": "Die Zwei-Faktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene für Ihr Konto, indem sie beim Anmelden mehr als nur ein Passwort erfordert.",
     "set_up_authenticator_app": "Authenticator-App einrichten",

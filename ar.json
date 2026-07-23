@@ -2628,7 +2628,8 @@
       "failed_revoke": "فشل إبطال مفتاح API",
       "revoke_confirm_text": "ستتوقف الطلبات التي تستخدم هذا المفتاح عن العمل.",
       "revoke_confirm_title": "إبطال مفتاح API هذا؟",
-      "saved_it": "لقد حفظته"
+      "saved_it": "لقد حفظته",
+      "terraform_hint": "هل تفضل البنية التحتية كرمز (Infrastructure as Code)؟ يمكنك إدارة صفحات الحالة والمراقبين والحوادث باستخدام <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">موفر Terraform</a>."
     },
     "two_factor_auth_description": "توفر المصادقة الثنائية طبقة أمان إضافية لحسابك من خلال طلب أكثر من كلمة مرور عند تسجيل الدخول.",
     "set_up_authenticator_app": "إعداد تطبيق المصادقة",

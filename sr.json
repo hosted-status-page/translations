@@ -1840,7 +1840,8 @@
       "failed_revoke": "Није успело опозивање API кључа",
       "revoke_confirm_text": "Захтеви који користе овај кључ престаће да раде.",
       "revoke_confirm_title": "Опозвати овај API кључ?",
-      "saved_it": "Сачувао/ла сам га"
+      "saved_it": "Сачувао/ла сам га",
+      "terraform_hint": "Више волите Infrastructure as Code приступ? Управљајте статусним страницама, мониторима и инцидентима помоћу <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">Terraform провајдера</a>."
     },
     "backup_code_label": "Резервни код (ако немате 2FA уређај)",
     "backup_code_placeholder": "Резервни код (опционо)",

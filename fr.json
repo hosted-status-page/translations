@@ -2637,7 +2637,8 @@
       "failed_revoke": "Impossible de révoquer la clé API",
       "revoke_confirm_text": "Les requêtes utilisant cette clé ne fonctionneront plus.",
       "revoke_confirm_title": "Révoquer cette clé API ?",
-      "saved_it": "Je l’ai enregistrée"
+      "saved_it": "Je l’ai enregistrée",
+      "terraform_hint": "Vous préférez l'Infrastructure as Code ? Gérez vos pages de statut, moniteurs et incidents avec le <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">fournisseur Terraform</a>."
     },
     "backup_code_label": "Code de secours (si vous n’avez pas d’appareil 2FA)",
     "backup_code_placeholder": "Code de secours (optionnel)",

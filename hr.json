@@ -2168,7 +2168,8 @@
       "failed_revoke": "Nije uspjelo opozivanje API ključa",
       "revoke_confirm_text": "Zahtjevi koji koriste ovaj ključ prestat će raditi.",
       "revoke_confirm_title": "Opozvati ovaj API ključ?",
-      "saved_it": "Spremio/la sam ga"
+      "saved_it": "Spremio/la sam ga",
+      "terraform_hint": "Preferirate Infrastructure as Code? Upravljajte statusnim stranicama, monitorima i incidentima pomoću <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">Terraform provajdera</a>."
     },
     "backup_code_label": "Rezervni kod (ako nemate 2FA uređaj)",
     "backup_code_placeholder": "Rezervni kod (opcionalno)",

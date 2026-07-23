@@ -2620,7 +2620,8 @@
       "failed_revoke": "Falha ao revogar chave de API",
       "revoke_confirm_text": "As solicitações que usam esta chave deixarão de funcionar.",
       "revoke_confirm_title": "Revogar esta chave de API?",
-      "saved_it": "Já salvei"
+      "saved_it": "Já salvei",
+      "terraform_hint": "Prefere Infraestrutura como Código? Gerencie páginas de status, monitores e incidentes com o <a href=\"/terraform-provider\" target=\"_blank\" rel=\"noopener\">provedor Terraform</a>."
     },
     "backup_code_label": "Código de backup (se você não tiver um dispositivo 2FA)",
     "backup_code_placeholder": "Código de backup (opcional)",
