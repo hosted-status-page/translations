@@ -2046,6 +2046,11 @@
           "status_partial": "Partial Outage",
           "status_up": "Operational",
           "title": "Set Status Override"
+        },
+        "assign_components": {
+          "title": "Give each monitor its own component?",
+          "text": "A component will be created for each of these monitors, named after the monitor:",
+          "confirm": "Create components"
         }
       },
       "tip_ungrouped_other": "Components without a group will appear in an \"Other Components\" section on your status page",
@@ -2071,7 +2076,8 @@
         "override_update_failed": "Failed to update override",
         "rename_failed": "Rename failed",
         "save_failed": "Save failed",
-        "update_failed": "Update failed"
+        "update_failed": "Update failed",
+        "components_created": "Components created"
       },
       "tooltip_delete_component": "Delete component",
       "tooltip_edit_component": "Edit component",
@@ -2108,6 +2114,11 @@
         "name_required": "Name is required",
         "url_invalid": "URL must be a valid absolute URL (include https://)",
         "url_must_start_http": "URL must start with http:// or https://"
+      },
+      "standalone_banner": {
+        "title": "Some monitors aren't attached to a component",
+        "body": "These monitors show in a separate section on your status page and can’t have a component link, group, or incident status:",
+        "action": "Give each its own component"
       }
     },
     "configure_custom_domain": "Configure Custom Domain",

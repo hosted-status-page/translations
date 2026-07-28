@@ -2343,6 +2343,11 @@
         "access_denied": {
           "title": "Pristup odbijen",
           "text": "Nemate dozvolu za upravljanje pristupom ovoj grupi."
+        },
+        "assign_components": {
+          "title": "Dodijeliti svakom monitoru vlastitu komponentu?",
+          "text": "Za svaki od ovih monitora bit će kreirana komponenta nazvana po monitoru:",
+          "confirm": "Kreiraj komponente"
         }
       },
       "tip_ungrouped_other": "Komponente bez grupe će se prikazati u odjeljku \"Ostale komponente\" na vašoj status stranici",
@@ -2368,7 +2373,8 @@
         "override_update_failed": "Nije uspjelo ažuriranje nadjačavanja",
         "rename_failed": "Preimenovanje nije uspelo",
         "save_failed": "Čuvanje nije uspelo",
-        "update_failed": "Ažuriranje nije uspelo"
+        "update_failed": "Ažuriranje nije uspelo",
+        "components_created": "Komponente su kreirane"
       },
       "tooltip_delete_component": "Izbriši komponentu",
       "tooltip_edit_component": "Uredi komponentu",
@@ -2405,6 +2411,11 @@
         "add_failed": "Dodavanje nije uspjelo",
         "load_failed": "Nije uspjelo učitavanje dozvola.",
         "remove_failed": "Uklanjanje nije uspjelo"
+      },
+      "standalone_banner": {
+        "title": "Neki monitori nisu povezani s komponentom",
+        "body": "Ovi monitori prikazuju se u zasebnom odjeljku vaše statusne stranice i ne mogu imati poveznicu komponente, grupu ni status incidenta:",
+        "action": "Dodijeli svakom vlastitu komponentu"
       }
     },
     "configure_custom_domain": "Konfiguriši prilagođeni domen",

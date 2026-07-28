@@ -615,6 +615,11 @@
         "access_denied": {
           "title": "Zugriff verweigert",
           "text": "Sie sind nicht berechtigt, den Zugriff für diese Gruppe zu verwalten."
+        },
+        "assign_components": {
+          "title": "Jedem Monitor eine eigene Komponente geben?",
+          "text": "Für jeden dieser Monitore wird eine Komponente erstellt, benannt nach dem Monitor:",
+          "confirm": "Komponenten erstellen"
         }
       },
       "tip_ungrouped_other": "Komponenten ohne Gruppe erscheinen als Abschnitt \"Weitere Komponenten\" auf deiner Statusseite",
@@ -640,7 +645,8 @@
         "override_update_failed": "Statusüberschreibung konnte nicht aktualisiert werden",
         "rename_failed": "Umbenennen fehlgeschlagen",
         "save_failed": "Speichern fehlgeschlagen",
-        "update_failed": "Aktualisierung fehlgeschlagen"
+        "update_failed": "Aktualisierung fehlgeschlagen",
+        "components_created": "Komponenten erstellt"
       },
       "tooltip_delete_component": "Komponente löschen",
       "tooltip_edit_component": "Komponente bearbeiten",
@@ -677,6 +683,11 @@
         "add_failed": "Hinzufügen fehlgeschlagen",
         "load_failed": "Berechtigungen konnten nicht geladen werden.",
         "remove_failed": "Entfernen fehlgeschlagen"
+      },
+      "standalone_banner": {
+        "title": "Einige Monitore sind keiner Komponente zugeordnet",
+        "body": "Diese Monitore erscheinen in einem separaten Bereich Ihrer Statusseite und können weder Komponenten-Link noch Gruppe oder Vorfallstatus haben:",
+        "action": "Jedem eine eigene Komponente geben"
       }
     },
     "groups_optional": "Gruppen sind optional – Komponenten ohne Gruppen werden separat angezeigt",

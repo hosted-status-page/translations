@@ -612,6 +612,11 @@
         "access_denied": {
           "title": "Accès refusé",
           "text": "Vous n'êtes pas autorisé à gérer l'accès à ce groupe."
+        },
+        "assign_components": {
+          "title": "Donner à chaque moniteur son propre composant ?",
+          "text": "Un composant sera créé pour chacun de ces moniteurs, portant le nom du moniteur :",
+          "confirm": "Créer les composants"
         }
       },
       "tip_ungrouped_other": "Les composants sans groupe apparaîtront dans une section \"Autres composants\" sur votre page de statut",
@@ -637,7 +642,8 @@
         "override_update_failed": "Échec de la mise à jour de la surcharge",
         "rename_failed": "Échec du renommage",
         "save_failed": "Échec de l'enregistrement",
-        "update_failed": "Échec de la mise à jour"
+        "update_failed": "Échec de la mise à jour",
+        "components_created": "Composants créés"
       },
       "tooltip_delete_component": "Supprimer le composant",
       "tooltip_edit_component": "Modifier le composant",
@@ -674,6 +680,11 @@
         "add_failed": "Échec de l’ajout",
         "load_failed": "Impossible de charger les autorisations.",
         "remove_failed": "Échec de la suppression"
+      },
+      "standalone_banner": {
+        "title": "Certains moniteurs ne sont rattachés à aucun composant",
+        "body": "Ces moniteurs apparaissent dans une section distincte de votre page d’état et ne peuvent avoir ni lien de composant, ni groupe, ni statut d’incident :",
+        "action": "Donner à chacun son propre composant"
       }
     },
     "organize_help": "Organisez votre page de statut avec des composants et des groupes optionnels",

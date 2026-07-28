@@ -2031,6 +2031,11 @@
           "status_partial": "Partiellt Avbrott",
           "status_up": "Operationell",
           "title": "Ange statusöverskrivning"
+        },
+        "assign_components": {
+          "title": "Ge varje övervakare en egen komponent?",
+          "text": "En komponent skapas för var och en av dessa övervakare, uppkallad efter övervakaren:",
+          "confirm": "Skapa komponenter"
         }
       },
       "tip_ungrouped_other": "Komponenter utan en grupp kommer att visas i en \"Andra komponenter\" -sektion på din statussida",
@@ -2056,7 +2061,8 @@
         "override_update_failed": "Misslyckades med att uppdatera override",
         "rename_failed": "Rename misslyckades",
         "save_failed": "Spara misslyckades",
-        "update_failed": "Uppdatering misslyckades"
+        "update_failed": "Uppdatering misslyckades",
+        "components_created": "Komponenter skapade"
       },
       "tooltip_delete_component": "Delete komponent",
       "tooltip_edit_component": "Edit komponent",
@@ -2093,6 +2099,11 @@
         "name_required": "Namn krävs",
         "url_invalid": "URL:en måste vara en giltig absolut URL-adress (inkludera https://)",
         "url_must_start_http": "URL:en måste börja med http:// eller https://"
+      },
+      "standalone_banner": {
+        "title": "Vissa övervakare är inte kopplade till någon komponent",
+        "body": "Dessa övervakare visas i ett separat avsnitt på din statussida och kan inte ha komponentlänk, grupp eller incidentstatus:",
+        "action": "Ge var och en en egen komponent"
       }
     },
     "configure_custom_domain": "Konfigurera anpassad domän",

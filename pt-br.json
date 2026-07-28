@@ -611,6 +611,11 @@
         "access_denied": {
           "title": "Acesso negado",
           "text": "Você não tem permissão para gerenciar o acesso deste grupo."
+        },
+        "assign_components": {
+          "title": "Dar a cada monitor seu próprio componente?",
+          "text": "Será criado um componente para cada um destes monitores, com o nome do monitor:",
+          "confirm": "Criar componentes"
         }
       },
       "tip_ungrouped_other": "Componentes sem grupo aparecerão em uma seção \"Outros componentes\" na sua página de status",
@@ -636,7 +641,8 @@
         "override_update_failed": "Falha ao atualizar a substituição",
         "rename_failed": "Falha ao renomear",
         "save_failed": "Falha ao salvar",
-        "update_failed": "Falha ao atualizar"
+        "update_failed": "Falha ao atualizar",
+        "components_created": "Componentes criados"
       },
       "tooltip_delete_component": "Excluir componente",
       "tooltip_edit_component": "Editar componente",
@@ -673,6 +679,11 @@
         "add_failed": "Falha ao adicionar",
         "load_failed": "Falha ao carregar permissões.",
         "remove_failed": "Falha ao remover"
+      },
+      "standalone_banner": {
+        "title": "Alguns monitores não estão associados a um componente",
+        "body": "Esses monitores aparecem em uma seção separada da sua página de status e não podem ter link de componente, grupo ou status de incidente:",
+        "action": "Dar a cada um seu próprio componente"
       }
     },
     "organize_help": "Organize sua página de status com componentes e grupos opcionais",

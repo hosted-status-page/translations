@@ -2044,6 +2044,11 @@
           "status_partial": "Interruzione parziale",
           "status_up": "Operativo",
           "title": "Imposta sovrascrittura stato"
+        },
+        "assign_components": {
+          "title": "Assegnare a ogni monitor il proprio componente?",
+          "text": "Verrà creato un componente per ciascuno di questi monitor, con il nome del monitor:",
+          "confirm": "Crea componenti"
         }
       },
       "tip_ungrouped_other": "I componenti senza gruppo appariranno in una sezione \"Altri componenti\" sulla tua status page",
@@ -2069,7 +2074,8 @@
         "override_update_failed": "Impossibile aggiornare la sovrascrittura",
         "rename_failed": "Rinomina non riuscita",
         "save_failed": "Salvataggio non riuscito",
-        "update_failed": "Aggiornamento non riuscito"
+        "update_failed": "Aggiornamento non riuscito",
+        "components_created": "Componenti creati"
       },
       "tooltip_delete_component": "Elimina componente",
       "tooltip_edit_component": "Modifica componente",
@@ -2106,6 +2112,11 @@
         "name_required": "Il nome è obbligatorio",
         "url_invalid": "L'URL deve essere un URL assoluto valido (includi https://)",
         "url_must_start_http": "L'URL deve iniziare con http:// o https://"
+      },
+      "standalone_banner": {
+        "title": "Alcuni monitor non sono associati a un componente",
+        "body": "Questi monitor compaiono in una sezione separata della tua status page e non possono avere link del componente, gruppo o stato dell’incidente:",
+        "action": "Assegna a ciascuno il proprio componente"
       }
     },
     "configure_custom_domain": "Configura dominio personalizzato",
