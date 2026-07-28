@@ -4197,7 +4197,8 @@
       "date_unknown": "(data desconhecida)",
       "show_more_updates": "Mostrar mais {{count}} atualizações ({{label}})",
       "segment_investigating_identified": "entre Investigando e Identificado",
-      "segment_monitoring_resolved": "entre Monitorando e Resolvido"
+      "segment_monitoring_resolved": "entre Monitorando e Resolvido",
+      "view_details": "Ver detalhes do incidente"
     },
     "page": {
       "title_with_name": "Status de {{name}}",

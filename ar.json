@@ -4213,7 +4213,8 @@
       "date_unknown": "(تاريخ غير معروف)",
       "show_more_updates": "إظهار {{count}} تحديثات إضافية ({{label}})",
       "segment_investigating_identified": "بين قيد التحقيق وتم التحديد",
-      "segment_monitoring_resolved": "بين المراقبة وتم الحل"
+      "segment_monitoring_resolved": "بين المراقبة وتم الحل",
+      "view_details": "عرض تفاصيل الحادث"
     },
     "page": {
       "title_with_name": "حالة {{name}}",

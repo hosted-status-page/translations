@@ -4159,7 +4159,8 @@
       "date_unknown": "(okänt datum)",
       "show_more_updates": "Visa {{count}} fler uppdateringar ({{label}})",
       "segment_investigating_identified": "mellan Undersöker och Identifierad",
-      "segment_monitoring_resolved": "mellan Övervakning och Löst"
+      "segment_monitoring_resolved": "mellan Övervakning och Löst",
+      "view_details": "Visa incidentdetaljer"
     },
     "page": {
       "title_with_name": "{{name}} status",

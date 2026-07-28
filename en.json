@@ -4220,7 +4220,8 @@
       "date_unknown": "(date unknown)",
       "show_more_updates": "Show {{count}} more updates ({{label}})",
       "segment_investigating_identified": "between Investigating and Identified",
-      "segment_monitoring_resolved": "between Monitoring and Resolved"
+      "segment_monitoring_resolved": "between Monitoring and Resolved",
+      "view_details": "View incident details"
     },
     "page": {
       "title_with_name": "{{name}} Status",

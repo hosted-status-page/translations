@@ -4201,7 +4201,8 @@
       "date_unknown": "(Datum unbekannt)",
       "show_more_updates": "{{count}} weitere Updates anzeigen ({{label}})",
       "segment_investigating_identified": "zwischen Untersucht und Identifiziert",
-      "segment_monitoring_resolved": "zwischen Überwachung und Gelöst"
+      "segment_monitoring_resolved": "zwischen Überwachung und Gelöst",
+      "view_details": "Vorfalldetails anzeigen"
     },
     "page": {
       "title_with_name": "{{name}}-Status",

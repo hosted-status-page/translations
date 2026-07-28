@@ -149,7 +149,8 @@
       "date_unknown": "(datum nepoznat)",
       "show_more_updates": "Prikaži još {{count}} ažuriranja ({{label}})",
       "segment_investigating_identified": "između Istražuje se i Identificirano",
-      "segment_monitoring_resolved": "između Praćenje i Riješeno"
+      "segment_monitoring_resolved": "između Praćenje i Riješeno",
+      "view_details": "Prikaži pojedinosti incidenta"
     },
     "page": {
       "title_with_name": "Status za {{name}}",

@@ -4215,7 +4215,8 @@
       "date_unknown": "(date inconnue)",
       "show_more_updates": "Afficher {{count}} mises à jour de plus ({{label}})",
       "segment_investigating_identified": "entre En cours d'investigation et Identifié",
-      "segment_monitoring_resolved": "entre Surveillance et Résolu"
+      "segment_monitoring_resolved": "entre Surveillance et Résolu",
+      "view_details": "Voir les détails de l'incident"
     },
     "page": {
       "title_with_name": "Statut de {{name}}",

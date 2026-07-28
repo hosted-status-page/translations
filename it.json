@@ -4213,7 +4213,8 @@
       "date_unknown": "(data sconosciuta)",
       "show_more_updates": "Mostra altri {{count}} aggiornamenti ({{label}})",
       "segment_investigating_identified": "tra Analisi in corso e Identificato",
-      "segment_monitoring_resolved": "tra Monitoraggio e Risolto"
+      "segment_monitoring_resolved": "tra Monitoraggio e Risolto",
+      "view_details": "Visualizza dettagli incidente"
     },
     "page": {
       "title_with_name": "Stato di {{name}}",

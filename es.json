@@ -4207,7 +4207,8 @@
       "date_unknown": "(fecha desconocida)",
       "show_more_updates": "Mostrar {{count}} actualizaciones más ({{label}})",
       "segment_investigating_identified": "entre Investigando e Identificado",
-      "segment_monitoring_resolved": "entre Monitoreando y Resuelto"
+      "segment_monitoring_resolved": "entre Monitoreando y Resuelto",
+      "view_details": "Ver detalles del incidente"
     },
     "page": {
       "title_with_name": "Estado de {{name}}",

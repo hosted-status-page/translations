@@ -4160,7 +4160,8 @@
       "date_unknown": "(датум непознат)",
       "show_more_updates": "Прикажи још {{count}} ажурирања ({{label}})",
       "segment_investigating_identified": "између Истражује се и Идентификовано",
-      "segment_monitoring_resolved": "између Праћење и Решено"
+      "segment_monitoring_resolved": "између Праћење и Решено",
+      "view_details": "Прикажи детаље инцидента"
     },
     "page": {
       "title_with_name": "{{name}} статус",
