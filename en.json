@@ -3986,6 +3986,14 @@
   },
   "maintenance": {
     "affected_monitors_optional": "Affected Monitors (Optional)",
+    "convert_to_my_timezone": "Convert to my timezone",
+    "converter": {
+      "help": "Enter a UTC date/time and pick a timezone to see the equivalent local time.",
+      "result_label": "Converted time",
+      "timezone": "Timezone",
+      "title": "UTC Timezone Converter",
+      "utc_datetime": "UTC date & time"
+    },
     "empty_state": "You haven't scheduled any maintenance events yet.",
     "end_time_utc": "End Time (UTC)",
     "give_clear_title": "Give your maintenance a clear, descriptive title",
@@ -3996,6 +4004,7 @@
     "select_affected_components": "Select the components affected by this maintenance",
     "select_components_first": "Select components first to load monitors.",
     "start_time_utc": "Start Time (UTC)",
+    "times_in_utc": "All times are in <strong>UTC</strong>.",
     "upcoming": "Upcoming",
     "when_maintenance_begin": "When the maintenance will begin",
     "when_maintenance_complete": "When the maintenance will be completed"
@@ -4325,6 +4334,11 @@
       "light": "Light",
       "dark": "Dark",
       "system": "System"
+    },
+    "timezone": {
+      "label": "Timezone",
+      "utc_default": "UTC (default)",
+      "your_timezone": "Your timezone"
     },
     "overall": {
       "summary": "Overall status reflects active incidents and monitor health.",

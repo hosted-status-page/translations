@@ -3980,6 +3980,14 @@
   },
   "maintenance": {
     "affected_monitors_optional": "Monitores afectados (Opcional)",
+    "convert_to_my_timezone": "Convertir a mi zona horaria",
+    "converter": {
+      "help": "Introduce una fecha/hora UTC y elige una zona horaria para ver la hora local equivalente.",
+      "result_label": "Hora convertida",
+      "timezone": "Zona horaria",
+      "title": "Conversor de zona horaria UTC",
+      "utc_datetime": "Fecha y hora UTC"
+    },
     "empty_state": "Aún no has programado ningún evento de mantenimiento.",
     "end_time_utc": "Tiempo final (UTC)",
     "give_clear_title": "Dar su mantenimiento un título claro y descriptivo",
@@ -3990,6 +3998,7 @@
     "select_affected_components": "Seleccione los componentes afectados por este mantenimiento",
     "select_components_first": "Seleccione los componentes primero a los monitores de carga.",
     "start_time_utc": "Hora de inicio (UTC)",
+    "times_in_utc": "Todos los horarios están en <strong>UTC</strong>.",
     "upcoming": "Subiendo",
     "when_maintenance_begin": "Cuando el mantenimiento comience",
     "when_maintenance_complete": "Cuando se complete el mantenimiento"
@@ -4311,6 +4320,11 @@
       "light": "Claro",
       "dark": "Oscuro",
       "system": "Sistema"
+    },
+    "timezone": {
+      "label": "Zona horaria",
+      "utc_default": "UTC (predeterminado)",
+      "your_timezone": "Tu zona horaria"
     },
     "overall": {
       "summary": "El estado general refleja los incidentes activos y la salud de los monitores.",

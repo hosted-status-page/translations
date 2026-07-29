@@ -3986,6 +3986,14 @@
   },
   "maintenance": {
     "affected_monitors_optional": "المراقبات المتأثرة (اختياري)",
+    "convert_to_my_timezone": "التحويل إلى المنطقة الزمنية الخاصة بي",
+    "converter": {
+      "help": "أدخل تاريخًا/وقتًا بتوقيت UTC واختر منطقة زمنية لمعرفة الوقت المحلي المقابل.",
+      "result_label": "الوقت المحوَّل",
+      "timezone": "المنطقة الزمنية",
+      "title": "محول المنطقة الزمنية UTC",
+      "utc_datetime": "تاريخ ووقت UTC"
+    },
     "empty_state": "لم تقم بجدولة أي أحداث صيانة حتى الآن.",
     "end_time_utc": "وقت الانتهاء (UTC)",
     "give_clear_title": "امنح عملية الصيانة عنوانًا واضحًا ووصفيًا",
@@ -3996,6 +4004,7 @@
     "select_affected_components": "حدد المكونات المتأثرة بهذه الصيانة",
     "select_components_first": "حدد المكونات أولاً لتحميل المراقبات.",
     "start_time_utc": "وقت البدء (UTC)",
+    "times_in_utc": "جميع الأوقات بتوقيت <strong>UTC</strong>.",
     "upcoming": "القادم",
     "when_maintenance_begin": "متى ستبدأ الصيانة",
     "when_maintenance_complete": "متى ستكتمل الصيانة"
@@ -4317,6 +4326,11 @@
       "light": "فاتح",
       "dark": "داكن",
       "system": "النظام"
+    },
+    "timezone": {
+      "label": "المنطقة الزمنية",
+      "utc_default": "UTC (الافتراضي)",
+      "your_timezone": "منطقتك الزمنية"
     },
     "overall": {
       "summary": "تعكس الحالة العامة الحوادث النشطة وصحة المراقبات.",

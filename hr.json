@@ -254,6 +254,11 @@
       "dark": "Tamno",
       "system": "Sustav"
     },
+    "timezone": {
+      "label": "Vremenska zona",
+      "utc_default": "UTC (zadano)",
+      "your_timezone": "Vaša vremenska zona"
+    },
     "overall": {
       "summary": "Ukupni status odražava aktivne incidente i zdravlje monitora.",
       "affected_by": "Pod utjecajem",
@@ -4248,6 +4253,14 @@
   },
   "maintenance": {
     "affected_monitors_optional": "Pogođeni monitori (opciono)",
+    "convert_to_my_timezone": "Pretvori u moju vremensku zonu",
+    "converter": {
+      "help": "Unesite UTC datum/vrijeme i odaberite vremensku zonu da vidite odgovarajuće lokalno vrijeme.",
+      "result_label": "Pretvoreno vrijeme",
+      "timezone": "Vremenska zona",
+      "title": "Pretvarač UTC vremenske zone",
+      "utc_datetime": "UTC datum i vrijeme"
+    },
     "empty_state": "Još uvek niste zakazali nijedan događaj održavanja.",
     "end_time_utc": "Vreme završetka (UTC)",
     "give_clear_title": "Dajte svom održavanju jasan i opisan naslov",
@@ -4258,6 +4271,7 @@
     "select_affected_components": "Izaberite komponente koje su pogođene ovim održavanjem",
     "select_components_first": "Prvo izaberite komponente da biste učitali monitore.",
     "start_time_utc": "Vreme početka (UTC)",
+    "times_in_utc": "Sva vremena su prikazana u <strong>UTC</strong>.",
     "upcoming": "Predstojeće",
     "when_maintenance_begin": "Kada će održavanje početi",
     "when_maintenance_complete": "Kada će održavanje biti završeno"

@@ -3935,6 +3935,14 @@
   },
   "maintenance": {
     "affected_monitors_optional": "Påverkade bildskärmar (valfritt)",
+    "convert_to_my_timezone": "Konvertera till min tidszon",
+    "converter": {
+      "help": "Ange ett UTC-datum/tid och välj en tidszon för att se motsvarande lokal tid.",
+      "result_label": "Konverterad tid",
+      "timezone": "Tidszon",
+      "title": "UTC-tidszonskonverterare",
+      "utc_datetime": "UTC-datum och tid"
+    },
     "empty_state": "Du har inte schemalagt några underhållshändelser ännu.",
     "end_time_utc": "Sluttid (UTC)",
     "give_clear_title": "Ge ditt underhåll en tydlig, beskrivande titel",
@@ -3945,6 +3953,7 @@
     "select_affected_components": "Välj de komponenter som påverkas av detta underhåll",
     "select_components_first": "Välj komponenter först för att ladda bildskärmar.",
     "start_time_utc": "Starttid (UTC)",
+    "times_in_utc": "Alla tider anges i <strong>UTC</strong>.",
     "upcoming": "Kommande",
     "when_maintenance_begin": "När underhållet börjar",
     "when_maintenance_complete": "När underhållet slutförs"
@@ -4263,6 +4272,11 @@
       "light": "Ljust",
       "dark": "Mörkt",
       "system": "System"
+    },
+    "timezone": {
+      "label": "Tidszon",
+      "utc_default": "UTC (standard)",
+      "your_timezone": "Din tidszon"
     },
     "overall": {
       "summary": "Övergripande status speglar aktiva incidenter och övervakarnas hälsa.",

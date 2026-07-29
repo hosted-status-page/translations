@@ -3974,6 +3974,14 @@
   },
   "maintenance": {
     "affected_monitors_optional": "Betroffene Monitore (optional)",
+    "convert_to_my_timezone": "In meine Zeitzone umrechnen",
+    "converter": {
+      "help": "Geben Sie ein UTC-Datum/eine UTC-Uhrzeit ein und wählen Sie eine Zeitzone, um die entsprechende Ortszeit zu sehen.",
+      "result_label": "Umgerechnete Zeit",
+      "timezone": "Zeitzone",
+      "title": "UTC-Zeitzonenrechner",
+      "utc_datetime": "UTC-Datum & -Uhrzeit"
+    },
     "empty_state": "Sie haben noch keine Wartungsereignisse geplant.",
     "end_time_utc": "Endzeit (UTC)",
     "give_clear_title": "Geben Sie Ihrer Wartung einen klaren, beschreibenden Titel",
@@ -3984,6 +3992,7 @@
     "select_affected_components": "Wählen Sie die von dieser Wartung betroffenen Komponenten aus",
     "select_components_first": "Wählen Sie zuerst Komponenten aus, um Monitore zu laden.",
     "start_time_utc": "Startzeit (UTC)",
+    "times_in_utc": "Alle Zeiten sind in <strong>UTC</strong> angegeben.",
     "upcoming": "Bevorstehend",
     "when_maintenance_begin": "Wann die Wartung beginnt",
     "when_maintenance_complete": "Wann die Wartung abgeschlossen sein wird"
@@ -4305,6 +4314,11 @@
       "light": "Hell",
       "dark": "Dunkel",
       "system": "System"
+    },
+    "timezone": {
+      "label": "Zeitzone",
+      "utc_default": "UTC (Standard)",
+      "your_timezone": "Ihre Zeitzone"
     },
     "overall": {
       "summary": "Der Gesamtstatus spiegelt aktive Vorfälle und die Gesundheit der Monitore wider.",
