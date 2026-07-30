@@ -1333,6 +1333,8 @@
     "settings_saved": "Einstellungen gespeichert",
     "show_availability_metrics": "Verfügbarkeitsmetriken anzeigen (MTBF/MTTR)",
     "show_monitor_badges": "Monitor-Typ-Abzeichen anzeigen (API/DNS/Site)",
+    "show_mtbf": "MTBF anzeigen (mittlere Zeit zwischen Ausfällen)",
+    "show_mttr": "MTTR anzeigen (mittlere Wiederherstellungszeit)",
     "showcase_featured": "Ihre Statusseite ist in der Ausstellung präsentiert!",
     "showcase_not_opted": "Sie haben sich noch nicht für die Ausstellung angemeldet.",
     "start_time": "Startzeit",
@@ -4089,6 +4091,21 @@
       "30d": "30 Tage Verfügbarkeit",
       "90d": "90 Tage Verfügbarkeit",
       "1y": "1 Jahr Verfügbarkeit"
+    },
+    "metrics": {
+      "title": "Zuverlässigkeit",
+      "period_group_label": "Metrikzeitraum",
+      "period_7d": "7 T.",
+      "period_30d": "30 T.",
+      "period_90d": "90 T.",
+      "period_365d": "1 J.",
+      "scope_7d": "Letzte 7 Tage",
+      "scope_30d": "Letzte 30 Tage",
+      "scope_90d": "Letzte 90 Tage",
+      "scope_365d": "Letzte 12 Monate",
+      "mtbf_help": "Mittlere Zeit zwischen Ausfällen: wie lange der Dienst typischerweise vor einem Vorfall läuft.",
+      "mttr_help": "Mittlere Wiederherstellungszeit: wie lange Vorfälle typischerweise zur Behebung brauchen.",
+      "no_incidents_help": "Nicht genügend Vorfälle in diesem Zeitraum zur Berechnung."
     },
     "monitor": {
       "disabled_badge": "Deaktiviert",

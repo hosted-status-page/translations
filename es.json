@@ -1337,6 +1337,8 @@
     "settings_saved": "Ajustes guardados",
     "show_availability_metrics": "Mostrar métricas de disponibilidad (MTBF/MTTR)",
     "show_monitor_badges": "Mostrar las placas de tipo de monitor (API/DNS/Site)",
+    "show_mtbf": "Mostrar MTBF (tiempo medio entre fallos)",
+    "show_mttr": "Mostrar MTTR (tiempo medio de recuperación)",
     "showcase_featured": "Su página de estado se presenta en el escaparate!",
     "showcase_not_opted": "Aún no has optado por el escaparate.",
     "start_time": "Hora de inicio",
@@ -4095,6 +4097,21 @@
       "30d": "30 días de disponibilidad",
       "90d": "90 días de disponibilidad",
       "1y": "1 año de disponibilidad"
+    },
+    "metrics": {
+      "title": "Fiabilidad",
+      "period_group_label": "Período de las métricas",
+      "period_7d": "7 d",
+      "period_30d": "30 d",
+      "period_90d": "90 d",
+      "period_365d": "1 a",
+      "scope_7d": "Últimos 7 días",
+      "scope_30d": "Últimos 30 días",
+      "scope_90d": "Últimos 90 días",
+      "scope_365d": "Últimos 12 meses",
+      "mtbf_help": "Tiempo medio entre fallos: cuánto tiempo suele funcionar el servicio antes de un incidente.",
+      "mttr_help": "Tiempo medio de recuperación: cuánto tiempo suelen tardar los incidentes en resolverse.",
+      "no_incidents_help": "No hay incidentes suficientes en este período para calcularlo."
     },
     "monitor": {
       "disabled_badge": "Deshabilitado",
