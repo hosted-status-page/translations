@@ -1238,7 +1238,8 @@
         "cta": "Komponenten anpassen"
       },
       "simple_badge": "Einfach",
-      "simple_badge_title": "Keine Monitore - Status wird manuell aktualisiert"
+      "simple_badge_title": "Keine Monitore - Status wird manuell aktualisiert",
+      "visits_label": "Besuche"
     },
     "live_preview": "Live-Vorschau",
     "loading_channels": "Kanäle werden geladen...",

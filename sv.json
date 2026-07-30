@@ -2643,7 +2643,8 @@
         "cta": "Anpassa komponenter"
       },
       "simple_badge": "Enkel",
-      "simple_badge_title": "Ingen bildskärm - status uppdaterad manuellt"
+      "simple_badge_title": "Ingen bildskärm - status uppdaterad manuellt",
+      "visits_label": "besök"
     },
     "live_preview": "Liveförhandsvisning",
     "loading_channels": "Ledande kanaler...",

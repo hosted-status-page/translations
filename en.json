@@ -2658,7 +2658,8 @@
         "cta": "Customize components"
       },
       "simple_badge": "Simple",
-      "simple_badge_title": "No monitors - status updated manually"
+      "simple_badge_title": "No monitors - status updated manually",
+      "visits_label": "visits"
     },
     "live_preview": "Live Preview",
     "loading_channels": "Loading channels...",

@@ -1243,7 +1243,8 @@
         "cta": "Personnaliser les composants"
       },
       "simple_badge": "Simple",
-      "simple_badge_title": "Aucun moniteur - le statut est mis à jour manuellement"
+      "simple_badge_title": "Aucun moniteur - le statut est mis à jour manuellement",
+      "visits_label": "visites"
     },
     "live_preview": "Aperçu en direct",
     "loading_channels": "Chargement des canaux...",

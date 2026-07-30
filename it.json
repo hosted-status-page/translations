@@ -2654,7 +2654,8 @@
         "cta": "Personalizza componenti"
       },
       "simple_badge": "Semplice",
-      "simple_badge_title": "Nessun monitor - stato aggiornato manualmente"
+      "simple_badge_title": "Nessun monitor - stato aggiornato manualmente",
+      "visits_label": "visite"
     },
     "live_preview": "Anteprima live",
     "loading_channels": "Caricamento canali...",

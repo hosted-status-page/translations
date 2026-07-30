@@ -1238,7 +1238,8 @@
         "cta": "Personalizar componentes"
       },
       "simple_badge": "Simples",
-      "simple_badge_title": "Sem monitores - o status é atualizado manualmente"
+      "simple_badge_title": "Sem monitores - o status é atualizado manualmente",
+      "visits_label": "visitas"
     },
     "live_preview": "Visualização ao vivo",
     "loading_channels": "Carregando canais...",

@@ -2976,7 +2976,8 @@
         "cta": "Prilagodi komponente"
       },
       "simple_badge": "Jednostavna",
-      "simple_badge_title": "Bez monitora - status se ažurira ručno"
+      "simple_badge_title": "Bez monitora - status se ažurira ručno",
+      "visits_label": "posjeta"
     },
     "live_preview": "Pregled uživo",
     "loading_channels": "Učitavanje kanala...",
