@@ -2500,7 +2500,8 @@
         "incidents": "Incidents",
         "monitors": "Monitors",
         "notifications": "Notifications",
-        "visual": "Visual"
+        "visual": "Visual",
+        "announcement": "Status Page Banner"
       },
       "active": "Active",
       "advanced": "Advanced",

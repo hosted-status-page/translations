@@ -2364,7 +2364,8 @@
         "incidents": "Инциденти",
         "monitors": "Монитори",
         "notifications": "Обавештења",
-        "visual": "Визуелно"
+        "visual": "Визуелно",
+        "announcement": "Банер статусне странице"
       },
       "active": "Активно",
       "advanced": "Напредно",

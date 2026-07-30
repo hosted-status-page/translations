@@ -802,7 +802,8 @@
         "incidents": "Incidents",
         "monitors": "Moniteurs",
         "notifications": "Notifications",
-        "visual": "Visuel"
+        "visual": "Visuel",
+        "announcement": "Bannière de la page de statut"
       },
       "custom_domain": {
         "label": "Domaine personnalisé",

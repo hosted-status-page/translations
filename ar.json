@@ -797,7 +797,8 @@
         "incidents": "الحوادث",
         "monitors": "مونيتورات",
         "notifications": "الإشعارات",
-        "visual": "مرئي"
+        "visual": "مرئي",
+        "announcement": "لافتة صفحة الحالة"
       },
       "custom_domain": {
         "label": "النطاق المخصص",

@@ -797,7 +797,8 @@
         "incidents": "Incidentes",
         "monitors": "Monitores",
         "notifications": "Notificações",
-        "visual": "Visual"
+        "visual": "Visual",
+        "announcement": "Banner da página de status"
       },
       "custom_domain": {
         "label": "Domínio Personalizado",

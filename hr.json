@@ -2708,7 +2708,8 @@
         "incidents": "Incidenti",
         "monitors": "Monitori",
         "notifications": "Obavijesti",
-        "visual": "Vizuelno"
+        "visual": "Vizuelno",
+        "announcement": "Baner statusne stranice"
       },
       "active": "Aktivno",
       "advanced": "Napredno",

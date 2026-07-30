@@ -2485,7 +2485,8 @@
         "incidents": "Incidenter",
         "monitors": "Övervakare",
         "notifications": "Meddelanden",
-        "visual": "Visuell"
+        "visual": "Visuell",
+        "announcement": "Statussidebanner"
       },
       "active": "Aktiv",
       "advanced": "Avancerat",

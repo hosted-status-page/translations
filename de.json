@@ -797,7 +797,8 @@
         "incidents": "Vorfälle",
         "monitors": "Monitore",
         "notifications": "Benachrichtigungen",
-        "visual": "Visuell"
+        "visual": "Visuell",
+        "announcement": "Statusseiten-Banner"
       },
       "custom_domain": {
         "label": "Benutzerdefinierte Domain",

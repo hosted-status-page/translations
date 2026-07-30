@@ -2496,7 +2496,8 @@
         "incidents": "Incidenti",
         "monitors": "Monitor",
         "notifications": "Notifiche",
-        "visual": "Aspetto"
+        "visual": "Aspetto",
+        "announcement": "Banner della pagina di stato"
       },
       "active": "Attiva",
       "advanced": "Avanzate",
