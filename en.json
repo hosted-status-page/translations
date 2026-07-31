@@ -1352,6 +1352,7 @@
     "disable_info_no_outages": "Status page will not reflect any outages",
     "disable_info_title": "When a monitor is disabled:",
     "delivered": "Delivered",
+    "deleting": "Deleting...",
     "dismiss": "Dismiss",
     "download_plugin": "Download Plugin",
     "enable": "Enable",
@@ -2141,7 +2142,7 @@
     "custom_domain_upgrade": "Custom Domain (Upgrade to unlock)",
     "delete": {
       "confirm": {
-        "body": "This action cannot be undone.\nAll components will be deleted and incidents removed. Monitors will be detached.\nThe slug will be blocked for 30 days.",
+        "body": "This cannot be undone.\nComponents, heartbeat monitors, incidents, and scheduled maintenances will be permanently deleted.\nAttached monitors will become private monitors. They will keep running and retain their check history, but will no longer appear publicly.\nStatus-page notification settings will be removed. Review the private monitors' notification channels after deletion.\nThe slug will be blocked for 30 days.",
         "confirm": "Yes, delete it",
         "title": "Delete status page?"
       },
@@ -2611,7 +2612,8 @@
       "loading": "Loading components...",
       "name_required": "Please enter a component name"
     },
-    "components_will_delete": "All components under this page will be deleted",
+    "components_will_delete": "All components under this page will be permanently deleted",
+    "heartbeat_monitors_deleted": "Heartbeat monitors and their ping history will be permanently deleted",
     "confirm_password_transfer": "Confirm your password",
     "cookieless_only": "Only privacy-friendly, cookieless providers are supported.",
     "create_new_channel": "Create New Channel",
@@ -2635,7 +2637,7 @@
     "extracted_colors": "Extracted Colors",
     "historical_uptime_access": "Historical Uptime Access (Teams)",
     "if_cookie_exists": "If this cookie exists, analytics will not be injected.",
-    "incidents_removed": "Any associated incidents will be removed",
+    "incidents_removed": "All associated incidents and scheduled maintenances will be permanently deleted",
     "include_non_impacting": "Include non-impacting dependencies in banner",
     "initiate_transfer_help": "This will initiate an ownership transfer to another email address",
     "invalid_image_url": "Invalid image URL",
@@ -2665,7 +2667,8 @@
     "loading_channels": "Loading channels...",
     "logo_previews": "Logo Previews",
     "max_notifications_per_window": "Max Notifications per Window",
-    "monitors_detached": "Monitors attached to those components will be detached",
+    "monitors_detached": "Monitors attached to this page will become private monitors. They will keep running and retain their check history, but will no longer appear publicly",
+    "notification_settings_deleted": "Status-page notification settings will be removed. Review the private monitors' notification channels after deletion",
     "new": {
       "heading": "Create Status Page",
       "info": "You can create this status page without monitors. Later, add Components and Incidents, and optionally assign monitors in settings.",

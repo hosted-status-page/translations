@@ -493,6 +493,7 @@
     "disable_info_no_outages": "La page de statut ne reflétera aucune panne",
     "disable_info_title": "Lorsque le moniteur est désactivé :",
     "delivered": "Livré",
+    "deleting": "Suppression...",
     "dismiss": "Rejeter",
     "download_plugin": "Télécharger le plugin",
     "enable": "Activer",
@@ -1051,7 +1052,7 @@
     "delete": {
       "confirm": {
         "title": "Supprimer la page de statut ?",
-        "body": "Cette action est irréversible.\nTous les composants seront supprimés et les incidents retirés. Les moniteurs seront détachés.\nLe slug sera bloqué pendant 30 jours.",
+        "body": "Cette action est irréversible.\nLes composants, moniteurs heartbeat, incidents et maintenances planifiées seront définitivement supprimés.\nLes moniteurs de cette page deviendront des moniteurs privés. Ils continueront de fonctionner et conserveront leur historique de vérification, mais ne seront plus visibles publiquement.\nLes paramètres de notification de la page de statut seront supprimés. Vérifiez ensuite les canaux de notification des moniteurs privés.\nLe slug sera bloqué pendant 30 jours.",
         "confirm": "Oui, supprimer"
       },
       "success": {
@@ -1196,7 +1197,8 @@
       "loading": "Chargement des composants...",
       "name_required": "Veuillez saisir un nom de composant"
     },
-    "components_will_delete": "Tous les composants sous cette page seront supprimés",
+    "components_will_delete": "Tous les composants de cette page seront définitivement supprimés",
+    "heartbeat_monitors_deleted": "Les moniteurs heartbeat et leur historique de ping seront définitivement supprimés",
     "confirm_password_transfer": "Confirmez votre mot de passe",
     "cookieless_only": "Seuls les fournisseurs respectueux de la vie privée, sans cookies, sont pris en charge.",
     "create_new_channel": "Créer un nouveau canal",
@@ -1220,7 +1222,7 @@
     "extracted_colors": "Couleurs extraites",
     "historical_uptime_access": "Accès au temps de fonctionnement historique (Équipes)",
     "if_cookie_exists": "Si ce cookie existe, les analyses ne seront pas injectées.",
-    "incidents_removed": "Tous les incidents associés seront supprimés",
+    "incidents_removed": "Tous les incidents et maintenances planifiées associés seront définitivement supprimés",
     "include_non_impacting": "Inclure les dépendances non impactantes dans la bannière",
     "initiate_transfer_help": "Cela initiéra un transfert de propriété à une autre adresse e-mail",
     "invalid_image_url": "URL d’image invalide",
@@ -1250,7 +1252,8 @@
     "loading_channels": "Chargement des canaux...",
     "logo_previews": "Aperçus du logo",
     "max_notifications_per_window": "Nombre maximal de notifications par fenêtre",
-    "monitors_detached": "Les moniteurs attachés à ces composants seront détachés",
+    "monitors_detached": "Les moniteurs de cette page deviendront des moniteurs privés. Ils continueront de fonctionner et conserveront leur historique de vérification, mais ne seront plus visibles publiquement",
+    "notification_settings_deleted": "Les paramètres de notification de la page de statut seront supprimés. Vérifiez ensuite les canaux de notification des moniteurs privés",
     "new": {
       "heading": "Créer une page de statut",
       "info": "Vous pouvez créer cette page de statut sans moniteurs. Ajoutez plus tard des composants et des incidents, et assignez éventuellement des moniteurs dans les paramètres.",

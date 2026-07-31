@@ -496,6 +496,7 @@
     "disable_info_no_outages": "La página de estado no reflejará ningún outage",
     "disable_info_title": "Cuando un monitor está deshabilitado:",
     "delivered": "Entregado",
+    "deleting": "Eliminando...",
     "dismiss": "Descartar",
     "download_plugin": "Descargar plugin",
     "enable": "Activar",
@@ -1050,7 +1051,7 @@
     "delete": {
       "confirm": {
         "title": "¿Eliminar página de estado?",
-        "body": "Esta acción no se puede deshacer.\nSe eliminarán todos los componentes y se borrarán los incidentes. Los monitores se desvincularán.\nEl slug quedará bloqueado durante 30 días.",
+        "body": "Esta acción no se puede deshacer.\nLos componentes, monitores heartbeat, incidentes y mantenimientos programados se eliminarán permanentemente.\nLos monitores de esta página se convertirán en monitores privados. Seguirán ejecutándose y conservarán su historial de comprobaciones, pero dejarán de aparecer públicamente.\nSe eliminará la configuración de notificaciones de la página de estado. Revisa después los canales de notificación de los monitores privados.\nEl slug quedará bloqueado durante 30 días.",
         "confirm": "Sí, eliminarla"
       },
       "success": {
@@ -1195,7 +1196,8 @@
       "loading": "Cargando componentes...",
       "name_required": "Por favor, introduce un nombre de componente"
     },
-    "components_will_delete": "Todos los componentes de esta página serán eliminados",
+    "components_will_delete": "Todos los componentes de esta página se eliminarán permanentemente",
+    "heartbeat_monitors_deleted": "Los monitores heartbeat y su historial de pings se eliminarán permanentemente",
     "confirm_password_transfer": "Confirme su contraseña",
     "cookieless_only": "Solo se admiten proveedores de privacidad y sin cookies.",
     "create_new_channel": "Crear un nuevo canal",
@@ -1219,7 +1221,7 @@
     "extracted_colors": "Colores extraídos",
     "historical_uptime_access": "Acceso histórico al tiempo de trabajo (Teams)",
     "if_cookie_exists": "Si esta cookie existe, no se inyectará análisis.",
-    "incidents_removed": "Se eliminarán los incidentes conexos",
+    "incidents_removed": "Todos los incidentes y mantenimientos programados asociados se eliminarán permanentemente",
     "include_non_impacting": "Incluir dependencias que no impliquen la pancarta",
     "initiate_transfer_help": "Esto iniciará una transferencia de propiedad a otra dirección de correo electrónico",
     "invalid_image_url": "URL de imagen inválida",
@@ -1249,7 +1251,8 @@
     "loading_channels": "Cargando canales...",
     "logo_previews": "Avances de Logo",
     "max_notifications_per_window": "Max Notificaciones por ventana",
-    "monitors_detached": "Los monitores adjuntos a esos componentes se separarán",
+    "monitors_detached": "Los monitores de esta página se convertirán en monitores privados. Seguirán ejecutándose y conservarán su historial de comprobaciones, pero dejarán de aparecer públicamente",
+    "notification_settings_deleted": "Se eliminará la configuración de notificaciones de la página de estado. Revisa después los canales de notificación de los monitores privados",
     "new": {
       "heading": "Crear página de estado",
       "info": "Puede crear esta página de estado sin monitores. Más tarde, agregue Componentes e incidentes y, opcionalmente, asigne monitores en la configuración.",

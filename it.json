@@ -1350,6 +1350,7 @@
     "disable_info_no_outages": "La status page non rifletterà alcuna interruzione",
     "disable_info_title": "Quando un monitor è disabilitato:",
     "delivered": "Consegnato",
+    "deleting": "Eliminazione...",
     "dismiss": "Ignora",
     "download_plugin": "Scarica plugin",
     "enable": "Abilita",
@@ -2139,7 +2140,7 @@
     "custom_domain_upgrade": "Dominio personalizzato (esegui l'upgrade per sbloccare)",
     "delete": {
       "confirm": {
-        "body": "Questa azione non può essere annullata.\nTutti i componenti saranno eliminati e gli incidenti rimossi. I monitor saranno scollegati.\nLo slug sarà bloccato per 30 giorni.",
+        "body": "Questa azione non può essere annullata.\nComponenti, monitor heartbeat, incidenti e manutenzioni programmate verranno eliminati definitivamente.\nI monitor di questa pagina diventeranno monitor privati. Continueranno a funzionare e conserveranno la cronologia dei controlli, ma non saranno più visibili pubblicamente.\nLe impostazioni di notifica della pagina di stato verranno rimosse. Dopo l'eliminazione, controlla i canali di notifica dei monitor privati.\nLo slug sarà bloccato per 30 giorni.",
         "confirm": "Sì, eliminala",
         "title": "Eliminare la status page?"
       },
@@ -2607,7 +2608,8 @@
       "loading": "Caricamento componenti...",
       "name_required": "Inserisci un nome per il componente"
     },
-    "components_will_delete": "Tutti i componenti sotto questa pagina verranno eliminati",
+    "components_will_delete": "Tutti i componenti di questa pagina verranno eliminati definitivamente",
+    "heartbeat_monitors_deleted": "I monitor heartbeat e la cronologia dei ping verranno eliminati definitivamente",
     "confirm_password_transfer": "Confermi la tua password",
     "cookieless_only": "Sono supportati solo provider senza cookie, rispettosi della privacy.",
     "create_new_channel": "Crea nuovo canale",
@@ -2631,7 +2633,7 @@
     "extracted_colors": "Colori estratti",
     "historical_uptime_access": "Accesso uptime storico (team)",
     "if_cookie_exists": "Se questo cookie esiste, gli analytics non verranno iniettati.",
-    "incidents_removed": "Tutti gli incidenti associati verranno rimossi",
+    "incidents_removed": "Tutti gli incidenti e le manutenzioni programmate associati verranno eliminati definitivamente",
     "include_non_impacting": "Includi dipendenze non impattanti nel banner",
     "initiate_transfer_help": "Questo avvierà un trasferimento di proprietà a un altro indirizzo email",
     "invalid_image_url": "URL immagine non valido",
@@ -2661,7 +2663,8 @@
     "loading_channels": "Caricamento canali...",
     "logo_previews": "Anteprime logo",
     "max_notifications_per_window": "Notifiche massime per finestra",
-    "monitors_detached": "I monitor collegati a quei componenti verranno scollegati",
+    "monitors_detached": "I monitor di questa pagina diventeranno monitor privati. Continueranno a funzionare e conserveranno la cronologia dei controlli, ma non saranno più visibili pubblicamente",
+    "notification_settings_deleted": "Le impostazioni di notifica della pagina di stato verranno rimosse. Dopo l'eliminazione, controlla i canali di notifica dei monitor privati",
     "new": {
       "heading": "Crea status page",
       "info": "Puoi creare questa status page senza monitor. In seguito, aggiungi componenti e incidenti, e assegna opzionalmente i monitor nelle impostazioni.",

@@ -492,6 +492,7 @@
     "disable_info_no_outages": "Die Statusseite zeigt keine Ausfälle an",
     "disable_info_title": "Wenn ein Monitor deaktiviert ist:",
     "delivered": "Zugestellt",
+    "deleting": "Löschen...",
     "dismiss": "Ablehnen",
     "download_plugin": "Plugin herunterladen",
     "enable": "Aktivieren",
@@ -1046,7 +1047,7 @@
     "delete": {
       "confirm": {
         "title": "Statusseite löschen?",
-        "body": "Diese Aktion kann nicht rückgängig gemacht werden.\nAlle Komponenten werden gelöscht und Vorfälle entfernt. Monitore werden getrennt.\nDer Slug wird 30 Tage lang gesperrt.",
+        "body": "Diese Aktion kann nicht rückgängig gemacht werden.\nKomponenten, Heartbeat-Monitore, Vorfälle und geplante Wartungsarbeiten werden dauerhaft gelöscht.\nMonitore dieser Seite werden zu privaten Monitoren. Sie laufen weiter und behalten ihren Prüfverlauf, erscheinen aber nicht mehr öffentlich.\nDie Benachrichtigungseinstellungen der Statusseite werden entfernt. Prüfen Sie danach die Benachrichtigungskanäle der privaten Monitore.\nDer Slug wird 30 Tage lang gesperrt.",
         "confirm": "Ja, löschen"
       },
       "success": {
@@ -1191,7 +1192,8 @@
       "loading": "Lade Komponenten...",
       "name_required": "Bitte geben Sie einen Komponentennamen ein"
     },
-    "components_will_delete": "Alle Komponenten unter dieser Seite werden gelöscht",
+    "components_will_delete": "Alle Komponenten dieser Seite werden dauerhaft gelöscht",
+    "heartbeat_monitors_deleted": "Heartbeat-Monitore und ihr Ping-Verlauf werden dauerhaft gelöscht",
     "confirm_password_transfer": "Bestätigen Sie Ihr Passwort",
     "cookieless_only": "Nur datenschutzfreundliche, cookielose Anbieter werden unterstützt.",
     "create_new_channel": "Neuen Kanal erstellen",
@@ -1215,7 +1217,7 @@
     "extracted_colors": "Extrahierte Farben",
     "historical_uptime_access": "Zugang zu historischen Betriebszeiten (Teams)",
     "if_cookie_exists": "Wenn dieser Cookie existiert, wird das Analytics-Skript nicht injiziert.",
-    "incidents_removed": "Alle zugehörigen Vorfälle werden entfernt",
+    "incidents_removed": "Alle zugehörigen Vorfälle und geplanten Wartungsarbeiten werden dauerhaft gelöscht",
     "include_non_impacting": "Nicht beeinflussende Abhängigkeiten im Banner einbeziehen",
     "initiate_transfer_help": "Dies wird eine Eigentumsübertragung an eine andere E-Mail-Adresse einleiten",
     "invalid_image_url": "Ungültige Bild-URL",
@@ -1245,7 +1247,8 @@
     "loading_channels": "Kanäle werden geladen...",
     "logo_previews": "Logo-Vorschauen",
     "max_notifications_per_window": "Maximale Benachrichtigungen pro Fenster",
-    "monitors_detached": "Monitore, die an diese Komponenten angehängt sind, werden getrennt",
+    "monitors_detached": "Monitore dieser Seite werden zu privaten Monitoren. Sie laufen weiter und behalten ihren Prüfverlauf, erscheinen aber nicht mehr öffentlich",
+    "notification_settings_deleted": "Die Benachrichtigungseinstellungen der Statusseite werden entfernt. Prüfen Sie danach die Benachrichtigungskanäle der privaten Monitore",
     "new": {
       "heading": "Statusseite erstellen",
       "info": "Sie können diese Statusseite ohne Monitore erstellen. Fügen Sie später Komponenten und Vorfälle hinzu und weisen Sie optional Monitore in den Einstellungen zu.",

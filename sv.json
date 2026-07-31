@@ -1337,6 +1337,7 @@
     "disable_info_no_outages": "Statussidan kommer inte att återspegla några avbrott",
     "disable_info_title": "När en bildskärm är inaktiverad:",
     "delivered": "Levereras",
+    "deleting": "Tar bort...",
     "dismiss": "Avfärda",
     "download_plugin": "Ladda ner Plugin",
     "enable": "Aktivera",
@@ -2126,7 +2127,7 @@
     "custom_domain_upgrade": "Custom Domain (Uppgradera för att låsa upp)",
     "delete": {
       "confirm": {
-        "body": "Denna åtgärd kan inte ångras.\nAlla komponenter raderas och incidenter tas bort. Övervakare kommer att frigöras.\nSnigeln kommer att blockeras i 30 dagar.",
+        "body": "Den här åtgärden kan inte ångras.\nKomponenter, heartbeat-övervakare, incidenter och schemalagda underhåll raderas permanent.\nÖvervakare på den här sidan blir privata övervakare. De fortsätter att köras och behåller sin kontrollhistorik, men visas inte längre offentligt.\nStatussidans aviseringsinställningar tas bort. Kontrollera de privata övervakarnas aviseringskanaler efteråt.\nSluggen blockeras i 30 dagar.",
         "confirm": "Ja, ta bort den",
         "title": "Ta bort statussidan?"
       },
@@ -2596,7 +2597,8 @@
       "loading": "Lastkomponenter...",
       "name_required": "Ange ett komponentnamn"
     },
-    "components_will_delete": "Alla komponenter under denna sida kommer att raderas",
+    "components_will_delete": "Alla komponenter på den här sidan raderas permanent",
+    "heartbeat_monitors_deleted": "Heartbeat-övervakare och deras pinghistorik raderas permanent",
     "confirm_password_transfer": "Bekräfta ditt lösenord",
     "cookieless_only": "Endast sekretessvänliga, cookieless leverantörer stöds.",
     "create_new_channel": "Skapa ny kanal",
@@ -2620,7 +2622,7 @@
     "extracted_colors": "Extraherade färger",
     "historical_uptime_access": "Historisk Uptime Access (Teams)",
     "if_cookie_exists": "Om denna cookie finns kommer analys inte att injiceras.",
-    "incidents_removed": "Eventuella tillhörande incidenter kommer att tas bort",
+    "incidents_removed": "Alla tillhörande incidenter och schemalagda underhåll raderas permanent",
     "include_non_impacting": "Inkludera icke-påverkande beroenden i banner",
     "initiate_transfer_help": "Detta kommer att initiera en ägaröverföring till en annan e-postadress",
     "invalid_image_url": "Ogiltig bild-URL",
@@ -2650,7 +2652,8 @@
     "loading_channels": "Ledande kanaler...",
     "logo_previews": "Logo förhandsvisningar",
     "max_notifications_per_window": "Max meddelanden per fönster",
-    "monitors_detached": "Övervakare som är knutna till dessa komponenter kommer att frigöras",
+    "monitors_detached": "Övervakare på den här sidan blir privata övervakare. De fortsätter att köras och behåller sin kontrollhistorik, men visas inte längre offentligt",
+    "notification_settings_deleted": "Statussidans aviseringsinställningar tas bort. Kontrollera de privata övervakarnas aviseringskanaler efteråt",
     "new": {
       "heading": "Skapa status sida",
       "info": "Du kan skapa den här statussidan utan bildskärmar. Senare, lägga till komponenter och incidenter, och eventuellt tilldela bildskärmar i inställningar.",

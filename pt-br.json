@@ -492,6 +492,7 @@
     "disable_info_no_outages": "A página de status não refletirá nenhuma interrupção",
     "disable_info_title": "Quando um monitor está desativado:",
     "delivered": "Entregue",
+    "deleting": "Excluindo...",
     "dismiss": "Descartar",
     "download_plugin": "Baixar plugin",
     "enable": "Ativar",
@@ -1046,7 +1047,7 @@
     "delete": {
       "confirm": {
         "title": "Excluir página de status?",
-        "body": "Esta ação é irreversível.\nTodos os componentes serão excluídos e incidentes removidos. Monitores serão desvinculados.\nO slug será bloqueado por 30 dias.",
+        "body": "Esta ação é irreversível.\nComponentes, monitores heartbeat, incidentes e manutenções programadas serão excluídos permanentemente.\nOs monitores desta página se tornarão monitores privados. Eles continuarão em execução e manterão o histórico de verificações, mas não aparecerão mais publicamente.\nAs configurações de notificação da página de status serão removidas. Depois, revise os canais de notificação dos monitores privados.\nO slug será bloqueado por 30 dias.",
         "confirm": "Sim, excluir"
       },
       "success": {
@@ -1191,7 +1192,8 @@
       "loading": "Carregando componentes...",
       "name_required": "Por favor, insira um nome de componente"
     },
-    "components_will_delete": "Todos os componentes desta página serão excluídos",
+    "components_will_delete": "Todos os componentes desta página serão excluídos permanentemente",
+    "heartbeat_monitors_deleted": "Os monitores heartbeat e seu histórico de pings serão excluídos permanentemente",
     "confirm_password_transfer": "Confirme sua senha",
     "cookieless_only": "Apenas provedores amigáveis à privacidade, sem cookies, são suportados.",
     "create_new_channel": "Criar novo canal",
@@ -1215,7 +1217,7 @@
     "extracted_colors": "Cores extraídas",
     "historical_uptime_access": "Acesso ao tempo de atividade histórico (Equipes)",
     "if_cookie_exists": "Se este cookie existir, a análise não será injetada.",
-    "incidents_removed": "Quaisquer incidentes associados serão removidos",
+    "incidents_removed": "Todos os incidentes e manutenções programadas associados serão excluídos permanentemente",
     "include_non_impacting": "Incluir dependências não impactantes no banner",
     "initiate_transfer_help": "Isso iniciará uma transferência de propriedade para outro endereço de e-mail",
     "invalid_image_url": "URL da imagem inválida",
@@ -1245,7 +1247,8 @@
     "loading_channels": "Carregando canais...",
     "logo_previews": "Visualizações do logo",
     "max_notifications_per_window": "Máximo de notificações por janela",
-    "monitors_detached": "Monitores anexados àqueles componentes serão desanexados",
+    "monitors_detached": "Os monitores desta página se tornarão monitores privados. Eles continuarão em execução e manterão o histórico de verificações, mas não aparecerão mais publicamente",
+    "notification_settings_deleted": "As configurações de notificação da página de status serão removidas. Depois, revise os canais de notificação dos monitores privados",
     "new": {
       "heading": "Criar página de status",
       "info": "Você pode criar esta página de status sem monitores. Depois, adicione Componentes e Incidentes e, opcionalmente, atribua monitores nas configurações.",

@@ -1670,6 +1670,7 @@
     "disable_info_no_outages": "Statusna stranica neće odražavati prekide rada",
     "disable_info_title": "Kada je monitor onemogućen:",
     "delivered": "Isporučeno",
+    "deleting": "Brisanje...",
     "dismiss": "Odbij",
     "download_plugin": "Preuzmi plagin",
     "enable": "Omogući",
@@ -2459,7 +2460,7 @@
     "custom_domain_upgrade": "Prilagođeni domen (Nadogradite da otključate)",
     "delete": {
       "confirm": {
-        "body": "Ova radnja je nepovratna.\nSve komponente će biti obrisane a incidenti uklonjeni. Monitori će biti odvezani.\nIdentifikator će biti blokiran 30 dana.",
+        "body": "Ova radnja je nepovratna.\nKomponente, heartbeat monitori, incidenti i zakazana održavanja bit će trajno obrisani.\nMonitori ove stranice postat će privatni monitori. Nastavit će raditi i zadržati povijest provjera, ali se više neće javno prikazivati.\nPostavke obavijesti statusne stranice bit će uklonjene. Nakon brisanja provjerite kanale obavijesti privatnih monitora.\nIdentifikator će biti blokiran 30 dana.",
         "confirm": "Da, izbrišite",
         "title": "Obrisati status stranicu?"
       },
@@ -2929,7 +2930,8 @@
       "loading": "Učitavanje komponenti...",
       "name_required": "Unesite naziv komponente"
     },
-    "components_will_delete": "Sve komponente pod ovom stranicom će biti obrisane",
+    "components_will_delete": "Sve komponente ove stranice bit će trajno obrisane",
+    "heartbeat_monitors_deleted": "Heartbeat monitori i njihova povijest pingova bit će trajno obrisani",
     "confirm_password_transfer": "Potvrdite svoju lozinku",
     "cookieless_only": "Podržavamo samo pružaoce usluga koji poštuju privatnost i ne koriste kolačiće.",
     "create_new_channel": "Kreiraj novi kanal",
@@ -2953,7 +2955,7 @@
     "extracted_colors": "Izvučene boje",
     "historical_uptime_access": "Pristup istorijskom vremenu rada (Timovi)",
     "if_cookie_exists": "Ako ovaj kolačić postoji, analitika neće biti ubačena.",
-    "incidents_removed": "Svi povezani incidenti će biti uklonjeni",
+    "incidents_removed": "Svi povezani incidenti i zakazana održavanja bit će trajno obrisani",
     "include_non_impacting": "Uključi neutjecajne zavisnosti u baner",
     "initiate_transfer_help": "Ovo će pokrenuti transfer vlasništva na drugu e-poštansku adresu",
     "invalid_image_url": "Nevažeća URL slike",
@@ -2983,7 +2985,8 @@
     "loading_channels": "Učitavanje kanala...",
     "logo_previews": "Pregledi logoa",
     "max_notifications_per_window": "Maksimalno obavijesti po prozoru",
-    "monitors_detached": "Monitori pričvršćeni za te komponente će biti odvojeni",
+    "monitors_detached": "Monitori ove stranice postat će privatni monitori. Nastavit će raditi i zadržati povijest provjera, ali se više neće javno prikazivati",
+    "notification_settings_deleted": "Postavke obavijesti statusne stranice bit će uklonjene. Nakon brisanja provjerite kanale obavijesti privatnih monitora",
     "new": {
       "heading": "Kreiraj status stranicu",
       "info": "Možete kreirati ovu status stranicu bez monitora. Kasnije dodajte komponente i incidente, i opcionalno dodelite monitore u podešavanjima.",
