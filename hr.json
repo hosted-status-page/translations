@@ -4370,5 +4370,74 @@
     "hours_ago": "prije __N__ sati",
     "just_now": "upravo sada",
     "minutes_ago": "prije __N__ min"
+  },
+  "servers": {
+    "title": "Poslužitelji",
+    "subtitle": "Metrike hosta iz Server Agenta instaliranog na vašim strojevima",
+    "add": "Dodaj poslužitelj",
+    "add_first": "Dodajte svoj prvi poslužitelj",
+    "quota_reached": "Dosegnuto ograničenje plana",
+    "using": "U upotrebi",
+    "servers_lower": "poslužitelja",
+    "awaiting_first_report": "Čeka prvo javljanje",
+    "never_reported": "Nikad se nije javio",
+    "view_metrics": "Prikaži metrike",
+    "agent": "agent",
+    "last_seen": "zadnji put viđen",
+    "status": {
+      "online": "Na mreži",
+      "stale": "Zastarjelo",
+      "offline": "Nedostupan",
+      "pending": "U tijeku"
+    },
+    "metric": {
+      "cpu": "CPU",
+      "memory": "Memorija",
+      "load": "Opterećenje"
+    },
+    "empty": {
+      "title": "Još nema poslužitelja",
+      "body": "Instalirajte Server Agent na stroj kako biste ovdje vidjeli CPU, memoriju, opterećenje, disk i mrežu — na istoj vremenskoj crti kao i vaši incidenti."
+    },
+    "add_modal_title": "Dodaj poslužitelj",
+    "add_name_help": "Oznaka za vas. Naziv hosta koji agent javlja nije obavezan i može se kasnije promijeniti ili ukloniti.",
+    "add_submit": "Stvori poslužitelj",
+    "form": {
+      "description": "Opis (nije obavezno)"
+    },
+    "key": {
+      "shown_once": "Ovaj ključ za unos prikazuje se samo jednom i kasnije ga nije moguće dohvatiti. Kopirajte ga sada.",
+      "install_command": "Naredba za instalaciju",
+      "after_install": "Metrike se pojavljuju unutar nekoliko minuta. Pokrenite serveragent -metrics na hostu da vidite točno što prikuplja."
+    },
+    "correlation": {
+      "hint": "osjenčana područja su incidenti s povezane statusne stranice"
+    },
+    "chart": {
+      "cpu": "Iskorištenost CPU-a",
+      "memory": "Iskorištena memorija",
+      "load": "Prosječno opterećenje",
+      "io": "Disk i mrežni U/I"
+    },
+    "alerts": {
+      "title": "Upozorenja po pragu",
+      "add": "Dodaj pravilo",
+      "upgrade": "Dostupno od Pro plana",
+      "metric": "Metrika",
+      "condition": "Uvjet",
+      "duration": "Tijekom",
+      "firing": "Aktivno",
+      "ok": "U redu",
+      "disabled": "Onemogućeno",
+      "empty": "Još nema upozorenja po pragu. Dodajte jedno da vas obavijestimo kada je ovaj host pod opterećenjem.",
+      "threshold": "Prag",
+      "duration_label": "Neprekidno kroz (sekundi)",
+      "duration_help": "Uvjet mora vrijediti toliko dugo prije nego što se upozorenje aktivira, pa kratki skok ostaje tišina."
+    },
+    "alerts_add_modal_title": "Dodaj upozorenje po pragu",
+    "no_data": {
+      "title": "Nema podataka za ovaj raspon",
+      "body": "Ovaj host nije poslao nijedan uzorak u odabranom razdoblju. Odaberite kraći raspon ili provjerite radi li agent."
+    }
   }
 }

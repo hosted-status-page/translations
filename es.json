@@ -4415,5 +4415,74 @@
     "hours_ago": "hace __N__ h",
     "just_now": "justo ahora",
     "minutes_ago": "hace __N__ min"
+  },
+  "servers": {
+    "title": "Servidores",
+    "subtitle": "Métricas de host del Agente de Servidor instalado en tus máquinas",
+    "add": "Añadir servidor",
+    "add_first": "Añade tu primer servidor",
+    "quota_reached": "Límite del plan alcanzado",
+    "using": "En uso",
+    "servers_lower": "servidores",
+    "awaiting_first_report": "Esperando el primer informe",
+    "never_reported": "Nunca ha informado",
+    "view_metrics": "Ver métricas",
+    "agent": "agente",
+    "last_seen": "visto por última vez",
+    "status": {
+      "online": "En línea",
+      "stale": "Desactualizado",
+      "offline": "Sin conexión",
+      "pending": "Pendiente"
+    },
+    "metric": {
+      "cpu": "CPU",
+      "memory": "Memoria",
+      "load": "Carga"
+    },
+    "empty": {
+      "title": "Aún no hay servidores",
+      "body": "Instala el Agente de Servidor en una máquina para ver aquí su CPU, memoria, carga, disco y red — en la misma línea de tiempo que tus incidencias."
+    },
+    "add_modal_title": "Añadir un servidor",
+    "add_name_help": "Una etiqueta para ti. El nombre de host del agente es opcional y puede cambiarse o eliminarse más adelante.",
+    "add_submit": "Crear servidor",
+    "form": {
+      "description": "Descripción (opcional)"
+    },
+    "key": {
+      "shown_once": "Esta clave de ingesta se muestra una sola vez y no podrá recuperarse después. Cópiala ahora.",
+      "install_command": "Comando de instalación",
+      "after_install": "Las métricas aparecen en un par de minutos. Ejecuta serveragent -metrics en el host para ver exactamente qué recopila."
+    },
+    "correlation": {
+      "hint": "las bandas sombreadas son incidencias de la página de estado vinculada"
+    },
+    "chart": {
+      "cpu": "Uso de CPU",
+      "memory": "Memoria utilizada",
+      "load": "Carga media",
+      "io": "E/S de disco y red"
+    },
+    "alerts": {
+      "title": "Alertas por umbral",
+      "add": "Añadir regla",
+      "upgrade": "Disponible en Pro y superiores",
+      "metric": "Métrica",
+      "condition": "Condición",
+      "duration": "Durante",
+      "firing": "Activa",
+      "ok": "Correcto",
+      "disabled": "Desactivada",
+      "empty": "Aún no hay alertas por umbral. Añade una para recibir aviso cuando este host esté bajo presión.",
+      "threshold": "Umbral",
+      "duration_label": "Sostenido durante (segundos)",
+      "duration_help": "La condición debe mantenerse este tiempo antes de disparar una alerta, de modo que un pico breve no moleste."
+    },
+    "alerts_add_modal_title": "Añadir alerta por umbral",
+    "no_data": {
+      "title": "Sin datos para este rango",
+      "body": "Este host no ha enviado muestras en el periodo seleccionado. Elige un rango más corto o comprueba que el agente esté en ejecución."
+    }
   }
 }

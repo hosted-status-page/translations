@@ -4423,5 +4423,74 @@
     "hours_ago": "il y a __N__ h",
     "just_now": "à l’instant",
     "minutes_ago": "il y a __N__ min"
+  },
+  "servers": {
+    "title": "Serveurs",
+    "subtitle": "Métriques hôte issues de l'Agent Serveur installé sur vos machines",
+    "add": "Ajouter un serveur",
+    "add_first": "Ajoutez votre premier serveur",
+    "quota_reached": "Limite du forfait atteinte",
+    "using": "Utilisé",
+    "servers_lower": "serveurs",
+    "awaiting_first_report": "En attente du premier rapport",
+    "never_reported": "Jamais signalé",
+    "view_metrics": "Voir les métriques",
+    "agent": "agent",
+    "last_seen": "vu pour la dernière fois",
+    "status": {
+      "online": "En ligne",
+      "stale": "Obsolète",
+      "offline": "Hors ligne",
+      "pending": "En attente"
+    },
+    "metric": {
+      "cpu": "CPU",
+      "memory": "Mémoire",
+      "load": "Charge"
+    },
+    "empty": {
+      "title": "Aucun serveur pour le moment",
+      "body": "Installez l'Agent Serveur sur une machine pour voir ici son CPU, sa mémoire, sa charge, son disque et son réseau — sur la même chronologie que vos incidents."
+    },
+    "add_modal_title": "Ajouter un serveur",
+    "add_name_help": "Un libellé pour vous. Le nom d'hôte de l'agent est facultatif et peut être modifié ou supprimé plus tard.",
+    "add_submit": "Créer le serveur",
+    "form": {
+      "description": "Description (facultatif)"
+    },
+    "key": {
+      "shown_once": "Cette clé d'ingestion n'est affichée qu'une fois et ne pourra pas être récupérée ensuite. Copiez-la maintenant.",
+      "install_command": "Commande d'installation",
+      "after_install": "Les métriques apparaissent en quelques minutes. Exécutez serveragent -metrics sur l'hôte pour voir exactement ce qui est collecté."
+    },
+    "correlation": {
+      "hint": "les bandes ombrées correspondent aux incidents de la page de statut liée"
+    },
+    "chart": {
+      "cpu": "Utilisation du CPU",
+      "memory": "Mémoire utilisée",
+      "load": "Charge moyenne",
+      "io": "E/S disque et réseau"
+    },
+    "alerts": {
+      "title": "Alertes de seuil",
+      "add": "Ajouter une règle",
+      "upgrade": "Disponible à partir de Pro",
+      "metric": "Métrique",
+      "condition": "Condition",
+      "duration": "Pendant",
+      "firing": "Déclenchée",
+      "ok": "OK",
+      "disabled": "Désactivée",
+      "empty": "Aucune alerte de seuil pour l'instant. Ajoutez-en une pour être averti lorsque cet hôte est sous pression.",
+      "threshold": "Seuil",
+      "duration_label": "Maintenu pendant (secondes)",
+      "duration_help": "La condition doit tenir pendant cette durée avant qu'une alerte se déclenche, afin qu'un pic bref reste silencieux."
+    },
+    "alerts_add_modal_title": "Ajouter une alerte de seuil",
+    "no_data": {
+      "title": "Aucune donnée pour cette période",
+      "body": "Cet hôte n'a envoyé aucun échantillon sur la période sélectionnée. Choisissez une période plus courte ou vérifiez que l'agent fonctionne."
+    }
   }
 }

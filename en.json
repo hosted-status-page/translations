@@ -4429,5 +4429,74 @@
     "hours_ago": "__N__ hr ago",
     "just_now": "just now",
     "minutes_ago": "__N__ min ago"
+  },
+  "servers": {
+    "title": "Servers",
+    "subtitle": "Host metrics from the Server Agent installed on your machines",
+    "add": "Add server",
+    "add_first": "Add your first server",
+    "quota_reached": "Plan limit reached",
+    "using": "Using",
+    "servers_lower": "servers",
+    "awaiting_first_report": "Awaiting first report",
+    "never_reported": "Never reported",
+    "view_metrics": "View metrics",
+    "agent": "agent",
+    "last_seen": "last seen",
+    "status": {
+      "online": "Online",
+      "stale": "Stale",
+      "offline": "Offline",
+      "pending": "Pending"
+    },
+    "metric": {
+      "cpu": "CPU",
+      "memory": "Memory",
+      "load": "Load"
+    },
+    "empty": {
+      "title": "No servers yet",
+      "body": "Install the Server Agent on a machine to see its CPU, memory, load, disk, and network here — on the same timeline as your incidents."
+    },
+    "add_modal_title": "Add a server",
+    "add_name_help": "A label for you. The agent's own hostname is optional and can be changed or removed later.",
+    "add_submit": "Create server",
+    "form": {
+      "description": "Description (optional)"
+    },
+    "key": {
+      "shown_once": "This ingest key is shown once and cannot be retrieved later. Copy it now.",
+      "install_command": "Install command",
+      "after_install": "Metrics appear within a couple of minutes. Run serveragent -metrics on the host to see exactly what it collects."
+    },
+    "correlation": {
+      "hint": "shaded bands are incidents on the linked status page"
+    },
+    "chart": {
+      "cpu": "CPU utilization",
+      "memory": "Memory used",
+      "load": "Load average",
+      "io": "Disk + network IO"
+    },
+    "alerts": {
+      "title": "Threshold alerts",
+      "add": "Add rule",
+      "upgrade": "Available on Pro and above",
+      "metric": "Metric",
+      "condition": "Condition",
+      "duration": "For",
+      "firing": "Firing",
+      "ok": "OK",
+      "disabled": "Disabled",
+      "empty": "No threshold alerts yet. Add one to be notified when this host is under pressure.",
+      "threshold": "Threshold",
+      "duration_label": "Sustained for (seconds)",
+      "duration_help": "The condition must hold for this long before an alert fires, so a brief spike stays quiet."
+    },
+    "alerts_add_modal_title": "Add threshold alert",
+    "no_data": {
+      "title": "No data for this range",
+      "body": "This host has not reported any samples in the selected period. Pick a shorter range, or check that the agent is running."
+    }
   }
 }

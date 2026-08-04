@@ -4422,5 +4422,74 @@
     "hours_ago": "__N__ ore fa",
     "just_now": "proprio ora",
     "minutes_ago": "__N__ min fa"
+  },
+  "servers": {
+    "title": "Server",
+    "subtitle": "Metriche host dall'Agente Server installato sulle tue macchine",
+    "add": "Aggiungi server",
+    "add_first": "Aggiungi il tuo primo server",
+    "quota_reached": "Limite del piano raggiunto",
+    "using": "In uso",
+    "servers_lower": "server",
+    "awaiting_first_report": "In attesa del primo report",
+    "never_reported": "Mai riportato",
+    "view_metrics": "Vedi metriche",
+    "agent": "agente",
+    "last_seen": "visto l'ultima volta",
+    "status": {
+      "online": "Online",
+      "stale": "Obsoleto",
+      "offline": "Offline",
+      "pending": "In attesa"
+    },
+    "metric": {
+      "cpu": "CPU",
+      "memory": "Memoria",
+      "load": "Carico"
+    },
+    "empty": {
+      "title": "Nessun server per ora",
+      "body": "Installa l'Agente Server su una macchina per vedere qui CPU, memoria, carico, disco e rete — sulla stessa linea temporale dei tuoi incidenti."
+    },
+    "add_modal_title": "Aggiungi un server",
+    "add_name_help": "Un'etichetta per te. Il nome host dell'agente è facoltativo e può essere modificato o rimosso in seguito.",
+    "add_submit": "Crea server",
+    "form": {
+      "description": "Descrizione (facoltativa)"
+    },
+    "key": {
+      "shown_once": "Questa chiave di ingest viene mostrata una sola volta e non potrà essere recuperata. Copiala ora.",
+      "install_command": "Comando di installazione",
+      "after_install": "Le metriche compaiono entro un paio di minuti. Esegui serveragent -metrics sull'host per vedere esattamente cosa raccoglie."
+    },
+    "correlation": {
+      "hint": "le fasce ombreggiate sono incidenti della status page collegata"
+    },
+    "chart": {
+      "cpu": "Utilizzo CPU",
+      "memory": "Memoria utilizzata",
+      "load": "Carico medio",
+      "io": "I/O disco e rete"
+    },
+    "alerts": {
+      "title": "Avvisi di soglia",
+      "add": "Aggiungi regola",
+      "upgrade": "Disponibile da Pro in su",
+      "metric": "Metrica",
+      "condition": "Condizione",
+      "duration": "Per",
+      "firing": "Attivo",
+      "ok": "OK",
+      "disabled": "Disattivato",
+      "empty": "Nessun avviso di soglia. Aggiungine uno per essere avvisato quando questo host è sotto pressione.",
+      "threshold": "Soglia",
+      "duration_label": "Sostenuto per (secondi)",
+      "duration_help": "La condizione deve persistere per questo tempo prima che scatti un avviso, così un picco breve resta silenzioso."
+    },
+    "alerts_add_modal_title": "Aggiungi avviso di soglia",
+    "no_data": {
+      "title": "Nessun dato per questo intervallo",
+      "body": "Questo host non ha inviato campioni nel periodo selezionato. Scegli un intervallo più breve o verifica che l'agente sia in esecuzione."
+    }
   }
 }

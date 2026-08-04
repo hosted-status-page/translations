@@ -4409,5 +4409,74 @@
     "hours_ago": "vor __N__ Std.",
     "just_now": "gerade eben",
     "minutes_ago": "vor __N__ Min."
+  },
+  "servers": {
+    "title": "Server",
+    "subtitle": "Host-Metriken des Server-Agents, der auf Ihren Maschinen installiert ist",
+    "add": "Server hinzufügen",
+    "add_first": "Ersten Server hinzufügen",
+    "quota_reached": "Tariflimit erreicht",
+    "using": "Genutzt",
+    "servers_lower": "Server",
+    "awaiting_first_report": "Wartet auf ersten Bericht",
+    "never_reported": "Nie gemeldet",
+    "view_metrics": "Metriken ansehen",
+    "agent": "Agent",
+    "last_seen": "zuletzt gesehen",
+    "status": {
+      "online": "Online",
+      "stale": "Veraltet",
+      "offline": "Offline",
+      "pending": "Ausstehend"
+    },
+    "metric": {
+      "cpu": "CPU",
+      "memory": "Arbeitsspeicher",
+      "load": "Last"
+    },
+    "empty": {
+      "title": "Noch keine Server",
+      "body": "Installieren Sie den Server-Agent auf einer Maschine, um CPU, Arbeitsspeicher, Last, Festplatte und Netzwerk hier zu sehen — auf derselben Zeitachse wie Ihre Vorfälle."
+    },
+    "add_modal_title": "Server hinzufügen",
+    "add_name_help": "Eine Bezeichnung für Sie. Der Hostname des Agents ist optional und kann später geändert oder entfernt werden.",
+    "add_submit": "Server erstellen",
+    "form": {
+      "description": "Beschreibung (optional)"
+    },
+    "key": {
+      "shown_once": "Dieser Ingest-Schlüssel wird nur einmal angezeigt und kann später nicht mehr abgerufen werden. Kopieren Sie ihn jetzt.",
+      "install_command": "Installationsbefehl",
+      "after_install": "Metriken erscheinen innerhalb weniger Minuten. Führen Sie serveragent -metrics auf dem Host aus, um genau zu sehen, was erfasst wird."
+    },
+    "correlation": {
+      "hint": "schattierte Bereiche sind Vorfälle auf der verknüpften Statusseite"
+    },
+    "chart": {
+      "cpu": "CPU-Auslastung",
+      "memory": "Belegter Arbeitsspeicher",
+      "load": "Durchschnittliche Last",
+      "io": "Festplatten- und Netzwerk-E/A"
+    },
+    "alerts": {
+      "title": "Schwellenwert-Warnungen",
+      "add": "Regel hinzufügen",
+      "upgrade": "Verfügbar ab Pro",
+      "metric": "Metrik",
+      "condition": "Bedingung",
+      "duration": "Für",
+      "firing": "Ausgelöst",
+      "ok": "OK",
+      "disabled": "Deaktiviert",
+      "empty": "Noch keine Schwellenwert-Warnungen. Fügen Sie eine hinzu, um benachrichtigt zu werden, wenn dieser Host unter Last steht.",
+      "threshold": "Schwellenwert",
+      "duration_label": "Anhaltend für (Sekunden)",
+      "duration_help": "Die Bedingung muss so lange erfüllt sein, bevor eine Warnung ausgelöst wird — kurze Ausschläge bleiben so still."
+    },
+    "alerts_add_modal_title": "Schwellenwert-Warnung hinzufügen",
+    "no_data": {
+      "title": "Keine Daten für diesen Zeitraum",
+      "body": "Dieser Host hat im gewählten Zeitraum keine Messwerte gemeldet. Wählen Sie einen kürzeren Zeitraum oder prüfen Sie, ob der Agent läuft."
+    }
   }
 }

@@ -4367,5 +4367,74 @@
     "hours_ago": "för __N__ tim sedan",
     "just_now": "just nu",
     "minutes_ago": "för __N__ min sedan"
+  },
+  "servers": {
+    "title": "Servrar",
+    "subtitle": "Värdmätvärden från Server-agenten som är installerad på dina maskiner",
+    "add": "Lägg till server",
+    "add_first": "Lägg till din första server",
+    "quota_reached": "Planens gräns nådd",
+    "using": "Använder",
+    "servers_lower": "servrar",
+    "awaiting_first_report": "Väntar på första rapporten",
+    "never_reported": "Har aldrig rapporterat",
+    "view_metrics": "Visa mätvärden",
+    "agent": "agent",
+    "last_seen": "senast sedd",
+    "status": {
+      "online": "Online",
+      "stale": "Föråldrad",
+      "offline": "Offline",
+      "pending": "Väntar"
+    },
+    "metric": {
+      "cpu": "CPU",
+      "memory": "Minne",
+      "load": "Belastning"
+    },
+    "empty": {
+      "title": "Inga servrar ännu",
+      "body": "Installera Server-agenten på en maskin för att se dess CPU, minne, belastning, disk och nätverk här — på samma tidslinje som dina incidenter."
+    },
+    "add_modal_title": "Lägg till en server",
+    "add_name_help": "En etikett för dig. Agentens eget värdnamn är valfritt och kan ändras eller tas bort senare.",
+    "add_submit": "Skapa server",
+    "form": {
+      "description": "Beskrivning (valfritt)"
+    },
+    "key": {
+      "shown_once": "Den här ingångsnyckeln visas bara en gång och kan inte hämtas senare. Kopiera den nu.",
+      "install_command": "Installationskommando",
+      "after_install": "Mätvärden dyker upp inom några minuter. Kör serveragent -metrics på värden för att se exakt vad som samlas in."
+    },
+    "correlation": {
+      "hint": "skuggade fält är incidenter på den länkade statussidan"
+    },
+    "chart": {
+      "cpu": "CPU-användning",
+      "memory": "Använt minne",
+      "load": "Genomsnittlig belastning",
+      "io": "Disk- och nätverks-I/O"
+    },
+    "alerts": {
+      "title": "Tröskelvarningar",
+      "add": "Lägg till regel",
+      "upgrade": "Tillgängligt från Pro och uppåt",
+      "metric": "Mätvärde",
+      "condition": "Villkor",
+      "duration": "Under",
+      "firing": "Utlöst",
+      "ok": "OK",
+      "disabled": "Inaktiverad",
+      "empty": "Inga tröskelvarningar ännu. Lägg till en för att bli meddelad när den här värden är hårt belastad.",
+      "threshold": "Tröskel",
+      "duration_label": "Ihållande i (sekunder)",
+      "duration_help": "Villkoret måste hålla så här länge innan en varning utlöses, så att en kort topp förblir tyst."
+    },
+    "alerts_add_modal_title": "Lägg till tröskelvarning",
+    "no_data": {
+      "title": "Inga data för det här intervallet",
+      "body": "Den här värden har inte rapporterat några mätvärden under den valda perioden. Välj ett kortare intervall eller kontrollera att agenten körs."
+    }
   }
 }

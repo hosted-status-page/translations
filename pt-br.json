@@ -4405,5 +4405,74 @@
     "hours_ago": "há __N__ h",
     "just_now": "agora mesmo",
     "minutes_ago": "há __N__ min"
+  },
+  "servers": {
+    "title": "Servidores",
+    "subtitle": "Métricas de host do Agente de Servidor instalado nas suas máquinas",
+    "add": "Adicionar servidor",
+    "add_first": "Adicione seu primeiro servidor",
+    "quota_reached": "Limite do plano atingido",
+    "using": "Em uso",
+    "servers_lower": "servidores",
+    "awaiting_first_report": "Aguardando o primeiro relatório",
+    "never_reported": "Nunca reportou",
+    "view_metrics": "Ver métricas",
+    "agent": "agente",
+    "last_seen": "visto pela última vez",
+    "status": {
+      "online": "Online",
+      "stale": "Desatualizado",
+      "offline": "Offline",
+      "pending": "Pendente"
+    },
+    "metric": {
+      "cpu": "CPU",
+      "memory": "Memória",
+      "load": "Carga"
+    },
+    "empty": {
+      "title": "Nenhum servidor ainda",
+      "body": "Instale o Agente de Servidor em uma máquina para ver aqui CPU, memória, carga, disco e rede — na mesma linha do tempo dos seus incidentes."
+    },
+    "add_modal_title": "Adicionar um servidor",
+    "add_name_help": "Um rótulo para você. O nome de host do agente é opcional e pode ser alterado ou removido depois.",
+    "add_submit": "Criar servidor",
+    "form": {
+      "description": "Descrição (opcional)"
+    },
+    "key": {
+      "shown_once": "Esta chave de ingestão é exibida uma única vez e não poderá ser recuperada depois. Copie agora.",
+      "install_command": "Comando de instalação",
+      "after_install": "As métricas aparecem em poucos minutos. Execute serveragent -metrics no host para ver exatamente o que é coletado."
+    },
+    "correlation": {
+      "hint": "as faixas sombreadas são incidentes da página de status vinculada"
+    },
+    "chart": {
+      "cpu": "Uso de CPU",
+      "memory": "Memória utilizada",
+      "load": "Carga média",
+      "io": "E/S de disco e rede"
+    },
+    "alerts": {
+      "title": "Alertas de limite",
+      "add": "Adicionar regra",
+      "upgrade": "Disponível no Pro e acima",
+      "metric": "Métrica",
+      "condition": "Condição",
+      "duration": "Por",
+      "firing": "Disparado",
+      "ok": "OK",
+      "disabled": "Desativado",
+      "empty": "Nenhum alerta de limite ainda. Adicione um para ser avisado quando este host estiver sob pressão.",
+      "threshold": "Limite",
+      "duration_label": "Sustentado por (segundos)",
+      "duration_help": "A condição precisa se manter por esse tempo antes de disparar um alerta, para que um pico breve não incomode."
+    },
+    "alerts_add_modal_title": "Adicionar alerta de limite",
+    "no_data": {
+      "title": "Sem dados para este período",
+      "body": "Este host não enviou amostras no período selecionado. Escolha um período menor ou verifique se o agente está em execução."
+    }
   }
 }
