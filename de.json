@@ -4442,7 +4442,8 @@
     "add_name_help": "Eine Bezeichnung für Sie. Der Hostname des Agents ist optional und kann später geändert oder entfernt werden.",
     "add_submit": "Server erstellen",
     "form": {
-      "description": "Beschreibung (optional)"
+      "description": "Beschreibung (optional)",
+      "hostname": "Hostname"
     },
     "key": {
       "shown_once": "Dieser Ingest-Schlüssel wird nur einmal angezeigt und kann später nicht mehr abgerufen werden. Kopieren Sie ihn jetzt.",
@@ -4477,6 +4478,15 @@
     "no_data": {
       "title": "Keine Daten für diesen Zeitraum",
       "body": "Dieser Host hat im gewählten Zeitraum keine Messwerte gemeldet. Wählen Sie einen kürzeren Zeitraum oder prüfen Sie, ob der Agent läuft."
+    },
+    "settings": {
+      "title": "Servereinstellungen",
+      "hostname_help": "Wird vom Agenten selbst gemeldet. Bearbeiten oder löschen Sie ihn, falls er etwas enthält, das Sie lieber nicht behalten möchten, wie z. B. den Namen einer Person.",
+      "enabled_help": "Deaktivieren Sie dies, um die Erfassung von Metriken zu pausieren, ohne etwas zu löschen.",
+      "danger_zone": "Gefahrenzone",
+      "regenerate_key": "Ingest-Schlüssel neu erzeugen",
+      "regenerate_help": "Der aktuelle Schlüssel funktioniert sofort nicht mehr.",
+      "delete_help": "Entfernt diesen Host und alle erfassten Metriken dauerhaft."
     }
   }
 }

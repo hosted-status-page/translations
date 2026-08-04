@@ -4462,7 +4462,8 @@
     "add_name_help": "A label for you. The agent's own hostname is optional and can be changed or removed later.",
     "add_submit": "Create server",
     "form": {
-      "description": "Description (optional)"
+      "description": "Description (optional)",
+      "hostname": "Hostname"
     },
     "key": {
       "shown_once": "This ingest key is shown once and cannot be retrieved later. Copy it now.",
@@ -4497,6 +4498,15 @@
     "no_data": {
       "title": "No data for this range",
       "body": "This host has not reported any samples in the selected period. Pick a shorter range, or check that the agent is running."
+    },
+    "settings": {
+      "title": "Server settings",
+      "hostname_help": "Self-reported by the agent. Edit or clear it if it carries something you'd rather not keep, such as a person's name.",
+      "enabled_help": "Turn off to pause metrics collection without deleting anything.",
+      "danger_zone": "Danger zone",
+      "regenerate_key": "Regenerate ingest key",
+      "regenerate_help": "The current key stops working immediately.",
+      "delete_help": "Permanently removes this host and all its recorded metrics."
     }
   }
 }

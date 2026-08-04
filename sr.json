@@ -4401,7 +4401,8 @@
     "add_name_help": "Oznaka za vas. Naziv hosta koji agent šalje nije obavezan i može se kasnije promeniti ili ukloniti.",
     "add_submit": "Kreiraj server",
     "form": {
-      "description": "Opis (opciono)"
+      "description": "Opis (opciono)",
+      "hostname": "Naziv hosta"
     },
     "key": {
       "shown_once": "Ovaj ključ za unos prikazuje se samo jednom i kasnije se ne može povratiti. Kopirajte ga sada.",
@@ -4436,6 +4437,15 @@
     "no_data": {
       "title": "Nema podataka za ovaj raspon",
       "body": "Ovaj host nije poslao nijedan uzorak u izabranom periodu. Izaberite kraći raspon ili proverite da li agent radi."
+    },
+    "settings": {
+      "title": "Podešavanja servera",
+      "hostname_help": "Agent ga sam prijavljuje. Izmenite ga ili obrišite ako sadrži nešto što ne biste želeli da zadržite, poput nečijeg imena.",
+      "enabled_help": "Isključite da biste pauzirali prikupljanje metrika bez brisanja ičega.",
+      "danger_zone": "Opasna zona",
+      "regenerate_key": "Ponovo generiši ključ za unos",
+      "regenerate_help": "Trenutni ključ odmah prestaje da radi.",
+      "delete_help": "Trajno uklanja ovaj host i sve njegove zabeležene metrike."
     }
   }
 }

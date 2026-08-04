@@ -4448,7 +4448,8 @@
     "add_name_help": "Una etiqueta para ti. El nombre de host del agente es opcional y puede cambiarse o eliminarse más adelante.",
     "add_submit": "Crear servidor",
     "form": {
-      "description": "Descripción (opcional)"
+      "description": "Descripción (opcional)",
+      "hostname": "Nombre de host"
     },
     "key": {
       "shown_once": "Esta clave de ingesta se muestra una sola vez y no podrá recuperarse después. Cópiala ahora.",
@@ -4483,6 +4484,15 @@
     "no_data": {
       "title": "Sin datos para este rango",
       "body": "Este host no ha enviado muestras en el periodo seleccionado. Elige un rango más corto o comprueba que el agente esté en ejecución."
+    },
+    "settings": {
+      "title": "Ajustes del servidor",
+      "hostname_help": "Informado automáticamente por el agente. Edítalo o bórralo si contiene algo que prefieras no conservar, como el nombre de una persona.",
+      "enabled_help": "Desactívalo para pausar la recopilación de métricas sin eliminar nada.",
+      "danger_zone": "Zona de peligro",
+      "regenerate_key": "Regenerar clave de ingesta",
+      "regenerate_help": "La clave actual deja de funcionar de inmediato.",
+      "delete_help": "Elimina permanentemente este host y todas sus métricas registradas."
     }
   }
 }

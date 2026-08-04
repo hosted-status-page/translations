@@ -4455,7 +4455,8 @@
     "add_name_help": "Un'etichetta per te. Il nome host dell'agente è facoltativo e può essere modificato o rimosso in seguito.",
     "add_submit": "Crea server",
     "form": {
-      "description": "Descrizione (facoltativa)"
+      "description": "Descrizione (facoltativa)",
+      "hostname": "Nome host"
     },
     "key": {
       "shown_once": "Questa chiave di ingest viene mostrata una sola volta e non potrà essere recuperata. Copiala ora.",
@@ -4490,6 +4491,15 @@
     "no_data": {
       "title": "Nessun dato per questo intervallo",
       "body": "Questo host non ha inviato campioni nel periodo selezionato. Scegli un intervallo più breve o verifica che l'agente sia in esecuzione."
+    },
+    "settings": {
+      "title": "Impostazioni server",
+      "hostname_help": "Segnalato automaticamente dall'agente. Modificalo o cancellalo se contiene qualcosa che preferisci non conservare, come il nome di una persona.",
+      "enabled_help": "Disattivalo per mettere in pausa la raccolta delle metriche senza eliminare nulla.",
+      "danger_zone": "Zona pericolosa",
+      "regenerate_key": "Rigenera chiave di ingest",
+      "regenerate_help": "La chiave attuale smette di funzionare immediatamente.",
+      "delete_help": "Rimuove definitivamente questo host e tutte le sue metriche registrate."
     }
   }
 }

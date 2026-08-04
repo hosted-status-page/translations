@@ -4456,7 +4456,8 @@
     "add_name_help": "Un libellé pour vous. Le nom d'hôte de l'agent est facultatif et peut être modifié ou supprimé plus tard.",
     "add_submit": "Créer le serveur",
     "form": {
-      "description": "Description (facultatif)"
+      "description": "Description (facultatif)",
+      "hostname": "Nom d'hôte"
     },
     "key": {
       "shown_once": "Cette clé d'ingestion n'est affichée qu'une fois et ne pourra pas être récupérée ensuite. Copiez-la maintenant.",
@@ -4491,6 +4492,15 @@
     "no_data": {
       "title": "Aucune donnée pour cette période",
       "body": "Cet hôte n'a envoyé aucun échantillon sur la période sélectionnée. Choisissez une période plus courte ou vérifiez que l'agent fonctionne."
+    },
+    "settings": {
+      "title": "Paramètres du serveur",
+      "hostname_help": "Signalé automatiquement par l'agent. Modifiez-le ou effacez-le s'il contient quelque chose que vous préférez ne pas conserver, comme le nom d'une personne.",
+      "enabled_help": "Désactivez pour suspendre la collecte des métriques sans rien supprimer.",
+      "danger_zone": "Zone de danger",
+      "regenerate_key": "Régénérer la clé d'ingestion",
+      "regenerate_help": "La clé actuelle cesse de fonctionner immédiatement.",
+      "delete_help": "Supprime définitivement cet hôte et toutes ses métriques enregistrées."
     }
   }
 }

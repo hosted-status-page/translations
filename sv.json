@@ -4400,7 +4400,8 @@
     "add_name_help": "En etikett för dig. Agentens eget värdnamn är valfritt och kan ändras eller tas bort senare.",
     "add_submit": "Skapa server",
     "form": {
-      "description": "Beskrivning (valfritt)"
+      "description": "Beskrivning (valfritt)",
+      "hostname": "Värdnamn"
     },
     "key": {
       "shown_once": "Den här ingångsnyckeln visas bara en gång och kan inte hämtas senare. Kopiera den nu.",
@@ -4435,6 +4436,15 @@
     "no_data": {
       "title": "Inga data för det här intervallet",
       "body": "Den här värden har inte rapporterat några mätvärden under den valda perioden. Välj ett kortare intervall eller kontrollera att agenten körs."
+    },
+    "settings": {
+      "title": "Serverinställningar",
+      "hostname_help": "Rapporteras automatiskt av agenten. Redigera eller rensa det om det innehåller något du hellre inte vill behålla, till exempel en persons namn.",
+      "enabled_help": "Stäng av för att pausa insamling av mätvärden utan att ta bort något.",
+      "danger_zone": "Farozon",
+      "regenerate_key": "Skapa ny inmatningsnyckel",
+      "regenerate_help": "Den nuvarande nyckeln slutar fungera omedelbart.",
+      "delete_help": "Tar bort denna värd och alla dess registrerade mätvärden permanent."
     }
   }
 }
