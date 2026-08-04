@@ -2366,7 +2366,8 @@
         "monitors": "Монитори",
         "notifications": "Обавештења",
         "visual": "Визуелно",
-        "announcement": "Банер статусне странице"
+        "announcement": "Банер статусне странице",
+        "servers": "Сервери"
       },
       "active": "Активно",
       "advanced": "Напредно",
@@ -2539,7 +2540,12 @@
       },
       "notify_on_component_change": "Обавести претплатнике када се промени статус компоненте",
       "notify_on_component_change_help": "Шаље е-поруку претплатницима када се статус компоненте ручно промени (нпр. означен као Деградирано или Велики прекид). Не примењује се док инцидент већ утиче на компоненту — ажурирања инцидента решавају тај случај.",
-      "show_component_uptime_help": "Такође одређује да ли се монитори могу додати на ову страницу — укључите ово да бисте једноставну статусну страницу претворили у аутоматизовану."
+      "show_component_uptime_help": "Такође одређује да ли се монитори могу додати на ову страницу — укључите ово да бисте једноставну статусну страницу претворили у аутоматизовану.",
+      "servers_help": "Хостови на којима ради Server Agent и који су повезани са овом статус страницом. Управљајте везом кроз сопствена подешавања сервера.",
+      "servers_empty": "Још увек нема повезаних сервера. Повежите сервер кроз његова сопствена подешавања.",
+      "servers_go_to": "Иди на Сервере",
+      "servers_manage": "Управљај",
+      "servers_correlation_only": "Само корелација"
     },
     "setup_custom_domain": "Подесите прилагођени домен",
     "showcase_description": "Будите представљени у нашој <a href=\"/showcase\" target=\"_blank\">јавној витрини</a> да покажете своју посвећеност транспарентности и поузданости. Ово је одличан начин да изградите поверење са потенцијалним клијентима.",
@@ -2853,7 +2859,8 @@
         "validating_body": "Провера испоручивости е-поште...",
         "validating_title": "Провера..."
       }
-    }
+    },
+    "servers_section": "Сервери"
   },
   "runbooks": {
     "label": "Рунбукови",
@@ -4445,7 +4452,14 @@
       "danger_zone": "Opasna zona",
       "regenerate_key": "Ponovo generiši ključ za unos",
       "regenerate_help": "Trenutni ključ odmah prestaje da radi.",
-      "delete_help": "Trajno uklanja ovaj host i sve njegove zabeležene metrike."
-    }
+      "delete_help": "Trajno uklanja ovaj host i sve njegove zabeležene metrike.",
+      "status_page": "Status Stranica",
+      "status_page_help": "Povezuje ovaj server sa status stranicom radi korelacije incidenata na njegovim grafikonima.",
+      "component": "Komponenta (opciono)",
+      "component_help": "Biranje komponente takođe javno prikazuje CPU, memoriju i disk ovog servera na vašoj status stranici — samo naziv komponente, nikad naziv servera, hostname ili IP.",
+      "component_locked_help": "Nadogradite plan da biste po želji javno prikazali metrike ovog servera na povezanoj status stranici.",
+      "public_badge": "Javno"
+    },
+    "linked_to": "povezano sa"
   }
 }

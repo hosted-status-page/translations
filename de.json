@@ -799,7 +799,8 @@
         "monitors": "Monitore",
         "notifications": "Benachrichtigungen",
         "visual": "Visuell",
-        "announcement": "Statusseiten-Banner"
+        "announcement": "Statusseiten-Banner",
+        "servers": "Server"
       },
       "custom_domain": {
         "label": "Benutzerdefinierte Domain",
@@ -1029,7 +1030,12 @@
       },
       "notify_on_component_change": "Abonnenten benachrichtigen, wenn sich der Status einer Komponente ändert",
       "notify_on_component_change_help": "Sendet Abonnenten eine E-Mail, wenn der Status einer Komponente manuell geändert wird (z. B. auf „Beeinträchtigt“ oder „Schwerwiegende Störung“ gesetzt). Gilt nicht, während die Komponente bereits von einem Vorfall betroffen ist – das wird durch Vorfall-Updates abgedeckt.",
-      "show_component_uptime_help": "Steuert außerdem, ob dieser Seite Monitore hinzugefügt werden können — aktivieren Sie dies, um eine einfache Statusseite in eine automatisierte umzuwandeln."
+      "show_component_uptime_help": "Steuert außerdem, ob dieser Seite Monitore hinzugefügt werden können — aktivieren Sie dies, um eine einfache Statusseite in eine automatisierte umzuwandeln.",
+      "servers_help": "Hosts, auf denen der Server-Agent läuft und die mit dieser Statusseite verknüpft sind. Verwalten Sie eine Verknüpfung über die eigenen Einstellungen des Servers.",
+      "servers_empty": "Noch keine Server verknüpft. Verknüpfen Sie einen Server über dessen eigene Einstellungen.",
+      "servers_go_to": "Zu Servern",
+      "servers_manage": "Verwalten",
+      "servers_correlation_only": "Nur Korrelation"
     },
     "custom_domain": {
       "verify": {
@@ -1464,7 +1470,8 @@
         "validating_body": "E-Mail-Zustellbarkeit wird geprüft...",
         "validating_title": "Wird geprüft..."
       }
-    }
+    },
+    "servers_section": "Server"
   },
   "components": {
     "form": {
@@ -4486,7 +4493,14 @@
       "danger_zone": "Gefahrenzone",
       "regenerate_key": "Ingest-Schlüssel neu erzeugen",
       "regenerate_help": "Der aktuelle Schlüssel funktioniert sofort nicht mehr.",
-      "delete_help": "Entfernt diesen Host und alle erfassten Metriken dauerhaft."
-    }
+      "delete_help": "Entfernt diesen Host und alle erfassten Metriken dauerhaft.",
+      "status_page": "Statusseite",
+      "status_page_help": "Verknüpft diesen Server mit einer Statusseite zur Vorfallkorrelation in seinen Diagrammen.",
+      "component": "Komponente (optional)",
+      "component_help": "Die zusätzliche Auswahl einer Komponente zeigt CPU-, Arbeitsspeicher- und Festplattennutzung dieses Servers öffentlich auf Ihrer Statusseite an — nur der Komponentenname, niemals der Servername, Hostname oder die IP.",
+      "component_locked_help": "Aktualisieren Sie Ihren Tarif, um die Metriken dieses Servers optional öffentlich auf einer verknüpften Statusseite anzuzeigen.",
+      "public_badge": "Öffentlich"
+    },
+    "linked_to": "verknüpft mit"
   }
 }

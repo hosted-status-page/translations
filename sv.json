@@ -2487,7 +2487,8 @@
         "monitors": "Övervakare",
         "notifications": "Meddelanden",
         "visual": "Visuell",
-        "announcement": "Statussidebanner"
+        "announcement": "Statussidebanner",
+        "servers": "Servrar"
       },
       "active": "Aktiv",
       "advanced": "Avancerat",
@@ -2550,7 +2551,12 @@
       },
       "notify_on_component_change": "Meddela prenumeranter när en komponents status ändras",
       "notify_on_component_change_help": "Skickar e-post till prenumeranter när en komponents status ändras manuellt (t.ex. markerad som Försämrad eller Större driftstopp). Gäller inte medan en incident redan påverkar komponenten – incidentuppdateringar hanterar det fallet.",
-      "show_component_uptime_help": "Styr även om övervakare kan läggas till på den här sidan — aktivera detta för att omvandla en enkel statussida till en automatiserad."
+      "show_component_uptime_help": "Styr även om övervakare kan läggas till på den här sidan — aktivera detta för att omvandla en enkel statussida till en automatiserad.",
+      "servers_help": "Värdar som kör Server-agenten och är länkade till denna statussida. Hantera en länk från serverns egna inställningar.",
+      "servers_empty": "Inga servrar länkade ännu. Länka en server från dess egna inställningar.",
+      "servers_go_to": "Gå till Servrar",
+      "servers_manage": "Hantera",
+      "servers_correlation_only": "Endast korrelation"
     },
     "setup_custom_domain": "Ställ in anpassad domän",
     "showcase_description": "Bli presenterad i vår <a href=\"/showcase\" target=\"_blank\">offentliga showcase</a> för att visa ditt engagemang för transparens och tillförlitlighet. Det är ett bra sätt att bygga förtroende hos potentiella kunder.",
@@ -2869,7 +2875,8 @@
         "validating_body": "Kontrollera e-postleverans...",
         "validating_title": "Validera..."
       }
-    }
+    },
+    "servers_section": "Servrar"
   },
   "runbooks": {
     "label": "Runbooks",
@@ -4444,7 +4451,14 @@
       "danger_zone": "Farozon",
       "regenerate_key": "Skapa ny inmatningsnyckel",
       "regenerate_help": "Den nuvarande nyckeln slutar fungera omedelbart.",
-      "delete_help": "Tar bort denna värd och alla dess registrerade mätvärden permanent."
-    }
+      "delete_help": "Tar bort denna värd och alla dess registrerade mätvärden permanent.",
+      "status_page": "Statussida",
+      "status_page_help": "Länkar denna server till en statussida för incidentkorrelation i dess diagram.",
+      "component": "Komponent (valfritt)",
+      "component_help": "Att även välja en komponent gör att serverns CPU-, minnes- och diskanvändning visas offentligt på din statussida — endast komponentens namn, aldrig serverns namn, värdnamn eller IP.",
+      "component_locked_help": "Uppgradera din plan för att valfritt visa denna servers mätvärden offentligt på en länkad statussida.",
+      "public_badge": "Offentlig"
+    },
+    "linked_to": "länkad till"
   }
 }

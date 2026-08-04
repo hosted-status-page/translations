@@ -2710,7 +2710,8 @@
         "monitors": "Monitori",
         "notifications": "Obavijesti",
         "visual": "Vizuelno",
-        "announcement": "Baner statusne stranice"
+        "announcement": "Baner statusne stranice",
+        "servers": "Poslužitelji"
       },
       "active": "Aktivno",
       "advanced": "Napredno",
@@ -2883,7 +2884,12 @@
       },
       "notify_on_component_change": "Obavijesti pretplatnike kada se promijeni status komponente",
       "notify_on_component_change_help": "Šalje e-poštu pretplatnicima kada se status komponente ručno promijeni (npr. označen kao Degradiran ili Veliki prekid). Ne primjenjuje se dok incident već utječe na komponentu — ažuriranja incidenta rješavaju taj slučaj.",
-      "show_component_uptime_help": "Također određuje mogu li se monitori dodati na ovu stranicu — uključite ovo da biste jednostavnu statusnu stranicu pretvorili u automatiziranu."
+      "show_component_uptime_help": "Također određuje mogu li se monitori dodati na ovu stranicu — uključite ovo da biste jednostavnu statusnu stranicu pretvorili u automatiziranu.",
+      "servers_help": "Hostovi na kojima radi Server Agent i koji su povezani s ovom status stranicom. Upravljajte vezom putem vlastitih postavki poslužitelja.",
+      "servers_empty": "Još nema povezanih poslužitelja. Povežite poslužitelj putem njegovih vlastitih postavki.",
+      "servers_go_to": "Idi na Poslužitelje",
+      "servers_manage": "Upravljaj",
+      "servers_correlation_only": "Samo korelacija"
     },
     "setup_custom_domain": "Podesite prilagođeni domen",
     "showcase_description": "Budite predstavljeni u našoj <a href=\"/showcase\" target=\"_blank\">javnoj vitrini</a> da pokažete svoju posvećenost transparentnosti i pouzdanosti. Ovo je odličan način da izgradite poverenje sa potencijalnim klijentima.",
@@ -3202,7 +3208,8 @@
         "validating_body": "Provjera isporučivosti e-pošte...",
         "validating_title": "Provjera..."
       }
-    }
+    },
+    "servers_section": "Poslužitelji"
   },
   "runbooks": {
     "label": "Runbookovi",
@@ -4447,7 +4454,14 @@
       "danger_zone": "Opasna zona",
       "regenerate_key": "Ponovno generiraj ključ za unos",
       "regenerate_help": "Trenutni ključ odmah prestaje raditi.",
-      "delete_help": "Trajno uklanja ovaj host i sve njegove zabilježene metrike."
-    }
+      "delete_help": "Trajno uklanja ovaj host i sve njegove zabilježene metrike.",
+      "status_page": "Status Stranica",
+      "status_page_help": "Povezuje ovaj poslužitelj sa status stranicom radi korelacije incidenata na njegovim grafikonima.",
+      "component": "Komponenta (nije obavezno)",
+      "component_help": "Odabir komponente također javno prikazuje CPU, memoriju i disk ovog poslužitelja na vašoj status stranici — samo naziv komponente, nikad naziv poslužitelja, host ili IP.",
+      "component_locked_help": "Nadogradite plan kako biste po želji javno prikazali metrike ovog poslužitelja na povezanoj status stranici.",
+      "public_badge": "Javno"
+    },
+    "linked_to": "povezano s"
   }
 }

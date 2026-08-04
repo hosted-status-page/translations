@@ -2498,7 +2498,8 @@
         "monitors": "Monitor",
         "notifications": "Notifiche",
         "visual": "Aspetto",
-        "announcement": "Banner della pagina di stato"
+        "announcement": "Banner della pagina di stato",
+        "servers": "Server"
       },
       "active": "Attiva",
       "advanced": "Avanzate",
@@ -2561,7 +2562,12 @@
       },
       "notify_on_component_change": "Notifica gli iscritti quando lo stato di un componente cambia",
       "notify_on_component_change_help": "Invia un'email agli iscritti quando lo stato di un componente viene cambiato manualmente (es. impostato su Degradato o Interruzione grave). Non si applica mentre un incidente sta già interessando il componente — in quel caso se ne occupano gli aggiornamenti dell'incidente.",
-      "show_component_uptime_help": "Controlla anche se è possibile aggiungere monitor a questa pagina — attivalo per convertire una status page semplice in una automatizzata."
+      "show_component_uptime_help": "Controlla anche se è possibile aggiungere monitor a questa pagina — attivalo per convertire una status page semplice in una automatizzata.",
+      "servers_help": "Host che eseguono l'Agente Server e sono collegati a questa status page. Gestisci un collegamento dalle impostazioni del server stesso.",
+      "servers_empty": "Nessun server collegato ancora. Collega un server dalle sue impostazioni.",
+      "servers_go_to": "Vai ai Server",
+      "servers_manage": "Gestisci",
+      "servers_correlation_only": "Solo correlazione"
     },
     "setup_custom_domain": "Configura dominio personalizzato",
     "showcase_description": "Vieni mostrato nella nostra <a href=\"/showcase\" target=\"_blank\">vetrina pubblica</a> per dimostrare il tuo impegno verso trasparenza e affidabilità. Questo è un ottimo modo per costruire fiducia con i potenziali clienti.",
@@ -2880,7 +2886,8 @@
         "validating_body": "Verifica della consegnabilità email...",
         "validating_title": "Validazione in corso..."
       }
-    }
+    },
+    "servers_section": "Server"
   },
   "runbooks": {
     "label": "Runbook",
@@ -4499,7 +4506,14 @@
       "danger_zone": "Zona pericolosa",
       "regenerate_key": "Rigenera chiave di ingest",
       "regenerate_help": "La chiave attuale smette di funzionare immediatamente.",
-      "delete_help": "Rimuove definitivamente questo host e tutte le sue metriche registrate."
-    }
+      "delete_help": "Rimuove definitivamente questo host e tutte le sue metriche registrate.",
+      "status_page": "Status Page",
+      "status_page_help": "Collega questo server a una status page per la correlazione degli incidenti nei suoi grafici.",
+      "component": "Componente (facoltativo)",
+      "component_help": "Scegliere anche un componente mostra pubblicamente CPU, memoria e disco di questo server sulla tua status page — solo il nome del componente, mai il nome del server, l'hostname o l'IP.",
+      "component_locked_help": "Aggiorna il tuo piano per mostrare facoltativamente le metriche di questo server pubblicamente su una status page collegata.",
+      "public_badge": "Pubblico"
+    },
+    "linked_to": "collegato a"
   }
 }

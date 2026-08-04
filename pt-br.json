@@ -799,7 +799,8 @@
         "monitors": "Monitores",
         "notifications": "Notificações",
         "visual": "Visual",
-        "announcement": "Banner da página de status"
+        "announcement": "Banner da página de status",
+        "servers": "Servidores"
       },
       "custom_domain": {
         "label": "Domínio Personalizado",
@@ -1029,7 +1030,12 @@
       },
       "notify_on_component_change": "Notificar assinantes quando o status de um componente mudar",
       "notify_on_component_change_help": "Envia um e-mail aos assinantes quando o status de um componente é alterado manualmente (por exemplo, marcado como Degradado ou Interrupção Grave). Não se aplica enquanto um incidente já estiver afetando o componente — as atualizações de incidente cuidam desse caso.",
-      "show_component_uptime_help": "Também controla se monitores podem ser adicionados a esta página — ative para converter uma página de status simples em uma automatizada."
+      "show_component_uptime_help": "Também controla se monitores podem ser adicionados a esta página — ative para converter uma página de status simples em uma automatizada.",
+      "servers_help": "Hosts executando o Agente de Servidor que estão vinculados a esta página de status. Gerencie um vínculo nas próprias configurações do servidor.",
+      "servers_empty": "Nenhum servidor vinculado ainda. Vincule um servidor em suas próprias configurações.",
+      "servers_go_to": "Ir para Servidores",
+      "servers_manage": "Gerenciar",
+      "servers_correlation_only": "Somente correlação"
     },
     "custom_domain": {
       "verify": {
@@ -1464,7 +1470,8 @@
         "validating_body": "Verificando a entregabilidade do e-mail...",
         "validating_title": "Validando..."
       }
-    }
+    },
+    "servers_section": "Servidores"
   },
   "components": {
     "form": {
@@ -4482,7 +4489,14 @@
       "danger_zone": "Zona de perigo",
       "regenerate_key": "Regenerar chave de ingestão",
       "regenerate_help": "A chave atual para de funcionar imediatamente.",
-      "delete_help": "Remove permanentemente este host e todas as suas métricas registradas."
-    }
+      "delete_help": "Remove permanentemente este host e todas as suas métricas registradas.",
+      "status_page": "Página de Status",
+      "status_page_help": "Vincula este servidor a uma página de status para correlação de incidentes em seus gráficos.",
+      "component": "Componente (opcional)",
+      "component_help": "Escolher também um componente exibe publicamente a CPU, memória e disco deste servidor na sua página de status — apenas o nome do componente, nunca o nome do servidor, hostname ou IP.",
+      "component_locked_help": "Faça upgrade do seu plano para exibir opcionalmente as métricas deste servidor publicamente em uma página de status vinculada.",
+      "public_badge": "Público"
+    },
+    "linked_to": "vinculado a"
   }
 }

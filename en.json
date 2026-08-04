@@ -2277,6 +2277,7 @@
       }
     },
     "monitors_section": "Monitors",
+    "servers_section": "Servers",
     "must_enter_exact": "You must enter",
     "nav": {
       "components": "Components",
@@ -2500,6 +2501,7 @@
         "dependencies": "Dependencies",
         "incidents": "Incidents",
         "monitors": "Monitors",
+        "servers": "Servers",
         "notifications": "Notifications",
         "visual": "Visual",
         "announcement": "Status Page Banner"
@@ -2532,6 +2534,11 @@
       "monitor": "Monitor",
       "monitors_help": "Monitors track uptime and performance of your services. Select which monitors to display on this status page.",
       "no_monitors_for_page": "No monitors for this status page.",
+      "servers_help": "Hosts running the Server Agent that are linked to this status page. Manage a link from the server's own settings.",
+      "servers_empty": "No servers linked yet. Link a server from its own settings.",
+      "servers_go_to": "Go to Servers",
+      "servers_manage": "Manage",
+      "servers_correlation_only": "Correlation only",
       "notify_for_auto_created": "Notify subscribers for auto-created incidents",
       "password": "Password",
       "premium_alert": {
@@ -4443,6 +4450,7 @@
     "view_metrics": "View metrics",
     "agent": "agent",
     "last_seen": "last seen",
+    "linked_to": "linked to",
     "status": {
       "online": "Online",
       "stale": "Stale",
@@ -4506,7 +4514,13 @@
       "danger_zone": "Danger zone",
       "regenerate_key": "Regenerate ingest key",
       "regenerate_help": "The current key stops working immediately.",
-      "delete_help": "Permanently removes this host and all its recorded metrics."
+      "delete_help": "Permanently removes this host and all its recorded metrics.",
+      "status_page": "Status Page",
+      "status_page_help": "Links this server to a status page for incident correlation on its charts.",
+      "component": "Component (optional)",
+      "component_help": "Also picking a component makes this server's CPU, memory, and disk usage shown publicly on your status page — component name only, never the server's name, hostname, or IP.",
+      "component_locked_help": "Upgrade your plan to optionally show this server's metrics publicly on a linked status page.",
+      "public_badge": "Public"
     }
   }
 }

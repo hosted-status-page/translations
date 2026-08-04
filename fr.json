@@ -804,7 +804,8 @@
         "monitors": "Moniteurs",
         "notifications": "Notifications",
         "visual": "Visuel",
-        "announcement": "Bannière de la page de statut"
+        "announcement": "Bannière de la page de statut",
+        "servers": "Serveurs"
       },
       "custom_domain": {
         "label": "Domaine personnalisé",
@@ -1034,7 +1035,12 @@
       },
       "notify_on_component_change": "Avertir les abonnés lorsque le statut d'un composant change",
       "notify_on_component_change_help": "Envoie un e-mail aux abonnés lorsque le statut d'un composant est modifié manuellement (par exemple, marqué comme Dégradé ou Panne majeure). Ne s'applique pas si un incident affecte déjà le composant — les mises à jour d'incident gèrent ce cas.",
-      "show_component_uptime_help": "Contrôle également si des moniteurs peuvent être ajoutés à cette page — activez cette option pour convertir une page de statut simple en page automatisée."
+      "show_component_uptime_help": "Contrôle également si des moniteurs peuvent être ajoutés à cette page — activez cette option pour convertir une page de statut simple en page automatisée.",
+      "servers_help": "Hôtes exécutant l'Agent Serveur et liés à cette page de statut. Gérez un lien depuis les paramètres propres du serveur.",
+      "servers_empty": "Aucun serveur lié pour le moment. Liez un serveur depuis ses propres paramètres.",
+      "servers_go_to": "Aller aux Serveurs",
+      "servers_manage": "Gérer",
+      "servers_correlation_only": "Corrélation uniquement"
     },
     "custom_domain": {
       "verify": {
@@ -1469,7 +1475,8 @@
         "validating_body": "Vérification de la délivrabilité de l’e-mail...",
         "validating_title": "Validation..."
       }
-    }
+    },
+    "servers_section": "Serveurs"
   },
   "components": {
     "form": {
@@ -4500,7 +4507,14 @@
       "danger_zone": "Zone de danger",
       "regenerate_key": "Régénérer la clé d'ingestion",
       "regenerate_help": "La clé actuelle cesse de fonctionner immédiatement.",
-      "delete_help": "Supprime définitivement cet hôte et toutes ses métriques enregistrées."
-    }
+      "delete_help": "Supprime définitivement cet hôte et toutes ses métriques enregistrées.",
+      "status_page": "Page de Statut",
+      "status_page_help": "Lie ce serveur à une page de statut pour la corrélation des incidents sur ses graphiques.",
+      "component": "Composant (facultatif)",
+      "component_help": "Choisir également un composant affiche publiquement le CPU, la mémoire et le disque de ce serveur sur votre page de statut — uniquement le nom du composant, jamais le nom du serveur, son nom d'hôte ni son IP.",
+      "component_locked_help": "Mettez à niveau votre forfait pour afficher éventuellement les métriques de ce serveur publiquement sur une page de statut liée.",
+      "public_badge": "Public"
+    },
+    "linked_to": "lié à"
   }
 }
