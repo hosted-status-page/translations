@@ -4439,7 +4439,10 @@
     "metric": {
       "cpu": "CPU",
       "memory": "Arbeitsspeicher",
-      "load": "Last"
+      "load": "Last",
+      "disk": "Festplatte",
+      "network": "Netzwerk",
+      "swap": "Swap"
     },
     "empty": {
       "title": "Noch keine Server",
@@ -4464,7 +4467,24 @@
       "cpu": "CPU-Auslastung",
       "memory": "Belegter Arbeitsspeicher",
       "load": "Durchschnittliche Last",
-      "io": "Festplatten- und Netzwerk-E/A"
+      "io": "Festplatten- und Netzwerk-E/A",
+      "disk": "Festplattennutzung",
+      "network": "Netzwerk-E/A",
+      "swap": "Swap"
+    },
+    "range": {
+      "1h": "Letzte Stunde",
+      "6h": "Letzte 6 Stunden",
+      "24h": "Letzte 24 Stunden",
+      "7d": "Letzte 7 Tage",
+      "30d": "Letzte 30 Tage"
+    },
+    "table": {
+      "title": "Aktuelle Messwerte",
+      "metric": "Metrik",
+      "value": "Wert",
+      "change": "Änderung (1 Std.)",
+      "trend": "Trend"
     },
     "alerts": {
       "title": "Schwellenwert-Warnungen",

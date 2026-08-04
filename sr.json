@@ -4398,7 +4398,10 @@
     "metric": {
       "cpu": "CPU",
       "memory": "Memorija",
-      "load": "Opterećenje"
+      "load": "Opterećenje",
+      "disk": "Disk",
+      "network": "Mreža",
+      "swap": "Swap"
     },
     "empty": {
       "title": "Još uvek nema servera",
@@ -4423,7 +4426,24 @@
       "cpu": "Iskorišćenost CPU-a",
       "memory": "Iskorišćena memorija",
       "load": "Prosečno opterećenje",
-      "io": "Disk i mrežni U/I"
+      "io": "Disk i mrežni U/I",
+      "disk": "Iskorišćenost diska",
+      "network": "Mrežni U/I",
+      "swap": "Swap"
+    },
+    "range": {
+      "1h": "Poslednji sat",
+      "6h": "Poslednjih 6 sati",
+      "24h": "Poslednjih 24 sata",
+      "7d": "Poslednjih 7 dana",
+      "30d": "Poslednjih 30 dana"
+    },
+    "table": {
+      "title": "Nedavne metrike",
+      "metric": "Metrika",
+      "value": "Vrednost",
+      "change": "Promena (1 h)",
+      "trend": "Trend"
     },
     "alerts": {
       "title": "Upozorenja po pragu",

@@ -4397,7 +4397,10 @@
     "metric": {
       "cpu": "CPU",
       "memory": "Minne",
-      "load": "Belastning"
+      "load": "Belastning",
+      "disk": "Disk",
+      "network": "Nätverk",
+      "swap": "Swap"
     },
     "empty": {
       "title": "Inga servrar ännu",
@@ -4422,7 +4425,24 @@
       "cpu": "CPU-användning",
       "memory": "Använt minne",
       "load": "Genomsnittlig belastning",
-      "io": "Disk- och nätverks-I/O"
+      "io": "Disk- och nätverks-I/O",
+      "disk": "Diskanvändning",
+      "network": "Nätverks-I/O",
+      "swap": "Swap"
+    },
+    "range": {
+      "1h": "Senaste timmen",
+      "6h": "Senaste 6 timmarna",
+      "24h": "Senaste 24 timmarna",
+      "7d": "Senaste 7 dagarna",
+      "30d": "Senaste 30 dagarna"
+    },
+    "table": {
+      "title": "Senaste mätvärden",
+      "metric": "Mätvärde",
+      "value": "Värde",
+      "change": "Förändring (1 h)",
+      "trend": "Trend"
     },
     "alerts": {
       "title": "Tröskelvarningar",

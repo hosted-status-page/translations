@@ -4460,7 +4460,10 @@
     "metric": {
       "cpu": "CPU",
       "memory": "Memory",
-      "load": "Load"
+      "load": "Load",
+      "disk": "Disk",
+      "network": "Network I/O",
+      "swap": "Swap"
     },
     "empty": {
       "title": "No servers yet",
@@ -4482,10 +4485,27 @@
       "hint": "shaded bands are incidents on the linked status page"
     },
     "chart": {
-      "cpu": "CPU utilization",
-      "memory": "Memory used",
+      "cpu": "CPU Usage",
+      "memory": "Memory Usage",
       "load": "Load average",
-      "io": "Disk + network IO"
+      "io": "Disk + network IO",
+      "disk": "Disk Usage",
+      "network": "Network I/O",
+      "swap": "Swap"
+    },
+    "range": {
+      "1h": "Last hour",
+      "6h": "Last 6 hours",
+      "24h": "Last 24 hours",
+      "7d": "Last 7 days",
+      "30d": "Last 30 days"
+    },
+    "table": {
+      "title": "Recent metrics",
+      "metric": "Metric",
+      "value": "Value",
+      "change": "Change (1h)",
+      "trend": "Trend"
     },
     "alerts": {
       "title": "Threshold alerts",

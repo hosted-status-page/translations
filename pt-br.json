@@ -4435,7 +4435,10 @@
     "metric": {
       "cpu": "CPU",
       "memory": "Memória",
-      "load": "Carga"
+      "load": "Carga",
+      "disk": "Disco",
+      "network": "Rede",
+      "swap": "Swap"
     },
     "empty": {
       "title": "Nenhum servidor ainda",
@@ -4460,7 +4463,24 @@
       "cpu": "Uso de CPU",
       "memory": "Memória utilizada",
       "load": "Carga média",
-      "io": "E/S de disco e rede"
+      "io": "E/S de disco e rede",
+      "disk": "Uso de disco",
+      "network": "E/S de rede",
+      "swap": "Memória swap"
+    },
+    "range": {
+      "1h": "Última hora",
+      "6h": "Últimas 6 horas",
+      "24h": "Últimas 24 horas",
+      "7d": "Últimos 7 dias",
+      "30d": "Últimos 30 dias"
+    },
+    "table": {
+      "title": "Métricas recentes",
+      "metric": "Métrica",
+      "value": "Valor",
+      "change": "Variação (1 h)",
+      "trend": "Tendência"
     },
     "alerts": {
       "title": "Alertas de limite",
