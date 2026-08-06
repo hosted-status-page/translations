@@ -4387,6 +4387,7 @@
     "never_reported": "Har aldrig rapporterat",
     "view_metrics": "Visa mätvärden",
     "agent": "agent",
+    "agent_outdated": "Uppdatering tillgänglig",
     "last_seen": "senast sedd",
     "status": {
       "online": "Online",

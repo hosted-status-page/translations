@@ -4429,6 +4429,7 @@
     "never_reported": "Nie gemeldet",
     "view_metrics": "Metriken ansehen",
     "agent": "Agent",
+    "agent_outdated": "Update verfügbar",
     "last_seen": "zuletzt gesehen",
     "status": {
       "online": "Online",

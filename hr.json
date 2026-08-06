@@ -4390,6 +4390,7 @@
     "never_reported": "Nikad se nije javio",
     "view_metrics": "Prikaži metrike",
     "agent": "agent",
+    "agent_outdated": "Dostupna nadogradnja",
     "last_seen": "zadnji put viđen",
     "status": {
       "online": "Na mreži",

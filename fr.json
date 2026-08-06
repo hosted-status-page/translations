@@ -4443,6 +4443,7 @@
     "never_reported": "Jamais signalé",
     "view_metrics": "Voir les métriques",
     "agent": "agent",
+    "agent_outdated": "Mise à jour disponible",
     "last_seen": "vu pour la dernière fois",
     "status": {
       "online": "En ligne",

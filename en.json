@@ -4449,6 +4449,7 @@
     "never_reported": "Never reported",
     "view_metrics": "View metrics",
     "agent": "agent",
+    "agent_outdated": "Update available",
     "last_seen": "last seen",
     "linked_to": "linked to",
     "status": {

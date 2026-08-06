@@ -4435,6 +4435,7 @@
     "never_reported": "Nunca ha informado",
     "view_metrics": "Ver métricas",
     "agent": "agente",
+    "agent_outdated": "Actualización disponible",
     "last_seen": "visto por última vez",
     "status": {
       "online": "En línea",

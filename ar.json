@@ -4441,6 +4441,7 @@
     "never_reported": "لم يُبلِّغ قط",
     "view_metrics": "عرض المقاييس",
     "agent": "الوكيل",
+    "agent_outdated": "التحديث متاح",
     "last_seen": "آخر ظهور",
     "status": {
       "online": "متصل",

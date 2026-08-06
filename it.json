@@ -4442,6 +4442,7 @@
     "never_reported": "Mai riportato",
     "view_metrics": "Vedi metriche",
     "agent": "agente",
+    "agent_outdated": "Aggiornamento disponibile",
     "last_seen": "visto l'ultima volta",
     "status": {
       "online": "Online",
