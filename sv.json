@@ -4120,7 +4120,13 @@
       "outage": "Driftstopp",
       "maintenance": "Underhåll",
       "unknown": "Okänd",
-      "active_incident": "Aktiv incident"
+      "active_incident": "Aktiv incident",
+      "chart_shading": "Diagrammarkeringar:",
+      "elevated_latency": "Förhöjd latens (tillgängligheten påverkas inte)",
+      "confirmed_degradation": "Bekräftad försämring",
+      "confirmed_outage": "Bekräftat driftstopp",
+      "monitoring_blocked": "Övervakning blockerad",
+      "verifying_recovery": "Verifierar återställning"
     },
     "subscription": {
       "subscribe_to_updates": "Prenumerera på uppdateringar",

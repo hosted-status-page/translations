@@ -4174,7 +4174,13 @@
       "outage": "انقطاع",
       "maintenance": "صيانة",
       "unknown": "غير معروف",
-      "active_incident": "حادث نشط"
+      "active_incident": "حادث نشط",
+      "chart_shading": "تظليل المخطط:",
+      "elevated_latency": "زمن استجابة مرتفع (لا يؤثر في التوفر)",
+      "confirmed_degradation": "تدهور مؤكد",
+      "confirmed_outage": "انقطاع مؤكد",
+      "monitoring_blocked": "المراقبة محظورة",
+      "verifying_recovery": "جارٍ التحقق من التعافي"
     },
     "subscription": {
       "subscribe_to_updates": "الاشتراك في التحديثات",

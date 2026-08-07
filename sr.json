@@ -4121,7 +4121,13 @@
       "outage": "Прекид",
       "maintenance": "Одрж.",
       "unknown": "Непознато",
-      "active_incident": "Активни инцидент"
+      "active_incident": "Активни инцидент",
+      "chart_shading": "Означавање графикона:",
+      "elevated_latency": "Повећана латенција (доступност није погођена)",
+      "confirmed_degradation": "Потврђена деградација",
+      "confirmed_outage": "Потврђен прекид рада",
+      "monitoring_blocked": "Надзор блокиран",
+      "verifying_recovery": "Провера опоравка"
     },
     "subscription": {
       "subscribe_to_updates": "Претплатите се на обавештења",

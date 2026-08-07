@@ -4162,7 +4162,13 @@
       "outage": "Ausfall",
       "maintenance": "Wart.",
       "unknown": "Unbekannt",
-      "active_incident": "Aktiver Vorfall"
+      "active_incident": "Aktiver Vorfall",
+      "chart_shading": "Diagrammmarkierungen:",
+      "elevated_latency": "Erhöhte Latenz (Verfügbarkeit nicht beeinträchtigt)",
+      "confirmed_degradation": "Bestätigte Beeinträchtigung",
+      "confirmed_outage": "Bestätigter Ausfall",
+      "monitoring_blocked": "Überwachung blockiert",
+      "verifying_recovery": "Wiederherstellung wird überprüft"
     },
     "subscription": {
       "subscribe_to_updates": "Updates abonnieren",

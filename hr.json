@@ -87,7 +87,13 @@
       "outage": "Prekid",
       "maintenance": "Održ.",
       "unknown": "Nepoznato",
-      "active_incident": "Aktivni incident"
+      "active_incident": "Aktivni incident",
+      "chart_shading": "Označavanje grafikona:",
+      "elevated_latency": "Povećana latencija (dostupnost nije pogođena)",
+      "confirmed_degradation": "Potvrđena degradacija",
+      "confirmed_outage": "Potvrđen prekid rada",
+      "monitoring_blocked": "Nadzor blokiran",
+      "verifying_recovery": "Provjera oporavka"
     },
     "subscription": {
       "subscribe_to_updates": "Pretplati se na ažuriranja",

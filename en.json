@@ -4177,7 +4177,13 @@
       "outage": "Outage",
       "maintenance": "Maint.",
       "unknown": "Unknown",
-      "active_incident": "Active Incident"
+      "active_incident": "Active Incident",
+      "chart_shading": "Chart shading:",
+      "elevated_latency": "Elevated latency (availability unaffected)",
+      "confirmed_degradation": "Confirmed degradation",
+      "confirmed_outage": "Confirmed outage",
+      "monitoring_blocked": "Monitoring blocked",
+      "verifying_recovery": "Verifying recovery"
     },
     "subscription": {
       "subscribe_to_updates": "Subscribe to Updates",

@@ -4173,7 +4173,13 @@
       "outage": "Interruzione",
       "maintenance": "Manut.",
       "unknown": "Sconosciuto",
-      "active_incident": "Incidente attivo"
+      "active_incident": "Incidente attivo",
+      "chart_shading": "Ombreggiatura del grafico:",
+      "elevated_latency": "Latenza elevata (disponibilità non interessata)",
+      "confirmed_degradation": "Degrado confermato",
+      "confirmed_outage": "Interruzione confermata",
+      "monitoring_blocked": "Monitoraggio bloccato",
+      "verifying_recovery": "Verifica del ripristino"
     },
     "subscription": {
       "subscribe_to_updates": "Iscriviti agli aggiornamenti",

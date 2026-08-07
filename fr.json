@@ -4176,7 +4176,13 @@
       "outage": "Panne",
       "maintenance": "Entretien.",
       "unknown": "Inconnu",
-      "active_incident": "Incident actif"
+      "active_incident": "Incident actif",
+      "chart_shading": "Coloration du graphique :",
+      "elevated_latency": "Latence élevée (disponibilité non affectée)",
+      "confirmed_degradation": "Dégradation confirmée",
+      "confirmed_outage": "Panne confirmée",
+      "monitoring_blocked": "Surveillance bloquée",
+      "verifying_recovery": "Vérification du rétablissement"
     },
     "subscription": {
       "subscribe_to_updates": "S'abonner aux mises à jour",
