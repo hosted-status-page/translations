@@ -4210,6 +4210,7 @@
       "no_recent": "Keine aktuellen Vorfälle",
       "no_reported": "Keine Vorfälle gemeldet.",
       "history": "Vorfallverlauf",
+      "recent": "Aktuelle Vorfälle",
       "active_summary_prefix": "Aktiv:",
       "active_summary_total": "gesamt {{total}}",
       "active_summary_earliest": "frühester {{time}} UTC",

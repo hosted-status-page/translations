@@ -4216,6 +4216,7 @@
       "no_recent": "No hay incidentes recientes",
       "no_reported": "No se han reportado incidentes.",
       "history": "Historial de incidentes",
+      "recent": "Incidentes recientes",
       "active_summary_prefix": "Activos:",
       "active_summary_total": "total {{total}}",
       "active_summary_earliest": "el más temprano {{time}} UTC",

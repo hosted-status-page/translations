@@ -4168,6 +4168,7 @@
       "no_recent": "Inga senaste incidenter",
       "no_reported": "Inga incidenter rapporterade.",
       "history": "Incidenthistorik",
+      "recent": "Senaste incidenter",
       "active_summary_prefix": "Aktiva:",
       "active_summary_total": "totalt {{total}}",
       "active_summary_earliest": "tidigast {{time}} UTC",

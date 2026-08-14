@@ -4222,6 +4222,7 @@
       "no_recent": "لا توجد حوادث حديثة",
       "no_reported": "لم يتم الإبلاغ عن أي حوادث.",
       "history": "سجل الحوادث",
+      "recent": "أحدث الحوادث",
       "active_summary_prefix": "النشطة:",
       "active_summary_total": "الإجمالي {{total}}",
       "active_summary_earliest": "الأقدم {{time}} UTC",

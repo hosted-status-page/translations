@@ -135,6 +135,7 @@
       "no_recent": "Nema nedavnih incidenata",
       "no_reported": "Nema prijavljenih incidenata.",
       "history": "Povijest incidenata",
+      "recent": "Nedavni incidenti",
       "active_summary_prefix": "Aktivno:",
       "active_summary_total": "ukupno {{total}}",
       "active_summary_earliest": "najranije {{time}} UTC",

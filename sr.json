@@ -4169,6 +4169,7 @@
       "no_recent": "Нема недавних инцидената",
       "no_reported": "Нема пријављених инцидената.",
       "history": "Историја инцидената",
+      "recent": "Недавни инциденти",
       "active_summary_prefix": "Активно:",
       "active_summary_total": "укупно {{total}}",
       "active_summary_earliest": "најраније {{time}} UTC",
