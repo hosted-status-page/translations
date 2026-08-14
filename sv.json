@@ -2645,6 +2645,21 @@
         "usage_suffix": "sidor som används på din nuvarande plan.",
         "cta": "Uppgraderingsplan"
       },
+      "plan_limit_locked": {
+        "badge": "Plangräns nådd",
+        "body": "Pausad eftersom den överskrider din plans gräns för statussidor. Din data behålls, raderas inte.",
+        "cta": "Återställ den här sidan",
+        "settings_link": "Inställningar",
+        "delete_link": "Ta bort"
+      },
+      "plan_limit_reached": {
+        "eyebrow": "Plangräns",
+        "active_label": "aktiv",
+        "paused_label": "pausad",
+        "body_prefix": "Din plan inkluderar",
+        "body_middle": "Resten är pausade, inte borttagna.",
+        "body_suffix": "Uppgradera din plan eller ta bort oanvända sidor för att återställa dem."
+      },
       "simple_created": {
         "title_prefix": "Enkel statussida skapad",
         "body": "Din första komponent tillkom framgångsrikt.",

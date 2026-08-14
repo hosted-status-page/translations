@@ -2661,6 +2661,21 @@
         "usage_suffix": "pages used on your current plan.",
         "cta": "Upgrade plan"
       },
+      "plan_limit_locked": {
+        "badge": "Plan limit reached",
+        "body": "Paused because it's over your plan's status page limit. Your data is kept, not deleted.",
+        "cta": "Restore this page",
+        "settings_link": "Settings",
+        "delete_link": "Delete"
+      },
+      "plan_limit_reached": {
+        "eyebrow": "Plan limit",
+        "active_label": "active",
+        "paused_label": "paused",
+        "body_prefix": "Your plan includes",
+        "body_middle": "The rest are paused, not deleted.",
+        "body_suffix": "Upgrade your plan or delete unused pages to restore them."
+      },
       "simple_created": {
         "title_prefix": "Simple status page created",
         "body": "Your first component was added successfully.",

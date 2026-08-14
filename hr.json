@@ -2985,6 +2985,21 @@
         "usage_suffix": "stranica iskorišteno na vašem trenutnom planu.",
         "cta": "Nadogradi plan"
       },
+      "plan_limit_locked": {
+        "badge": "Dosegnut limit plana",
+        "body": "Pauzirano jer premašuje limit statusnih stranica vašeg plana. Podaci su sačuvani, nisu obrisani.",
+        "cta": "Vrati ovu stranicu",
+        "settings_link": "Postavke",
+        "delete_link": "Izbriši"
+      },
+      "plan_limit_reached": {
+        "eyebrow": "Limit plana",
+        "active_label": "aktivno",
+        "paused_label": "pauzirano",
+        "body_prefix": "Vaš plan uključuje",
+        "body_middle": "Ostale su pauzirane, ne izbrisane.",
+        "body_suffix": "Nadogradite plan ili izbrišite nekorištene stranice kako biste ih vratili."
+      },
       "simple_created": {
         "title_prefix": "Jednostavna statusna stranica je kreirana",
         "body": "Vaša prva komponenta je uspješno dodana.",

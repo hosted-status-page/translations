@@ -1245,6 +1245,21 @@
         "usage_suffix": "pages utilisées sur votre forfait actuel.",
         "cta": "Passer au forfait supérieur"
       },
+      "plan_limit_locked": {
+        "badge": "Limite du forfait atteinte",
+        "body": "En pause car elle dépasse la limite de pages de statut de votre forfait. Vos données sont conservées, pas supprimées.",
+        "cta": "Restaurer cette page",
+        "settings_link": "Paramètres",
+        "delete_link": "Supprimer"
+      },
+      "plan_limit_reached": {
+        "eyebrow": "Limite du forfait",
+        "active_label": "active",
+        "paused_label": "en pause",
+        "body_prefix": "Votre forfait inclut",
+        "body_middle": "Les autres sont en pause, pas supprimées.",
+        "body_suffix": "Passez à un forfait supérieur ou supprimez des pages inutilisées pour les restaurer."
+      },
       "simple_created": {
         "title_prefix": "Page de statut simple créée",
         "body": "Votre premier composant a été ajouté avec succès.",

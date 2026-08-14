@@ -1240,6 +1240,21 @@
         "usage_suffix": "Seiten Ihres aktuellen Plans verwendet.",
         "cta": "Plan upgraden"
       },
+      "plan_limit_locked": {
+        "badge": "Plan-Limit erreicht",
+        "body": "Pausiert, da das Statusseiten-Limit Ihres Plans überschritten ist. Ihre Daten bleiben erhalten.",
+        "cta": "Diese Seite wiederherstellen",
+        "settings_link": "Einstellungen",
+        "delete_link": "Löschen"
+      },
+      "plan_limit_reached": {
+        "eyebrow": "Plan-Limit",
+        "active_label": "aktiv",
+        "paused_label": "pausiert",
+        "body_prefix": "Ihr Plan umfasst",
+        "body_middle": "Die übrigen sind pausiert, nicht gelöscht.",
+        "body_suffix": "Upgraden Sie Ihren Plan oder löschen Sie ungenutzte Seiten, um sie wiederherzustellen."
+      },
       "simple_created": {
         "title_prefix": "Einfache Statusseite erstellt",
         "body": "Ihre erste Komponente wurde erfolgreich hinzugefügt.",

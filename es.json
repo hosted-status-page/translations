@@ -1244,6 +1244,21 @@
         "usage_suffix": "páginas usadas en tu plan actual.",
         "cta": "Mejorar plan"
       },
+      "plan_limit_locked": {
+        "badge": "Límite del plan alcanzado",
+        "body": "En pausa porque supera el límite de páginas de estado de tu plan. Tus datos se conservan, no se eliminan.",
+        "cta": "Restaurar esta página",
+        "settings_link": "Configuración",
+        "delete_link": "Eliminar"
+      },
+      "plan_limit_reached": {
+        "eyebrow": "Límite del plan",
+        "active_label": "activa",
+        "paused_label": "en pausa",
+        "body_prefix": "Tu plan incluye",
+        "body_middle": "El resto están en pausa, no eliminadas.",
+        "body_suffix": "Mejora tu plan o elimina páginas sin uso para restaurarlas."
+      },
       "simple_created": {
         "title_prefix": "Página de estado simple creada",
         "body": "Tu primer componente se añadió correctamente.",

@@ -2656,6 +2656,21 @@
         "usage_suffix": "pagine usate nel tuo piano attuale.",
         "cta": "Aggiorna piano"
       },
+      "plan_limit_locked": {
+        "badge": "Limite del piano raggiunto",
+        "body": "In pausa perché supera il limite di status page del tuo piano. I tuoi dati sono conservati, non eliminati.",
+        "cta": "Ripristina questa pagina",
+        "settings_link": "Impostazioni",
+        "delete_link": "Elimina"
+      },
+      "plan_limit_reached": {
+        "eyebrow": "Limite del piano",
+        "active_label": "attiva",
+        "paused_label": "in pausa",
+        "body_prefix": "Il tuo piano include",
+        "body_middle": "Le altre sono in pausa, non eliminate.",
+        "body_suffix": "Aggiorna il piano o elimina le pagine inutilizzate per ripristinarle."
+      },
       "simple_created": {
         "title_prefix": "Status page semplice creata",
         "body": "Il tuo primo componente è stato aggiunto con successo.",

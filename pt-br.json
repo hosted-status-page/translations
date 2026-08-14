@@ -1240,6 +1240,21 @@
         "usage_suffix": "páginas usadas no seu plano atual.",
         "cta": "Fazer upgrade do plano"
       },
+      "plan_limit_locked": {
+        "badge": "Limite do plano atingido",
+        "body": "Pausada porque excede o limite de páginas de status do seu plano. Seus dados são mantidos, não excluídos.",
+        "cta": "Restaurar esta página",
+        "settings_link": "Configurações",
+        "delete_link": "Excluir"
+      },
+      "plan_limit_reached": {
+        "eyebrow": "Limite do plano",
+        "active_label": "ativa",
+        "paused_label": "pausada",
+        "body_prefix": "Seu plano inclui",
+        "body_middle": "As demais estão pausadas, não excluídas.",
+        "body_suffix": "Faça upgrade do plano ou exclua páginas não utilizadas para restaurá-las."
+      },
       "simple_created": {
         "title_prefix": "Página de status simples criada",
         "body": "Seu primeiro componente foi adicionado com sucesso.",
