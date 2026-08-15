@@ -471,6 +471,15 @@
       "cancel_internal_trial": {
         "html": "Are you sure you want to cancel your trial?<br><br><small class=\"text-muted\">You will be moved back to the free plan immediately.</small>"
       },
+      "cancel_scheduled_downgrade": {
+        "action": "Resuming subscription...",
+        "cancel": "Never mind",
+        "confirm": "Yes, keep my plan",
+        "processing": "Resuming your subscription",
+        "success": "Your scheduled downgrade has been cancelled.",
+        "text": "Your subscription will continue as normal and you will keep your current plan.",
+        "title": "Cancel Scheduled Downgrade"
+      },
       "cancel_subscription": {
         "action_immediate": "Cancelling subscription...",
         "action_period_end": "Scheduling cancellation...",
@@ -685,7 +694,8 @@
     "saved": "Saved",
     "select_all": "Select All",
     "setting": "Setting",
-    "skip": "Skip"
+    "skip": "Skip",
+    "optional": "(optional)"
   },
   "components": {
     "form": {
@@ -1464,7 +1474,33 @@
       },
       "webhook": {
         "headers_help": "Optional custom headers in JSON format",
-        "heading": "Webhook Configuration"
+        "heading": "Webhook Configuration",
+        "body_template_help": "Leave empty to send the default payload. Available variables: .Subject, .Message, .Severity, .Timestamp, .Fields and .FieldList."
+      },
+      "ntfy": {
+        "heading": "ntfy Configuration",
+        "server_help": "Leave empty to use the public ntfy.sh server, or point this at your own instance.",
+        "topic_help": "Anyone who knows the topic can read it — pick something unguessable."
+      },
+      "gotify": {
+        "heading": "Gotify Configuration"
+      },
+      "matrix": {
+        "heading": "Matrix Configuration"
+      },
+      "whatsapp": {
+        "heading": "WhatsApp Configuration",
+        "session_help": "Twilio only allows free-form messages within 24 hours of the recipient's last reply; outside that window your Twilio account must use an approved template."
+      },
+      "voice": {
+        "heading": "Voice Call Configuration",
+        "help": "The alert headline is read aloud twice. Best reserved for critical events."
+      },
+      "jsm": {
+        "heading": "Jira Service Management Configuration"
+      },
+      "servicenow": {
+        "heading": "ServiceNow Configuration"
       }
     },
     "sms": {
@@ -1534,7 +1570,24 @@
       "integration_key": "Integration Key",
       "recipients": "Recipients",
       "user_key": "User Key",
-      "webhook_url": "Webhook URL"
+      "webhook_url": "Webhook URL",
+      "body_template": "Body Template",
+      "content_type": "Content Type",
+      "server_url": "Server URL",
+      "topic": "Topic",
+      "access_token": "Access Token",
+      "app_token": "Application Token",
+      "homeserver_url": "Homeserver URL",
+      "room_id": "Room ID",
+      "twilio_account_sid": "Twilio Account SID",
+      "twilio_auth_token": "Twilio Auth Token",
+      "from_number": "Sender Number",
+      "to_numbers": "Recipient Numbers",
+      "cloud_id": "Atlassian Cloud ID",
+      "account_email": "Account Email",
+      "instance_url": "Instance URL",
+      "username": "Integration User",
+      "password": "Password"
     },
     "heading": "Notification Channels",
     "loading": "Loading notification channels...",
@@ -1619,7 +1672,14 @@
       "slack": "Slack",
       "sms": "SMS",
       "telegram": "Telegram",
-      "webhook": "Webhook"
+      "webhook": "Webhook",
+      "ntfy": "ntfy",
+      "gotify": "Gotify",
+      "matrix": "Matrix",
+      "whatsapp": "WhatsApp",
+      "voice": "Voice Call",
+      "jsm": "Jira SM",
+      "servicenow": "ServiceNow"
     },
     "used_by": "Used by:",
     "validation": {
@@ -1641,7 +1701,13 @@
       "telegram_bot_token_required": "Please enter your custom Telegram bot token",
       "telegram_chat_id_required": "Please enter your Telegram chat ID",
       "type_required": "Please select a channel type",
-      "webhook_url_required": "Please enter a webhook URL"
+      "webhook_url_required": "Please enter a webhook URL",
+      "ntfy_topic_required": "Please enter an ntfy topic",
+      "gotify_required": "Please enter the Gotify server URL and application token",
+      "matrix_required": "Please enter the homeserver URL, room ID and access token",
+      "twilio_required": "Please enter your Twilio credentials, sender number and recipients",
+      "jsm_required": "Please enter the Atlassian cloud ID, account email and API token",
+      "servicenow_required": "Please enter the instance URL, integration user and password"
     }
   },
   "notifications": {

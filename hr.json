@@ -810,6 +810,15 @@
       "cancel_internal_trial": {
         "html": "Jeste li sigurni da želite otkazati probu?<br><br><small class=\"text-muted\">Odmah ćete biti vraćeni na besplatni plan.</small>"
       },
+      "cancel_scheduled_downgrade": {
+        "action": "Nastavljanje pretplate...",
+        "cancel": "Odustani",
+        "confirm": "Da, zadrži moj plan",
+        "processing": "Nastavljanje vaše pretplate",
+        "success": "Vaše planirano sniženje plana je otkazano.",
+        "text": "Vaša pretplata će se nastaviti normalno i zadržat ćete svoj trenutni plan.",
+        "title": "Otkaži planirano sniženje plana"
+      },
       "cancel_subscription": {
         "action_immediate": "Otkazivanje pretplate...",
         "action_period_end": "Planiranje otkazivanja...",
@@ -1014,7 +1023,8 @@
     "saved": "Spremljeno",
     "select_all": "Odaberi sve",
     "setting": "Postavka",
-    "skip": "Preskoči"
+    "skip": "Preskoči",
+    "optional": "(neobavezno)"
   },
   "components": {
     "form": {
@@ -1789,7 +1799,33 @@
       },
       "webhook": {
         "headers_help": "Opcioni prilagođeni zaglavlja u JSON formatu",
-        "heading": "Webhook postavke"
+        "heading": "Webhook postavke",
+        "body_template_help": "Ostavite prazno za slanje zadanog sadržaja. Dostupne varijable: .Subject, .Message, .Severity, .Timestamp, .Fields i .FieldList."
+      },
+      "ntfy": {
+        "heading": "ntfy konfiguracija",
+        "server_help": "Ostavite prazno za javni poslužitelj ntfy.sh ili upišite adresu vlastite instance.",
+        "topic_help": "Svatko tko zna temu može je čitati — odaberite nešto što se ne može pogoditi."
+      },
+      "gotify": {
+        "heading": "Gotify konfiguracija"
+      },
+      "matrix": {
+        "heading": "Matrix konfiguracija"
+      },
+      "whatsapp": {
+        "heading": "WhatsApp konfiguracija",
+        "session_help": "Twilio dopušta slobodne poruke samo unutar 24 sata od zadnjeg odgovora primatelja; izvan tog razdoblja vaš Twilio račun mora koristiti odobreni predložak."
+      },
+      "voice": {
+        "heading": "Konfiguracija glasovnog poziva",
+        "help": "Naslov upozorenja pročita se naglas dvaput. Najbolje ga čuvati za kritične događaje."
+      },
+      "jsm": {
+        "heading": "Jira Service Management konfiguracija"
+      },
+      "servicenow": {
+        "heading": "ServiceNow konfiguracija"
       }
     },
     "sms": {
@@ -1859,7 +1895,24 @@
       "integration_key": "Integracioni ključ",
       "recipients": "Primaoci",
       "user_key": "Korisnički ključ",
-      "webhook_url": "URL vebhuka"
+      "webhook_url": "URL vebhuka",
+      "body_template": "Predložak sadržaja",
+      "content_type": "Vrsta sadržaja",
+      "server_url": "URL poslužitelja",
+      "topic": "Tema",
+      "access_token": "Pristupni token",
+      "app_token": "Token aplikacije",
+      "homeserver_url": "URL homeservera",
+      "room_id": "ID sobe",
+      "twilio_account_sid": "Twilio Account SID",
+      "twilio_auth_token": "Twilio Auth token",
+      "from_number": "Broj pošiljatelja",
+      "to_numbers": "Brojevi primatelja",
+      "cloud_id": "Atlassian Cloud ID",
+      "account_email": "E-pošta računa",
+      "instance_url": "URL instance",
+      "username": "Integracijski korisnik",
+      "password": "Lozinka"
     },
     "heading": "Kanali obaveštavanja",
     "loading": "Učitavanje kanala obaveštavanja...",
@@ -1944,7 +1997,14 @@
       "slack": "Zatišje",
       "sms": "SMS",
       "telegram": "Telegram",
-      "webhook": "Webhook"
+      "webhook": "Webhook",
+      "ntfy": "ntfy",
+      "gotify": "Gotify",
+      "matrix": "Matrix",
+      "whatsapp": "WhatsApp",
+      "voice": "Glasovni poziv",
+      "jsm": "Jira SM",
+      "servicenow": "ServiceNow"
     },
     "used_by": "Koristi se na:",
     "validation": {
@@ -1966,7 +2026,13 @@
       "telegram_bot_token_required": "Molimo unesite token svog Telegram bota",
       "telegram_chat_id_required": "Molimo unesite svoj Telegram Chat ID",
       "type_required": "Molimo izaberite tip kanala",
-      "webhook_url_required": "Molimo unesite webhook URL"
+      "webhook_url_required": "Molimo unesite webhook URL",
+      "ntfy_topic_required": "Unesite ntfy temu",
+      "gotify_required": "Unesite URL Gotify poslužitelja i token aplikacije",
+      "matrix_required": "Unesite URL homeservera, ID sobe i pristupni token",
+      "twilio_required": "Unesite Twilio podatke za prijavu, broj pošiljatelja i primatelje",
+      "jsm_required": "Unesite Atlassian Cloud ID, e-poštu računa i API token",
+      "servicenow_required": "Unesite URL instance, integracijskog korisnika i lozinku"
     }
   },
   "notifications": {

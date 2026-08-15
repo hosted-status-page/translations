@@ -470,6 +470,15 @@
       "cancel_internal_trial": {
         "html": "Are you sure you want to cancel your trial?<br><br><small class=\"text-muted\">You will be moved back to the free plan immediately.</small>"
       },
+      "cancel_scheduled_downgrade": {
+        "action": "Återupptar prenumeration...",
+        "cancel": "Avbryt",
+        "confirm": "Ja, behåll min plan",
+        "processing": "Återupptar din prenumeration",
+        "success": "Din schemalagda nedgradering har avbrutits.",
+        "text": "Din prenumeration fortsätter som vanligt och du behåller din nuvarande plan.",
+        "title": "Avbryt schemalagd nedgradering"
+      },
       "cancel_subscription": {
         "action_immediate": "Annullera prenumeration...",
         "action_period_end": "Schemalägga avbokning...",
@@ -674,7 +683,8 @@
     "saved": "Sparat",
     "select_all": "Markera alla",
     "setting": "Inställning",
-    "skip": "Hoppa över"
+    "skip": "Hoppa över",
+    "optional": "(valfritt)"
   },
   "components": {
     "form": {
@@ -1449,7 +1459,33 @@
       },
       "webhook": {
         "headers_help": "Optional custom headers in JSON format",
-        "heading": "Webhook konfiguration"
+        "heading": "Webhook konfiguration",
+        "body_template_help": "Lämna tomt för att skicka standardnyttolasten. Tillgängliga variabler: .Subject, .Message, .Severity, .Timestamp, .Fields och .FieldList."
+      },
+      "ntfy": {
+        "heading": "ntfy-konfiguration",
+        "server_help": "Lämna tomt för att använda den publika servern ntfy.sh, eller peka på din egen instans.",
+        "topic_help": "Alla som känner till ämnet kan läsa det – välj något omöjligt att gissa."
+      },
+      "gotify": {
+        "heading": "Gotify-konfiguration"
+      },
+      "matrix": {
+        "heading": "Matrix-konfiguration"
+      },
+      "whatsapp": {
+        "heading": "WhatsApp-konfiguration",
+        "session_help": "Twilio tillåter fritextmeddelanden endast inom 24 timmar efter mottagarens senaste svar; utanför det fönstret måste ditt Twilio-konto använda en godkänd mall."
+      },
+      "voice": {
+        "heading": "Konfiguration för röstsamtal",
+        "help": "Larmets rubrik läses upp två gånger. Bäst att spara för kritiska händelser."
+      },
+      "jsm": {
+        "heading": "Konfiguration för Jira Service Management"
+      },
+      "servicenow": {
+        "heading": "ServiceNow-konfiguration"
       }
     },
     "sms": {
@@ -1519,7 +1555,24 @@
       "integration_key": "Integrering nyckel",
       "recipients": "mottagare",
       "user_key": "Användar Key",
-      "webhook_url": "Webhook URL"
+      "webhook_url": "Webhook URL",
+      "body_template": "Innehållsmall",
+      "content_type": "Innehållstyp",
+      "server_url": "Server-URL",
+      "topic": "Ämne",
+      "access_token": "Åtkomsttoken",
+      "app_token": "Applikationstoken",
+      "homeserver_url": "Homeserver-URL",
+      "room_id": "Rums-ID",
+      "twilio_account_sid": "Twilio Account SID",
+      "twilio_auth_token": "Twilio Auth-token",
+      "from_number": "Avsändarnummer",
+      "to_numbers": "Mottagarnummer",
+      "cloud_id": "Atlassian Cloud-ID",
+      "account_email": "Kontots e-post",
+      "instance_url": "Instans-URL",
+      "username": "Integrationsanvändare",
+      "password": "Lösenord"
     },
     "heading": "Meddelande Kanaler",
     "loading": "Ledande anmälningskanaler...",
@@ -1604,7 +1657,14 @@
       "slack": "Slack",
       "sms": "Sms",
       "telegram": "Telegram",
-      "webhook": "Webhook"
+      "webhook": "Webhook",
+      "ntfy": "ntfy",
+      "gotify": "Gotify",
+      "matrix": "Matrix",
+      "whatsapp": "WhatsApp",
+      "voice": "Röstsamtal",
+      "jsm": "Jira SM",
+      "servicenow": "ServiceNow"
     },
     "used_by": "Används av:",
     "validation": {
@@ -1626,7 +1686,13 @@
       "telegram_bot_token_required": "Vänligen ange din anpassade Telegram bot token",
       "telegram_chat_id_required": "Ange ditt telegram chatt-ID",
       "type_required": "Vänligen välj en kanaltyp",
-      "webhook_url_required": "Please enter a webhook URL"
+      "webhook_url_required": "Please enter a webhook URL",
+      "ntfy_topic_required": "Ange ett ntfy-ämne",
+      "gotify_required": "Ange Gotify-serverns URL och applikationstoken",
+      "matrix_required": "Ange homeserver-URL, rums-ID och åtkomsttoken",
+      "twilio_required": "Ange dina Twilio-uppgifter, avsändarnummer och mottagare",
+      "jsm_required": "Ange Atlassian Cloud-ID, kontots e-post och API-token",
+      "servicenow_required": "Ange instans-URL, integrationsanvändare och lösenord"
     }
   },
   "notifications": {

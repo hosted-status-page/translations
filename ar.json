@@ -1690,7 +1690,14 @@
       "pagerduty": "PagerDuty",
       "pushover": "مهمة سهلة",
       "rocketchat": "صاروخ.دردشة",
-      "sms": "SMS"
+      "sms": "SMS",
+      "ntfy": "ntfy",
+      "gotify": "Gotify",
+      "matrix": "Matrix",
+      "whatsapp": "واتساب",
+      "voice": "مكالمة صوتية",
+      "jsm": "Jira SM",
+      "servicenow": "ServiceNow"
     },
     "fields": {
       "webhook_url": "عنوان URL لـ Webhook",
@@ -1700,7 +1707,24 @@
       "integration_key": "مفتاح التكامل",
       "recipients": "المستلمون",
       "user_key": "مفتاح المستخدم",
-      "api_token": "رمز API"
+      "api_token": "رمز API",
+      "body_template": "قالب المحتوى",
+      "content_type": "نوع المحتوى",
+      "server_url": "رابط URL للخادم",
+      "topic": "الموضوع",
+      "access_token": "رمز الوصول",
+      "app_token": "رمز التطبيق",
+      "homeserver_url": "رابط URL للخادم الرئيسي",
+      "room_id": "معرّف الغرفة",
+      "twilio_account_sid": "معرّف حساب Twilio",
+      "twilio_auth_token": "رمز مصادقة Twilio",
+      "from_number": "رقم المُرسِل",
+      "to_numbers": "أرقام المستلمين",
+      "cloud_id": "معرّف سحابة Atlassian",
+      "account_email": "البريد الإلكتروني للحساب",
+      "instance_url": "رابط URL للنسخة",
+      "username": "مستخدم التكامل",
+      "password": "كلمة المرور"
     },
     "placeholders": {
       "channel_name": "مثال: Discord Server، Slack للعمل، Telegram شخصي",
@@ -1756,7 +1780,33 @@
       },
       "webhook": {
         "heading": "إعدادات Webhook",
-        "headers_help": "رؤوس مخصصة اختيارية بصيغة JSON"
+        "headers_help": "رؤوس مخصصة اختيارية بصيغة JSON",
+        "body_template_help": "اتركه فارغًا لإرسال الحمولة الافتراضية. المتغيرات المتاحة: ‎.Subject و‎.Message و‎.Severity و‎.Timestamp و‎.Fields و‎.FieldList."
+      },
+      "ntfy": {
+        "heading": "إعدادات ntfy",
+        "server_help": "اتركه فارغًا لاستخدام خادم ntfy.sh العام، أو وجّهه إلى نسختك الخاصة.",
+        "topic_help": "يستطيع كل من يعرف الموضوع قراءته، لذا اختر اسمًا يصعب تخمينه."
+      },
+      "gotify": {
+        "heading": "إعدادات Gotify"
+      },
+      "matrix": {
+        "heading": "إعدادات Matrix"
+      },
+      "whatsapp": {
+        "heading": "إعدادات واتساب",
+        "session_help": "يسمح Twilio بالرسائل الحرة خلال 24 ساعة فقط من آخر رد للمستلم؛ وخارج هذه المدة يجب أن يستخدم حسابك في Twilio قالبًا معتمدًا."
+      },
+      "voice": {
+        "heading": "إعدادات المكالمة الصوتية",
+        "help": "يُقرأ عنوان التنبيه بصوت عالٍ مرتين. يُفضَّل حصره في الأحداث الحرجة."
+      },
+      "jsm": {
+        "heading": "إعدادات Jira Service Management"
+      },
+      "servicenow": {
+        "heading": "إعدادات ServiceNow"
       }
     },
     "sms": {
@@ -1861,7 +1911,13 @@
       "sms_vonage_required": "يرجى إدخال مفتاح API وسر API الخاصين بـ Vonage",
       "webhook_url_required": "يرجى إدخال عنوان URL لـ Webhook",
       "invalid_headers_json": "JSON غير صالح في الرؤوس المخصصة",
-      "invalid_email_format": "تنسيق بريد إلكتروني غير صالح: {{email}}"
+      "invalid_email_format": "تنسيق بريد إلكتروني غير صالح: {{email}}",
+      "ntfy_topic_required": "أدخل موضوع ntfy",
+      "gotify_required": "أدخل رابط URL لخادم Gotify ورمز التطبيق",
+      "matrix_required": "أدخل رابط URL للخادم الرئيسي ومعرّف الغرفة ورمز الوصول",
+      "twilio_required": "أدخل بيانات اعتماد Twilio ورقم المُرسِل والمستلمين",
+      "jsm_required": "أدخل معرّف سحابة Atlassian والبريد الإلكتروني للحساب ورمز API",
+      "servicenow_required": "أدخل رابط URL للنسخة ومستخدم التكامل وكلمة المرور"
     },
     "messages": {
       "load_failed": "تعذر تحميل القنوات",
@@ -3093,6 +3149,15 @@
       "cancel_internal_trial": {
         "html": "هل أنت متأكد من رغبتك في إلغاء النسخة التجريبية؟<br><br><small class=\"text-muted\">ستتم إعادتك إلى الخطة المجانية على الفور.</small>"
       },
+      "cancel_scheduled_downgrade": {
+        "action": "جارٍ استئناف الاشتراك...",
+        "cancel": "لا، تراجع",
+        "confirm": "نعم، احتفظ بخطتي",
+        "processing": "جارٍ استئناف اشتراكك",
+        "success": "تم إلغاء الخفض المجدول لخطتك.",
+        "text": "سيستمر اشتراكك بشكل طبيعي وستحتفظ بخطتك الحالية.",
+        "title": "إلغاء الخفض المجدول"
+      },
       "cancel_subscription": {
         "title": "إلغاء الاشتراك",
         "text": "كيف تريد إلغاء اشتراكك؟",
@@ -3298,7 +3363,8 @@
     "saved": "تم الحفظ",
     "select_all": "تحديد الكل",
     "setting": "الإعداد",
-    "skip": "تخطي"
+    "skip": "تخطي",
+    "optional": "(اختياري)"
   },
   "dashboard": {
     "no_active_incidents_help": "لا توجد حوادث نشطة. تابع العمل — أضف مراقبة أو شارك صفحة حالة.",

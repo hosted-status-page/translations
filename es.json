@@ -1694,7 +1694,14 @@
       "pagerduty": "Servicio de buscapersonas",
       "pushover": "Persona fácil de convencer",
       "rocketchat": "Cohete.Chat",
-      "sms": "SMS"
+      "sms": "SMS",
+      "ntfy": "ntfy",
+      "gotify": "Gotify",
+      "matrix": "Matrix",
+      "whatsapp": "WhatsApp",
+      "voice": "Llamada",
+      "jsm": "Jira SM",
+      "servicenow": "ServiceNow"
     },
     "fields": {
       "webhook_url": "URL de webhook",
@@ -1704,7 +1711,24 @@
       "integration_key": "Clave de integración",
       "recipients": "Destinatarios",
       "user_key": "Clave de usuario",
-      "api_token": "Token de API"
+      "api_token": "Token de API",
+      "body_template": "Plantilla del cuerpo",
+      "content_type": "Tipo de contenido",
+      "server_url": "URL del servidor",
+      "topic": "Tema",
+      "access_token": "Token de acceso",
+      "app_token": "Token de aplicación",
+      "homeserver_url": "URL del homeserver",
+      "room_id": "ID de la sala",
+      "twilio_account_sid": "SID de cuenta de Twilio",
+      "twilio_auth_token": "Token de autenticación de Twilio",
+      "from_number": "Número remitente",
+      "to_numbers": "Números destinatarios",
+      "cloud_id": "ID de nube de Atlassian",
+      "account_email": "Correo de la cuenta",
+      "instance_url": "URL de la instancia",
+      "username": "Usuario de integración",
+      "password": "Contraseña"
     },
     "placeholders": {
       "channel_name": "p. ej., Mi servidor de Discord, Slack del trabajo, Telegram personal",
@@ -1760,7 +1784,33 @@
       },
       "webhook": {
         "heading": "Configuración de webhook",
-        "headers_help": "Encabezados personalizados opcionales en formato JSON"
+        "headers_help": "Encabezados personalizados opcionales en formato JSON",
+        "body_template_help": "Déjalo vacío para enviar la carga predeterminada. Variables disponibles: .Subject, .Message, .Severity, .Timestamp, .Fields y .FieldList."
+      },
+      "ntfy": {
+        "heading": "Configuración de ntfy",
+        "server_help": "Déjalo vacío para usar el servidor público ntfy.sh, o apúntalo a tu propia instancia.",
+        "topic_help": "Cualquiera que conozca el tema puede leerlo: elige uno imposible de adivinar."
+      },
+      "gotify": {
+        "heading": "Configuración de Gotify"
+      },
+      "matrix": {
+        "heading": "Configuración de Matrix"
+      },
+      "whatsapp": {
+        "heading": "Configuración de WhatsApp",
+        "session_help": "Twilio solo permite mensajes libres dentro de las 24 horas posteriores a la última respuesta del destinatario; fuera de esa ventana tu cuenta de Twilio debe usar una plantilla aprobada."
+      },
+      "voice": {
+        "heading": "Configuración de llamada",
+        "help": "El titular de la alerta se lee en voz alta dos veces. Resérvalo para eventos críticos."
+      },
+      "jsm": {
+        "heading": "Configuración de Jira Service Management"
+      },
+      "servicenow": {
+        "heading": "Configuración de ServiceNow"
       }
     },
     "sms": {
@@ -1865,7 +1915,13 @@
       "webhook_url_required": "Por favor, introduce una URL de webhook",
       "invalid_headers_json": "JSON no válido en los encabezados personalizados",
       "invalid_email_format": "Formato de correo electrónico inválido: {{email}}",
-      "email_recipient_required": "Introduce al menos un destinatario de correo electrónico"
+      "email_recipient_required": "Introduce al menos un destinatario de correo electrónico",
+      "ntfy_topic_required": "Introduce un tema de ntfy",
+      "gotify_required": "Introduce la URL del servidor de Gotify y el token de aplicación",
+      "matrix_required": "Introduce la URL del homeserver, el ID de la sala y el token de acceso",
+      "twilio_required": "Introduce tus credenciales de Twilio, el número remitente y los destinatarios",
+      "jsm_required": "Introduce el ID de nube de Atlassian, el correo de la cuenta y el token de API",
+      "servicenow_required": "Introduce la URL de la instancia, el usuario de integración y la contraseña"
     },
     "messages": {
       "load_failed": "No se pudieron cargar los canales",
@@ -3086,6 +3142,15 @@
       "cancel_internal_trial": {
         "html": "¿Está seguro de que desea cancelar su prueba?<br><br><small class=\"text-muted\">Volverá al plan gratuito inmediatamente.</small>"
       },
+      "cancel_scheduled_downgrade": {
+        "action": "Reanudando la suscripción...",
+        "cancel": "Cancelar",
+        "confirm": "Sí, mantener mi plan",
+        "processing": "Reanudando su suscripción",
+        "success": "Se ha cancelado el cambio de plan programado.",
+        "text": "Su suscripción continuará con normalidad y conservará su plan actual.",
+        "title": "Cancelar cambio de plan programado"
+      },
       "cancel_subscription": {
         "title": "Cancelar suscripción",
         "text": "¿Cómo te gustaría cancelar tu suscripción?",
@@ -3290,7 +3355,8 @@
     "saved": "Guardado",
     "select_all": "Seleccionar todo",
     "setting": "Ajuste",
-    "skip": "Omitir"
+    "skip": "Omitir",
+    "optional": "(opcional)"
   },
   "dashboard": {
     "no_active_incidents_help": "No hay incidentes activos. Sigue así — añade un monitor o comparte una página de estado.",

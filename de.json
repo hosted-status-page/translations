@@ -1690,7 +1690,14 @@
       "pagerduty": "PagerDuty",
       "pushover": "Schwächling",
       "rocketchat": "Rocket.Chat",
-      "sms": "SMS"
+      "sms": "SMS",
+      "ntfy": "ntfy",
+      "gotify": "Gotify",
+      "matrix": "Matrix",
+      "whatsapp": "WhatsApp",
+      "voice": "Anruf",
+      "jsm": "Jira SM",
+      "servicenow": "ServiceNow"
     },
     "fields": {
       "webhook_url": "Webhook-URL",
@@ -1700,7 +1707,24 @@
       "integration_key": "Integrationsschlüssel",
       "recipients": "Empfänger",
       "user_key": "Benutzerschlüssel",
-      "api_token": "API-Token"
+      "api_token": "API-Token",
+      "body_template": "Inhaltsvorlage",
+      "content_type": "Inhaltstyp",
+      "server_url": "Server-URL",
+      "topic": "Thema",
+      "access_token": "Zugriffstoken",
+      "app_token": "Anwendungstoken",
+      "homeserver_url": "Homeserver-URL",
+      "room_id": "Raum-ID",
+      "twilio_account_sid": "Twilio Account SID",
+      "twilio_auth_token": "Twilio Auth-Token",
+      "from_number": "Absendernummer",
+      "to_numbers": "Empfängernummern",
+      "cloud_id": "Atlassian Cloud-ID",
+      "account_email": "Konto-E-Mail",
+      "instance_url": "Instanz-URL",
+      "username": "Integrationsbenutzer",
+      "password": "Passwort"
     },
     "placeholders": {
       "channel_name": "z. B. Mein Discord-Server, Slack Arbeit, Telegram Privat",
@@ -1756,7 +1780,33 @@
       },
       "webhook": {
         "heading": "Webhook-Konfiguration",
-        "headers_help": "Optionale benutzerdefinierte Header im JSON-Format"
+        "headers_help": "Optionale benutzerdefinierte Header im JSON-Format",
+        "body_template_help": "Leer lassen, um die Standard-Nutzdaten zu senden. Verfügbare Variablen: .Subject, .Message, .Severity, .Timestamp, .Fields und .FieldList."
+      },
+      "ntfy": {
+        "heading": "ntfy-Konfiguration",
+        "server_help": "Leer lassen, um den öffentlichen Server ntfy.sh zu verwenden, oder auf die eigene Instanz verweisen.",
+        "topic_help": "Wer das Thema kennt, kann mitlesen — wähle etwas, das sich nicht erraten lässt."
+      },
+      "gotify": {
+        "heading": "Gotify-Konfiguration"
+      },
+      "matrix": {
+        "heading": "Matrix-Konfiguration"
+      },
+      "whatsapp": {
+        "heading": "WhatsApp-Konfiguration",
+        "session_help": "Twilio erlaubt frei formulierte Nachrichten nur innerhalb von 24 Stunden nach der letzten Antwort der Empfängerin oder des Empfängers; danach muss dein Twilio-Konto eine freigegebene Vorlage verwenden."
+      },
+      "voice": {
+        "heading": "Anruf-Konfiguration",
+        "help": "Die Kernaussage der Warnung wird zweimal vorgelesen. Am besten nur für kritische Ereignisse einsetzen."
+      },
+      "jsm": {
+        "heading": "Jira Service Management-Konfiguration"
+      },
+      "servicenow": {
+        "heading": "ServiceNow-Konfiguration"
       }
     },
     "sms": {
@@ -1861,7 +1911,13 @@
       "webhook_url_required": "Bitte geben Sie eine Webhook-URL ein",
       "invalid_headers_json": "Ungültiges JSON in den benutzerdefinierten Headern",
       "invalid_email_format": "Ungültiges E-Mail-Format: {{email}}",
-      "email_recipient_required": "Bitte geben Sie mindestens einen E-Mail-Empfänger ein"
+      "email_recipient_required": "Bitte geben Sie mindestens einen E-Mail-Empfänger ein",
+      "ntfy_topic_required": "Bitte gib ein ntfy-Thema ein",
+      "gotify_required": "Bitte gib die Gotify-Server-URL und das Anwendungstoken ein",
+      "matrix_required": "Bitte gib Homeserver-URL, Raum-ID und Zugriffstoken ein",
+      "twilio_required": "Bitte gib deine Twilio-Zugangsdaten, die Absendernummer und die Empfänger ein",
+      "jsm_required": "Bitte gib Atlassian Cloud-ID, Konto-E-Mail und API-Token ein",
+      "servicenow_required": "Bitte gib Instanz-URL, Integrationsbenutzer und Passwort ein"
     },
     "messages": {
       "load_failed": "Kanäle konnten nicht geladen werden",
@@ -3081,6 +3137,15 @@
       "cancel_internal_trial": {
         "html": "Sind Sie sicher, dass Sie Ihre Testversion kündigen möchten?<br><br><small class=\"text-muted\">Sie werden sofort zum kostenlosen Plan zurückgeführt.</small>"
       },
+      "cancel_scheduled_downgrade": {
+        "action": "Abonnement wird fortgesetzt...",
+        "cancel": "Doch nicht",
+        "confirm": "Ja, meinen Plan behalten",
+        "processing": "Ihr Abonnement wird fortgesetzt",
+        "success": "Ihre geplante Herabstufung wurde storniert.",
+        "text": "Ihr Abonnement wird normal fortgesetzt und Sie behalten Ihren aktuellen Plan.",
+        "title": "Geplante Herabstufung abbrechen"
+      },
       "cancel_subscription": {
         "title": "Abonnement kündigen",
         "text": "Wie möchten Sie Ihr Abonnement kündigen?",
@@ -3286,7 +3351,8 @@
     "saved": "Gespeichert",
     "select_all": "Alle auswählen",
     "setting": "Einstellung",
-    "skip": "Überspringen"
+    "skip": "Überspringen",
+    "optional": "(optional)"
   },
   "dashboard": {
     "no_active_incidents_help": "Keine aktiven Vorfälle. Weiter so — fügen Sie einen Monitor hinzu oder teilen Sie eine Statusseite.",

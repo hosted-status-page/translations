@@ -369,6 +369,15 @@
       "cancel_internal_trial": {
         "html": "Sei sicuro di voler annullare la tua prova gratuita?<br><br><small class=\"text-muted\">Verrai spostato immediatamente al piano gratuito.</small>"
       },
+      "cancel_scheduled_downgrade": {
+        "action": "Ripristino dell'abbonamento...",
+        "cancel": "Annulla",
+        "confirm": "Sì, mantieni il mio piano",
+        "processing": "Ripristino del tuo abbonamento",
+        "success": "Il downgrade programmato è stato annullato.",
+        "text": "Il tuo abbonamento continuerà normalmente e manterrai il tuo piano attuale.",
+        "title": "Annulla il downgrade programmato"
+      },
       "cancel_subscription": {
         "action_immediate": "Annullamento abbonamento...",
         "action_period_end": "Pianificazione annullamento...",
@@ -683,7 +692,8 @@
     "saved": "Salvato",
     "select_all": "Seleziona tutto",
     "setting": "Impostazione",
-    "skip": "Salta"
+    "skip": "Salta",
+    "optional": "(facoltativo)"
   },
   "components": {
     "form": {
@@ -1462,7 +1472,33 @@
       },
       "webhook": {
         "headers_help": "Header personalizzati opzionali in formato JSON",
-        "heading": "Configurazione Webhook"
+        "heading": "Configurazione Webhook",
+        "body_template_help": "Lascia vuoto per inviare il payload predefinito. Variabili disponibili: .Subject, .Message, .Severity, .Timestamp, .Fields e .FieldList."
+      },
+      "ntfy": {
+        "heading": "Configurazione ntfy",
+        "server_help": "Lascia vuoto per usare il server pubblico ntfy.sh, oppure indica la tua istanza.",
+        "topic_help": "Chiunque conosca l'argomento può leggerlo: scegline uno impossibile da indovinare."
+      },
+      "gotify": {
+        "heading": "Configurazione Gotify"
+      },
+      "matrix": {
+        "heading": "Configurazione Matrix"
+      },
+      "whatsapp": {
+        "heading": "Configurazione WhatsApp",
+        "session_help": "Twilio consente messaggi liberi solo entro 24 ore dall'ultima risposta del destinatario; oltre quella finestra il tuo account Twilio deve usare un modello approvato."
+      },
+      "voice": {
+        "heading": "Configurazione della chiamata vocale",
+        "help": "Il titolo dell'avviso viene letto ad alta voce due volte. Meglio riservarlo agli eventi critici."
+      },
+      "jsm": {
+        "heading": "Configurazione Jira Service Management"
+      },
+      "servicenow": {
+        "heading": "Configurazione ServiceNow"
       }
     },
     "sms": {
@@ -1532,7 +1568,24 @@
       "integration_key": "Chiave di integrazione",
       "recipients": "Destinatari",
       "user_key": "Chiave utente",
-      "webhook_url": "URL webhook"
+      "webhook_url": "URL webhook",
+      "body_template": "Modello del corpo",
+      "content_type": "Tipo di contenuto",
+      "server_url": "URL del server",
+      "topic": "Argomento",
+      "access_token": "Token di accesso",
+      "app_token": "Token dell'applicazione",
+      "homeserver_url": "URL dell'homeserver",
+      "room_id": "ID della stanza",
+      "twilio_account_sid": "SID account Twilio",
+      "twilio_auth_token": "Token di autenticazione Twilio",
+      "from_number": "Numero mittente",
+      "to_numbers": "Numeri destinatari",
+      "cloud_id": "ID cloud Atlassian",
+      "account_email": "E-mail dell'account",
+      "instance_url": "URL dell'istanza",
+      "username": "Utente di integrazione",
+      "password": "Password"
     },
     "heading": "Canali di notifica",
     "loading": "Caricamento canali di notifica...",
@@ -1617,7 +1670,14 @@
       "slack": "Slack",
       "sms": "SMS",
       "telegram": "Telegram",
-      "webhook": "Webhook"
+      "webhook": "Webhook",
+      "ntfy": "ntfy",
+      "gotify": "Gotify",
+      "matrix": "Matrix",
+      "whatsapp": "WhatsApp",
+      "voice": "Chiamata vocale",
+      "jsm": "Jira SM",
+      "servicenow": "ServiceNow"
     },
     "used_by": "Usato da:",
     "validation": {
@@ -1639,7 +1699,13 @@
       "telegram_bot_token_required": "Inserisci il token del tuo bot Telegram personalizzato",
       "telegram_chat_id_required": "Inserisci il tuo Chat ID Telegram",
       "type_required": "Seleziona un tipo di canale",
-      "webhook_url_required": "Inserisci un URL webhook"
+      "webhook_url_required": "Inserisci un URL webhook",
+      "ntfy_topic_required": "Inserisci un argomento ntfy",
+      "gotify_required": "Inserisci l'URL del server Gotify e il token dell'applicazione",
+      "matrix_required": "Inserisci l'URL dell'homeserver, l'ID della stanza e il token di accesso",
+      "twilio_required": "Inserisci le credenziali Twilio, il numero mittente e i destinatari",
+      "jsm_required": "Inserisci l'ID cloud Atlassian, l'e-mail dell'account e il token API",
+      "servicenow_required": "Inserisci l'URL dell'istanza, l'utente di integrazione e la password"
     }
   },
   "notifications": {

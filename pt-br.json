@@ -1690,7 +1690,14 @@
       "pagerduty": "PagerDuty",
       "pushover": "Flexão",
       "rocketchat": "Foguete.Chat",
-      "sms": "SMS"
+      "sms": "SMS",
+      "ntfy": "ntfy",
+      "gotify": "Gotify",
+      "matrix": "Matrix",
+      "whatsapp": "WhatsApp",
+      "voice": "Chamada de voz",
+      "jsm": "Jira SM",
+      "servicenow": "ServiceNow"
     },
     "fields": {
       "webhook_url": "URL do webhook",
@@ -1700,7 +1707,24 @@
       "integration_key": "Chave de integração",
       "recipients": "Destinatários",
       "user_key": "Chave do usuário",
-      "api_token": "Token de API"
+      "api_token": "Token de API",
+      "body_template": "Modelo do corpo",
+      "content_type": "Tipo de conteúdo",
+      "server_url": "URL do servidor",
+      "topic": "Tópico",
+      "access_token": "Token de acesso",
+      "app_token": "Token do aplicativo",
+      "homeserver_url": "URL do homeserver",
+      "room_id": "ID da sala",
+      "twilio_account_sid": "SID da conta Twilio",
+      "twilio_auth_token": "Token de autenticação Twilio",
+      "from_number": "Número remetente",
+      "to_numbers": "Números destinatários",
+      "cloud_id": "ID de nuvem da Atlassian",
+      "account_email": "E-mail da conta",
+      "instance_url": "URL da instância",
+      "username": "Usuário de integração",
+      "password": "Senha"
     },
     "placeholders": {
       "channel_name": "ex.: Meu servidor do Discord, Slack do trabalho, Telegram pessoal",
@@ -1756,7 +1780,33 @@
       },
       "webhook": {
         "heading": "Configuração do webhook",
-        "headers_help": "Cabeçalhos personalizados opcionais em formato JSON"
+        "headers_help": "Cabeçalhos personalizados opcionais em formato JSON",
+        "body_template_help": "Deixe vazio para enviar o payload padrão. Variáveis disponíveis: .Subject, .Message, .Severity, .Timestamp, .Fields e .FieldList."
+      },
+      "ntfy": {
+        "heading": "Configuração do ntfy",
+        "server_help": "Deixe vazio para usar o servidor público ntfy.sh, ou aponte para a sua própria instância.",
+        "topic_help": "Qualquer pessoa que saiba o tópico consegue lê-lo: escolha algo impossível de adivinhar."
+      },
+      "gotify": {
+        "heading": "Configuração do Gotify"
+      },
+      "matrix": {
+        "heading": "Configuração do Matrix"
+      },
+      "whatsapp": {
+        "heading": "Configuração do WhatsApp",
+        "session_help": "O Twilio só permite mensagens livres dentro de 24 horas após a última resposta do destinatário; fora dessa janela, sua conta Twilio precisa usar um modelo aprovado."
+      },
+      "voice": {
+        "heading": "Configuração da chamada de voz",
+        "help": "O título do alerta é lido em voz alta duas vezes. Melhor reservar para eventos críticos."
+      },
+      "jsm": {
+        "heading": "Configuração do Jira Service Management"
+      },
+      "servicenow": {
+        "heading": "Configuração do ServiceNow"
       }
     },
     "sms": {
@@ -1861,7 +1911,13 @@
       "sms_vonage_required": "Por favor, informe a chave de API e o segredo de API da Vonage",
       "webhook_url_required": "Por favor, informe uma URL de webhook",
       "invalid_headers_json": "JSON inválido nos cabeçalhos personalizados",
-      "invalid_email_format": "Formato de e-mail inválido: {{email}}"
+      "invalid_email_format": "Formato de e-mail inválido: {{email}}",
+      "ntfy_topic_required": "Informe um tópico do ntfy",
+      "gotify_required": "Informe a URL do servidor Gotify e o token do aplicativo",
+      "matrix_required": "Informe a URL do homeserver, o ID da sala e o token de acesso",
+      "twilio_required": "Informe suas credenciais do Twilio, o número remetente e os destinatários",
+      "jsm_required": "Informe o ID de nuvem da Atlassian, o e-mail da conta e o token de API",
+      "servicenow_required": "Informe a URL da instância, o usuário de integração e a senha"
     },
     "messages": {
       "load_failed": "Falha ao carregar os canais",
@@ -3082,6 +3138,15 @@
       "cancel_internal_trial": {
         "html": "Tem certeza de que deseja cancelar sua avaliação?<br><br><small class=\"text-muted\">Você voltará para o plano gratuito imediatamente.</small>"
       },
+      "cancel_scheduled_downgrade": {
+        "action": "Retomando a assinatura...",
+        "cancel": "Cancelar",
+        "confirm": "Sim, manter meu plano",
+        "processing": "Retomando sua assinatura",
+        "success": "Seu rebaixamento agendado foi cancelado.",
+        "text": "Sua assinatura continuará normalmente e você manterá seu plano atual.",
+        "title": "Cancelar rebaixamento agendado"
+      },
       "cancel_subscription": {
         "title": "Cancelar assinatura",
         "text": "Como você gostaria de cancelar sua assinatura?",
@@ -3286,7 +3351,8 @@
     "saved": "Salvo",
     "select_all": "Selecionar tudo",
     "setting": "Configuração",
-    "skip": "Pular"
+    "skip": "Pular",
+    "optional": "(opcional)"
   },
   "dashboard": {
     "no_active_incidents_help": "Nenhum incidente ativo. Continue — adicione um monitor ou compartilhe uma página de status.",
