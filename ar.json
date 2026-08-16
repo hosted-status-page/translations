@@ -1539,7 +1539,7 @@
     "wizard": {
       "breadcrumb": "الترحيل من مزود آخر",
       "title": "الترحيل من مزود آخر",
-      "subtitle": "استورد المكونات والحوادث وسجل الصيانة من Instatus أو StatusPage.io أو Hyperping أو UptimeRobot أو Uptime.com. هذا استيراد لمرة واحدة فقط — لا يبقى متزامنًا.",
+      "subtitle": "استورد المكونات والحوادث وسجل الصيانة من Instatus أو StatusPage.io أو Hyperping أو Phare أو status.io أو Hund أو OhDear أو UptimeRobot أو Uptime.com. هذا استيراد لمرة واحدة فقط — لا يبقى متزامنًا.",
       "step1_short": "المزوّد",
       "step2_short": "الاتصال",
       "step3_short": "معاينة",
@@ -1572,7 +1572,16 @@
       "entity_monitors": "مراقبات",
       "suggest_banner_text": "هل تنتقل من مزود آخر؟ استورد بياناتك الحالية بدلاً من الإعداد من الصفر.",
       "suggest_banner_cta": "استيراد بياناتك",
-      "continue_onboarding": "متابعة"
+      "continue_onboarding": "متابعة",
+      "and": "و",
+      "entity_ssl_checks": "فحوصات SSL",
+      "entity_dnsbl_checks": "فحوصات DNSBL",
+      "tool_checks_hint": "تصبح هذه أدوات مراقبة على مستوى الحساب بأكمله، وليست مرتبطة بصفحة الحالة هذه.",
+      "tool_checks_checkbox_prefix": "استيراد أيضًا",
+      "tool_checks_checkbox_suffix": "كأدوات مراقبة",
+      "tool_checks_result_note": "تمت إضافة فحوصات SSL وDNSBL كأدوات مراقبة على مستوى الحساب.",
+      "view_ssl_tools": "عرض فحوصات SSL",
+      "view_dnsbl_tools": "عرض فحوصات DNSBL"
     }
   },
   "incidents": {

@@ -994,7 +994,7 @@
     "wizard": {
       "breadcrumb": "Migrera från en annan leverantör",
       "title": "Migrera från en annan leverantör",
-      "subtitle": "Importera dina komponenter, incidenter och underhållshistorik från Instatus, StatusPage.io, Hyperping, UptimeRobot eller Uptime.com. Detta är en engångsimport — den förblir inte synkroniserad.",
+      "subtitle": "Importera dina komponenter, incidenter och underhållshistorik från Instatus, StatusPage.io, Hyperping, Phare, status.io, Hund, OhDear, UptimeRobot eller Uptime.com. Detta är en engångsimport — den förblir inte synkroniserad.",
       "step1_short": "Leverantör",
       "step2_short": "Anslut",
       "step3_short": "Förhandsgranskning",
@@ -1027,7 +1027,16 @@
       "entity_monitors": "monitorer",
       "suggest_banner_text": "Migrerar du från en annan leverantör? Importera din befintliga data i stället för att börja om från början.",
       "suggest_banner_cta": "Importera din data",
-      "continue_onboarding": "Fortsätt"
+      "continue_onboarding": "Fortsätt",
+      "and": "och",
+      "entity_ssl_checks": "SSL-kontroller",
+      "entity_dnsbl_checks": "DNSBL-kontroller",
+      "tool_checks_hint": "Dessa blir kontoomfattande övervakningsverktyg, inte kopplade till just den här statussidan.",
+      "tool_checks_checkbox_prefix": "Importera även",
+      "tool_checks_checkbox_suffix": "som övervakningsverktyg",
+      "tool_checks_result_note": "SSL- och DNSBL-kontroller lades till som kontoomfattande övervakningsverktyg.",
+      "view_ssl_tools": "Visa SSL-kontroller",
+      "view_dnsbl_tools": "Visa DNSBL-kontroller"
     }
   },
   "incidents": {

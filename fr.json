@@ -1544,7 +1544,7 @@
     "wizard": {
       "breadcrumb": "Migrer depuis un autre fournisseur",
       "title": "Migrer depuis un autre fournisseur",
-      "subtitle": "Importez vos composants, incidents et historique de maintenance depuis Instatus, StatusPage.io, Hyperping, UptimeRobot ou Uptime.com. Il s'agit d'un import ponctuel : il ne reste pas synchronisé.",
+      "subtitle": "Importez vos composants, incidents et historique de maintenance depuis Instatus, StatusPage.io, Hyperping, Phare, status.io, Hund, OhDear, UptimeRobot ou Uptime.com. Il s'agit d'un import ponctuel : il ne reste pas synchronisé.",
       "step1_short": "Fournisseur",
       "step2_short": "Connexion",
       "step3_short": "Aperçu",
@@ -1577,7 +1577,16 @@
       "entity_monitors": "moniteurs",
       "suggest_banner_text": "Vous migrez depuis un autre fournisseur ? Importez vos données existantes au lieu de tout recréer.",
       "suggest_banner_cta": "Importer vos données",
-      "continue_onboarding": "Continuer"
+      "continue_onboarding": "Continuer",
+      "and": "et",
+      "entity_ssl_checks": "vérifications SSL",
+      "entity_dnsbl_checks": "vérifications DNSBL",
+      "tool_checks_hint": "Celles-ci deviennent des outils de surveillance à l'échelle du compte, indépendants de cette page de statut.",
+      "tool_checks_checkbox_prefix": "Importer aussi",
+      "tool_checks_checkbox_suffix": "comme outils de surveillance",
+      "tool_checks_result_note": "Les vérifications SSL et DNSBL ont été ajoutées comme outils de surveillance à l'échelle du compte.",
+      "view_ssl_tools": "Voir les vérifications SSL",
+      "view_dnsbl_tools": "Voir les vérifications DNSBL"
     }
   },
   "incidents": {

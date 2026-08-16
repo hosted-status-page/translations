@@ -1543,7 +1543,7 @@
     "wizard": {
       "breadcrumb": "Migrar desde otro proveedor",
       "title": "Migrar desde otro proveedor",
-      "subtitle": "Importa tus componentes, incidentes e historial de mantenimiento desde Instatus, StatusPage.io, Hyperping, UptimeRobot o Uptime.com. Esta es una importación única: no se mantiene sincronizada.",
+      "subtitle": "Importa tus componentes, incidentes e historial de mantenimiento desde Instatus, StatusPage.io, Hyperping, Phare, status.io, Hund, OhDear, UptimeRobot o Uptime.com. Esta es una importación única: no se mantiene sincronizada.",
       "step1_short": "Proveedor",
       "step2_short": "Conectar",
       "step3_short": "Vista previa",
@@ -1576,7 +1576,16 @@
       "entity_monitors": "monitores",
       "suggest_banner_text": "¿Estás migrando desde otro proveedor? Importa tus datos existentes en lugar de empezar desde cero.",
       "suggest_banner_cta": "Importar tus datos",
-      "continue_onboarding": "Continuar"
+      "continue_onboarding": "Continuar",
+      "and": "y",
+      "entity_ssl_checks": "comprobaciones SSL",
+      "entity_dnsbl_checks": "comprobaciones DNSBL",
+      "tool_checks_hint": "Estas se convierten en herramientas de monitorización de toda la cuenta, no vinculadas a esta página de estado.",
+      "tool_checks_checkbox_prefix": "Importar también",
+      "tool_checks_checkbox_suffix": "como herramientas de monitorización",
+      "tool_checks_result_note": "Las comprobaciones SSL y DNSBL se añadieron como herramientas de monitorización de toda la cuenta.",
+      "view_ssl_tools": "Ver comprobaciones SSL",
+      "view_dnsbl_tools": "Ver comprobaciones DNSBL"
     }
   },
   "incidents": {

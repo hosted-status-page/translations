@@ -977,7 +977,7 @@
     "wizard": {
       "breadcrumb": "Миграција са другог провајдера",
       "title": "Миграција са другог провајдера",
-      "subtitle": "Увезите компоненте, инциденте и историју одржавања са Instatus, StatusPage.io, Hyperping, UptimeRobot или Uptime.com. Ово је једнократни увоз — не остаје синхронизован.",
+      "subtitle": "Увезите компоненте, инциденте и историју одржавања са Instatus, StatusPage.io, Hyperping, Phare, status.io, Hund, OhDear, UptimeRobot или Uptime.com. Ово је једнократни увоз — не остаје синхронизован.",
       "step1_short": "Провајдер",
       "step2_short": "Повезивање",
       "step3_short": "Преглед",
@@ -1010,7 +1010,16 @@
       "entity_monitors": "монитора",
       "suggest_banner_text": "Мигрирате са другог провајдера? Увезите постојеће податке уместо подешавања од нуле.",
       "suggest_banner_cta": "Увези своје податке",
-      "continue_onboarding": "Настави"
+      "continue_onboarding": "Настави",
+      "and": "и",
+      "entity_ssl_checks": "SSL провере",
+      "entity_dnsbl_checks": "DNSBL провере",
+      "tool_checks_hint": "Ово постају алати за надзор на нивоу целог налога, независно од ове статусне странице.",
+      "tool_checks_checkbox_prefix": "Увези и",
+      "tool_checks_checkbox_suffix": "као алате за надзор",
+      "tool_checks_result_note": "SSL и DNSBL провере су додате као алати за надзор на нивоу целог налога.",
+      "view_ssl_tools": "Прикажи SSL провере",
+      "view_dnsbl_tools": "Прикажи DNSBL провере"
     }
   },
   "incidents": {

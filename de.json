@@ -1539,7 +1539,7 @@
     "wizard": {
       "breadcrumb": "Von einem anderen Anbieter migrieren",
       "title": "Von einem anderen Anbieter migrieren",
-      "subtitle": "Importiere deine Komponenten, Vorfälle und Wartungshistorie aus Instatus, StatusPage.io, Hyperping, UptimeRobot oder Uptime.com. Dies ist ein einmaliger Import — er bleibt nicht synchron.",
+      "subtitle": "Importiere deine Komponenten, Vorfälle und Wartungshistorie aus Instatus, StatusPage.io, Hyperping, Phare, status.io, Hund, OhDear, UptimeRobot oder Uptime.com. Dies ist ein einmaliger Import — er bleibt nicht synchron.",
       "step1_short": "Anbieter",
       "step2_short": "Verbinden",
       "step3_short": "Vorschau",
@@ -1572,7 +1572,16 @@
       "entity_monitors": "Monitore",
       "suggest_banner_text": "Migrierst du von einem anderen Anbieter? Importiere deine vorhandenen Daten, statt von vorn zu beginnen.",
       "suggest_banner_cta": "Daten importieren",
-      "continue_onboarding": "Weiter"
+      "continue_onboarding": "Weiter",
+      "and": "und",
+      "entity_ssl_checks": "SSL-Prüfungen",
+      "entity_dnsbl_checks": "DNSBL-Prüfungen",
+      "tool_checks_hint": "Diese werden zu kontoweiten Überwachungstools, unabhängig von dieser Statusseite.",
+      "tool_checks_checkbox_prefix": "Auch",
+      "tool_checks_checkbox_suffix": "als Überwachungstools importieren",
+      "tool_checks_result_note": "SSL- und DNSBL-Prüfungen wurden als kontoweite Überwachungstools hinzugefügt.",
+      "view_ssl_tools": "SSL-Prüfungen ansehen",
+      "view_dnsbl_tools": "DNSBL-Prüfungen ansehen"
     }
   },
   "incidents": {

@@ -1008,7 +1008,7 @@
     "wizard": {
       "breadcrumb": "Migrate from another provider",
       "title": "Migrate from another provider",
-      "subtitle": "Pull your components, incidents, and maintenance history in from Instatus, StatusPage.io, Hyperping, UptimeRobot, or Uptime.com. This is a one-time import — it does not stay in sync.",
+      "subtitle": "Pull your components, incidents, and maintenance history in from Instatus, StatusPage.io, Hyperping, Phare, status.io, Hund, OhDear, UptimeRobot, or Uptime.com. This is a one-time import — it does not stay in sync.",
       "step1_short": "Provider",
       "step2_short": "Connect",
       "step3_short": "Preview",
@@ -1041,7 +1041,16 @@
       "entity_monitors": "monitors",
       "suggest_banner_text": "Migrating from another provider? Import your existing data instead of setting up from scratch.",
       "suggest_banner_cta": "Import your data",
-      "continue_onboarding": "Continue"
+      "continue_onboarding": "Continue",
+      "and": "and",
+      "entity_ssl_checks": "SSL checks",
+      "entity_dnsbl_checks": "DNSBL checks",
+      "tool_checks_hint": "These become account-wide monitoring tools, not tied to this status page.",
+      "tool_checks_checkbox_prefix": "Also import",
+      "tool_checks_checkbox_suffix": "as monitoring tools",
+      "tool_checks_result_note": "SSL and DNSBL checks were added as account-wide monitoring tools.",
+      "view_ssl_tools": "View SSL checks",
+      "view_dnsbl_tools": "View DNSBL checks"
     }
   },
   "incidents": {
