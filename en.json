@@ -338,8 +338,14 @@
     "loading_data": "Loading analytics data...",
     "max_response_time_title": "Max Response Time",
     "no_downtime_detected": "No downtime detected for this period.",
+    "retention": {
+      "badge_days": "Retention: {{days}} days",
+      "badge_unlimited": "Retention: Unlimited",
+      "locked_tooltip": "Available up to {{days}} days on your plan"
+    },
     "select_status_page_placeholder": "Select a status page…",
-    "time_period_label": "Time Period:"
+    "time_period_label": "Time Period:",
+    "view_historical_cta": "Need a specific date range? View Historical Analytics"
   },
   "billing": {
     "actions": {
@@ -2351,6 +2357,7 @@
       "embeds": "Embeds",
       "metrics": "Metrics",
       "new_status_page": "New Status Page",
+      "settings": "Settings",
       "status_pages": "Status Pages",
       "create_status_page": "Create Status Page"
     },
@@ -2560,18 +2567,33 @@
       "tabs": {
         "access": "Access",
         "misc": "Misc.",
-        "ownership_transfer": "Ownership Transfer",
+        "ownership_transfer": "Ownership & deletion",
         "analytics": "Web Analytics",
         "subscribers": "Subscribers",
         "components": "Components",
         "dependencies": "Dependencies",
-        "incidents": "Incidents",
+        "incidents": "Incident automation",
         "monitors": "Monitors",
         "servers": "Servers",
         "notifications": "Notifications",
         "visual": "Visual",
-        "announcement": "Status Page Banner"
+        "announcement": "Announcement",
+        "general": "General",
+        "appearance": "Appearance",
+        "services": "Services",
+        "domains": "Domains",
+        "embed": "Embed"
       },
+      "groups": {
+        "setup": "Setup",
+        "page": "Page",
+        "communication": "Communication",
+        "publishing": "Publishing",
+        "access": "Access"
+      },
+      "search_placeholder": "Search settings…",
+      "language_section": "Language",
+      "embed_page_section": "Embed this page",
       "active": "Active",
       "advanced": "Advanced",
       "auto_create_incident": "Auto-create incident on monitor DOWN (first detection)",
@@ -2639,6 +2661,11 @@
       "notify_on_component_change": "Notify subscribers when a component status changes",
       "notify_on_component_change_help": "Email subscribers when a component's status is changed manually (e.g. marked Degraded or Major Outage). Doesn't apply while an incident is already affecting the component — incident updates handle that case.",
       "show_component_uptime_help": "Also controls whether monitors can be added to this page — turn this on to convert a simple status page to an automated one."
+    },
+    "dependencies": {
+      "search_placeholder": "Search providers…",
+      "enable_all": "Enable all",
+      "disable_all": "Disable all"
     },
     "setup_custom_domain": "Set up Custom Domain",
     "showcase_description": "Get featured in our <a href=\"/showcase\" target=\"_blank\">public showcase</a> to demonstrate your commitment to transparency and reliability. This is a great way to build trust with potential customers.",
@@ -4005,7 +4032,47 @@
     "verification_pending": "Verification Pending",
     "verifying": "Verifying...",
     "verifying_domain": "Verifying Your Domain...",
-    "whats_happening": "What's happening?"
+    "whats_happening": "What's happening?",
+    "wizard": {
+      "apex_warning": "A CNAME record cannot point at your bare domain — most providers reject it. We recommend __SUGGESTION__ instead.",
+      "breadcrumb": "Custom Domain",
+      "close_tab_hint": "You can close this page — we'll keep checking and email you when it's live.",
+      "copy_all": "Copy All",
+      "diag_a_only": "Found an A record (__IPS__) where a CNAME is needed. Remove it and add a CNAME instead.",
+      "diag_aaaa_only": "Found an AAAA (IPv6) record where a CNAME is needed. Remove it and add a CNAME instead.",
+      "diag_conflict": "CNAME is correct, but a stale A record still exists and could misroute some resolvers.",
+      "diag_error": "DNS check could not complete. We'll keep trying.",
+      "diag_mismatch": "Your CNAME points to __DETECTED__; it needs to point to __EXPECTED__.",
+      "diag_not_configured": "No CNAME found yet — this is normal while DNS propagates.",
+      "domain_label": "Your Domain",
+      "finish_later": "I'll check back later",
+      "how_to_add": "How do I add this record?",
+      "invalid_hostname": "Enter a valid domain, e.g. status.yourcompany.com",
+      "locked_hint": "Unlocks once your domain is saved",
+      "open_dashboard": "Open __NAME__ DNS settings",
+      "open_page": "Open Your Status Page",
+      "ownership_required": "Ownership Verification Required",
+      "page_subtitle": "Use your own domain for your status page instead of the default one",
+      "provider_detected": "It looks like __NAME__ manages this domain's DNS.",
+      "proxy_warning": "Set this record to \"DNS only\" (grey cloud) rather than proxied — a proxying DNS record will hide the real routing target and break the connection.",
+      "ssl_help": "This usually takes 1-3 minutes.",
+      "ssl_title": "Provisioning your certificate…",
+      "start_watching": "I've added it — start watching",
+      "step1_heading": "Enter your domain or subdomain",
+      "step1_help": "We recommend a subdomain, e.g. status.yourcompany.com.",
+      "step1_subtitle": "Enter the domain to connect",
+      "step1_title": "Your Domain",
+      "step2_heading": "Add this DNS record",
+      "step2_subtitle": "Add the CNAME",
+      "step2_title": "DNS Record",
+      "step3_subtitle": "We check automatically",
+      "step3_title": "Watching DNS",
+      "step4_subtitle": "Certificate & launch",
+      "step4_title": "Go Live",
+      "still_propagating": "Still propagating…",
+      "use_subdomain": "Use this instead",
+      "watching_title": "Watching your DNS…"
+    }
   },
   "downgrade": {
     "alert_title": "Important:",

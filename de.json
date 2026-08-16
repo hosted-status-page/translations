@@ -778,6 +778,7 @@
       "embeds": "Einbettungen",
       "metrics": "Metriken",
       "edit_status_page": "Status-Seite bearbeiten",
+      "settings": "Einstellungen",
       "create_status_page": "Statusseite erstellen"
     },
     "table": {
@@ -789,19 +790,34 @@
       "save_failed": "Einstellungen konnten nicht gespeichert werden. Bitte versuche es erneut.",
       "tabs": {
         "access": "Zugriff",
-        "ownership_transfer": "Eigentumsübertragung",
+        "ownership_transfer": "Eigentum & Löschung",
         "misc": "Sonstiges",
         "analytics": "Web-Analytics",
         "subscribers": "Abonnenten",
         "components": "Komponenten",
         "dependencies": "Abhängigkeiten",
-        "incidents": "Vorfälle",
+        "incidents": "Vorfall-Automatisierung",
         "monitors": "Monitore",
         "notifications": "Benachrichtigungen",
         "visual": "Visuell",
-        "announcement": "Statusseiten-Banner",
-        "servers": "Server"
+        "announcement": "Ankündigung",
+        "servers": "Server",
+        "general": "Allgemein",
+        "appearance": "Erscheinungsbild",
+        "services": "Dienste",
+        "domains": "Domains",
+        "embed": "Einbetten"
       },
+      "groups": {
+        "setup": "Einrichtung",
+        "page": "Seite",
+        "communication": "Kommunikation",
+        "publishing": "Veröffentlichung",
+        "access": "Zugriff"
+      },
+      "search_placeholder": "Einstellungen durchsuchen…",
+      "language_section": "Sprache",
+      "embed_page_section": "Diese Seite einbetten",
       "custom_domain": {
         "label": "Benutzerdefinierte Domain",
         "actions": {
@@ -1132,6 +1148,11 @@
     "must_enter_exact": "Du musst eingeben",
     "exactly_enable": "genau, um das Löschen zu aktivieren.",
     "delete_this_page": "Diese Statusseite löschen",
+    "dependencies": {
+      "search_placeholder": "Anbieter durchsuchen…",
+      "enable_all": "Alle aktivieren",
+      "disable_all": "Alle deaktivieren"
+    },
     "setup_custom_domain": "Benutzerdefinierte Domain einrichten",
     "lifetime": {
       "heading": "💎 Lifetime-Angebote",
@@ -3540,8 +3561,14 @@
     "loading_data": "Analysedaten werden geladen...",
     "max_response_time_title": "Max. Antwortzeit",
     "no_downtime_detected": "Keine Ausfallzeit in diesem Zeitraum erkannt.",
+    "retention": {
+      "badge_days": "Aufbewahrung: {{days}} Tage",
+      "badge_unlimited": "Aufbewahrung: Unbegrenzt",
+      "locked_tooltip": "Verfügbar bis zu {{days}} Tagen in Ihrem Tarif"
+    },
     "select_status_page_placeholder": "Statusseite auswählen…",
-    "time_period_label": "Zeitraum:"
+    "time_period_label": "Zeitraum:",
+    "view_historical_cta": "Einen bestimmten Zeitraum benötigt? Historische Analysen anzeigen"
   },
   "account_settings": {
     "nav": {
@@ -3993,7 +4020,47 @@
     "verification_pending": "Verifizierung ausstehend",
     "verifying": "Verifizierung...",
     "verifying_domain": "Verifizierung Ihrer Domain...",
-    "whats_happening": "Was passiert?"
+    "whats_happening": "Was passiert?",
+    "wizard": {
+      "apex_warning": "Ein CNAME-Eintrag kann nicht auf Ihre nackte Domain zeigen — die meisten Anbieter lehnen das ab. Wir empfehlen stattdessen __SUGGESTION__.",
+      "breadcrumb": "Benutzerdefinierte Domain",
+      "close_tab_hint": "Sie können diese Seite schließen — wir prüfen weiterhin und benachrichtigen Sie per E-Mail, sobald sie live ist.",
+      "copy_all": "Alles kopieren",
+      "diag_a_only": "Ein A-Eintrag (__IPS__) gefunden, wo ein CNAME benötigt wird. Entfernen Sie ihn und fügen Sie stattdessen einen CNAME hinzu.",
+      "diag_aaaa_only": "Ein AAAA-Eintrag (IPv6) gefunden, wo ein CNAME benötigt wird. Entfernen Sie ihn und fügen Sie stattdessen einen CNAME hinzu.",
+      "diag_conflict": "Der CNAME ist korrekt, aber es existiert noch ein veralteter A-Eintrag, der einige Resolver fehlleiten könnte.",
+      "diag_error": "DNS-Prüfung konnte nicht abgeschlossen werden. Wir versuchen es weiter.",
+      "diag_mismatch": "Ihr CNAME zeigt auf __DETECTED__; er muss auf __EXPECTED__ zeigen.",
+      "diag_not_configured": "Noch kein CNAME gefunden — das ist normal, während sich die DNS-Änderung verbreitet.",
+      "domain_label": "Ihre Domain",
+      "finish_later": "Ich schaue später vorbei",
+      "how_to_add": "Wie füge ich diesen Eintrag hinzu?",
+      "invalid_hostname": "Geben Sie eine gültige Domain ein, z. B. status.ihrefirma.de",
+      "locked_hint": "Wird freigeschaltet, sobald Ihre Domain gespeichert ist",
+      "open_dashboard": "__NAME__ DNS-Einstellungen öffnen",
+      "open_page": "Ihre Statusseite öffnen",
+      "ownership_required": "Eigentumsnachweis erforderlich",
+      "page_subtitle": "Verwenden Sie für Ihre Statusseite Ihre eigene Domain anstelle der Standarddomain",
+      "provider_detected": "Es sieht so aus, als würde __NAME__ das DNS dieser Domain verwalten.",
+      "proxy_warning": "Stellen Sie diesen Eintrag auf „Nur DNS“ (graue Wolke) statt proxied — ein proxied DNS-Eintrag verbirgt das eigentliche Routingziel und unterbricht die Verbindung.",
+      "ssl_help": "Dies dauert normalerweise 1–3 Minuten.",
+      "ssl_title": "Ihr Zertifikat wird bereitgestellt…",
+      "start_watching": "Hinzugefügt — Überwachung starten",
+      "step1_heading": "Geben Sie Ihre Domain oder Subdomain ein",
+      "step1_help": "Wir empfehlen eine Subdomain, z. B. status.ihrefirma.de.",
+      "step1_subtitle": "Geben Sie die zu verbindende Domain ein",
+      "step1_title": "Ihre Domain",
+      "step2_heading": "Diesen DNS-Eintrag hinzufügen",
+      "step2_subtitle": "CNAME hinzufügen",
+      "step2_title": "DNS-Eintrag",
+      "step3_subtitle": "Wir prüfen automatisch",
+      "step3_title": "DNS wird überwacht",
+      "step4_subtitle": "Zertifikat & Start",
+      "step4_title": "Live schalten",
+      "still_propagating": "Verbreitet sich noch…",
+      "use_subdomain": "Stattdessen dies verwenden",
+      "watching_title": "Ihre DNS wird überwacht…"
+    }
   },
   "downgrade": {
     "alert_title": "Wichtig:",

@@ -782,6 +782,7 @@
       "embeds": "Incrustaciones",
       "metrics": "Métricas",
       "edit_status_page": "Editar página de estado",
+      "settings": "Configuración",
       "create_status_page": "Crear página de estado"
     },
     "table": {
@@ -793,19 +794,34 @@
       "save_failed": "No se pudieron guardar los ajustes. Inténtalo de nuevo.",
       "tabs": {
         "access": "Acceso",
-        "ownership_transfer": "Transferencia de Propiedad",
+        "ownership_transfer": "Propiedad y eliminación",
         "misc": "Varios",
         "analytics": "Analítica web",
         "subscribers": "Suscriptores",
         "components": "Componentes",
         "dependencies": "Dependencias",
-        "incidents": "Incidentes",
+        "incidents": "Automatización de incidentes",
         "monitors": "Monitores",
         "notifications": "Notificaciones",
         "visual": "Visual",
-        "announcement": "Banner de la página de estado",
-        "servers": "Servidores"
+        "announcement": "Anuncio",
+        "servers": "Servidores",
+        "general": "General",
+        "appearance": "Apariencia",
+        "services": "Servicios",
+        "domains": "Dominios",
+        "embed": "Insertar"
       },
+      "groups": {
+        "setup": "Configuración",
+        "page": "Página",
+        "communication": "Comunicación",
+        "publishing": "Publicación",
+        "access": "Acceso"
+      },
+      "search_placeholder": "Buscar ajustes…",
+      "language_section": "Idioma",
+      "embed_page_section": "Insertar esta página",
       "custom_domain": {
         "label": "Dominio Personalizado",
         "actions": {
@@ -1079,6 +1095,11 @@
       "remove_failed": "No se pudo eliminar"
     },
     "setup_custom_domain": "Configurar Dominio Personalizado",
+    "dependencies": {
+      "search_placeholder": "Buscar proveedores…",
+      "enable_all": "Habilitar todo",
+      "disable_all": "Deshabilitar todo"
+    },
     "require_password_help": "Requiere una contraseña para acceder a tu página de estado",
     "private_pages_unavailable": "Las páginas privadas no están disponibles en tu plan actual.",
     "enable_password_protection": "para activar la protección con contraseña.",
@@ -3546,8 +3567,14 @@
     "loading_data": "Cargando datos analíticos...",
     "max_response_time_title": "Tiempo máximo de respuesta",
     "no_downtime_detected": "No se detecta tiempo de inactividad para este período.",
+    "retention": {
+      "badge_days": "Retención: {{days}} días",
+      "badge_unlimited": "Retención: Ilimitada",
+      "locked_tooltip": "Disponible hasta {{days}} días en tu plan"
+    },
     "select_status_page_placeholder": "Seleccione una página de estado...",
-    "time_period_label": "Período de tiempo:"
+    "time_period_label": "Período de tiempo:",
+    "view_historical_cta": "¿Necesitas un rango de fechas específico? Ver Analítica histórica"
   },
   "account_settings": {
     "nav": {
@@ -3999,7 +4026,47 @@
     "verification_pending": "Pendiente de verificación",
     "verifying": "Verificante...",
     "verifying_domain": "Verificando tu dominio...",
-    "whats_happening": "¿Qué está pasando?"
+    "whats_happening": "¿Qué está pasando?",
+    "wizard": {
+      "apex_warning": "Un registro CNAME no puede apuntar a tu dominio raíz — la mayoría de los proveedores lo rechazan. Te recomendamos usar __SUGGESTION__ en su lugar.",
+      "breadcrumb": "Dominio personalizado",
+      "close_tab_hint": "Puedes cerrar esta página — seguiremos comprobando y te enviaremos un correo cuando esté activo.",
+      "copy_all": "Copiar todo",
+      "diag_a_only": "Se encontró un registro A (__IPS__) donde se necesita un CNAME. Elimínalo y añade un CNAME en su lugar.",
+      "diag_aaaa_only": "Se encontró un registro AAAA (IPv6) donde se necesita un CNAME. Elimínalo y añade un CNAME en su lugar.",
+      "diag_conflict": "El CNAME es correcto, pero todavía existe un registro A obsoleto que podría desviar el enrutamiento en algunos resolutores.",
+      "diag_error": "No se pudo completar la comprobación DNS. Seguiremos intentándolo.",
+      "diag_mismatch": "Tu CNAME apunta a __DETECTED__; debe apuntar a __EXPECTED__.",
+      "diag_not_configured": "Aún no se encontró el CNAME — esto es normal mientras se propaga el DNS.",
+      "domain_label": "Tu dominio",
+      "finish_later": "Volveré más tarde",
+      "how_to_add": "¿Cómo agrego este registro?",
+      "invalid_hostname": "Introduce un dominio válido, p. ej. status.tuempresa.com",
+      "locked_hint": "Se desbloquea cuando se guarda tu dominio",
+      "open_dashboard": "Abrir la configuración DNS de __NAME__",
+      "open_page": "Abrir tu página de estado",
+      "ownership_required": "Se requiere verificación de propiedad",
+      "page_subtitle": "Usa tu propio dominio para tu página de estado en lugar del predeterminado",
+      "provider_detected": "Parece que __NAME__ administra el DNS de este dominio.",
+      "proxy_warning": "Configura este registro como \"solo DNS\" (nube gris) en lugar de con proxy — un registro DNS con proxy ocultará el destino de enrutamiento real y romperá la conexión.",
+      "ssl_help": "Esto suele tardar entre 1 y 3 minutos.",
+      "ssl_title": "Aprovisionando tu certificado…",
+      "start_watching": "Ya lo añadí — empezar a comprobar",
+      "step1_heading": "Introduce tu dominio o subdominio",
+      "step1_help": "Recomendamos un subdominio, p. ej. status.tuempresa.com.",
+      "step1_subtitle": "Introduce el dominio a conectar",
+      "step1_title": "Tu dominio",
+      "step2_heading": "Añade este registro DNS",
+      "step2_subtitle": "Añadir el CNAME",
+      "step2_title": "Registro DNS",
+      "step3_subtitle": "Comprobamos automáticamente",
+      "step3_title": "Comprobando el DNS",
+      "step4_subtitle": "Certificado y lanzamiento",
+      "step4_title": "Publicar",
+      "still_propagating": "Aún propagándose…",
+      "use_subdomain": "Usar esto en su lugar",
+      "watching_title": "Comprobando tu DNS…"
+    }
   },
   "downgrade": {
     "alert_title": "Importante:",

@@ -338,8 +338,14 @@
     "loading_data": "Ladda analysdata...",
     "max_response_time_title": "Max svarstid",
     "no_downtime_detected": "Ingen stillestånd upptäckt för denna period.",
+    "retention": {
+      "badge_days": "Lagring: {{days}} dagar",
+      "badge_unlimited": "Lagring: Obegränsad",
+      "locked_tooltip": "Tillgängligt upp till {{days}} dagar på din plan"
+    },
     "select_status_page_placeholder": "Välj en statussida...",
-    "time_period_label": "Tidsperiod:"
+    "time_period_label": "Tidsperiod:",
+    "view_historical_cta": "Behöver du ett specifikt datumintervall? Visa historisk analys"
   },
   "billing": {
     "actions": {
@@ -2214,6 +2220,11 @@
     "delete_permanent": "Att radera din statussida är <u>permanent</u>",
     "delete_selected": "Radera vald",
     "delete_this_page": "Ta bort denna statussida",
+    "dependencies": {
+      "search_placeholder": "Sök leverantörer…",
+      "enable_all": "Aktivera alla",
+      "disable_all": "Inaktivera alla"
+    },
     "dependencies_help": "Visa statusrutor från tredje part över dina komponentgrupper.",
     "dependencies_section": "Beroende",
     "drag_to_reorder": "Drag till Reorder",
@@ -2332,6 +2343,7 @@
     "nav": {
       "components": "Komponenter",
       "edit_status_page": "Redigera Status Page",
+      "settings": "Inställningar",
       "embeds": "Inbäddningar",
       "metrics": "Mätvärden",
       "new_status_page": "Ny status sida",
@@ -2544,18 +2556,33 @@
       "tabs": {
         "access": "Åtkomst",
         "misc": "Övrigt",
-        "ownership_transfer": "Ägartransfer",
+        "ownership_transfer": "Ägarskap och borttagning",
         "analytics": "Webbanalys",
         "subscribers": "Abonnenter",
         "components": "Komponenter",
         "dependencies": "Beroende",
-        "incidents": "Incidenter",
+        "incidents": "Incidentautomatisering",
         "monitors": "Övervakare",
         "notifications": "Meddelanden",
         "visual": "Visuell",
-        "announcement": "Statussidebanner",
-        "servers": "Servrar"
+        "announcement": "Tillkännagivande",
+        "servers": "Servrar",
+        "general": "Allmänt",
+        "appearance": "Utseende",
+        "services": "Tjänster",
+        "domains": "Domäner",
+        "embed": "Bädda in"
       },
+      "groups": {
+        "setup": "Inställning",
+        "page": "Sida",
+        "communication": "Kommunikation",
+        "publishing": "Publicering",
+        "access": "Åtkomst"
+      },
+      "search_placeholder": "Sök inställningar…",
+      "language_section": "Språk",
+      "embed_page_section": "Bädda in denna sida",
       "active": "Aktiv",
       "advanced": "Avancerat",
       "auto_create_incident": "Skapa incident automatiskt när en övervakare går NER (första upptäckt)",
@@ -3954,7 +3981,47 @@
     "verification_pending": "Verifiering i väntan",
     "verifying": "Verifiera...",
     "verifying_domain": "Verifiera din domän...",
-    "whats_happening": "Vad händer?"
+    "whats_happening": "Vad händer?",
+    "wizard": {
+      "apex_warning": "En CNAME-post kan inte peka på din bara domän — de flesta leverantörer avvisar det. Vi rekommenderar __SUGGESTION__ istället.",
+      "breadcrumb": "Anpassad domän",
+      "close_tab_hint": "Du kan stänga den här sidan — vi fortsätter att kontrollera och mejlar dig när den är live.",
+      "copy_all": "Kopiera allt",
+      "diag_a_only": "Hittade en A-post (__IPS__) där en CNAME behövs. Ta bort den och lägg till en CNAME istället.",
+      "diag_aaaa_only": "Hittade en AAAA-post (IPv6) där en CNAME behövs. Ta bort den och lägg till en CNAME istället.",
+      "diag_conflict": "CNAME är korrekt, men en gammal A-post finns fortfarande kvar och kan felleda vissa resolvers.",
+      "diag_error": "DNS-kontrollen kunde inte slutföras. Vi fortsätter att försöka.",
+      "diag_mismatch": "Din CNAME pekar på __DETECTED__; den behöver peka på __EXPECTED__.",
+      "diag_not_configured": "Ingen CNAME hittad än — det är normalt medan DNS sprids.",
+      "domain_label": "Din domän",
+      "finish_later": "Jag kollar senare",
+      "how_to_add": "Hur lägger jag till den här posten?",
+      "invalid_hostname": "Ange en giltig domän, t.ex. status.dittforetag.se",
+      "locked_hint": "Låses upp när din domän har sparats",
+      "open_dashboard": "Öppna __NAME__-DNS-inställningar",
+      "open_page": "Öppna din statussida",
+      "ownership_required": "Ägarverifiering krävs",
+      "page_subtitle": "Använd din egen domän för din statussida istället för standarddomänen",
+      "provider_detected": "Det ser ut som att __NAME__ hanterar DNS för den här domänen.",
+      "proxy_warning": "Ställ in den här posten på \"endast DNS\" (grått moln) istället för proxad — en proxad DNS-post döljer det verkliga routningsmålet och bryter anslutningen.",
+      "ssl_help": "Detta tar vanligtvis 1-3 minuter.",
+      "ssl_title": "Utfärdar ditt certifikat…",
+      "start_watching": "Tillagd — börja bevaka",
+      "step1_heading": "Ange din domän eller subdomän",
+      "step1_help": "Vi rekommenderar en subdomän, t.ex. status.dittforetag.se.",
+      "step1_subtitle": "Ange domänen som ska anslutas",
+      "step1_title": "Din domän",
+      "step2_heading": "Lägg till den här DNS-posten",
+      "step2_subtitle": "Lägg till CNAME",
+      "step2_title": "DNS-post",
+      "step3_subtitle": "Vi kontrollerar automatiskt",
+      "step3_title": "Bevakar DNS",
+      "step4_subtitle": "Certifikat och lansering",
+      "step4_title": "Gå live",
+      "still_propagating": "Sprids fortfarande…",
+      "use_subdomain": "Använd detta istället",
+      "watching_title": "Bevakar din DNS…"
+    }
   },
   "downgrade": {
     "alert_title": "Viktigt:",

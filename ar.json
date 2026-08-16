@@ -778,6 +778,7 @@
       "embeds": "التضمينات",
       "metrics": "المقاييس",
       "edit_status_page": "تحرير صفحة الحالة",
+      "settings": "الإعدادات",
       "create_status_page": "إنشاء صفحة حالة"
     },
     "table": {
@@ -789,19 +790,34 @@
       "save_failed": "تعذر حفظ الإعدادات. يرجى المحاولة مرة أخرى.",
       "tabs": {
         "access": "الوصول",
-        "ownership_transfer": "نقل الملكية",
+        "ownership_transfer": "الملكية والحذف",
         "misc": "متنوع",
         "analytics": "تحليلات الويب",
         "subscribers": "المشتركون",
         "components": "المكونات",
         "dependencies": "التبعيات",
-        "incidents": "الحوادث",
+        "incidents": "أتمتة الحوادث",
         "monitors": "مونيتورات",
         "notifications": "الإشعارات",
         "visual": "مرئي",
-        "announcement": "لافتة صفحة الحالة",
-        "servers": "الخوادم"
+        "announcement": "إعلان",
+        "servers": "الخوادم",
+        "general": "عام",
+        "appearance": "المظهر",
+        "services": "الخدمات",
+        "domains": "النطاقات",
+        "embed": "التضمين"
       },
+      "groups": {
+        "setup": "الإعداد",
+        "page": "الصفحة",
+        "communication": "التواصل",
+        "publishing": "النشر",
+        "access": "الوصول"
+      },
+      "search_placeholder": "البحث في الإعدادات…",
+      "language_section": "اللغة",
+      "embed_page_section": "تضمين هذه الصفحة",
       "custom_domain": {
         "label": "النطاق المخصص",
         "actions": {
@@ -1132,6 +1148,11 @@
     "must_enter_exact": "يجب عليك إدخال",
     "exactly_enable": "بالضبط لتمكين الحذف.",
     "delete_this_page": "حذف صفحة الحالة هذه",
+    "dependencies": {
+      "search_placeholder": "البحث عن مزودي الخدمة…",
+      "enable_all": "تفعيل الكل",
+      "disable_all": "تعطيل الكل"
+    },
     "setup_custom_domain": "إعداد النطاق المخصص",
     "lifetime": {
       "heading": "💎 عروض مدى الحياة",
@@ -3552,8 +3573,14 @@
     "loading_data": "جاري تحميل بيانات التحليلات...",
     "max_response_time_title": "أقصى زمن استجابة",
     "no_downtime_detected": "لم يتم رصد أي توقف خلال هذه الفترة.",
+    "retention": {
+      "badge_days": "الاحتفاظ بالبيانات: {{days}} يومًا",
+      "badge_unlimited": "الاحتفاظ بالبيانات: غير محدود",
+      "locked_tooltip": "متاح حتى {{days}} يومًا في باقتك"
+    },
     "select_status_page_placeholder": "اختر صفحة حالة…",
-    "time_period_label": "الفترة الزمنية:"
+    "time_period_label": "الفترة الزمنية:",
+    "view_historical_cta": "بحاجة إلى نطاق تاريخ محدد؟ عرض التحليلات التاريخية"
   },
   "account_settings": {
     "nav": {
@@ -4005,7 +4032,47 @@
     "verification_pending": "التحقق قيد الانتظار",
     "verifying": "جاري التحقق...",
     "verifying_domain": "جاري التحقق من مجالك...",
-    "whats_happening": "ما الذي يحدث؟"
+    "whats_happening": "ما الذي يحدث؟",
+    "wizard": {
+      "apex_warning": "لا يمكن أن يشير سجل CNAME إلى نطاقك الأساسي (الجذر) — معظم مزودي الخدمة يرفضون ذلك. نوصي باستخدام __SUGGESTION__ بدلاً من ذلك.",
+      "breadcrumb": "مجال مخصص",
+      "close_tab_hint": "يمكنك إغلاق هذه الصفحة — سنواصل التحقق ونرسل لك بريدًا إلكترونيًا عند تفعيله.",
+      "copy_all": "نسخ الكل",
+      "diag_a_only": "تم العثور على سجل A (__IPS__) حيث يلزم وجود CNAME. قم بإزالته وأضف CNAME بدلاً منه.",
+      "diag_aaaa_only": "تم العثور على سجل AAAA (IPv6) حيث يلزم وجود CNAME. قم بإزالته وأضف CNAME بدلاً منه.",
+      "diag_conflict": "سجل CNAME صحيح، لكن لا يزال هناك سجل A قديم قد يؤدي إلى توجيه خاطئ في بعض المحللات.",
+      "diag_error": "تعذر إكمال فحص DNS. سنواصل المحاولة.",
+      "diag_mismatch": "يشير CNAME الخاص بك إلى __DETECTED__؛ يجب أن يشير إلى __EXPECTED__.",
+      "diag_not_configured": "لم يتم العثور على CNAME بعد — هذا أمر طبيعي أثناء انتشار DNS.",
+      "domain_label": "مجالك",
+      "finish_later": "سأتحقق لاحقًا",
+      "how_to_add": "كيف أضيف هذا السجل؟",
+      "invalid_hostname": "أدخل مجالاً صالحًا، مثل status.yourcompany.com",
+      "locked_hint": "يُفتح بمجرد حفظ نطاقك",
+      "open_dashboard": "فتح إعدادات DNS الخاصة بـ __NAME__",
+      "open_page": "افتح صفحة الحالة الخاصة بك",
+      "ownership_required": "التحقق من الملكية مطلوب",
+      "page_subtitle": "استخدم مجالك الخاص لصفحة الحالة الخاصة بك بدلاً من المجال الافتراضي",
+      "provider_detected": "يبدو أن __NAME__ يدير DNS لهذا المجال.",
+      "proxy_warning": "اضبط هذا السجل على \"DNS فقط\" (السحابة الرمادية) بدلاً من الوكيل — سجل DNS عبر الوكيل سيخفي وجهة التوجيه الحقيقية ويقطع الاتصال.",
+      "ssl_help": "عادةً ما يستغرق هذا من 1 إلى 3 دقائق.",
+      "ssl_title": "جارٍ إصدار شهادتك…",
+      "start_watching": "تمت الإضافة — ابدأ المراقبة",
+      "step1_heading": "أدخل مجالك أو النطاق الفرعي",
+      "step1_help": "نوصي باستخدام نطاق فرعي، مثل status.yourcompany.com.",
+      "step1_subtitle": "أدخل المجال المراد ربطه",
+      "step1_title": "مجالك",
+      "step2_heading": "أضف سجل DNS هذا",
+      "step2_subtitle": "أضف CNAME",
+      "step2_title": "سجل DNS",
+      "step3_subtitle": "نتحقق تلقائيًا",
+      "step3_title": "مراقبة DNS",
+      "step4_subtitle": "الشهادة والإطلاق",
+      "step4_title": "الإطلاق",
+      "still_propagating": "لا يزال ينتشر…",
+      "use_subdomain": "استخدم هذا بدلاً من ذلك",
+      "watching_title": "مراقبة DNS الخاص بك…"
+    }
   },
   "downgrade": {
     "alert_title": "مهم:",

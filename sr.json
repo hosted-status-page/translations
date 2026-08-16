@@ -321,8 +321,14 @@
     "loading_data": "Учитавање података аналитике...",
     "max_response_time_title": "Макс. време одзива",
     "no_downtime_detected": "Није откривен прекид рада за овај период.",
+    "retention": {
+      "badge_days": "Задржавање: {{days}} дана",
+      "badge_unlimited": "Задржавање: Неограничено",
+      "locked_tooltip": "Доступно до {{days}} дана на вашем плану"
+    },
     "select_status_page_placeholder": "Изаберите статус страницу…",
-    "time_period_label": "Временски период:"
+    "time_period_label": "Временски период:",
+    "view_historical_cta": "Треба вам одређени временски период? Погледајте историјску аналитику"
   },
   "billing": {
     "actions": {
@@ -2200,6 +2206,11 @@
     "delete_permanent": "Брисање ваше странице статуса је <u>трајно</u>",
     "delete_selected": "Обриши изабране",
     "delete_this_page": "Обриши ову статус страницу",
+    "dependencies": {
+      "search_placeholder": "Претражи добављаче…",
+      "enable_all": "Омогући све",
+      "disable_all": "Онемогући све"
+    },
     "dependencies_help": "Приказује кутије статуса трећих страна изнад ваших група компоненти.",
     "dependencies_section": "Зависности",
     "drag_to_reorder": "Превуците да промените редослед",
@@ -2316,6 +2327,7 @@
     "nav": {
       "components": "Компоненте",
       "edit_status_page": "Уреди статус страницу",
+      "settings": "Подешавања",
       "embeds": "Уграђивања",
       "metrics": "Метрике",
       "new_status_page": "Нова статус страница",
@@ -2423,18 +2435,33 @@
       "tabs": {
         "access": "Приступ",
         "misc": "Остало",
-        "ownership_transfer": "Пренос власништва",
+        "ownership_transfer": "Власништво и брисање",
         "analytics": "Веб аналитика",
         "subscribers": "Претплатници",
         "components": "Компоненте",
         "dependencies": "Зависности",
-        "incidents": "Инциденти",
+        "incidents": "Аутоматизација инцидената",
         "monitors": "Монитори",
         "notifications": "Обавештења",
         "visual": "Визуелно",
-        "announcement": "Банер статусне странице",
-        "servers": "Сервери"
+        "announcement": "Најава",
+        "servers": "Сервери",
+        "general": "Опште",
+        "appearance": "Изглед",
+        "services": "Услуге",
+        "domains": "Домени",
+        "embed": "Уградња"
       },
+      "groups": {
+        "setup": "Подешавање",
+        "page": "Страница",
+        "communication": "Комуникација",
+        "publishing": "Објављивање",
+        "access": "Приступ"
+      },
+      "search_placeholder": "Претражи подешавања…",
+      "language_section": "Језик",
+      "embed_page_section": "Уградите ову страницу",
       "active": "Активно",
       "advanced": "Напредно",
       "auto_create_incident": "Аутоматски креирај инцидент када је монитор НЕАКТИВАН (прво откривање)",
@@ -3955,7 +3982,47 @@
     "verification_pending": "Верфикација на чекању",
     "verifying": "Верфикација...",
     "verifying_domain": "Верфикација вашег домена...",
-    "whats_happening": "Шта се дешава?"
+    "whats_happening": "Шта се дешава?",
+    "wizard": {
+      "apex_warning": "CNAME запис не може да показује на ваш голи домен — већина провајдера то одбија. Препоручујемо __SUGGESTION__ уместо тога.",
+      "breadcrumb": "Прилагођени домен",
+      "close_tab_hint": "Можете затворити ову страницу — наставићемо да проверавамо и обавестићемо вас имејлом када буде активан.",
+      "copy_all": "Копирај све",
+      "diag_a_only": "Пронађен је A запис (__IPS__) тамо где је потребан CNAME. Уклоните га и додајте CNAME уместо тога.",
+      "diag_aaaa_only": "Пронађен је AAAA (IPv6) запис тамо где је потребан CNAME. Уклоните га и додајте CNAME уместо тога.",
+      "diag_conflict": "CNAME је исправан, али и даље постоји застарели A запис који може погрешно усмерити неке резолвере.",
+      "diag_error": "DNS провера није могла да се заврши. Наставићемо да покушавамо.",
+      "diag_mismatch": "Ваш CNAME показује на __DETECTED__; треба да показује на __EXPECTED__.",
+      "diag_not_configured": "CNAME још увек није пронађен — то је нормално док се DNS шири.",
+      "domain_label": "Ваш домен",
+      "finish_later": "Проверићу касније",
+      "how_to_add": "Како да додам овај запис?",
+      "invalid_hostname": "Унесите важећи домен, нпр. status.vasafirma.com",
+      "locked_hint": "Откључава се када сачувате домен",
+      "open_dashboard": "Отвори DNS поставке за __NAME__",
+      "open_page": "Отвори своју статусну страну",
+      "ownership_required": "Потребна је верификација власништва",
+      "page_subtitle": "Користите сопствени домен за своју статусну страну уместо подразумеваног",
+      "provider_detected": "Изгледа да __NAME__ управља DNS-ом овог домена.",
+      "proxy_warning": "Поставите овај запис на „само DNS“ (сиви облак) уместо преко проксија — прокси DNS запис ће сакрити стварно одредиште рутирања и прекинути везу.",
+      "ssl_help": "Ово обично траје 1-3 минута.",
+      "ssl_title": "Издавање вашег сертификата…",
+      "start_watching": "Додато — почни праћење",
+      "step1_heading": "Унесите свој домен или поддомен",
+      "step1_help": "Препоручујемо поддомен, нпр. status.vasafirma.com.",
+      "step1_subtitle": "Унесите домен за повезивање",
+      "step1_title": "Ваш домен",
+      "step2_heading": "Додајте овај DNS запис",
+      "step2_subtitle": "Додај CNAME",
+      "step2_title": "DNS запис",
+      "step3_subtitle": "Проверавамо аутоматски",
+      "step3_title": "Праћење DNS-а",
+      "step4_subtitle": "Сертификат и покретање",
+      "step4_title": "Објави",
+      "still_propagating": "Још увек се шири…",
+      "use_subdomain": "Користи ово уместо тога",
+      "watching_title": "Праћење вашег DNS-а…"
+    }
   },
   "downgrade": {
     "alert_title": "Важно:",

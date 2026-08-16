@@ -779,6 +779,7 @@
       "embeds": "Intégrations",
       "metrics": "Métriques",
       "edit_status_page": "Modifier la page de statut",
+      "settings": "Paramètres",
       "create_status_page": "Créer une page de statut"
     },
     "table": {
@@ -790,7 +791,7 @@
       "save_failed": "Impossible d’enregistrer les paramètres. Veuillez réessayer.",
       "tabs": {
         "access": "Accès",
-        "ownership_transfer": "Transfert de propriété",
+        "ownership_transfer": "Propriété et suppression",
         "misc": "Divers",
         "analytics": "Analytique web",
         "subscribers": "Abonnés",
@@ -800,13 +801,28 @@
         "low_impact": "Impact faible",
         "non_critical": "Non critique",
         "informational": "Informatif",
-        "incidents": "Incidents",
+        "incidents": "Automatisation des incidents",
         "monitors": "Moniteurs",
         "notifications": "Notifications",
+        "general": "Général",
+        "appearance": "Apparence",
+        "services": "Services",
+        "domains": "Domaines",
+        "embed": "Intégration",
         "visual": "Visuel",
-        "announcement": "Bannière de la page de statut",
+        "announcement": "Annonce",
         "servers": "Serveurs"
       },
+      "groups": {
+        "setup": "Configuration",
+        "page": "Page",
+        "communication": "Communication",
+        "publishing": "Publication",
+        "access": "Accès"
+      },
+      "search_placeholder": "Rechercher des paramètres…",
+      "language_section": "Langue",
+      "embed_page_section": "Intégrer cette page",
       "custom_domain": {
         "label": "Domaine personnalisé",
         "actions": {
@@ -1137,6 +1153,11 @@
     "must_enter_exact": "Vous devez entrer",
     "exactly_enable": "exactement pour activer la suppression.",
     "delete_this_page": "Supprimer cette page de statut",
+    "dependencies": {
+      "search_placeholder": "Rechercher des fournisseurs…",
+      "enable_all": "Tout activer",
+      "disable_all": "Tout désactiver"
+    },
     "setup_custom_domain": "Configurer le domaine personnalisé",
     "lifetime": {
       "heading": "💎 Offres à vie",
@@ -3557,8 +3578,14 @@
     "loading_data": "Chargement des données d’analyse...",
     "max_response_time_title": "Temps de réponse max",
     "no_downtime_detected": "Aucune indisponibilité détectée pour cette période.",
+    "retention": {
+      "badge_days": "Rétention : {{days}} jours",
+      "badge_unlimited": "Rétention : Illimitée",
+      "locked_tooltip": "Disponible jusqu'à {{days}} jours sur votre offre"
+    },
     "select_status_page_placeholder": "Sélectionnez une page de statut…",
-    "time_period_label": "Période :"
+    "time_period_label": "Période :",
+    "view_historical_cta": "Besoin d'une période spécifique ? Voir les statistiques historiques"
   },
   "account_settings": {
     "nav": {
@@ -4010,7 +4037,47 @@
     "verification_pending": "Vérification en attente",
     "verifying": "Vérification...",
     "verifying_domain": "Vérification de votre domaine...",
-    "whats_happening": "Que se passe-t-il ?"
+    "whats_happening": "Que se passe-t-il ?",
+    "wizard": {
+      "apex_warning": "Un enregistrement CNAME ne peut pas pointer vers votre domaine nu — la plupart des fournisseurs le refusent. Nous recommandons plutôt __SUGGESTION__.",
+      "breadcrumb": "Domaine personnalisé",
+      "close_tab_hint": "Vous pouvez fermer cette page — nous continuerons à vérifier et vous enverrons un e-mail dès qu'il sera actif.",
+      "copy_all": "Tout copier",
+      "diag_a_only": "Un enregistrement A (__IPS__) a été trouvé alors qu'un CNAME est nécessaire. Supprimez-le et ajoutez un CNAME à la place.",
+      "diag_aaaa_only": "Un enregistrement AAAA (IPv6) a été trouvé alors qu'un CNAME est nécessaire. Supprimez-le et ajoutez un CNAME à la place.",
+      "diag_conflict": "Le CNAME est correct, mais un ancien enregistrement A existe toujours et pourrait mal orienter certains résolveurs.",
+      "diag_error": "La vérification DNS n'a pas pu aboutir. Nous continuons d'essayer.",
+      "diag_mismatch": "Votre CNAME pointe vers __DETECTED__ ; il doit pointer vers __EXPECTED__.",
+      "diag_not_configured": "Aucun CNAME trouvé pour l'instant — c'est normal pendant la propagation DNS.",
+      "domain_label": "Votre domaine",
+      "finish_later": "Je reviendrai plus tard",
+      "how_to_add": "Comment ajouter cet enregistrement ?",
+      "invalid_hostname": "Saisissez un domaine valide, par ex. status.votreentreprise.com",
+      "locked_hint": "Se débloque une fois votre domaine enregistré",
+      "open_dashboard": "Ouvrir les paramètres DNS de __NAME__",
+      "open_page": "Ouvrir votre page de statut",
+      "ownership_required": "Vérification de propriété requise",
+      "page_subtitle": "Utilisez votre propre domaine pour votre page de statut au lieu du domaine par défaut",
+      "provider_detected": "Il semble que __NAME__ gère le DNS de ce domaine.",
+      "proxy_warning": "Définissez cet enregistrement sur « DNS uniquement » (nuage gris) plutôt que proxifié — un enregistrement DNS proxifié masquera la véritable cible de routage et rompra la connexion.",
+      "ssl_help": "Cela prend généralement 1 à 3 minutes.",
+      "ssl_title": "Provisionnement de votre certificat…",
+      "start_watching": "Ajouté — commencer la surveillance",
+      "step1_heading": "Entrez votre domaine ou sous-domaine",
+      "step1_help": "Nous recommandons un sous-domaine, par ex. status.votreentreprise.com.",
+      "step1_subtitle": "Entrez le domaine à connecter",
+      "step1_title": "Votre domaine",
+      "step2_heading": "Ajoutez cet enregistrement DNS",
+      "step2_subtitle": "Ajouter le CNAME",
+      "step2_title": "Enregistrement DNS",
+      "step3_subtitle": "Nous vérifions automatiquement",
+      "step3_title": "Surveillance du DNS",
+      "step4_subtitle": "Certificat et lancement",
+      "step4_title": "Mise en ligne",
+      "still_propagating": "Propagation en cours…",
+      "use_subdomain": "Utiliser ceci à la place",
+      "watching_title": "Surveillance de votre DNS…"
+    }
   },
   "downgrade": {
     "alert_title": "Important :",
