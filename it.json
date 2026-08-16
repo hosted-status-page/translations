@@ -1025,7 +1025,21 @@
       "importing_hint": "Per account di grandi dimensioni può richiedere alcuni minuti. Puoi lasciare questa pagina: l'importazione continuerà in background.",
       "import_complete": "Importazione completata",
       "view_status_page": "Visualizza pagina di stato",
-      "start_over": "Ricomincia"
+      "start_over": "Ricomincia",
+      "existing_warning_prefix": "Questa pagina ha già",
+      "existing_warning_suffix": "L'importazione si aggiungerà a questi elementi e potrebbe creare duplicati.",
+      "wipe_checkbox_prefix": "Elimina",
+      "wipe_checkbox_suffix": "esistenti su questa pagina prima dell'importazione",
+      "wipe_confirm_prefix": "Digita",
+      "wipe_confirm_suffix": "per confermare",
+      "wipe_swal_warning": "I dati esistenti su questa pagina verranno prima eliminati definitivamente — questa azione non può essere annullata.",
+      "entity_components": "componenti",
+      "entity_incidents": "incidenti",
+      "entity_maintenances": "finestre di manutenzione",
+      "entity_monitors": "monitor",
+      "suggest_banner_text": "Stai migrando da un altro provider? Importa i tuoi dati esistenti invece di ricominciare da zero.",
+      "suggest_banner_cta": "Importa i tuoi dati",
+      "continue_onboarding": "Continua"
     }
   },
   "incidents": {
@@ -4240,7 +4254,15 @@
   },
   "onboarding": {
     "create_your_status_page": "Crea la tua status page",
-    "do_this_later": "Lo farò più tardi"
+    "do_this_later": "Lo farò più tardi",
+    "page_type_import": "Migrazione da un altro provider",
+    "page_type_import_desc": "Hai già tutto configurato altrove? Salta la creazione da zero — importa i tuoi componenti, incidenti e monitor subito dopo la creazione di questa pagina.",
+    "orientation_incidents": "Incidenti",
+    "orientation_maintenance": "Manutenzione",
+    "orientation_settings": "Impostazioni",
+    "orientation_components": "Componenti",
+    "orientation_oncall": "Reperibilità",
+    "orientation_notifications": "Notifiche"
   },
   "postmortems": {
     "current_date_format": "Data attuale (2 gen 2006)",

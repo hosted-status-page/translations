@@ -1558,7 +1558,21 @@
       "importing_hint": "Isso pode levar alguns minutos em contas grandes. Você pode sair desta página — a importação continuará em segundo plano.",
       "import_complete": "Importação concluída",
       "view_status_page": "Ver página de status",
-      "start_over": "Começar de novo"
+      "start_over": "Começar de novo",
+      "existing_warning_prefix": "Esta página já possui",
+      "existing_warning_suffix": "A importação será adicionada a eles e pode criar duplicatas.",
+      "wipe_checkbox_prefix": "Excluir",
+      "wipe_checkbox_suffix": "existentes nesta página antes de importar",
+      "wipe_confirm_prefix": "Digite",
+      "wipe_confirm_suffix": "para confirmar",
+      "wipe_swal_warning": "Os dados existentes nesta página serão excluídos permanentemente primeiro — isso não pode ser desfeito.",
+      "entity_components": "componentes",
+      "entity_incidents": "incidentes",
+      "entity_maintenances": "janelas de manutenção",
+      "entity_monitors": "monitores",
+      "suggest_banner_text": "Migrando de outro provedor? Importe seus dados existentes em vez de configurar do zero.",
+      "suggest_banner_cta": "Importar seus dados",
+      "continue_onboarding": "Continuar"
     }
   },
   "incidents": {
@@ -4228,7 +4242,15 @@
   },
   "onboarding": {
     "create_your_status_page": "Crie sua página de status",
-    "do_this_later": "Fazer isso depois"
+    "do_this_later": "Fazer isso depois",
+    "page_type_import": "Migrando de outro provedor",
+    "page_type_import_desc": "Já tem tudo configurado em outro lugar? Pule a criação do zero — importe seus componentes, incidentes e monitores logo após criar esta página.",
+    "orientation_incidents": "Incidentes",
+    "orientation_maintenance": "Manutenção",
+    "orientation_settings": "Configurações",
+    "orientation_components": "Componentes",
+    "orientation_oncall": "Plantão",
+    "orientation_notifications": "Notificações"
   },
   "postmortems": {
     "current_date_format": "Data atual (2 de jan de 2006)",

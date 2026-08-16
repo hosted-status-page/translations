@@ -1013,7 +1013,21 @@
       "importing_hint": "Detta kan ta några minuter för stora konton. Du kan lämna sidan — importen fortsätter i bakgrunden.",
       "import_complete": "Import klar",
       "view_status_page": "Visa statussida",
-      "start_over": "Börja om"
+      "start_over": "Börja om",
+      "existing_warning_prefix": "Den här sidan har redan",
+      "existing_warning_suffix": "Importen läggs till utöver dem och kan skapa dubbletter.",
+      "wipe_checkbox_prefix": "Ta bort befintliga",
+      "wipe_checkbox_suffix": "på den här sidan före import",
+      "wipe_confirm_prefix": "Skriv",
+      "wipe_confirm_suffix": "för att bekräfta",
+      "wipe_swal_warning": "Befintlig data på den här sidan raderas permanent först — detta kan inte ångras.",
+      "entity_components": "komponenter",
+      "entity_incidents": "incidenter",
+      "entity_maintenances": "underhållsfönster",
+      "entity_monitors": "monitorer",
+      "suggest_banner_text": "Migrerar du från en annan leverantör? Importera din befintliga data i stället för att börja om från början.",
+      "suggest_banner_cta": "Importera din data",
+      "continue_onboarding": "Fortsätt"
     }
   },
   "incidents": {
@@ -4190,7 +4204,15 @@
   },
   "onboarding": {
     "create_your_status_page": "Skapa din status sida",
-    "do_this_later": "Gör detta senare"
+    "do_this_later": "Gör detta senare",
+    "page_type_import": "Migrerar från en annan leverantör",
+    "page_type_import_desc": "Redan konfigurerat någon annanstans? Hoppa över att bygga från grunden — importera dina komponenter, incidenter och monitorer direkt efter att sidan skapats.",
+    "orientation_incidents": "Incidenter",
+    "orientation_maintenance": "Underhåll",
+    "orientation_settings": "Inställningar",
+    "orientation_components": "Komponenter",
+    "orientation_oncall": "Jour",
+    "orientation_notifications": "Aviseringar"
   },
   "postmortems": {
     "current_date_format": "Nuvarande datum (Jan 2, 2006)",

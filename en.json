@@ -1027,7 +1027,21 @@
       "importing_hint": "This can take a few minutes for large accounts. You can leave this page — the import keeps running.",
       "import_complete": "Import complete",
       "view_status_page": "View status page",
-      "start_over": "Start over"
+      "start_over": "Start over",
+      "existing_warning_prefix": "This page already has",
+      "existing_warning_suffix": "Importing will add alongside them and may create duplicates.",
+      "wipe_checkbox_prefix": "Delete existing",
+      "wipe_checkbox_suffix": "on this page before importing",
+      "wipe_confirm_prefix": "Type",
+      "wipe_confirm_suffix": "to confirm",
+      "wipe_swal_warning": "Existing data on this page will be permanently deleted first — this cannot be undone.",
+      "entity_components": "components",
+      "entity_incidents": "incidents",
+      "entity_maintenances": "maintenance windows",
+      "entity_monitors": "monitors",
+      "suggest_banner_text": "Migrating from another provider? Import your existing data instead of setting up from scratch.",
+      "suggest_banner_cta": "Import your data",
+      "continue_onboarding": "Continue"
     }
   },
   "incidents": {
@@ -4244,7 +4258,15 @@
   },
   "onboarding": {
     "create_your_status_page": "Create Your Status Page",
-    "do_this_later": "Do this later"
+    "do_this_later": "Do this later",
+    "page_type_import": "Migrating from another provider",
+    "page_type_import_desc": "Already set up elsewhere? Skip building from scratch — import your components, incidents, and monitors right after this page is created.",
+    "orientation_incidents": "Incidents",
+    "orientation_maintenance": "Maintenance",
+    "orientation_settings": "Settings",
+    "orientation_components": "Components",
+    "orientation_oncall": "On-Call",
+    "orientation_notifications": "Notifications"
   },
   "postmortems": {
     "current_date_format": "Current date (Jan 2, 2006)",

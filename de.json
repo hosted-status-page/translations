@@ -1558,7 +1558,21 @@
       "importing_hint": "Bei großen Konten kann dies einige Minuten dauern. Du kannst diese Seite verlassen — der Import läuft im Hintergrund weiter.",
       "import_complete": "Import abgeschlossen",
       "view_status_page": "Statusseite ansehen",
-      "start_over": "Von vorn beginnen"
+      "start_over": "Von vorn beginnen",
+      "existing_warning_prefix": "Diese Seite enthält bereits",
+      "existing_warning_suffix": "Der Import fügt Daten zusätzlich hinzu und kann Duplikate erzeugen.",
+      "wipe_checkbox_prefix": "Vorhandene",
+      "wipe_checkbox_suffix": "auf dieser Seite vor dem Import löschen",
+      "wipe_confirm_prefix": "Gib",
+      "wipe_confirm_suffix": "ein, um zu bestätigen",
+      "wipe_swal_warning": "Vorhandene Daten auf dieser Seite werden zuerst endgültig gelöscht — das kann nicht rückgängig gemacht werden.",
+      "entity_components": "Komponenten",
+      "entity_incidents": "Vorfälle",
+      "entity_maintenances": "Wartungsfenster",
+      "entity_monitors": "Monitore",
+      "suggest_banner_text": "Migrierst du von einem anderen Anbieter? Importiere deine vorhandenen Daten, statt von vorn zu beginnen.",
+      "suggest_banner_cta": "Daten importieren",
+      "continue_onboarding": "Weiter"
     }
   },
   "incidents": {
@@ -4229,7 +4243,15 @@
   },
   "onboarding": {
     "create_your_status_page": "Erstellen Sie Ihre Statusseite",
-    "do_this_later": "Später erledigen"
+    "do_this_later": "Später erledigen",
+    "page_type_import": "Migration von einem anderen Anbieter",
+    "page_type_import_desc": "Schon anderswo eingerichtet? Überspringe den Aufbau von Grund auf — importiere deine Komponenten, Vorfälle und Monitore direkt nach dem Erstellen dieser Seite.",
+    "orientation_incidents": "Vorfälle",
+    "orientation_maintenance": "Wartung",
+    "orientation_settings": "Einstellungen",
+    "orientation_components": "Komponenten",
+    "orientation_oncall": "Bereitschaftsdienst",
+    "orientation_notifications": "Benachrichtigungen"
   },
   "postmortems": {
     "current_date_format": "Aktuelles Datum (2. Jan. 2006)",

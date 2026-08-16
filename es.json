@@ -1562,7 +1562,21 @@
       "importing_hint": "Esto puede tardar unos minutos en cuentas grandes. Puedes salir de esta página: la importación seguirá en curso.",
       "import_complete": "Importación completada",
       "view_status_page": "Ver página de estado",
-      "start_over": "Empezar de nuevo"
+      "start_over": "Empezar de nuevo",
+      "existing_warning_prefix": "Esta página ya tiene",
+      "existing_warning_suffix": "La importación se añadirá junto a ellos y podría crear duplicados.",
+      "wipe_checkbox_prefix": "Eliminar",
+      "wipe_checkbox_suffix": "existentes en esta página antes de importar",
+      "wipe_confirm_prefix": "Escribe",
+      "wipe_confirm_suffix": "para confirmar",
+      "wipe_swal_warning": "Los datos existentes en esta página se eliminarán primero de forma permanente; esto no se puede deshacer.",
+      "entity_components": "componentes",
+      "entity_incidents": "incidentes",
+      "entity_maintenances": "ventanas de mantenimiento",
+      "entity_monitors": "monitores",
+      "suggest_banner_text": "¿Estás migrando desde otro proveedor? Importa tus datos existentes en lugar de empezar desde cero.",
+      "suggest_banner_cta": "Importar tus datos",
+      "continue_onboarding": "Continuar"
     }
   },
   "incidents": {
@@ -4235,7 +4249,15 @@
   },
   "onboarding": {
     "create_your_status_page": "Crear su página de estado",
-    "do_this_later": "Haz esto más tarde"
+    "do_this_later": "Haz esto más tarde",
+    "page_type_import": "Migrando desde otro proveedor",
+    "page_type_import_desc": "¿Ya lo tienes configurado en otro sitio? Sáltate empezar desde cero — importa tus componentes, incidentes y monitores justo después de crear esta página.",
+    "orientation_incidents": "Incidentes",
+    "orientation_maintenance": "Mantenimiento",
+    "orientation_settings": "Ajustes",
+    "orientation_components": "Componentes",
+    "orientation_oncall": "Guardia",
+    "orientation_notifications": "Notificaciones"
   },
   "postmortems": {
     "current_date_format": "Fecha actual (Jan 2, 2006)",

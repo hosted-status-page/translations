@@ -996,7 +996,21 @@
       "importing_hint": "За велике налоге ово може потрајати неколико минута. Можете напустити ову страницу — увоз ће се наставити у позадини.",
       "import_complete": "Увоз завршен",
       "view_status_page": "Прикажи статусну страницу",
-      "start_over": "Почни изнова"
+      "start_over": "Почни изнова",
+      "existing_warning_prefix": "Ова страница већ има",
+      "existing_warning_suffix": "Увоз ће се додати уз постојеће податке и може направити дупликате.",
+      "wipe_checkbox_prefix": "Обриши постојеће",
+      "wipe_checkbox_suffix": "на овој страници пре увоза",
+      "wipe_confirm_prefix": "Упиши",
+      "wipe_confirm_suffix": "да потврдиш",
+      "wipe_swal_warning": "Постојећи подаци на овој страници биће прво трајно обрисани — ово се не може поништити.",
+      "entity_components": "компоненти",
+      "entity_incidents": "инцидената",
+      "entity_maintenances": "прозора одржавања",
+      "entity_monitors": "монитора",
+      "suggest_banner_text": "Мигрирате са другог провајдера? Увезите постојеће податке уместо подешавања од нуле.",
+      "suggest_banner_cta": "Увези своје податке",
+      "continue_onboarding": "Настави"
     }
   },
   "incidents": {
@@ -4191,7 +4205,15 @@
   },
   "onboarding": {
     "create_your_status_page": "Креирајте своју статус страницу",
-    "do_this_later": "Уради ово касније"
+    "do_this_later": "Уради ово касније",
+    "page_type_import": "Миграција са другог провајдера",
+    "page_type_import_desc": "Већ имате подешено негде другде? Прескочите изградњу од нуле — увезите компоненте, инциденте и мониторе одмах након што се ова страница направи.",
+    "orientation_incidents": "Инциденти",
+    "orientation_maintenance": "Одржавање",
+    "orientation_settings": "Подешавања",
+    "orientation_components": "Компоненте",
+    "orientation_oncall": "Дежурство",
+    "orientation_notifications": "Обавештења"
   },
   "postmortems": {
     "current_date_format": "Тренутни датум (2. јануар 2006)",

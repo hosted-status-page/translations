@@ -1353,7 +1353,21 @@
       "importing_hint": "Kod velikih računa ovo može potrajati nekoliko minuta. Možete napustiti ovu stranicu — uvoz će se nastaviti u pozadini.",
       "import_complete": "Uvoz dovršen",
       "view_status_page": "Pogledaj stranicu statusa",
-      "start_over": "Počni ispočetka"
+      "start_over": "Počni ispočetka",
+      "existing_warning_prefix": "Ova stranica već ima",
+      "existing_warning_suffix": "Uvoz će se dodati uz postojeće podatke i može stvoriti duplikate.",
+      "wipe_checkbox_prefix": "Izbriši postojeće",
+      "wipe_checkbox_suffix": "na ovoj stranici prije uvoza",
+      "wipe_confirm_prefix": "Upišite",
+      "wipe_confirm_suffix": "za potvrdu",
+      "wipe_swal_warning": "Postojeći podaci na ovoj stranici prvo će biti trajno izbrisani — ovo se ne može poništiti.",
+      "entity_components": "komponenti",
+      "entity_incidents": "incidenata",
+      "entity_maintenances": "prozora održavanja",
+      "entity_monitors": "monitora",
+      "suggest_banner_text": "Migrirate s drugog pružatelja usluge? Uvezite postojeće podatke umjesto postavljanja od nule.",
+      "suggest_banner_cta": "Uvezi svoje podatke",
+      "continue_onboarding": "Nastavi"
     }
   },
   "incidents": {
@@ -4530,7 +4544,15 @@
   },
   "onboarding": {
     "create_your_status_page": "Napravite svoju stranicu statusa",
-    "do_this_later": "Uradi ovo kasnije"
+    "do_this_later": "Uradi ovo kasnije",
+    "page_type_import": "Migracija s drugog pružatelja usluge",
+    "page_type_import_desc": "Već imate postavljeno negdje drugdje? Preskočite izgradnju od nule — uvezite komponente, incidente i monitore odmah nakon što se ova stranica izradi.",
+    "orientation_incidents": "Incidenti",
+    "orientation_maintenance": "Održavanje",
+    "orientation_settings": "Postavke",
+    "orientation_components": "Komponente",
+    "orientation_oncall": "Dežurstvo",
+    "orientation_notifications": "Obavijesti"
   },
   "postmortems": {
     "current_date_format": "Trenutni datum (2. januar 2006)",

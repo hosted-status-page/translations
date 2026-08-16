@@ -1558,7 +1558,21 @@
       "importing_hint": "قد يستغرق هذا بضع دقائق للحسابات الكبيرة. يمكنك مغادرة هذه الصفحة — سيستمر الاستيراد في العمل.",
       "import_complete": "اكتمل الاستيراد",
       "view_status_page": "عرض صفحة الحالة",
-      "start_over": "البدء من جديد"
+      "start_over": "البدء من جديد",
+      "existing_warning_prefix": "هذه الصفحة تحتوي بالفعل على",
+      "existing_warning_suffix": "سيضيف الاستيراد بياناتك إليها وقد ينشئ عناصر مكررة.",
+      "wipe_checkbox_prefix": "حذف",
+      "wipe_checkbox_suffix": "الموجودة على هذه الصفحة قبل الاستيراد",
+      "wipe_confirm_prefix": "اكتب",
+      "wipe_confirm_suffix": "للتأكيد",
+      "wipe_swal_warning": "سيتم حذف البيانات الموجودة على هذه الصفحة نهائيًا أولاً — لا يمكن التراجع عن هذا.",
+      "entity_components": "مكونات",
+      "entity_incidents": "حوادث",
+      "entity_maintenances": "نوافذ صيانة",
+      "entity_monitors": "مراقبات",
+      "suggest_banner_text": "هل تنتقل من مزود آخر؟ استورد بياناتك الحالية بدلاً من الإعداد من الصفر.",
+      "suggest_banner_cta": "استيراد بياناتك",
+      "continue_onboarding": "متابعة"
     }
   },
   "incidents": {
@@ -4241,7 +4255,15 @@
   },
   "onboarding": {
     "create_your_status_page": "أنشئ صفحة الحالة الخاصة بك",
-    "do_this_later": "افعل هذا لاحقًا"
+    "do_this_later": "افعل هذا لاحقًا",
+    "page_type_import": "الترحيل من مزود آخر",
+    "page_type_import_desc": "لديك إعداد بالفعل في مكان آخر؟ تخطَّ البناء من الصفر — استورد مكوناتك وحوادثك ومراقباتك مباشرة بعد إنشاء هذه الصفحة.",
+    "orientation_incidents": "الحوادث",
+    "orientation_maintenance": "الصيانة",
+    "orientation_settings": "الإعدادات",
+    "orientation_components": "المكونات",
+    "orientation_oncall": "المناوبة",
+    "orientation_notifications": "الإشعارات"
   },
   "postmortems": {
     "current_date_format": "التاريخ الحالي (2 يناير 2006)",
