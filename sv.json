@@ -990,6 +990,32 @@
       "title": "Felsökare"
     }
   },
+  "import": {
+    "wizard": {
+      "breadcrumb": "Migrera från en annan leverantör",
+      "title": "Migrera från en annan leverantör",
+      "subtitle": "Importera dina komponenter, incidenter och underhållshistorik från Instatus, StatusPage.io, Hyperping, UptimeRobot eller Uptime.com. Detta är en engångsimport — den förblir inte synkroniserad.",
+      "step1_short": "Leverantör",
+      "step2_short": "Anslut",
+      "step3_short": "Förhandsgranskning",
+      "step4_short": "Import",
+      "pick_provider": "Vilken leverantör migrerar du från?",
+      "connect_title": "Anslut ditt konto",
+      "credentials_notice": "Din API-nyckel används endast för denna engångsimport och sparas aldrig. Den hålls i minnet under guidens gång och kastas när importen är klar.",
+      "api_key_label": "API-nyckel",
+      "page_id_label": "Sid-ID",
+      "subdomain_label": "Sid-ID / underdomän",
+      "validate_continue": "Validera och fortsätt",
+      "preview_title": "Vad vi hittade",
+      "include_history": "Importera även historisk drifttidsdata för monitorer",
+      "start_import": "Starta import",
+      "importing": "Importerar dina data…",
+      "importing_hint": "Detta kan ta några minuter för stora konton. Du kan lämna sidan — importen fortsätter i bakgrunden.",
+      "import_complete": "Import klar",
+      "view_status_page": "Visa statussida",
+      "start_over": "Börja om"
+    }
+  },
   "incidents": {
     "add_status_update": "Lägg till statusuppdatering",
     "add_update": "Lägg till uppdatering",
@@ -2385,6 +2411,7 @@
     "select_primary_help": "Välj den primära domänen för din statussida. Besökare kommer att omdirigeras till denna domän.",
     "send_transfer_invitation": "Skicka överföring inbjudan",
     "settings": {
+      "migrate_from_provider": "Migrera från en annan leverantör",
       "custom_domain": {
         "actions": {
           "removing": "Ta bort anpassad domän...",

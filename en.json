@@ -1004,6 +1004,32 @@
     },
     "user_agent": "User-Agent"
   },
+  "import": {
+    "wizard": {
+      "breadcrumb": "Migrate from another provider",
+      "title": "Migrate from another provider",
+      "subtitle": "Pull your components, incidents, and maintenance history in from Instatus, StatusPage.io, Hyperping, UptimeRobot, or Uptime.com. This is a one-time import — it does not stay in sync.",
+      "step1_short": "Provider",
+      "step2_short": "Connect",
+      "step3_short": "Preview",
+      "step4_short": "Import",
+      "pick_provider": "Which provider are you migrating from?",
+      "connect_title": "Connect your account",
+      "credentials_notice": "Your API key is used only for this one-time import and is never stored. It is held in memory for the duration of this wizard and discarded once the import finishes.",
+      "api_key_label": "API key",
+      "page_id_label": "Page ID",
+      "subdomain_label": "Page ID / subdomain",
+      "validate_continue": "Validate & continue",
+      "preview_title": "What we found",
+      "include_history": "Also import historical uptime data for monitors",
+      "start_import": "Start import",
+      "importing": "Importing your data…",
+      "importing_hint": "This can take a few minutes for large accounts. You can leave this page — the import keeps running.",
+      "import_complete": "Import complete",
+      "view_status_page": "View status page",
+      "start_over": "Start over"
+    }
+  },
   "incidents": {
     "add_status_update": "Add Status Update",
     "add_update": "Add Update",
@@ -2396,6 +2422,7 @@
     "select_primary_help": "Select the primary domain for your status page. Visitors will be redirected to this domain.",
     "send_transfer_invitation": "Send transfer invitation",
     "settings": {
+      "migrate_from_provider": "Migrate from another provider",
       "custom_domain": {
         "actions": {
           "removing": "Removing custom domain...",

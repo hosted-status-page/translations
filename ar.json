@@ -818,6 +818,7 @@
       "search_placeholder": "البحث في الإعدادات…",
       "language_section": "اللغة",
       "embed_page_section": "تضمين هذه الصفحة",
+      "migrate_from_provider": "الترحيل من مزود آخر",
       "custom_domain": {
         "label": "النطاق المخصص",
         "actions": {
@@ -1533,6 +1534,32 @@
     "performance_tracking": "تتبع الأداء",
     "select_placeholder": "اختر خدمة لتهيئة الحقول المطلوبة.",
     "select_status_page_and_refresh": "اختر صفحة حالة وانقر على تحديث."
+  },
+  "import": {
+    "wizard": {
+      "breadcrumb": "الترحيل من مزود آخر",
+      "title": "الترحيل من مزود آخر",
+      "subtitle": "استورد المكونات والحوادث وسجل الصيانة من Instatus أو StatusPage.io أو Hyperping أو UptimeRobot أو Uptime.com. هذا استيراد لمرة واحدة فقط — لا يبقى متزامنًا.",
+      "step1_short": "المزوّد",
+      "step2_short": "الاتصال",
+      "step3_short": "معاينة",
+      "step4_short": "الاستيراد",
+      "pick_provider": "من أي مزود تريد الترحيل؟",
+      "connect_title": "اربط حسابك",
+      "credentials_notice": "يُستخدم مفتاح API الخاص بك فقط لهذا الاستيراد لمرة واحدة ولا يتم تخزينه أبدًا. يُحتفظ به في الذاكرة طوال مدة هذا المعالج ويُحذف فور انتهاء الاستيراد.",
+      "api_key_label": "مفتاح API",
+      "page_id_label": "معرّف الصفحة",
+      "subdomain_label": "معرّف الصفحة / النطاق الفرعي",
+      "validate_continue": "تحقق ومتابعة",
+      "preview_title": "ما الذي وجدناه",
+      "include_history": "استيراد بيانات وقت التشغيل التاريخية للمراقبات أيضًا",
+      "start_import": "بدء الاستيراد",
+      "importing": "جارٍ استيراد بياناتك…",
+      "importing_hint": "قد يستغرق هذا بضع دقائق للحسابات الكبيرة. يمكنك مغادرة هذه الصفحة — سيستمر الاستيراد في العمل.",
+      "import_complete": "اكتمل الاستيراد",
+      "view_status_page": "عرض صفحة الحالة",
+      "start_over": "البدء من جديد"
+    }
   },
   "incidents": {
     "nav": {

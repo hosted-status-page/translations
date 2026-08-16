@@ -823,6 +823,7 @@
       "search_placeholder": "Rechercher des paramètres…",
       "language_section": "Langue",
       "embed_page_section": "Intégrer cette page",
+      "migrate_from_provider": "Migrer depuis un autre fournisseur",
       "custom_domain": {
         "label": "Domaine personnalisé",
         "actions": {
@@ -1538,6 +1539,32 @@
     "performance_tracking": "Suivi des performances",
     "select_placeholder": "Sélectionnez un service pour configurer les champs requis.",
     "select_status_page_and_refresh": "Sélectionnez une page de statut et cliquez sur Actualiser."
+  },
+  "import": {
+    "wizard": {
+      "breadcrumb": "Migrer depuis un autre fournisseur",
+      "title": "Migrer depuis un autre fournisseur",
+      "subtitle": "Importez vos composants, incidents et historique de maintenance depuis Instatus, StatusPage.io, Hyperping, UptimeRobot ou Uptime.com. Il s'agit d'un import ponctuel : il ne reste pas synchronisé.",
+      "step1_short": "Fournisseur",
+      "step2_short": "Connexion",
+      "step3_short": "Aperçu",
+      "step4_short": "Import",
+      "pick_provider": "Depuis quel fournisseur migrez-vous ?",
+      "connect_title": "Connectez votre compte",
+      "credentials_notice": "Votre clé API n'est utilisée que pour cet import ponctuel et n'est jamais stockée. Elle reste en mémoire le temps de cet assistant et est supprimée une fois l'import terminé.",
+      "api_key_label": "Clé API",
+      "page_id_label": "ID de page",
+      "subdomain_label": "ID de page / sous-domaine",
+      "validate_continue": "Valider et continuer",
+      "preview_title": "Ce que nous avons trouvé",
+      "include_history": "Importer aussi l'historique de disponibilité des moniteurs",
+      "start_import": "Démarrer l'import",
+      "importing": "Import de vos données en cours…",
+      "importing_hint": "Cela peut prendre quelques minutes pour les comptes volumineux. Vous pouvez quitter cette page : l'import continuera en arrière-plan.",
+      "import_complete": "Import terminé",
+      "view_status_page": "Voir la page de statut",
+      "start_over": "Recommencer"
+    }
   },
   "incidents": {
     "nav": {

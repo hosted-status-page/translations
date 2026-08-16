@@ -822,6 +822,7 @@
       "search_placeholder": "Buscar ajustes…",
       "language_section": "Idioma",
       "embed_page_section": "Insertar esta página",
+      "migrate_from_provider": "Migrar desde otro proveedor",
       "custom_domain": {
         "label": "Dominio Personalizado",
         "actions": {
@@ -1537,6 +1538,32 @@
     "performance_tracking": "Seguimiento del desempeño",
     "select_placeholder": "Seleccione un servicio para configurar los campos requeridos.",
     "select_status_page_and_refresh": "Seleccione una página de estado y haga clic en Refresh."
+  },
+  "import": {
+    "wizard": {
+      "breadcrumb": "Migrar desde otro proveedor",
+      "title": "Migrar desde otro proveedor",
+      "subtitle": "Importa tus componentes, incidentes e historial de mantenimiento desde Instatus, StatusPage.io, Hyperping, UptimeRobot o Uptime.com. Esta es una importación única: no se mantiene sincronizada.",
+      "step1_short": "Proveedor",
+      "step2_short": "Conectar",
+      "step3_short": "Vista previa",
+      "step4_short": "Importar",
+      "pick_provider": "¿Desde qué proveedor vas a migrar?",
+      "connect_title": "Conecta tu cuenta",
+      "credentials_notice": "Tu clave de API se usa solo para esta importación única y nunca se almacena. Se mantiene en memoria durante este asistente y se descarta al finalizar la importación.",
+      "api_key_label": "Clave de API",
+      "page_id_label": "ID de página",
+      "subdomain_label": "ID de página / subdominio",
+      "validate_continue": "Validar y continuar",
+      "preview_title": "Lo que encontramos",
+      "include_history": "Importar también el historial de tiempo de actividad de los monitores",
+      "start_import": "Iniciar importación",
+      "importing": "Importando tus datos…",
+      "importing_hint": "Esto puede tardar unos minutos en cuentas grandes. Puedes salir de esta página: la importación seguirá en curso.",
+      "import_complete": "Importación completada",
+      "view_status_page": "Ver página de estado",
+      "start_over": "Empezar de nuevo"
+    }
   },
   "incidents": {
     "nav": {

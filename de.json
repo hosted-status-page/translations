@@ -818,6 +818,7 @@
       "search_placeholder": "Einstellungen durchsuchen…",
       "language_section": "Sprache",
       "embed_page_section": "Diese Seite einbetten",
+      "migrate_from_provider": "Von einem anderen Anbieter migrieren",
       "custom_domain": {
         "label": "Benutzerdefinierte Domain",
         "actions": {
@@ -1533,6 +1534,32 @@
     "performance_tracking": "Performance-Tracking",
     "select_placeholder": "Wählen Sie einen Dienst aus, um erforderliche Felder zu konfigurieren.",
     "select_status_page_and_refresh": "Wählen Sie eine Statusseite aus und klicken Sie auf Aktualisieren."
+  },
+  "import": {
+    "wizard": {
+      "breadcrumb": "Von einem anderen Anbieter migrieren",
+      "title": "Von einem anderen Anbieter migrieren",
+      "subtitle": "Importiere deine Komponenten, Vorfälle und Wartungshistorie aus Instatus, StatusPage.io, Hyperping, UptimeRobot oder Uptime.com. Dies ist ein einmaliger Import — er bleibt nicht synchron.",
+      "step1_short": "Anbieter",
+      "step2_short": "Verbinden",
+      "step3_short": "Vorschau",
+      "step4_short": "Import",
+      "pick_provider": "Von welchem Anbieter migrierst du?",
+      "connect_title": "Konto verbinden",
+      "credentials_notice": "Dein API-Schlüssel wird nur für diesen einmaligen Import verwendet und niemals gespeichert. Er wird nur für die Dauer dieses Assistenten im Arbeitsspeicher gehalten und nach Abschluss des Imports verworfen.",
+      "api_key_label": "API-Schlüssel",
+      "page_id_label": "Seiten-ID",
+      "subdomain_label": "Seiten-ID / Subdomain",
+      "validate_continue": "Prüfen & fortfahren",
+      "preview_title": "Was wir gefunden haben",
+      "include_history": "Auch historische Verfügbarkeitsdaten für Monitore importieren",
+      "start_import": "Import starten",
+      "importing": "Deine Daten werden importiert …",
+      "importing_hint": "Bei großen Konten kann dies einige Minuten dauern. Du kannst diese Seite verlassen — der Import läuft im Hintergrund weiter.",
+      "import_complete": "Import abgeschlossen",
+      "view_status_page": "Statusseite ansehen",
+      "start_over": "Von vorn beginnen"
+    }
   },
   "incidents": {
     "nav": {

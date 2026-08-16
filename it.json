@@ -1002,6 +1002,32 @@
       "title": "Risoluzione problemi"
     }
   },
+  "import": {
+    "wizard": {
+      "breadcrumb": "Migra da un altro provider",
+      "title": "Migra da un altro provider",
+      "subtitle": "Importa componenti, incidenti e cronologia della manutenzione da Instatus, StatusPage.io, Hyperping, UptimeRobot o Uptime.com. Si tratta di un'importazione una tantum: non resta sincronizzata.",
+      "step1_short": "Provider",
+      "step2_short": "Connessione",
+      "step3_short": "Anteprima",
+      "step4_short": "Importa",
+      "pick_provider": "Da quale provider stai migrando?",
+      "connect_title": "Collega il tuo account",
+      "credentials_notice": "La tua chiave API viene usata solo per questa importazione una tantum e non viene mai memorizzata. Resta in memoria per la durata di questa procedura guidata e viene eliminata al termine dell'importazione.",
+      "api_key_label": "Chiave API",
+      "page_id_label": "ID pagina",
+      "subdomain_label": "ID pagina / sottodominio",
+      "validate_continue": "Convalida e continua",
+      "preview_title": "Cosa abbiamo trovato",
+      "include_history": "Importa anche i dati storici di uptime dei monitor",
+      "start_import": "Avvia importazione",
+      "importing": "Importazione dei dati in corso…",
+      "importing_hint": "Per account di grandi dimensioni può richiedere alcuni minuti. Puoi lasciare questa pagina: l'importazione continuerà in background.",
+      "import_complete": "Importazione completata",
+      "view_status_page": "Visualizza pagina di stato",
+      "start_over": "Ricomincia"
+    }
+  },
   "incidents": {
     "add_status_update": "Aggiungi aggiornamento di stato",
     "add_update": "Aggiungi aggiornamento",
@@ -2396,6 +2422,7 @@
     "select_primary_help": "Seleziona il dominio primario per la tua status page. I visitatori verranno reindirizzati a questo dominio.",
     "send_transfer_invitation": "Invia invito al trasferimento",
     "settings": {
+      "migrate_from_provider": "Migra da un altro provider",
       "custom_domain": {
         "actions": {
           "removing": "Rimozione dominio personalizzato...",

@@ -1330,6 +1330,32 @@
       "title": "Rješavanje problema"
     }
   },
+  "import": {
+    "wizard": {
+      "breadcrumb": "Migracija s drugog pružatelja usluge",
+      "title": "Migracija s drugog pružatelja usluge",
+      "subtitle": "Uvezite komponente, incidente i povijest održavanja s Instatusa, StatusPage.io, Hyperpinga, UptimeRobota ili Uptime.com. Ovo je jednokratni uvoz — ne ostaje sinkroniziran.",
+      "step1_short": "Pružatelj",
+      "step2_short": "Povezivanje",
+      "step3_short": "Pregled",
+      "step4_short": "Uvoz",
+      "pick_provider": "S kojeg pružatelja usluge migrirate?",
+      "connect_title": "Povežite svoj račun",
+      "credentials_notice": "Vaš API ključ koristi se samo za ovaj jednokratni uvoz i nikada se ne pohranjuje. Čuva se u memoriji tijekom trajanja ovog čarobnjaka i briše se čim uvoz završi.",
+      "api_key_label": "API ključ",
+      "page_id_label": "ID stranice",
+      "subdomain_label": "ID stranice / poddomena",
+      "validate_continue": "Provjeri i nastavi",
+      "preview_title": "Što smo pronašli",
+      "include_history": "Uvezi i povijesne podatke o dostupnosti za monitore",
+      "start_import": "Pokreni uvoz",
+      "importing": "Uvoz vaših podataka u tijeku…",
+      "importing_hint": "Kod velikih računa ovo može potrajati nekoliko minuta. Možete napustiti ovu stranicu — uvoz će se nastaviti u pozadini.",
+      "import_complete": "Uvoz dovršen",
+      "view_status_page": "Pogledaj stranicu statusa",
+      "start_over": "Počni ispočetka"
+    }
+  },
   "incidents": {
     "add_status_update": "Dodaj ažuriranje statusa",
     "add_update": "Dodaj ažuriranje",
@@ -2725,6 +2751,7 @@
     "select_primary_help": "Izaberite glavni domen za Vašu status stranicu. Posetioci će biti preusmjereni na ovaj domen.",
     "send_transfer_invitation": "Pošalji pozivnicu za prenos",
     "settings": {
+      "migrate_from_provider": "Migracija s drugog pružatelja usluge",
       "custom_domain": {
         "actions": {
           "removing": "Uklanjanje prilagođenog domena...",
