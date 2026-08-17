@@ -1581,7 +1581,8 @@
       "tool_checks_checkbox_suffix": "als Überwachungstools importieren",
       "tool_checks_result_note": "SSL- und DNSBL-Prüfungen wurden als kontoweite Überwachungstools hinzugefügt.",
       "view_ssl_tools": "SSL-Prüfungen ansehen",
-      "view_dnsbl_tools": "DNSBL-Prüfungen ansehen"
+      "view_dnsbl_tools": "DNSBL-Prüfungen ansehen",
+      "preview_more": "weitere"
     }
   },
   "incidents": {

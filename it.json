@@ -1048,7 +1048,8 @@
       "tool_checks_checkbox_suffix": "come strumenti di monitoraggio",
       "tool_checks_result_note": "I controlli SSL e DNSBL sono stati aggiunti come strumenti di monitoraggio a livello di account.",
       "view_ssl_tools": "Visualizza controlli SSL",
-      "view_dnsbl_tools": "Visualizza controlli DNSBL"
+      "view_dnsbl_tools": "Visualizza controlli DNSBL",
+      "preview_more": "altri"
     }
   },
   "incidents": {

@@ -1581,7 +1581,8 @@
       "tool_checks_checkbox_suffix": "كأدوات مراقبة",
       "tool_checks_result_note": "تمت إضافة فحوصات SSL وDNSBL كأدوات مراقبة على مستوى الحساب.",
       "view_ssl_tools": "عرض فحوصات SSL",
-      "view_dnsbl_tools": "عرض فحوصات DNSBL"
+      "view_dnsbl_tools": "عرض فحوصات DNSBL",
+      "preview_more": "أخرى"
     }
   },
   "incidents": {

@@ -1581,7 +1581,8 @@
       "tool_checks_checkbox_suffix": "como ferramentas de monitoramento",
       "tool_checks_result_note": "As verificações de SSL e DNSBL foram adicionadas como ferramentas de monitoramento em toda a conta.",
       "view_ssl_tools": "Ver verificações de SSL",
-      "view_dnsbl_tools": "Ver verificações de DNSBL"
+      "view_dnsbl_tools": "Ver verificações de DNSBL",
+      "preview_more": "mais"
     }
   },
   "incidents": {

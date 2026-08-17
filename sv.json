@@ -1036,7 +1036,8 @@
       "tool_checks_checkbox_suffix": "som övervakningsverktyg",
       "tool_checks_result_note": "SSL- och DNSBL-kontroller lades till som kontoomfattande övervakningsverktyg.",
       "view_ssl_tools": "Visa SSL-kontroller",
-      "view_dnsbl_tools": "Visa DNSBL-kontroller"
+      "view_dnsbl_tools": "Visa DNSBL-kontroller",
+      "preview_more": "till"
     }
   },
   "incidents": {

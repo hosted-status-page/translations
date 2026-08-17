@@ -1019,7 +1019,8 @@
       "tool_checks_checkbox_suffix": "као алате за надзор",
       "tool_checks_result_note": "SSL и DNSBL провере су додате као алати за надзор на нивоу целог налога.",
       "view_ssl_tools": "Прикажи SSL провере",
-      "view_dnsbl_tools": "Прикажи DNSBL провере"
+      "view_dnsbl_tools": "Прикажи DNSBL провере",
+      "preview_more": "више"
     }
   },
   "incidents": {

@@ -1050,7 +1050,8 @@
       "tool_checks_checkbox_suffix": "as monitoring tools",
       "tool_checks_result_note": "SSL and DNSBL checks were added as account-wide monitoring tools.",
       "view_ssl_tools": "View SSL checks",
-      "view_dnsbl_tools": "View DNSBL checks"
+      "view_dnsbl_tools": "View DNSBL checks",
+      "preview_more": "more"
     }
   },
   "incidents": {
