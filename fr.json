@@ -4105,6 +4105,7 @@
       "how_to_add": "Comment ajouter cet enregistrement ?",
       "invalid_hostname": "Saisissez un domaine valide, par ex. status.votreentreprise.com",
       "locked_hint": "Se débloque une fois votre domaine enregistré",
+      "now_primary": "C'est désormais l'adresse principale de votre page de statut — les visiteurs de l'ancien sous-domaine sont redirigés ici.",
       "open_dashboard": "Ouvrir les paramètres DNS de __NAME__",
       "open_page": "Ouvrir votre page de statut",
       "ownership_required": "Vérification de propriété requise",
@@ -4126,6 +4127,7 @@
       "step4_subtitle": "Certificat et lancement",
       "step4_title": "Mise en ligne",
       "still_propagating": "Propagation en cours…",
+      "use_platform_domain": "Utiliser plutôt le sous-domaine de la plateforme",
       "use_subdomain": "Utiliser ceci à la place",
       "watching_title": "Surveillance de votre DNS…"
     }

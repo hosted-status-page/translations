@@ -4096,6 +4096,7 @@
       "how_to_add": "Come aggiungo questo record?",
       "invalid_hostname": "Inserisci un dominio valido, es. status.tuaazienda.com",
       "locked_hint": "Si sblocca una volta salvato il tuo dominio",
+      "now_primary": "Questo è ora l'indirizzo principale della tua status page — i visitatori del vecchio sottodominio vengono reindirizzati qui.",
       "open_dashboard": "Apri le impostazioni DNS di __NAME__",
       "open_page": "Apri la tua status page",
       "ownership_required": "Verifica della proprietà richiesta",
@@ -4117,6 +4118,7 @@
       "step4_subtitle": "Certificato e lancio",
       "step4_title": "Vai online",
       "still_propagating": "Ancora in propagazione…",
+      "use_platform_domain": "Usa invece il sottodominio della piattaforma",
       "use_subdomain": "Usa questo invece",
       "watching_title": "Monitoraggio del tuo DNS…"
     }

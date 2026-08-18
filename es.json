@@ -4094,6 +4094,7 @@
       "how_to_add": "¿Cómo agrego este registro?",
       "invalid_hostname": "Introduce un dominio válido, p. ej. status.tuempresa.com",
       "locked_hint": "Se desbloquea cuando se guarda tu dominio",
+      "now_primary": "Esta es ahora la dirección principal de tu página de estado: los visitantes del subdominio anterior se redirigen aquí.",
       "open_dashboard": "Abrir la configuración DNS de __NAME__",
       "open_page": "Abrir tu página de estado",
       "ownership_required": "Se requiere verificación de propiedad",
@@ -4115,6 +4116,7 @@
       "step4_subtitle": "Certificado y lanzamiento",
       "step4_title": "Publicar",
       "still_propagating": "Aún propagándose…",
+      "use_platform_domain": "Usar el subdominio de la plataforma en su lugar",
       "use_subdomain": "Usar esto en su lugar",
       "watching_title": "Comprobando tu DNS…"
     }

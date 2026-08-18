@@ -4088,6 +4088,7 @@
       "how_to_add": "Wie füge ich diesen Eintrag hinzu?",
       "invalid_hostname": "Geben Sie eine gültige Domain ein, z. B. status.ihrefirma.de",
       "locked_hint": "Wird freigeschaltet, sobald Ihre Domain gespeichert ist",
+      "now_primary": "Dies ist jetzt die primäre Adresse Ihrer Statusseite — Besucher der alten Subdomain werden hierher weitergeleitet.",
       "open_dashboard": "__NAME__ DNS-Einstellungen öffnen",
       "open_page": "Ihre Statusseite öffnen",
       "ownership_required": "Eigentumsnachweis erforderlich",
@@ -4109,6 +4110,7 @@
       "step4_subtitle": "Zertifikat & Start",
       "step4_title": "Live schalten",
       "still_propagating": "Verbreitet sich noch…",
+      "use_platform_domain": "Stattdessen Plattform-Subdomain verwenden",
       "use_subdomain": "Stattdessen dies verwenden",
       "watching_title": "Ihre DNS wird überwacht…"
     }

@@ -4100,6 +4100,7 @@
       "how_to_add": "How do I add this record?",
       "invalid_hostname": "Enter a valid domain, e.g. status.yourcompany.com",
       "locked_hint": "Unlocks once your domain is saved",
+      "now_primary": "This is now your status page's primary address — visitors on the old subdomain are redirected here.",
       "open_dashboard": "Open __NAME__ DNS settings",
       "open_page": "Open Your Status Page",
       "ownership_required": "Ownership Verification Required",
@@ -4121,6 +4122,7 @@
       "step4_subtitle": "Certificate & launch",
       "step4_title": "Go Live",
       "still_propagating": "Still propagating…",
+      "use_platform_domain": "Use platform subdomain instead",
       "use_subdomain": "Use this instead",
       "watching_title": "Watching your DNS…"
     }

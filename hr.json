@@ -4389,6 +4389,7 @@
       "how_to_add": "Kako da dodam ovaj zapis?",
       "invalid_hostname": "Unesite važeći domen, npr. status.vasafirma.com",
       "locked_hint": "Otključava se kada sačuvate domen",
+      "now_primary": "Ovo je sada primarna adresa Vaše statusne strane — posetioci starog poddomena preusmeravaju se ovde.",
       "open_dashboard": "Otvori DNS postavke za __NAME__",
       "open_page": "Otvori svoju statusnu stranu",
       "ownership_required": "Potrebna je verifikacija vlasništva",
@@ -4410,6 +4411,7 @@
       "step4_subtitle": "Sertifikat i pokretanje",
       "step4_title": "Objavi",
       "still_propagating": "Još uvek se širi…",
+      "use_platform_domain": "Umesto toga koristi poddomen platforme",
       "use_subdomain": "Koristi ovo umesto toga",
       "watching_title": "Praćenje Vašeg DNS-a…"
     }

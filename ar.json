@@ -4100,6 +4100,7 @@
       "how_to_add": "كيف أضيف هذا السجل؟",
       "invalid_hostname": "أدخل مجالاً صالحًا، مثل status.yourcompany.com",
       "locked_hint": "يُفتح بمجرد حفظ نطاقك",
+      "now_primary": "هذا هو الآن العنوان الأساسي لصفحة الحالة الخاصة بك — تتم إعادة توجيه زوار النطاق الفرعي القديم إلى هنا.",
       "open_dashboard": "فتح إعدادات DNS الخاصة بـ __NAME__",
       "open_page": "افتح صفحة الحالة الخاصة بك",
       "ownership_required": "التحقق من الملكية مطلوب",
@@ -4121,6 +4122,7 @@
       "step4_subtitle": "الشهادة والإطلاق",
       "step4_title": "الإطلاق",
       "still_propagating": "لا يزال ينتشر…",
+      "use_platform_domain": "استخدم النطاق الفرعي للمنصة بدلاً من ذلك",
       "use_subdomain": "استخدم هذا بدلاً من ذلك",
       "watching_title": "مراقبة DNS الخاص بك…"
     }

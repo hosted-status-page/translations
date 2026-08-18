@@ -4049,6 +4049,7 @@
       "how_to_add": "Hur lägger jag till den här posten?",
       "invalid_hostname": "Ange en giltig domän, t.ex. status.dittforetag.se",
       "locked_hint": "Låses upp när din domän har sparats",
+      "now_primary": "Detta är nu din statussidas primära adress — besökare på den gamla subdomänen omdirigeras hit.",
       "open_dashboard": "Öppna __NAME__-DNS-inställningar",
       "open_page": "Öppna din statussida",
       "ownership_required": "Ägarverifiering krävs",
@@ -4070,6 +4071,7 @@
       "step4_subtitle": "Certifikat och lansering",
       "step4_title": "Gå live",
       "still_propagating": "Sprids fortfarande…",
+      "use_platform_domain": "Använd plattformens subdomän i stället",
       "use_subdomain": "Använd detta istället",
       "watching_title": "Bevakar din DNS…"
     }
