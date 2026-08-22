@@ -2862,11 +2862,9 @@
   "profile": {
     "breadcrumb_account": "Cuenta",
     "heading": "Información sobre el perfil",
-    "gravatar_help": "Para cambiar tu avatar, dirígete a <a href=\"__PH0__ target=\"_blank\" rel=\"noopener\">Gravatar</a> y actualiza tu foto de perfil.",
     "avatar": {
       "custom_help": "El avatar personalizado se genera a partir de tu correo mediante la API local de avatares.",
       "source_custom": "Personalizado (API local de avatares)",
-      "source_gravatar": "gravatar",
       "source_label": "Origen del avatar"
     },
     "email_cannot_be_changed": "El correo electrónico no se puede cambiar",

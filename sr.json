@@ -1867,11 +1867,9 @@
     "confirm_new_password": "Потврди нову лозинку",
     "current_password": "Тренутна лозинка",
     "email_cannot_be_changed": "Е-пошта се не може променити",
-    "gravatar_help": "Да бисте променили ваш аватар, идите на <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Граватар</a> и ажурирајте вашу профилну слику.",
     "avatar": {
       "custom_help": "Прилагођени аватар се генерише из ваше е-поште преко локалног API-ја за аватаре.",
       "source_custom": "Прилагођено (локални API за аватаре)",
-      "source_gravatar": "Gravatar",
       "source_label": "Извор аватара"
     },
     "heading": "Информације о профилу",

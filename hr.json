@@ -2223,11 +2223,9 @@
     "confirm_new_password": "Potvrdi novu lozinku",
     "current_password": "Trenutna lozinka",
     "email_cannot_be_changed": "E-pošta se ne može promeniti",
-    "gravatar_help": "Da biste promenili Vaš avatar, idite na <a href=\"__PH0__ target=\"_blank\" rel=\"noopener\">Gravatar</a> i ažurirajte Vašu profilnu sliku.",
     "avatar": {
       "custom_help": "Prilagođeni avatar se generiše iz vaše e-pošte preko lokalnog API-ja za avatare.",
       "source_custom": "Prilagođeno (lokalni API za avatare)",
-      "source_gravatar": "Gravatar",
       "source_label": "Izvor avatara"
     },
     "heading": "Informacije o profilu",

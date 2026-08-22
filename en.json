@@ -1898,11 +1898,9 @@
     "confirm_new_password": "Confirm new password",
     "current_password": "Current password",
     "email_cannot_be_changed": "Email cannot be changed",
-    "gravatar_help": "To change your avatar, head to <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> and update your profile picture.",
     "avatar": {
       "custom_help": "Custom avatar is generated from your email via local avatar API.",
       "source_custom": "Custom (local avatar API)",
-      "source_gravatar": "Gravatar",
       "source_label": "Avatar source"
     },
     "heading": "Profile Information",

@@ -1896,11 +1896,9 @@
     "confirm_new_password": "Confermi la nuova password",
     "current_password": "Password attuale",
     "email_cannot_be_changed": "L'email non può essere modificata",
-    "gravatar_help": "Per cambiare il tuo avatar, vai su <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> e aggiorna la tua immagine del profilo.",
     "avatar": {
       "custom_help": "L'avatar personalizzato viene generato dalla tua email tramite l'API avatar locale.",
       "source_custom": "Personalizzato (API avatar locale)",
-      "source_gravatar": "Gravatar",
       "source_label": "Origine avatar"
     },
     "heading": "Informazioni profilo",

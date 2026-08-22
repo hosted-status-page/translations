@@ -2875,11 +2875,9 @@
   "profile": {
     "breadcrumb_account": "Compte",
     "heading": "Informations du profil",
-    "gravatar_help": "Pour changer votre avatar, rendez-vous sur <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> et mettez à jour votre photo de profil.",
     "avatar": {
       "custom_help": "L’avatar personnalisé est généré à partir de votre e-mail via l’API locale d’avatars.",
       "source_custom": "Personnalisé (API locale d’avatars)",
-      "source_gravatar": "Gravatar",
       "source_label": "Source de l’avatar"
     },
     "email_cannot_be_changed": "L’e-mail ne peut pas être modifié",

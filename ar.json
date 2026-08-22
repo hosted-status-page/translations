@@ -2870,11 +2870,9 @@
   "profile": {
     "breadcrumb_account": "الحساب",
     "heading": "معلومات الملف الشخصي",
-    "gravatar_help": "لتغيير صورتك الرمزية، توجه إلى <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> وحدّث صورة ملفك الشخصي.",
     "avatar": {
       "custom_help": "يتم إنشاء الصورة الرمزية المخصصة من بريدك الإلكتروني عبر API الصور الرمزية المحلية.",
       "source_custom": "مخصص (API الصور الرمزية المحلية)",
-      "source_gravatar": "غرفاتار",
       "source_label": "مصدر الصورة الرمزية"
     },
     "email_cannot_be_changed": "لا يمكن تغيير البريد الإلكتروني",
