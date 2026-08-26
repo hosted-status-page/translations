@@ -4405,6 +4405,10 @@
       "monitoring_blocked": "Surveillance bloquée",
       "verifying_recovery": "Vérification du rétablissement"
     },
+    "chart": {
+      "confirmation_failing": "Confirmation : {n} régions en échec ; seuil de quorum {m}",
+      "confirmation_healthy": "Confirmation : {n} régions saines ; seuil de rétablissement {m}"
+    },
     "subscription": {
       "subscribe_to_updates": "S'abonner aux mises à jour",
       "email_label": "E-mail",

@@ -4391,6 +4391,10 @@
       "monitoring_blocked": "Überwachung blockiert",
       "verifying_recovery": "Wiederherstellung wird überprüft"
     },
+    "chart": {
+      "confirmation_failing": "Bestätigung: {n} ausgefallene Regionen; Quorum-Schwelle {m}",
+      "confirmation_healthy": "Bestätigung: {n} fehlerfreie Regionen; Wiederherstellungsschwelle {m}"
+    },
     "subscription": {
       "subscribe_to_updates": "Updates abonnieren",
       "email_label": "E-Mail",

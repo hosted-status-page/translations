@@ -4387,6 +4387,10 @@
       "monitoring_blocked": "Monitoramento bloqueado",
       "verifying_recovery": "Verificando a recuperação"
     },
+    "chart": {
+      "confirmation_failing": "Confirmação: {n} regiões com falha; limite de quórum {m}",
+      "confirmation_healthy": "Confirmação: {n} regiões saudáveis; limite de recuperação {m}"
+    },
     "subscription": {
       "subscribe_to_updates": "Inscrever-se para atualizações",
       "email_label": "E-mail",

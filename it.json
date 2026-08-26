@@ -4402,6 +4402,10 @@
       "monitoring_blocked": "Monitoraggio bloccato",
       "verifying_recovery": "Verifica del ripristino"
     },
+    "chart": {
+      "confirmation_failing": "Conferma: {n} regioni in errore; soglia di quorum {m}",
+      "confirmation_healthy": "Conferma: {n} regioni integre; soglia di ripristino {m}"
+    },
     "subscription": {
       "subscribe_to_updates": "Iscriviti agli aggiornamenti",
       "email_label": "Email",

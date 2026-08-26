@@ -4349,6 +4349,10 @@
       "monitoring_blocked": "Övervakning blockerad",
       "verifying_recovery": "Verifierar återställning"
     },
+    "chart": {
+      "confirmation_failing": "Bekräftelse: {n} regioner med fel; kvorumtröskel {m}",
+      "confirmation_healthy": "Bekräftelse: {n} felfria regioner; återställningströskel {m}"
+    },
     "subscription": {
       "subscribe_to_updates": "Prenumerera på uppdateringar",
       "email_label": "E-post",

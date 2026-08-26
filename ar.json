@@ -4403,6 +4403,10 @@
       "monitoring_blocked": "المراقبة محظورة",
       "verifying_recovery": "جارٍ التحقق من التعافي"
     },
+    "chart": {
+      "confirmation_failing": "التأكيد: {n} منطقة متعطلة؛ حد النصاب {m}",
+      "confirmation_healthy": "التأكيد: {n} منطقة سليمة؛ حد التعافي {m}"
+    },
     "subscription": {
       "subscribe_to_updates": "الاشتراك في التحديثات",
       "email_label": "البريد الإلكتروني",

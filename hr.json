@@ -95,6 +95,10 @@
       "monitoring_blocked": "Nadzor blokiran",
       "verifying_recovery": "Provjera oporavka"
     },
+    "chart": {
+      "confirmation_failing": "Potvrda: {n} regija s greškom; prag kvoruma {m}",
+      "confirmation_healthy": "Potvrda: {n} ispravnih regija; prag oporavka {m}"
+    },
     "subscription": {
       "subscribe_to_updates": "Pretplati se na ažuriranja",
       "email_label": "E-pošta",

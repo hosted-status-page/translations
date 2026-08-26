@@ -4406,6 +4406,10 @@
       "monitoring_blocked": "Monitoring blocked",
       "verifying_recovery": "Verifying recovery"
     },
+    "chart": {
+      "confirmation_failing": "Confirmation: {n} failing regions; quorum threshold {m}",
+      "confirmation_healthy": "Confirmation: {n} healthy regions; recovery threshold {m}"
+    },
     "subscription": {
       "subscribe_to_updates": "Subscribe to Updates",
       "email_label": "Email",
