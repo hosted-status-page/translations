@@ -2932,7 +2932,11 @@
     "actions": {
       "connect": "Conectar"
     },
-    "cant_unlink_last_signin": "Não é possível desvincular o último método de login"
+    "cant_unlink_last_signin": "Não é possível desvincular o último método de login",
+    "norevoke": {
+      "body": "Desconectado aqui, mas o provedor ainda pode listar este aplicativo como autorizado. Para revogar o acesso por completo, remova-o nas configurações da sua conta no provedor.",
+      "link": "Abrir configurações do provedor"
+    }
   },
   "export": {
     "heading": "Exportar seus dados",

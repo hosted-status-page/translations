@@ -2936,7 +2936,11 @@
     "actions": {
       "connect": "Conectar"
     },
-    "cant_unlink_last_signin": "No puedes desvincular el último método de inicio de sesión"
+    "cant_unlink_last_signin": "No puedes desvincular el último método de inicio de sesión",
+    "norevoke": {
+      "body": "Desconectado aquí, pero es posible que el proveedor siga mostrando esta aplicación como autorizada. Para revocar el acceso por completo, elimínala en la configuración de tu cuenta del proveedor.",
+      "link": "Abrir configuración del proveedor"
+    }
   },
   "export": {
     "heading": "Exportar tus datos",

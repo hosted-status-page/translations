@@ -728,6 +728,10 @@
     "breadcrumb": "Connessioni",
     "cant_unlink_last_signin": "Impossibile scollegare l'ultimo metodo di accesso",
     "heading": "Account connessi",
+    "norevoke": {
+      "body": "Disconnesso qui, ma il provider potrebbe continuare a elencare questa app come autorizzata. Per revocare completamente l'accesso, rimuovila dalle impostazioni del tuo account presso il provider.",
+      "link": "Apri le impostazioni del provider"
+    },
     "status": {
       "connected": "Connesso",
       "not_connected": "Non connesso"

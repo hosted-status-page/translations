@@ -2932,7 +2932,11 @@
     "actions": {
       "connect": "Verbinden"
     },
-    "cant_unlink_last_signin": "Letzte Anmeldemethode kann nicht getrennt werden"
+    "cant_unlink_last_signin": "Letzte Anmeldemethode kann nicht getrennt werden",
+    "norevoke": {
+      "body": "Hier getrennt, aber der Anbieter führt diese App möglicherweise weiterhin als autorisiert. Um den Zugriff vollständig zu widerrufen, entfernen Sie sie in den Kontoeinstellungen des Anbieters.",
+      "link": "Anbietereinstellungen öffnen"
+    }
   },
   "export": {
     "heading": "Daten exportieren",

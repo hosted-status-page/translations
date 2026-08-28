@@ -2949,7 +2949,11 @@
     "actions": {
       "connect": "Connecter"
     },
-    "cant_unlink_last_signin": "Impossible de dissocier la dernière méthode de connexion"
+    "cant_unlink_last_signin": "Impossible de dissocier la dernière méthode de connexion",
+    "norevoke": {
+      "body": "Dissocié ici, mais le fournisseur peut toujours répertorier cette application comme autorisée. Pour révoquer complètement l'accès, supprimez-la dans les paramètres de votre compte chez le fournisseur.",
+      "link": "Ouvrir les paramètres du fournisseur"
+    }
   },
   "export": {
     "heading": "Exporter les données",

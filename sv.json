@@ -719,6 +719,10 @@
     "breadcrumb": "Anslutningar",
     "cant_unlink_last_signin": "Kan inte länka sista inloggningsmetoden",
     "heading": "Anslutna konton",
+    "norevoke": {
+      "body": "Frånkopplad här, men leverantören kan fortfarande visa den här appen som auktoriserad. För att återkalla åtkomsten helt tar du bort den i kontoinställningarna hos leverantören.",
+      "link": "Öppna leverantörens inställningar"
+    },
     "status": {
       "connected": "Ansluten",
       "not_connected": "Inte ansluten"

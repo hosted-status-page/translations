@@ -730,6 +730,10 @@
     "breadcrumb": "Connections",
     "cant_unlink_last_signin": "Can't unlink last sign-in method",
     "heading": "Connected Accounts",
+    "norevoke": {
+      "body": "Disconnected here, but the provider may still list this app as authorized. To fully revoke access, remove it from your provider account settings.",
+      "link": "Open provider settings"
+    },
     "status": {
       "connected": "Connected",
       "not_connected": "Not connected"

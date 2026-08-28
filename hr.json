@@ -1063,6 +1063,10 @@
     "breadcrumb": "Veze",
     "cant_unlink_last_signin": "Ne možete otkačiti poslednji način prijave",
     "heading": "Povezani računi",
+    "norevoke": {
+      "body": "Ovdje je veza prekinuta, ali davatelj možda i dalje navodi ovu aplikaciju kao ovlaštenu. Za potpuno opozivanje pristupa uklonite je u postavkama svojeg računa kod davatelja.",
+      "link": "Otvori postavke davatelja"
+    },
     "status": {
       "connected": "Povezano",
       "not_connected": "Nije povezano"
