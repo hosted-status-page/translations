@@ -381,6 +381,8 @@
       "domain_label": "Domain",
       "record_type_label": "Datensatztyp",
       "expected_value_label": "Erwarteter Wert",
+      "ping_settings_heading": "Ping-Einstellungen (ICMP)",
+      "host_or_ip_label": "Host oder IPv4-Adresse",
       "site_url_label": "Website-URL",
       "api_url_label": "API-URL",
       "http_method_label": "HTTP-Methode",
@@ -433,6 +435,7 @@
       "site": "Website-Monitor",
       "api": "API-Monitor",
       "dns": "DNS-Monitor",
+      "icmp": "Ping-Monitor (ICMP)",
       "database": "Datenbank-Monitor"
     },
     "check_type": {

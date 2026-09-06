@@ -1688,6 +1688,7 @@
       "expected_result_label": "Podudaranje teksta",
       "expected_value_label": "Očekivana vrednost",
       "headers_label": "Zaglavlja",
+      "host_or_ip_label": "Host ili IPv4 adresa",
       "http_method_label": "HTTP metod",
       "integer_value_label": "Celobrojna vrednost",
       "interval_label": "Interval provere",
@@ -1697,6 +1698,7 @@
       "name_placeholder": "Moj sajt",
       "no_component": "Nema komponente",
       "password_label": "Lozinka",
+      "ping_settings_heading": "Postavke Ping (ICMP)",
       "query_params_label": "Parametri upita",
       "record_type_label": "Tip zapisa",
       "request_headers_help": "Šalju se sa zahtevom. Ne proverava se osim ako dodate provere odgovora.",
@@ -1739,6 +1741,7 @@
       "api": "API monitor",
       "database": "Monitor baze podataka",
       "dns": "DNS monitor",
+      "icmp": "Ping (ICMP) monitor",
       "site": "Monitor sajta"
     },
     "adaptive_post_incident": {

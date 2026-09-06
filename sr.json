@@ -1328,6 +1328,7 @@
       "expected_result_label": "Подударање текста",
       "expected_value_label": "Очекивана вредност",
       "headers_label": "Заглавља",
+      "host_or_ip_label": "Хост или IPv4 адреса",
       "http_method_label": "HTTP метод",
       "integer_value_label": "Целобројна вредност",
       "interval_label": "Интервал провере",
@@ -1337,6 +1338,7 @@
       "name_placeholder": "Мој сајт",
       "no_component": "Нема компоненте",
       "password_label": "Лозинка",
+      "ping_settings_heading": "Подешавања Ping (ICMP)",
       "query_params_label": "Параметри упита",
       "record_type_label": "Тип записа",
       "request_headers_help": "Шаљу се са захтевом. Не проверава се осим ако додате провере одговора.",
@@ -1379,6 +1381,7 @@
       "api": "API монитор",
       "database": "Монитор базе података",
       "dns": "DNS монитор",
+      "icmp": "Ping (ICMP) монитор",
       "site": "Монитор сајта"
     },
     "adaptive_post_incident": {

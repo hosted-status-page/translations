@@ -1357,6 +1357,7 @@
       "expected_result_label": "Corrispondenza testo",
       "expected_value_label": "Valore previsto",
       "headers_label": "Header",
+      "host_or_ip_label": "Host o indirizzo IPv4",
       "http_method_label": "Metodo HTTP",
       "integer_value_label": "Valore intero",
       "interval_label": "Intervallo di controllo",
@@ -1366,6 +1367,7 @@
       "name_placeholder": "Il mio sito web",
       "no_component": "Nessun componente",
       "password_label": "Password",
+      "ping_settings_heading": "Impostazioni Ping (ICMP)",
       "query_params_label": "Parametri query",
       "record_type_label": "Tipo di record",
       "request_headers_help": "Inviati con la richiesta. Non vengono validati a meno che non si aggiungano verifiche della risposta.",
@@ -1408,6 +1410,7 @@
       "api": "Monitor API",
       "database": "Monitor Database",
       "dns": "Monitor DNS",
+      "icmp": "Monitor Ping (ICMP)",
       "site": "Monitor Sito"
     },
     "adaptive_post_incident": {

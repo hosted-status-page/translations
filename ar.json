@@ -381,6 +381,8 @@
       "domain_label": "النطاق",
       "record_type_label": "نوع السجل",
       "expected_value_label": "القيمة المتوقعة",
+      "ping_settings_heading": "إعدادات Ping (ICMP)",
+      "host_or_ip_label": "المضيف أو عنوان IPv4",
       "site_url_label": "عنوان URL للموقع",
       "api_url_label": "عنوان URL لـ API",
       "http_method_label": "طريقة HTTP",
@@ -433,6 +435,7 @@
       "site": "مراقبة الموقع",
       "api": "مراقبة API",
       "dns": "مراقبة DNS",
+      "icmp": "مراقبة Ping (ICMP)",
       "database": "مراقبة قاعدة البيانات"
     },
     "check_type": {

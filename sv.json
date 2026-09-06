@@ -1344,6 +1344,7 @@
       "expected_result_label": "Matcha text",
       "expected_value_label": "Förväntat värde",
       "headers_label": "Headers",
+      "host_or_ip_label": "Värd eller IPv4-adress",
       "http_method_label": "HTTP Method",
       "integer_value_label": "Integervärde",
       "interval_label": "Kontrollera intervall",
@@ -1353,6 +1354,7 @@
       "name_placeholder": "Min hemsida",
       "no_component": "Ingen komponent",
       "password_label": "Lösenord",
+      "ping_settings_heading": "Ping-inställningar (ICMP)",
       "query_params_label": "Query Parametrar",
       "record_type_label": "Rekordtyp",
       "request_headers_help": "Skicka med begäran. Inte validerat om du inte lägger till svarspåståenden.",
@@ -1395,6 +1397,7 @@
       "api": "API Monitor",
       "database": "Databasövervakare",
       "dns": "DNS Monitor",
+      "icmp": "Ping-övervakning (ICMP)",
       "site": "Site monitor"
     },
     "adaptive_post_incident": {

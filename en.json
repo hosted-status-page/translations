@@ -1359,6 +1359,7 @@
       "expected_result_label": "Match text",
       "expected_value_label": "Expected Value",
       "headers_label": "Headers",
+      "host_or_ip_label": "Host or IPv4 Address",
       "http_method_label": "HTTP Method",
       "integer_value_label": "Integer Value",
       "interval_label": "Check Interval",
@@ -1368,6 +1369,7 @@
       "name_placeholder": "My Website",
       "no_component": "No Component",
       "password_label": "Password",
+      "ping_settings_heading": "Ping (ICMP) Settings",
       "query_params_label": "Query Parameters",
       "record_type_label": "Record Type",
       "request_headers_help": "Sent with the request. Not validated unless you add response assertions.",
@@ -1410,6 +1412,7 @@
       "api": "API Monitor",
       "database": "Database Monitor",
       "dns": "DNS Monitor",
+      "icmp": "Ping (ICMP) Monitor",
       "site": "Site Monitor"
     },
     "adaptive_post_incident": {
