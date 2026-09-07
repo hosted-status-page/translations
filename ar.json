@@ -4326,7 +4326,9 @@
       "all_systems_operational": "جميع الأنظمة تعمل",
       "low_impact": "تأثير منخفض",
       "non_critical": "غير حرج",
-      "informational": "معلوماتي"
+      "informational": "معلوماتي",
+      "icmp_unreachable": "مشكلة في وصول ICMP",
+      "icmp_unreachable_caveat": "لم يتم استلام أي رد ICMP (ping) من العنوان الذي تم تحليله. هذا وحده لا يؤكد أن التطبيق غير متاح."
     },
     "incident_state": {
       "investigating": "جارٍ التحقيق",

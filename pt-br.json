@@ -4310,7 +4310,9 @@
       "outage": "Interrupção",
       "unknown": "Desconhecido",
       "monitoring_disabled": "Monitoramento desativado",
-      "all_systems_operational": "Todos os sistemas operando"
+      "all_systems_operational": "Todos os sistemas operando",
+      "icmp_unreachable": "Problema de acessibilidade ICMP",
+      "icmp_unreachable_caveat": "Nenhuma resposta ICMP (ping) foi recebida do endereço resolvido. Isso, por si só, não confirma que o aplicativo esteja indisponível."
     },
     "incident_state": {
       "investigating": "Investigando",

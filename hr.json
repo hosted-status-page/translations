@@ -11,7 +11,9 @@
       "all_systems_operational": "Svi sustavi rade",
       "low_impact": "Nizak utjecaj",
       "non_critical": "Nekritično",
-      "informational": "Informativno"
+      "informational": "Informativno",
+      "icmp_unreachable": "Problem s ICMP dostupnošću",
+      "icmp_unreachable_caveat": "Nije primljen ICMP (ping) odgovor s razriješene adrese. To samo po sebi ne potvrđuje da je aplikacija nedostupna."
     },
     "incident_state": {
       "investigating": "Istražuje se",

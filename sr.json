@@ -4273,7 +4273,9 @@
       "outage": "Прекид",
       "unknown": "Непознато",
       "monitoring_disabled": "Праћење онемогућено",
-      "all_systems_operational": "Сви системи раде нормално"
+      "all_systems_operational": "Сви системи раде нормално",
+      "icmp_unreachable": "Проблем са ICMP доступношћу",
+      "icmp_unreachable_caveat": "Није примљен ICMP (ping) одговор са разрешене адресе. Ово само по себи не потврђује да је апликација недоступна."
     },
     "incident_state": {
       "investigating": "Истрага у току",

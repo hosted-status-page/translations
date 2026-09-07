@@ -4272,7 +4272,9 @@
       "outage": "Driftstopp",
       "unknown": "Okänd",
       "monitoring_disabled": "Övervakning inaktiverad",
-      "all_systems_operational": "Alla system fungerar normalt"
+      "all_systems_operational": "Alla system fungerar normalt",
+      "icmp_unreachable": "ICMP-nåbarhetsproblem",
+      "icmp_unreachable_caveat": "Inget ICMP-svar (ping) togs emot från den upplösta adressen. Detta bekräftar i sig inte att applikationen är otillgänglig."
     },
     "incident_state": {
       "investigating": "Undersöker",

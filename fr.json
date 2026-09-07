@@ -4328,7 +4328,9 @@
       "outage": "Panne",
       "unknown": "Inconnu",
       "monitoring_disabled": "Surveillance désactivée",
-      "all_systems_operational": "Tous les systèmes sont opérationnels"
+      "all_systems_operational": "Tous les systèmes sont opérationnels",
+      "icmp_unreachable": "Problème de joignabilité ICMP",
+      "icmp_unreachable_caveat": "Aucune réponse ICMP (ping) n'a été reçue de l'adresse résolue. Cela ne confirme pas à lui seul que l'application est indisponible."
     },
     "incident_state": {
       "investigating": "En cours d'investigation",

@@ -4314,7 +4314,9 @@
       "all_systems_operational": "Alle Systeme betriebsbereit",
       "low_impact": "Geringe Auswirkung",
       "non_critical": "Nicht kritisch",
-      "informational": "Informativ"
+      "informational": "Informativ",
+      "icmp_unreachable": "ICMP-Erreichbarkeitsproblem",
+      "icmp_unreachable_caveat": "Von der aufgelösten Adresse wurde keine ICMP-Antwort (Ping) empfangen. Das allein bestätigt nicht, dass die Anwendung nicht verfügbar ist."
     },
     "incident_state": {
       "investigating": "Wird untersucht",

@@ -4325,7 +4325,9 @@
       "all_systems_operational": "Tutti i sistemi sono operativi",
       "low_impact": "Impatto basso",
       "non_critical": "Non critico",
-      "informational": "Informativo"
+      "informational": "Informativo",
+      "icmp_unreachable": "Problema di raggiungibilità ICMP",
+      "icmp_unreachable_caveat": "Non è stata ricevuta alcuna risposta ICMP (ping) dall'indirizzo risolto. Questo da solo non conferma che l'applicazione non sia disponibile."
     },
     "incident_state": {
       "investigating": "In corso di analisi",

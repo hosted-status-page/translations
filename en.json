@@ -4329,7 +4329,9 @@
       "all_systems_operational": "All Systems Operational",
       "low_impact": "Low impact",
       "non_critical": "Non-critical",
-      "informational": "Informational"
+      "informational": "Informational",
+      "icmp_unreachable": "ICMP reachability issue",
+      "icmp_unreachable_caveat": "No ICMP (ping) reply was received from the resolved address. This does not by itself confirm the application is unavailable."
     },
     "incident_state": {
       "investigating": "Investigating",
