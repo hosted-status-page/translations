@@ -2207,6 +2207,9 @@
       "pings_in_window": "Pings im Zeitfenster",
       "still_learning_text": "Lernt noch das Intervall (3 Pings nötig).",
       "title": "Problembehandlung"
+    },
+    "quota": {
+      "used": "Genutzte Heartbeat-Monitore"
     }
   },
   "teams": {
@@ -3297,7 +3300,18 @@
     "trial_label": "Testzeitraum",
     "grace_period_label": "Kulanzfrist",
     "active_label": "Aktiv:",
-    "active_until": "Aktiv bis:"
+    "active_until": "Aktiv bis:",
+    "plan_history": "Plan-Verlauf",
+    "account_credit": {
+      "title": "Kontoguthaben",
+      "subtitle": "Wird automatisch auf Ihre nächste Rechnung angerechnet",
+      "body": "Im Rahmen unserer <strong>SLA-Verpflichtung</strong> gewähren wir Kontoguthaben, wenn die Verfügbarkeit unserer Plattform in einem Monat unter 99,9 % fällt. Diese Guthaben werden automatisch auf Ihre nächste Rechnung angerechnet — Sie müssen nichts weiter tun.",
+      "expiry_note": "Guthaben verfallen 12 Monate nach dem Ausstellungsdatum. Alle Details finden Sie im Abschnitt",
+      "tc_link": "Verfügbarkeit &amp; Service-Guthaben",
+      "tc_suffix": "in unseren Allgemeinen Geschäftsbedingungen."
+    },
+    "no_further_payments": "Keine — einmalige Zahlung",
+    "plan_change_info_lifetime": "Ihr Lifetime-Plan läuft nie ab und hat keine wiederkehrenden Kosten. Der Wechsel zu einem anderen Plan wird sofort mit anteiliger Abrechnung wirksam."
   },
   "misc": {
     "language_names": {
@@ -3764,6 +3778,13 @@
         "point_1": "Der kostenlose Plan umfasst bis zu 3 Komponenten",
         "point_2": "Keine Kreditkarte erforderlich",
         "point_3": "Sieht gut aus und schafft Vertrauen"
+      },
+      "operations": {
+        "title": "Betrieb und Teams mit vielen Anbietern",
+        "description": "Sie verwalten viele Dienste, Regionen, Anbieter oder kundenorientierte Abläufe und brauchen eine Seite, die sich schnell überblicken lässt.",
+        "point_1": "Gruppieren Sie Komponenten wie Zahlungsanbieter, E-Mail-Zustellung und Europa",
+        "point_2": "Halten Sie gesunde Gruppen eingeklappt, damit betroffene Systeme auffallen",
+        "point_3": "Nutzen Sie Notizen und Wartungsstatus, wenn Updates manuell erfolgen"
       }
     },
     "how_it_works": {
@@ -3830,6 +3851,33 @@
       "point_2": "Vorfalleintrag automatisch erstellt – kein separater Schritt",
       "point_3": "Abonnenten werden benachrichtigt, ohne den Incident-Management-Flow zu öffnen",
       "point_4": "Der Vorfall wird automatisch behoben, wenn Sie die Komponente auf „Betriebsbereit“ zurücksetzen"
+    },
+    "large_pages": {
+      "badge": "Große einfache Seiten",
+      "title": "Auch für große manuelle Statusseiten gemacht",
+      "description": "Einfache Statusseiten sind nicht nur für kleine Produkte. Nutzen Sie sie für große komponentenbasierte Seiten, auf denen Teams den Status von Regionen, Anbietern, Servicekategorien, internen Abhängigkeiten oder kundenorientierten Bereichen manuell melden.",
+      "point_1": "Gruppieren Sie Komponenten nach Produktbereich, Region, Anbieter, Infrastrukturebene oder Workflow.",
+      "point_2": "Klappen Sie gesunde Gruppen ein, damit Besucher nicht durch eine Wand grüner Komponenten scrollen müssen.",
+      "point_3": "Nutzen Sie den großen Layout-Modus, wenn viele Gruppen kompakte Akkordeons und eine Zusammenfassung betroffener Systeme benötigen.",
+      "point_4": "Belassen Sie monitor-basierte Seiten im Standardlayout, wenn Antwortzeit-Diagramme und Verfügbarkeitscharts wichtig sind.",
+      "large_layout_link": "Mehr über den großen Layout-Modus erfahren",
+      "collapse_link": "Komponentengruppen einklappen",
+      "preview": {
+        "title": "Betroffene Systeme",
+        "subtitle": "Zeigen Sie zuerst die Systeme, die Aufmerksamkeit benötigen.",
+        "badge": "2 betroffen",
+        "payment": "Zahlungsanbieter",
+        "email": "E-Mail-Zustellung",
+        "europe": "Europa",
+        "dashboard": "Kunden-Dashboard",
+        "suppliers": "Desktop-Anbieter - Europa",
+        "degraded": "Beeinträchtigt",
+        "partial_outage": "Teilweiser Ausfall",
+        "operational": "Betriebsbereit",
+        "operational_2": "Betriebsbereit",
+        "operational_3": "Betriebsbereit",
+        "note": "Gesunde Gruppen können eingeklappt bleiben. Betroffene Gruppen bleiben leicht zu finden."
+      }
     }
   },
   "public_nav": {
@@ -3860,7 +3908,8 @@
       "live_chat": {
         "title": "Live-Chat",
         "text": "Erhalten Sie sofort Hilfe von unserem Support-Team per Live-Chat.",
-        "cta": "Chat starten"
+        "cta": "Chat starten",
+        "badge": "~5 Min. im Schnitt"
       },
       "telegram": {
         "text": "Kontaktieren Sie uns per Telegram für dringende Unterstützung.",
@@ -3869,7 +3918,8 @@
       "email": {
         "title": "E-Mail",
         "text": "Schreiben Sie uns eine E-Mail und wir melden uns innerhalb von 24 Stunden.",
-        "cta": "E-Mail senden"
+        "cta": "E-Mail senden",
+        "badge": "Antwort in 24 Std."
       }
     },
     "community": {
@@ -4247,7 +4297,10 @@
       "upgrade_button": "Upgrade",
       "upgrade_required_text": "Nutzer des kostenlosen Plans können Monitorstandorte nicht ändern. Bitte upgraden Sie Ihren Plan, um zusätzliche Standorte auszuwählen.",
       "upgrade_required_title": "Upgrade erforderlich"
-    }
+    },
+    "defaults_alert_docs_prefix": "Brauchen Sie die vollständigen Einrichtungsschritte?",
+    "defaults_alert_docs_link": "Anleitung lesen",
+    "defaults_alert_docs_suffix": "."
   },
   "monitors_advanced": {
     "allowed_downtime": "Erlaubte Ausfallzeit",
@@ -4518,7 +4571,8 @@
       "magic_link_btn": "Magic Link senden",
       "azure_btn": "Mit Azure AD fortfahren",
       "google_btn": "Mit Google fortfahren",
-      "oidc_btn": "Mit Single Sign-On fortfahren"
+      "oidc_btn": "Mit Single Sign-On fortfahren",
+      "heading": "Melden Sie sich an, um diese Statusseite zu sehen"
     },
     "archive": {
       "meta_incidents_description": "Historisches Vorfallarchiv für {{name}}",
@@ -4646,6 +4700,10 @@
       "powered_by": "Bereitgestellt von",
       "logo_alt": "Statusseiten-Logo",
       "analytics_disclaimer": "Diese benutzerdefinierte Domain verwendet datenschutzfreundliche Analysen für aggregierte Traffic-Einblicke."
+    },
+    "event": {
+      "show_details": "Details anzeigen",
+      "hide_details": "Details ausblenden"
     }
   },
   "validation": {

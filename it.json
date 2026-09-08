@@ -492,7 +492,9 @@
       "tc_link": "Uptime e crediti di servizio",
       "tc_suffix": "sezione nei Termini e condizioni.",
       "title": "Credito account"
-    }
+    },
+    "no_further_payments": "Nessuno — pagamento unico",
+    "plan_change_info_lifetime": "Il tuo piano a vita non scade mai e non prevede costi ricorrenti. Il passaggio a un altro piano ha effetto immediato con fatturazione proporzionale."
   },
   "analytics": {
     "config": {
@@ -2374,7 +2376,9 @@
       "table_plan": "Piano",
       "table_purchase_date": "Data di acquisto",
       "view_available_deals": "Visualizza offerte disponibili",
-      "view_details": "Visualizza dettagli"
+      "view_details": "Visualizza dettagli",
+      "already_purchased_button": "Già acquistato",
+      "owned_badge": "Posseduto"
     },
     "link_to_docs": "Link alla documentazione del servizio",
     "manage_custom_domain": "Gestisci dominio personalizzato",
@@ -4493,7 +4497,10 @@
       "show_more_updates": "Mostra altri {{count}} aggiornamenti ({{label}})",
       "segment_investigating_identified": "tra Analisi in corso e Identificato",
       "segment_monitoring_resolved": "tra Monitoraggio e Risolto",
-      "view_details": "Visualizza dettagli incidente"
+      "view_details": "Visualizza dettagli incidente",
+      "ssl_cause_label": "Causa:",
+      "ssl_cause_notice": "Questo incidente è stato causato da un certificato SSL scaduto, non da un'interruzione del servizio.",
+      "ssl_cause_badge": "SSL scaduto"
     },
     "page": {
       "title_with_name": "Stato di {{name}}",

@@ -215,7 +215,8 @@
       "magic_link_btn": "Pošalji magičnu poveznicu",
       "azure_btn": "Nastavi uz Azure AD",
       "google_btn": "Nastavi uz Google",
-      "oidc_btn": "Nastavi uz jedinstvenu prijavu"
+      "oidc_btn": "Nastavi uz jedinstvenu prijavu",
+      "heading": "Prijavite se za pregled ove statusne stranice"
     },
     "archive": {
       "meta_incidents_description": "Povijesna arhiva incidenata za {{name}}",
@@ -343,6 +344,10 @@
       "powered_by": "Pokreće",
       "logo_alt": "Logo status stranice",
       "analytics_disclaimer": "Ova prilagođena domena koristi analitiku prilagođenu privatnosti za agregirane uvide o prometu."
+    },
+    "event": {
+      "show_details": "Prikaži pojedinosti",
+      "hide_details": "Sakrij pojedinosti"
     }
   },
   "account_deletion": {
@@ -937,7 +942,18 @@
     },
     "usage_snapshot": "Pregled upotrebe",
     "used": "iskorišćeno",
-    "will_cancel_subscription": "Ovo će otkazati Vašu pretplatu"
+    "will_cancel_subscription": "Ovo će otkazati Vašu pretplatu",
+    "plan_history": "Povijest plana",
+    "account_credit": {
+      "title": "Kredit na računu",
+      "subtitle": "Automatski se primjenjuje na sljedeći račun",
+      "body": "U sklopu naše <strong>SLA obveze</strong>, izdajemo kredite na računu kad god dostupnost naše platforme padne ispod 99,9% u danom mjesecu. Ovi krediti se automatski primjenjuju na vaš sljedeći račun — nije potrebna nikakva radnja s vaše strane.",
+      "expiry_note": "Krediti ističu 12 mjeseci od datuma izdavanja. Za sve detalje pogledajte odjeljak",
+      "tc_link": "Dostupnost i krediti usluge",
+      "tc_suffix": "u Uvjetima korištenja."
+    },
+    "no_further_payments": "Nema — jednokratno plaćanje",
+    "plan_change_info_lifetime": "Vaš doživotni plan nikada ne ističe i nema periodičnih naplata. Prelazak na drugi plan stupa na snagu odmah, uz proporcionalnu naplatu."
   },
   "common": {
     "action": "Akcija",
@@ -1338,6 +1354,9 @@
       "pings_in_window": "Pingovi u prozoru",
       "still_learning_text": "Još uči vaš interval (potrebna su 3 pinga).",
       "title": "Rješavanje problema"
+    },
+    "quota": {
+      "used": "Iskorišteni monitori otkucaja"
     }
   },
   "import": {
@@ -1566,7 +1585,8 @@
       "german": "🇩🇪 Deutsch",
       "portuguese_br": "🇧🇷 português (Brazil)",
       "serbian": "🇷🇸 Srpski",
-      "spanish": "🇪🇸 Španjolski"
+      "spanish": "🇪🇸 Španjolski",
+      "arabic": "🇸🇦 العربية"
     },
     "assign_groups": "Dodelite komponente grupama ili ih ostavite negrupisanim – oba načina rade savršeno!",
     "assign_to": "Dodeli:",
@@ -3519,6 +3539,13 @@
         "point_1": "Besplatni plan pokriva do 3 komponente",
         "point_2": "Kartica nije potrebna",
         "point_3": "Izgleda odlično i gradi povjerenje korisnika"
+      },
+      "operations": {
+        "title": "Operacije i timovi s puno dobavljača",
+        "description": "Upravljate mnogim uslugama, regijama, dobavljačima ili procesima okrenutim prema klijentima i treba vam stranica koju ljudi mogu brzo pregledati.",
+        "point_1": "Grupirajte komponente poput Pružatelja plaćanja, Dostave e-pošte i Europe",
+        "point_2": "Držite zdrave grupe skupljene kako bi pogođeni sustavi upadali u oči",
+        "point_3": "Koristite bilješke i statuse održavanja kada su ažuriranja ručna"
       }
     },
     "how_it_works": {
@@ -3585,6 +3612,33 @@
       "point_2": "Unos incidenta kreiran automatski — bez zasebnog koraka",
       "point_3": "Pretplatnici su obaviješteni bez otvaranja tijeka upravljanja incidentom",
       "point_4": "Incident se automatski rješava kada komponentu vratite na operativno stanje"
+    },
+    "large_pages": {
+      "badge": "Velike jednostavne stranice",
+      "title": "Izrađeno i za velike ručne statusne stranice",
+      "description": "Jednostavne statusne stranice nisu samo za male proizvode. Koristite ih za velike stranice temeljene na komponentama gdje timovi ručno prijavljuju status regija, dobavljača, kategorija usluga, internih ovisnosti ili dijelova okrenutih prema klijentima.",
+      "point_1": "Grupirajte komponente po području proizvoda, regiji, dobavljaču, infrastrukturnom sloju ili procesu.",
+      "point_2": "Skupite zdrave grupe kako posjetitelji ne bi morali pregledavati zid zelenih komponenti.",
+      "point_3": "Koristite način velikog rasporeda kada mnogim grupama trebaju kompaktni harmonika prikazi i sažetak pogođenih sustava.",
+      "point_4": "Zadržite stranice temeljene na monitorima na zadanom rasporedu kada su grafikoni vremena odziva i dostupnosti važni.",
+      "large_layout_link": "Pročitajte o načinu velikog rasporeda",
+      "collapse_link": "Skupi grupe komponenti",
+      "preview": {
+        "title": "Pogođeni sustavi",
+        "subtitle": "Prikažite prvo sustave kojima je potrebna pažnja.",
+        "badge": "2 pogođena",
+        "payment": "Pružatelji plaćanja",
+        "email": "Dostava e-pošte",
+        "europe": "Europa",
+        "dashboard": "Korisnička nadzorna ploča",
+        "suppliers": "Desktop dobavljači - Europa",
+        "degraded": "Degradirano",
+        "partial_outage": "Djelomični prekid",
+        "operational": "Operativno",
+        "operational_2": "Operativno",
+        "operational_3": "Operativno",
+        "note": "Zdrave grupe mogu ostati skupljene. Pogođene grupe ostaju lako uočljive."
+      }
     }
   },
   "public_nav": {
@@ -3610,12 +3664,14 @@
       "email": {
         "cta": "Pošalji e-poštu",
         "text": "Pošaljite nam e-poštu i javićemo Vam se u roku od 24 sata.",
-        "title": "E-pošta"
+        "title": "E-pošta",
+        "badge": "Odgovor za 24h"
       },
       "live_chat": {
         "cta": "Pokreni ćaskanje",
         "text": "Dobijte pomoć odmah od našeg tima za podršku putem ćaskanja uživo.",
-        "title": "Ćaskanje uživo"
+        "title": "Ćaskanje uživo",
+        "badge": "~5 min u prosjeku"
       },
       "telegram": {
         "cta": "Pridruži se Telegramu",
@@ -4554,7 +4610,10 @@
       "upgrade_button": "Nadogradi",
       "upgrade_required_text": "Korisnici besplatnog plana ne mogu mijenjati lokacije monitora. Nadogradite plan kako biste odabrali dodatne lokacije.",
       "upgrade_required_title": "Potrebna nadogradnja"
-    }
+    },
+    "defaults_alert_docs_prefix": "Trebate cjelovite korake postavljanja?",
+    "defaults_alert_docs_link": "Pročitajte vodič",
+    "defaults_alert_docs_suffix": "."
   },
   "monitors_advanced": {
     "allowed_downtime": "Dozvoljeno vreme prekida",

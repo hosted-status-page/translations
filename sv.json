@@ -591,7 +591,18 @@
     },
     "usage_snapshot": "Använda Snapshot",
     "used": "används",
-    "will_cancel_subscription": "Detta kommer att avbryta din prenumeration"
+    "will_cancel_subscription": "Detta kommer att avbryta din prenumeration",
+    "plan_history": "Planhistorik",
+    "account_credit": {
+      "title": "Kontokredit",
+      "subtitle": "Tillämpas automatiskt på din nästa faktura",
+      "body": "Som en del av vårt <strong>SLA-åtagande</strong> utfärdar vi kontokrediter när vår plattforms drifttid faller under 99,9 % under en given månad. Dessa krediter tillämpas automatiskt på din nästa faktura — ingen åtgärd krävs från din sida.",
+      "expiry_note": "Krediter upphör att gälla 12 månader efter utfärdandedatum. För fullständiga detaljer, se vårt avsnitt",
+      "tc_link": "Drifttid och servicekrediter",
+      "tc_suffix": "i våra Allmänna villkor."
+    },
+    "no_further_payments": "Ingen — engångsbetalning",
+    "plan_change_info_lifetime": "Din livstidsplan upphör aldrig och har inga återkommande avgifter. Byte till en annan plan träder i kraft omedelbart med proportionell fakturering."
   },
   "common": {
     "action": "Åtgärder",
@@ -842,7 +853,7 @@
     },
     "delete_confirm": {
       "confirm": "Ta bort",
-      "text": "Detta raderar permanent \"_NAME__\" och dess pinghistorik.",
+      "text": "Detta raderar permanent \"__NAME__\" och dess pinghistorik.",
       "title": "Ta bort hjärtslag?"
     },
     "edit": {
@@ -992,6 +1003,9 @@
       "pings_in_window": "Pingar i fönstret",
       "still_learning_text": "Lär sig fortfarande ditt intervall (3 pingar behövs).",
       "title": "Felsökare"
+    },
+    "quota": {
+      "used": "Använda hjärtslagsskärmar"
     }
   },
   "import": {
@@ -1220,7 +1234,8 @@
       "german": "Deutsch",
       "portuguese_br": "Português (Brasil)",
       "serbian": "🇷🇸 Српски",
-      "spanish": "Español"
+      "spanish": "Español",
+      "arabic": "🇸🇦 العربية"
     },
     "assign_groups": "Tilldela komponenter till grupper eller lämna dem oupptäckta – båda fungerar perfekt!",
     "assign_to": "Tilldela till:",
@@ -3173,6 +3188,13 @@
         "point_1": "Gratis plan täcker upp till 3 komponenter",
         "point_2": "Inget kreditkort krävs",
         "point_3": "Ser bra ut och bygger användarnas förtroende"
+      },
+      "operations": {
+        "title": "Drift och team med många leverantörer",
+        "description": "Du hanterar många tjänster, regioner, leverantörer eller kundvända flöden och behöver en sida som folk snabbt kan överblicka.",
+        "point_1": "Gruppera komponenter som Betalningsleverantörer, E-postleverans och Europa",
+        "point_2": "Håll friska grupper hopfällda så att påverkade system syns tydligt",
+        "point_3": "Använd anteckningar och underhållsstatus när uppdateringar görs manuellt"
       }
     },
     "how_it_works": {
@@ -3239,6 +3261,33 @@
       "point_2": "Inträde skapat automatiskt – inget separat steg",
       "point_3": "Prenumeranter meddelade utan att öppna incidenthanteringsflödet",
       "point_4": "Incident auto-resolves när du återställer komponenten till Operational"
+    },
+    "large_pages": {
+      "badge": "Stora enkla sidor",
+      "title": "Byggd även för stora manuella statussidor",
+      "description": "Enkla statussidor är inte bara för små produkter. Använd dem för stora komponentbaserade sidor där team manuellt rapporterar status för regioner, leverantörer, tjänstekategorier, interna beroenden eller kundvända ytor.",
+      "point_1": "Gruppera komponenter efter produktområde, region, leverantör, infrastrukturlager eller arbetsflöde.",
+      "point_2": "Fäll ihop friska grupper så att besökare inte tvingas bläddra genom en vägg av gröna komponenter.",
+      "point_3": "Använd stort layoutläge när många grupper behöver kompakta dragspel och en sammanfattning av påverkade system.",
+      "point_4": "Behåll monitorbaserade sidor i standardlayouten när svarstidsgrafer och drifttidsdiagram är viktiga.",
+      "large_layout_link": "Läs om stort layoutläge",
+      "collapse_link": "Fäll ihop komponentgrupper",
+      "preview": {
+        "title": "Påverkade system",
+        "subtitle": "Visa systemen som behöver uppmärksamhet först.",
+        "badge": "2 påverkade",
+        "payment": "Betalningsleverantörer",
+        "email": "E-postleverans",
+        "europe": "Europa",
+        "dashboard": "Kundpanel",
+        "suppliers": "Desktop-leverantörer - Europa",
+        "degraded": "Försämrad",
+        "partial_outage": "Delvis driftstopp",
+        "operational": "Operativ",
+        "operational_2": "Operativ",
+        "operational_3": "Operativ",
+        "note": "Friska grupper kan förbli hopfällda. Påverkade grupper är fortfarande lätta att hitta."
+      }
     }
   },
   "public_nav": {
@@ -3264,12 +3313,14 @@
       "email": {
         "cta": "Skicka e-post",
         "text": "E-post oss, och vi kommer tillbaka till dig inom 24 timmar.",
-        "title": "E-post"
+        "title": "E-post",
+        "badge": "Svar inom 24h"
       },
       "live_chat": {
         "cta": "Starta Chat",
         "text": "Få omedelbar hjälp från vårt supportteam via livechatt.",
-        "title": "Live Chat"
+        "title": "Live Chat",
+        "badge": "~5 min i snitt"
       },
       "telegram": {
         "cta": "Gå med Telegram",
@@ -4208,7 +4259,10 @@
       "upgrade_button": "Uppgradera",
       "upgrade_required_text": "Gratis plananvändare kan inte ändra övervakningsplatser. Uppgradera din plan för att välja ytterligare platser.",
       "upgrade_required_title": "Uppgradering krävs"
-    }
+    },
+    "defaults_alert_docs_prefix": "Behöver du de fullständiga installationsstegen?",
+    "defaults_alert_docs_link": "Läs guiden",
+    "defaults_alert_docs_suffix": "."
   },
   "monitors_advanced": {
     "allowed_downtime": "Tillåten Downtime",
@@ -4274,7 +4328,10 @@
       "monitoring_disabled": "Övervakning inaktiverad",
       "all_systems_operational": "Alla system fungerar normalt",
       "icmp_unreachable": "ICMP-nåbarhetsproblem",
-      "icmp_unreachable_caveat": "Inget ICMP-svar (ping) togs emot från den upplösta adressen. Detta bekräftar i sig inte att applikationen är otillgänglig."
+      "icmp_unreachable_caveat": "Inget ICMP-svar (ping) togs emot från den upplösta adressen. Detta bekräftar i sig inte att applikationen är otillgänglig.",
+      "low_impact": "Låg påverkan",
+      "non_critical": "Icke-kritisk",
+      "informational": "Informativ"
     },
     "incident_state": {
       "investigating": "Undersöker",
@@ -4476,7 +4533,8 @@
       "magic_link_btn": "Skicka magisk länk",
       "azure_btn": "Fortsätt med Azure AD",
       "google_btn": "Fortsätt med Google",
-      "oidc_btn": "Fortsätt med enkel inloggning"
+      "oidc_btn": "Fortsätt med enkel inloggning",
+      "heading": "Logga in för att se denna statussida"
     },
     "archive": {
       "meta_incidents_description": "Historiskt incidentarkiv för {{name}}",
@@ -4604,6 +4662,10 @@
       "powered_by": "Drivs av",
       "logo_alt": "Statussidelogotyp",
       "analytics_disclaimer": "Den här anpassade domänen använder integritetsvänlig analys för aggregerade trafikinsikter."
+    },
+    "event": {
+      "show_details": "Visa detaljer",
+      "hide_details": "Dölj detaljer"
     }
   },
   "validation": {

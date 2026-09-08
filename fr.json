@@ -2224,6 +2224,9 @@
       "pings_in_window": "Pings dans la fenêtre",
       "still_learning_text": "Apprentissage de votre intervalle en cours (3 pings nécessaires).",
       "title": "Dépanneur"
+    },
+    "quota": {
+      "used": "Moniteurs Heartbeat utilisés"
     }
   },
   "teams": {
@@ -3314,7 +3317,18 @@
     "trial_label": "Essai",
     "grace_period_label": "Période de Grâce",
     "active_label": "Actif:",
-    "active_until": "Actif jusqu’au :"
+    "active_until": "Actif jusqu’au :",
+    "plan_history": "Historique du plan",
+    "account_credit": {
+      "title": "Crédit de compte",
+      "subtitle": "Appliqué automatiquement à votre prochaine facture",
+      "body": "Dans le cadre de notre <strong>engagement SLA</strong>, nous émettons des crédits de compte chaque fois que la disponibilité de notre plateforme tombe sous 99,9 % au cours d'un mois donné. Ces crédits sont appliqués automatiquement à votre prochaine facture — aucune action requise de votre part.",
+      "expiry_note": "Les crédits expirent 12 mois après leur date d'émission. Pour tous les détails, consultez notre section",
+      "tc_link": "Disponibilité et crédits de service",
+      "tc_suffix": "dans les Conditions Générales."
+    },
+    "no_further_payments": "Aucun — paiement unique",
+    "plan_change_info_lifetime": "Votre plan à vie n'expire jamais et n'a pas de frais récurrents. Passer à un autre plan prend effet immédiatement avec une facturation au prorata."
   },
   "misc": {
     "language_names": {
@@ -3781,6 +3795,13 @@
         "point_1": "Le plan gratuit couvre jusqu'a 3 composants",
         "point_2": "Aucune carte bancaire requise",
         "point_3": "Le rendu est propre et renforce la confiance"
+      },
+      "operations": {
+        "title": "Opérations et équipes avec de nombreux fournisseurs",
+        "description": "Vous gérez de nombreux services, régions, fournisseurs ou flux destinés aux clients et avez besoin d'une page que les gens peuvent parcourir rapidement.",
+        "point_1": "Regroupez des composants comme Fournisseurs de paiement, Livraison d'e-mails et Europe",
+        "point_2": "Gardez les groupes sains repliés pour que les systèmes affectés ressortent",
+        "point_3": "Utilisez des notes et des états de maintenance lorsque les mises à jour sont manuelles"
       }
     },
     "how_it_works": {
@@ -3847,6 +3868,33 @@
       "point_2": "Entrée d'incident créée automatiquement — pas d'étape distincte",
       "point_3": "Abonnés avertis sans ouvrir le flux de gestion des incidents",
       "point_4": "L'incident se résout automatiquement lorsque vous réinitialisez le composant sur Opérationnel"
+    },
+    "large_pages": {
+      "badge": "Grandes pages simples",
+      "title": "Conçue aussi pour les grandes pages de statut manuelles",
+      "description": "Les pages de statut simples ne sont pas réservées aux petits produits. Utilisez-les pour de grandes pages basées sur des composants où les équipes rapportent manuellement le statut de régions, fournisseurs, catégories de services, dépendances internes ou surfaces destinées aux clients.",
+      "point_1": "Regroupez les composants par domaine de produit, région, fournisseur, couche d'infrastructure ou flux de travail.",
+      "point_2": "Repliez les groupes sains pour que les visiteurs ne soient pas confrontés à un mur de composants verts.",
+      "point_3": "Utilisez le mode Grande mise en page lorsque de nombreux groupes ont besoin d'accordéons compacts et d'un résumé des systèmes affectés.",
+      "point_4": "Gardez les pages basées sur des moniteurs dans la mise en page par défaut lorsque les graphiques de temps de réponse et de disponibilité comptent.",
+      "large_layout_link": "En savoir plus sur le mode Grande mise en page",
+      "collapse_link": "Replier les groupes de composants",
+      "preview": {
+        "title": "Systèmes affectés",
+        "subtitle": "Faites ressortir en premier les systèmes qui nécessitent de l'attention.",
+        "badge": "2 affectés",
+        "payment": "Fournisseurs de paiement",
+        "email": "Livraison d'e-mails",
+        "europe": "Europe",
+        "dashboard": "Tableau de bord client",
+        "suppliers": "Fournisseurs Desktop - Europe",
+        "degraded": "Dégradé",
+        "partial_outage": "Panne partielle",
+        "operational": "Opérationnel",
+        "operational_2": "Opérationnel",
+        "operational_3": "Opérationnel",
+        "note": "Les groupes sains peuvent rester repliés. Les groupes affectés restent faciles à trouver."
+      }
     }
   },
   "public_nav": {
@@ -3877,7 +3925,8 @@
       "live_chat": {
         "title": "Chat en direct",
         "text": "Obtenez de l'aide instantanément via le chat en direct avec notre équipe support.",
-        "cta": "Démarrer le chat"
+        "cta": "Démarrer le chat",
+        "badge": "~5 min en moyenne"
       },
       "telegram": {
         "text": "Contactez-nous via Telegram pour une assistance urgente.",
@@ -3886,7 +3935,8 @@
       "email": {
         "title": "E-mail",
         "text": "Envoyez-nous un e-mail et nous vous répondrons sous 24 heures.",
-        "cta": "Envoyer un e-mail"
+        "cta": "Envoyer un e-mail",
+        "badge": "Réponse sous 24h"
       }
     },
     "community": {
@@ -4264,7 +4314,10 @@
       "upgrade_button": "Mettre à niveau",
       "upgrade_required_text": "Les utilisateurs du plan gratuit ne peuvent pas modifier les emplacements des moniteurs. Veuillez mettre à niveau votre plan pour sélectionner des emplacements supplémentaires.",
       "upgrade_required_title": "Mise à niveau requise"
-    }
+    },
+    "defaults_alert_docs_prefix": "Besoin des étapes de configuration complètes ?",
+    "defaults_alert_docs_link": "Lire le guide",
+    "defaults_alert_docs_suffix": "."
   },
   "monitors_advanced": {
     "allowed_downtime": "Temps d’arrêt autorisé",
@@ -4330,7 +4383,10 @@
       "monitoring_disabled": "Surveillance désactivée",
       "all_systems_operational": "Tous les systèmes sont opérationnels",
       "icmp_unreachable": "Problème de joignabilité ICMP",
-      "icmp_unreachable_caveat": "Aucune réponse ICMP (ping) n'a été reçue de l'adresse résolue. Cela ne confirme pas à lui seul que l'application est indisponible."
+      "icmp_unreachable_caveat": "Aucune réponse ICMP (ping) n'a été reçue de l'adresse résolue. Cela ne confirme pas à lui seul que l'application est indisponible.",
+      "low_impact": "Impact faible",
+      "non_critical": "Non critique",
+      "informational": "Informatif"
     },
     "incident_state": {
       "investigating": "En cours d'investigation",
@@ -4532,7 +4588,8 @@
       "magic_link_btn": "Envoyer un lien magique",
       "azure_btn": "Continuer avec Azure AD",
       "google_btn": "Continuer avec Google",
-      "oidc_btn": "Continuer avec l’authentification unique"
+      "oidc_btn": "Continuer avec l’authentification unique",
+      "heading": "Connectez-vous pour voir cette page de statut"
     },
     "archive": {
       "meta_incidents_description": "Archive historique des incidents pour {{name}}",
@@ -4660,6 +4717,10 @@
       "powered_by": "Propulsé par",
       "logo_alt": "Logo Status Page",
       "analytics_disclaimer": "Ce domaine personnalisé utilise des analyses respectueuses de la vie privée pour des informations de trafic agrégées."
+    },
+    "event": {
+      "show_details": "Afficher les détails",
+      "hide_details": "Masquer les détails"
     }
   },
   "validation": {

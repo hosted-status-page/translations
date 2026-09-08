@@ -2211,6 +2211,9 @@
       "pings_in_window": "Pings en la ventana",
       "still_learning_text": "Aún aprendiendo tu intervalo (se necesitan 3 pings).",
       "title": "Solucionador de problemas"
+    },
+    "quota": {
+      "used": "Monitores de latido cardíaco usados"
     }
   },
   "teams": {
@@ -3301,7 +3304,18 @@
     "trial_label": "Prueba",
     "grace_period_label": "Período de Gracia",
     "active_label": "Activo:",
-    "active_until": "Activo hasta:"
+    "active_until": "Activo hasta:",
+    "plan_history": "Historial del plan",
+    "account_credit": {
+      "title": "Crédito de cuenta",
+      "subtitle": "Se aplica automáticamente a tu próxima factura",
+      "body": "Como parte de nuestro <strong>compromiso de SLA</strong>, emitimos créditos de cuenta cuando el tiempo de actividad de nuestra plataforma cae por debajo del 99,9% en un mes determinado. Estos créditos se aplican automáticamente a tu próxima factura, sin que tengas que hacer nada.",
+      "expiry_note": "Los créditos caducan 12 meses después de la fecha de emisión. Para más detalles consulta nuestra",
+      "tc_link": "Tiempo de actividad y créditos de servicio",
+      "tc_suffix": "sección en los Términos y Condiciones."
+    },
+    "no_further_payments": "Ninguno — pago único",
+    "plan_change_info_lifetime": "Tu plan de por vida nunca caduca y no tiene cargos recurrentes. Cambiar a otro plan se aplica de inmediato con facturación prorrateada."
   },
   "misc": {
     "language_names": {
@@ -3770,6 +3784,13 @@
         "point_1": "El plan gratuito cubre hasta 3 componentes",
         "point_2": "No hace falta tarjeta de credito",
         "point_3": "Se ve bien y genera confianza"
+      },
+      "operations": {
+        "title": "Operaciones y equipos con muchos proveedores",
+        "description": "Gestionas muchos servicios, regiones, proveedores o flujos de cara al cliente y necesitas una página que la gente pueda revisar rápidamente.",
+        "point_1": "Agrupa componentes como Proveedores de pago, Entrega de correo y Europa",
+        "point_2": "Mantén los grupos saludables colapsados para que los sistemas afectados destaquen",
+        "point_3": "Usa notas y estados de mantenimiento cuando las actualizaciones son manuales"
       }
     },
     "how_it_works": {
@@ -3836,6 +3857,33 @@
       "point_2": "Entrada de incidente creada automáticamente, sin pasos separados",
       "point_3": "Suscriptores notificados sin abrir el flujo de gestión de incidencias",
       "point_4": "El incidente se resuelve automáticamente cuando restablece el componente a Operativo"
+    },
+    "large_pages": {
+      "badge": "Páginas simples grandes",
+      "title": "Pensada también para grandes páginas de estado manuales",
+      "description": "Las páginas de estado simples no son solo para productos pequeños. Úsalas para páginas grandes basadas en componentes donde los equipos informan manualmente el estado de regiones, proveedores, categorías de servicio, dependencias internas o superficies de cara al cliente.",
+      "point_1": "Agrupa componentes por área de producto, región, proveedor, capa de infraestructura o flujo de trabajo.",
+      "point_2": "Colapsa los grupos saludables para que los visitantes no tengan que revisar un muro de componentes verdes.",
+      "point_3": "Usa el Modo de Diseño Grande cuando muchos grupos necesiten acordeones compactos y un resumen de sistemas afectados.",
+      "point_4": "Mantén las páginas basadas en monitores en el diseño predeterminado cuando los gráficos de tiempo de respuesta y de tiempo de actividad importen.",
+      "large_layout_link": "Lee sobre el Modo de Diseño Grande",
+      "collapse_link": "Colapsar grupos de componentes",
+      "preview": {
+        "title": "Sistemas afectados",
+        "subtitle": "Muestra primero los sistemas que necesitan atención.",
+        "badge": "2 afectados",
+        "payment": "Proveedores de pago",
+        "email": "Entrega de correo",
+        "europe": "Europa",
+        "dashboard": "Panel del cliente",
+        "suppliers": "Proveedores Desktop - Europa",
+        "degraded": "Degradado",
+        "partial_outage": "Interrupción parcial",
+        "operational": "Operativo",
+        "operational_2": "Operativo",
+        "operational_3": "Operativo",
+        "note": "Los grupos saludables pueden permanecer colapsados. Los grupos afectados siguen siendo fáciles de encontrar."
+      }
     }
   },
   "public_nav": {
@@ -3866,7 +3914,8 @@
       "live_chat": {
         "title": "Chat en vivo",
         "text": "Obtén ayuda al instante de nuestro equipo de soporte a través del chat en vivo.",
-        "cta": "Iniciar chat"
+        "cta": "Iniciar chat",
+        "badge": "~5 min de media"
       },
       "telegram": {
         "text": "Escríbenos por Telegram para asistencia urgente.",
@@ -3875,7 +3924,8 @@
       "email": {
         "title": "Correo electrónico",
         "text": "Envíanos un correo y te responderemos en un plazo de 24 horas.",
-        "cta": "Enviar correo"
+        "cta": "Enviar correo",
+        "badge": "Respuesta en 24h"
       }
     },
     "community": {
@@ -4253,7 +4303,10 @@
       "upgrade_button": "Actualizar",
       "upgrade_required_text": "Los usuarios del plan gratuito no pueden modificar las ubicaciones de los monitores. Actualiza tu plan para seleccionar ubicaciones adicionales.",
       "upgrade_required_title": "Actualización requerida"
-    }
+    },
+    "defaults_alert_docs_prefix": "¿Necesitas los pasos completos de configuración?",
+    "defaults_alert_docs_link": "Lee la guía",
+    "defaults_alert_docs_suffix": "."
   },
   "monitors_advanced": {
     "allowed_downtime": "Permiso de tiempo de reposo",
@@ -4524,7 +4577,8 @@
       "magic_link_btn": "Enviar enlace mágico",
       "azure_btn": "Continuar con Azure AD",
       "google_btn": "Continuar con Google",
-      "oidc_btn": "Continuar con inicio de sesión único"
+      "oidc_btn": "Continuar con inicio de sesión único",
+      "heading": "Inicia sesión para ver esta página de estado"
     },
     "archive": {
       "meta_incidents_description": "Archivo histórico de incidentes de {{name}}",
@@ -4652,6 +4706,10 @@
       "powered_by": "Desarrollado por",
       "logo_alt": "Logotipo de la página de estado",
       "analytics_disclaimer": "Este dominio personalizado usa analíticas respetuosas con la privacidad para obtener información agregada del tráfico."
+    },
+    "event": {
+      "show_details": "Mostrar detalles",
+      "hide_details": "Ocultar detalles"
     }
   },
   "validation": {
