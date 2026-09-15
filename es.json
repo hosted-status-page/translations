@@ -4540,7 +4540,11 @@
       "show_more_updates": "Mostrar {{count}} actualizaciones más ({{label}})",
       "segment_investigating_identified": "entre Investigando e Identificado",
       "segment_monitoring_resolved": "entre Monitoreando y Resuelto",
-      "view_details": "Ver detalles del incidente"
+      "view_details": "Ver detalles del incidente",
+      "timeline_affected_label": "Afectado",
+      "timeline_confirmation_label": "Confirmación de recuperación",
+      "timeline_affected_aria": "afectado durante {{duration}}",
+      "timeline_recovery_confirmed_aria": "recuperación confirmada {{duration}} después"
     },
     "page": {
       "title_with_name": "Estado de {{name}}",

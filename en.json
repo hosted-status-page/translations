@@ -4500,7 +4500,11 @@
       "show_more_updates": "Show {{count}} more updates ({{label}})",
       "segment_investigating_identified": "between Investigating and Identified",
       "segment_monitoring_resolved": "between Monitoring and Resolved",
-      "view_details": "View incident details"
+      "view_details": "View incident details",
+      "timeline_affected_label": "Affected",
+      "timeline_confirmation_label": "Recovery confirmation",
+      "timeline_affected_aria": "affected for {{duration}}",
+      "timeline_recovery_confirmed_aria": "recovery confirmed {{duration}} later"
     },
     "page": {
       "title_with_name": "{{name}} Status",

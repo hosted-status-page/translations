@@ -4498,6 +4498,10 @@
       "segment_investigating_identified": "tra Analisi in corso e Identificato",
       "segment_monitoring_resolved": "tra Monitoraggio e Risolto",
       "view_details": "Visualizza dettagli incidente",
+      "timeline_affected_label": "Interessato",
+      "timeline_confirmation_label": "Conferma del ripristino",
+      "timeline_affected_aria": "interessato per {{duration}}",
+      "timeline_recovery_confirmed_aria": "ripristino confermato {{duration}} dopo",
       "ssl_cause_label": "Causa:",
       "ssl_cause_notice": "Questo incidente è stato causato da un certificato SSL scaduto, non da un'interruzione del servizio.",
       "ssl_cause_badge": "SSL scaduto"

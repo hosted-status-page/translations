@@ -4533,7 +4533,11 @@
       "show_more_updates": "Mostrar mais {{count}} atualizações ({{label}})",
       "segment_investigating_identified": "entre Investigando e Identificado",
       "segment_monitoring_resolved": "entre Monitorando e Resolvido",
-      "view_details": "Ver detalhes do incidente"
+      "view_details": "Ver detalhes do incidente",
+      "timeline_affected_label": "Afetado",
+      "timeline_confirmation_label": "Confirmação de recuperação",
+      "timeline_affected_aria": "afetado por {{duration}}",
+      "timeline_recovery_confirmed_aria": "recuperação confirmada {{duration}} depois"
     },
     "page": {
       "title_with_name": "Status de {{name}}",

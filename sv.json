@@ -4496,7 +4496,11 @@
       "show_more_updates": "Visa {{count}} fler uppdateringar ({{label}})",
       "segment_investigating_identified": "mellan Undersöker och Identifierad",
       "segment_monitoring_resolved": "mellan Övervakning och Löst",
-      "view_details": "Visa incidentdetaljer"
+      "view_details": "Visa incidentdetaljer",
+      "timeline_affected_label": "Påverkad",
+      "timeline_confirmation_label": "Återställningsbekräftelse",
+      "timeline_affected_aria": "påverkad i {{duration}}",
+      "timeline_recovery_confirmed_aria": "återställning bekräftad {{duration}} senare"
     },
     "page": {
       "title_with_name": "{{name}} status",

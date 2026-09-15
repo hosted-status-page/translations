@@ -4551,7 +4551,11 @@
       "show_more_updates": "Afficher {{count}} mises à jour de plus ({{label}})",
       "segment_investigating_identified": "entre En cours d'investigation et Identifié",
       "segment_monitoring_resolved": "entre Surveillance et Résolu",
-      "view_details": "Voir les détails de l'incident"
+      "view_details": "Voir les détails de l'incident",
+      "timeline_affected_label": "Affecté",
+      "timeline_confirmation_label": "Confirmation du rétablissement",
+      "timeline_affected_aria": "affecté pendant {{duration}}",
+      "timeline_recovery_confirmed_aria": "rétablissement confirmé {{duration}} plus tard"
     },
     "page": {
       "title_with_name": "Statut de {{name}}",

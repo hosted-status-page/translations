@@ -4534,7 +4534,11 @@
       "show_more_updates": "{{count}} weitere Updates anzeigen ({{label}})",
       "segment_investigating_identified": "zwischen Untersucht und Identifiziert",
       "segment_monitoring_resolved": "zwischen Überwachung und Gelöst",
-      "view_details": "Vorfalldetails anzeigen"
+      "view_details": "Vorfalldetails anzeigen",
+      "timeline_affected_label": "Betroffen",
+      "timeline_confirmation_label": "Wiederherstellungsbestätigung",
+      "timeline_affected_aria": "betroffen für {{duration}}",
+      "timeline_recovery_confirmed_aria": "Wiederherstellung {{duration}} später bestätigt"
     },
     "page": {
       "title_with_name": "{{name}}-Status",

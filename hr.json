@@ -178,7 +178,11 @@
       "show_more_updates": "Prikaži još {{count}} ažuriranja ({{label}})",
       "segment_investigating_identified": "između Istražuje se i Identificirano",
       "segment_monitoring_resolved": "između Praćenje i Riješeno",
-      "view_details": "Prikaži pojedinosti incidenta"
+      "view_details": "Prikaži pojedinosti incidenta",
+      "timeline_affected_label": "Pogođeno",
+      "timeline_confirmation_label": "Potvrda oporavka",
+      "timeline_affected_aria": "pogođeno {{duration}}",
+      "timeline_recovery_confirmed_aria": "oporavak potvrđen {{duration}} kasnije"
     },
     "page": {
       "title_with_name": "Status za {{name}}",

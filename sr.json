@@ -4496,7 +4496,11 @@
       "show_more_updates": "Прикажи још {{count}} ажурирања ({{label}})",
       "segment_investigating_identified": "између Истражује се и Идентификовано",
       "segment_monitoring_resolved": "између Праћење и Решено",
-      "view_details": "Прикажи детаље инцидента"
+      "view_details": "Прикажи детаље инцидента",
+      "timeline_affected_label": "Погођено",
+      "timeline_confirmation_label": "Потврда опоравка",
+      "timeline_affected_aria": "погођено {{duration}}",
+      "timeline_recovery_confirmed_aria": "опоравак потврђен {{duration}} касније"
     },
     "page": {
       "title_with_name": "{{name}} статус",

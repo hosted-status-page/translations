@@ -4546,7 +4546,11 @@
       "show_more_updates": "إظهار {{count}} تحديثات إضافية ({{label}})",
       "segment_investigating_identified": "بين قيد التحقيق وتم التحديد",
       "segment_monitoring_resolved": "بين المراقبة وتم الحل",
-      "view_details": "عرض تفاصيل الحادث"
+      "view_details": "عرض تفاصيل الحادث",
+      "timeline_affected_label": "متأثر",
+      "timeline_confirmation_label": "تأكيد الاستعادة",
+      "timeline_affected_aria": "متأثر لمدة {{duration}}",
+      "timeline_recovery_confirmed_aria": "تم تأكيد الاستعادة بعد {{duration}}"
     },
     "page": {
       "title_with_name": "حالة {{name}}",
