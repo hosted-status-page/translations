@@ -4655,7 +4655,10 @@
       "downtime_recorded": "Забележен застој",
       "day_affected_fraction": "Погођено {{percent}}% дана",
       "decreased_downtime_by": "Застој је смањен за {{minutes}}м",
-      "increased_downtime_by": "Застој је повећан за {{minutes}}м"
+      "increased_downtime_by": "Застој је повећан за {{minutes}}м",
+      "incident_label": "Инцидент",
+      "also_affects": "Такође утиче на: {{components}}",
+      "pagewide_incident_context": "Утиче на целу страницу статуса"
     },
     "settings": {
       "show_component_uptime": "Прикажи проценат доступности компоненте",

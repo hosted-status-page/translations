@@ -4655,7 +4655,10 @@
       "downtime_recorded": "Driftstopp registrerat",
       "day_affected_fraction": "{{percent}}% av dagen påverkad",
       "decreased_downtime_by": "Minskade driftstoppet med {{minutes}}m",
-      "increased_downtime_by": "Ökade driftstoppet med {{minutes}}m"
+      "increased_downtime_by": "Ökade driftstoppet med {{minutes}}m",
+      "incident_label": "Incident",
+      "also_affects": "Påverkar även: {{components}}",
+      "pagewide_incident_context": "Påverkar hela statussidan"
     },
     "settings": {
       "show_component_uptime": "Visa komponentens upptidsprocent",

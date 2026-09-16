@@ -337,7 +337,10 @@
       "downtime_recorded": "Zabilježen prekid rada",
       "day_affected_fraction": "Pogođeno {{percent}}% dana",
       "decreased_downtime_by": "Prekid rada smanjen za {{minutes}} min",
-      "increased_downtime_by": "Prekid rada povećan za {{minutes}} min"
+      "increased_downtime_by": "Prekid rada povećan za {{minutes}} min",
+      "incident_label": "Incident",
+      "also_affects": "Također utječe na: {{components}}",
+      "pagewide_incident_context": "Utječe na cijelu stranicu statusa"
     },
     "settings": {
       "show_component_uptime": "Prikaži postotak dostupnosti komponente",

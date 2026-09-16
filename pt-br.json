@@ -4692,7 +4692,10 @@
       "downtime_recorded": "Tempo de inatividade registrado",
       "day_affected_fraction": "{{percent}}% do dia afetado",
       "decreased_downtime_by": "Tempo de inatividade reduzido em {{minutes}} min",
-      "increased_downtime_by": "Tempo de inatividade aumentado em {{minutes}} min"
+      "increased_downtime_by": "Tempo de inatividade aumentado em {{minutes}} min",
+      "incident_label": "Incidente",
+      "also_affects": "Também afeta: {{components}}",
+      "pagewide_incident_context": "Afeta toda a página de status"
     },
     "settings": {
       "show_component_uptime": "Mostrar percentual de disponibilidade do componente",

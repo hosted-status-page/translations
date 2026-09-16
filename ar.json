@@ -4705,7 +4705,10 @@
       "downtime_recorded": "تم تسجيل وقت تعطل",
       "day_affected_fraction": "تأثر {{percent}}% من اليوم",
       "decreased_downtime_by": "تم تقليل وقت التعطل بمقدار {{minutes}} دقيقة",
-      "increased_downtime_by": "تمت زيادة وقت التعطل بمقدار {{minutes}} دقيقة"
+      "increased_downtime_by": "تمت زيادة وقت التعطل بمقدار {{minutes}} دقيقة",
+      "incident_label": "حادثة",
+      "also_affects": "يؤثر أيضًا على: {{components}}",
+      "pagewide_incident_context": "يؤثر على صفحة الحالة بأكملها"
     },
     "settings": {
       "show_component_uptime": "إظهار نسبة توفر المكون",

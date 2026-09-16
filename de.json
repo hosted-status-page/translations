@@ -4693,7 +4693,10 @@
       "downtime_recorded": "Ausfall aufgezeichnet",
       "day_affected_fraction": "{{percent}}% des Tages betroffen",
       "decreased_downtime_by": "Ausfall um {{minutes}} Min. reduziert",
-      "increased_downtime_by": "Ausfall um {{minutes}} Min. erhöht"
+      "increased_downtime_by": "Ausfall um {{minutes}} Min. erhöht",
+      "incident_label": "Vorfall",
+      "also_affects": "Betrifft auch: {{components}}",
+      "pagewide_incident_context": "Betrifft die gesamte Statusseite"
     },
     "settings": {
       "show_component_uptime": "Verfügbarkeitsprozentsatz der Komponente anzeigen",

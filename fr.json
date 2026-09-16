@@ -4710,7 +4710,10 @@
       "downtime_recorded": "Temps d'arrêt enregistré",
       "day_affected_fraction": "{{percent}}% de la journée affectée",
       "decreased_downtime_by": "Temps d'arrêt réduit de {{minutes}} min",
-      "increased_downtime_by": "Temps d'arrêt augmenté de {{minutes}} min"
+      "increased_downtime_by": "Temps d'arrêt augmenté de {{minutes}} min",
+      "incident_label": "Incident",
+      "also_affects": "Affecte également : {{components}}",
+      "pagewide_incident_context": "Affecte l'ensemble de la page de statut"
     },
     "settings": {
       "show_component_uptime": "Afficher le pourcentage de disponibilité du composant",

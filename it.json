@@ -4659,7 +4659,10 @@
       "downtime_recorded": "Downtime registrato",
       "day_affected_fraction": "{{percent}}% della giornata interessato",
       "decreased_downtime_by": "Downtime diminuito di {{minutes}}m",
-      "increased_downtime_by": "Downtime aumentato di {{minutes}}m"
+      "increased_downtime_by": "Downtime aumentato di {{minutes}}m",
+      "incident_label": "Incidente",
+      "also_affects": "Interessa anche: {{components}}",
+      "pagewide_incident_context": "Interessa l'intera pagina di stato"
     },
     "settings": {
       "show_component_uptime": "Mostra percentuale di uptime del componente",
