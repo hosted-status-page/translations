@@ -4337,6 +4337,7 @@
       "investigating": "Истрага у току",
       "identified": "Идентификовано",
       "monitoring": "Праћење",
+      "monitoring_recovery": "Праћење опоравка",
       "resolved": "Решено",
       "initial": "Почетни",
       "state_change": "Промена стања",
@@ -4472,6 +4473,7 @@
       "updates_label": "Ажурирања:"
     },
     "incident_view": {
+      "incident_severity_label": "Озбиљност инцидента:",
       "inactive_notice": "Ова статусна страница је неактивна. Ако сте власник сајта, омогућите је у подешавањима статусне странице.",
       "breadcrumb_current": "Инцидент",
       "details_title": "Детаљи инцидента",

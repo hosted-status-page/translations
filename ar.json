@@ -4387,6 +4387,7 @@
       "investigating": "جارٍ التحقيق",
       "identified": "تم التحديد",
       "monitoring": "المراقبة",
+      "monitoring_recovery": "مراقبة التعافي",
       "resolved": "تم الحل",
       "initial": "أولي",
       "state_change": "تغيير الحالة",
@@ -4522,6 +4523,7 @@
       "updates_label": "التحديثات:"
     },
     "incident_view": {
+      "incident_severity_label": "خطورة الحادث:",
       "inactive_notice": "صفحة الحالة هذه غير نشطة. إذا كنت مالك الموقع، فقم بتفعيلها من إعدادات صفحة الحالة الخاصة بك.",
       "breadcrumb_current": "حادث",
       "details_title": "تفاصيل الحادث",

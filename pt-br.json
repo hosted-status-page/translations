@@ -4374,6 +4374,7 @@
       "investigating": "Investigando",
       "identified": "Identificado",
       "monitoring": "Monitorando",
+      "monitoring_recovery": "Monitoramento da recuperação",
       "resolved": "Resolvido",
       "initial": "Inicial",
       "state_change": "Mudança de status",
@@ -4509,6 +4510,7 @@
       "updates_label": "Atualizações:"
     },
     "incident_view": {
+      "incident_severity_label": "Gravidade do incidente:",
       "inactive_notice": "Esta página de status está inativa. Se você é o proprietário do site, ative-a nas configurações da sua página de status.",
       "breadcrumb_current": "Incidente",
       "details_title": "Detalhes do incidente",

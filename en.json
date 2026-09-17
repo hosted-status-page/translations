@@ -4337,6 +4337,7 @@
       "investigating": "Investigating",
       "identified": "Identified",
       "monitoring": "Monitoring",
+      "monitoring_recovery": "Monitoring recovery",
       "resolved": "Resolved",
       "initial": "Initial",
       "state_change": "State Change",
@@ -4476,6 +4477,7 @@
       "hide_details": "Hide details"
     },
     "incident_view": {
+      "incident_severity_label": "Incident severity:",
       "inactive_notice": "This status page is inactive. If you are the site owner, enable it from your status page settings.",
       "breadcrumb_current": "Incident",
       "details_title": "Incident Details",

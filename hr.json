@@ -19,6 +19,7 @@
       "investigating": "Istražuje se",
       "identified": "Identificirano",
       "monitoring": "Praćenje",
+      "monitoring_recovery": "Praćenje oporavka",
       "resolved": "Riješeno",
       "initial": "Početno",
       "state_change": "Promjena stanja",
@@ -154,6 +155,7 @@
       "updates_label": "Ažuriranja:"
     },
     "incident_view": {
+      "incident_severity_label": "Ozbiljnost incidenta:",
       "inactive_notice": "Ova status stranica je neaktivna. Ako ste vlasnik stranice, omogućite je u postavkama svoje status stranice.",
       "breadcrumb_current": "Incident",
       "details_title": "Detalji incidenta",

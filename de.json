@@ -4375,6 +4375,7 @@
       "investigating": "Wird untersucht",
       "identified": "Identifiziert",
       "monitoring": "Wird überwacht",
+      "monitoring_recovery": "Überwachte Wiederherstellung",
       "resolved": "Behoben",
       "initial": "Anfänglich",
       "state_change": "Statusänderung",
@@ -4510,6 +4511,7 @@
       "updates_label": "Aktualisierungen:"
     },
     "incident_view": {
+      "incident_severity_label": "Schweregrad des Vorfalls:",
       "inactive_notice": "Diese Statusseite ist inaktiv. Wenn Sie der Websitebesitzer sind, aktivieren Sie es in den Einstellungen Ihrer Statusseite.",
       "breadcrumb_current": "Vorfall",
       "details_title": "Vorfalldetails",

@@ -4337,6 +4337,7 @@
       "investigating": "Undersöker",
       "identified": "Identifierad",
       "monitoring": "Övervakar",
+      "monitoring_recovery": "Återställning övervakas",
       "resolved": "Löst",
       "initial": "Inledande",
       "state_change": "Statusändring",
@@ -4472,6 +4473,7 @@
       "updates_label": "Uppdateringar:"
     },
     "incident_view": {
+      "incident_severity_label": "Incidentens allvarlighetsgrad:",
       "inactive_notice": "Den här statussidan är inaktiv. Om du är sajtägaren aktiverar du den i inställningarna för statussidan.",
       "breadcrumb_current": "Incident",
       "details_title": "Incidentdetaljer",

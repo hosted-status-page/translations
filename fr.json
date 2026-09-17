@@ -4392,6 +4392,7 @@
       "investigating": "En cours d'investigation",
       "identified": "Identifié",
       "monitoring": "Surveillance",
+      "monitoring_recovery": "Surveillance de la reprise",
       "resolved": "Résolu",
       "initial": "Initial",
       "state_change": "Changement d'état",
@@ -4527,6 +4528,7 @@
       "updates_label": "Mises à jour :"
     },
     "incident_view": {
+      "incident_severity_label": "Gravité de l'incident :",
       "inactive_notice": "Cette page de statut est inactive. Si vous êtes le propriétaire du site, activez-la depuis les paramètres de votre page de statut.",
       "breadcrumb_current": "Incident",
       "details_title": "Détails de l'incident",
