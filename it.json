@@ -19,7 +19,10 @@
     },
     "step_up": {
       "heading": "Confermi la tua identità per procedere",
-      "hint": "Inserisci almeno uno dei seguenti per confermare:"
+      "hint": "Inserisci almeno uno dei seguenti per confermare:",
+      "oauth_confirmed": "Identità confermata tramite accesso. Puoi procedere qui sotto, oppure usare comunque una password/codice OTP/codice di backup.",
+      "oauth_hint": "Oppure conferma accedendo di nuovo con un account collegato:",
+      "oauth_button_prefix": "Continua con"
     },
     "delete_button": "Elimina definitivamente il mio account",
     "export_first": {

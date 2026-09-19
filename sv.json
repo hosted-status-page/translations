@@ -19,7 +19,10 @@
     },
     "step_up": {
       "heading": "Bekräfta din identitet att fortsätta",
-      "hint": "Ange minst ett av följande för att bekräfta:"
+      "hint": "Ange minst ett av följande för att bekräfta:",
+      "oauth_confirmed": "Identitet bekräftad via inloggning. Du kan fortsätta nedan, eller ändå använda ett lösenord/OTP-kod/reservkod.",
+      "oauth_hint": "Eller bekräfta genom att logga in igen med ett anslutet konto:",
+      "oauth_button_prefix": "Fortsätt med"
     },
     "delete_button": "Radera permanent mitt konto",
     "export_first": {

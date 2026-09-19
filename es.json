@@ -3048,7 +3048,10 @@
     },
     "step_up": {
       "heading": "Confirma tu identidad para continuar",
-      "hint": "Introduce al menos uno de los siguientes datos para confirmar:"
+      "hint": "Introduce al menos uno de los siguientes datos para confirmar:",
+      "oauth_confirmed": "Identidad confirmada mediante el inicio de sesión. Puedes continuar a continuación, o seguir usando una contraseña, un código OTP o un código de respaldo.",
+      "oauth_hint": "O confírmalo iniciando sesión de nuevo con una cuenta conectada:",
+      "oauth_button_prefix": "Continuar con"
     },
     "delete_button": "Eliminar mi cuenta de forma permanente",
     "swal": {

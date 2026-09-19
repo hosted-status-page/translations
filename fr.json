@@ -3061,7 +3061,10 @@
     },
     "step_up": {
       "heading": "Confirmez votre identité pour continuer",
-      "hint": "Saisissez au moins l’un des éléments suivants pour confirmer :"
+      "hint": "Saisissez au moins l’un des éléments suivants pour confirmer :",
+      "oauth_confirmed": "Identité confirmée via la connexion. Vous pouvez continuer ci-dessous, ou utiliser malgré tout un mot de passe, un code OTP ou un code de secours.",
+      "oauth_hint": "Ou confirmez en vous reconnectant avec un compte connecté :",
+      "oauth_button_prefix": "Continuer avec"
     },
     "delete_button": "Supprimer mon compte définitivement",
     "swal": {

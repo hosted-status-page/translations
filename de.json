@@ -3044,7 +3044,10 @@
     },
     "step_up": {
       "heading": "Bestätigen Sie Ihre Identität, um fortzufahren",
-      "hint": "Geben Sie zur Bestätigung mindestens eine der folgenden Angaben ein:"
+      "hint": "Geben Sie zur Bestätigung mindestens eine der folgenden Angaben ein:",
+      "oauth_confirmed": "Identität durch erneute Anmeldung bestätigt. Sie können unten fortfahren oder stattdessen weiterhin ein Passwort/einen OTP-/Backup-Code verwenden.",
+      "oauth_hint": "Oder bestätigen Sie dies, indem Sie sich erneut mit einem verbundenen Konto anmelden:",
+      "oauth_button_prefix": "Fortfahren mit"
     },
     "delete_button": "Mein Konto dauerhaft löschen",
     "swal": {

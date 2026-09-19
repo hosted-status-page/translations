@@ -19,7 +19,10 @@
     },
     "step_up": {
       "heading": "Confirm your identity to proceed",
-      "hint": "Enter at least one of the following to confirm:"
+      "hint": "Enter at least one of the following to confirm:",
+      "oauth_confirmed": "Identity confirmed via sign-in. You can proceed below, or still use a password/OTP/backup code instead.",
+      "oauth_hint": "Or confirm by signing in again with a connected account:",
+      "oauth_button_prefix": "Continue with"
     },
     "delete_button": "Permanently Delete My Account",
     "export_first": {

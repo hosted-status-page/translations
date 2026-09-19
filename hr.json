@@ -379,7 +379,10 @@
     },
     "step_up": {
       "heading": "Potvrdite svoj identitet da biste nastavili",
-      "hint": "Unesite barem jedno od sljedećeg za potvrdu:"
+      "hint": "Unesite barem jedno od sljedećeg za potvrdu:",
+      "oauth_confirmed": "Identitet potvrđen prijavom. Možete nastaviti u nastavku ili i dalje upotrijebiti lozinku/OTP kôd/rezervni kôd.",
+      "oauth_hint": "Ili potvrdite ponovnom prijavom putem povezanog računa:",
+      "oauth_button_prefix": "Nastavi s"
     },
     "delete_button": "Trajno izbrišite moj račun",
     "export_first": {

@@ -3044,7 +3044,10 @@
     },
     "step_up": {
       "heading": "Confirme sua identidade para continuar",
-      "hint": "Digite pelo menos uma das opções a seguir para confirmar:"
+      "hint": "Digite pelo menos uma das opções a seguir para confirmar:",
+      "oauth_confirmed": "Identidade confirmada pelo login. Você pode prosseguir abaixo ou ainda usar uma senha/código OTP/código de backup.",
+      "oauth_hint": "Ou confirme fazendo login novamente com uma conta conectada:",
+      "oauth_button_prefix": "Continuar com"
     },
     "delete_button": "Excluir minha conta permanentemente",
     "swal": {
