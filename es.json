@@ -3047,11 +3047,20 @@
       "placeholder": "Ayúdanos a mejorar compartiendo por qué te vas..."
     },
     "step_up": {
-      "heading": "Confirma tu identidad para continuar",
+      "heading": "Confirma tu identidad",
       "hint": "Introduce al menos uno de los siguientes datos para confirmar:",
-      "oauth_confirmed": "Identidad confirmada mediante el inicio de sesión. Puedes continuar a continuación, o seguir usando una contraseña, un código OTP o un código de respaldo.",
+      "oauth_confirmed": "Identidad confirmada con",
       "oauth_hint": "O confírmalo iniciando sesión de nuevo con una cuenta conectada:",
-      "oauth_button_prefix": "Continuar con"
+      "oauth_button_prefix": "Continuar con",
+      "oauth_only_hint": "Para cerrar tu cuenta, confirma tu identidad usando tu cuenta conectada.",
+      "choose_method": "Elige cómo quieres confirmar tu identidad.",
+      "password_hint": "Confirma tu identidad usando uno de los métodos disponibles a continuación.",
+      "oauth_method": "Continuar con una cuenta conectada",
+      "password_method": "Confirmar con contraseña",
+      "mfa_method": "Usa un código de autenticador o de respaldo",
+      "otp_label": "Código de autenticador",
+      "backup_label": "Código de respaldo",
+      "or": "O"
     },
     "delete_button": "Eliminar mi cuenta de forma permanente",
     "swal": {

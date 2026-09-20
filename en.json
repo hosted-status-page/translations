@@ -18,11 +18,20 @@
       "placeholder": "Help us improve by sharing why you're leaving..."
     },
     "step_up": {
-      "heading": "Confirm your identity to proceed",
+      "heading": "Confirm your identity",
       "hint": "Enter at least one of the following to confirm:",
-      "oauth_confirmed": "Identity confirmed via sign-in. You can proceed below, or still use a password/OTP/backup code instead.",
-      "oauth_hint": "Or confirm by signing in again with a connected account:",
-      "oauth_button_prefix": "Continue with"
+      "oauth_confirmed": "Identity confirmed with",
+      "oauth_hint": "Confirm by signing in again with a connected account:",
+      "oauth_button_prefix": "Continue with",
+      "oauth_only_hint": "To close your account, confirm your identity using your connected account.",
+      "choose_method": "Choose how you'd like to confirm your identity.",
+      "password_hint": "Confirm your identity using one of the available methods below.",
+      "oauth_method": "Continue with a connected account",
+      "password_method": "Confirm with password",
+      "mfa_method": "Use an authenticator or backup code",
+      "otp_label": "Authenticator code",
+      "backup_label": "Backup code",
+      "or": "OR"
     },
     "delete_button": "Permanently Delete My Account",
     "export_first": {

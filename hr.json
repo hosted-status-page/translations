@@ -378,11 +378,20 @@
       "placeholder": "Pomozite nam da se poboljšamo tako što ćete podeliti zašto odlazite..."
     },
     "step_up": {
-      "heading": "Potvrdite svoj identitet da biste nastavili",
+      "heading": "Potvrdite svoj identitet",
       "hint": "Unesite barem jedno od sljedećeg za potvrdu:",
-      "oauth_confirmed": "Identitet potvrđen prijavom. Možete nastaviti u nastavku ili i dalje upotrijebiti lozinku/OTP kôd/rezervni kôd.",
+      "oauth_confirmed": "Identitet je potvrđen putem",
       "oauth_hint": "Ili potvrdite ponovnom prijavom putem povezanog računa:",
-      "oauth_button_prefix": "Nastavi s"
+      "oauth_button_prefix": "Nastavi s",
+      "oauth_only_hint": "Za zatvaranje računa potvrdite identitet povezanim računom.",
+      "choose_method": "Odaberite kako želite potvrditi svoj identitet.",
+      "password_hint": "Potvrdite identitet jednom od dostupnih metoda u nastavku.",
+      "oauth_method": "Nastavi s povezanim računom",
+      "password_method": "Potvrdi lozinkom",
+      "mfa_method": "Upotrijebite autentifikacijski ili rezervni kôd",
+      "otp_label": "Autentifikacijski kôd",
+      "backup_label": "Rezervni kôd",
+      "or": "ILI"
     },
     "delete_button": "Trajno izbrišite moj račun",
     "export_first": {

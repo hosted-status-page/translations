@@ -18,11 +18,20 @@
       "placeholder": "Hjälp oss att förbättra genom att dela varför du lämnar..."
     },
     "step_up": {
-      "heading": "Bekräfta din identitet att fortsätta",
+      "heading": "Bekräfta din identitet",
       "hint": "Ange minst ett av följande för att bekräfta:",
-      "oauth_confirmed": "Identitet bekräftad via inloggning. Du kan fortsätta nedan, eller ändå använda ett lösenord/OTP-kod/reservkod.",
+      "oauth_confirmed": "Identitet bekräftad med",
       "oauth_hint": "Eller bekräfta genom att logga in igen med ett anslutet konto:",
-      "oauth_button_prefix": "Fortsätt med"
+      "oauth_button_prefix": "Fortsätt med",
+      "oauth_only_hint": "Bekräfta din identitet med ditt anslutna konto för att stänga kontot.",
+      "choose_method": "Välj hur du vill bekräfta din identitet.",
+      "password_hint": "Bekräfta din identitet med en av de tillgängliga metoderna nedan.",
+      "oauth_method": "Fortsätt med ett anslutet konto",
+      "password_method": "Bekräfta med lösenord",
+      "mfa_method": "Använd en autentiserings- eller reservkod",
+      "otp_label": "Autentiseringskod",
+      "backup_label": "Reservkod",
+      "or": "ELLER"
     },
     "delete_button": "Radera permanent mitt konto",
     "export_first": {

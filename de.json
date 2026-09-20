@@ -3043,11 +3043,20 @@
       "placeholder": "Hilf uns, besser zu werden, indem du sagst, warum du gehst..."
     },
     "step_up": {
-      "heading": "Bestätigen Sie Ihre Identität, um fortzufahren",
+      "heading": "Bestätigen Sie Ihre Identität",
       "hint": "Geben Sie zur Bestätigung mindestens eine der folgenden Angaben ein:",
-      "oauth_confirmed": "Identität durch erneute Anmeldung bestätigt. Sie können unten fortfahren oder stattdessen weiterhin ein Passwort/einen OTP-/Backup-Code verwenden.",
+      "oauth_confirmed": "Identität bestätigt mit",
       "oauth_hint": "Oder bestätigen Sie dies, indem Sie sich erneut mit einem verbundenen Konto anmelden:",
-      "oauth_button_prefix": "Fortfahren mit"
+      "oauth_button_prefix": "Fortfahren mit",
+      "oauth_only_hint": "Bestätigen Sie zum Schließen Ihres Kontos Ihre Identität mit Ihrem verbundenen Konto.",
+      "choose_method": "Wählen Sie, wie Sie Ihre Identität bestätigen möchten.",
+      "password_hint": "Bestätigen Sie Ihre Identität mit einer der verfügbaren Methoden unten.",
+      "oauth_method": "Mit verbundenem Konto fortfahren",
+      "password_method": "Mit Passwort bestätigen",
+      "mfa_method": "Authenticator- oder Backup-Code verwenden",
+      "otp_label": "Authenticator-Code",
+      "backup_label": "Backup-Code",
+      "or": "ODER"
     },
     "delete_button": "Mein Konto dauerhaft löschen",
     "swal": {

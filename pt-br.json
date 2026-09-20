@@ -3043,11 +3043,20 @@
       "placeholder": "Ajude-nos a melhorar compartilhando por que você está saindo..."
     },
     "step_up": {
-      "heading": "Confirme sua identidade para continuar",
+      "heading": "Confirme sua identidade",
       "hint": "Digite pelo menos uma das opções a seguir para confirmar:",
-      "oauth_confirmed": "Identidade confirmada pelo login. Você pode prosseguir abaixo ou ainda usar uma senha/código OTP/código de backup.",
+      "oauth_confirmed": "Identidade confirmada com",
       "oauth_hint": "Ou confirme fazendo login novamente com uma conta conectada:",
-      "oauth_button_prefix": "Continuar com"
+      "oauth_button_prefix": "Continuar com",
+      "oauth_only_hint": "Para fechar sua conta, confirme sua identidade usando sua conta conectada.",
+      "choose_method": "Escolha como você deseja confirmar sua identidade.",
+      "password_hint": "Confirme sua identidade usando um dos métodos disponíveis abaixo.",
+      "oauth_method": "Continuar com uma conta conectada",
+      "password_method": "Confirmar com senha",
+      "mfa_method": "Use um código do autenticador ou de backup",
+      "otp_label": "Código do autenticador",
+      "backup_label": "Código de backup",
+      "or": "OU"
     },
     "delete_button": "Excluir minha conta permanentemente",
     "swal": {

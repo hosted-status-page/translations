@@ -18,11 +18,20 @@
       "placeholder": "Aiutaci a migliorare condividendo il motivo della tua scelta..."
     },
     "step_up": {
-      "heading": "Confermi la tua identità per procedere",
+      "heading": "Confermi la tua identità",
       "hint": "Inserisci almeno uno dei seguenti per confermare:",
-      "oauth_confirmed": "Identità confermata tramite accesso. Puoi procedere qui sotto, oppure usare comunque una password/codice OTP/codice di backup.",
+      "oauth_confirmed": "Identità confermata con",
       "oauth_hint": "Oppure conferma accedendo di nuovo con un account collegato:",
-      "oauth_button_prefix": "Continua con"
+      "oauth_button_prefix": "Continua con",
+      "oauth_only_hint": "Per chiudere l’account, conferma la tua identità usando l’account collegato.",
+      "choose_method": "Scegli come desideri confermare la tua identità.",
+      "password_hint": "Conferma la tua identità usando uno dei metodi disponibili qui sotto.",
+      "oauth_method": "Continua con un account collegato",
+      "password_method": "Conferma con password",
+      "mfa_method": "Usa un codice dell’autenticatore o di backup",
+      "otp_label": "Codice dell’autenticatore",
+      "backup_label": "Codice di backup",
+      "or": "OPPURE"
     },
     "delete_button": "Elimina definitivamente il mio account",
     "export_first": {
