@@ -52,8 +52,8 @@
       }
     },
     "warning": {
-      "text": "Questa azione non può essere annullata. Tutti i tuoi dati saranno eliminati definitivamente.",
-      "title": "Eliminazione permanente dell'account",
+    "text": "Il tuo account verrà chiuso oggi e verrai disconnesso. I tuoi dati restano durante un periodo di grazia di 60 giorni; accedendo di nuovo puoi riattivare l'account. Dopo segue l'eliminazione permanente.",
+    "title": "Chiudi il tuo account",
       "subscription_cancel": "Chiudere subito il tuo account annulla immediatamente qualsiasi abbonamento attivo."
     },
     "what_deleted": {

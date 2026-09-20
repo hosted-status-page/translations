@@ -2981,8 +2981,8 @@
   },
   "account_deletion": {
     "warning": {
-      "title": "Exclusão permanente da conta",
-      "text": "Esta ação não pode ser desfeita. Todos os seus dados serão excluídos permanentemente.",
+      "title": "Encerrar sua conta",
+      "text": "Sua conta será encerrada hoje e sua sessão será finalizada. Seus dados permanecem durante um período de graça de 60 dias; ao entrar novamente, você pode reativar a conta. A exclusão permanente ocorre depois desse período.",
       "subscription_cancel": "Encerrar sua conta cancela imediatamente qualquer assinatura ativa."
     },
     "export_first": {

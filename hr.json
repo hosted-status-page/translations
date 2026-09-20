@@ -412,8 +412,8 @@
       }
     },
     "warning": {
-      "text": "Ova radnja se ne može poništiti. Svi Vaši podaci će biti trajno obrisani.",
-      "title": "Trajno brisanje računa",
+    "text": "Vaš račun se zatvara danas i bit ćete odjavljeni. Vaši podaci ostaju tijekom razdoblja odgode od 60 dana; prijavom možete ponovno aktivirati račun. Nakon toga slijedi trajno brisanje.",
+    "title": "Zatvorite svoj račun",
       "subscription_cancel": "Zatvaranjem računa odmah se otkazuje svaka aktivna pretplata."
     },
     "what_deleted": {

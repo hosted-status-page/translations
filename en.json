@@ -52,8 +52,8 @@
       }
     },
     "warning": {
-      "text": "This action cannot be undone. All your data will be permanently deleted.",
-      "title": "Permanent Account Deletion",
+      "text": "Your account closes today and you will be signed out. Your data remains during a 60-day grace period, when signing in reactivates your account; permanent deletion follows after that period.",
+      "title": "Close Your Account",
       "subscription_cancel": "Closing your account immediately cancels any active subscription."
     },
     "what_deleted": {

@@ -52,8 +52,8 @@
       }
     },
     "warning": {
-      "text": "Denna åtgärd kan inte ångras. Alla dina data kommer att raderas permanent.",
-      "title": "Permanent konto radering",
+    "text": "Ditt konto stängs idag och du loggas ut. Dina data finns kvar under en respitperiod på 60 dagar; genom att logga in igen kan du återaktivera kontot. Därefter följer permanent radering.",
+    "title": "Stäng ditt konto",
       "subscription_cancel": "Stängning av ditt konto omedelbart avbryter någon aktiv prenumeration."
     },
     "what_deleted": {

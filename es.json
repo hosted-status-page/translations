@@ -2985,8 +2985,8 @@
   },
   "account_deletion": {
     "warning": {
-      "title": "Eliminación permanente de la cuenta",
-      "text": "Esta acción no se puede deshacer. Todos tus datos se eliminarán de forma permanente.",
+      "title": "Cerrar tu cuenta",
+      "text": "Tu cuenta se cerrará hoy y se cerrará tu sesión. Tus datos se conservarán durante un período de gracia de 60 días; al iniciar sesión puedes reactivar la cuenta. Después se producirá la eliminación permanente.",
       "subscription_cancel": "Cerrar tu cuenta cancela de inmediato cualquier suscripción activa."
     },
     "export_first": {

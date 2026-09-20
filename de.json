@@ -2981,8 +2981,8 @@
   },
   "account_deletion": {
     "warning": {
-      "title": "Dauerhafte Kontolöschung",
-      "text": "Diese Aktion kann nicht rückgängig gemacht werden. Alle Ihre Daten werden dauerhaft gelöscht.",
+      "title": "Konto schließen",
+      "text": "Ihr Konto wird heute geschlossen und Sie werden abgemeldet. Ihre Daten bleiben während einer 60-tägigen Karenzzeit erhalten; durch erneute Anmeldung können Sie das Konto reaktivieren. Danach folgt die dauerhafte Löschung.",
       "subscription_cancel": "Das Schließen Ihres Kontos beendet sofort jedes aktive Abonnement."
     },
     "export_first": {

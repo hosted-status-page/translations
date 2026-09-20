@@ -2998,8 +2998,8 @@
   },
   "account_deletion": {
     "warning": {
-      "title": "Suppression définitive du compte",
-      "text": "Cette action est irréversible. Toutes vos données seront supprimées définitivement.",
+      "title": "Fermer votre compte",
+      "text": "Votre compte est fermé aujourd’hui et vous serez déconnecté. Vos données sont conservées pendant un délai de grâce de 60 jours ; une nouvelle connexion réactive votre compte. La suppression définitive intervient ensuite.",
       "subscription_cancel": "La fermeture de votre compte annule immédiatement tout abonnement actif."
     },
     "export_first": {
