@@ -1487,7 +1487,10 @@
       "check_history": "Cronologia controlli",
       "add_to_status_page": "Aggiungi alla status page",
       "make_private": "Rendi privato",
-      "clear_history": "Cancella cronologia"
+      "clear_history": "Cancella cronologia",
+      "hidden_badge": "Nascosto",
+      "visibility_shown_toast": "Ora visibile sulla status page",
+      "visibility_hidden_toast": "Nascosto dalla status page"
     },
     "channel": "Canale",
     "show_on_public": "Mostra sulla status page pubblica",

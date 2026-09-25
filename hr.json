@@ -1847,7 +1847,10 @@
       "check_history": "Povijest provjera",
       "add_to_status_page": "Dodaj na statusnu stranicu",
       "make_private": "Postavi kao privatno",
-      "clear_history": "Obriši povijest"
+      "clear_history": "Obriši povijest",
+      "hidden_badge": "Skriveno",
+      "visibility_shown_toast": "Sada je vidljivo na statusnoj stranici",
+      "visibility_hidden_toast": "Skriveno sa statusne stranice"
     },
     "channel": "Kanal",
     "show_on_public": "Prikaži na javnoj statusnoj strani",

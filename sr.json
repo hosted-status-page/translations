@@ -1469,7 +1469,10 @@
       "check_history": "Историја провера",
       "add_to_status_page": "Додај на статусну страницу",
       "make_private": "Учини приватним",
-      "clear_history": "Обриши историју"
+      "clear_history": "Обриши историју",
+      "hidden_badge": "Скривено",
+      "visibility_shown_toast": "Сада је видљиво на статусној страници",
+      "visibility_hidden_toast": "Скривено са статусне странице"
     },
     "channel": "Канал",
     "show_on_public": "Прикажи на јавној статусној страни",

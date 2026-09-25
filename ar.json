@@ -536,7 +536,10 @@
       "check_history": "سجل الفحوصات",
       "add_to_status_page": "إضافة إلى صفحة الحالة",
       "make_private": "جعله خاصًا",
-      "clear_history": "مسح السجل"
+      "clear_history": "مسح السجل",
+      "hidden_badge": "مخفي",
+      "visibility_shown_toast": "أصبح مرئيًا الآن على صفحة الحالة",
+      "visibility_hidden_toast": "أُخفي عن صفحة الحالة"
     },
     "channel": "القناة",
     "show_on_public": "عرض على صفحة الحالة العامة",

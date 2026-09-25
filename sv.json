@@ -1487,7 +1487,10 @@
       "check_history": "Kontrollhistorik",
       "add_to_status_page": "Lägg till på statussidan",
       "make_private": "Gör privat",
-      "clear_history": "Rensa historik"
+      "clear_history": "Rensa historik",
+      "hidden_badge": "Dold",
+      "visibility_shown_toast": "Nu synlig på statussidan",
+      "visibility_hidden_toast": "Dold från statussidan"
     },
     "channel": "Kanal",
     "show_on_public": "Visa på public status page",

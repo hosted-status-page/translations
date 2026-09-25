@@ -536,7 +536,10 @@
       "check_history": "Histórico de verificações",
       "add_to_status_page": "Adicionar à página de status",
       "make_private": "Tornar privado",
-      "clear_history": "Limpar histórico"
+      "clear_history": "Limpar histórico",
+      "hidden_badge": "Oculto",
+      "visibility_shown_toast": "Agora visível na página de status",
+      "visibility_hidden_toast": "Oculto da página de status"
     },
     "channel": "Canal",
     "show_on_public": "Mostrar na página de status pública",

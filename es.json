@@ -540,7 +540,10 @@
       "check_history": "Historial de comprobaciones",
       "add_to_status_page": "Añadir a la página de estado",
       "make_private": "Hacer privado",
-      "clear_history": "Borrar historial"
+      "clear_history": "Borrar historial",
+      "hidden_badge": "Oculto",
+      "visibility_shown_toast": "Ahora visible en la página de estado",
+      "visibility_hidden_toast": "Oculto de la página de estado"
     },
     "channel": "Canal",
     "show_on_public": "Mostrar en la página de estado público",

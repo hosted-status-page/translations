@@ -536,7 +536,10 @@
       "check_history": "Prüfverlauf",
       "add_to_status_page": "Zur Statusseite hinzufügen",
       "make_private": "Privat machen",
-      "clear_history": "Verlauf löschen"
+      "clear_history": "Verlauf löschen",
+      "hidden_badge": "Verborgen",
+      "visibility_shown_toast": "Jetzt auf der Statusseite sichtbar",
+      "visibility_hidden_toast": "Von der Statusseite ausgeblendet"
     },
     "channel": "Kanal",
     "show_on_public": "Auf öffentlicher Statusseite anzeigen",

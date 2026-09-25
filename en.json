@@ -1487,7 +1487,10 @@
       "check_history": "Check History",
       "add_to_status_page": "Add to status page",
       "make_private": "Make Private",
-      "clear_history": "Clear history"
+      "clear_history": "Clear history",
+      "hidden_badge": "Hidden",
+      "visibility_shown_toast": "Now visible on the status page",
+      "visibility_hidden_toast": "Hidden from the status page"
     },
     "channel": "Channel",
     "show_on_public": "Show on public status page",
