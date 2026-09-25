@@ -532,6 +532,12 @@
     "no_alerts": "Nenhum alerta para este monitor.",
     "no_notifications": "Nenhuma notificação enviada para este monitor.",
     "notification_history": "Histórico de notificações",
+    "row_actions": {
+      "check_history": "Histórico de verificações",
+      "add_to_status_page": "Adicionar à página de status",
+      "make_private": "Tornar privado",
+      "clear_history": "Limpar histórico"
+    },
     "channel": "Canal",
     "show_on_public": "Mostrar na página de status pública",
     "status_down": "Inativo",

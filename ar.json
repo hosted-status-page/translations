@@ -532,6 +532,12 @@
     "no_alerts": "لا توجد تنبيهات لهذا المونيتور.",
     "no_notifications": "لم يتم إرسال أي إشعارات لهذا المونيتور.",
     "notification_history": "سجل الإشعارات",
+    "row_actions": {
+      "check_history": "سجل الفحوصات",
+      "add_to_status_page": "إضافة إلى صفحة الحالة",
+      "make_private": "جعله خاصًا",
+      "clear_history": "مسح السجل"
+    },
     "channel": "القناة",
     "show_on_public": "عرض على صفحة الحالة العامة",
     "status_down": "غير متصل",

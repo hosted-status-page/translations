@@ -533,6 +533,12 @@
     "no_alerts": "Aucune alerte pour ce moniteur.",
     "no_notifications": "Aucune notification envoyée pour ce moniteur.",
     "notification_history": "Historique des notifications",
+    "row_actions": {
+      "check_history": "Historique des vérifications",
+      "add_to_status_page": "Ajouter à la page de statut",
+      "make_private": "Rendre privé",
+      "clear_history": "Effacer l'historique"
+    },
     "channel": "Canal",
     "show_on_public": "Afficher sur la page de statut publique",
     "status_down": "Hors ligne",

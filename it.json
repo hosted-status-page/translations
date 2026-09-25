@@ -1483,6 +1483,12 @@
     "no_alerts": "Nessun avviso per questo monitor.",
     "no_notifications": "Nessuna notifica inviata per questo monitor.",
     "notification_history": "Cronologia notifiche",
+    "row_actions": {
+      "check_history": "Cronologia controlli",
+      "add_to_status_page": "Aggiungi alla status page",
+      "make_private": "Rendi privato",
+      "clear_history": "Cancella cronologia"
+    },
     "channel": "Canale",
     "show_on_public": "Mostra sulla status page pubblica",
     "status_down": "Inattivo",
