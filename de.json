@@ -1786,7 +1786,8 @@
       "whatsapp": "WhatsApp",
       "voice": "Anruf",
       "jsm": "Jira SM",
-      "servicenow": "ServiceNow"
+      "servicenow": "ServiceNow",
+      "threema": "Threema"
     },
     "fields": {
       "webhook_url": "Webhook-URL",
@@ -1813,7 +1814,8 @@
       "account_email": "Konto-E-Mail",
       "instance_url": "Instanz-URL",
       "username": "Integrationsbenutzer",
-      "password": "Passwort"
+      "password": "Passwort",
+      "threema_id": "Threema-ID"
     },
     "placeholders": {
       "channel_name": "z. B. Mein Discord-Server, Slack Arbeit, Telegram Privat",
@@ -1836,7 +1838,8 @@
       "pushover_api_token": "Ihr Pushover API-Token",
       "pagerduty_integration_key": "z. B. a1b2c3d4e5f6...",
       "webhook_url": "https://ihr-server.de/webhook",
-      "webhook_headers_json": "{\\\"Authorization\\\": \\\"Bearer ihr-token\\\"}"
+      "webhook_headers_json": "{\\\"Authorization\\\": \\\"Bearer ihr-token\\\"}",
+      "threema_id": "z. B. ABCDEFGH"
     },
     "config": {
       "discord": {
@@ -1896,6 +1899,11 @@
       },
       "servicenow": {
         "heading": "ServiceNow-Konfiguration"
+      },
+      "threema": {
+        "heading": "Threema-Konfiguration",
+        "help": "Ihre 8-stellige Threema-ID (in der Threema-App unter Ihrem Profil). Ohne führendes *.",
+        "info": "Benachrichtigungen werden über das StatusPage.me Threema-Gateway an Ihre Threema-App gesendet."
       }
     },
     "sms": {
@@ -2006,7 +2014,9 @@
       "matrix_required": "Bitte gib Homeserver-URL, Raum-ID und Zugriffstoken ein",
       "twilio_required": "Bitte gib deine Twilio-Zugangsdaten, die Absendernummer und die Empfänger ein",
       "jsm_required": "Bitte gib Atlassian Cloud-ID, Konto-E-Mail und API-Token ein",
-      "servicenow_required": "Bitte gib Instanz-URL, Integrationsbenutzer und Passwort ein"
+      "servicenow_required": "Bitte gib Instanz-URL, Integrationsbenutzer und Passwort ein",
+      "threema_id_required": "Bitte geben Sie Ihre Threema-ID ein",
+      "threema_id_invalid": "Threema-IDs bestehen aus 8 Buchstaben oder Ziffern, ohne führendes *"
     },
     "messages": {
       "load_failed": "Kanäle konnten nicht geladen werden",

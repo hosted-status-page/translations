@@ -61,8 +61,8 @@
       }
     },
     "warning": {
-    "text": "Il tuo account verrà chiuso oggi e verrai disconnesso. I tuoi dati restano durante un periodo di grazia di 60 giorni; accedendo di nuovo puoi riattivare l'account. Dopo segue l'eliminazione permanente.",
-    "title": "Chiudi il tuo account",
+      "text": "Il tuo account verrà chiuso oggi e verrai disconnesso. I tuoi dati restano durante un periodo di grazia di 60 giorni; accedendo di nuovo puoi riattivare l'account. Dopo segue l'eliminazione permanente.",
+      "title": "Chiudi il tuo account",
       "subscription_cancel": "Chiudere subito il tuo account annulla immediatamente qualsiasi abbonamento attivo."
     },
     "what_deleted": {
@@ -1594,6 +1594,11 @@
       },
       "servicenow": {
         "heading": "Configurazione ServiceNow"
+      },
+      "threema": {
+        "heading": "Configurazione Threema",
+        "help": "Il tuo ID Threema di 8 caratteri (visibile nell'app Threema, nel tuo profilo). Senza * iniziale.",
+        "info": "Le notifiche vengono inviate dal gateway Threema di StatusPage.me alla tua app Threema."
       }
     },
     "sms": {
@@ -1680,7 +1685,8 @@
       "account_email": "E-mail dell'account",
       "instance_url": "URL dell'istanza",
       "username": "Utente di integrazione",
-      "password": "Password"
+      "password": "Password",
+      "threema_id": "ID Threema"
     },
     "heading": "Canali di notifica",
     "loading": "Caricamento canali di notifica...",
@@ -1724,7 +1730,8 @@
       "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
       "telegram_chat_id": "-1001234567890",
       "webhook_headers_json": "{\"Authorization\": \"Bearer your-token\"}",
-      "webhook_url": "https://your-server.com/webhook"
+      "webhook_url": "https://your-server.com/webhook",
+      "threema_id": "es. ABCDEFGH"
     },
     "save_channel": "Salva canale",
     "status": {
@@ -1772,7 +1779,8 @@
       "whatsapp": "WhatsApp",
       "voice": "Chiamata vocale",
       "jsm": "Jira SM",
-      "servicenow": "ServiceNow"
+      "servicenow": "ServiceNow",
+      "threema": "Threema"
     },
     "used_by": "Usato da:",
     "validation": {
@@ -1800,7 +1808,9 @@
       "matrix_required": "Inserisci l'URL dell'homeserver, l'ID della stanza e il token di accesso",
       "twilio_required": "Inserisci le credenziali Twilio, il numero mittente e i destinatari",
       "jsm_required": "Inserisci l'ID cloud Atlassian, l'e-mail dell'account e il token API",
-      "servicenow_required": "Inserisci l'URL dell'istanza, l'utente di integrazione e la password"
+      "servicenow_required": "Inserisci l'URL dell'istanza, l'utente di integrazione e la password",
+      "threema_id_required": "Inserisci il tuo ID Threema",
+      "threema_id_invalid": "Gli ID Threema sono 8 lettere o numeri, senza * iniziale"
     }
   },
   "notifications": {

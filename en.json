@@ -1594,6 +1594,11 @@
       },
       "servicenow": {
         "heading": "ServiceNow Configuration"
+      },
+      "threema": {
+        "heading": "Threema Configuration",
+        "help": "Your 8-character Threema ID (shown in the Threema app under your profile). No leading *.",
+        "info": "Notifications are sent from the StatusPage.me Threema Gateway to your Threema app."
       }
     },
     "sms": {
@@ -1680,7 +1685,8 @@
       "account_email": "Account Email",
       "instance_url": "Instance URL",
       "username": "Integration User",
-      "password": "Password"
+      "password": "Password",
+      "threema_id": "Threema ID"
     },
     "heading": "Notification Channels",
     "loading": "Loading notification channels...",
@@ -1724,7 +1730,8 @@
       "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
       "telegram_chat_id": "-1001234567890",
       "webhook_headers_json": "{\"Authorization\": \"Bearer your-token\"}",
-      "webhook_url": "https://your-server.com/webhook"
+      "webhook_url": "https://your-server.com/webhook",
+      "threema_id": "e.g. ABCDEFGH"
     },
     "save_channel": "Save Channel",
     "status": {
@@ -1772,7 +1779,8 @@
       "whatsapp": "WhatsApp",
       "voice": "Voice Call",
       "jsm": "Jira SM",
-      "servicenow": "ServiceNow"
+      "servicenow": "ServiceNow",
+      "threema": "Threema"
     },
     "used_by": "Used by:",
     "validation": {
@@ -1800,7 +1808,9 @@
       "matrix_required": "Please enter the homeserver URL, room ID and access token",
       "twilio_required": "Please enter your Twilio credentials, sender number and recipients",
       "jsm_required": "Please enter the Atlassian cloud ID, account email and API token",
-      "servicenow_required": "Please enter the instance URL, integration user and password"
+      "servicenow_required": "Please enter the instance URL, integration user and password",
+      "threema_id_required": "Please enter your Threema ID",
+      "threema_id_invalid": "Threema IDs are 8 letters or numbers, without a leading *"
     }
   },
   "notifications": {

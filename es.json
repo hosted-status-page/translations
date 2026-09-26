@@ -1790,7 +1790,8 @@
       "whatsapp": "WhatsApp",
       "voice": "Llamada",
       "jsm": "Jira SM",
-      "servicenow": "ServiceNow"
+      "servicenow": "ServiceNow",
+      "threema": "Threema"
     },
     "fields": {
       "webhook_url": "URL de webhook",
@@ -1817,7 +1818,8 @@
       "account_email": "Correo de la cuenta",
       "instance_url": "URL de la instancia",
       "username": "Usuario de integración",
-      "password": "Contraseña"
+      "password": "Contraseña",
+      "threema_id": "ID de Threema"
     },
     "placeholders": {
       "channel_name": "p. ej., Mi servidor de Discord, Slack del trabajo, Telegram personal",
@@ -1840,7 +1842,8 @@
       "pushover_api_token": "Tu token de API de Pushover",
       "pagerduty_integration_key": "p. ej., a1b2c3d4e5f6...",
       "webhook_url": "https://tu-servidor.com/webhook",
-      "webhook_headers_json": "{\"Authorization\": \"Bearer tu-token\"}"
+      "webhook_headers_json": "{\"Authorization\": \"Bearer tu-token\"}",
+      "threema_id": "p. ej. ABCDEFGH"
     },
     "config": {
       "discord": {
@@ -1900,6 +1903,11 @@
       },
       "servicenow": {
         "heading": "Configuración de ServiceNow"
+      },
+      "threema": {
+        "heading": "Configuración de Threema",
+        "help": "Tu ID de Threema de 8 caracteres (visible en la app Threema, en tu perfil). Sin * inicial.",
+        "info": "Las notificaciones se envían desde la pasarela Threema de StatusPage.me a tu app Threema."
       }
     },
     "sms": {
@@ -2010,7 +2018,9 @@
       "matrix_required": "Introduce la URL del homeserver, el ID de la sala y el token de acceso",
       "twilio_required": "Introduce tus credenciales de Twilio, el número remitente y los destinatarios",
       "jsm_required": "Introduce el ID de nube de Atlassian, el correo de la cuenta y el token de API",
-      "servicenow_required": "Introduce la URL de la instancia, el usuario de integración y la contraseña"
+      "servicenow_required": "Introduce la URL de la instancia, el usuario de integración y la contraseña",
+      "threema_id_required": "Por favor, introduce tu ID de Threema",
+      "threema_id_invalid": "Los ID de Threema tienen 8 letras o números, sin * inicial"
     },
     "messages": {
       "load_failed": "No se pudieron cargar los canales",

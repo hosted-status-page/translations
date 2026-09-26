@@ -1786,7 +1786,8 @@
       "whatsapp": "واتساب",
       "voice": "مكالمة صوتية",
       "jsm": "Jira SM",
-      "servicenow": "ServiceNow"
+      "servicenow": "ServiceNow",
+      "threema": "Threema"
     },
     "fields": {
       "webhook_url": "عنوان URL لـ Webhook",
@@ -1813,7 +1814,8 @@
       "account_email": "البريد الإلكتروني للحساب",
       "instance_url": "رابط URL للنسخة",
       "username": "مستخدم التكامل",
-      "password": "كلمة المرور"
+      "password": "كلمة المرور",
+      "threema_id": "معرّف Threema"
     },
     "placeholders": {
       "channel_name": "مثال: Discord Server، Slack للعمل، Telegram شخصي",
@@ -1836,7 +1838,8 @@
       "pushover_api_token": "رمز API لـ Pushover",
       "pagerduty_integration_key": "مثال: a1b2c3d4e5f6...",
       "webhook_url": "https://your-server.com/webhook",
-      "webhook_headers_json": "{\"Authorization\": \"Bearer your-token\"}"
+      "webhook_headers_json": "{\"Authorization\": \"Bearer your-token\"}",
+      "threema_id": "مثال ABCDEFGH"
     },
     "config": {
       "discord": {
@@ -1896,6 +1899,11 @@
       },
       "servicenow": {
         "heading": "إعدادات ServiceNow"
+      },
+      "threema": {
+        "heading": "إعدادات Threema",
+        "help": "معرّف Threema الخاص بك المكوّن من 8 أحرف (يظهر في تطبيق Threema ضمن ملفك الشخصي). بدون * في البداية.",
+        "info": "تُرسل الإشعارات عبر بوابة Threema الخاصة بـ StatusPage.me إلى تطبيق Threema."
       }
     },
     "sms": {
@@ -2006,7 +2014,9 @@
       "matrix_required": "أدخل رابط URL للخادم الرئيسي ومعرّف الغرفة ورمز الوصول",
       "twilio_required": "أدخل بيانات اعتماد Twilio ورقم المُرسِل والمستلمين",
       "jsm_required": "أدخل معرّف سحابة Atlassian والبريد الإلكتروني للحساب ورمز API",
-      "servicenow_required": "أدخل رابط URL للنسخة ومستخدم التكامل وكلمة المرور"
+      "servicenow_required": "أدخل رابط URL للنسخة ومستخدم التكامل وكلمة المرور",
+      "threema_id_required": "يرجى إدخال معرّف Threema الخاص بك",
+      "threema_id_invalid": "تتكوّن معرّفات Threema من 8 أحرف أو أرقام، بدون * في البداية"
     },
     "messages": {
       "load_failed": "تعذر تحميل القنوات",

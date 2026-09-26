@@ -61,8 +61,8 @@
       }
     },
     "warning": {
-    "text": "Ваш налог се затвара данас и бићете одјављени. Подаци остају током грејс периода од 60 дана; поновном пријавом можете реактивирати налог. Након тога следи трајно брисање.",
-    "title": "Затворите свој налог",
+      "text": "Ваш налог се затвара данас и бићете одјављени. Подаци остају током грејс периода од 60 дана; поновном пријавом можете реактивирати налог. Након тога следи трајно брисање.",
+      "title": "Затворите свој налог",
       "subscription_cancel": "Затварањем налога одмах се отказује свака активна претплата."
     },
     "what_deleted": {
@@ -1577,6 +1577,11 @@
       },
       "servicenow": {
         "heading": "ServiceNow konfiguracija"
+      },
+      "threema": {
+        "heading": "Threema подешавања",
+        "help": "Ваш Threema ИД од 8 знакова (видљив у Threema апликацији на вашем профилу). Без водеће *.",
+        "info": "Обавештења се шаљу преко StatusPage.me Threema мрежног пролаза у вашу Threema апликацију."
       }
     },
     "sms": {
@@ -1663,7 +1668,8 @@
       "account_email": "Imejl naloga",
       "instance_url": "URL instance",
       "username": "Integracioni korisnik",
-      "password": "Lozinka"
+      "password": "Lozinka",
+      "threema_id": "Threema ИД"
     },
     "heading": "Канали обавештавања",
     "loading": "Учитавање канала обавештавања...",
@@ -1707,7 +1713,8 @@
       "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
       "telegram_chat_id": "-1001234567890",
       "webhook_headers_json": "{\"Аутхоризатион\": \"Беарер ваш-токен\"}",
-      "webhook_url": "https://ваш-сервер.com/webhook"
+      "webhook_url": "https://ваш-сервер.com/webhook",
+      "threema_id": "нпр. ABCDEFGH"
     },
     "save_channel": "Сачувај канал",
     "status": {
@@ -1755,7 +1762,8 @@
       "whatsapp": "WhatsApp",
       "voice": "Glasovni poziv",
       "jsm": "Jira SM",
-      "servicenow": "ServiceNow"
+      "servicenow": "ServiceNow",
+      "threema": "Threema"
     },
     "used_by": "Користи се на:",
     "validation": {
@@ -1783,7 +1791,9 @@
       "matrix_required": "Unesite URL homeservera, ID sobe i pristupni token",
       "twilio_required": "Unesite Twilio podatke za prijavu, broj pošiljaoca i primaoce",
       "jsm_required": "Unesite Atlassian Cloud ID, imejl naloga i API token",
-      "servicenow_required": "Unesite URL instance, integracionog korisnika i lozinku"
+      "servicenow_required": "Unesite URL instance, integracionog korisnika i lozinku",
+      "threema_id_required": "Молимо унесите свој Threema ИД",
+      "threema_id_invalid": "Threema ИД има 8 слова или бројева, без водеће *"
     }
   },
   "notifications": {

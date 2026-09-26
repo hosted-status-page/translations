@@ -61,8 +61,8 @@
       }
     },
     "warning": {
-    "text": "Ditt konto stängs idag och du loggas ut. Dina data finns kvar under en respitperiod på 60 dagar; genom att logga in igen kan du återaktivera kontot. Därefter följer permanent radering.",
-    "title": "Stäng ditt konto",
+      "text": "Ditt konto stängs idag och du loggas ut. Dina data finns kvar under en respitperiod på 60 dagar; genom att logga in igen kan du återaktivera kontot. Därefter följer permanent radering.",
+      "title": "Stäng ditt konto",
       "subscription_cancel": "Stängning av ditt konto omedelbart avbryter någon aktiv prenumeration."
     },
     "what_deleted": {
@@ -1594,6 +1594,11 @@
       },
       "servicenow": {
         "heading": "ServiceNow-konfiguration"
+      },
+      "threema": {
+        "heading": "Threema Configuration",
+        "help": "Ditt Threema-ID på 8 tecken (visas i Threema-appen under din profil). Inget inledande *.",
+        "info": "Aviseringar skickas från StatusPage.me Threema-gateway till din Threema-app."
       }
     },
     "sms": {
@@ -1680,7 +1685,8 @@
       "account_email": "Kontots e-post",
       "instance_url": "Instans-URL",
       "username": "Integrationsanvändare",
-      "password": "Lösenord"
+      "password": "Lösenord",
+      "threema_id": "Threema ID"
     },
     "heading": "Meddelande Kanaler",
     "loading": "Ledande anmälningskanaler...",
@@ -1724,7 +1730,8 @@
       "telegram_bot_token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
       "telegram_chat_id": "-1001234567890",
       "webhook_headers_json": "{\"Authorization\": \"Bearer your-token\"}",
-      "webhook_url": "https://your-server.com/webhook"
+      "webhook_url": "https://your-server.com/webhook",
+      "threema_id": "t.ex. ABCDEFGH"
     },
     "save_channel": "Spara kanal",
     "status": {
@@ -1772,7 +1779,8 @@
       "whatsapp": "WhatsApp",
       "voice": "Röstsamtal",
       "jsm": "Jira SM",
-      "servicenow": "ServiceNow"
+      "servicenow": "ServiceNow",
+      "threema": "Threema"
     },
     "used_by": "Används av:",
     "validation": {
@@ -1800,7 +1808,9 @@
       "matrix_required": "Ange homeserver-URL, rums-ID och åtkomsttoken",
       "twilio_required": "Ange dina Twilio-uppgifter, avsändarnummer och mottagare",
       "jsm_required": "Ange Atlassian Cloud-ID, kontots e-post och API-token",
-      "servicenow_required": "Ange instans-URL, integrationsanvändare och lösenord"
+      "servicenow_required": "Ange instans-URL, integrationsanvändare och lösenord",
+      "threema_id_required": "Ange ditt Threema ID",
+      "threema_id_invalid": "Threema ID är 8 bokstäver eller siffror, utan inledande *"
     }
   },
   "notifications": {

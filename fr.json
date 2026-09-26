@@ -1791,7 +1791,8 @@
       "whatsapp": "WhatsApp",
       "voice": "Appel vocal",
       "jsm": "Jira SM",
-      "servicenow": "ServiceNow"
+      "servicenow": "ServiceNow",
+      "threema": "Threema"
     },
     "fields": {
       "api_token": "Jeton API",
@@ -1818,7 +1819,8 @@
       "account_email": "E-mail du compte",
       "instance_url": "URL de l'instance",
       "username": "Utilisateur d'intégration",
-      "password": "Mot de passe"
+      "password": "Mot de passe",
+      "threema_id": "ID Threema"
     },
     "placeholders": {
       "channel_name": "ex. : Mon serveur Discord, Slack pro, Telegram personnel",
@@ -1841,7 +1843,8 @@
       "pushover_api_token": "Votre jeton API Pushover",
       "pagerduty_integration_key": "ex. : a1b2c3d4e5f6...",
       "webhook_url": "https://votre-serveur.com/webhook",
-      "webhook_headers_json": "{\\\"Authorization\\\": \\\"Bearer votre-jeton\\\"}"
+      "webhook_headers_json": "{\\\"Authorization\\\": \\\"Bearer votre-jeton\\\"}",
+      "threema_id": "ex. ABCDEFGH"
     },
     "config": {
       "discord": {
@@ -1901,6 +1904,11 @@
       },
       "servicenow": {
         "heading": "Configuration ServiceNow"
+      },
+      "threema": {
+        "heading": "Configuration Threema",
+        "help": "Votre ID Threema à 8 caractères (visible dans l'application Threema, sous votre profil). Sans * initial.",
+        "info": "Les notifications sont envoyées via la passerelle Threema de StatusPage.me vers votre application Threema."
       }
     },
     "sms": {
@@ -2011,7 +2019,9 @@
       "matrix_required": "Saisissez l'URL du homeserver, l'identifiant du salon et le jeton d'accès",
       "twilio_required": "Saisissez vos identifiants Twilio, le numéro expéditeur et les destinataires",
       "jsm_required": "Saisissez l'identifiant cloud Atlassian, l'e-mail du compte et le jeton d'API",
-      "servicenow_required": "Saisissez l'URL de l'instance, l'utilisateur d'intégration et le mot de passe"
+      "servicenow_required": "Saisissez l'URL de l'instance, l'utilisateur d'intégration et le mot de passe",
+      "threema_id_required": "Veuillez saisir votre ID Threema",
+      "threema_id_invalid": "Les ID Threema contiennent 8 lettres ou chiffres, sans * initial"
     },
     "messages": {
       "load_failed": "Impossible de charger les canaux",
